@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo.png" alt="Prometheus-Logo" style="width: 30%; display: block; margin: auto;">
+  <img src="assets/logo.png" alt="Prometheus-Logo" style="width: 15%; display: block; margin: auto;">
 </p>
 
 <h1 align="center">🔥 AudioBench 🔥</h1>
