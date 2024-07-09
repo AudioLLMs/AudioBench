@@ -23,7 +23,7 @@
 
 Installation with pip:
 ```shell
-pip install -r requirements
+pip install -r requirements.txt
 ```
 For model-as-judge evaluation, we serve the judgement model as a service via `vllm` on port `5000`.
 
