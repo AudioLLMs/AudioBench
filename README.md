@@ -75,7 +75,7 @@ bash eval.sh $DATASET $MODEL_NAME $GPU $BATCH_SIZE $OVERWRITE $METRICS $NUMBER_O
 |
 ### Datasets
 |--|Dataset|Category|Task|Size|Metrics|Status|
-|---|---|---|---|---|---|---|---|
+|---|---|---|---|---|---|---|
 |1|CN College Listen Test|Speech Understanding|Speech Question Answering|~1.5k|Model-as-Judge|✅︎|
 |2|CN College Listen Test|~1.5k|Model-as-Judge|TODO|
 
