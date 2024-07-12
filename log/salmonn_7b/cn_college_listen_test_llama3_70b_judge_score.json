@@ -1,0 +1,408 @@
+{
+    "llama3_70b_judge": {
+        "judge_score": 1.98,
+        "success_rate": 1.0
+    },
+    "details": [
+        {
+            "question": "What can we learn about Patrick from the conversation?",
+            "reference": "His roommate’s bed is always in a mess;",
+            "model_prediction": "From the conversation, we can learn that Patrick is a roommate who shares a room with someone else, talks in his sleep, and never makes a sound while sleeping. He is also described as being \"simply fat up\" with his roommate.",
+            "judge_response": "Explanation: The reference answer mentions Patrick's roommate's bed being in a mess, which is not mentioned at all in the model's answer. The model's answer talks about Patrick's sleeping habits and his being \"simply fat\" with his roommate, but none of these details are mentioned in the reference. The model's answer is entirely off-topic and provides irrelevant information.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What does the woman mean?",
+            "reference": "It is too painful to be patient.",
+            "model_prediction": "It is unclear what the woman means without additional context or information.",
+            "judge_response": "Explanation: The reference answer provides a straightforward interpretation of the woman's statement, suggesting that she is implying that waiting is too painful to endure. In contrast, the model's answer takes a more ambiguous approach, stating that it's unclear what the woman means without additional context or information. While the model's response doesn't provide incorrect information, it doesn't offer a clear interpretation of the woman's statement either. I think the model's answer is too vague and doesn't provide a concrete understanding of the woman's meaning.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "What will the man do later?",
+            "reference": "Eat out;",
+            "model_prediction": "It is not specified what the man will do later.",
+            "judge_response": "Explanation: The reference answer is \"Eat out;\", which clearly states what the man will do later. In contrast, the model's answer is \"It is not specified what the man will do later.\", which claims that the information is not provided. The model's answer is incorrect and does not align with the reference answer. \nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "How does the man feel about the test?",
+            "reference": "Confident;",
+            "model_prediction": "The man is not worried about the test and feels that science comes naturally to him. He also believes that he could probably do the test with his eyes closed.",
+            "judge_response": "Explanation: The reference answer is \"Confident\", which implies a general feeling of assurance and faith in one's abilities. The model's answer is more elaborate, stating that the man is not worried about the test, feels that science comes naturally to him, and could probably do the test with his eyes closed. I think the model's answer provides more detail and insight into the man's confidence, but it still conveys the same overall sentiment as the reference answer.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "Where is the man going now?",
+            "reference": "To a restaurant;",
+            "model_prediction": "The man is going to the editor's office.",
+            "judge_response": "Explanation: The reference answer is \"To a restaurant\", while the model's answer is \"The man is going to the editor's office.\" I think the model's answer is completely misaligned with the reference answer, providing incorrect and irrelevant information.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What will the woman have?",
+            "reference": "A sandwich;",
+            "model_prediction": "The woman will have a tomato sandwich.",
+            "judge_response": "Explanation: The reference answer is \"A sandwich;\" which is a general answer, while the model's answer is \"The woman will have a tomato sandwich.\" which is a more specific answer. I think the model's answer is not exactly aligned with the reference answer, as it adds more information (the type of sandwich and the subject \"the woman\") that is not present in the reference.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "When will the man leave for Sweden?",
+            "reference": "Today;",
+            "model_prediction": "The man will leave for Sweden tomorrow.",
+            "judge_response": "Explanation: The reference answer is \"Today\", indicating that the man will leave for Sweden today, while the model's answer is \"The man will leave for Sweden tomorrow.\" I think the model's answer is completely misaligned with the reference answer, providing incorrect information. \n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What are the speakers talking about?",
+            "reference": "A birthday gift.",
+            "model_prediction": "The speakers are discussing whether to take a trip to Hainan for a father's birthday and whether to get him a fitness center membership.",
+            "judge_response": "Explanation: The reference answer is \"A birthday gift\", while the model's answer is about discussing a trip and a fitness center membership for a father's birthday. I think the model's answer is related to the birthday celebration, but it doesn't specifically talk about the gift, which is the main point of the reference answer.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Where most probably are the two speakers?",
+            "reference": "At a railway station.",
+            "model_prediction": "The two speakers are most probably in Los Angeles.",
+            "judge_response": "Explanation: The reference answer is \"At a railway station\", while the model's answer is \"The two speakers are most probably in Los Angeles.\" I think the model's answer is completely misaligned with the reference answer, as it provides a different location (Los Angeles) that is not mentioned in the reference, and also changes the context from a specific location (railway station) to a general city. \n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Where does this conversation take place?",
+            "reference": "In a hospital;",
+            "model_prediction": "This conversation takes place in a hotel room.",
+            "judge_response": "Explanation: The reference answer is \"In a hospital\", while the model's answer is \"This conversation takes place in a hotel room.\" I think the model's answer is completely misaligned with the reference, as it provides a different and unrelated location.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What did the woman do this morning?",
+            "reference": "She had a meeting",
+            "model_prediction": "The woman practiced basketball this morning.",
+            "judge_response": "Explanation: The reference answer is \"She had a meeting\", while the model's answer is \"The woman practiced basketball this morning.\" I think the model's answer is completely unrelated to the reference answer, providing incorrect and irrelevant information. \n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What was the woman doing just now?",
+            "reference": "Talking to her professor;",
+            "model_prediction": "The woman was talking to a strange-looking man in a hat who turned out to be her professor.",
+            "judge_response": "Explanation: The reference answer is about the woman talking to her professor, while the model's answer is about the woman talking to a strange-looking man in a hat who turned out to be her professor. I think the model's answer is more descriptive and provides additional details about the professor's appearance, but overall, it still conveys the same main idea as the reference answer.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "How many people will go to the zoo?",
+            "reference": "4;",
+            "model_prediction": "It is not specified in the given sentence how many people will go to the zoo.",
+            "judge_response": "Explanation: The reference answer is \"4\", indicating a specific number of people going to the zoo. In contrast, the model's answer is \"It is not specified in the given sentence how many people will go to the zoo\", which is a correct statement about the lack of information in the sentence, but does not provide the specific number asked for in the question. I think the model's answer is relevant to the question but does not accurately answer it.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "What kind of room does the woman want?",
+            "reference": "A room with a shower;",
+            "model_prediction": "The woman wants a single room for two nights with an air conditioner and a shower.",
+            "judge_response": "Explanation: The reference answer is a simple description of a room with a shower, whereas the model's answer adds additional details such as a single room, two nights, and an air conditioner. While the model's answer is not entirely incorrect, it provides more information than what is required and strays from the original reference. I think the model's answer is over-inclusive and not entirely focused on the original question.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "What are the two speakers doing?",
+            "reference": "Attending a party.",
+            "model_prediction": "The two speakers are having a conversation.",
+            "judge_response": "Explanation: The reference answer is \"Attending a party\", which specifically describes the activity the two speakers are engaged in. The model's answer, \"The two speakers are having a conversation\", is a more general description that doesn't specifically mention the party. While it's true that a conversation is likely taking place at the party, the model's answer doesn't capture the main activity (attending a party) that the reference answer conveys. I think the model's answer is related to the reference, but it lacks specificity and detail.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "What problem does the man have?",
+            "reference": "He can’t hear the woman clearly.",
+            "model_prediction": "The man has run out of paper for the printer.",
+            "judge_response": "Explanation: The reference answer is that the man can't hear the woman clearly, implying a problem with hearing or understanding. The model's answer is that the man has run out of paper for the printer, which is a completely unrelated issue. There is no connection between the two answers, and the model's response does not address the original problem at all.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What gift will the woman probably get for Mary?",
+            "reference": "A record.",
+            "model_prediction": "The woman will probably buy Mary a new school bag.",
+            "judge_response": "Explanation: The reference answer is \"A record.\", while the model's answer is \"The woman will probably buy Mary a new school bag.\". I think the model's answer is completely unrelated to the reference answer, providing a different gift item (school bag) that is not mentioned in the reference. The reference answer mentions \"A record\" as a gift, but the model's answer doesn't even come close to that.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What are the speakers mainly talking about?",
+            "reference": "Cookies;",
+            "model_prediction": "The speakers are mainly talking about nuts and how they taste even better with a glass of cold milk.",
+            "judge_response": "Explanation: The reference answer is \"Cookies\", while the model's answer is \"The speakers are mainly talking about nuts and how they taste even better with a glass of cold milk.\" I think the model's answer is completely misaligned with the reference answer, providing incorrect information.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What does the woman worry about?",
+            "reference": "Traffic jams;",
+            "model_prediction": "The woman worries that the road may become crowded soon.",
+            "judge_response": "Explanation: The reference answer is \"Traffic jams\", while the model's answer is \"The woman worries that the road may become crowded soon.\" I think the model's answer is related to the reference, as \"traffic jams\" and \"road becoming crowded\" are similar concepts. However, the model's answer is more abstract and focuses on the woman's worry, whereas the reference answer is a direct and concrete problem.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "What does the woman ask the man to do right now?",
+            "reference": "Do homework.",
+            "model_prediction": "The woman asks the man to turn off the TV and do his homework at once.",
+            "judge_response": "Explanation: The reference answer is a brief instruction \"Do homework\", while the model's answer is a more elaborate sentence \"The woman asks the man to turn off the TV and do his homework at once.\" I think the model's answer adds extra information about turning off the TV and the context of the woman asking the man, which is not present in the reference answer. However, the core instruction \"do homework\" is preserved, and the model's answer is still relevant to the reference.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "How did the woman feel about her presentation?",
+            "reference": "Anxious.",
+            "model_prediction": "The woman was glad that her presentation was over and had been worried about it all week.",
+            "judge_response": "Explanation: The reference answer is \"Anxious\", which is a single word describing the woman's emotional state. The model's answer, on the other hand, explains the reason for her anxiety, which is not exactly the same as the reference answer. While the model's answer is related to the reference, it provides more context and details than the reference answer. \n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "How will Susan spend most of her time in France?",
+            "reference": "Traveling around;",
+            "model_prediction": "Susan will spend most of her time in France traveling.",
+            "judge_response": "Explanation: The reference answer is \"Traveling around;\" which indicates that Susan will be traveling around France. The model's answer is \"Susan will spend most of her time in France traveling.\" which conveys a similar meaning but adds more context. I think the model's answer closely aligns with the reference answer, providing a more detailed and accurate response.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "What does the man ask the woman to do?",
+            "reference": "To park elsewhere;",
+            "model_prediction": "The man asks the woman to park her car in the next street.",
+            "judge_response": "Explanation: The reference answer is \"To park elsewhere\", which implies that the man asks the woman to park her car in a different location, but it doesn't specify where. The model's answer is \"The man asks the woman to park her car in the next street\", which is more specific and implies a specific location. I think the model's answer is an interpretation of the reference answer, but it adds extra information that is not present in the reference.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Where will the speakers go?",
+            "reference": "The UME Cinema.",
+            "model_prediction": "The speakers will go to the cinema.",
+            "judge_response": "Explanation: The reference answer is \"The UME Cinema\", specifying a specific location, while the model's answer is \"The speakers will go to the cinema\", which is a vague statement about the action without mentioning the specific location. I think the model's answer is not accurate or relevant to the reference answer, as it only provides a general idea of going to the cinema without specifying the location.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "What can we learn from the conversation?",
+            "reference": "John has many new ideas in the paper;",
+            "model_prediction": "It is unclear what can be learned from the conversation as there is no context provided.",
+            "judge_response": "Explanation: The reference answer is a statement about John having new ideas in a paper, while the model's answer is a completely unrelated statement about the conversation being unclear due to lack of context. I think the model's answer is not even attempting to address the question or provide any information related to the reference answer.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "How does the man like to begin his lecture?",
+            "reference": "With a funny story.",
+            "model_prediction": "The man likes to begin his lecture with a joke.",
+            "judge_response": "Explanation: The reference answer is \"With a funny story\", while the model's answer is \"The man likes to begin his lecture with a joke\". I think the model's answer is close, but not exactly the same. The reference answer implies a broader range of storytelling, whereas the model's answer is more specific, focusing on a joke.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "How much at least does one shirt cost today?",
+            "reference": "＄30.",
+            "model_prediction": "One shirt costs at least 60 dollars today.",
+            "judge_response": "Explanation: The reference answer is $30, which indicates the minimum cost of one shirt today. However, the model's answer is $60, which is not only incorrect but also twice the reference answer. This indicates a clear misunderstanding or miscalculation.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What do we learn about the woman’s parents?",
+            "reference": "They respected her choice",
+            "model_prediction": "We learn that the woman's parents never forced her to do anything she didn't want to do.",
+            "judge_response": "Explanation: The reference answer is \"They respected her choice\", indicating a specific action taken by the woman's parents. The model's answer is \"We learn that the woman's parents never forced her to do anything she didn't want to do\", which is a broader statement about the parents' general behavior. While the model's answer conveys a similar sentiment, it doesn't directly match the concise and specific action mentioned in the reference answer.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "What does the man want to buy?",
+            "reference": "A lock;",
+            "model_prediction": "The man wants to buy a strong lock for his bike.",
+            "judge_response": "Explanation: The reference answer is \"A lock;\" which is brief and straightforward, whereas the model's answer is \"The man wants to buy a strong lock for his bike.\" I think the model's answer provides more context and information than the reference answer, which makes it more specific and detailed. However, the model's answer still conveys the same core idea as the reference answer, which is that the item being purchased is a lock.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "What is the probable relationship between the two speaker?",
+            "reference": "Husband and wife",
+            "model_prediction": "It is likely that the two speakers are a mother and daughter.",
+            "judge_response": "Explanation: The reference answer is \"Husband and wife\", while the model's answer is \"a mother and daughter\". I think the model's answer is completely misaligned with the reference answer, as it provides a different and incorrect relationship between the two speakers.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "How much is the service charge if the food cost $50?",
+            "reference": "$5;",
+            "model_prediction": "The service charge is 10% of the food cost, so if the food cost $50, the service charge would be $5.",
+            "judge_response": "Explanation: The reference answer is $5, while the model's answer is also $5, along with a clear explanation of the calculation, stating that the service charge is 10% of the food cost. I think the model's answer exactly matches the reference answer, providing accurate and relevant information.\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "What kind of student bus pass does the woman want?",
+            "reference": "Monthly.",
+            "model_prediction": "The woman wants a monthly student bus pass.",
+            "judge_response": "Explanation: The reference answer is simply \"Monthly\", indicating the frequency of the student bus pass the woman wants. The model's answer is \"The woman wants a monthly student bus pass.\" I think the model's answer is a correct interpretation of the reference answer, but it adds extra information (\"The woman wants a...\") that is not present in the reference.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "What does the man mean?",
+            "reference": "The air conditioner can be used.",
+            "model_prediction": "The man is asking if it's okay for him to turn on the electric fan, despite the air conditioner being in good condition and the fan being broken.",
+            "judge_response": "Explanation: The reference answer is \"The air conditioner can be used\", which indicates that the air conditioner is in a working condition and can be utilized. On the other hand, the model's answer is a narrative about a man asking to turn on the electric fan despite the air conditioner being in good condition and the fan being broken. The model's answer is completely unrelated to the reference answer, providing incorrect and irrelevant information.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What can we know about the man?",
+            "reference": "He regrets that he didn’t study hard.",
+            "model_prediction": "We can know that the man regretted not studying harder when he was in the university.",
+            "judge_response": "Explanation: The reference answer is \"He regrets that he didn’t study hard.\" which is a concise and direct statement about the man's regret. The model's answer is \"We can know that the man regretted not studying harder when he was in the university.\" which adds unnecessary details about the timing of the regret (university) and changes the verb tense from present to past. While the model's answer still conveys the man's regret, it diverges from the reference in accuracy and relevance. \n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "What does the man imply?",
+            "reference": "Mary must be caught in heavy traffic;",
+            "model_prediction": "The man implies that Mary should have arrived by now and it's the rush hour.",
+            "judge_response": "Explanation: The reference answer is \"Mary must be caught in heavy traffic\", which implies that the man thinks Mary is late because of traffic. The model's answer is \"The man implies that Mary should have arrived by now and it's the rush hour\", which is close but not exactly the same. The model's answer captures the idea that the man thinks Mary is late, but adds an extra detail about it being rush hour, which is not mentioned in the reference. I think the model's answer is close, but lacks precise accuracy.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "What will the man do first?",
+            "reference": "Clean the floor",
+            "model_prediction": "The man will first wash the floor.",
+            "judge_response": "Explanation: The reference answer is \"Clean the floor\", which is a direct and brief instruction, whereas the model's answer is \"The man will first wash the floor.\" I think the model's answer is trying to elaborate on the original instruction, but it adds extra information (i.e., \"the man\" and \"will first\") that is not present in the reference. Additionally, \"wash\" is a more specific action than the general \"clean\".\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "When does the store open?",
+            "reference": "At 6 a.m.",
+            "model_prediction": "The store opens at 8:00 AM.",
+            "judge_response": "Explanation: The reference answer is \"At 6 a.m.\", which implies that the store opens at 6 in the morning. However, the model's answer is \"The store opens at 8:00 AM\", which indicates a different opening time. I think the model's answer is completely misaligned with the reference answer, providing incorrect information.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What color is the book that the man wants?",
+            "reference": "Black;",
+            "model_prediction": "The man wants the black book.",
+            "judge_response": "Explanation: The reference answer is \"Black\", a single word indicating the color of the book. The model's answer is \"The man wants the black book\", which provides additional information about the subject and the action, but includes the correct color. I think the model's answer is a correct but more elaborate response that still captures the essential information about the book's color.\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "What are the speakers talking about?",
+            "reference": "Where their tent is;",
+            "model_prediction": "They are talking about finding their tent in the woods.",
+            "judge_response": "Explanation: The reference answer is specifically highlighting the location of the tent as the topic of discussion, whereas the model's answer is giving a broader context of finding the tent in the woods. I think the model's answer is closely related to the reference, but lacks the precision in conveying the exact aspect of the conversation, which is the location of the tent.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "What was the weather like in the mountains yesterday?",
+            "reference": "Snowy.",
+            "model_prediction": "It started out warm and sunny, but when I went into the mountains and climbed higher, it started snowing. When I came back, a strong, warm wind began to blow.",
+            "judge_response": "Explanation: The reference answer is simply \"Snowy\", whereas the model's answer is a descriptive paragraph about the weather changing from warm and sunny to snowing in the mountains, and then becoming warm and windy again. I think the model's answer is overly detailed and doesn't directly answer the question about the weather in the mountains yesterday, which was reportedly \"Snowy\".\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "What does the woman think of her interview?",
+            "reference": "It was successful",
+            "model_prediction": "The woman thinks her interview went very well.",
+            "judge_response": "Explanation: The reference answer is a simple statement \"It was successful\", conveying the woman's positive assessment of her interview. The model's answer, \"The woman thinks her interview went very well\", is similar but uses more words to express the same sentiment. I think the model's answer is a good paraphrase of the reference answer, capturing the same meaning and tone.\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "What does the boy want to have?",
+            "reference": "A dog;",
+            "model_prediction": "The boy wants to have a dog or a rabbit.",
+            "judge_response": "Explanation: The reference answer is \"A dog;\", which implies that the boy wants to have a dog. The model's answer is \"The boy wants to have a dog or a rabbit.\" I think the model's answer is overly broad, as it includes an additional option (\"a rabbit\") that is not present in the reference. While it does mention \"a dog\", which aligns with the reference, the addition of \"or a rabbit\" detracts from the accuracy and relevance of the response.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "What does the woman mean?",
+            "reference": "The man should depend on himself.",
+            "model_prediction": "The woman is saying that she cannot believe she will have to spend the whole weekend working on this paper.",
+            "judge_response": "Explanation: The reference answer is \"The man should depend on himself\", which implies a message of self-reliance or independence. Meanwhile, the model's answer is \"The woman is saying that she cannot believe she will have to spend the whole weekend working on this paper\", which is a completely different context and topic. There is no connection between the two answers, and the model's response does not address the reference answer at all.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "When will the woman leave for Mexico?",
+            "reference": "On Saturday.",
+            "model_prediction": "The woman will leave for Mexico on Saturday.",
+            "judge_response": "Explanation: The reference answer is simply \"On Saturday\", while the model's answer is \"The woman will leave for Mexico on Saturday\". I think the model's answer is adding extra information that is not present in the reference answer, but it still captures the core information about the day of the week.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "What does Jenny decide to do first?",
+            "reference": "Go on a trip;",
+            "model_prediction": "Jenny decides to travel a bit before finding another job.",
+            "judge_response": "Explanation: The reference answer is \"Go on a trip\", while the model's answer is \"Jenny decides to travel a bit before finding another job.\" I think the model's answer is a good paraphrase of the reference answer, as it conveys the same idea of taking a trip, but also adds some context about Jenny's motivations. The model's answer is relevant and accurate, but not a direct match to the reference answer.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "Where will the man probably be working next Monday?",
+            "reference": "At the store downtown.",
+            "model_prediction": "The man will be working at a nursing home in the neighborhood next Monday.",
+            "judge_response": "Explanation: The reference answer is \"At the store downtown,\" which implies the man's workplace location. In contrast, the model's answer is \"The man will be working at a nursing home in the neighborhood next Monday,\" which provides a different workplace location and additional information about the time (next Monday). I think the model's answer is not aligned with the reference answer in terms of content and accuracy.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Why can’t the man return the shoes?",
+            "reference": "He has worn them too long;",
+            "model_prediction": "The man can't return the shoes because they are very uncomfortable.",
+            "judge_response": "Explanation: The reference answer is \"He has worn them too long\", implying that the man can't return the shoes because he has worn them for too long, likely exceeding the store's return policy. The model's answer is \"The man can't return the shoes because they are very uncomfortable\", which is an entirely different reason for not being able to return the shoes. The model's answer does not align with the reference answer's implication about the time worn.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What does the woman mean?",
+            "reference": "The food is worth the prices.",
+            "model_prediction": "It is unclear what the woman means as the sentence is incomplete and lacks context.",
+            "judge_response": "Explanation: The reference answer is a clear and direct statement that the food is worth the prices, implying that the woman means that the quality of the food justifies the cost. However, the model's answer is uncertain and unclear, suggesting that the sentence lacks context, which is not the case. The model's answer does not provide any insight into what the woman means and instead focuses on the sentence structure.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Why does the woman look so excited?",
+            "reference": "She bought nice goods;",
+            "model_prediction": "The woman looks excited because she had a really great shopping trip with some friends today.",
+            "judge_response": "Explanation: The reference answer is very concise and only mentions that \"She bought nice goods\", whereas the model's answer provides more information, including details about the woman having a great shopping trip with friends. While the model's answer tries to provide a reason for the woman's excitement, it goes beyond the information provided in the reference answer. I think the model's answer is an educated guess, but it doesn't directly align with the reference answer.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "What does the man advise the woman to do?",
+            "reference": "Read English every morning;",
+            "model_prediction": "The man advises the woman to read English every day for just ten minutes after she gets up.",
+            "judge_response": "Explanation: The reference answer is \"Read English every morning\", which is a simple and concise instruction. The model's answer is \"read English every day for just ten minutes after she gets up\", which adds some details not present in the reference, such as the duration and the time of day. While the model's answer is related to the reference, it does not mirror the reference in terms of content and accuracy. \n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        }
+    ]
+}
