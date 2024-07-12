@@ -66,20 +66,20 @@ bash eval.sh $DATASET $MODEL_NAME $GPU $BATCH_SIZE $OVERWRITE $METRICS $NUMBER_O
 
 ## 📚 Supported Models and Datasets
 
-### Models
-|--|Model|Size|Notes|Status|
-|---|---|---|---|---|
-|1|Whisper-Large + Llama-3-8B-Instruct|~8B|Cascade Models|✅︎|
-|2|SALMONN-7B|~7B|AudioLLM - Fusion Model|✅︎|
-|3|Qwen-Audio|~8B|AudioLLM - Fusion Model|TODO|
-
-
 ### Datasets
-|--|Dataset|Category|Task|Size|Metrics|Status|
+|Dataset|Category|Task|Size|Metrics|ID|Status|
 |---|---|---|---|---|---|---|
-|1|CN College Listen Test|Speech Understanding|Speech Question Answering|~2200|Model-as-Judge|✅︎|
-|2|SLUE P2 SQA5 Test|Speech Understanding|Speech Question Answering|~400|Model-as-Judge|TODO|
+|CN College Listen|Speech Understanding|Speech Question Answering|~2200|Model-as-Judge|cn_college_listen_test|✅︎|
+|SLUE P2 SQA5|Speech Understanding|Speech Question Answering|~400|Model-as-Judge|✅︎|
+|SLUE P2 SQA5|Speech Understanding|Speech Question Answering|~400|Model-as-Judge|✅︎|
 
+
+### Models
+|Model|Size|Notes|Status|
+|---|---|---|---|
+|Whisper-Large + Llama-3-8B-Instruct|~8B|Cascade Models|✅︎|
+|SALMONN-7B|~7B|AudioLLM - Fusion Model|✅︎|
+|Qwen-Audio|~8B|AudioLLM - Fusion Model|TODO|
 
 
 ## 📖 Citation
@@ -94,7 +94,3 @@ If you find our work useful, please consider citing our paper!
 ```
 
 
-
-### TODO
-- Add more datasets
-- Add inference code with example model (probably Qwen / SALMONN)

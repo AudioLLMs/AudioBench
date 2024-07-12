@@ -1,0 +1,410 @@
+{
+    "llama3_70b_judge": [
+        {
+            "judge_score": 3.94,
+            "success_rate": 1.0
+        },
+        [
+            {
+                "question": "What did Luther call his stay a Wartburg Castle?",
+                "reference": "my patmos",
+                "model_prediction": "Luther referred to his stay at Wartburg Castle as \"My Patmos.\"",
+                "judge_response": "Explanation: The reference answer is \"my patmos\", which is a brief phrase that Luther used to describe his stay at Wartburg Castle. The model's answer is \"Luther referred to his stay at Wartburg Castle as 'My Patmos.'\" While the model's answer is not a direct quote of the reference, it provides more context and accurately conveys the same information. I think the model's answer is a clear and accurate explanation of the reference.\n\nRating: 5",
+                "rate_score": 5.0,
+                "success": 1
+            },
+            {
+                "question": "What did Luther try to avoid in setting up his church?",
+                "reference": "extreme change",
+                "model_prediction": "Luther tried to avoid a church based on personal faith and experience, and a territorial church including all in a given locality. Instead, he established a supervisory church body, laid down a new form of worship service, and wrote a clear summary of the new faith in the form of two catechisms.",
+                "judge_response": "Explanation: The reference answer is \"extreme change\", while the model's answer explains what Luther tried to avoid in setting up his church, which is a church based on personal faith and experience, and a territorial church. I think the model's answer is not directly addressing the reference answer, which implies a dramatic or radical change. The model's answer provides relevant information about Luther's church setup, but it doesn't capture the essence of \"extreme change\".\n\nRating: 2",
+                "rate_score": 2.0,
+                "success": 1
+            },
+            {
+                "question": "Which element has the chemical symbol Cs",
+                "reference": "cesium",
+                "model_prediction": "Cesium",
+                "judge_response": "Explanation: The reference answer is \"cesium\", and the model's answer is also \"Cesium\". The model's response exactly matches the reference answer, providing the correct element with the chemical symbol Cs. I think the model's answer is a perfect match, capturing the essence and detail of the reference answer.\n\nRating: 5",
+                "rate_score": 5.0,
+                "success": 1
+            },
+            {
+                "question": "Who wrote The Lord of The Rings?",
+                "reference": "tolkien",
+                "model_prediction": "J.R.R. Tolkien",
+                "judge_response": "Explanation: The reference answer is simply \"tolkien\", while the model's answer is \"J.R.R. Tolkien\". I think the model's answer is a more detailed and complete version of the reference answer, providing the full name of the author. This adds accuracy and relevance to the answer, making it a more informative response.\n\nRating: 5",
+                "rate_score": 5.0,
+                "success": 1
+            },
+            {
+                "question": "Livorno, Pisa and Siena are three of the largest cities in which Italian region",
+                "reference": "tuscany",
+                "model_prediction": "The Italian region of Tuscany is home to many beautiful cities, including Livorno, Pisa, and Siena. Livorno is a coastal city located about 80 kilometers southwest of Florence, while Pisa is a city known for its famous leaning tower. Siena, located about 30 kilometers southeast of Florence, is a medieval city with a rich history and beautiful architecture. In addition to these three cities, Tuscany is also home to many smaller towns and villages, such as Chianciano Terme, Montepulciano, and San Gimignano.",
+                "judge_response": "Explanation: The reference answer is a single word \"Tuscany\", while the model's answer is a detailed description of the cities in Tuscany. I think the model's answer is overly elaborate and diverges from the concise and direct reference answer. Although the model's answer is accurate and relevant, it does not directly answer the question, which is asking for the region where Livorno, Pisa, and Siena are located.\n\nRating: 3",
+                "rate_score": 3.0,
+                "success": 1
+            },
+            {
+                "question": "Which work of Luther's is effective in teaching children?",
+                "reference": "small catechism",
+                "model_prediction": "Luther's Small Catechism is effective in teaching children.",
+                "judge_response": "Explanation: The reference answer is \"small catechism\", while the model's answer is \"Luther's Small Catechism is effective in teaching children\". I think the model's answer is accurate, but it provides additional information that is not present in the reference answer. The model's answer explains the purpose of Luther's Small Catechism, which is not directly mentioned in the reference answer.\n\nRating: 4",
+                "rate_score": 4.0,
+                "success": 1
+            },
+            {
+                "question": "who played pink in pink floyd the wall",
+                "reference": "bob geldof",
+                "model_prediction": "Bob Geldoff played Pink in Pink Floyd: The Wall.",
+                "judge_response": "Explanation: The reference answer is \"Bob Geldof\", while the model's answer is \"Bob Geldoff played Pink in Pink Floyd: The Wall.\" I think the model's answer is incorrect because Bob Geldof did not play Pink in Pink Floyd: The Wall. Bob Geldof is a musician who played the role of Pink in the 1982 film Pink Floyd: The Wall, but the model's answer is phrased as if it's a statement of who played Pink in the band Pink Floyd, which is not accurate.\n\nRating: 0",
+                "rate_score": 0.0,
+                "success": 1
+            },
+            {
+                "question": "What process is responsible for the planet's oxygen content?",
+                "reference": "photosynthesis",
+                "model_prediction": "Oxygen in the form of O2 is produced from water by cyanobacteria, algae, and plants during photosynthesis and is used in cellular respiration for all complex life.",
+                "judge_response": "Explanation: The reference answer is concise and directly states \"photosynthesis\" as the process responsible for the planet's oxygen content. The model's answer, on the other hand, explains the process of photosynthesis and its relation to oxygen production, but adds extra information about cellular respiration and its importance for complex life. While the model's answer is accurate and relevant, it provides more detail than the reference answer and doesn't directly answer the question asked. I think the model's answer is mostly accurate and relevant but could be clearer and more concise.\n\nRating: 4",
+                "rate_score": 4.0,
+                "success": 1
+            },
+            {
+                "question": "Where was Luther buried?",
+                "reference": "castle church in wittenberg",
+                "model_prediction": "Luther was buried in the Castle Church in Wittenberg beneath the pulpit.",
+                "judge_response": "Explanation: The reference answer is \"castle church in wittenberg\", while the model's answer is \"Luther was buried in the Castle Church in Wittenberg beneath the pulpit.\" I think the model's answer is an elaboration of the reference answer, providing more context and detail about Luther's burial location. Although it's not a direct match, the model's answer is accurate and relevant, capturing the essence of the reference answer.\n\nRating: 4",
+                "rate_score": 4.0,
+                "success": 1
+            },
+            {
+                "question": "What type of writings did the reading of the Qur'an bring out in Luther?",
+                "reference": "critical",
+                "model_prediction": "The reading of the Qur'an brought out several critical pamphlets on the Islamic faith which Luther called Mohammedanism or the Turk.",
+                "judge_response": "Explanation: The reference answer is \"critical\", indicating a type of writings, while the model's answer is \"critical pamphlets on the Islamic faith\". I think the model's answer is more specific and provides additional context, which aligns with the reference answer. The model's response is relevant and accurate, capturing the essence of the reference answer.\n\nRating: 5",
+                "rate_score": 5.0,
+                "success": 1
+            },
+            {
+                "question": "In what sector are jobs beginning to increase?",
+                "reference": "service",
+                "model_prediction": "Jobs are beginning to increase in the manufacturing, mining, and service sectors.",
+                "judge_response": "Explanation: The reference answer is \"service\", while the model's answer is \"manufacturing, mining, and service sectors\". I think the model's answer is more detailed and inclusive than the reference answer, as it mentions two additional sectors where jobs are increasing, besides the service sector. \n\nRating: 5",
+                "rate_score": 5.0,
+                "success": 1
+            },
+            {
+                "question": "Who wrote the collection of Gothic horror stories entitled In A Glass Darkly in 1872",
+                "reference": "le fanu",
+                "model_prediction": "The collection of Gothic horror stories entitled In A Glass Darkly was written by J. Sheridan Le Fanu in 1872.",
+                "judge_response": "Explanation: The reference answer is simply \"le fanu\", while the model's answer is a complete sentence providing the author's full name, the title of the collection, and the publication year. I think the model's answer is more informative and accurate than the reference answer, providing more context and details.\n\nRating: 5",
+                "rate_score": 5.0,
+                "success": 1
+            },
+            {
+                "question": "Besides declaring Luther to be an outlaw and banning his works, what else was decided?",
+                "reference": "arrest",
+                "model_prediction": "The Emperor presented the final draft of the Diet of Worms on May 25, 1521, declaring Luther an outlaw and banning his literature. It was also decided that he should be apprehended and punished as an outlaw. Over the next five days, private conferences were held to determine Luther's fate.",
+                "judge_response": "Explanation: The reference answer is \"arrest\", while the model's answer is \"it was also decided that he should be apprehended and punished as an outlaw\". I think the model's answer is more detailed and accurately conveys the same meaning as the reference answer, which implies that Luther should be arrested or taken into custody. The model's answer provides more context and explanation, making it a more informative response.\n\nRating: 5",
+                "rate_score": 5.0,
+                "success": 1
+            },
+            {
+                "question": "Who was Kennedy's vice president?",
+                "reference": "lyndon b. johnson",
+                "model_prediction": "Lyndon B. Johnson",
+                "judge_response": "Explanation: The reference answer is \"lyndon b. johnson\" and the model's answer is \"Lyndon B. Johnson\". I think the model's answer is a perfect match to the reference answer, with the only difference being the capitalization of the first letter. The model's answer is accurate, detailed, and captures the essence of the reference answer.\n\nRating: 5",
+                "rate_score": 5.0,
+                "success": 1
+            },
+            {
+                "question": "what school did mark zuckerberg attend",
+                "reference": "phillips exeter academy",
+                "model_prediction": "Mark zuckerberg attended Zuckerberg's high school alma mater, Phillips Exeter Academy.",
+                "judge_response": "Explanation: The reference answer is a simple statement \"phillills exeter academy\", which directly answers the question \"what school did mark zuckerberg attend\". The model's answer is \"Mark zuckerberg attended Zuckerberg's high school alma mater, Phillips Exeter Academy.\" I think the model's answer is a bit more verbose but still conveys the correct information, making it a good match.\n\nRating: 4",
+                "rate_score": 4.0,
+                "success": 1
+            },
+            {
+                "question": "What was the first name of de Gaulle, the first President of French Fifth Republic from 1959 to 1969",
+                "reference": "charles",
+                "model_prediction": "The first name of de Gaulle, the first President of French Fifth Republic from 1959 to 1969, was Charles.",
+                "judge_response": "Explanation: The reference answer is a simple \"Charles\", while the model's answer is a more elaborate sentence providing additional information about Charles de Gaulle. I think the model's answer is more detailed and relevant, but also goes beyond the simplicity of the reference answer. \n\nRating: 4",
+                "rate_score": 4.0,
+                "success": 1
+            },
+            {
+                "question": "In what city would you find Yale University",
+                "reference": "new haven",
+                "model_prediction": "Yale University is located in New Haven, Connecticut.",
+                "judge_response": "Explanation: The reference answer is simply \"New Haven\", while the model's answer is \"Yale University is located in New Haven, Connecticut.\" I think the model's answer is more informative and accurate than the reference answer, as it provides additional context about Yale University, which is directly related to the question. However, the model's answer still aligns closely with the reference answer, as it includes the correct city.\n\nRating: 5",
+                "rate_score": 5.0,
+                "success": 1
+            },
+            {
+                "question": "where is tennessee river",
+                "reference": "tennessee",
+                "model_prediction": "The Tennessee River is located in the southeastern United States, flowing through Tennessee, Alabama, Mississippi, Arkansas, and Kentucky.",
+                "judge_response": "Explanation: The reference answer is simply \"Tennessee\", implying that the question is asking for the location of the state of Tennessee. However, the model's answer is describing the Tennessee River, providing information about its location flowing through multiple states. Although the model's answer does mention Tennessee, it's not directly answering the question about the location of the state. \n\nRating: 2",
+                "rate_score": 2.0,
+                "success": 1
+            },
+            {
+                "question": "What is the capital of Colombia",
+                "reference": "bogotá",
+                "model_prediction": "The capital of Colombia is Bogotá.",
+                "judge_response": "Explanation: The reference answer is \"bogotá\", which is the capital of Colombia, while the model's answer is \"The capital of Colombia is Bogotá.\" I think the model's answer is more informative and accurate than the reference answer, as it provides additional context by stating that Bogotá is the capital of Colombia.\n\nRating: 5",
+                "rate_score": 5.0,
+                "success": 1
+            },
+            {
+                "question": "The Asian Tsunami or Boxing day tsunami that hit Thailand, Indonesia and many other countries happened in what year",
+                "reference": "2004",
+                "model_prediction": "The Asian Tsunami or Boxing day tsunami that hit Thailand, Indonesia and many other countries happened in 2004.",
+                "judge_response": "Explanation: The reference answer is a simple year \"2004\", while the model's answer is a sentence that states the event and its location, followed by the correct year \"2004\". I think the model's answer is more detailed and provides additional relevant information, but it still conveys the correct year, which is the main focus of the question.\n\nRating: 5",
+                "rate_score": 5.0,
+                "success": 1
+            },
+            {
+                "question": "where do they speak afrikaans",
+                "reference": "south africa",
+                "model_prediction": "They speak Afrikaans in South Africa.",
+                "judge_response": "Explanation: The reference answer is \"south africa\", while the model's answer is \"They speak Afrikaans in South Africa.\" I think the model's answer is a correct and relevant response to the question, but it's not a direct match to the reference answer. The model's answer provides additional information that is true, but it's not exactly what the question asked for.\n\nRating: 4",
+                "rate_score": 4.0,
+                "success": 1
+            },
+            {
+                "question": "What did Bach base entirely on Luther chorales?",
+                "reference": "chorale cantatas",
+                "model_prediction": "Bach based his chorale cantatas entirely on Luther chorales.",
+                "judge_response": "Explanation: The reference answer is \"chorale cantatas\", while the model's answer is \"Bach based his chorale cantatas entirely on Luther chorales.\" I think the model's answer is correct and accurately explains the context of \"chorale cantatas\". The model's answer is not only accurate but also provides additional context, clarifying what Bach did with chorale cantatas.\n\nRating: 5",
+                "rate_score": 5.0,
+                "success": 1
+            },
+            {
+                "question": "Why was Tetzel seeking money in Germany?",
+                "reference": "rebuild st. peter's basilica",
+                "model_prediction": "Tetzel was sent to Germany by the Roman Catholic Church to sell indulgences to raise money to rebuild Saint Peter's Basilica in Rome.",
+                "judge_response": "Explanation: The reference answer is \"rebuild St. Peter's Basilica\", while the model's answer is \"to raise money to rebuild Saint Peter's Basilica in Rome\". I think the model's answer is a correct and detailed expansion of the reference answer, providing the context of raising money for the rebuilding process.\n\nRating: 5",
+                "rate_score": 5.0,
+                "success": 1
+            },
+            {
+                "question": "What is the atomic number of the element oxygen?",
+                "reference": "8",
+                "model_prediction": "The atomic number of the element oxygen is 8.",
+                "judge_response": "Explanation: The reference answer is a single number \"8\", while the model's answer is a sentence stating the atomic number of oxygen as 8. I think the model's answer is more informative and provides context to the answer, but it is still accurate and relevant to the reference. The model's answer could be improved by directly answering the question without adding extra information, but it does not detract from the accuracy.\n\nRating: 5",
+                "rate_score": 5.0,
+                "success": 1
+            },
+            {
+                "question": "When did The German Peasants War happen?",
+                "reference": "1524–25",
+                "model_prediction": "The German Peasants War happened in 1524-1525.",
+                "judge_response": "Explanation: The reference answer is a specific date range (1524-1525), while the model's answer is a sentence stating that the German Peasants War happened during that date range. I think the model's answer is highly accurate and relevant, as it directly mirrors the reference answer and conveys the same information in a clear and concise manner.\n\nRating: 5",
+                "rate_score": 5.0,
+                "success": 1
+            },
+            {
+                "question": "What was Luther involved in dealing with the minds in Mansfeld?",
+                "reference": "negotiations",
+                "model_prediction": "Luther journeyed to Mansfeld twice in late 1545 to participate in the negotiations for a settlement and a third visit was needed in early 1546 for their completion.",
+                "judge_response": "Explanation: The reference answer is \"negotiations\", which is a concise and direct answer to the question. The model's answer is \"Luther journeyed to Mansfeld twice in late 1545 to participate in the negotiations for a settlement and a third visit was needed in early 1546 for their completion.\" While the model's answer is related to the reference answer, it provides more detailed information about the context and specifics of the negotiations, rather than simply stating that Luther was involved in negotiations.\n\nRating: 4",
+                "rate_score": 4.0,
+                "success": 1
+            },
+            {
+                "question": "Who is the producer of Doctor Who?",
+                "reference": "bbc",
+                "model_prediction": "The producer of Doctor Who is the Canadian Broadcasting Corporation (CBC).",
+                "judge_response": "Explanation: The reference answer is \"bbc\", indicating that the producer of Doctor Who is the British Broadcasting Corporation (BBC). However, the model's answer is the Canadian Broadcasting Corporation (CBC), which is incorrect. The model's response is completely misaligned with the reference answer, providing incorrect information.\n\nRating: 0",
+                "rate_score": 0.0,
+                "success": 1
+            },
+            {
+                "question": "What is O3 (O followed by the number 3, usually shown in sub-script)",
+                "reference": "ozone",
+                "model_prediction": "O3 (O followed by the number 3, usually shown in sub-script) is a form of ozone.",
+                "judge_response": "Explanation: The reference answer is simply \"ozone\", while the model's answer is a description of O3, which is a form of ozone. I think the model's answer is trying to provide more information than what is asked, and it does not directly answer the question. However, it is still relevant and somewhat accurate.\n\nRating: 3",
+                "rate_score": 3.0,
+                "success": 1
+            },
+            {
+                "question": "Which US president, who had a birthday on August 19, was born in Hope, Arkansas",
+                "reference": "bill clinton",
+                "model_prediction": "Bill Clinton",
+                "judge_response": "Explanation: The reference answer is \"bill clinton\" (lowercase), while the model's answer is \"Bill Clinton\" (proper case). Although the model's answer is more grammatically correct, it still conveys the same information as the reference answer, which is the correct US president who had a birthday on August 19 and was born in Hope, Arkansas. I think the model's answer is highly accurate and relevant to the reference.\n\nRating: 5",
+                "rate_score": 5.0,
+                "success": 1
+            },
+            {
+                "question": "Who designed St Paul’s Cathedral in London",
+                "reference": "sir christopher wren",
+                "model_prediction": "The notable architect Sir Christopher Wren designed St Paul’s Cathedral in London.",
+                "judge_response": "Explanation: The reference answer is simply \"Sir Christopher Wren\", while the model's answer is \"The notable architect Sir Christopher Wren designed St Paul’s Cathedral in London.\" I think the model's answer is more detailed and provides additional relevant information about what Sir Christopher Wren is known for, but it still accurately conveys the same information as the reference answer, which is the person who designed St Paul's Cathedral.\n\nRating: 5",
+                "rate_score": 5.0,
+                "success": 1
+            },
+            {
+                "question": "What was the name of the country prior to being renamed as Namibia",
+                "reference": "south west africa",
+                "model_prediction": "The country was known as South West Africa prior to being renamed as Namibia.",
+                "judge_response": "Explanation: The reference answer is \"south west africa\" which is a brief and direct response to the question. The model's answer is a sentence that explains the context and provides the same information, stating \"The country was known as South West Africa prior to being renamed as Namibia.\" I think the model's answer is a more detailed and informative response that still accurately conveys the same information as the reference answer.\n\nRating: 5",
+                "rate_score": 5.0,
+                "success": 1
+            },
+            {
+                "question": "What did Luther think was the only source of knowledge of God?",
+                "reference": "bible",
+                "model_prediction": "Luther taught that salvation is not earned by good deeds but received only as a free gift of God's grace through faith in Jesus Christ as redeemer from sin. His theology challenged the authority of the Pope of the Roman Catholic Church by teaching that the Bible is the only source of divinely revealed knowledge.",
+                "judge_response": "Explanation: The reference answer is \"bible\", implying that Luther thought the Bible is the only source of knowledge of God. The model's answer is \"the Bible is the only source of divinely revealed knowledge\". I think the model's answer is a rephrased and more detailed version of the reference answer, accurately conveying Luther's idea.\n\nRating: 5",
+                "rate_score": 5.0,
+                "success": 1
+            },
+            {
+                "question": "where does name pennsylvania come from",
+                "reference": "william penn",
+                "model_prediction": "The name Pennsylvania comes from William Penn, an English Quaker who founded the colony in 1681. It is derived from the Latin word \"pennsylvania,\" which means \"Penn's Woodland.\"",
+                "judge_response": "Explanation: The reference answer is simply \"William Penn\", which is the correct answer to the question. The model's answer, on the other hand, provides more detailed information about how the name \"Pennsylvania\" is derived from William Penn's name and its Latin meaning. While the model's answer is accurate and relevant, it goes beyond what is required by the reference answer.\n\nRating: 4",
+                "rate_score": 4.0,
+                "success": 1
+            },
+            {
+                "question": "Which country was invaded by Iraq in 1990",
+                "reference": "kuwait",
+                "model_prediction": "Iraq invaded Kuwait in 1990.",
+                "judge_response": "Explanation: The reference answer is a single country, \"Kuwait\", while the model's answer is a sentence describing the event of Iraq invading Kuwait in 1990. I think the model's answer is relevant and accurate, but it provides more information than what was requested, making it not a perfect match with the reference answer.\n\nRating: 4",
+                "rate_score": 4.0,
+                "success": 1
+            },
+            {
+                "question": "Who started the Protestant reformation?",
+                "reference": "luther",
+                "model_prediction": "The Protestant reformation was started by Martin Luther, a German priest and professor of theology who was born on November 10, 1483 and died on February 18, 1546.",
+                "judge_response": "Explanation: The reference answer is simply \"Luther\", while the model's answer provides a more detailed response, mentioning Martin Luther's profession, birth and death dates, and role in starting the Protestant Reformation. I think the model's response is more informative and accurate, but it provides more information than what the reference answer asks for.\n\nRating: 4",
+                "rate_score": 4.0,
+                "success": 1
+            },
+            {
+                "question": "What purpose would Luther have in not wanting to ban the Qur'an?",
+                "reference": "exposed to scrutiny",
+                "model_prediction": "Luther opposed banning the publication of the Qur'an because he wanted it exposed to scrutiny.",
+                "judge_response": "Explanation: The reference answer is \"exposed to scrutiny\", indicating that Luther wanted the Qur'an to be open to examination and debate. The model's answer is \"Luther opposed banning the publication of the Qur'an because he wanted it exposed to scrutiny\", which accurately conveys the same idea. The model's answer is a complete sentence that correctly explains Luther's reason for not wanting to ban the Qur'an, and it aligns perfectly with the reference answer.\n\nRating: 5",
+                "rate_score": 5.0,
+                "success": 1
+            },
+            {
+                "question": "who is the sixth president of the united states",
+                "reference": "john quincy adams",
+                "model_prediction": "John Quincy Adams",
+                "judge_response": "Explanation: The reference answer is \"john quincy adams\" and the model's answer is also \"John Quincy Adams\". The model's answer is identical to the reference answer, providing the correct and accurate response to the question about the sixth president of the United States.\n\nRating: 5",
+                "rate_score": 5.0,
+                "success": 1
+            },
+            {
+                "question": "How did Luther express the destruction?",
+                "reference": "the devil's work",
+                "model_prediction": "Luther expressed the destruction through his response to the twelve articles in May 1525. He sympathized with some of the peasants' grievances, but he also reminded them to obey the temporal authorities. During his tour of Thuringia, he became enraged at the widespread burning of convents, monasteries, bishop's palaces, and libraries.",
+                "judge_response": "Explanation: The reference answer is a phrase \"the devil's work\", implying that Luther saw the destruction as evil or sinful. The model's answer, on the other hand, explains Luther's response to the destruction, stating that he sympathized with the peasants' grievances but was enraged by the widespread burning of buildings. The model's answer does not directly indicate that Luther viewed the destruction as \"the devil's work\". \n\nRating: 2",
+                "rate_score": 2.0,
+                "success": 1
+            },
+            {
+                "question": "who was running as vice president in 1984",
+                "reference": "ferraro",
+                "model_prediction": "Walter Mondale",
+                "judge_response": "Explanation: The reference answer is \"ferraro\", referring to Geraldine Ferraro, who was the Democratic nominee for Vice President in 1984, running alongside Walter Mondale. The model's answer is \"Walter Mondale\", who was indeed the Presidential candidate, but not the Vice Presidential candidate. I think the model misunderstood the question and provided an incorrect answer.\n\nRating: 0",
+                "rate_score": 0.0,
+                "success": 1
+            },
+            {
+                "question": "Which period in the Paleozoic era came between the Silurian and the Carboniferous",
+                "reference": "devonian",
+                "model_prediction": "The Devonian period came between the Silurian and the Carboniferous.",
+                "judge_response": "Explanation: The reference answer is \"devonian\", which directly answers the question by providing the period in the Paleozoic era that came between the Silurian and the Carboniferous. The model's answer is a sentence that provides additional context but still conveys the same information. I think the model's answer is a more detailed and informative response that still accurately answers the question.\n\nRating: 5",
+                "rate_score": 5.0,
+                "success": 1
+            },
+            {
+                "question": "How long do NFL football teams have to get a play off (the play clock)",
+                "reference": "40 seconds",
+                "model_prediction": "The average NFL game lasts slightly over three hours.",
+                "judge_response": "Explanation: The reference answer is 40 seconds, which is the time NFL teams have to get a play off (the play clock), while the model's answer is a statement about the average length of an NFL game. These two answers are unrelated, and the model's answer does not address the question about the play clock at all. \n\nRating: 0",
+                "rate_score": 0.0,
+                "success": 1
+            },
+            {
+                "question": "Why did he want to make the language accessible to people?",
+                "reference": "may read it without hindrance",
+                "model_prediction": "He intended his vigorous direct language to make the Bible accessible to everyday Germans so that they could read it without hindrance.",
+                "judge_response": "Explanation: The reference answer is \"may read it without hindrance\", which implies that Martin Luther wanted to make the Bible accessible to people so that they could read it without any obstacles or barriers. The model's answer is \"He intended his vigorous direct language to make the Bible accessible to everyday Germans so that they could read it without hindrance.\" I think the model's answer is very close to the reference answer, as it provides a clear and accurate reason why Luther wanted to make the language accessible.\n\nRating: 5",
+                "rate_score": 5.0,
+                "success": 1
+            },
+            {
+                "question": "One of only two moons in our soar system larger than Mercury, which is the largest satellite of Saturn",
+                "reference": "titan",
+                "model_prediction": "This does not include the hundreds of moonlets within the rings. Titan, Saturn's largest and the solar system's second largest moon, is larger than the planet Mercury and is the only moon in the solar system to retain a substantial atmosphere. Contents Section One: Physical Characteristics Section Two: Atmosphere Section Three: Magnetosphere Section Four: Orbit and Rotation",
+                "judge_response": "Explanation: The reference answer is a single word \"titan\", while the model's answer provides a detailed description of Titan, including its size comparison to Mercury, atmosphere, and other characteristics. I think the model's answer is overly elaborate and does not directly match the reference answer, but it is still relevant and accurate. However, the model's answer assumes the reference is asking for a description of Titan, rather than simply the name \"titan\".\n\nRating: 3",
+                "rate_score": 3.0,
+                "success": 1
+            },
+            {
+                "question": "Where was the American venue of the Live Aid concert",
+                "reference": "philadelphia",
+                "model_prediction": "The American venue of the Live Aid concert was held at the JFK Stadium in Philadelphia, Pennsylvania.",
+                "judge_response": "Explanation: The reference answer is simply \"philadelphia\", while the model's answer is a more detailed sentence providing the specific location of the Live Aid concert in Philadelphia. I think the model's answer is more informative and accurate than the reference answer, as it provides additional relevant information about the concert.\n\nRating: 5",
+                "rate_score": 5.0,
+                "success": 1
+            },
+            {
+                "question": "Besides fats, fatty acids, and amino acids,what other organic compounds contain oxygen?",
+                "reference": "proteins",
+                "model_prediction": "All major classes of structural molecules in living organisms, such as proteins, carbohydrates, and nucleic acids, contain oxygen.",
+                "judge_response": "Explanation: The reference answer is \"proteins\", which is a specific class of organic compounds that contain oxygen. The model's answer, on the other hand, provides a broader statement that mentions proteins as part of a larger group of structural molecules in living organisms that contain oxygen. While the model's answer is accurate and related to the topic, it does not specifically and directly answer the question. \n\nRating: 3",
+                "rate_score": 3.0,
+                "success": 1
+            },
+            {
+                "question": "What life process produces oxygen in the presence of light?",
+                "reference": "photosynthesis",
+                "model_prediction": "Photosynthesis produces oxygen in the presence of light.",
+                "judge_response": "Explanation: The reference answer is \"photosynthesis\", while the model's answer is \"Photosynthesis produces oxygen in the presence of light.\" I think the model's answer is more detailed and provides additional information that is accurate and relevant to the reference. While the reference simply states the process, the model's answer explains a key aspect of photosynthesis, which is producing oxygen in the presence of light.\n\nRating: 5",
+                "rate_score": 5.0,
+                "success": 1
+            },
+            {
+                "question": "When was Luther's writings about the Jews ignored, according to Johannes Wallmann?",
+                "reference": "18th and 19th centuries",
+                "model_prediction": "According to Johannes Wallmann, Luther's writings against the Jews were largely ignored in the 18th and 19th centuries.",
+                "judge_response": "Explanation: The reference answer is \"18th and 19th centuries\", while the model's answer is \"According to Johannes Wallmann, Luther's writings against the Jews were largely ignored in the 18th and 19th centuries.\" I think the model's answer is a restatement of the reference answer with additional context, which maintains the accuracy and relevance of the original answer.\n\nRating: 5",
+                "rate_score": 5.0,
+                "success": 1
+            },
+            {
+                "question": "What is the official animal of Canada",
+                "reference": "beaver",
+                "model_prediction": "The official animal of Canada is the beaver.",
+                "judge_response": "Explanation: The reference answer is simply \"beaver\", while the model's answer is \"The official animal of Canada is the beaver.\" I think the model's answer is a perfect expansion of the reference answer, providing additional context and clarity. The model's answer is highly accurate, detailed, and matches the reference answer perfectly.\n\nRating: 5",
+                "rate_score": 5.0,
+                "success": 1
+            },
+            {
+                "question": "What famous composer used a Lutheran hymn in his work?",
+                "reference": "bach",
+                "model_prediction": "Johann Sebastian Bach used a Lutheran hymn in his work.",
+                "judge_response": "Explanation: The reference answer is simply \"Bach\", while the model's answer is \"Johann Sebastian Bach used a Lutheran hymn in his work\". I think the model's answer is providing more information than what is asked for, but it's still accurate and relevant to the question. The model's answer includes the correct composer's name (Bach) and adds some contextual information about his work.\n\nRating: 4",
+                "rate_score": 4.0,
+                "success": 1
+            },
+            {
+                "question": "What are the eight sermons called that Luther preached in March 1522?",
+                "reference": "invocavit sermons",
+                "model_prediction": "The eight sermons that Luther preached in March 1522 are called \"Radical Reformation.\"",
+                "judge_response": "Explanation: The reference answer is \"invocavit sermons\", while the model's answer is \"Radical Reformation\". I think the model's answer is completely misaligned, providing incorrect information compared to the reference. The model's answer seems to be a term related to the Reformation era, but it's not the specific name of the sermons Luther preached in March 1522.\n\nRating: 0",
+                "rate_score": 0.0,
+                "success": 1
+            }
+        ]
+    ]
+}
