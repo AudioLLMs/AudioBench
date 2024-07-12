@@ -66,10 +66,15 @@ bash eval.sh $DATASET $MODEL_NAME $GPU $BATCH_SIZE $OVERWRITE $METRICS $NUMBER_O
 
 ## 📚 Supported Models and Datasets
 
+```
+SU=Speech Understanding
+  SQA=Speech Question Answering
+```
+
 ### Datasets
 |Dataset|Category|Task|Metrics|Status|
 |---|---|---|---|---|
-|**CN-College-Listen**|Speech Understanding|Speech Question Answering|Model-as-Judge|✅︎|
+|**CN-College-Listen**|SU|SQA|Model-as-Judge|✅︎|
 |**SLUE-P2-SQA5**|||Model-as-Judge|✅︎|
 |**Public-SG-SpeechQA**|||Model-as-Judge|✅︎|
 
