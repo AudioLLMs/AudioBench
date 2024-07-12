@@ -70,8 +70,8 @@ bash eval.sh $DATASET $MODEL_NAME $GPU $BATCH_SIZE $OVERWRITE $METRICS $NUMBER_O
 |Dataset|Category|Task|Size|Metrics|ID|Status|
 |---|---|---|---|---|---|---|
 |CN College Listen|Speech Understanding|Speech Question Answering|~2200|Model-as-Judge|cn_college_listen_test|✅︎|
-|SLUE P2 SQA5|Speech Understanding|Speech Question Answering|~400|Model-as-Judge|✅︎|
-|SLUE P2 SQA5|Speech Understanding|Speech Question Answering|~400|Model-as-Judge|✅︎|
+|SLUE P2 SQA5|Speech Understanding|Speech Question Answering|~400|Model-as-Judge|slue_p2_sqa5_test|✅︎|
+|Public SG SpeechQA|Speech Understanding|Speech Question Answering|688|Model-as-Judge|public_sg_speech_qa_test|✅︎|
 
 
 ### Models

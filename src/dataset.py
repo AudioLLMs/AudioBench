@@ -24,6 +24,8 @@ from datasets import load_dataset
 
 from dataset_src.cn_college_listen_test import cn_college_listen_test_dataset
 from dataset_src.slue_p2_sqa5_test import slue_p2_sqa5_test_dataset
+from dataset_src.public_sg_speech_qa_test import public_sg_speech_qa_test_dataset
+
 
 # =  =  =  =  =  =  =  =  =  =  =  Logging Setup  =  =  =  =  =  =  =  =  =  =  =  =  =
 logger = logging.getLogger(__name__)
@@ -50,9 +52,9 @@ class Dataset(object):
 
         logger.info("Loading dataset: {}".format(self.dataset_name))
 
-        if self.dataset_name == 'cn_college_listen_test': self.raw_data = load_dataset("AudioLLMs/cn_college_listen_test")['test']
-        elif self.dataset_name == 'slue_p2_sqa5_test': self.raw_data = load_dataset("AudioLLMs/slue_p2_sqa5_test")['test']
-
+        if   self.dataset_name == 'cn_college_listen_test': self.raw_data   = load_dataset("AudioLLMs/cn_college_listen_test")['test']
+        elif self.dataset_name == 'slue_p2_sqa5_test': self.raw_data        = load_dataset("AudioLLMs/slue_p2_sqa5_test")['test']
+        elif self.dataset_name == 'public_sg_speech_qa_test': self.raw_data = load_dataset("AudioLLMs/public_sg_speech_qa_test")['test']
         
         else:
             raise NotImplementedError("Dataset {} not implemented yet".format(self.dataset_name))
@@ -63,8 +65,9 @@ class Dataset(object):
 
     def data_format(self):
 
-        if self.dataset_name == 'cn_college_listen_test': self.dataset_processor = cn_college_listen_test_dataset(self.raw_data, self.number_of_samples)
-        elif self.dataset_name == 'slue_p2_sqa5_test': self.dataset_processor = slue_p2_sqa5_test_dataset(self.raw_data, self.number_of_samples)
+        if   self.dataset_name == 'cn_college_listen_test': self.dataset_processor   = cn_college_listen_test_dataset(self.raw_data, self.number_of_samples)
+        elif self.dataset_name == 'slue_p2_sqa5_test': self.dataset_processor        = slue_p2_sqa5_test_dataset(self.raw_data, self.number_of_samples)
+        elif self.dataset_name == 'public_sg_speech_qa_test': self.dataset_processor = public_sg_speech_qa_test_dataset(self.raw_data, self.number_of_samples)
 
         else:
             raise NotImplementedError("Dataset {} not implemented yet".format(self.dataset_name))

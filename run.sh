@@ -21,5 +21,6 @@ NUMBER_OF_SAMPLES=50
 
 DATASET=cn_college_listen_test
 DATASET=slue_p2_sqa5_test
+DATASET=public_sg_speech_qa_test
 
 bash eval.sh $DATASET $MODEL_NAME $GPU $BATCH_SIZE $OVERWRITE $METRICS $NUMBER_OF_SAMPLES

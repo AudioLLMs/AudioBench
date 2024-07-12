@@ -15,7 +15,7 @@
 import random
 import logging
 
-class slue_p2_sqa5_test_dataset(object):
+class public_sg_speech_qa_test_dataset(object):
 
     def __init__(self, raw_data, number_of_samples):
 
@@ -97,3 +97,5 @@ class slue_p2_sqa5_test_dataset(object):
         
         else:
             raise ValueError("Invalid metrics: {}".format(metrics))
+
+
