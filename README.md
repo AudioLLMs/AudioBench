@@ -72,12 +72,13 @@ bash eval.sh $DATASET $MODEL_NAME $GPU $BATCH_SIZE $OVERWRITE $METRICS $NUMBER_O
 |1|Whisper-Large + Llama-3-8B-Instruct|~8B|Cascade Models|✅︎|
 |2|SALMONN-7B|~7B|AudioLLM - Fusion Model|✅︎|
 |3|Qwen-Audio|~8B|AudioLLM - Fusion Model|TODO|
-|
+
+
 ### Datasets
 |--|Dataset|Category|Task|Size|Metrics|Status|
 |---|---|---|---|---|---|---|
-|1|CN College Listen Test|Speech Understanding|Speech Question Answering|~1.5k|Model-as-Judge|✅︎|
-|2|CN College Listen Test|~1.5k|Model-as-Judge|TODO|
+|1|CN College Listen Test|Speech Understanding|Speech Question Answering|~2200|Model-as-Judge|✅︎|
+|2|SLUE P2 SQA5 Test|Speech Understanding|Speech Question Answering|~400|Model-as-Judge|TODO|
 
 
 
