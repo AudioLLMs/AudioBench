@@ -8,7 +8,7 @@ GPU=2
 BATCH_SIZE=1
 METRICS=llama3_70b_judge
 OVERWRITE=True
-NUMBER_OF_SAMPLES=50
+NUMBER_OF_SAMPLES=-1
 # =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
 
 

@@ -22,6 +22,14 @@ sys.path.append('.')
 
 from datasets import load_dataset
 
+# ASR
+from dataset_src.librispeech_test_clean import librispeech_test_clean_dataset
+from dataset_src.librispeech_test_other import librispeech_test_other_dataset
+from dataset_src.common_voice_15_en_test import common_voice_15_en_test_dataset
+from dataset_src.peoples_speech_test import peoples_speech_test_dataset
+
+
+# SQA
 from dataset_src.cn_college_listen_test import cn_college_listen_test_dataset
 from dataset_src.slue_p2_sqa5_test import slue_p2_sqa5_test_dataset
 from dataset_src.public_sg_speech_qa_test import public_sg_speech_qa_test_dataset
@@ -57,6 +65,10 @@ class Dataset(object):
         elif self.dataset_name == 'slue_p2_sqa5_test': self.raw_data        = load_dataset("AudioLLMs/slue_p2_sqa5_test")['test']
         elif self.dataset_name == 'public_sg_speech_qa_test': self.raw_data = load_dataset("AudioLLMs/public_sg_speech_qa_test")['test']
         elif self.dataset_name == 'dream_tts_test': self.raw_data           = load_dataset("AudioLLMs/dream_tts_test")['test']
+        elif self.dataset_name == 'librispeech_test_clean': self.raw_data   = load_dataset("AudioLLMs/librispeech_test_clean_v2")['test']
+        elif self.dataset_name == 'librispeech_test_other': self.raw_data   = load_dataset("AudioLLMs/librispeech_test_other_v2")['test']
+        elif self.dataset_name == 'common_voice_15_en_test': self.raw_data  = load_dataset("AudioLLMs/common_voice_15_en_test_v2")['test']
+        elif self.dataset_name == 'peoples_speech_test': self.raw_data      = load_dataset("AudioLLMs/peoples_speech_test_v2")['test']
         
         else:
             raise NotImplementedError("Dataset {} not implemented yet".format(self.dataset_name))
@@ -71,6 +83,11 @@ class Dataset(object):
         elif self.dataset_name == 'slue_p2_sqa5_test': self.dataset_processor        = slue_p2_sqa5_test_dataset(self.raw_data, self.number_of_samples)
         elif self.dataset_name == 'public_sg_speech_qa_test': self.dataset_processor = public_sg_speech_qa_test_dataset(self.raw_data, self.number_of_samples)
         elif self.dataset_name == 'dream_tts_test': self.dataset_processor           = dream_tts_test_dataset(self.raw_data, self.number_of_samples)
+        elif self.dataset_name == 'librispeech_test_clean': self.dataset_processor   = librispeech_test_clean_dataset(self.raw_data, self.number_of_samples)
+        elif self.dataset_name == 'librispeech_test_other': self.dataset_processor   = librispeech_test_other_dataset(self.raw_data, self.number_of_samples)
+        elif self.dataset_name == 'common_voice_15_en_test': self.dataset_processor  = common_voice_15_en_test_dataset(self.raw_data, self.number_of_samples)
+        elif self.dataset_name == 'peoples_speech_test': self.dataset_processor      = peoples_speech_test_dataset(self.raw_data, self.number_of_samples)
+
 
         else:
             raise NotImplementedError("Dataset {} not implemented yet".format(self.dataset_name))

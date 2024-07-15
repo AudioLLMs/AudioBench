@@ -70,11 +70,26 @@ The example is how to get started. To evaluate on the full datasets, please refe
 ### Datasets
 ```
 SU=Speech Understanding
+  ASR=Automatic Speech Recognition
   SQA=Speech Question Answering
+  SI=Speech Instruction
+
+ASU=Audio Scene Understanding
+  AC=Audio Captioning
+  ASQA=Audio Scene Question Answering
+
+Voice Understanding
+  AR=Accent Recognition
+  GR=Gender Recognition
+  ER=Emotion Recognition
 ```
 
 |Dataset|Category|Task|Metrics|Status|
 |---|---|---|---|---|
+|**LibriSpeech-Clean**|SU|ASR|WER|✅︎|
+|**LibriSpeech-Other**|SU|ASR|WER|✅︎|
+|**CommonVoice-15-EN**|SU|ASR|WER|✅︎|
+|**Peoples-Speech**|SU|ASR|WER|✅︎|
 |**CN-College-Listen**|SU|SQA|Model-as-Judge|✅︎|
 |**SLUE-P2-SQA5**|SU|SQA|Model-as-Judge|✅︎|
 |**Public-SG-SpeechQA**|SU|SQA|Model-as-Judge|✅︎|
