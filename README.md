@@ -52,7 +52,6 @@ NUMBER_OF_SAMPLES=50
 
 DATASET=cn_college_listen_test
 
-
 bash eval.sh $DATASET $MODEL_NAME $GPU $BATCH_SIZE $OVERWRITE $METRICS $NUMBER_OF_SAMPLES
 
 # Step 3:
@@ -63,20 +62,23 @@ bash eval.sh $DATASET $MODEL_NAME $GPU $BATCH_SIZE $OVERWRITE $METRICS $NUMBER_O
 #    }
 
 ```
+The example is how to get started. To evaluate on the full datasets, please refer to [Examples](./examples/).
+
 
 ## 📚 Supported Models and Datasets
 
+### Datasets
 ```
 SU=Speech Understanding
   SQA=Speech Question Answering
 ```
 
-### Datasets
 |Dataset|Category|Task|Metrics|Status|
 |---|---|---|---|---|
 |**CN-College-Listen**|SU|SQA|Model-as-Judge|✅︎|
-|**SLUE-P2-SQA5**|||Model-as-Judge|✅︎|
-|**Public-SG-SpeechQA**|||Model-as-Judge|✅︎|
+|**SLUE-P2-SQA5**|SU|SQA|Model-as-Judge|✅︎|
+|**Public-SG-SpeechQA**|SU|SQA|Model-as-Judge|✅︎|
+|**DREAM-TTS**|SU|SQA|Model-as-Judge|✅︎|
 
 
 ### Models
