@@ -86,32 +86,32 @@ VU=Voice Understanding
 
 |Dataset|Category|Task|Metrics|Status|
 |---|---|---|---|---|
-|**LibriSpeech-Clean**|SU|ASR|WER|✅︎|
-|**LibriSpeech-Other**|SU|ASR|WER|✅︎|
-|**CommonVoice-15-EN**|SU|ASR|WER|✅︎|
-|**Peoples-Speech**|SU|ASR|WER|✅︎|
-|**GigaSpeech**|SU|ASR|WER|✅︎|
-|**Earning21**|SU|ASR|WER|✅︎|
-|**Earning22**|SU|ASR|WER|✅︎|
-|**Tedlium3**|SU|ASR|WER|✅︎|
-|**Tedlium3-Longform**|SU|ASR|WER|✅︎|
-|**CN-College-Listen**|SU|SQA|Model-as-Judge|✅︎|
-|**SLUE-P2-SQA5**|SU|SQA|Model-as-Judge|✅︎|
-|**Public-SG-SpeechQA**|SU|SQA|Model-as-Judge|✅︎|
-|**DREAM-TTS**|SU|SQA|Model-as-Judge|✅︎|
-|**OpenHermes-Audio**|SU|SI|Model-as-Judge|✅︎|
-|**ALPACA-Audio**|SU|SI|Model-as-Judge|✅︎|
-|**AudioCaps**|ASU|AC|Model-as-Judge / METEOR|✅︎|
-|**WavCaps**|ASU|AC|Model-as-Judge / METEOR|✅︎|
-|**Clotho-AQA**|ASU|ASQA|Model-as-Judge|✅︎|
-|**AudioCaps-QA**|ASU|ASQA|Model-as-Judge|✅︎|
-|**WavCaps-QA**|ASU|ASQA|Model-as-Judge|✅︎|
-|**VoxCeleb-Accent**|VU|AR|Model-as-Judge|✅︎|
-|**VoxCeleb-Gender**|VU|GR|Model-as-Judge|✅︎|
-|**IEMOCAP-Gender**|VU|GR|Model-as-Judge|✅︎|
-|**IEMOCAP-Emotion**|VU|ER|Model-as-Judge|✅︎|
-|**MELD-Sentiment**|VU|ER|Model-as-Judge|✅︎|
-|**MELD-Emotion**|VU|ER|Model-as-Judge|✅︎|
+|**LibriSpeech-Clean**|SU|ASR|WER|✅|
+|**LibriSpeech-Other**|SU|ASR|WER|✅|
+|**CommonVoice-15-EN**|SU|ASR|WER|✅|
+|**Peoples-Speech**|SU|ASR|WER|✅|
+|**GigaSpeech**|SU|ASR|WER|✅|
+|**Earning21**|SU|ASR|WER|✅|
+|**Earning22**|SU|ASR|WER|✅|
+|**Tedlium3**|SU|ASR|WER|✅|
+|**Tedlium3-Longform**|SU|ASR|WER|✅|
+|**CN-College-Listen**|SU|SQA|Model-as-Judge|✅|
+|**SLUE-P2-SQA5**|SU|SQA|Model-as-Judge|✅|
+|**Public-SG-SpeechQA**|SU|SQA|Model-as-Judge|✅|
+|**DREAM-TTS**|SU|SQA|Model-as-Judge|✅|
+|**OpenHermes-Audio**|SU|SI|Model-as-Judge|✅|
+|**ALPACA-Audio**|SU|SI|Model-as-Judge|✅|
+|**AudioCaps**|ASU|AC|Model-as-Judge / METEOR|✅|
+|**WavCaps**|ASU|AC|Model-as-Judge / METEOR|✅|
+|**Clotho-AQA**|ASU|ASQA|Model-as-Judge|✅|
+|**AudioCaps-QA**|ASU|ASQA|Model-as-Judge|✅|
+|**WavCaps-QA**|ASU|ASQA|Model-as-Judge|✅|
+|**VoxCeleb-Accent**|VU|AR|Model-as-Judge|✅|
+|**VoxCeleb-Gender**|VU|GR|Model-as-Judge|✅|
+|**IEMOCAP-Gender**|VU|GR|Model-as-Judge|✅|
+|**IEMOCAP-Emotion**|VU|ER|Model-as-Judge|✅|
+|**MELD-Sentiment**|VU|ER|Model-as-Judge|✅|
+|**MELD-Emotion**|VU|ER|Model-as-Judge|✅|
 
 
 ### Models
