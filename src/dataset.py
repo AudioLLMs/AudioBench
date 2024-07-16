@@ -27,7 +27,11 @@ from dataset_src.librispeech_test_clean import librispeech_test_clean_dataset
 from dataset_src.librispeech_test_other import librispeech_test_other_dataset
 from dataset_src.common_voice_15_en_test import common_voice_15_en_test_dataset
 from dataset_src.peoples_speech_test import peoples_speech_test_dataset
-
+from dataset_src.gigaspeech_test import gigaspeech_test_dataset
+from dataset_src.earnings21_test import earnings21_test_dataset
+from dataset_src.earnings22_test import earnings22_test_dataset
+from dataset_src.tedlium3_test import tedlium3_test_dataset
+from dataset_src.tedlium3_long_form_test import tedlium3_long_form_test_dataset
 
 # SQA
 from dataset_src.cn_college_listen_test import cn_college_listen_test_dataset
@@ -69,6 +73,12 @@ class Dataset(object):
         elif self.dataset_name == 'librispeech_test_other': self.raw_data   = load_dataset("AudioLLMs/librispeech_test_other_v2")['test']
         elif self.dataset_name == 'common_voice_15_en_test': self.raw_data  = load_dataset("AudioLLMs/common_voice_15_en_test_v2")['test']
         elif self.dataset_name == 'peoples_speech_test': self.raw_data      = load_dataset("AudioLLMs/peoples_speech_test_v2")['test']
+        elif self.dataset_name == 'gigaspeech_test': self.raw_data          = load_dataset("AudioLLMs/gigaspeech_test_v2")['test']
+        elif self.dataset_name == 'earnings21_test': self.raw_data          = load_dataset("AudioLLMs/earnings21_test")['test']
+        elif self.dataset_name == 'earnings22_test': self.raw_data          = load_dataset("AudioLLMs/earnings22_test")['test']
+        elif self.dataset_name == 'tedlium3_test': self.raw_data            = load_dataset("AudioLLMs/tedlium3_test_v2")['test']
+        elif self.dataset_name == 'tedlium3_long_form_test': self.raw_data  = load_dataset("AudioLLMs/tedlium3_long_form_test_v2")['test']
+        
         
         else:
             raise NotImplementedError("Dataset {} not implemented yet".format(self.dataset_name))
@@ -87,7 +97,11 @@ class Dataset(object):
         elif self.dataset_name == 'librispeech_test_other': self.dataset_processor   = librispeech_test_other_dataset(self.raw_data, self.number_of_samples)
         elif self.dataset_name == 'common_voice_15_en_test': self.dataset_processor  = common_voice_15_en_test_dataset(self.raw_data, self.number_of_samples)
         elif self.dataset_name == 'peoples_speech_test': self.dataset_processor      = peoples_speech_test_dataset(self.raw_data, self.number_of_samples)
-
+        elif self.dataset_name == 'gigaspeech_test': self.dataset_processor          = gigaspeech_test_dataset(self.raw_data, self.number_of_samples)
+        elif self.dataset_name == 'earnings21_test': self.dataset_processor          = earnings21_test_dataset(self.raw_data, self.number_of_samples)
+        elif self.dataset_name == 'earnings22_test': self.dataset_processor          = earnings22_test_dataset(self.raw_data, self.number_of_samples)
+        elif self.dataset_name == 'tedlium3_test': self.dataset_processor            = tedlium3_test_dataset(self.raw_data, self.number_of_samples)
+        elif self.dataset_name == 'tedlium3_long_form_test': self.dataset_processor  = tedlium3_long_form_test_dataset(self.raw_data, self.number_of_samples)
 
         else:
             raise NotImplementedError("Dataset {} not implemented yet".format(self.dataset_name))

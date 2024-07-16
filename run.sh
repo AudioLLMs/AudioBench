@@ -17,6 +17,19 @@ OVERWRITE=True
 NUMBER_OF_SAMPLES=50
 # =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
 
+# ASR
+DATASET=librispeech_test_clean
+DATASET=librispeech_test_other
+DATASET=common_voice_15_en_test
+DATASET=peoples_speech_test
+DATASET=gigaspeech_test
+DATASET=earnings21_test
+DATASET=earnings22_test
+DATASET=tedlium3_test
+DATASET=tedlium3_long_form_test
+
+METRICS=wer
+
 
 # SQA
 DATASET=cn_college_listen_test
@@ -26,15 +39,11 @@ DATASET=dream_tts_test
 
 METRICS=llama3_70b_judge
 
+# SI
+DATASET=openhermes_audio_test
+# DATASET=alpaca_audio_test
 
-
-# ASR
-DATASET=librispeech_test_clean
-DATASET=librispeech_test_other
-DATASET=common_voice_15_en_test
-DATASET=peoples_speech_test
-
-METRICS=wer
+METRICS=llama3_70b_judge
 
 
 

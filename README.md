@@ -90,6 +90,11 @@ Voice Understanding
 |**LibriSpeech-Other**|SU|ASR|WER|✅︎|
 |**CommonVoice-15-EN**|SU|ASR|WER|✅︎|
 |**Peoples-Speech**|SU|ASR|WER|✅︎|
+|**GigaSpeech**|SU|ASR|WER|✅︎|
+|**Earning21**|SU|ASR|WER|✅︎|
+|**Earning22**|SU|ASR|WER|✅︎|
+|**Tedlium3**|SU|ASR|WER|✅︎|
+|**Tedlium3-Longform**|SU|ASR|WER|✅︎|
 |**CN-College-Listen**|SU|SQA|Model-as-Judge|✅︎|
 |**SLUE-P2-SQA5**|SU|SQA|Model-as-Judge|✅︎|
 |**Public-SG-SpeechQA**|SU|SQA|Model-as-Judge|✅︎|
