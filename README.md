@@ -117,8 +117,8 @@ VU=Voice Understanding
 ### Models
 |Model|Size|Notes|Status|
 |---|---|---|---|
-|Whisper-Large + Llama-3-8B-Instruct|~8B|Cascade Models|✅︎|
-|SALMONN-7B|~7B|AudioLLM - Fusion Model|✅︎|
+|Whisper-Large + Llama-3-8B-Instruct|~8B|Cascade Models|✅|
+|SALMONN-7B|~7B|AudioLLM - Fusion Model|✅|
 |Qwen-Audio|~8B|AudioLLM - Fusion Model|TODO|
 
 
