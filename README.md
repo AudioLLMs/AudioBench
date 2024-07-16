@@ -64,6 +64,11 @@ bash eval.sh $DATASET $MODEL_NAME $GPU $BATCH_SIZE $OVERWRITE $METRICS $NUMBER_O
 ```
 The example is how to get started. To evaluate on the full datasets, please refer to [Examples](./examples/).
 
+```shell
+# After model weight download, run the evaluation script for all datasets
+bash examples/eval_SALMONN_7B.sh
+```
+
 
 ## 📚 Supported Models and Datasets
 
