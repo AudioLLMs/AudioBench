@@ -15,7 +15,21 @@
 import random
 import logging
 
-class public_sg_speech_qa_test_dataset(object):
+ac_instructions = [
+    "Listen to the audio and give a description.",
+    "Hear the recording and summarize it briefly.",
+    "Check the audio and provide an overview.",
+    "Listen to the clip and write a description.",
+    "Hear the sound and explain what you hear.",
+    "Review the audio and offer a description.",
+    "Analyze the recording and describe it.",
+    "Listen to the track and summarize it.",
+    "Observe the audio and give an account of it.",
+    "Hear the audio and write a brief description."
+]
+
+
+class wavcaps_test_dataset(object):
 
     def __init__(self, raw_data, number_of_samples):
 
@@ -24,6 +38,7 @@ class public_sg_speech_qa_test_dataset(object):
             raw_data = raw_data.select(range(number_of_samples))
         
         self.raw_data = raw_data
+        self.prompt = ac_instructions
         logging.info('Number of samples: {}'.format(len(self.raw_data)))
 
 
@@ -32,13 +47,13 @@ class public_sg_speech_qa_test_dataset(object):
         input_data = []
         for sample in self.raw_data:
             audio       = sample['context']
-            instruction = sample['instruction']
+            instruction = random.choice(self.prompt)
             reference   = sample['answer']
             input_data.append({
                                 "audio"    : audio,
                                 "text"     : instruction,
                                 "answer"   : reference,
-                                "task_type": "SQA"
+                                "task_type": "AC"
                                 })
 
         logging.info('\n=  =  =  Dataset Sample  =  =  =')
@@ -56,6 +71,7 @@ class public_sg_speech_qa_test_dataset(object):
             del new_sample["audio"]
             new_sample['model_prediction'] = model_predictions.pop(0)
             data_with_model_predictions.append(new_sample)
+            
         return data_with_model_predictions
 
 
@@ -95,7 +111,11 @@ class public_sg_speech_qa_test_dataset(object):
             gpt4_judge_results = gpt4_as_judge("", [questions, references, predictions])
             return {'gpt4_judge': gpt4_judge_results}
         
+        elif metrics == 'meteor':
+            import evaluate
+            meteor         = evaluate.load('meteor')
+            meteor_results = meteor.compute(predictions=predictions, references=references)
+            return {'meteor': float(meteor_results['meteor'])}
+
         else:
             raise ValueError("Invalid metrics: {}".format(metrics))
-
-

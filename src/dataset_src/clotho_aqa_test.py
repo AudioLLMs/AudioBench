@@ -11,11 +11,12 @@
 # Date&Time 			By	Comments
 # ----------			---	----------------------------------------------------------
 ###
-
+import os
 import random
 import logging
 
-class public_sg_speech_qa_test_dataset(object):
+
+class clotho_aqa_test_dataset(object):
 
     def __init__(self, raw_data, number_of_samples):
 
@@ -38,7 +39,7 @@ class public_sg_speech_qa_test_dataset(object):
                                 "audio"    : audio,
                                 "text"     : instruction,
                                 "answer"   : reference,
-                                "task_type": "SQA"
+                                "task_type": "ASQA"
                                 })
 
         logging.info('\n=  =  =  Dataset Sample  =  =  =')

@@ -15,7 +15,22 @@
 import random
 import logging
 
-class public_sg_speech_qa_test_dataset(object):
+si_instructions = [
+    "Kindly adhere to the directions provided in the audio.",
+    "Please comply with the instructions given in the audio clip.",
+    "Please obey the instructions that were provided in the audio.",
+    "Please adhere to the instructions given in the audio.",
+    "Please make sure to follow the instructions provided in the audio.",
+    "Please ensure you follow the directions provided in the audio.",
+    "Please adhere strictly to the instructions in the audio recording.",
+    "Please adhere to the guidelines provided in the audio.",
+    "Please make it a point to follow the instructions from the audio.",
+    "Please listen carefully and follow the instructions given in the audio."
+]
+
+
+
+class openhermes_audio_test_dataset(object):
 
     def __init__(self, raw_data, number_of_samples):
 
@@ -24,6 +39,7 @@ class public_sg_speech_qa_test_dataset(object):
             raw_data = raw_data.select(range(number_of_samples))
         
         self.raw_data = raw_data
+        self.prompt   = si_instructions
         logging.info('Number of samples: {}'.format(len(self.raw_data)))
 
 
@@ -31,14 +47,16 @@ class public_sg_speech_qa_test_dataset(object):
 
         input_data = []
         for sample in self.raw_data:
-            audio       = sample['context']
-            instruction = sample['instruction']
-            reference   = sample['answer']
+            audio                  = sample['context']
+            instruction            = random.choice(self.prompt)
+            audio_text_instruction = sample['speech_instruction']
+            reference              = sample['answer']
             input_data.append({
-                                "audio"    : audio,
-                                "text"     : instruction,
-                                "answer"   : reference,
-                                "task_type": "SQA"
+                                "audio"                 : audio,
+                                "text"                  : instruction,
+                                "audio_text_instruction": audio_text_instruction,
+                                "answer"                : reference,
+                                "task_type"             : "SI"
                                 })
 
         logging.info('\n=  =  =  Dataset Sample  =  =  =')
@@ -67,7 +85,7 @@ class public_sg_speech_qa_test_dataset(object):
 
         for item in data_with_model_predictions:
         
-            question         = item["text"]
+            question         = item["audio_text_instruction"]
             answer           = item["answer"]
             model_prediction = item["model_prediction"]
 

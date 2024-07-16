@@ -15,7 +15,22 @@
 import random
 import logging
 
-class public_sg_speech_qa_test_dataset(object):
+er_instructions = [
+    "How do you perceive the speaker's emotional state from their speech?",
+    "What emotions do you detect in the speaker's voice?",
+    "Can you identify the speaker's emotional state from their speech?",
+    "Based on their speech, how would you describe the speaker's emotions?",
+    "What emotional cues can you pick up from the speaker's speech?",
+    "How would you describe the emotions conveyed in the speaker's voice?",
+    "What do you think the speaker is feeling based on their speech?",
+    "Can you interpret the emotions in the speaker's speech?",
+    "How does the speaker's speech reflect their emotional state?",
+    "What is the emotional tone of the speaker's speech?"
+]
+
+
+
+class meld_emotion_test_dataset(object):
 
     def __init__(self, raw_data, number_of_samples):
 
@@ -24,6 +39,7 @@ class public_sg_speech_qa_test_dataset(object):
             raw_data = raw_data.select(range(number_of_samples))
         
         self.raw_data = raw_data
+        self.prompt   = er_instructions
         logging.info('Number of samples: {}'.format(len(self.raw_data)))
 
 
@@ -32,13 +48,13 @@ class public_sg_speech_qa_test_dataset(object):
         input_data = []
         for sample in self.raw_data:
             audio       = sample['context']
-            instruction = sample['instruction']
+            instruction = random.choice(self.prompt)
             reference   = sample['answer']
             input_data.append({
                                 "audio"    : audio,
                                 "text"     : instruction,
                                 "answer"   : reference,
-                                "task_type": "SQA"
+                                "task_type": "ER"
                                 })
 
         logging.info('\n=  =  =  Dataset Sample  =  =  =')

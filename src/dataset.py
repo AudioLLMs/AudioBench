@@ -12,7 +12,6 @@
 # ----------			---	----------------------------------------------------------
 ###
 
-
 import logging
 import os
 
@@ -39,6 +38,30 @@ from dataset_src.slue_p2_sqa5_test import slue_p2_sqa5_test_dataset
 from dataset_src.public_sg_speech_qa_test import public_sg_speech_qa_test_dataset
 from dataset_src.dream_tts_test import dream_tts_test_dataset
 
+# SI
+from dataset_src.openhermes_audio_test import openhermes_audio_test_dataset
+from dataset_src.alpaca_audio_test import alpaca_audio_test_dataset
+
+# AC
+from dataset_src.audiocaps_test import audiocaps_test_dataset
+from dataset_src.wavcaps_test import wavcaps_test_dataset
+
+# ASQA
+from dataset_src.clotho_aqa_test import clotho_aqa_test_dataset
+from dataset_src.audiocaps_qa_test import audiocaps_qa_test_dataset
+from dataset_src.wavcaps_qa_test import wavcaps_qa_test_dataset
+
+# AR
+from dataset_src.voxceleb_accent_test import voxceleb_accent_test_dataset
+
+# GR
+from dataset_src.voxceleb_gender_test import voxceleb_gender_test_dataset
+from dataset_src.iemocap_gender_test import iemocap_gender_test_dataset
+
+# ER
+from dataset_src.iemocap_emotion_test import iemocap_emotion_test_dataset
+from dataset_src.meld_sentiment_test import meld_sentiment_test_dataset
+from dataset_src.meld_emotion_test import meld_emotion_test_dataset
 
 # =  =  =  =  =  =  =  =  =  =  =  Logging Setup  =  =  =  =  =  =  =  =  =  =  =  =  =
 logger = logging.getLogger(__name__)
@@ -48,7 +71,6 @@ logging.basicConfig(
     level=logging.INFO,
 )
 # =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
-
 
 class Dataset(object):
 
@@ -78,7 +100,19 @@ class Dataset(object):
         elif self.dataset_name == 'earnings22_test': self.raw_data          = load_dataset("AudioLLMs/earnings22_test")['test']
         elif self.dataset_name == 'tedlium3_test': self.raw_data            = load_dataset("AudioLLMs/tedlium3_test_v2")['test']
         elif self.dataset_name == 'tedlium3_long_form_test': self.raw_data  = load_dataset("AudioLLMs/tedlium3_long_form_test_v2")['test']
-        
+        elif self.dataset_name == 'openhermes_audio_test': self.raw_data    = load_dataset("AudioLLMs/openhermes_instruction_test")['test']
+        elif self.dataset_name == 'alpaca_audio_test': self.raw_data        = load_dataset("AudioLLMs/alpaca_audio_test")['test']
+        elif self.dataset_name == 'audiocaps_test': self.raw_data           = load_dataset("AudioLLMs/audiocaps_test")['test']
+        elif self.dataset_name == 'wavcaps_test': self.raw_data             = load_dataset("AudioLLMs/wavcaps_test")['test']
+        elif self.dataset_name == 'clotho_aqa_test': self.raw_data          = load_dataset("AudioLLMs/clotho_aqa_test")['test']
+        elif self.dataset_name == 'audiocaps_qa_test': self.raw_data        = load_dataset("AudioLLMs/audiocaps_qa_test_v3")['test']
+        elif self.dataset_name == 'wavcaps_qa_test': self.raw_data          = load_dataset("AudioLLMs/wavcaps_qa_test_v3")['test']
+        elif self.dataset_name == 'voxceleb_accent_test': self.raw_data     = load_dataset("AudioLLMs/voxceleb_accent_test")['test']
+        elif self.dataset_name == 'voxceleb_gender_test': self.raw_data     = load_dataset("AudioLLMs/voxceleb_gender_test")['test']
+        elif self.dataset_name == 'iemocap_gender_test': self.raw_data      = load_dataset("AudioLLMs/iemocap_gender_test")['test']
+        elif self.dataset_name == 'iemocap_emotion_test': self.raw_data     = load_dataset("AudioLLMs/iemocap_emotion_test")['test']
+        elif self.dataset_name == 'meld_sentiment_test': self.raw_data      = load_dataset("AudioLLMs/meld_sentiment_test")['test']
+        elif self.dataset_name == 'meld_emotion_test': self.raw_data        = load_dataset("AudioLLMs/meld_emotion_test")['test']
         
         else:
             raise NotImplementedError("Dataset {} not implemented yet".format(self.dataset_name))
@@ -102,6 +136,19 @@ class Dataset(object):
         elif self.dataset_name == 'earnings22_test': self.dataset_processor          = earnings22_test_dataset(self.raw_data, self.number_of_samples)
         elif self.dataset_name == 'tedlium3_test': self.dataset_processor            = tedlium3_test_dataset(self.raw_data, self.number_of_samples)
         elif self.dataset_name == 'tedlium3_long_form_test': self.dataset_processor  = tedlium3_long_form_test_dataset(self.raw_data, self.number_of_samples)
+        elif self.dataset_name == 'openhermes_audio_test': self.dataset_processor    = openhermes_audio_test_dataset(self.raw_data, self.number_of_samples)
+        elif self.dataset_name == 'alpaca_audio_test': self.dataset_processor        = alpaca_audio_test_dataset(self.raw_data, self.number_of_samples)
+        elif self.dataset_name == 'audiocaps_test': self.dataset_processor           = audiocaps_test_dataset(self.raw_data, self.number_of_samples)
+        elif self.dataset_name == 'wavcaps_test': self.dataset_processor             = wavcaps_test_dataset(self.raw_data, self.number_of_samples)
+        elif self.dataset_name == 'clotho_aqa_test': self.dataset_processor          = clotho_aqa_test_dataset(self.raw_data, self.number_of_samples)
+        elif self.dataset_name == 'audiocaps_qa_test': self.dataset_processor        = audiocaps_qa_test_dataset(self.raw_data, self.number_of_samples)
+        elif self.dataset_name == 'wavcaps_qa_test': self.dataset_processor          = wavcaps_qa_test_dataset(self.raw_data, self.number_of_samples)
+        elif self.dataset_name == 'voxceleb_accent_test': self.dataset_processor     = voxceleb_accent_test_dataset(self.raw_data, self.number_of_samples)
+        elif self.dataset_name == 'voxceleb_gender_test': self.dataset_processor     = voxceleb_gender_test_dataset(self.raw_data, self.number_of_samples)
+        elif self.dataset_name == 'iemocap_gender_test': self.dataset_processor      = iemocap_gender_test_dataset(self.raw_data, self.number_of_samples)
+        elif self.dataset_name == 'iemocap_emotion_test': self.dataset_processor     = iemocap_emotion_test_dataset(self.raw_data, self.number_of_samples)
+        elif self.dataset_name == 'meld_sentiment_test': self.dataset_processor      = meld_sentiment_test_dataset(self.raw_data, self.number_of_samples)
+        elif self.dataset_name == 'meld_emotion_test': self.dataset_processor        = meld_emotion_test_dataset(self.raw_data, self.number_of_samples)
 
         else:
             raise NotImplementedError("Dataset {} not implemented yet".format(self.dataset_name))

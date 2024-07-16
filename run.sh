@@ -17,6 +17,7 @@ OVERWRITE=True
 NUMBER_OF_SAMPLES=50
 # =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
 
+
 # ASR
 DATASET=librispeech_test_clean
 DATASET=librispeech_test_other
@@ -39,11 +40,51 @@ DATASET=dream_tts_test
 
 METRICS=llama3_70b_judge
 
+
 # SI
 DATASET=openhermes_audio_test
-# DATASET=alpaca_audio_test
+DATASET=alpaca_audio_test
 
 METRICS=llama3_70b_judge
+
+
+# AC
+DATASET=audiocaps_test
+DATASET=wavcaps_test
+
+METRICS=llama3_70b_judge
+METRICS=meteor
+
+
+# ASQA
+DATASET=clotho_aqa_test
+DATASET=audiocaps_qa_test
+DATASET=wavcaps_qa_test
+
+METRICS=llama3_70b_judge
+
+
+# AR
+DATASET=voxceleb_accent_test
+
+METRICS=llama3_70b_judge
+
+
+# GR
+DATASET=voxceleb_gender_test
+DATASET=iemocap_gender_test
+
+
+METRICS=llama3_70b_judge
+
+
+# ER
+DATASET=iemocap_emotion_test
+DATASET=meld_sentiment_test
+DATASET=meld_emotion_test
+
+METRICS=llama3_70b_judge
+
 
 
 

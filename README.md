@@ -78,7 +78,7 @@ ASU=Audio Scene Understanding
   AC=Audio Captioning
   ASQA=Audio Scene Question Answering
 
-Voice Understanding
+VU=Voice Understanding
   AR=Accent Recognition
   GR=Gender Recognition
   ER=Emotion Recognition
@@ -99,6 +99,19 @@ Voice Understanding
 |**SLUE-P2-SQA5**|SU|SQA|Model-as-Judge|✅︎|
 |**Public-SG-SpeechQA**|SU|SQA|Model-as-Judge|✅︎|
 |**DREAM-TTS**|SU|SQA|Model-as-Judge|✅︎|
+|**OpenHermes-Audio**|SU|SI|Model-as-Judge|✅︎|
+|**ALPACA-Audio**|SU|SI|Model-as-Judge|✅︎|
+|**AudioCaps**|ASU|AC|Model-as-Judge / METEOR|✅︎|
+|**WavCaps**|ASU|AC|Model-as-Judge / METEOR|✅︎|
+|**Clotho-AQA**|ASU|ASQA|Model-as-Judge|✅︎|
+|**AudioCaps-QA**|ASU|ASQA|Model-as-Judge|✅︎|
+|**WavCaps-QA**|ASU|ASQA|Model-as-Judge|✅︎|
+|**VoxCeleb-Accent**|VU|AR|Model-as-Judge|✅︎|
+|**VoxCeleb-Gender**|VU|GR|Model-as-Judge|✅︎|
+|**IEMOCAP-Gender**|VU|GR|Model-as-Judge|✅︎|
+|**IEMOCAP-Emotion**|VU|ER|Model-as-Judge|✅︎|
+|**MELD-Sentiment**|VU|ER|Model-as-Judge|✅︎|
+|**MELD-Emotion**|VU|ER|Model-as-Judge|✅︎|
 
 
 ### Models
@@ -119,5 +132,4 @@ If you find our work useful, please consider citing our paper!
   year={2024}
 }
 ```
-
 

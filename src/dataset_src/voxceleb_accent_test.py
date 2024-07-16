@@ -15,7 +15,23 @@
 import random
 import logging
 
-class public_sg_speech_qa_test_dataset(object):
+
+ar_instructions = [
+    "Can you determine the speaker's nationality from their accent?",
+    "Based on the accent, can you guess the speaker's nationality?",
+    "Can you identify the nationality of the speaker by their accent?",
+    "From the speaker's accent, can you tell their nationality?",
+    "Can you guess the nationality from the speaker's accent?",
+    "Based on their accent, can you determine the speaker's nationality?",
+    "Can you tell the nationality of the speaker based on their accent?",
+    "From the accent, can you identify the speaker's nationality?",
+    "Can you recognize the speaker's nationality from their accent?",
+    "Based on the accent, can you identify the speaker's nationality?"
+]
+
+
+
+class voxceleb_accent_test_dataset(object):
 
     def __init__(self, raw_data, number_of_samples):
 
@@ -24,6 +40,7 @@ class public_sg_speech_qa_test_dataset(object):
             raw_data = raw_data.select(range(number_of_samples))
         
         self.raw_data = raw_data
+        self.prompt   = ar_instructions
         logging.info('Number of samples: {}'.format(len(self.raw_data)))
 
 
@@ -32,13 +49,13 @@ class public_sg_speech_qa_test_dataset(object):
         input_data = []
         for sample in self.raw_data:
             audio       = sample['context']
-            instruction = sample['instruction']
+            instruction = random.choice(self.prompt)
             reference   = sample['answer']
             input_data.append({
                                 "audio"    : audio,
                                 "text"     : instruction,
                                 "answer"   : reference,
-                                "task_type": "SQA"
+                                "task_type": "AR"
                                 })
 
         logging.info('\n=  =  =  Dataset Sample  =  =  =')
@@ -54,8 +71,13 @@ class public_sg_speech_qa_test_dataset(object):
         for sample in input_data:
             new_sample = sample.copy()
             del new_sample["audio"]
+
+            # special treatment for accent
+            new_sample['answer'] = new_sample['answer'].replace('From the audio, I guess the speaker is from ', '')
+            
             new_sample['model_prediction'] = model_predictions.pop(0)
             data_with_model_predictions.append(new_sample)
+            
         return data_with_model_predictions
 
 
