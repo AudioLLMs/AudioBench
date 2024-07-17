@@ -17,6 +17,10 @@
   ⚡ AudioBench: A Universal Benchmark for Audio Large Language Models 🚀 ⚡ <br>
 </p>
 
+## Change log
+
+* *July 2024*: Support all 26 datasets listed in AudioBench manuscript.
+
 
 
 ## 🔧 Installation
@@ -125,6 +129,7 @@ VU=Voice Understanding
 |Whisper-Large + Llama-3-8B-Instruct|~8B|Cascade Models|✅|
 |SALMONN-7B|~7B|AudioLLM - Fusion Model|✅|
 |Qwen-Audio|~8B|AudioLLM - Fusion Model|TODO|
+|Qwen2-Audio|~8B|AudioLLM - Fusion Model|TODO|
 
 
 ## 📖 Citation
