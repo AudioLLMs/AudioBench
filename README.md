@@ -5,7 +5,6 @@
 <h1 align="center">🔥 AudioBench 🔥</h1>
 
 
-
 <p align="center">
   <a href="https://arxiv.org/abs/2406.16020"><img src="https://img.shields.io/badge/arXiv-2406.16020-b31b1b.svg" alt="arXiv"></a>
   <a href="AudioLLMs"><img src="https://img.shields.io/badge/Hugging%20Face-Organization-ff9d00" alt="Hugging Face Organization"></a>
@@ -19,6 +18,7 @@
 
 ## Change log
 
+* *July 2024*: We are working hard on the leaderboard and speech translation dataset. Stay tuned!
 * *July 2024*: Support all 26 datasets listed in AudioBench manuscript.
 
 
