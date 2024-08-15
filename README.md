@@ -41,7 +41,10 @@ The example is hosting a `Llama-3-70B-Instruct` model and running the cascade `W
 # It will auto-download the model and may requires verification from Hugging Face.
 # In the demo, we use 2 H100 80G in order to host the model.
 # For smaller VRAM, you may need to reduce the model size.
-bash host_model_judge_llama_3_70b_instruct.sh
+# bash host_model_judge_llama_3_70b_instruct.sh
+
+# Another option (recommended) is to use the quantized model which could be hosted on 2*40G GPUs.
+bash host_model_judge_llama_3_70b_instruct_awq.sh
 
 # Step 2:
 # The example is done with 3 H100 80G GPUs.
