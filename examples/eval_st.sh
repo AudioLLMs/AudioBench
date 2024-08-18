@@ -1,22 +1,26 @@
 
 
 
-DATASET=cn_college_listen_mcq_test
-METRICS=llama3_70b_judge_binary
+DATASET=covost2_en_id_test
+METRICS=bleu
 bash eval.sh $DATASET $MODEL_NAME $GPU $BATCH_SIZE $OVERWRITE $METRICS $NUMBER_OF_SAMPLES
 
-DATASET=slue_p2_sqa5_test
-METRICS=llama3_70b_judge
+DATASET=covost2_en_zh_test
+METRICS=bleu
 bash eval.sh $DATASET $MODEL_NAME $GPU $BATCH_SIZE $OVERWRITE $METRICS $NUMBER_OF_SAMPLES
 
-DATASET=dream_tts_test
-METRICS=llama3_70b_judge_binary
+DATASET=covost2_en_ta_test
+METRICS=bleu
 bash eval.sh $DATASET $MODEL_NAME $GPU $BATCH_SIZE $OVERWRITE $METRICS $NUMBER_OF_SAMPLES
 
-DATASET=public_sg_speech_qa_test
-METRICS=llama3_70b_judge
+DATASET=covost2_id_en_test
+METRICS=bleu
 bash eval.sh $DATASET $MODEL_NAME $GPU $BATCH_SIZE $OVERWRITE $METRICS $NUMBER_OF_SAMPLES
 
-DATASET=spoken_squad_test
-METRICS=llama3_70b_judge
+DATASET=covost2_zh_en_test
+METRICS=bleu
+bash eval.sh $DATASET $MODEL_NAME $GPU $BATCH_SIZE $OVERWRITE $METRICS $NUMBER_OF_SAMPLES
+
+DATASET=covost2_ta_en_test
+METRICS=bleu
 bash eval.sh $DATASET $MODEL_NAME $GPU $BATCH_SIZE $OVERWRITE $METRICS $NUMBER_OF_SAMPLES

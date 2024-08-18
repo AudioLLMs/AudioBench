@@ -47,6 +47,7 @@ class Model(object):
 
         if self.model_name == "whisper_large_v3_with_llama_3_8b_instruct": whisper_large_v3_with_llama_3_8b_instruct_model_loader(self)
         elif self.model_name == "salmonn_7b": salmonn_7b_model_loader(self)
+        elif self.model_name == 'temp_model': salmonn_7b_model_loader(self)
         
         else:
             raise NotImplementedError("Model {} not implemented yet".format(self.model_name))
@@ -57,6 +58,7 @@ class Model(object):
         with torch.no_grad():
             if self.model_name == "whisper_large_v3_with_llama_3_8b_instruct": return whisper_large_v3_with_llama_3_8b_instruct_model_generation(self, input)
             elif self.model_name == "salmonn_7b": return salmonn_7b_model_generation(self, input)
+            elif self.model_name == "temp_model": return salmonn_7b_model_generation(self, input)
             
             else:
                 raise NotImplementedError("Model {} not implemented yet".format(self.model_name))

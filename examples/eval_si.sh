@@ -1,13 +1,5 @@
 
 
-# =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
-MODEL_NAME=salmonn_7b
-GPU=3
-BATCH_SIZE=1
-OVERWRITE=True
-NUMBER_OF_SAMPLES=20
-# =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
-
 
 DATASET=openhermes_audio_test
 METRICS=llama3_70b_judge

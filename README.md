@@ -77,7 +77,7 @@ The example is how to get started. To evaluate on the full datasets, please refe
 
 ```shell
 # After model weight download, run the evaluation script for all datasets
-bash examples/eval_SALMONN_7B.sh
+bash examples/eval_salmonn_7b.sh
 ```
 
 
@@ -89,6 +89,8 @@ bash examples/eval_SALMONN_7B.sh
 - **ASR**: [Automatic Speech Recognition](#ASR-English)
 - **SQA**: [Speech Question Answering](#SQA)
 - **SI**: [Speech Instruction](#SI)
+- **ST**: [Speech Translation](#ST)
+- **ASR-CN**: [Automatic Speech Recognition for Chinese](#ASR-Chinese)
 
 ### Audio Scene Understanding
 - **AC**: [Audio Captioning](#AC)
@@ -114,7 +116,12 @@ bash examples/eval_SALMONN_7B.sh
 |**Tedlium3-Longform**|Word-Error-Rate|✅|
 
 ```shell
-bash examples/eval_asr_en.sh
+export MODEL_NAME=whisper_large_v3_with_llama_3_8b_instruct
+export GPU=3
+export BATCH_SIZE=1
+export OVERWRITE=False
+export NUMBER_OF_SAMPLES=-1
+bash examples/eval_sqa.sh
 ```
 
 #### SQA
@@ -124,6 +131,7 @@ bash examples/eval_asr_en.sh
 |**SLUE-P2-SQA5**|Model-as-Judge|✅|
 |**DREAM-TTS**|Model-as-Judge (binary)|✅|
 |**Public-SG-SpeechQA**|Model-as-Judge|✅|
+|**Spoken-SQuAD**|Model-as-Judge|✅|
 
 ```shell
 bash examples/eval_sqa.sh
@@ -137,6 +145,29 @@ bash examples/eval_sqa.sh
 
 ```shell
 bash examples/eval_si.sh
+```
+
+#### ST
+|Dataset|Metrics|Status|
+|---|---|---|
+|**CoVost2-English-Indonesian**|BLEU|✅|
+|**CoVost2-English-Chinese**|BLEU|✅|
+|**CoVost2-English-Tamil**|BLEU|✅|
+|**CoVost2-Indonesian-English**|BLEU|✅|
+|**CoVost2-Chinese-English**|BLEU|✅|
+|**CoVost2-Tamil-English**|BLEU|✅|
+
+```shell
+bash examples/eval_st.sh
+```
+
+#### ASR-Chinese
+|Dataset|Metrics|Status|
+|---|---|---|
+|**AISHELL-ASR-ZH**|Word-Error-Rate|✅|
+
+```shell
+bash examples/eval_asr_cn.sh
 ```
 
 #### AC
@@ -193,7 +224,7 @@ bash examples/eval_er.sh
 ### Models
 |Name|Size|Notes|Status|
 |---|---|---|---|
-|Whisper-Large + Llama-3-8B-Instruct|~8B|Cascade Models|✅|
+|Whisper-Large+Llama-3-8B-Instruct|~8B|Cascade Models|✅|
 |SALMONN|~7B|End2End|✅|
 |Qwen-Audio|~8B|End2End|TODO|
 |WavLM|~7B|End2End|TODO|
