@@ -114,7 +114,7 @@ bash examples/eval_SALMONN_7B.sh
 |**Tedlium3-Longform**|Word-Error-Rate|✅|
 
 ```shell
-bash eval_asr_en.sh
+bash examples/eval_asr_en.sh
 ```
 
 #### SQA
@@ -126,7 +126,7 @@ bash eval_asr_en.sh
 |**Public-SG-SpeechQA**|Model-as-Judge|✅|
 
 ```shell
-bash eval_sqa.sh
+bash examples/eval_sqa.sh
 ```
 
 #### SI
@@ -136,7 +136,7 @@ bash eval_sqa.sh
 |**ALPACA-Audio**|Model-as-Judge|✅|
 
 ```shell
-bash eval_si.sh
+bash examples/eval_si.sh
 ```
 
 #### AC
@@ -146,7 +146,7 @@ bash eval_si.sh
 |**WavCaps**|Model-as-Judge / METEOR|✅|
 
 ```shell
-bash eval_ac.sh
+bash examples/eval_ac.sh
 ```
 
 #### ASQA
@@ -157,7 +157,7 @@ bash eval_ac.sh
 |**WavCaps-QA**|Model-as-Judge|✅|
 
 ```shell
-bash eval_asqa.sh
+bash examples/eval_asqa.sh
 ```
 
 #### AR
@@ -166,7 +166,7 @@ bash eval_asqa.sh
 |**VoxCeleb-Accent**|Model-as-Judge|✅|
 
 ```shell
-bash eval_ar.sh
+bash examples/eval_ar.sh
 ```
 
 #### GR
@@ -176,7 +176,7 @@ bash eval_ar.sh
 |**IEMOCAP-Gender**|Model-as-Judge (binary)|✅|
 
 ```shell
-bash eval_gr.sh
+bash examples/eval_gr.sh
 ```
 
 #### ER
@@ -187,7 +187,7 @@ bash eval_gr.sh
 |**MELD-Emotion**|Model-as-Judge (binary)|✅|
 
 ```shell
-bash eval_er.sh
+bash examples/eval_er.sh
 ```
 
 ### Models
@@ -196,7 +196,7 @@ bash eval_er.sh
 |Whisper-Large + Llama-3-8B-Instruct|~8B|Cascade Models|✅|
 |SALMONN|~7B|End2End|✅|
 |Qwen-Audio|~8B|End2End|TODO|
-|WavLM|~7B|End2End|✅|
+|WavLM|~7B|End2End|TODO|
 |Qwen2-Audio|~8B|End2End|TODO|
 
 More models are accessible in this [survey]((https://github.com/AudioLLMs/AudioLLM)).
