@@ -16,16 +16,16 @@ import random
 import logging
 
 er_instructions = [
-    "How do you perceive the speaker's emotional state from their speech?",
-    "What emotions do you detect in the speaker's voice?",
-    "Can you identify the speaker's emotional state from their speech?",
-    "Based on their speech, how would you describe the speaker's emotions?",
-    "What emotional cues can you pick up from the speaker's speech?",
-    "How would you describe the emotions conveyed in the speaker's voice?",
-    "What do you think the speaker is feeling based on their speech?",
-    "Can you interpret the emotions in the speaker's speech?",
-    "How does the speaker's speech reflect their emotional state?",
-    "What is the emotional tone of the speaker's speech?"
+    "How do you perceive the speaker's emotional state from their speech (neutral, joy, disgust, sadness, surprise, anger, fear)?",
+    "What emotions do you detect in the speaker's voice (neutral, joy, disgust, sadness, surprise, anger, fear)?",
+    "Can you identify the speaker's emotional state from their speech (neutral, joy, disgust, sadness, surprise, anger, fear)?",
+    "Based on their speech, how would you describe the speaker's emotions (neutral, joy, disgust, sadness, surprise, anger, fear)?",
+    "What emotional cues can you pick up from the speaker's speech (neutral, joy, disgust, sadness, surprise, anger, fear)?",
+    "How would you describe the emotions conveyed in the speaker's voice (neutral, joy, disgust, sadness, surprise, anger, fear)?",
+    "What do you think the speaker is feeling based on their speech (neutral, joy, disgust, sadness, surprise, anger, fear)?",
+    "Can you interpret the emotions in the speaker's speech (neutral, joy, disgust, sadness, surprise, anger, fear)?",
+    "How does the speaker's speech reflect their emotional state (neutral, joy, disgust, sadness, surprise, anger, fear)?",
+    "What is the emotional tone of the speaker's speech (neutral, joy, disgust, sadness, surprise, anger, fear)?"
 ]
 
 
@@ -95,7 +95,12 @@ class meld_emotion_test_dataset(object):
             from dataset_src.eval_methods.eval_llama3_70b import llama3_70b_as_judge
             llama3_70b_judge_results, all_details = llama3_70b_as_judge("meta-llama/Meta-Llama-3-70B-Instruct", [questions, references, predictions])
             return {'llama3_70b_judge': llama3_70b_judge_results, 'details': all_details}
-        
+
+        elif metrics == 'llama3_70b_judge_binary':
+            from dataset_src.eval_methods.eval_llama3_70b import llama3_70b_as_judge_binary
+            llama3_70b_judge_binary_results, all_details = llama3_70b_as_judge_binary("meta-llama/Meta-Llama-3-70B-Instruct", [questions, references, predictions])
+            return {'llama3_70b_judge_binary': llama3_70b_judge_binary_results, 'details': all_details}        
+
         elif metrics == 'llama3_8b_judge':
             from dataset_src.eval_methods.eval_llama3_8b import llama3_8b_as_judge
             llama3_8b_judge_results = llama3_8b_as_judge("../prepared_models/Meta-Llama-3-8B-Instruct-hf", [questions, references, predictions])
