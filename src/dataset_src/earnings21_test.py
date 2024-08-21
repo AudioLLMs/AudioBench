@@ -83,8 +83,8 @@ class earnings21_test_dataset(object):
         if metrics != 'wer':
             raise ValueError(f"Unsupported metric: {metrics}. Supported metrics: 'wer' for ASR")
         
-        predictions=[]
-        references=[]
+        predictions = []
+        references  = []
         for item in data_with_model_predictions:
             model_prediction = preprocess_text_asr(item["model_prediction"])
             answer           = preprocess_text_asr(item["answer"])

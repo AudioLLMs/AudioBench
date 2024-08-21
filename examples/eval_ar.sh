@@ -1,0 +1,8 @@
+
+
+
+
+
+DATASET=voxceleb_accent_test
+METRICS=llama3_70b_judge
+bash eval.sh $DATASET $MODEL_NAME $GPU $BATCH_SIZE $OVERWRITE $METRICS $NUMBER_OF_SAMPLES

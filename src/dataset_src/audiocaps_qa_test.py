@@ -80,7 +80,12 @@ class audiocaps_qa_test_dataset(object):
             from dataset_src.eval_methods.eval_llama3_70b import llama3_70b_as_judge
             llama3_70b_judge_results, all_details = llama3_70b_as_judge("meta-llama/Meta-Llama-3-70B-Instruct", [questions, references, predictions])
             return {'llama3_70b_judge': llama3_70b_judge_results, 'details': all_details}
-        
+
+        elif metrics == 'llama3_70b_judge_binary':
+            from dataset_src.eval_methods.eval_llama3_70b import llama3_70b_as_judge_binary
+            llama3_70b_judge_binary_results, all_details = llama3_70b_as_judge_binary("meta-llama/Meta-Llama-3-70B-Instruct", [questions, references, predictions])
+            return {'llama3_70b_judge_binary': llama3_70b_judge_binary_results, 'details': all_details}
+
         elif metrics == 'llama3_8b_judge':
             from dataset_src.eval_methods.eval_llama3_8b import llama3_8b_as_judge
             llama3_8b_judge_results = llama3_8b_as_judge("../prepared_models/Meta-Llama-3-8B-Instruct-hf", [questions, references, predictions])

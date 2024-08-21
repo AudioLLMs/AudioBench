@@ -10,5 +10,3 @@ git clone https://huggingface.co/AudioLLMs/SALMONN_7B
 cd ..
 bash examples/eval_SALMONN_7B.sh
 ```
-
-

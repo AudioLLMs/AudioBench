@@ -17,16 +17,16 @@ import logging
 
 
 gr_instructions = [
-    "Can you tell the speaker's gender from the audio?",
-    "Can you identify the speaker's gender based on the audio?",
-    "From the audio, can you guess the speaker's gender?",
-    "Can you determine the gender of the speaker from the audio?",
-    "Based on the audio, can you identify the speaker's gender?",
-    "Can you figure out the speaker's gender from the audio?",
-    "Can you discern the speaker's gender based on the audio?",
-    "From the audio, can you determine the speaker's gender?",
-    "Can you recognize the speaker's gender from the audio?",
-    "Can you guess the gender of the speaker based on the audio?"
+    "Can you tell the speaker's gender from the audio (Male or Female)?",
+    "Can you identify the speaker's gender based on the audio (Male or Female)?",
+    "From the audio, can you guess the speaker's gender (Male or Female)?",
+    "Can you determine the gender of the speaker from the audio (Male or Female)?",
+    "Based on the audio, can you identify the speaker's gender (Male or Female)?",
+    "Can you figure out the speaker's gender from the audio (Male or Female)?",
+    "Can you discern the speaker's gender based on the audio (Male or Female)?",
+    "From the audio, can you determine the speaker's gender (Male or Female)?",
+    "Can you recognize the speaker's gender from the audio (Male or Female)?",
+    "Can you guess the gender of the speaker based on the audio (Male or Female)?"
 ]
 
 
@@ -101,7 +101,12 @@ class voxceleb_gender_test_dataset(object):
             from dataset_src.eval_methods.eval_llama3_70b import llama3_70b_as_judge
             llama3_70b_judge_results, all_details = llama3_70b_as_judge("meta-llama/Meta-Llama-3-70B-Instruct", [questions, references, predictions])
             return {'llama3_70b_judge': llama3_70b_judge_results, 'details': all_details}
-        
+
+        elif metrics == 'llama3_70b_judge_binary':
+            from dataset_src.eval_methods.eval_llama3_70b import llama3_70b_as_judge_binary
+            llama3_70b_judge_binary_results, all_details = llama3_70b_as_judge_binary("meta-llama/Meta-Llama-3-70B-Instruct", [questions, references, predictions])
+            return {'llama3_70b_judge_binary': llama3_70b_judge_binary_results, 'details': all_details}        
+
         elif metrics == 'llama3_8b_judge':
             from dataset_src.eval_methods.eval_llama3_8b import llama3_8b_as_judge
             llama3_8b_judge_results = llama3_8b_as_judge("../prepared_models/Meta-Llama-3-8B-Instruct-hf", [questions, references, predictions])

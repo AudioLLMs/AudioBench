@@ -48,6 +48,7 @@ class Model(object):
         if self.model_name == "whisper_large_v3_with_llama_3_8b_instruct": whisper_large_v3_with_llama_3_8b_instruct_model_loader(self)
         elif self.model_name == "salmonn_7b": salmonn_7b_model_loader(self)
         elif self.model_name == "llama3.1-s-whisperspeech": llama3_1_s_model_loader(self)
+
         
         else:
             raise NotImplementedError("Model {} not implemented yet".format(self.model_name))
