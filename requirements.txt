@@ -1,11 +1,16 @@
-transformers==4.41.0
-# torch==2.1.2
-vllm==0.4.0.post1
+openai-whisper
+matplotlib
 fire
 evaluate
 datasets
 jiwer
 more_itertools
 peft
-torchaudio
+torchaudio==2.4.0
+torch==2.4.0
+vllm
+transformers
 distro
+vector_quantize_pytorch
+webdataset
+git+https://github.com/homebrewltd/WhisperSpeech.git

@@ -28,7 +28,7 @@ def gpt4_as_judge(model_path, input_data):
     """ Compute the score of the model on the given data."""
 
     client = AzureOpenAI(
-        azure_endpoint = 'xxxx/xxxx/xxxx', 
+        azure_endpoint = 'https://janchatgpt.openai.azure.com', 
         api_key=os.getenv("AZURE_OPENAI_KEY"),  
         api_version="2024-02-15-preview"
         )
