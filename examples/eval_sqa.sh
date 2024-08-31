@@ -9,7 +9,7 @@ DATASET=slue_p2_sqa5_test
 METRICS=llama3_70b_judge
 bash eval.sh $DATASET $MODEL_NAME $GPU $BATCH_SIZE $OVERWRITE $METRICS $NUMBER_OF_SAMPLES
 
-DATASET=dream_tts_test
+DATASET=dream_tts_mcq_test
 METRICS=llama3_70b_judge_binary
 bash eval.sh $DATASET $MODEL_NAME $GPU $BATCH_SIZE $OVERWRITE $METRICS $NUMBER_OF_SAMPLES
 
