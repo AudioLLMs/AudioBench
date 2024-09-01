@@ -246,7 +246,8 @@ If you find our work useful, please consider citing our paper!
 }
 ```
 
-
-
+#### Researchers, companies or groups that are using AudioBench:
+- [Llama3-S: When Llama Learns to Listen](https://homebrew.ltd/blog/llama3-just-got-ears)
+- More to come...
 
 
