@@ -39,3 +39,6 @@ bash examples/eval_gr.sh
 # ASR-CN
 bash examples/eval_asr_cn.sh
 
+# MUSIC
+bash examples/eval_music.sh
+

@@ -77,6 +77,10 @@ from dataset_src.iemocap_emotion_test import iemocap_emotion_test_dataset
 from dataset_src.meld_sentiment_test import meld_sentiment_test_dataset
 from dataset_src.meld_emotion_test import meld_emotion_test_dataset
 
+# Music
+from dataset_src.mu_chomusic_test import mu_chomusic_test_dataset
+
+
 # =  =  =  =  =  =  =  =  =  =  =  Logging Setup  =  =  =  =  =  =  =  =  =  =  =  =  =
 logger = logging.getLogger(__name__)
 logging.basicConfig(
@@ -137,6 +141,7 @@ class Dataset(object):
         elif self.dataset_name == 'covost2_ta_en_test': self.raw_data         = load_dataset("AudioLLMs/covost2_ta_en_test_v2")['test']
         elif self.dataset_name == 'aishell_asr_zh_test': self.raw_data        = load_dataset("AudioLLMs/aishell_asr_zh_test_v1")['test']
         elif self.dataset_name == 'spoken_squad_test': self.raw_data          = load_dataset("AudioLLMs/spoken_squad_test_v1")['test']
+        elif self.dataset_name == 'mu_chomusic_test': self.raw_data           = load_dataset("AudioLLMs/mu_chomusic_test")['test']
 
         else:
             raise NotImplementedError("Dataset {} not implemented yet".format(self.dataset_name))
@@ -180,16 +185,15 @@ class Dataset(object):
         elif self.dataset_name == 'iemocap_emotion_test': self.dataset_processor       = iemocap_emotion_test_dataset(self.raw_data, self.number_of_samples)
         elif self.dataset_name == 'meld_sentiment_test': self.dataset_processor        = meld_sentiment_test_dataset(self.raw_data, self.number_of_samples)
         elif self.dataset_name == 'meld_emotion_test': self.dataset_processor          = meld_emotion_test_dataset(self.raw_data, self.number_of_samples)
-
-        elif self.dataset_name == 'covost2_en_id_test': self.dataset_processor = covost2_en_id_test_dataset(self.raw_data, self.number_of_samples)
-        elif self.dataset_name == 'covost2_en_zh_test': self.dataset_processor = covost2_en_zh_test_dataset(self.raw_data, self.number_of_samples)
-        elif self.dataset_name == 'covost2_en_ta_test': self.dataset_processor = covost2_en_ta_test_dataset(self.raw_data, self.number_of_samples)
-        elif self.dataset_name == 'covost2_id_en_test': self.dataset_processor = covost2_id_en_test_dataset(self.raw_data, self.number_of_samples)
-        elif self.dataset_name == 'covost2_zh_en_test': self.dataset_processor = covost2_zh_en_test_dataset(self.raw_data, self.number_of_samples)
-        elif self.dataset_name == 'covost2_ta_en_test': self.dataset_processor = covost2_ta_en_test_dataset(self.raw_data, self.number_of_samples)
-
-        elif self.dataset_name == 'aishell_asr_zh_test': self.dataset_processor = aishell_asr_zh_test_dataset(self.raw_data, self.number_of_samples)
-        elif self.dataset_name == 'spoken_squad_test': self.dataset_processor   = spoken_squad_test_dataset(self.raw_data, self.number_of_samples)
+        elif self.dataset_name == 'covost2_en_id_test': self.dataset_processor         = covost2_en_id_test_dataset(self.raw_data, self.number_of_samples)
+        elif self.dataset_name == 'covost2_en_zh_test': self.dataset_processor         = covost2_en_zh_test_dataset(self.raw_data, self.number_of_samples)
+        elif self.dataset_name == 'covost2_en_ta_test': self.dataset_processor         = covost2_en_ta_test_dataset(self.raw_data, self.number_of_samples)
+        elif self.dataset_name == 'covost2_id_en_test': self.dataset_processor         = covost2_id_en_test_dataset(self.raw_data, self.number_of_samples)
+        elif self.dataset_name == 'covost2_zh_en_test': self.dataset_processor         = covost2_zh_en_test_dataset(self.raw_data, self.number_of_samples)
+        elif self.dataset_name == 'covost2_ta_en_test': self.dataset_processor         = covost2_ta_en_test_dataset(self.raw_data, self.number_of_samples)
+        elif self.dataset_name == 'aishell_asr_zh_test': self.dataset_processor        = aishell_asr_zh_test_dataset(self.raw_data, self.number_of_samples)
+        elif self.dataset_name == 'spoken_squad_test': self.dataset_processor          = spoken_squad_test_dataset(self.raw_data, self.number_of_samples)
+        elif self.dataset_name == 'mu_chomusic_test': self.dataset_processor           = mu_chomusic_test_dataset(self.raw_data, self.number_of_samples)
 
 
         else:
