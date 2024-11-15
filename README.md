@@ -20,7 +20,7 @@
 
 * *Sep 2024*: Add [MuChoMusic](https://arxiv.org/abs/2408.01337) dataset for music evaluation (multiple choice questions).
 * *Aug 2024*: Support a couple of speech translation datasets. Update the evaluation script for several MCQ evaluation.
-* *Aug 2024*: Leadboard is live. Check it out [here](https://huggingface.co/spaces/AudioLLMs/AudioBench-Leaderboard).
+* *Aug 2024*: Leaderboard is live. Check it out [here](https://huggingface.co/spaces/AudioLLMs/AudioBench-Leaderboard).
 * *July 2024*: We are working hard on the leaderboard and speech translation dataset. Stay tuned!
 * *July 2024*: Support all 26 datasets listed in AudioBench manuscript.
 
