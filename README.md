@@ -87,7 +87,7 @@ MODEL_NAME=cascade_whisper_large_v3_llama_3_8b_instruct
 ## How to Evaluation Your Models?
 To evaluate on new models, please refer to [adding_new_model](./examples/adding_new_model.md).
 
-## How to test on Your Dataset?
+## How to Evaluation on Your Dataset?
 Two simple steps:
 1. Add dataset loader and inference part. Example for [cn_college_listen_mcq_test](src/dataset_src/cn_college_listen_mcq_test.py)
 2. Edit [dataset.py](src/dataset.py)
