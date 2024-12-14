@@ -14,7 +14,13 @@
 <p align="center">
   ⚡ A repository for evaluating AudioLLMs in various tasks 🚀 ⚡ <br>
   ⚡ AudioBench: A Universal Benchmark for Audio Large Language Models 🚀 ⚡ <br>
+    <a href="https://huggingface.co/spaces/AudioLLMs/AudioBench-Leaderboard" 
+     target="_blank" 
+     style="text-decoration: none; color: #0078d7; font-weight: bold; font-size: 18px;">
+     🌟 Come to View Our Live Leaderboard on Huggingface Space 🌟
+  </a>
 </p>
+
 
 ## Change log
 
