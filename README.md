@@ -24,7 +24,7 @@
 
 ## Change log
 
-* *DEC 2024*: Add [MuChoMusic](https://arxiv.org/abs/2408.01337) dataset for music evaluation (multiple choice questions).
+* *DEC 2024*: Support More  (35) datasets / More Models (2 cascade and 3 fusion models).
 * *SEP 2024*: Add [MuChoMusic](https://arxiv.org/abs/2408.01337) dataset for music evaluation (multiple choice questions).
 * *AUG 2024*: Support a 6 speech translation datasets. Update the evaluation script for several MCQ evaluation.
 * *AUG 2024*: Leaderboard is live. Check it out [here](https://huggingface.co/spaces/AudioLLMs/AudioBench-Leaderboard).
