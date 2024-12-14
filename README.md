@@ -70,18 +70,27 @@ bash eval.sh $DATASET $MODEL_NAME $GPU $BATCH_SIZE $OVERWRITE $METRICS $NUMBER_O
 ## How to Evaluation AudioBench Supported Datasets?
 
 That's as simple as it can be. Replace the DATASET and METRIC name. A full list of supported datasets can be found: [SUPPORTED DATASETS](./examples/supported_datasets.md).
-
 ```
 DATASET=librispeech_test_clean
 METRIC=wer
 ```
 
-## How to Evaluation Your Models?
-The example is how to get started. To evaluate on the other datasets, please refer to [Examples](./examples/).
+## How to Evaluation AudioBench Supported Models?
 
+
+That's as simple as it can be. Replace the MODEL_NAME. A full list of supported datasets can be found: [SUPPORTED MODELS](./examples/supported_models.md).
+```
+MODEL_NAME=cascade_whisper_large_v3_llama_3_8b_instruct
+```
+
+
+## How to Evaluation Your Models?
+To evaluate on new models, please refer to [adding_new_model](./examples/adding_new_model.md).
 
 ## How to test on Your Dataset?
-
+Two simple steps:
+1. Add dataset loader and inference part. Example for [cn_college_listen_mcq_test](src/dataset_src/cn_college_listen_mcq_test.py)
+2. Edit [dataset.py](src/dataset.py)
 
 
 
