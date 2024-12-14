@@ -32,7 +32,10 @@ logging.basicConfig(
 # =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
 
 whisper_model_path = "../prepared_models/whisper-large-v3"
+whisper_model_path = "openai/whisper-large-v3"
+
 llama_model_path = "../prepared_models/Meta-Llama-3-8B-Instruct-hf"
+llama_model_path = "meta-llama/Meta-Llama-3-8B-Instruct"
 
 def whisper_large_v3_with_llama_3_8b_instruct_model_loader(self):
 
@@ -62,48 +65,62 @@ def whisper_large_v3_with_llama_3_8b_instruct_model_loader(self):
 
 def whisper_large_v3_with_llama_3_8b_instruct_model_generation(self, sample):
 
-    whisper_output = self.whisper_pipe(sample['audio'], generate_kwargs={"language": "en"})['text'].strip()
-    
-    if sample['task_type'] == "ASR":
+    if sample['task_type'] == 'ASR':
+        whisper_output = self.whisper_pipe(sample['audio'], generate_kwargs={"language": "en"})['text'].strip()
+        return whisper_output
+
+    elif sample['task_type'] == "ASR-ZH":
+        whisper_output = self.whisper_pipe(sample['audio'], generate_kwargs={"language": "zh"})['text'].strip()
         return whisper_output
     
-    question       = sample['text']
-
-    PROMPT_TEMPLATE = """\
-        [Audio Transcriptions]
-        {whisper_output}
-
-        [Question]
-        {question}
-
-        [System]
-        Please answer the question based on the audio transcription provided above. 
-        Ensure that your response adheres to the following format:
-        
-        Answer: (Provide a precise and concise answer here.)
-        """
-    batch_input = [PROMPT_TEMPLATE.format(whisper_output=whisper_output, question=question)]
-
-    if sample['task_type'] == "SI":
-        batch_input = [whisper_output]
-
-    batch_input_templated = []
-    for sample in batch_input:    
-        messages = [
-            {"role": "user", "content": sample},
-        ]
-        sample_templated = self.llm_tokenizer.apply_chat_template(messages, return_tensors="pt", tokenize=False)
-        batch_input_templated.append(sample_templated)
-
-    batch_input = batch_input_templated
-
-    encoded_batch        = self.llm_tokenizer(batch_input, return_tensors="pt", padding=True).to(self.llm_model.device)
-    generated_ids        = self.llm_model.generate(**encoded_batch, max_new_tokens=500, pad_token_id=self.llm_tokenizer.eos_token_id)
-    generated_ids        = generated_ids[:, encoded_batch.input_ids.shape[-1]:]
-    decoded_batch_output = self.llm_tokenizer.batch_decode(generated_ids, skip_special_tokens=True)[0]
-
-    if 'Answer: ' in decoded_batch_output:
-        decoded_batch_output = decoded_batch_output.split('Answer: ')[1].strip()
+    elif sample['task_type'] in ["ST-ID-EN",
+                                 "ST-TA-EN",
+                                 "ST-ZH-EN",
+                                 ]:
+        whisper_output = self.whisper_pipe(sample['audio'], generate_kwargs={"task": "translate", "language": "en"})['text'].strip()
+        return whisper_output
     
-    return decoded_batch_output
+    else:
+        whisper_output = self.whisper_pipe(sample['audio'], generate_kwargs={"language": "en"})['text'].strip()
+
+        question = sample['text']
+
+        PROMPT_TEMPLATE = """\
+            [Audio Transcriptions]
+            {whisper_output}
+
+            [Question]
+            {question}
+
+            [System]
+            Please answer the question based on the audio transcription provided above. 
+            Ensure that your response adheres to the following format:
+            
+            Answer: (Provide a precise and concise answer here.)
+            """
+        batch_input = [PROMPT_TEMPLATE.format(whisper_output=whisper_output, question=question)]
+
+        # If speech instruction task, then only use whisper_output
+        if sample['task_type'] == "SI":
+            batch_input = [whisper_output]
+
+        batch_input_templated = []
+        for sample in batch_input:    
+            messages = [
+                {"role": "user", "content": sample},
+            ]
+            sample_templated = self.llm_tokenizer.apply_chat_template(messages, return_tensors="pt", tokenize=False)
+            batch_input_templated.append(sample_templated)
+
+        batch_input = batch_input_templated
+
+        encoded_batch        = self.llm_tokenizer(batch_input, return_tensors="pt", padding=True).to(self.llm_model.device)
+        generated_ids        = self.llm_model.generate(**encoded_batch, max_new_tokens=500, pad_token_id=self.llm_tokenizer.eos_token_id)
+        generated_ids        = generated_ids[:, encoded_batch.input_ids.shape[-1]:]
+        decoded_batch_output = self.llm_tokenizer.batch_decode(generated_ids, skip_special_tokens=True)[0]
+
+        if 'Answer: ' in decoded_batch_output:
+            decoded_batch_output = decoded_batch_output.split('Answer: ')[1].strip()
+        
+        return decoded_batch_output
 

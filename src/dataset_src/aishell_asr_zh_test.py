@@ -18,21 +18,7 @@ import logging
 from jiwer import compute_measures, wer
 
 from dataset_src.text_normalizer.preprocess_text import preprocess_text_asr_code_switch_chinese
-
-# Ten instructions, random select one for each sample
-asr_instructions = [
-    "Convert the audio speech into a text transcript in Chinese.",
-    "Transcribe the spoken words into written form in Chinese.",
-    "Listen to the audio and provide the Chinese text.",
-    "Transform the speech into a text document in Chinese.",
-    "Capture the spoken language and convert it to Chinese text.",
-    "Decode the audio and give me the written transcription in Chinese.",
-    "Recognize the verbal communication and transcribe it into text in Chinese.",
-    "Turn the speech input into a text transcription in Chinese.",
-    "Process the audio speech and provide the text output in Chinese.",
-    "Translate the spoken conversation into written text in Chinese.",
-]
-
+from dataset_src.prompts.prompts import asr_cn_instructions
 
 class aishell_asr_zh_test_dataset(object):
 
@@ -43,7 +29,7 @@ class aishell_asr_zh_test_dataset(object):
             raw_data = raw_data.select(range(number_of_samples))
         
         self.raw_data = raw_data
-        self.prompt = asr_instructions
+        self.prompt = asr_cn_instructions
         logging.info('Number of samples: {}'.format(len(self.raw_data)))
 
 
@@ -58,7 +44,7 @@ class aishell_asr_zh_test_dataset(object):
                                 "audio"    : audio,
                                 "text"     : instruction,
                                 "answer"   : reference,
-                                "task_type": "ASR"
+                                "task_type": "ASR-ZH"
                                 })
 
         logging.info('\n=  =  =  Dataset Sample  =  =  =')

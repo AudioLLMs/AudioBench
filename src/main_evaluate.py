@@ -55,11 +55,22 @@ def main(
     logger.info("Overwrite: {}".format(overwrite))
     logger.info("Metrics: {}".format(metrics))
     logger.info("Number of samples: {}".format(number_of_samples))
-
     logger.info("= = "*20)
 
-    if batch_size != 1:
+    # If the final score log exists, skip the evaluation
+    if not overwrite and os.path.exists('log/{}/{}_{}_score.json'.format(model_name, dataset_name, metrics)):
+        logger.info("Evaluation has been done before. Skip the evaluation.")
+        logger.info("\n\n\n\n\n")
+        return
+
+    if model_name == 'WavLLM_fairseq':
+        batch_size = -1
+        logger.info("Batch size is set to -1 for WavLLM_fairseq model.")
+
+    if batch_size != 1 and model_name != 'WavLLM_fairseq':
         raise NotImplementedError("Batch size {} not implemented yet".format(batch_size))
+    elif batch_size != -1 and model_name == 'WavLLM_fairseq':
+        raise NotImplementedError("Batch size {} not implemented yet for WavLLM_fairseq".format(batch_size))
 
     dataset = Dataset(dataset_name, number_of_samples)
 

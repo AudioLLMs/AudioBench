@@ -29,6 +29,19 @@ er_instructions = [
 ]
 
 
+# er_instructions = [
+#     "How do you perceive the speaker's emotional state from their speech?",
+#     "What emotions do you detect in the speaker's voice?",
+#     "Can you identify the speaker's emotional state from their speech?",
+#     "Based on their speech, how would you describe the speaker's emotions?",
+#     "What emotional cues can you pick up from the speaker's speech?",
+#     "How would you describe the emotions conveyed in the speaker's voice?",
+#     "What do you think the speaker is feeling based on their speech?",
+#     "Can you interpret the emotions in the speaker's speech?",
+#     "How does the speaker's speech reflect their emotional state?",
+#     "What is the emotional tone of the speaker's speech?"
+# ]
+
 
 class meld_emotion_test_dataset(object):
 
@@ -111,10 +124,15 @@ class meld_emotion_test_dataset(object):
             prometheus2_judge_results = prometheus2_as_judge("../prepared_models/prometheus-7b-v2.0", [questions, references, predictions])
             return {'prometheus2_judge': prometheus2_judge_results}
         
-        elif metrics == 'gpt4_judge':
-            from dataset_src.eval_methods.eval_gpt4 import gpt4_as_judge
-            gpt4_judge_results = gpt4_as_judge("", [questions, references, predictions])
-            return {'gpt4_judge': gpt4_judge_results}
+        elif metrics == 'gpt4o_judge':
+            from dataset_src.eval_methods.eval_gpt4o import gpt4o_as_judge
+            gpt4o_judge_results, all_details = gpt4o_as_judge("", [questions, references, predictions])
+            return {'gpt4o_judge': gpt4o_judge_results, 'details': all_details}
+        
+        elif metrics == 'gpt4o_judge_binary':
+            from dataset_src.eval_methods.eval_gpt4o import gpt4o_as_judge_binary
+            gpt4o_judge_binary_results, all_details = gpt4o_as_judge_binary("", [questions, references, predictions])
+            return {'gpt4o_judge_binary': gpt4o_judge_binary_results, 'details': all_details}
         
         else:
             raise ValueError("Invalid metrics: {}".format(metrics))

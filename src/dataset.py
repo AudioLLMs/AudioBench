@@ -19,7 +19,7 @@ import os
 import sys
 sys.path.append('.')
 
-from datasets import load_dataset
+from datasets import load_dataset, load_from_disk
 
 # ASR
 from dataset_src.librispeech_test_clean import librispeech_test_clean_dataset
@@ -44,11 +44,9 @@ from dataset_src.covost2_zh_en_test import covost2_zh_en_test_dataset
 from dataset_src.covost2_ta_en_test import covost2_ta_en_test_dataset
 
 # SQA
-from dataset_src.cn_college_listen_test import cn_college_listen_test_dataset
 from dataset_src.cn_college_listen_mcq_test import cn_college_listen_mcq_test_dataset
 from dataset_src.slue_p2_sqa5_test import slue_p2_sqa5_test_dataset
 from dataset_src.public_sg_speech_qa_test import public_sg_speech_qa_test_dataset
-from dataset_src.dream_tts_test import dream_tts_test_dataset
 from dataset_src.dream_tts_mcq_test import dream_tts_mcq_test_dataset
 from dataset_src.spoken_squad_test import spoken_squad_test_dataset
 
@@ -105,8 +103,7 @@ class Dataset(object):
 
         logger.info("Loading dataset: {}".format(self.dataset_name))
 
-        if   self.dataset_name == 'cn_college_listen_test': self.raw_data     = load_dataset("AudioLLMs/cn_college_listen_test")['test']
-        elif self.dataset_name == 'cn_college_listen_mcq_test': self.raw_data = load_dataset("AudioLLMs/cn_college_listen_mcq_test")['test']
+        if   self.dataset_name == 'cn_college_listen_mcq_test': self.raw_data = load_dataset("AudioLLMs/cn_college_listen_mcq_test")['test']
         elif self.dataset_name == 'slue_p2_sqa5_test': self.raw_data          = load_dataset("AudioLLMs/slue_p2_sqa5_test")['test']
         elif self.dataset_name == 'public_sg_speech_qa_test': self.raw_data   = load_dataset("AudioLLMs/public_sg_speech_qa_test")['test']
         elif self.dataset_name == 'dream_tts_test': self.raw_data             = load_dataset("AudioLLMs/dream_tts_test")['test']
@@ -129,8 +126,8 @@ class Dataset(object):
         elif self.dataset_name == 'wavcaps_qa_test': self.raw_data            = load_dataset("AudioLLMs/wavcaps_qa_test_v3")['test']
         elif self.dataset_name == 'voxceleb_accent_test': self.raw_data       = load_dataset("AudioLLMs/voxceleb_accent_test")['test']
         elif self.dataset_name == 'voxceleb_gender_test': self.raw_data       = load_dataset("AudioLLMs/voxceleb_gender_test")['test']
-        elif self.dataset_name == 'iemocap_gender_test': self.raw_data        = load_dataset("AudioLLMs/iemocap_gender_test")['test']
-        elif self.dataset_name == 'iemocap_emotion_test': self.raw_data       = load_dataset("AudioLLMs/iemocap_emotion_test")['test']
+        elif self.dataset_name == 'iemocap_gender_test': self.raw_data        = load_dataset("AudioLLMs/iemocap_gender_recognition")['test']
+        elif self.dataset_name == 'iemocap_emotion_test': self.raw_data       = load_dataset("AudioLLMs/iemocap_emotion_recognition")['test']
         elif self.dataset_name == 'meld_sentiment_test': self.raw_data        = load_dataset("AudioLLMs/meld_sentiment_test")['test']
         elif self.dataset_name == 'meld_emotion_test': self.raw_data          = load_dataset("AudioLLMs/meld_emotion_test")['test']
         elif self.dataset_name == 'covost2_en_id_test': self.raw_data         = load_dataset("AudioLLMs/covost2_en_id_test_v1")['test']
@@ -142,7 +139,7 @@ class Dataset(object):
         elif self.dataset_name == 'aishell_asr_zh_test': self.raw_data        = load_dataset("AudioLLMs/aishell_asr_zh_test_v1")['test']
         elif self.dataset_name == 'spoken_squad_test': self.raw_data          = load_dataset("AudioLLMs/spoken_squad_test_v1")['test']
         elif self.dataset_name == 'mu_chomusic_test': self.raw_data           = load_dataset("AudioLLMs/mu_chomusic_test")['test']
-
+        
         else:
             raise NotImplementedError("Dataset {} not implemented yet".format(self.dataset_name))
 
@@ -157,11 +154,10 @@ class Dataset(object):
             self.number_of_samples = len(self.raw_data)
             logger.info("Number of samples requested is more than available samples. Setting number of samples to {}".format(self.number_of_samples))
 
-        if   self.dataset_name == 'cn_college_listen_test': self.dataset_processor     = cn_college_listen_test_dataset(self.raw_data, self.number_of_samples)
-        elif self.dataset_name == 'cn_college_listen_mcq_test': self.dataset_processor = cn_college_listen_mcq_test_dataset(self.raw_data, self.number_of_samples)
+
+        if   self.dataset_name == 'cn_college_listen_mcq_test': self.dataset_processor = cn_college_listen_mcq_test_dataset(self.raw_data, self.number_of_samples)
         elif self.dataset_name == 'slue_p2_sqa5_test': self.dataset_processor          = slue_p2_sqa5_test_dataset(self.raw_data, self.number_of_samples)
         elif self.dataset_name == 'public_sg_speech_qa_test': self.dataset_processor   = public_sg_speech_qa_test_dataset(self.raw_data, self.number_of_samples)
-        elif self.dataset_name == 'dream_tts_test': self.dataset_processor             = dream_tts_test_dataset(self.raw_data, self.number_of_samples)
         elif self.dataset_name == 'dream_tts_mcq_test': self.dataset_processor         = dream_tts_mcq_test_dataset(self.raw_data, self.number_of_samples)
         elif self.dataset_name == 'librispeech_test_clean': self.dataset_processor     = librispeech_test_clean_dataset(self.raw_data, self.number_of_samples)
         elif self.dataset_name == 'librispeech_test_other': self.dataset_processor     = librispeech_test_other_dataset(self.raw_data, self.number_of_samples)
@@ -194,7 +190,6 @@ class Dataset(object):
         elif self.dataset_name == 'aishell_asr_zh_test': self.dataset_processor        = aishell_asr_zh_test_dataset(self.raw_data, self.number_of_samples)
         elif self.dataset_name == 'spoken_squad_test': self.dataset_processor          = spoken_squad_test_dataset(self.raw_data, self.number_of_samples)
         elif self.dataset_name == 'mu_chomusic_test': self.dataset_processor           = mu_chomusic_test_dataset(self.raw_data, self.number_of_samples)
-
 
         else:
             raise NotImplementedError("Dataset {} not implemented yet".format(self.dataset_name))

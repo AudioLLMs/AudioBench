@@ -62,22 +62,17 @@ class covost2_ta_en_test_dataset(object):
 
         input_data = []
         for sample in self.raw_data:
-            
-            try:
 
-                audio       = sample['context']
-                reference   = sample['answer']
-                instruction = random.choice(self.prompt)
+            audio       = sample['context']
+            reference   = sample['answer']
+            instruction = random.choice(self.prompt)
 
-                input_data.append({
-                                    "audio"    : audio,
-                                    "text"     : instruction,
-                                    "answer"   : reference,
-                                    "task_type": "ST"
-                                    })
-                
-            except:
-                import pdb; pdb.set_trace()
+            input_data.append({
+                                "audio"    : audio,
+                                "text"     : instruction,
+                                "answer"   : reference,
+                                "task_type": "ST-TA-EN"
+                                })
 
         logging.info('\n=  =  =  Dataset Sample  =  =  =')
         logging.info(random.sample(input_data, 1)[0])

@@ -18,20 +18,9 @@ import logging
 from jiwer import compute_measures, wer
 
 from dataset_src.text_normalizer.preprocess_text import preprocess_text_asr
+from dataset_src.prompts.prompts import asr_instructions
 
-# Ten instructions, random select one for each sample
-asr_instructions = [
-    "Convert the audio speech into a text transcript.",
-    "Transcribe the spoken words into written form.",
-    "Listen to the audio and provide the text version.",
-    "Transform the speech into a text document.",
-    "Capture the spoken language and convert it to text.",
-    "Decode the audio and give me the written transcription.",
-    "Recognize the verbal communication and transcribe it into text.",
-    "Turn the speech input into a text transcription.",
-    "Process the audio speech and provide the text output.",
-    "Translate the spoken conversation into written text.",
-]
+
 
 class gigaspeech_test_dataset(object):
 

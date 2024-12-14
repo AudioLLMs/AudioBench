@@ -70,7 +70,7 @@ class covost2_en_id_test_dataset(object):
                                 "audio"    : audio,
                                 "text"     : instruction,
                                 "answer"   : reference,
-                                "task_type": "ST"
+                                "task_type": "ST-EN-ID"
                                 })
 
         logging.info('\n=  =  =  Dataset Sample  =  =  =')

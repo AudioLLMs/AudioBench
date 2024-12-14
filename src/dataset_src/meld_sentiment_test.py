@@ -110,10 +110,15 @@ class meld_sentiment_test_dataset(object):
             prometheus2_judge_results = prometheus2_as_judge("../prepared_models/prometheus-7b-v2.0", [questions, references, predictions])
             return {'prometheus2_judge': prometheus2_judge_results}
         
-        elif metrics == 'gpt4_judge':
-            from dataset_src.eval_methods.eval_gpt4 import gpt4_as_judge
-            gpt4_judge_results = gpt4_as_judge("", [questions, references, predictions])
-            return {'gpt4_judge': gpt4_judge_results}
+        elif metrics == 'gpt4o_judge':
+            from dataset_src.eval_methods.eval_gpt4o import gpt4o_as_judge
+            gpt4o_judge_results, all_details = gpt4o_as_judge("", [questions, references, predictions])
+            return {'gpt4o_judge': gpt4o_judge_results, 'details': all_details}
+        
+        elif metrics == 'gpt4o_judge_binary':
+            from dataset_src.eval_methods.eval_gpt4o import gpt4o_as_judge_binary
+            gpt4o_judge_binary_results, all_details = gpt4o_as_judge_binary("", [questions, references, predictions])
+            return {'gpt4o_judge_binary': gpt4o_judge_binary_results, 'details': all_details}
         
         else:
             raise ValueError("Invalid metrics: {}".format(metrics))
