@@ -18,11 +18,12 @@
 
 ## Change log
 
-* *Sep 2024*: Add [MuChoMusic](https://arxiv.org/abs/2408.01337) dataset for music evaluation (multiple choice questions).
-* *Aug 2024*: Support a couple of speech translation datasets. Update the evaluation script for several MCQ evaluation.
-* *Aug 2024*: Leaderboard is live. Check it out [here](https://huggingface.co/spaces/AudioLLMs/AudioBench-Leaderboard).
-* *July 2024*: We are working hard on the leaderboard and speech translation dataset. Stay tuned!
-* *July 2024*: Support all 26 datasets listed in AudioBench manuscript.
+* *DEC 2024*: Add [MuChoMusic](https://arxiv.org/abs/2408.01337) dataset for music evaluation (multiple choice questions).
+* *SEP 2024*: Add [MuChoMusic](https://arxiv.org/abs/2408.01337) dataset for music evaluation (multiple choice questions).
+* *AUG 2024*: Support a 6 speech translation datasets. Update the evaluation script for several MCQ evaluation.
+* *AUG 2024*: Leaderboard is live. Check it out [here](https://huggingface.co/spaces/AudioLLMs/AudioBench-Leaderboard).
+* *JUL 2024*: We are working hard on the leaderboard and speech translation dataset. Stay tuned!
+* *JUL 2024*: Support all INITIAL 26 datasets listed in AudioBench manuscript.
 
 
 
@@ -40,46 +41,44 @@ For model-as-judge evaluation, we serve the judgement model as a service via `vl
 The example is hosting a `Llama-3-70B-Instruct` model and running the cascade `Whisper + Llama-3` model.
 ```shell
 # Step 1:
-# Server the model as judge
-# It will auto-download the model and may requires verification from Hugging Face.
-# In the demo, we use 2 H100 80G in order to host the model.
-# For smaller VRAM, you may need to reduce the model size.
-# bash host_model_judge_llama_3_70b_instruct.sh
-
-# Another option (recommended) is to use the quantized model which could be hosted on 2*40G GPUs.
-bash host_model_judge_llama_3_70b_instruct_awq.sh
+# Server the judgement model using VLLM framework (my example is using int4 quantized version)
+# This requires with 1 * 80GB GPU
+bash vllm_model_judge_llama_3_70b.sh
 
 # Step 2:
-# The example is done with 3 H100 80G GPUs.
-# The AudioLLMs model inference is done on GPU 2 since GPU 0&1 is used to host model-as-judge services.
-# This is a setting for just using 50 samples for evaluation.
-MODEL_NAME=whisper_large_v3_with_llama_3_8b_instruct
+# We perform model inference and obtain the evaluation results with the second GPU
 GPU=2
 BATCH_SIZE=1
-METRICS=llama3_70b_judge_binary
 OVERWRITE=True
-NUMBER_OF_SAMPLES=50
+NUMBER_OF_SAMPLES=-1 # indicate all test samples if number_of_samples=-1
+
+MODEL_NAME=whisper_large_v3_with_llama_3_8b_instruct
 
 DATASET=cn_college_listen_mcq_test
+METRICS=llama3_70b_judge_binary
 
 bash eval.sh $DATASET $MODEL_NAME $GPU $BATCH_SIZE $OVERWRITE $METRICS $NUMBER_OF_SAMPLES
 
-# Step 3:
-# The results would be like:
-#    "llama3_70b_judge_binary": {
-#        "judge_score": 90.0,
-#        "success_rate": 1.0
-#    }
-#}
-# This indicates that the cascade model can achieve 90% accuracy on the MCQ task for English listening test.
-
-```
-The example is how to get started. To evaluate on the full datasets, please refer to [Examples](./examples/).
 
 ```shell
 # After model weight download, run the evaluation script for all datasets
 bash examples/eval_salmonn_7b.sh
 ```
+
+# How to Evaluation Supported Datasets in AudioBench?
+
+That's as simple as it can be. Replace the DATASET and METRIC name. A full list of supported datasets can be found: [SUPPORTED DATASETS](./examples/supported_datasets.md).
+
+```
+DATASET=librispeech_test_clean
+METRIC=wer
+```
+
+# How to Evaluation Your Models?
+The example is how to get started. To evaluate on the other datasets, please refer to [Examples](./examples/).
+
+
+# How to Add New Evaluation Data and Associated Metric?
 
 
 ## 📚 Supported Models and Datasets
