@@ -29,7 +29,7 @@ def gpt4o_as_judge(model_path, input_data):
     """ Compute the score of the model on the given data."""
 
     client = AzureOpenAI(
-        azure_endpoint = 'https://xxx-xxx.openai.azure.com/', 
+        azure_endpoint = 'https://ali-llm.openai.azure.com/', 
         api_key=os.getenv("AZURE_OPENAI_KEY"),  
         api_version="2024-08-01-preview"
         )
@@ -129,7 +129,7 @@ def gpt4o_as_judge_binary(model_path, input_data):
     """ Compute the score of the model on the given data."""
 
     client = AzureOpenAI(
-        azure_endpoint = 'https://xxx-xxx.openai.azure.com/', 
+        azure_endpoint = 'https://ali-llm.openai.azure.com/', 
         api_key=os.getenv("AZURE_OPENAI_KEY"),  
         api_version="2024-08-01-preview"
         )

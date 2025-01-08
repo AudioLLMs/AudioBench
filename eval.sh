@@ -1,4 +1,9 @@
 
+export no_proxy=localhost,127.0.0.1,10.104.0.0/21
+export https_proxy=http://10.104.4.124:10104
+export http_proxy=http://10.104.4.124:10104
+
+
 
 DATASET=$1
 MODEL=$2
@@ -10,6 +15,8 @@ NUMBER_OF_SAMPLES=$7
 
 
 export CUDA_VISIBLE_DEVICES=$GPU
+
+
 
 
 python src/main_evaluate.py \

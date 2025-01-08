@@ -47,6 +47,7 @@ from dataset_src.covost2_ta_en_test import covost2_ta_en_test_dataset
 from dataset_src.cn_college_listen_mcq_test import cn_college_listen_mcq_test_dataset
 from dataset_src.slue_p2_sqa5_test import slue_p2_sqa5_test_dataset
 from dataset_src.public_sg_speech_qa_test import public_sg_speech_qa_test_dataset
+from dataset_src.dream_tts_test import dream_tts_test_dataset
 from dataset_src.dream_tts_mcq_test import dream_tts_mcq_test_dataset
 from dataset_src.spoken_squad_test import spoken_squad_test_dataset
 
@@ -77,6 +78,49 @@ from dataset_src.meld_emotion_test import meld_emotion_test_dataset
 
 # Music
 from dataset_src.mu_chomusic_test import mu_chomusic_test_dataset
+
+# Private Datasets
+from dataset_src.cna_test import cna_test_dataset
+from dataset_src.idpc_test import idpc_test_dataset
+from dataset_src.parliament_test import parliament_test_dataset
+from dataset_src.ukusnews_test import ukusnews_test_dataset
+from dataset_src.mediacorp_test import mediacorp_test_dataset
+
+from dataset_src.idpc_short_test import idpc_short_test_dataset
+from dataset_src.parliament_short_test import parliament_short_test_dataset
+from dataset_src.ukusnews_short_test import ukusnews_short_test_dataset
+from dataset_src.mediacorp_short_test import mediacorp_short_test_dataset
+
+# Private Datasets
+from dataset_src.imda_part1_asr_test import imda_part1_asr_test_dataset
+from dataset_src.imda_part2_asr_test import imda_part2_asr_test_dataset
+from dataset_src.imda_part3_30s_asr_test import imda_part3_30s_asr_test_dataset
+from dataset_src.imda_part4_30s_asr_test import imda_part4_30s_asr_test_dataset
+from dataset_src.imda_part5_30s_asr_test import imda_part5_30s_asr_test_dataset
+from dataset_src.imda_part6_30s_asr_test import imda_part6_30s_asr_test_dataset
+
+from dataset_src.imda_30s_sqa_test import imda_30s_sqa_test_dataset
+from dataset_src.imda_30s_sqa_human_test import imda_30s_sqa_human_test_dataset
+from dataset_src.imda_part3_30s_sqa_test import imda_part3_30s_sqa_test_dataset
+from dataset_src.imda_part3_30s_sqa_human_test import imda_part3_30s_sqa_human_test_dataset
+from dataset_src.imda_part4_30s_sqa_test import imda_part4_30s_sqa_test_dataset
+from dataset_src.imda_part4_30s_sqa_human_test import imda_part4_30s_sqa_human_test_dataset
+from dataset_src.imda_part5_30s_sqa_test import imda_part5_30s_sqa_test_dataset
+from dataset_src.imda_part5_30s_sqa_human_test import imda_part5_30s_sqa_human_test_dataset
+from dataset_src.imda_part6_30s_sqa_test import imda_part6_30s_sqa_test_dataset
+from dataset_src.imda_part6_30s_sqa_human_test import imda_part6_30s_sqa_human_test_dataset
+
+from dataset_src.imda_30s_ds_test import imda_30s_ds_test_dataset
+from dataset_src.imda_30s_ds_human_test import imda_30s_ds_human_test_dataset
+from dataset_src.imda_part3_30s_ds_test import imda_part3_30s_ds_test_dataset
+from dataset_src.imda_part3_30s_ds_human_test import imda_part3_30s_ds_human_test_dataset
+from dataset_src.imda_part4_30s_ds_test import imda_part4_30s_ds_test_dataset
+from dataset_src.imda_part4_30s_ds_human_test import imda_part4_30s_ds_human_test_dataset
+from dataset_src.imda_part5_30s_ds_test import imda_part5_30s_ds_test_dataset
+from dataset_src.imda_part5_30s_ds_human_test import imda_part5_30s_ds_human_test_dataset
+from dataset_src.imda_part6_30s_ds_test import imda_part6_30s_ds_test_dataset
+from dataset_src.imda_part6_30s_ds_human_test import imda_part6_30s_ds_human_test_dataset
+
 
 
 # =  =  =  =  =  =  =  =  =  =  =  Logging Setup  =  =  =  =  =  =  =  =  =  =  =  =  =
@@ -138,7 +182,66 @@ class Dataset(object):
         elif self.dataset_name == 'covost2_ta_en_test': self.raw_data         = load_dataset("AudioLLMs/covost2_ta_en_test_v2")['test']
         elif self.dataset_name == 'aishell_asr_zh_test': self.raw_data        = load_dataset("AudioLLMs/aishell_asr_zh_test_v1")['test']
         elif self.dataset_name == 'spoken_squad_test': self.raw_data          = load_dataset("AudioLLMs/spoken_squad_test_v1")['test']
-        elif self.dataset_name == 'mu_chomusic_test': self.raw_data           = load_dataset("AudioLLMs/mu_chomusic_test")['test']
+        elif self.dataset_name == 'muchomusic_test': self.raw_data            = load_dataset("AudioLLMs/mu_chomusic_test")['test']
+
+        elif self.dataset_name == 'imda_part1_asr_test': self.raw_data     = load_from_disk("data/2_to_release/IMDA_PART1_ASR_v4")
+        elif self.dataset_name == 'imda_part2_asr_test': self.raw_data     = load_from_disk("data/2_to_release/IMDA_PART2_ASR_v4")
+        elif self.dataset_name == 'imda_part3_30s_asr_test': self.raw_data = load_from_disk("data/2_to_release/IMDA_PART3_30_ASR_v4")
+        elif self.dataset_name == 'imda_part4_30s_asr_test': self.raw_data = load_from_disk("data/2_to_release/IMDA_PART4_30_ASR_v4")
+        elif self.dataset_name == 'imda_part5_30s_asr_test': self.raw_data = load_from_disk("data/2_to_release/IMDA_PART5_30_ASR_v4")
+        elif self.dataset_name == 'imda_part6_30s_asr_test': self.raw_data = load_from_disk("data/2_to_release/IMDA_PART6_30_ASR_v4")
+
+        elif self.dataset_name == 'imda_30s_sqa_test': self.raw_data             = load_from_disk("data/2_to_release/IMDA_30_SQA_v4")
+        elif self.dataset_name == 'imda_30s_sqa_human_test': self.raw_data       = load_from_disk("data/2_to_release/IMDA_30_SQA_Human")
+        elif self.dataset_name == 'imda_part3_30s_sqa_test': self.raw_data       = load_from_disk("data/2_to_release/IMDA_PART3_30_SQA_v4")
+        elif self.dataset_name == 'imda_part3_30s_sqa_human_test': self.raw_data = load_from_disk("data/2_to_release/IMDA_PART3_30_SQA_Human")
+        elif self.dataset_name == 'imda_part4_30s_sqa_test': self.raw_data       = load_from_disk("data/2_to_release/IMDA_PART4_30_SQA_v4")
+        elif self.dataset_name == 'imda_part4_30s_sqa_human_test': self.raw_data = load_from_disk("data/2_to_release/IMDA_PART4_30_SQA_Human")
+        elif self.dataset_name == 'imda_part5_30s_sqa_test': self.raw_data       = load_from_disk("data/2_to_release/IMDA_PART5_30_SQA_v4")
+        elif self.dataset_name == 'imda_part5_30s_sqa_human_test': self.raw_data = load_from_disk("data/2_to_release/IMDA_PART5_30_SQA_Human")
+        elif self.dataset_name == 'imda_part6_30s_sqa_test': self.raw_data       = load_from_disk("data/2_to_release/IMDA_PART6_30_SQA_v4")
+        elif self.dataset_name == 'imda_part6_30s_sqa_human_test': self.raw_data = load_from_disk("data/2_to_release/IMDA_PART6_30_SQA_Human")
+
+        elif self.dataset_name == 'imda_30s_ds_test': self.raw_data             = load_from_disk("data/2_to_release/IMDA_30_DS_v4")
+        elif self.dataset_name == 'imda_30s_ds_human_test': self.raw_data       = load_from_disk("data/2_to_release/IMDA_30_DS_Human_v1")
+        elif self.dataset_name == 'imda_part3_30s_ds_test': self.raw_data       = load_from_disk("data/2_to_release/IMDA_PART3_30_DS_v4")
+        elif self.dataset_name == 'imda_part3_30s_ds_human_test': self.raw_data = load_from_disk("data/2_to_release/IMDA_PART3_30_DS_Human_v1")
+        elif self.dataset_name == 'imda_part4_30s_ds_test': self.raw_data       = load_from_disk("data/2_to_release/IMDA_PART4_30_DS_v4")
+        elif self.dataset_name == 'imda_part4_30s_ds_human_test': self.raw_data = load_from_disk("data/2_to_release/IMDA_PART4_30_DS_Human_v1")
+        elif self.dataset_name == 'imda_part5_30s_ds_test': self.raw_data       = load_from_disk("data/2_to_release/IMDA_PART5_30_DS_v4")
+        elif self.dataset_name == 'imda_part5_30s_ds_human_test': self.raw_data = load_from_disk("data/2_to_release/IMDA_PART5_30_DS_Human_v1")
+        elif self.dataset_name == 'imda_part6_30s_ds_test': self.raw_data       = load_from_disk("data/2_to_release/IMDA_PART6_30_DS_v4")
+        elif self.dataset_name == 'imda_part6_30s_ds_human_test': self.raw_data = load_from_disk("data/2_to_release/IMDA_PART6_30_DS_Human_v1")
+
+        elif self.dataset_name == 'imda_ar_sentence':
+            self.raw_data = load_from_disk("data/2_to_release/IMDA_AR_SENTENCE_v4")
+        elif self.dataset_name == 'imda_ar_dialogue':
+            self.raw_data = load_from_disk("data/2_to_release/IMDA_AR_DIALOGUE_v4")
+        elif self.dataset_name == 'imda_gr_sentence':
+            self.raw_data = load_from_disk("data/2_to_release/IMDA_GR_SENTENCE_v4")
+        elif self.dataset_name == 'imda_gr_dialogue':
+            self.raw_data = load_from_disk("data/2_to_release/IMDA_GR_DIALOGUE_v4")
+
+        elif self.dataset_name == 'ytb_asr_batch1':
+            self.raw_data = load_from_disk("data/3_private_data/ytb_asr_batch1")
+        elif self.dataset_name == 'seame_dev_man':
+            self.raw_data = load_from_disk("data/3_private_data/seame_dev_man")
+        elif self.dataset_name == 'seame_dev_sge':
+            self.raw_data = load_from_disk("data/3_private_data/seame_dev_sge")
+            
+
+        elif self.dataset_name == 'cna_test': self.raw_data        = load_from_disk("data/3_private_data/cna_ASR_v3")
+        elif self.dataset_name == 'idpc_test': self.raw_data       = load_from_disk("data/3_private_data/idpc_long_ASR_v1")
+        elif self.dataset_name == 'parliament_test': self.raw_data = load_from_disk("data/3_private_data/parliament_long_ASR_v1")
+        elif self.dataset_name == 'ukusnews_test': self.raw_data   = load_from_disk("data/3_private_data/ukusnews_long_ASR_v1")
+        elif self.dataset_name == 'mediacorp_test': self.raw_data  = load_from_disk("data/3_private_data/mediacorp_long_ASR_v1")
+
+        elif self.dataset_name == 'idpc_short_test': self.raw_data       = load_from_disk("data/3_private_data/idpc_short_ASR_v1")
+        elif self.dataset_name == 'parliament_short_test': self.raw_data = load_from_disk("data/3_private_data/parliament_short_ASR_v1")
+        elif self.dataset_name == 'ukusnews_short_test': self.raw_data   = load_from_disk("data/3_private_data/ukusnews_short_ASR_v1")
+        elif self.dataset_name == 'mediacorp_short_test': self.raw_data  = load_from_disk("data/3_private_data/mediacorp_short_ASR_v1")
+
+
         
         else:
             raise NotImplementedError("Dataset {} not implemented yet".format(self.dataset_name))
@@ -158,6 +261,7 @@ class Dataset(object):
         if   self.dataset_name == 'cn_college_listen_mcq_test': self.dataset_processor = cn_college_listen_mcq_test_dataset(self.raw_data, self.number_of_samples)
         elif self.dataset_name == 'slue_p2_sqa5_test': self.dataset_processor          = slue_p2_sqa5_test_dataset(self.raw_data, self.number_of_samples)
         elif self.dataset_name == 'public_sg_speech_qa_test': self.dataset_processor   = public_sg_speech_qa_test_dataset(self.raw_data, self.number_of_samples)
+        elif self.dataset_name == 'dream_tts_test': self.dataset_processor             = dream_tts_test_dataset(self.raw_data, self.number_of_samples)
         elif self.dataset_name == 'dream_tts_mcq_test': self.dataset_processor         = dream_tts_mcq_test_dataset(self.raw_data, self.number_of_samples)
         elif self.dataset_name == 'librispeech_test_clean': self.dataset_processor     = librispeech_test_clean_dataset(self.raw_data, self.number_of_samples)
         elif self.dataset_name == 'librispeech_test_other': self.dataset_processor     = librispeech_test_other_dataset(self.raw_data, self.number_of_samples)
@@ -189,7 +293,70 @@ class Dataset(object):
         elif self.dataset_name == 'covost2_ta_en_test': self.dataset_processor         = covost2_ta_en_test_dataset(self.raw_data, self.number_of_samples)
         elif self.dataset_name == 'aishell_asr_zh_test': self.dataset_processor        = aishell_asr_zh_test_dataset(self.raw_data, self.number_of_samples)
         elif self.dataset_name == 'spoken_squad_test': self.dataset_processor          = spoken_squad_test_dataset(self.raw_data, self.number_of_samples)
-        elif self.dataset_name == 'mu_chomusic_test': self.dataset_processor           = mu_chomusic_test_dataset(self.raw_data, self.number_of_samples)
+        elif self.dataset_name == 'muchomusic_test': self.dataset_processor            = mu_chomusic_test_dataset(self.raw_data, self.number_of_samples)
+
+        elif self.dataset_name == 'imda_part1_asr_test': self.dataset_processor     = imda_part1_asr_test_dataset(self.raw_data, self.number_of_samples)
+        elif self.dataset_name == 'imda_part2_asr_test': self.dataset_processor     = imda_part2_asr_test_dataset(self.raw_data, self.number_of_samples)
+        elif self.dataset_name == 'imda_part3_30s_asr_test': self.dataset_processor = imda_part3_30s_asr_test_dataset(self.raw_data, self.number_of_samples)
+        elif self.dataset_name == 'imda_part4_30s_asr_test': self.dataset_processor = imda_part4_30s_asr_test_dataset(self.raw_data, self.number_of_samples)
+        elif self.dataset_name == 'imda_part5_30s_asr_test': self.dataset_processor = imda_part5_30s_asr_test_dataset(self.raw_data, self.number_of_samples)
+        elif self.dataset_name == 'imda_part6_30s_asr_test': self.dataset_processor = imda_part6_30s_asr_test_dataset(self.raw_data, self.number_of_samples)
+
+        elif self.dataset_name == 'imda_30s_sqa_test': self.dataset_processor             = imda_30s_sqa_test_dataset(self.raw_data, self.number_of_samples)
+        elif self.dataset_name == 'imda_30s_sqa_human_test': self.dataset_processor       = imda_30s_sqa_human_test_dataset(self.raw_data, self.number_of_samples)
+        elif self.dataset_name == 'imda_part3_30s_sqa_test': self.dataset_processor       = imda_part3_30s_sqa_test_dataset(self.raw_data, self.number_of_samples)
+        elif self.dataset_name == 'imda_part3_30s_sqa_human_test': self.dataset_processor = imda_part3_30s_sqa_human_test_dataset(self.raw_data, self.number_of_samples)
+        elif self.dataset_name == 'imda_part4_30s_sqa_test': self.dataset_processor       = imda_part4_30s_sqa_test_dataset(self.raw_data, self.number_of_samples)
+        elif self.dataset_name == 'imda_part4_30s_sqa_human_test': self.dataset_processor = imda_part4_30s_sqa_human_test_dataset(self.raw_data, self.number_of_samples)
+        elif self.dataset_name == 'imda_part5_30s_sqa_test': self.dataset_processor       = imda_part5_30s_sqa_test_dataset(self.raw_data, self.number_of_samples)
+        elif self.dataset_name == 'imda_part5_30s_sqa_human_test': self.dataset_processor = imda_part5_30s_sqa_human_test_dataset(self.raw_data, self.number_of_samples)
+        elif self.dataset_name == 'imda_part6_30s_sqa_test': self.dataset_processor       = imda_part6_30s_sqa_test_dataset(self.raw_data, self.number_of_samples)
+        elif self.dataset_name == 'imda_part6_30s_sqa_human_test': self.dataset_processor = imda_part6_30s_sqa_human_test_dataset(self.raw_data, self.number_of_samples)
+
+        elif self.dataset_name == 'imda_30s_ds_test': self.dataset_processor             = imda_30s_ds_test_dataset(self.raw_data, self.number_of_samples)
+        elif self.dataset_name == 'imda_30s_ds_human_test': self.dataset_processor       = imda_30s_ds_human_test_dataset(self.raw_data, self.number_of_samples)
+        elif self.dataset_name == 'imda_part3_30s_ds_test': self.dataset_processor       = imda_part3_30s_ds_test_dataset(self.raw_data, self.number_of_samples)
+        elif self.dataset_name == 'imda_part3_30s_ds_human_test': self.dataset_processor = imda_part3_30s_ds_human_test_dataset(self.raw_data, self.number_of_samples)
+        elif self.dataset_name == 'imda_part4_30s_ds_test': self.dataset_processor       = imda_part4_30s_ds_test_dataset(self.raw_data, self.number_of_samples)
+        elif self.dataset_name == 'imda_part4_30s_ds_human_test': self.dataset_processor = imda_part4_30s_ds_human_test_dataset(self.raw_data, self.number_of_samples)
+        elif self.dataset_name == 'imda_part5_30s_ds_test': self.dataset_processor       = imda_part5_30s_ds_test_dataset(self.raw_data, self.number_of_samples)
+        elif self.dataset_name == 'imda_part5_30s_ds_human_test': self.dataset_processor = imda_part5_30s_ds_human_test_dataset(self.raw_data, self.number_of_samples)
+        elif self.dataset_name == 'imda_part6_30s_ds_test': self.dataset_processor       = imda_part6_30s_ds_test_dataset(self.raw_data, self.number_of_samples)
+        elif self.dataset_name == 'imda_part6_30s_ds_human_test': self.dataset_processor = imda_part6_30s_ds_human_test_dataset(self.raw_data, self.number_of_samples)
+        
+        elif self.dataset_name == 'imda_ar_sentence':
+            from dataset_src.imda_ar_sentence import imda_ar_sentence_test_dataset
+            self.dataset_processor = imda_ar_sentence_test_dataset(self.raw_data, self.number_of_samples)
+        elif self.dataset_name == 'imda_ar_dialogue':
+            from dataset_src.imda_ar_dialogue import imda_ar_dialogue_test_dataset
+            self.dataset_processor = imda_ar_dialogue_test_dataset(self.raw_data, self.number_of_samples)
+        elif self.dataset_name == 'imda_gr_sentence':
+            from dataset_src.imda_gr_sentence import imda_gr_sentence_test_dataset
+            self.dataset_processor = imda_gr_sentence_test_dataset(self.raw_data, self.number_of_samples)
+        elif self.dataset_name == 'imda_gr_dialogue':
+            from dataset_src.imda_gr_dialogue import imda_gr_dialogue_test_dataset
+            self.dataset_processor = imda_gr_dialogue_test_dataset(self.raw_data, self.number_of_samples)
+
+        elif self.dataset_name == 'ytb_asr_batch1':
+            from dataset_src.ytb_asr_batch1 import ytb_asr_batch1_dataset
+            self.dataset_processor = ytb_asr_batch1_dataset(self.raw_data, self.number_of_samples)
+        elif self.dataset_name == 'seame_dev_man':
+            from dataset_src.seame_dev_man import seame_dev_man_dataset
+            self.dataset_processor = seame_dev_man_dataset(self.raw_data, self.number_of_samples)
+        elif self.dataset_name == 'seame_dev_sge':
+            from dataset_src.seame_dev_sge import seame_dev_sge_dataset
+            self.dataset_processor = seame_dev_sge_dataset(self.raw_data, self.number_of_samples)
+
+        elif self.dataset_name == 'cna_test': self.dataset_processor            = cna_test_dataset(self.raw_data, self.number_of_samples)
+        elif self.dataset_name == 'idpc_test': self.dataset_processor           = idpc_test_dataset(self.raw_data, self.number_of_samples)
+        elif self.dataset_name == 'parliament_test': self.dataset_processor     = parliament_test_dataset(self.raw_data, self.number_of_samples)
+        elif self.dataset_name == 'ukusnews_test': self.dataset_processor       = ukusnews_test_dataset(self.raw_data, self.number_of_samples)
+        elif self.dataset_name == 'mediacorp_test': self.dataset_processor      = mediacorp_test_dataset(self.raw_data, self.number_of_samples)
+
+        elif self.dataset_name == 'idpc_short_test': self.dataset_processor       = idpc_short_test_dataset(self.raw_data, self.number_of_samples)
+        elif self.dataset_name == 'parliament_short_test': self.dataset_processor = parliament_short_test_dataset(self.raw_data, self.number_of_samples)
+        elif self.dataset_name == 'ukusnews_short_test': self.dataset_processor   = ukusnews_short_test_dataset(self.raw_data, self.number_of_samples)
+        elif self.dataset_name == 'mediacorp_short_test': self.dataset_processor  = mediacorp_short_test_dataset(self.raw_data, self.number_of_samples)
 
         else:
             raise NotImplementedError("Dataset {} not implemented yet".format(self.dataset_name))

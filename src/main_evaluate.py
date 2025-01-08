@@ -67,10 +67,6 @@ def main(
         batch_size = -1
         logger.info("Batch size is set to -1 for WavLLM_fairseq model.")
 
-    if batch_size != 1 and model_name != 'WavLLM_fairseq':
-        raise NotImplementedError("Batch size {} not implemented yet".format(batch_size))
-    elif batch_size != -1 and model_name == 'WavLLM_fairseq':
-        raise NotImplementedError("Batch size {} not implemented yet for WavLLM_fairseq".format(batch_size))
 
     dataset = Dataset(dataset_name, number_of_samples)
 
@@ -79,6 +75,9 @@ def main(
     
         # Load model
         model = Model(model_name)
+
+        # Specific current dataset name for evaluation
+        model.dataset_name = dataset.dataset_name
 
         # Infer with model
         model_predictions           = do_model_prediction(dataset.input_data, model, batch_size=batch_size)
