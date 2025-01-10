@@ -16,7 +16,7 @@ import random
 import logging
 
 
-class imda_part4_30s_gr_test_dataset(object):
+class ytb_sds_batch1_dataset(object):
 
     def __init__(self, raw_data, number_of_samples):
 
@@ -39,7 +39,7 @@ class imda_part4_30s_gr_test_dataset(object):
                                 "audio"    : audio,
                                 "text"     : instruction,
                                 "answer"   : reference,
-                                "task_type": "GR"
+                                "task_type": "SDS"
                                 })
 
         logging.info('\n=  =  =  Dataset Sample  =  =  =')
@@ -84,7 +84,7 @@ class imda_part4_30s_gr_test_dataset(object):
         elif metrics == 'llama3_70b_judge_binary':
             from dataset_src.eval_methods.eval_llama3_70b import llama3_70b_as_judge_binary
             llama3_70b_judge_binary_results, all_details = llama3_70b_as_judge_binary("meta-llama/Meta-Llama-3-70B-Instruct", [questions, references, predictions])
-            return {'llama3_70b_judge_binary': llama3_70b_judge_binary_results, 'details': all_details}
+            return {'llama3_70b_judge_binary': llama3_70b_judge_binary_results, 'details': all_details}        
 
         elif metrics == 'llama3_8b_judge':
             from dataset_src.eval_methods.eval_llama3_8b import llama3_8b_as_judge
@@ -96,10 +96,15 @@ class imda_part4_30s_gr_test_dataset(object):
             prometheus2_judge_results = prometheus2_as_judge("../prepared_models/prometheus-7b-v2.0", [questions, references, predictions])
             return {'prometheus2_judge': prometheus2_judge_results}
         
-        elif metrics == 'gpt4_judge':
-            from dataset_src.eval_methods.eval_gpt4 import gpt4_as_judge
-            gpt4_judge_results = gpt4_as_judge("", [questions, references, predictions])
-            return {'gpt4_judge': gpt4_judge_results}
+        elif metrics == 'gpt4o_judge':
+            from dataset_src.eval_methods.eval_gpt4o import gpt4o_as_judge
+            gpt4o_judge_results, all_details = gpt4o_as_judge("", [questions, references, predictions])
+            return {'gpt4o_judge': gpt4o_judge_results, 'details': all_details}
+        
+        elif metrics == 'gpt4o_judge_binary':
+            from dataset_src.eval_methods.eval_gpt4o import gpt4o_as_judge_binary
+            gpt4o_judge_binary_results, all_details = gpt4o_as_judge_binary("", [questions, references, predictions])
+            return {'gpt4o_judge_binary': gpt4o_judge_binary_results, 'details': all_details}
         
         else:
             raise ValueError("Invalid metrics: {}".format(metrics))

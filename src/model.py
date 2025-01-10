@@ -111,6 +111,10 @@ class Model(object):
             from model_src.meralion_audiollm_whisper_sea_lion import meralion_audiollm_whisper_sea_lion_model_loader
             meralion_audiollm_whisper_sea_lion_model_loader(self)
 
+        elif self.model_name == 'gemini-1.5-flash':
+            from model_src.gemini_1_5_flash import gemini_1_5_flash_model_loader
+            gemini_1_5_flash_model_loader(self)
+
 
 
 
@@ -210,6 +214,11 @@ class Model(object):
             elif self.model_name == "MERaLiON-AudioLLM-Whisper-SEA-LION":
                 from model_src.meralion_audiollm_whisper_sea_lion import meralion_audiollm_whisper_sea_lion_model_generation
                 return meralion_audiollm_whisper_sea_lion_model_generation(self, input)
+            
+            elif self.model_name == "gemini-1.5-flash":
+                from model_src.gemini_1_5_flash import gemini_1_5_flash_model_generation
+                return gemini_1_5_flash_model_generation(self, input)
+            
             
             
             

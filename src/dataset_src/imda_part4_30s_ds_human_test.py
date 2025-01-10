@@ -32,14 +32,14 @@ class imda_part4_30s_ds_human_test_dataset(object):
 
         input_data = []
         for sample in self.raw_data:
-            audio       = sample['context']['audio']
-            instruction = sample['instruction']['text']
-            reference   = sample['answer']['text']
+            audio       = sample['context']
+            instruction = sample['instruction']
+            reference   = sample['answer']
             input_data.append({
                                 "audio"    : audio,
                                 "text"     : instruction,
                                 "answer"   : reference,
-                                "task_type": "SQA"
+                                "task_type": "SDS"
                                 })
 
         logging.info('\n=  =  =  Dataset Sample  =  =  =')

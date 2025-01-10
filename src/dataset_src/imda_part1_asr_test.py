@@ -21,7 +21,6 @@ from dataset_src.text_normalizer.preprocess_text import preprocess_text_asr
 from dataset_src.prompts.prompts import asr_instructions
 
 
-
 class imda_part1_asr_test_dataset(object):
 
     def __init__(self, raw_data, number_of_samples):
@@ -39,8 +38,8 @@ class imda_part1_asr_test_dataset(object):
 
         input_data = []
         for sample in self.raw_data:
-            audio       = sample['context']['audio']
-            reference   = sample['answer']['text']
+            audio       = sample['context']
+            reference   = sample['answer']
             instruction = random.choice(self.prompt)
             input_data.append({
                                 "audio"    : audio,

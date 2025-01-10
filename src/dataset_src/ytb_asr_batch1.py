@@ -39,7 +39,7 @@ class ytb_asr_batch1_dataset(object):
         input_data = []
         for sample in self.raw_data:
             audio       = sample['context']['audio']
-            reference   = sample['context']['text']
+            reference   = sample['answer']['text']
             instruction = random.choice(self.prompt)
             input_data.append({
                                 "audio"    : audio,

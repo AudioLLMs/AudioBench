@@ -1,4 +1,5 @@
 
+# export HF_ENDPOINT=https://huggingface.co
 
 export HF_ENDPOINT=https://hf-mirror.com
 export HF_HOME=/project/cache/huggingface_cache
@@ -23,28 +24,48 @@ export NLTK_DATA="/project/cache/nltk_data"
 # MODEL_NAME=SALMONN_7B
 # MODEL_NAME=AudioLLM_IMDA_MLP100
 # MODEL_NAME=temp_model_for_debugging_datasets
-# MODEL_NAME=cascade_whisper_large_v2_gemma2_9b_cpt_sea_lionv3_instruct 
 # MODEL_NAME=WavLLM_fairseq
 
-MODEL_NAME=MERaLiON-AudioLLM-Whisper-SEA-LION
+# Tested
+# MODEL_NAME=MERaLiON-AudioLLM-Whisper-SEA-LION
+# MODEL_NAME=cascade_whisper_large_v2_gemma2_9b_cpt_sea_lionv3_instruct
+# MODEL_NAME=gemini-1.5-flash
 
+# =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
+
+MODEL_NAME=MERaLiON-AudioLLM-Whisper-SEA-LION
 
 
 # =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
 GPU=1
 BATCH_SIZE=1
-OVERWRITE=False
+OVERWRITE=True
+# NUMBER_OF_SAMPLES=-1
 NUMBER_OF_SAMPLES=10
 # =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
 
+# =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
+# DATASET=mediacorp_short_test
+# METRICS=wer
 
-DATASET=mediacorp_short_test
-METRICS=wer
+# DATASET=cn_college_listen_mcq_test
+# METRICS=llama3_70b_judge_binary
 
-DATASET=cn_college_listen_mcq_test
-METRICS=llama3_70b_judge_binary
+# DATASET=imda_part6_30s_asr_test
+# METRICS=wer
+
+# DATASET=muchomusic_test
+# METRICS=llama3_70b_judge_binary
+
+# DATASET=ytb_asr_batch1
+# METRICS=wer
+
+# =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
 
 
+DATASET=ytb_sds_batch1
+METRICS=llama3_70b_judge
 
 bash eval.sh $DATASET $MODEL_NAME $GPU $BATCH_SIZE $OVERWRITE $METRICS $NUMBER_OF_SAMPLES
+
 

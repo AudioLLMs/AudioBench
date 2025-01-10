@@ -98,7 +98,7 @@ def main(
         torch.cuda.empty_cache()
     except: 
         pass
-
+    
     results = dataset.dataset_processor.compute_score(data_with_model_predictions, metrics=metrics)
 
     # Print the result with metrics

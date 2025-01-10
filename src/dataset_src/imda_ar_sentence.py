@@ -32,9 +32,9 @@ class imda_ar_sentence_test_dataset(object):
 
         input_data = []
         for sample in self.raw_data:
-            audio       = sample['context']['audio']
-            instruction = sample['instruction']['text']
-            reference   = sample['answer']['text']
+            audio       = sample['context']
+            instruction = sample['instruction']
+            reference   = sample['answer']
             input_data.append({
                                 "audio"    : audio,
                                 "text"     : instruction,

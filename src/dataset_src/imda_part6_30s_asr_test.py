@@ -39,8 +39,8 @@ class imda_part6_30s_asr_test_dataset(object):
 
         input_data = []
         for sample in self.raw_data:
-            audio       = sample['context']['audio']
-            reference   = sample['answer']['text']
+            audio       = sample['context']
+            reference   = sample['answer']
             instruction = random.choice(self.prompt)
             input_data.append({
                                 "audio"    : audio,

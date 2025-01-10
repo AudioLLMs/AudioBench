@@ -11,40 +11,12 @@
 # Date&Time 			By	Comments
 # ----------			---	----------------------------------------------------------
 ###
-
+import os
 import random
 import logging
 
-ds_instructions = [
-    "Can you assist with summarizing the details from the audio?",
-    "Would you mind helping to summarize the content of the audio?",
-    "Can you break down the main ideas from the audio for me?",
-    "Is it possible for you to summarize what's covered in the audio?",
-    "Could you help provide a summary of the audio details?",
-    "Can you summarize the key points from the audio?",
-    "Could you help by giving an overview of the audio's content?",
-    "Would you summarize the information from the audio for me?",
-    "Can you assist in summarizing the audio recording?",
-    "Could you break down the important parts of the audio for me?",
-    "Is it possible for you to offer a summary of the audio?",
-    "Can I get your help to summarize what’s in the audio?",
-    "Could you outline the main points from the audio for me?",
-    "Can you help clarify the main ideas in the audio?",
-    "Would you be able to summarize the content captured in the audio?",
-    "Could you offer a brief summary of what the audio contains?",
-    "Can you assist me in summarizing the audio file’s content?",
-    "Would you help me summarize the core message of the audio?",
-    "Could you provide a brief overview of the audio’s information?",
-    "Is it possible for you to break down the key ideas from the audio?",
-    "Please summarize the audio content.",
-    "Could you please summarize the audio?",
-    "Please provide a summary of the audio.",
-    "I would appreciate it if you could summarize the audio content.",
-    "Could you kindly summarize the audio's content?"
-    ]
 
-
-class imda_30s_ds_test_dataset(object):
+class ytb_sqa_batch1_dataset(object):
 
     def __init__(self, raw_data, number_of_samples):
 
@@ -53,7 +25,6 @@ class imda_30s_ds_test_dataset(object):
             raw_data = raw_data.select(range(number_of_samples))
         
         self.raw_data = raw_data
-        self.prompt   = ds_instructions
         logging.info('Number of samples: {}'.format(len(self.raw_data)))
 
 
@@ -62,13 +33,13 @@ class imda_30s_ds_test_dataset(object):
         input_data = []
         for sample in self.raw_data:
             audio       = sample['context']['audio']
-            instruction = random.choice(self.prompt)
+            instruction = sample['instruction']['text']
             reference   = sample['answer']['text']
             input_data.append({
                                 "audio"    : audio,
                                 "text"     : instruction,
                                 "answer"   : reference,
-                                "task_type": "DS"
+                                "task_type": "SQA"
                                 })
 
         logging.info('\n=  =  =  Dataset Sample  =  =  =')
@@ -113,7 +84,7 @@ class imda_30s_ds_test_dataset(object):
         elif metrics == 'llama3_70b_judge_binary':
             from dataset_src.eval_methods.eval_llama3_70b import llama3_70b_as_judge_binary
             llama3_70b_judge_binary_results, all_details = llama3_70b_as_judge_binary("meta-llama/Meta-Llama-3-70B-Instruct", [questions, references, predictions])
-            return {'llama3_70b_judge_binary': llama3_70b_judge_binary_results, 'details': all_details}        
+            return {'llama3_70b_judge_binary': llama3_70b_judge_binary_results, 'details': all_details}
 
         elif metrics == 'llama3_8b_judge':
             from dataset_src.eval_methods.eval_llama3_8b import llama3_8b_as_judge
