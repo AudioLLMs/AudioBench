@@ -63,8 +63,8 @@ NUMBER_OF_SAMPLES=10
 # =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
 
 
-DATASET=ytb_sds_batch1
-METRICS=llama3_70b_judge
+DATASET=ytb_asr_batch2
+METRICS=wer
 
 bash eval.sh $DATASET $MODEL_NAME $GPU $BATCH_SIZE $OVERWRITE $METRICS $NUMBER_OF_SAMPLES
 

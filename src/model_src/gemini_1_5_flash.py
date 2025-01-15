@@ -52,9 +52,7 @@ logging.basicConfig(
 def gemini_1_5_flash_model_loader(self):
 
     # Initialize a Gemini model appropriate for your use case.
-    # self.model = genai.GenerativeModel('models/gemini-1.5-flash')
-    self.model = genai.GenerativeModel('models/gemini-2.0-flash-exp')
-
+    self.model = genai.GenerativeModel('models/gemini-1.5-flash')
 
     logger.info("Model loaded")
 

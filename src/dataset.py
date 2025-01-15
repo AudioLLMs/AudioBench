@@ -197,11 +197,17 @@ class Dataset(object):
         elif self.dataset_name == 'ytb_asr_batch1':
             self.raw_data = load_from_disk("data/3_private_data/ytb_asr_batch1")
 
+        elif self.dataset_name == 'ytb_asr_batch2':
+            self.raw_data = load_from_disk("data/3_private_data/ytb_asr_batch2")
+
         elif self.dataset_name == 'ytb_sqa_batch1':
             self.raw_data = load_from_disk("data/3_private_data/ytb_sqa_batch1")
 
         elif self.dataset_name == 'ytb_sds_batch1':
             self.raw_data = load_from_disk("data/3_private_data/ytb_sds_batch1")
+
+        elif self.dataset_name == 'ytb_pqa_batch1':
+            self.raw_data = load_from_disk("data/3_private_data/ytb_pqa_batch1")
 
         elif self.dataset_name == 'seame_dev_man':
             self.raw_data = load_from_disk("data/3_private_data/seame_dev_man")
@@ -467,6 +473,10 @@ class Dataset(object):
             from dataset_src.ytb_asr_batch1 import ytb_asr_batch1_dataset
             self.dataset_processor = ytb_asr_batch1_dataset(self.raw_data, self.number_of_samples)
 
+        elif self.dataset_name == 'ytb_asr_batch2':
+            from dataset_src.ytb_asr_batch2 import ytb_asr_batch2_dataset
+            self.dataset_processor = ytb_asr_batch2_dataset(self.raw_data, self.number_of_samples)
+
         elif self.dataset_name == 'ytb_sqa_batch1':
             from dataset_src.ytb_sqa_batch1 import ytb_sqa_batch1_dataset
             self.dataset_processor = ytb_sqa_batch1_dataset(self.raw_data, self.number_of_samples)
@@ -474,6 +484,10 @@ class Dataset(object):
         elif self.dataset_name == 'ytb_sds_batch1':
             from dataset_src.ytb_sds_batch1 import ytb_sds_batch1_dataset
             self.dataset_processor = ytb_sds_batch1_dataset(self.raw_data, self.number_of_samples)
+
+        elif self.dataset_name == 'ytb_pqa_batch1':
+            from dataset_src.ytb_pqa_batch1 import ytb_pqa_batch1_dataset
+            self.dataset_processor = ytb_pqa_batch1_dataset(self.raw_data, self.number_of_samples)
 
         elif self.dataset_name == 'seame_dev_man':
             from dataset_src.seame_dev_man import seame_dev_man_dataset

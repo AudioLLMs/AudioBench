@@ -25,10 +25,9 @@ DATASETS_TO_CHECK = {
     'mediacorp_short_test' : ['wer'],
 
     'ytb_asr_batch1': ['wer'],
+    'ytb_asr_batch2': ['wer'],
     'seame_dev_man' : ['wer'],
     'seame_dev_sge' : ['wer'],
-
-
 
     'aishell_asr_zh_test'       : ['wer'],
 
@@ -58,17 +57,6 @@ DATASETS_TO_CHECK = {
     'covost2_ta_en_test'        : ['bleu'],
     'muchomusic_test'           : ['llama3_70b_judge_binary', 'gpt4o_judge_binary'],
     
-    
-    # 'imda_part3_30s_sqa_test'      : ['llama3_70b_judge', 'gpt4o_judge'],
-    # 'imda_part4_30s_sqa_test'      : ['llama3_70b_judge', 'gpt4o_judge'],
-    # 'imda_part5_30s_sqa_test'      : ['llama3_70b_judge', 'gpt4o_judge'],
-    # 'imda_part6_30s_sqa_test'      : ['llama3_70b_judge', 'gpt4o_judge'],
-
-    # 'imda_part3_30s_ds_test'      : ['llama3_70b_judge', 'gpt4o_judge'],
-    # 'imda_part4_30s_ds_test'      : ['llama3_70b_judge', 'gpt4o_judge'],
-    # 'imda_part5_30s_ds_test'      : ['llama3_70b_judge', 'gpt4o_judge'],
-    # 'imda_part6_30s_ds_test'      : ['llama3_70b_judge', 'gpt4o_judge'],
-
     'imda_part1_asr_test'    : ['wer'],
     'imda_part2_asr_test'    : ['wer'],
     'imda_part3_30s_asr_test': ['wer'],
@@ -90,7 +78,11 @@ DATASETS_TO_CHECK = {
     'imda_ar_dialogue'      : ['llama3_70b_judge_binary', 'gpt4o_judge_binary'],
     'imda_gr_sentence'      : ['llama3_70b_judge_binary', 'gpt4o_judge_binary'],
     'imda_gr_dialogue'      : ['llama3_70b_judge_binary', 'gpt4o_judge_binary'],
-    
+
+    'ytb_sqa_batch1': ['llama3_70b_judge'],
+    'ytb_sds_batch1': ['llama3_70b_judge'],
+    'ytb_pqa_batch1': ['llama3_70b_judge'],
+
 }
 
 MODEL_SCORE_NAMES = []
