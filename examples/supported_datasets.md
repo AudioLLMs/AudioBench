@@ -36,6 +36,27 @@ METRIC=wer
 
 
 
+# == == == == == ASR - Singlish == == == == ==
+
+DATASET=imda_part1_asr_test
+METRIC=wer
+
+DATASET=imda_part2_asr_test
+METRIC=wer
+
+DATASET=imda_part3_30s_asr_test
+METRIC=wer
+
+DATASET=imda_part4_30s_asr_test
+METRIC=wer
+
+DATASET=imda_part5_30s_asr_test
+METRIC=wer
+
+DATASET=imda_part6_30s_asr_test
+METRIC=wer
+
+
 # == == == == == ASR - Mandarin == == == == ==
 
 DATASET=aishell_asr_zh_test
@@ -82,7 +103,35 @@ METRIC=llama3_70b_judge
 DATASET=spoken_squad_test
 METRIC=llama3_70b_judge
 
+# Singlish SQA
 
+DATASET=imda_part3_30s_sqa_human_test
+METRIC=llama3_70b_judge
+
+DATASET=imda_part4_30s_sqa_human_test
+METRIC=llama3_70b_judge
+
+DATASET=imda_part5_30s_sqa_human_test
+METRIC=llama3_70b_judge
+
+DATASET=imda_part6_30s_sqa_human_test
+METRIC=llama3_70b_judge
+
+
+# == == == == == Spoken Dialogue Summarization == == == == ==
+
+
+DATASET=imda_part3_30s_ds_human_test
+METRIC=llama3_70b_judge
+
+DATASET=imda_part4_30s_ds_human_test
+METRIC=llama3_70b_judge
+
+DATASET=imda_part5_30s_ds_human_test
+METRIC=llama3_70b_judge
+
+DATASET=imda_part6_30s_ds_human_test
+METRIC=llama3_70b_judge
 
 
 # == == == == == Speech Instruction == == == == ==
@@ -145,7 +194,11 @@ METRIC=llama3_70b_judge_binary
 DATASET=voxceleb_accent_test
 METRIC=llama3_70b_judge
 
+DATASET=imda_ar_sentence
+METRIC=llama3_70b_judge_binary
 
+DATASET=imda_ar_dialogue
+METRIC=llama3_70b_judge_binary
 
 # == == == == == Gender Recognition == == == == ==
 
@@ -155,7 +208,11 @@ METRIC=llama3_70b_judge_binary
 DATASET=iemocap_gender_test
 METRIC=llama3_70b_judge_binary
 
+DATASET=imda_gr_sentence
+METRIC=llama3_70b_judge_binary
 
+DATASET=imda_gr_dialogue
+METRIC=llama3_70b_judge_binary
 
 # == == == == == Music Understanding == == == == ==
 
