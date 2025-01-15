@@ -115,7 +115,9 @@ class Model(object):
             from model_src.gemini_1_5_flash import gemini_1_5_flash_model_loader
             gemini_1_5_flash_model_loader(self)
 
-
+        elif self.model_name == 'whisper_large_v3':
+            from model_src.whisper_large_v3 import whisper_large_v3_model_loader
+            whisper_large_v3_model_loader(self)
 
 
 
@@ -219,7 +221,9 @@ class Model(object):
                 from model_src.gemini_1_5_flash import gemini_1_5_flash_model_generation
                 return gemini_1_5_flash_model_generation(self, input)
             
-            
+            elif self.model_name == "whisper_large_v3":
+                from model_src.whisper_large_v3 import whisper_large_v3_model_generation
+                return whisper_large_v3_model_generation(self, input)
             
             
             

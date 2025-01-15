@@ -30,18 +30,19 @@ export NLTK_DATA="/project/cache/nltk_data"
 # MODEL_NAME=MERaLiON-AudioLLM-Whisper-SEA-LION
 # MODEL_NAME=cascade_whisper_large_v2_gemma2_9b_cpt_sea_lionv3_instruct
 # MODEL_NAME=gemini-1.5-flash
+# MODEL_NAME=whisper_large_v3
+
 
 # =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
 
-MODEL_NAME=MERaLiON-AudioLLM-Whisper-SEA-LION
+MODEL_NAME=whisper_large_v3
 
 
 # =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
 GPU=1
 BATCH_SIZE=1
 OVERWRITE=True
-# NUMBER_OF_SAMPLES=-1
-NUMBER_OF_SAMPLES=10
+NUMBER_OF_SAMPLES=-1
 # =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
 
 # =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
@@ -63,7 +64,7 @@ NUMBER_OF_SAMPLES=10
 # =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
 
 
-DATASET=ytb_asr_batch2
+DATASET=ytb_asr_batch1
 METRICS=wer
 
 bash eval.sh $DATASET $MODEL_NAME $GPU $BATCH_SIZE $OVERWRITE $METRICS $NUMBER_OF_SAMPLES

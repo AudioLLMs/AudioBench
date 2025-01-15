@@ -12,6 +12,11 @@ MODEL_NAME=Qwen2-Audio-7B-Instruct
 MODEL_NAME=SALMONN_7B
 
 MODEL_NAME=Qwen-Audio-Chat
+
+MODEL_NAME=MERaLiON-AudioLLM-Whisper-SEA-LION
+
+MODEL_NAME=whisper_large_v3
+
 ```
 
 
