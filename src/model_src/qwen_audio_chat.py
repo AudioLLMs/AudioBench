@@ -43,7 +43,7 @@ logging.basicConfig(
 )
 # =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
 
-model_path = "examples/Qwen-Audio-Chat"
+model_path = "Qwen/Qwen-Audio-Chat"
 
 def qwen_audio_chat_model_loader(self):
 

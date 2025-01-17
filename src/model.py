@@ -63,10 +63,6 @@ class Model(object):
             from model_src.huayun_whisper_local_no_cs import huayun_whisper_local_no_cs_model_loader
             huayun_whisper_local_no_cs_model_loader(self)
 
-        elif self.model_name == "xl_whisper_imda_v0_1":
-            from model_src.xl_whisper_imda_v0_1 import xl_whisper_imda_v0_1_model_loader
-            xl_whisper_imda_v0_1_model_loader(self)
-
         elif self.model_name == "original_whisper_large_v2":
             from model_src.original_whisper_large_v2 import original_whisper_large_v2_model_loader
             original_whisper_large_v2_model_loader(self)
