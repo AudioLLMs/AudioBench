@@ -55,6 +55,7 @@ DATASETS_TO_CHECK = {
     'covost2_id_en_test'        : ['bleu'],
     'covost2_zh_en_test'        : ['bleu'],
     'covost2_ta_en_test'        : ['bleu'],
+    
     'muchomusic_test'           : ['llama3_70b_judge'],
     
     'imda_part1_asr_test'    : ['wer'],
@@ -105,7 +106,8 @@ for MODEL_NAME in MODEL_NAME_TO_CHECK:
 
     for model_score_name in MODEL_SCORE_NAMES:
 
-        if 'gpt4o' in model_score_name: # skip gpt4o
+        # For ASR models, only exam ASR
+        if MODEL_NAME == 'whisper_large_v3' and 'wer' not in model_score_name:
             continue
         
         score_log_path = f"log/{MODEL_NAME}/{model_score_name}_score.json"

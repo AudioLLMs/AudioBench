@@ -31,17 +31,19 @@ export NLTK_DATA="/project/cache/nltk_data"
 # MODEL_NAME=Qwen-Audio-Chat
 # MODEL_NAME=Qwen2-Audio-7B-Instruct
 # MODEL_NAME=SALMONN_7B
+# MODEL_NAME=WavLLM_fairseq
+
 
 
 
 # =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
 
-MODEL_NAME=Qwen2-Audio-7B-Instruct
+MODEL_NAME=WavLLM_fairseq
 
 # =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
 GPU=1
 BATCH_SIZE=1
-OVERWRITE=False
+OVERWRITE=True
 NUMBER_OF_SAMPLES=-1
 # =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
 
@@ -63,10 +65,8 @@ NUMBER_OF_SAMPLES=-1
 
 # =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
 
-
-DATASET=dream_tts_mcq_test
-METRICS=llama3_70b_judge
+DATASET=ytb_asr_batch2
+METRICS=wer
 
 bash eval.sh $DATASET $MODEL_NAME $GPU $BATCH_SIZE $OVERWRITE $METRICS $NUMBER_OF_SAMPLES
-
 
