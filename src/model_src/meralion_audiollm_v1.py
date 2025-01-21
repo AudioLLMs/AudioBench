@@ -17,12 +17,12 @@ import numpy as np
 
 # HOME='/home'
 
-HOME='/project'
+#HOME='/project'
 
-sys.path.append(f'{HOME}/AudioBench_private/examples/MERaLiON_AudioLLM_v0_5_v2')   
-from multimodal_trainer.modules.models.speech_text_model import SpeechTextMultimodalModel
-from multimodal_trainer.modules.utils.data.batch_processor import mds_speech_text_batch_preprocessor
-from multimodal_trainer.modules.utils.data.instruct_collator import InstructDataCollator
+#sys.path.append(f'{HOME}/AudioBench_private/examples/MERaLiON_AudioLLM_v0_5_v2')   
+#from multimodal_trainer.modules.models.speech_text_model import SpeechTextMultimodalModel
+#from multimodal_trainer.modules.utils.data.batch_processor import mds_speech_text_batch_preprocessor
+#from multimodal_trainer.modules.utils.data.instruct_collator import InstructDataCollator
 
 
 # =  =  =  =  =  =  =  =  =  =  =  Logging Setup  =  =  =  =  =  =  =  =  =  =  =  =  =
@@ -38,28 +38,26 @@ logging.basicConfig(
 
 def meralion_audiollm_v1_model_loader(self):
 
-    self.model_path = f"{HOME}/AudioBench_private/examples/MERaLiON_AudioLLM_v0_5_v2/checkpoint"
+    #self.model_path = f"{HOME}/AudioBench_private/examples/MERaLiON_AudioLLM_v0_5_v2/checkpoint"
 
 
     print("model loading", flush=True)
 
     model_cfg_file = os.path.join(self.model_path, "training_arguments.yaml")
     model_path     = os.path.join(self.model_path, "model.safetensors")
-    model_cfg      = OmegaConf.load(model_cfg_file).model
+    cfg            = OmegaConf.load(model_cfg_file)
+    model_cfg      = cfg.model
 
-    model = SpeechTextMultimodalModel(
-          speech_model_path         = model_cfg.speech_encoder.path,
-          text_decoder_path         = model_cfg.text_decoder.path,
-          train_speech_encoder      = model_cfg.speech_encoder.requires_grad,
-          speech_audio_adapter_type = model_cfg.speech_audio_adapter.type,
-          speech_mlp_scale_factor   = model_cfg.speech_audio_adapter.mlp_scale_factor,
-          train_text_decoder        = model_cfg.text_decoder.requires_grad,
-          use_lora                  = model_cfg.text_decoder.use_lora,
-          lora_alpha                = model_cfg.text_decoder.lora.alpha,
-          lora_rank                 = model_cfg.text_decoder.lora.rank,
-          lora_dropout              = model_cfg.text_decoder.lora.dropout,
-          model_cfg                 = model_cfg,
-    )
+    try:
+        model = init_model(SpeechTextMultimodalModel, model_cfg)
+    except:
+        if self.multimodal_trainer_path not in sys.path:
+            sys.path.append(self.multimodal_trainer_path)
+        from modules.models.speech_text_model import SpeechTextMultimodalModel
+        from modules.utils.module_patches import custom_get_cache
+        from modules.models import init_model
+        transformers.GenerationMixin._get_cache = custom_get_cache
+        model = init_model(SpeechTextMultimodalModel, model_cfg)
 
     
     print(f"Loading model state dict from {model_path}")
@@ -68,12 +66,26 @@ def meralion_audiollm_v1_model_loader(self):
     model.to("cuda:0")
 
     print("model loaded", flush=True)
+    
+    if not "multimodal_trainer.modules.utils.data.instruct_collator" in sys.modules:
+        if self.multimodal_trainer_path not in sys.path:
+            sys.path.append(self.multimodal_trainer_path)
+        from modules.utils.data.instruct_collator import InstructDataCollator
+        from modules.utils.data import init_data_collator
 
-    data_collator = InstructDataCollator(
-          speech_feature_extractor = model.speech_encoder.feature_extractor,
-          llm_tokenizer            = model.text_decoder.tokenizer,
-          is_train                 = False,
-          use_system_prompt        = model_cfg.text_decoder.use_system_prompt,
+    speech_feature_extractor = {
+        name: speech_encoder.feature_extractor
+        for name, speech_encoder in model.speech_encoder.items()
+    }
+    data_collator = init_data_collator(
+        InstructDataCollator,
+        cfg,
+        llm_tokenizer=model.text_decoder.tokenizer,
+        speech_feature_extractor=speech_feature_extractor,
+        audio_feature_extractor=(
+            None if not model_cfg.use_audio_encoder else model.audio_encoder.feature_extractor
+        ),
+        is_train=False
     )
 
 
@@ -104,7 +116,13 @@ def generate_one_sample(self, audio_array, instruction_text):
     with torch.no_grad():
         for batch in get_batch(examples, batch_size=1):
             batch = self.data_collator(batch)
-            batch = mds_speech_text_batch_preprocessor(batch)
+            try:
+                batch = mds_speech_text_batch_preprocessor(batch)
+            except:
+                if self.multimodal_trainer_path not in sys.path:
+                    sys.path.append(self.multimodal_trainer_path)
+                from modules.utils.data.batch_processor import mds_speech_text_batch_preprocessor
+                batch = mds_speech_text_batch_preprocessor(batch)
             return self.model.generate(**batch, synced_gpus=False)[0]
 
 def meralion_audiollm_v1_model_generation(self, input):

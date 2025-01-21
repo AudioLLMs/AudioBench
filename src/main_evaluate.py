@@ -46,6 +46,9 @@ def main(
         overwrite         : bool = False,
         metrics           : str  = None,
         number_of_samples : int  = -1,
+        multimodal_trainer_path : str = "/home/users/astar/ares/wonghmj/multimodal_trainer",
+        checkpoint        : str  = None,
+        out_dir           : str  = "log",
         ):
 
     logger.info("= = "*20)
@@ -55,10 +58,15 @@ def main(
     logger.info("Overwrite: {}".format(overwrite))
     logger.info("Metrics: {}".format(metrics))
     logger.info("Number of samples: {}".format(number_of_samples))
+    logger.info("multimodal_trainer path: {}".format(multimodal_trainer_path))
+    logger.info("Checkpoint: {}".format(checkpoint))
+    logger.info("Out dir: {}".format(out_dir))
     logger.info("= = "*20)
+    
+    os.makedirs(out_dir, exist_ok=True)
 
     # If the final score log exists, skip the evaluation
-    if not overwrite and os.path.exists('log/{}/{}_{}_score.json'.format(model_name, dataset_name, metrics)):
+    if not overwrite and os.path.exists('{}/{}/{}_{}_score.json'.format(out_dir, model_name, dataset_name, metrics)):
         logger.info("Evaluation has been done before. Skip the evaluation.")
         logger.info("\n\n\n\n\n")
         return
@@ -70,11 +78,11 @@ def main(
 
     dataset = Dataset(dataset_name, number_of_samples)
 
-    if overwrite or not os.path.exists('log/{}/{}.json'.format(model_name, dataset_name)):
+    if overwrite or not os.path.exists('{}/{}/{}.json'.format(out_dir, model_name, dataset_name)):
         logger.info("Overwrite is enabled or the results are not found. Try to infer with the model: {}.".format(model_name))
     
         # Load model
-        model = Model(model_name)
+        model = Model(model_name, multimodal_trainer_path=multimodal_trainer_path, checkpoint=checkpoint)
 
         # Specific current dataset name for evaluation
         model.dataset_name = dataset.dataset_name
@@ -84,11 +92,11 @@ def main(
         data_with_model_predictions = dataset.dataset_processor.format_model_predictions(dataset.input_data, model_predictions)
 
         # Save the result with predictions
-        os.makedirs('log/{}'.format(model_name), exist_ok=True)
-        with open('log/{}/{}.json'.format(model_name, dataset_name), 'w') as f:
+        os.makedirs('{}/{}'.format(out_dir, model_name), exist_ok=True)
+        with open('{}/{}/{}.json'.format(out_dir, model_name, dataset_name), 'w') as f:
             json.dump(data_with_model_predictions, f, indent=4, ensure_ascii=False)
 
-    data_with_model_predictions = json.load(open('log/{}/{}.json'.format(model_name, dataset_name)))
+    data_with_model_predictions = json.load(open('{}/{}/{}.json'.format(out_dir, model_name, dataset_name)))
 
     # Metric evaluation
     try:
@@ -109,7 +117,7 @@ def main(
     logger.info('=  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =')
 
     # Save the scores
-    with open('log/{}/{}_{}_score.json'.format(model_name, dataset_name, metrics), 'w') as f:
+    with open('{}/{}/{}_{}_score.json'.format(out_dir, model_name, dataset_name, metrics), 'w') as f:
         json.dump(results, f, indent=4, ensure_ascii=False)
 
 

@@ -30,11 +30,14 @@ logging.basicConfig(
 # =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
 class Model(object):
 
-    def __init__(self, model_name_or_path):
+    def __init__(self, model_name_or_path, multimodal_trainer_path=None, checkpoint=None):
 
         self.dataset_name = None
         self.model_name   = model_name_or_path
         self.device       = "cuda" if torch.cuda.is_available() else "cpu"
+        
+        self.model_path = checkpoint
+        self.multimodal_trainer_path = multimodal_trainer_path
 
         self.load_model()
         logger.info("Loaded model: {}".format(self.model_name))
