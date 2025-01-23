@@ -61,7 +61,7 @@ def wavllm_fairseq_model_generation(self, all_input_data):
     # Initialize the pointer file
     with open(f'tmp/wavllm/{dataset_name}/wavllm_test.tsv', 'w') as f:
         f.write(f"id\taudio\tn_frames\tprompt\ttgt_text\twith_speech\n")
-        f.write(f"{chunk_index}\t{root_path}/AudioBench_private/src/model_src/wavllm_fairseq_cold_start.wav\t0\tPlease transcribe.\tPlacehoder.\tTrue\n")
+        f.write(f"{chunk_index}\t{root_path}/AudioBench/src/model_src/wavllm_fairseq_cold_start.wav\t0\tPlease transcribe.\tPlacehoder.\tTrue\n")
         chunk_index += 1
 
     for input_data in all_input_data:
@@ -89,7 +89,7 @@ def wavllm_fairseq_model_generation(self, all_input_data):
 
                 # Write the metadata to the pointer file
                 with open(f'tmp/wavllm/{dataset_name}/wavllm_test.tsv', 'a') as f:
-                    f.write(f"{chunk_index}\t{root_path}/AudioBench_private/{audio_path}\t0\t{instruction}\t{answer}\tTrue\n")
+                    f.write(f"{chunk_index}\t{root_path}/AudioBench/{audio_path}\t0\t{instruction}\t{answer}\tTrue\n")
                 chunk_index += 1
 
             sample_chunk_number.append(len(audio_chunks))
@@ -107,7 +107,7 @@ def wavllm_fairseq_model_generation(self, all_input_data):
             sf.write(audio_path, audio_array, sampling_rate)
 
             with open(f'tmp/wavllm/{dataset_name}/wavllm_test.tsv', 'a') as f:
-                f.write(f"{chunk_index}\t{root_path}/AudioBench_private/{audio_path}\t0\t{instruction}\t{answer}\tTrue\n")
+                f.write(f"{chunk_index}\t{root_path}/AudioBench/{audio_path}\t0\t{instruction}\t{answer}\tTrue\n")
             
             chunk_index += 1
             sample_chunk_number.append(1)
@@ -119,7 +119,7 @@ def wavllm_fairseq_model_generation(self, all_input_data):
     # Running a Bash command to run the inference
     logger.info("Running the WavLLM model inference using fairseq.")
     process = subprocess.Popen(
-                    ['bash', f'{root_path}/AudioBench_private/src/model_src/wavllm_fairseq.sh', f'{dataset_name}'],
+                    ['bash', f'{root_path}/AudioBench/src/model_src/wavllm_fairseq.sh', f'{dataset_name}'],
                     stdout=sys.stdout,
                     stderr=sys.stderr
                     )

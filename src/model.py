@@ -56,7 +56,7 @@ class Model(object):
             temp_debug_datasets_model_loader(self)
 
         elif self.model_name == "huayun_whisper_local_cs":
-            from model_src.huayun_whisper_local_cs import huayun_whisper_local_cs_model_loader
+            from AudioBench.src.model_src.hy_whisper_local_cs import huayun_whisper_local_cs_model_loader
             huayun_whisper_local_cs_model_loader(self)
 
         elif self.model_name == "huayun_whisper_local_no_cs":
@@ -115,6 +115,11 @@ class Model(object):
             from model_src.whisper_large_v3 import whisper_large_v3_model_loader
             whisper_large_v3_model_loader(self)
 
+        elif self.model_name == 'hy_whisper_local_cs':
+            from model_src.hy_whisper_local_cs import hy_whisper_local_cs_model_loader
+            hy_whisper_local_cs_model_loader(self)
+
+
 
 
 
@@ -157,17 +162,9 @@ class Model(object):
                 from model_src.temp_debug_datasets import temp_debug_datasets_model_generation
                 return temp_debug_datasets_model_generation(self, input)
 
-            elif self.model_name == "huayun_whisper_local_cs":
-                from model_src.huayun_whisper_local_cs import huayun_whisper_local_cs_model_generation
-                return huayun_whisper_local_cs_model_generation(self, input)
-
-            elif self.model_name == "huayun_whisper_local_no_cs":
-                from model_src.huayun_whisper_local_no_cs import huayun_whisper_local_no_cs_model_generation
-                return huayun_whisper_local_no_cs_model_generation(self, input)
-
-            elif self.model_name == "xl_whisper_imda_v0_1":
-                from model_src.xl_whisper_imda_v0_1 import xl_whisper_imda_v0_1_model_generation
-                return xl_whisper_imda_v0_1_model_generation(self, input)
+            elif self.model_name == "hy_whisper_local_cs":
+                from AudioBench.src.model_src.hy_whisper_local_cs import hy_whisper_local_cs_model_generation
+                return hy_whisper_local_cs_model_generation(self, input)
 
             elif self.model_name == "original_whisper_large_v2":
                 from model_src.original_whisper_large_v2 import original_whisper_large_v2_model_generation

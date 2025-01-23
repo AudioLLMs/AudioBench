@@ -107,8 +107,13 @@ for MODEL_NAME in MODEL_NAME_TO_CHECK:
     for model_score_name in MODEL_SCORE_NAMES:
 
         # For ASR models, only exam ASR
-        if MODEL_NAME == 'whisper_large_v3' and 'wer' not in model_score_name:
-            continue
+        if MODEL_NAME in ['whisper_large_v3',
+                          'hy_whisper_local_cs',
+                          ]:
+
+
+            if 'wer' not in model_score_name:
+                continue
         
         score_log_path = f"log/{MODEL_NAME}/{model_score_name}_score.json"
 

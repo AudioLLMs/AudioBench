@@ -23,9 +23,12 @@ export NLTK_DATA="/project/cache/nltk_data"
 # MODEL_NAME=temp_model_for_debugging_datasets
 # MODEL_NAME=WavLLM_fairseq
 
+
+
 # Tested
 # MODEL_NAME=MERaLiON-AudioLLM-Whisper-SEA-LION
 # MODEL_NAME=cascade_whisper_large_v2_gemma2_9b_cpt_sea_lionv3_instruct
+# MODEL_NAME=cascade_whisper_large_v3_llama_3_8b_instruct
 # MODEL_NAME=gemini-1.5-flash
 # MODEL_NAME=whisper_large_v3
 # MODEL_NAME=Qwen-Audio-Chat
@@ -38,34 +41,16 @@ export NLTK_DATA="/project/cache/nltk_data"
 
 # =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
 
-MODEL_NAME=WavLLM_fairseq
+MODEL_NAME=hy_whisper_local_cs
 
 # =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
 GPU=1
 BATCH_SIZE=1
-OVERWRITE=True
+OVERWRITE=False
 NUMBER_OF_SAMPLES=-1
 # =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
 
-# =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
-# DATASET=mediacorp_short_test
-# METRICS=wer
-
-# DATASET=cn_college_listen_mcq_test
-# METRICS=llama3_70b_judge_binary
-
-# DATASET=imda_part6_30s_asr_test
-# METRICS=wer
-
-# DATASET=muchomusic_test
-# METRICS=llama3_70b_judge_binary
-
-# DATASET=ytb_asr_batch1
-# METRICS=wer
-
-# =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
-
-DATASET=ytb_asr_batch2
+DATASET=cna_test
 METRICS=wer
 
 bash eval.sh $DATASET $MODEL_NAME $GPU $BATCH_SIZE $OVERWRITE $METRICS $NUMBER_OF_SAMPLES

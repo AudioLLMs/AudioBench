@@ -31,11 +31,10 @@ logging.basicConfig(
 )
 # =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
 
-whisper_model_path = "./examples/huayun_whisper_local_cs"
-# whisper_model_path = "openai/whisper-large-v3"
+whisper_model_path = "./examples/hy_whisper_local_cs"
 
 
-def huayun_whisper_local_cs_model_loader(self):
+def hy_whisper_local_cs_model_loader(self):
 
     self.whisper_model     = AutoModelForSpeechSeq2Seq.from_pretrained(whisper_model_path, torch_dtype=torch.float16, low_cpu_mem_usage=True, use_safetensors=True, device_map="auto")
     self.whisper_processor = AutoProcessor.from_pretrained(whisper_model_path)
@@ -56,13 +55,27 @@ def huayun_whisper_local_cs_model_loader(self):
     logging.info(f"Model loaded from {whisper_model_path}.")
 
 
-def huayun_whisper_local_cs_model_generation(self, sample):
+def hy_whisper_local_cs_model_generation(self, sample):
 
-    whisper_output = self.whisper_pipe(sample['audio'], generate_kwargs={"language": "en"})['text'].strip()
-    
-    if sample['task_type'] == "ASR":
+    if sample['task_type'] == 'ASR':
+        whisper_output = self.whisper_pipe(sample['audio'], generate_kwargs={"language": "en"})['text'].strip()
         return whisper_output
 
+    elif sample['task_type'] == "ASR-ZH":
+        whisper_output = self.whisper_pipe(sample['audio'], generate_kwargs={"language": "zh"})['text'].strip()
+        return whisper_output
+    
+    elif sample['task_type'] in ["ST-ID-EN",
+                                 "ST-TA-EN",
+                                 "ST-ZH-EN",
+                                 ]:
+        whisper_output = self.whisper_pipe(sample['audio'], generate_kwargs={"task": "translate", "language": "en"})['text'].strip()
+        return whisper_output
+    
     else:
-        raise ValueError(f"Invalid task_type: {sample['task_type']}")
+        raise NotImplementedError(f"Task type {sample['task_type']} not supported.")
+        # whisper_output = self.whisper_pipe(sample['audio'], generate_kwargs={"language": "en"})['text'].strip()
+
+
+    return whisper_output
     

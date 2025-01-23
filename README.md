@@ -101,8 +101,8 @@ If you find our work useful, please consider citing our paper!
 @article{wang2024audiobench,
   title={AudioBench: A Universal Benchmark for Audio Large Language Models},
   author={Wang, Bin and Zou, Xunlong and Lin, Geyu and Sun, Shuo and Liu, Zhuohan and Zhang, Wenyu and Liu, Zhengyuan and Aw, AiTi and Chen, Nancy F},
-  journal={arXiv preprint arXiv:2406.16020},
-  year={2024}
+  journal={NAACL 2025},
+  year={2025}
 }
 ```
 
