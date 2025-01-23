@@ -24,6 +24,7 @@
 
 ## Change log
 
+* *JAN 2025*: AudioBench paper is accepted to NAACL 2025 Main Conference.
 * *JAN 2025*: Support 10+ [MNSC - Singlish Understanding](https://huggingface.co/datasets/MERaLiON/Multitask-National-Speech-Corpus-v1) datasets.
 * *DEC 2024*: Support More  (35) datasets / More Models (2 cascade and 3 fusion models).
 * *SEP 2024*: Add [MuChoMusic](https://arxiv.org/abs/2408.01337) dataset for music evaluation (multiple choice questions).
@@ -101,7 +102,7 @@ If you find our work useful, please consider citing our paper!
 @article{wang2024audiobench,
   title={AudioBench: A Universal Benchmark for Audio Large Language Models},
   author={Wang, Bin and Zou, Xunlong and Lin, Geyu and Sun, Shuo and Liu, Zhuohan and Zhang, Wenyu and Liu, Zhengyuan and Aw, AiTi and Chen, Nancy F},
-  journal={NAACL 2025},
+  journal={NAACL},
   year={2025}
 }
 ```
