@@ -195,52 +195,52 @@ class Dataset(object):
             self.raw_data = load_dataset('MERaLiON/Multitask-National-Speech-Corpus-v1', data_dir='PQA-GR-Dialogue-Test')['train']
 
         elif self.dataset_name == 'ytb_asr_batch1':
-            self.raw_data = load_from_disk("data/3_private_data/ytb_asr_batch1")
+            self.raw_data = load_from_disk("/data/projects/13003558/hf_cache/datasets/3_private_data/ytb_asr_batch1")
 
         elif self.dataset_name == 'ytb_asr_batch2':
-            self.raw_data = load_from_disk("data/3_private_data/ytb_asr_batch2")
+            self.raw_data = load_from_disk("/data/projects/13003558/hf_cache/datasets/3_private_data/ytb_asr_batch2")
 
         elif self.dataset_name == 'ytb_sqa_batch1':
-            self.raw_data = load_from_disk("data/3_private_data/ytb_sqa_batch1")
+            self.raw_data = load_from_disk("/data/projects/13003558/hf_cache/datasets/3_private_data/ytb_sqa_batch1")
 
         elif self.dataset_name == 'ytb_sds_batch1':
-            self.raw_data = load_from_disk("data/3_private_data/ytb_sds_batch1")
+            self.raw_data = load_from_disk("/data/projects/13003558/hf_cache/datasets/3_private_data/ytb_sds_batch1")
 
         elif self.dataset_name == 'ytb_pqa_batch1':
-            self.raw_data = load_from_disk("data/3_private_data/ytb_pqa_batch1")
+            self.raw_data = load_from_disk("/data/projects/13003558/hf_cache/datasets/3_private_data/ytb_pqa_batch1")
 
         elif self.dataset_name == 'seame_dev_man':
-            self.raw_data = load_from_disk("data/3_private_data/seame_dev_man")
+            self.raw_data = load_from_disk("/data/projects/13003558/hf_cache/datasets/3_private_data/seame_dev_man")
 
         elif self.dataset_name == 'seame_dev_sge':
-            self.raw_data = load_from_disk("data/3_private_data/seame_dev_sge")
+            self.raw_data = load_from_disk("/data/projects/13003558/hf_cache/datasets/3_private_data/seame_dev_sge")
             
         elif self.dataset_name == 'cna_test': 
-            self.raw_data = load_from_disk("data/3_private_data/cna_ASR_v3")
+            self.raw_data = load_from_disk("/data/projects/13003558/hf_cache/datasets/3_private_data/cna_ASR_v3")
 
         elif self.dataset_name == 'idpc_test': 
-            self.raw_data = load_from_disk("data/3_private_data/idpc_long_ASR_v1")
+            self.raw_data = load_from_disk("/data/projects/13003558/hf_cache/datasets/3_private_data/idpc_long_ASR_v1")
 
         elif self.dataset_name == 'parliament_test': 
-            self.raw_data = load_from_disk("data/3_private_data/parliament_long_ASR_v1")
+            self.raw_data = load_from_disk("/data/projects/13003558/hf_cache/datasets/3_private_data/parliament_long_ASR_v1")
 
         elif self.dataset_name == 'ukusnews_test': 
-            self.raw_data = load_from_disk("data/3_private_data/ukusnews_long_ASR_v1")
+            self.raw_data = load_from_disk("/data/projects/13003558/hf_cache/datasets/3_private_data/ukusnews_long_ASR_v1")
 
         elif self.dataset_name == 'mediacorp_test': 
-            self.raw_data = load_from_disk("data/3_private_data/mediacorp_long_ASR_v1")
+            self.raw_data = load_from_disk("/data/projects/13003558/hf_cache/datasets/3_private_data/mediacorp_long_ASR_v1")
 
         elif self.dataset_name == 'idpc_short_test': 
-            self.raw_data = load_from_disk("data/3_private_data/idpc_short_ASR_v1")
+            self.raw_data = load_from_disk("/data/projects/13003558/hf_cache/datasets/3_private_data/idpc_short_ASR_v1")
 
         elif self.dataset_name == 'parliament_short_test': 
-            self.raw_data = load_from_disk("data/3_private_data/parliament_short_ASR_v1")
+            self.raw_data = load_from_disk("/data/projects/13003558/hf_cache/datasets/3_private_data/parliament_short_ASR_v1")
 
         elif self.dataset_name == 'ukusnews_short_test': 
-            self.raw_data = load_from_disk("data/3_private_data/ukusnews_short_ASR_v1")
+            self.raw_data = load_from_disk("/data/projects/13003558/hf_cache/datasets/3_private_data/ukusnews_short_ASR_v1")
 
         elif self.dataset_name == 'mediacorp_short_test': 
-            self.raw_data = load_from_disk("data/3_private_data/mediacorp_short_ASR_v1")
+            self.raw_data = load_from_disk("/data/projects/13003558/hf_cache/datasets/3_private_data/mediacorp_short_ASR_v1")
         
         else:
             raise NotImplementedError("Dataset {} not implemented yet".format(self.dataset_name))
