@@ -141,58 +141,58 @@ class Dataset(object):
             self.raw_data = load_dataset("AudioLLMs/mu_chomusic_test")['test']
 
         elif self.dataset_name == 'imda_part1_asr_test': 
-            self.raw_data = load_dataset('MERaLiON/Multitask-National-Speech-Corpus-v1', data_dir='ASR-PART1-Test')['train']
+            self.raw_data = load_from_disk('/data/projects/13003558/hf_cache/datasets/MERaLiON/multitask-national-speech-corpus-v1/ASR-PART1-Test')['train']
 
         elif self.dataset_name == 'imda_part2_asr_test': 
-            self.raw_data = load_dataset('MERaLiON/Multitask-National-Speech-Corpus-v1', data_dir='ASR-PART2-Test')['train']
+            self.raw_data = load_from_disk('/data/projects/13003558/hf_cache/datasets/MERaLiON/multitask-national-speech-corpus-v1/ASR-PART2-Test')['train']
 
         elif self.dataset_name == 'imda_part3_30s_asr_test': 
-            self.raw_data = load_dataset('MERaLiON/Multitask-National-Speech-Corpus-v1', data_dir='ASR-PART3-Test')['train']
+            self.raw_data = load_from_disk('/data/projects/13003558/hf_cache/datasets/MERaLiON/multitask-national-speech-corpus-v1/ASR-PART3-Test')['train']
 
         elif self.dataset_name == 'imda_part4_30s_asr_test': 
-            self.raw_data = load_dataset('MERaLiON/Multitask-National-Speech-Corpus-v1', data_dir='ASR-PART4-Test')['train']
+            self.raw_data = load_from_disk('/data/projects/13003558/hf_cache/datasets/MERaLiON/multitask-national-speech-corpus-v1/ASR-PART4-Test')['train']
 
         elif self.dataset_name == 'imda_part5_30s_asr_test': 
-            self.raw_data = load_dataset('MERaLiON/Multitask-National-Speech-Corpus-v1', data_dir='ASR-PART5-Test')['train']
+            self.raw_data = load_from_disk('/data/projects/13003558/hf_cache/datasets/MERaLiON/multitask-national-speech-corpus-v1/ASR-PART5-Test')['train']
 
         elif self.dataset_name == 'imda_part6_30s_asr_test': 
-            self.raw_data = load_dataset('MERaLiON/Multitask-National-Speech-Corpus-v1', data_dir='ASR-PART6-Test')['train']
+            self.raw_data = load_from_disk('/data/projects/13003558/hf_cache/datasets/MERaLiON/multitask-national-speech-corpus-v1/ASR-PART6-Test')['train']
 
         elif self.dataset_name == 'imda_part3_30s_sqa_human_test': 
-            self.raw_data = load_dataset('MERaLiON/Multitask-National-Speech-Corpus-v1', data_dir='SQA-PART3-Test')['train']
+            self.raw_data = load_from_disk('/data/projects/13003558/hf_cache/datasets/MERaLiON/multitask-national-speech-corpus-v1/SQA-PART3-Test')['train']
 
         elif self.dataset_name == 'imda_part4_30s_sqa_human_test': 
-            self.raw_data = load_dataset('MERaLiON/Multitask-National-Speech-Corpus-v1', data_dir='SQA-PART4-Test')['train']
+            self.raw_data = load_from_disk('/data/projects/13003558/hf_cache/datasets/MERaLiON/multitask-national-speech-corpus-v1/SQA-PART4-Test')['train']
 
         elif self.dataset_name == 'imda_part5_30s_sqa_human_test': 
-            self.raw_data = load_dataset('MERaLiON/Multitask-National-Speech-Corpus-v1', data_dir='SQA-PART5-Test')['train']
+            self.raw_data = load_from_disk('/data/projects/13003558/hf_cache/datasets/MERaLiON/multitask-national-speech-corpus-v1/SQA-PART5-Test')['train']
 
         elif self.dataset_name == 'imda_part6_30s_sqa_human_test': 
-            self.raw_data = load_dataset('MERaLiON/Multitask-National-Speech-Corpus-v1', data_dir='SQA-PART6-Test')['train']
+            self.raw_data = load_from_disk('/data/projects/13003558/hf_cache/datasets/MERaLiON/multitask-national-speech-corpus-v1/SQA-PART6-Test')['train']
 
         elif self.dataset_name == 'imda_part3_30s_ds_human_test': 
-            self.raw_data = load_dataset('MERaLiON/Multitask-National-Speech-Corpus-v1', data_dir='SDS-PART3-Test')['train']
+            self.raw_data = load_from_disk('/data/projects/13003558/hf_cache/datasets/MERaLiON/multitask-national-speech-corpus-v1/SDS-PART3-Test')['train']
 
         elif self.dataset_name == 'imda_part4_30s_ds_human_test': 
-            self.raw_data = load_dataset('MERaLiON/Multitask-National-Speech-Corpus-v1', data_dir='SDS-PART4-Test')['train']
+            self.raw_data = load_from_disk('/data/projects/13003558/hf_cache/datasets/MERaLiON/multitask-national-speech-corpus-v1/SDS-PART4-Test')['train']
 
         elif self.dataset_name == 'imda_part5_30s_ds_human_test': 
-            self.raw_data = load_dataset('MERaLiON/Multitask-National-Speech-Corpus-v1', data_dir='SDS-PART5-Test')['train']
+            self.raw_data = load_from_disk('/data/projects/13003558/hf_cache/datasets/MERaLiON/multitask-national-speech-corpus-v1/SDS-PART5-Test')['train']
 
         elif self.dataset_name == 'imda_part6_30s_ds_human_test': 
-            self.raw_data = load_dataset('MERaLiON/Multitask-National-Speech-Corpus-v1', data_dir='SDS-PART6-Test')['train']
+            self.raw_data = load_from_disk('/data/projects/13003558/hf_cache/datasets/MERaLiON/multitask-national-speech-corpus-v1/SDS-PART6-Test')['train']
 
         elif self.dataset_name == 'imda_ar_sentence':
-            self.raw_data = load_dataset('MERaLiON/Multitask-National-Speech-Corpus-v1', data_dir='PQA-AR-Sentence-Test')['train']
+            self.raw_data = load_from_disk('/data/projects/13003558/hf_cache/datasets/MERaLiON/multitask-national-speech-corpus-v1/PQA-AR-Sentence-Test')['train']
 
         elif self.dataset_name == 'imda_ar_dialogue':
-            self.raw_data = load_dataset('MERaLiON/Multitask-National-Speech-Corpus-v1', data_dir='PQA-AR-Dialogue-Test')['train']
+            self.raw_data = load_from_disk('/data/projects/13003558/hf_cache/datasets/MERaLiON/multitask-national-speech-corpus-v1/PQA-AR-Dialogue-Test')['train']
 
         elif self.dataset_name == 'imda_gr_sentence':
-            self.raw_data = load_dataset('MERaLiON/Multitask-National-Speech-Corpus-v1', data_dir='PQA-GR-Sentence-Test')['train']
+            self.raw_data = load_from_disk('/data/projects/13003558/hf_cache/datasets/MERaLiON/multitask-national-speech-corpus-v1/PQA-GR-Sentence-Test')['train']
 
         elif self.dataset_name == 'imda_gr_dialogue':
-            self.raw_data = load_dataset('MERaLiON/Multitask-National-Speech-Corpus-v1', data_dir='PQA-GR-Dialogue-Test')['train']
+            self.raw_data = load_from_disk('/data/projects/13003558/hf_cache/datasets/MERaLiON/multitask-national-speech-corpus-v1/PQA-GR-Dialogue-Test')['train']
 
         elif self.dataset_name == 'ytb_asr_batch1':
             self.raw_data = load_from_disk("/data/projects/13003558/hf_cache/datasets/3_private_data/ytb_asr_batch1")
