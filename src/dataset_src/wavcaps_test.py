@@ -16,16 +16,11 @@ import random
 import logging
 
 ac_instructions = [
-    "Listen to the audio and give a description.",
-    "Hear the recording and summarize it briefly.",
-    "Check the audio and provide an overview.",
-    "Listen to the clip and write a description.",
-    "Hear the sound and explain what you hear.",
-    "Review the audio and offer a description.",
-    "Analyze the recording and describe it.",
-    "Listen to the track and summarize it.",
-    "Observe the audio and give an account of it.",
-    "Hear the audio and write a brief description."
+    "Could you help me create an audio caption for the provided clip?",
+    "Please help me generate an audio caption for the audio clip.",
+    "Would you mind helping me produce an audio caption for the provided clip?",
+    "Could you help me formulate an audio caption for this clip?",
+    "Could you assist me in creating a caption for the audio clip?",
 ]
 
 
