@@ -226,9 +226,6 @@ class Model(object):
             
             
             
-            
-            
-            
             elif self.model_name == 'test_temp': return test_temp_model_generation(self, input)
 
             # MOWE-Audio

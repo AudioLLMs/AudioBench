@@ -41,7 +41,7 @@ export NLTK_DATA="/project/cache/nltk_data"
 
 # =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
 
-MODEL_NAME=WavLLM_fairseq
+MODEL_NAME=MERaLiON-AudioLLM-Whisper-SEA-LION
 
 # =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
 GPU=1
@@ -50,7 +50,7 @@ OVERWRITE=True
 NUMBER_OF_SAMPLES=-1
 # =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
 
-DATASET=cna_test
+DATASET=ytb_asr_batch1
 METRICS=wer
 
 bash eval.sh $DATASET $MODEL_NAME $GPU $BATCH_SIZE $OVERWRITE $METRICS $NUMBER_OF_SAMPLES
