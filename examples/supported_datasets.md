@@ -219,4 +219,17 @@ METRIC=llama3_70b_judge_binary
 DATASET=mu_chomusic_test
 METRIC=llama3_70b_judge_binary
 
+# == == == == == ASR Code-Switching == == == == ==
+
+# SEAME dataset for Madarine-English code-switching with Singapore accent.
+#Lyu, Dau-Cheng, Tien Ping Tan, Engsiong Chng, and Haizhou Li. "SEAME: a Mandarin-English code-switching speech corpus in south-east asia." In Interspeech, vol. 10, pp. 1986-1989. 2010.
+
+DATASET=seame_dev_man
+METRIC=wer
+
+DATASET=seame_dev_sge
+METRIC=wer
+
 ```
+
+

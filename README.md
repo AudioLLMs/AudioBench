@@ -22,11 +22,11 @@
 </p>
 
 
-## Change log
+## 📝 Change log
 
 * *JAN 2025*: AudioBench paper is accepted to NAACL 2025 Main Conference.
-* *JAN 2025*: Support 10+ [MNSC - Singlish Understanding](https://huggingface.co/datasets/MERaLiON/Multitask-National-Speech-Corpus-v1) datasets.
-* *DEC 2024*: Support More  (35) datasets / More Models (2 cascade and 3 fusion models).
+* *JAN 2025*: Support 10+ [MNSC - Singlish Understanding](https://huggingface.co/datasets/MERaLiON/Multitask-National-Speech-Corpus-v1) datasets, the results are updated on leaderboard.
+* *DEC 2024*: Support more (35) datasets / more Models (2 cascade and 3 fusion models).
 * *SEP 2024*: Add [MuChoMusic](https://arxiv.org/abs/2408.01337) dataset for music evaluation (multiple choice questions).
 * *AUG 2024*: Support a 6 speech translation datasets. Update the evaluation script for several MCQ evaluation.
 * *AUG 2024*: Leaderboard is live. Check it out [here](https://huggingface.co/spaces/AudioLLMs/AudioBench-Leaderboard).
@@ -36,6 +36,85 @@
 
 [![Star History Chart](https://api.star-history.com/svg?repos=AudioLLMs/AudioBench&type=Date)](https://star-history.com/#AudioLLMs/AudioBench&Date)
 
+## Supported Evaluation Data
+- [librispeech_test_clean](./examples/supported_datasets.md)
+- [librispeech_test_other](./examples/supported_datasets.md)
+- [common_voice_15_en_test](./examples/supported_datasets.md)
+- [peoples_speech_test](./examples/supported_datasets.md)
+- [gigaspeech_test](./examples/supported_datasets.md)
+- [tedlium3_test](./examples/supported_datasets.md)
+- [tedlium3_long_form_test](./examples/supported_datasets.md)
+- [earnings21_test](./examples/supported_datasets.md)
+- [earnings22_test](./examples/supported_datasets.md)
+- [aishell_asr_zh_test](./examples/supported_datasets.md)
+- [covost2_en_id_test](./examples/supported_datasets.md)
+- [covost2_en_zh_test](./examples/supported_datasets.md)
+- [covost2_en_ta_test](./examples/supported_datasets.md)
+- [covost2_id_en_test](./examples/supported_datasets.md)
+- [covost2_zh_en_test](./examples/supported_datasets.md)
+- [covost2_ta_en_test](./examples/supported_datasets.md)
+- [cn_college_listen_mcq_test](./examples/supported_datasets.md)
+- [slue_p2_sqa5_test](./examples/supported_datasets.md)
+- [dream_tts_mcq_test](./examples/supported_datasets.md)
+- [public_sg_speech_qa_test](./examples/supported_datasets.md)
+- [spoken_squad_test](./examples/supported_datasets.md)
+- [openhermes_audio_test](./examples/supported_datasets.md)
+- [alpaca_audio_test](./examples/supported_datasets.md)
+- [clotho_aqa_test](./examples/supported_datasets.md)
+- [wavcaps_qa_test](./examples/supported_datasets.md)
+- [audiocaps_qa_test](./examples/supported_datasets.md)
+- [wavcaps_test](./examples/supported_datasets.md)
+- [audiocaps_test](./examples/supported_datasets.md)
+- [iemocap_emotion_test](./examples/supported_datasets.md)
+- [meld_sentiment_test](./examples/supported_datasets.md)
+- [meld_emotion_test](./examples/supported_datasets.md)
+- [voxceleb_accent_test](./examples/supported_datasets.md)
+- [voxceleb_gender_test](./examples/supported_datasets.md)
+- [iemocap_gender_test](./examples/supported_datasets.md)
+- [muchomusic_test](./examples/supported_datasets.md)
+- [imda_part1_asr_test](./examples/supported_datasets.md)
+- [imda_part2_asr_test](./examples/supported_datasets.md)
+- [imda_part3_30s_asr_test](./examples/supported_datasets.md)
+- [imda_part4_30s_asr_test](./examples/supported_datasets.md)
+- [imda_part5_30s_asr_test](./examples/supported_datasets.md)
+- [imda_part6_30s_asr_test](./examples/supported_datasets.md)
+- [imda_part3_30s_sqa_human_test](./examples/supported_datasets.md)
+- [imda_part4_30s_sqa_human_test](./examples/supported_datasets.md)
+- [imda_part5_30s_sqa_human_test](./examples/supported_datasets.md)
+- [imda_part6_30s_sqa_human_test](./examples/supported_datasets.md)
+- [imda_part3_30s_ds_human_test](./examples/supported_datasets.md)
+- [imda_part4_30s_ds_human_test](./examples/supported_datasets.md)
+- [imda_part5_30s_ds_human_test](./examples/supported_datasets.md)
+- [imda_part6_30s_ds_human_test](./examples/supported_datasets.md)
+- [imda_ar_sentence](./examples/supported_datasets.md)
+- [imda_ar_dialogue](./examples/supported_datasets.md)
+- [imda_gr_sentence](./examples/supported_datasets.md)
+- [imda_gr_dialogue](./examples/supported_datasets.md)
+- [seame_dev_man](./examples/supported_datasets.md)
+- [seame_dev_sge](./examples/supported_datasets.md)
+
+
+How to evaluate with the supported datasets? That's as simple as it can be. Replace the DATASET and METRIC name.
+```
+DATASET=librispeech_test_clean
+METRIC=wer
+```
+
+### How to Evaluation on Your Dataset?
+Two simple steps:
+1. Make a copy of one of the customized dataset loader. Example: [cn_college_listen_mcq_test](src/dataset_src/cn_college_listen_mcq_test.py). Customize it as your like on your own dataset.
+2. Add a new term in [dataset.py](src/dataset.py).
+3. Done!
+
+
+## Supported Models
+- [MERaLiON-AudioLLM](./examples/adding_new_model.md)
+- [Whisper-large-v2](./examples/adding_new_model.md)
+
+### How to evaluation your own models?
+As long as the model can do inference, you can load them and inference to get the responses.
+To evaluate on new models, please refer to [adding_new_model](./examples/adding_new_model.md).
+
 
 ## 🔧 Installation
 
@@ -43,10 +122,10 @@ Installation with pip:
 ```shell
 pip install -r requirements.txt
 ```
-For model-as-judge evaluation, we serve the judgement model as a service via `vllm` on port `5000`.
-
 
 ## ⏩ Quick Start
+
+For model-as-judge evaluation, we serve the judgement model as a service via `vllm` on port `5000`.
 
 The example is hosting a `Llama-3-70B-Instruct` model and running the cascade `Whisper + Llama-3` model.
 ```shell
@@ -70,31 +149,6 @@ METRICS=llama3_70b_judge_binary
 bash eval.sh $DATASET $MODEL_NAME $GPU $BATCH_SIZE $OVERWRITE $METRICS $NUMBER_OF_SAMPLES
 
 ```
-
-## How to Evaluation AudioBench Supported Datasets?
-
-That's as simple as it can be. Replace the DATASET and METRIC name. A full list of supported datasets can be found: [SUPPORTED DATASETS](./examples/supported_datasets.md).
-```
-DATASET=librispeech_test_clean
-METRIC=wer
-```
-
-## How to Evaluation AudioBench Supported Models?
-
-
-That's as simple as it can be. Replace the MODEL_NAME. A full list of supported datasets can be found: [SUPPORTED MODELS](./examples/supported_models.md).
-```
-MODEL_NAME=cascade_whisper_large_v3_llama_3_8b_instruct
-```
-
-
-## How to Evaluation Your Models?
-To evaluate on new models, please refer to [adding_new_model](./examples/adding_new_model.md).
-
-## How to Evaluation on Your Dataset?
-Two simple steps:
-1. Add dataset loader and inference part. Example for [cn_college_listen_mcq_test](src/dataset_src/cn_college_listen_mcq_test.py)
-2. Edit [dataset.py](src/dataset.py)
 
 
 
