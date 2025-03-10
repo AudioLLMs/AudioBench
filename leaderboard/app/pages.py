@@ -167,6 +167,8 @@ def asr_singlish():
                     'MNSC-PART4-ASR',
                     'MNSC-PART5-ASR',
                     'MNSC-PART6-ASR',
+                    'SEAME-Dev-Man',
+                    'SEAME-Dev-Sge',
                     ]
 
     filters_levelone = sum + dataset_lists

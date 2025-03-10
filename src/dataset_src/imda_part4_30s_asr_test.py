@@ -17,7 +17,7 @@ import logging
 
 from jiwer import compute_measures, wer
 
-from dataset_src.text_normalizer.preprocess_text import preprocess_text_asr_code_switch_chinese
+from dataset_src.text_normalizer.preprocess_text import preprocess_text_asr_code_imda_part4
 from dataset_src.prompts.prompts import asr_instructions
 
 
@@ -76,8 +76,8 @@ class imda_part4_30s_asr_test_dataset(object):
         predictions = []
         references  = []
         for item in data_with_model_predictions:
-            model_prediction = preprocess_text_asr_code_switch_chinese(item["model_prediction"])
-            answer           = preprocess_text_asr_code_switch_chinese(item["answer"])
+            model_prediction = preprocess_text_asr_code_imda_part4(item["model_prediction"])
+            answer           = preprocess_text_asr_code_imda_part4(item["answer"])
 
             if len(model_prediction) == 0: model_prediction = "empty"
             if len(answer) == 0: answer = "empty"

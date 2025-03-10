@@ -93,7 +93,7 @@ for dataset_name, metric_names in DATASETS_TO_CHECK.items():
 
 
 
-MODEL_NAME_TO_CHECK = os.listdir('log')
+MODEL_NAME_TO_CHECK = os.listdir('log2')
 # sort by model names
 MODEL_NAME_TO_CHECK.sort()
 
@@ -115,7 +115,7 @@ for MODEL_NAME in MODEL_NAME_TO_CHECK:
             if 'wer' not in model_score_name:
                 continue
         
-        score_log_path = f"log/{MODEL_NAME}/{model_score_name}_score.json"
+        score_log_path = f"log2/{MODEL_NAME}/{model_score_name}_score.json"
 
         if os.path.exists(score_log_path) == False:
             print(f"Error: {score_log_path} not found.")

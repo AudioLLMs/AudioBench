@@ -42,7 +42,7 @@ def create_df(dataset_names, category, metrics):
 
 
 if __name__ == "__main__":
-    root = "../log/*"
+    root = "../log2/*"
     child_folders = glob.glob(root)
     
     ASR_datasets = ['librispeech_test_clean', 
@@ -155,6 +155,8 @@ if __name__ == "__main__":
                              'imda_part4_30s_asr_test',
                              'imda_part5_30s_asr_test',
                              'imda_part6_30s_asr_test',
+                             'seame_dev_man',
+                             'seame_dev_sge',
                              ]
     create_df(singlish_asr_datasets, 'asr_singlish', 'wer')
 
@@ -205,8 +207,8 @@ if __name__ == "__main__":
                                 'mediacorp_short_test',
                                 'ytb_asr_batch1',
                                 'ytb_asr_batch2',
-                                'seame_dev_man',
-                                'seame_dev_sge',
+                                #'seame_dev_man',
+                                #'seame_dev_sge',
                              ]
     create_df(under_development_wer_datasets, 'under_development_wer', 'wer')
 

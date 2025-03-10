@@ -31,16 +31,16 @@ export NLTK_DATA="/project/cache/nltk_data"
 
 # =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
 
-MODEL_NAME=cascade_whisper_large_v2_gemma2_9b_cpt_sea_lionv3_instruct
+MODEL_NAME=MERaLiON-AudioLLM-Whisper-SEA-LION
 
 # =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
 GPU=1
 BATCH_SIZE=1
-OVERWRITE=True
-NUMBER_OF_SAMPLES=20
+OVERWRITE=False
+NUMBER_OF_SAMPLES=-1
 # =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
 
-DATASET=seame_dev_man
+DATASET=imda_part4_30s_asr_test
 METRICS=wer
 
 bash eval.sh $DATASET $MODEL_NAME $GPU $BATCH_SIZE $OVERWRITE $METRICS $NUMBER_OF_SAMPLES

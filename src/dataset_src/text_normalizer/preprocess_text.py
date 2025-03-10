@@ -28,6 +28,7 @@ all_jiwer_process = jiwer.Compose([
 #EnglishNumberNormalizer   = whisper_english.EnglishNumberNormalizer()
 #EnglishSpellingNormalizer = whisper_english.EnglishSpellingNormalizer()
 EnglishTextNormalizer     = whisper_english.EnglishTextNormalizer()
+IMDAPART4TextNormalizer = whisper_english.IMDAPART4TextNormalizer()
 
 
 def normalize_text(text):
@@ -161,3 +162,34 @@ def preprocess_text_asr_code_switch_chinese(text):
 
     return text
 
+
+
+def preprocess_text_asr_code_imda_part4(text):
+    """ Post-processing text for WER computation. 3 language code-switching from IMDA PART4"""
+
+    # All adapt to lower case
+    text = text.lower()
+
+    # Borrow from Whisper
+    text = IMDAPART4TextNormalizer(text)
+
+    # Should be handled by EnglishNumberNormalizer and EnglishTextNormalizer
+    # Does not hurt to have it here
+    text = normalize_text(text)
+
+    # Use regex to remove all things between brackets [] () {} <> 
+    text = remove_parentheses(text)
+
+    # Add some standard process from jiwer
+    text = all_jiwer_process(text)
+
+    # Remove some non-speech elements
+    text = remove_non_speech_elements(text).strip()
+
+    # Separate Chinese characters
+    text = separate_and_space_chinese(text)
+
+    # replace any successive whitespaces with a space
+    text = re.sub(r"\s+", " ", text)  
+
+    return text
