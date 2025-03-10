@@ -118,8 +118,8 @@ def llama3_70b_as_judge(model_path, input_data):
     # Generation
     questions, references, predictions = input_data
 
-    num_processes = min(8, len(input_data))
-
+    # Use a maximum of 8 threads
+    num_processes = min(8, len(input_data[0]))
 
     with Pool(processes=num_processes) as pool:
         all_details = list(
