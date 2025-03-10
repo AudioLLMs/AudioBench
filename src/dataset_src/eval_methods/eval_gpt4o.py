@@ -124,7 +124,6 @@ def gpt4o_as_judge(model_path, input_data):
 
 
 
-
 def gpt4o_as_judge_binary(model_path, input_data):
     """ Compute the score of the model on the given data."""
 
