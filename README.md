@@ -178,6 +178,7 @@ If you find our work useful, please consider citing our paper!
 - [ ] Features
   - [ ] Evaluation with audio/speech generation
   - [ ] Evaluation with multiround chatbot
+  - [ ] Also support other model-as-judge and report the results
 - [x] Bugs
   - [x] Threads of model-as-judge
   - [x] Post-processing script for IMDA PART4 which contains code-switching in 4 languages.
