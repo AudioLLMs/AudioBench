@@ -194,6 +194,14 @@ class Dataset(object):
         elif self.dataset_name == 'imda_gr_dialogue':
             self.raw_data = load_dataset('MERaLiON/Multitask-National-Speech-Corpus-v1', data_dir='PQA-GR-Dialogue-Test')['train']
 
+        elif self.dataset_name == 'seame_dev_man':
+            self.raw_data = load_dataset("AudioLLMs/seame_dev_man")['test']
+
+        elif self.dataset_name == 'seame_dev_sge':
+            self.raw_data = load_dataset("AudioLLMs/seame_dev_sge")['test']
+
+
+        # Private
         elif self.dataset_name == 'ytb_asr_batch1':
             self.raw_data = load_from_disk("data/3_private_data/ytb_asr_batch1")
 
@@ -208,12 +216,6 @@ class Dataset(object):
 
         elif self.dataset_name == 'ytb_pqa_batch1':
             self.raw_data = load_from_disk("data/3_private_data/ytb_pqa_batch1")
-
-        elif self.dataset_name == 'seame_dev_man':
-            self.raw_data = load_from_disk("data/3_private_data/seame_dev_man")
-
-        elif self.dataset_name == 'seame_dev_sge':
-            self.raw_data = load_from_disk("data/3_private_data/seame_dev_sge")
             
         elif self.dataset_name == 'cna_test': 
             self.raw_data = load_from_disk("data/3_private_data/cna_ASR_v3")
@@ -469,6 +471,7 @@ class Dataset(object):
             from dataset_src.imda_gr_dialogue import imda_gr_dialogue_test_dataset
             self.dataset_processor = imda_gr_dialogue_test_dataset(self.raw_data, self.number_of_samples)
 
+        # Private
         elif self.dataset_name == 'ytb_asr_batch1':
             from dataset_src.ytb_asr_batch1 import ytb_asr_batch1_dataset
             self.dataset_processor = ytb_asr_batch1_dataset(self.raw_data, self.number_of_samples)

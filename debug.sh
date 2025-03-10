@@ -1,12 +1,8 @@
-
-# export HF_ENDPOINT=https://huggingface.co
-
 export HF_ENDPOINT=https://hf-mirror.com
 export HF_HOME=/project/cache/huggingface_cache
 export NLTK_DATA="/project/cache/nltk_data"
 
 # =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
-# MODEL_NAME=multitask-subsetv2:whisper_specaugment+seqcnn8+lora:f3epoch:run2.0:4gpu
 # MODEL_NAME=audiollm_imda
 # MODEL_NAME=huayun_whisper_local_cs
 # MODEL_NAME=huayun_whisper_local_no_cs
@@ -35,7 +31,7 @@ export NLTK_DATA="/project/cache/nltk_data"
 
 # =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
 
-MODEL_NAME=MERaLiON-AudioLLM-Whisper-SEA-LION
+MODEL_NAME=cascade_whisper_large_v2_gemma2_9b_cpt_sea_lionv3_instruct
 
 # =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
 GPU=1
@@ -44,8 +40,8 @@ OVERWRITE=True
 NUMBER_OF_SAMPLES=20
 # =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
 
-DATASET=cn_college_listen_mcq_test
-METRICS=llama3_70b_judge
+DATASET=seame_dev_man
+METRICS=wer
 
 bash eval.sh $DATASET $MODEL_NAME $GPU $BATCH_SIZE $OVERWRITE $METRICS $NUMBER_OF_SAMPLES
 

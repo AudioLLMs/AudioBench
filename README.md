@@ -24,6 +24,7 @@
 
 ## 📝 Change log
 
+* *Mar 2025*: Support SEAME testsets (dev). It is a code-switching dataset for Chinese and Singapore accented English.
 * *JAN 2025*: AudioBench paper is accepted to NAACL 2025 Main Conference.
 * *JAN 2025*: Support 10+ [MNSC - Singlish Understanding](https://huggingface.co/datasets/MERaLiON/Multitask-National-Speech-Corpus-v1) datasets, the results are updated on leaderboard.
 * *DEC 2024*: Support more (35) datasets / more Models (2 cascade and 3 fusion models).
@@ -168,3 +169,7 @@ If you find our work useful, please consider citing our paper!
 - More to come...
 
 
+#### TODO
+- Add ASCEND dataset
+- Add support for MMAU
+- Add support for more models

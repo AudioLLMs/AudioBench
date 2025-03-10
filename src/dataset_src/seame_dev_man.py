@@ -38,8 +38,8 @@ class seame_dev_man_dataset(object):
 
         input_data = []
         for sample in self.raw_data:
-            audio       = sample['context']['audio']
-            reference   = sample['answer']['text']
+            audio       = sample['context']
+            reference   = sample['answer']
             instruction = random.choice(self.prompt)
             input_data.append({
                                 "audio"    : audio,
