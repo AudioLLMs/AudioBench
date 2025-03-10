@@ -169,7 +169,15 @@ If you find our work useful, please consider citing our paper!
 - More to come...
 
 
-#### TODO
-- Add ASCEND dataset
-- Add support for MMAU
-- Add support for more models
+## To-Do List
+- [ ] Evaluation datasets
+- [x] Evaluation Datasets - ASCEND
+  - [ ] MMAU
+  - [ ] others
+- [ ] Models
+  - [ ] Test more 
+- [ ] Features
+  - [ ] Audio - speech generation
+- [] Bugs
+  - [x] Threads of model-as-judge
+
