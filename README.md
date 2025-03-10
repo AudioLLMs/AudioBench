@@ -171,13 +171,13 @@ If you find our work useful, please consider citing our paper!
 
 ## To-Do List
 - [ ] Evaluation datasets
-- [x] Evaluation Datasets - ASCEND
+  - [ ] ASCEND
   - [ ] MMAU
-  - [ ] others
 - [ ] Models
-  - [ ] Test more 
+  - [ ] phi-4-multimodal
 - [ ] Features
-  - [ ] Audio - speech generation
-- [] Bugs
+  - [ ] Evaluation with audio/speech generation
+  - [ ] Evaluation with multiround chatbot
+- [x] Bugs
   - [x] Threads of model-as-judge
 
