@@ -58,6 +58,8 @@ def meralion_audiollm_whisper_sea_lion_model_loader(self):
         repo_id,
         use_safetensors=True,
         trust_remote_code=True,
+        attn_implementation="flash_attention_2",
+        torch_dtype=torch.bfloat16
     )
     self.model.to("cuda")
 
@@ -80,9 +82,18 @@ def do_sample_inference(self, audio_array, instruction):
 
     inputs = self.processor(text=chat_prompt, audios=audio_array)
 
-    inputs        = inputs.to("cuda")
-    outputs       = self.model.generate(**inputs, max_new_tokens=512, do_sample=True, temperature=0.1, top_p=0.9, repetition_penalty=1.1)
-    generated_ids = outputs[:, inputs['input_ids'].size(1):]
+    # inputs        = inputs.to("cuda")
+    # outputs       = self.model.generate(**inputs, max_new_tokens=512, do_sample=True, temperature=0.1, top_p=0.9, repetition_penalty=1.1)
+    # outputs       = self.model.generate(**inputs, max_new_tokens=512)
+
+    for key in inputs:
+        if isinstance(inputs[key], torch.Tensor):
+            inputs[key] = inputs[key].to('cuda')
+        if inputs[key].dtype is torch.float32:
+            inputs[key] = inputs[key].to(torch.bfloat16)
+
+    model_outputs = self.model.generate(**inputs, max_new_tokens=228)
+    generated_ids = model_outputs[:, inputs['input_ids'].size(1):]
     response      = self.processor.batch_decode(generated_ids, skip_special_tokens=True)[0]
 
     return response
