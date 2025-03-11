@@ -162,10 +162,6 @@ class Model(object):
                 from model_src.temp_debug_datasets import temp_debug_datasets_model_generation
                 return temp_debug_datasets_model_generation(self, input)
 
-            elif self.model_name == "hy_whisper_local_cs":
-                from AudioBench.src.model_src.hy_whisper_local_cs import hy_whisper_local_cs_model_generation
-                return hy_whisper_local_cs_model_generation(self, input)
-
             elif self.model_name == "original_whisper_large_v2":
                 from model_src.original_whisper_large_v2 import original_whisper_large_v2_model_generation
                 return original_whisper_large_v2_model_generation(self, input)

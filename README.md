@@ -109,8 +109,15 @@ Two simple steps:
 
 
 ## Supported Models
-- [MERaLiON-AudioLLM](./examples/adding_new_model.md)
-- [Whisper-large-v2](./examples/adding_new_model.md)
+- [x] [MERaLiON-AudioLLM-Whisper-SEA-LION](./examples/adding_new_model.md)
+- [whisper_large_v3](./examples/adding_new_model.md)
+- [whisper_large_v2](./examples/adding_new_model.md)
+- [cascade_whisper_large_v3_llama_3_8b_instruct](./examples/adding_new_model.md)
+- [cascade_whisper_large_v2_gemma2_9b_cpt_sea_lionv3_instruct](./examples/adding_new_model.md)
+- [Qwen2-Audio-7B-Instruct](./examples/adding_new_model.md)
+- [Qwen-Audio-Chat](./examples/adding_new_model.md)
+- [SALMONN_7B](./examples/adding_new_model.md)
+
 
 ### How to evaluation your own models?
 As long as the model can do inference, you can load them and inference to get the responses.
