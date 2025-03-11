@@ -114,13 +114,17 @@ Two simple steps:
 - [x] [cascade_whisper_large_v3_llama_3_8b_instruct](./examples/adding_new_model.md)
 - [x] [cascade_whisper_large_v2_gemma2_9b_cpt_sea_lionv3_instruct](./examples/adding_new_model.md)
 - [x] [MERaLiON-AudioLLM-Whisper-SEA-LION](./examples/adding_new_model.md)
-- [whisper_large_v3](./examples/adding_new_model.md)
-- [whisper_large_v2](./examples/adding_new_model.md)
-- [Qwen2-Audio-7B-Instruct](./examples/adding_new_model.md)
-- [Qwen-Audio-Chat](./examples/adding_new_model.md)
-- [SALMONN_7B](./examples/adding_new_model.md)
-- [WavLLM_fairseq](./examples/adding_new_model.md): no longer supported as the inference takes too much effort.
+- [x] [Qwen-Audio-Chat](./examples/adding_new_model.md)
+- [x] [Qwen2-Audio-7B-Instruct](./examples/adding_new_model.md)
+- [x] [SALMONN_7B](./examples/adding_new_model.md): need extra git clone.
+- [x] [WavLLM_fairseq](./examples/adding_new_model.md): no longer supported as the inference takes too much effort.
+- [x] [whisper_large_v3](./examples/adding_new_model.md)
+- [ ] [whisper_large_v2](./examples/adding_new_model.md)
+- [ ] [gemini-1.5-flash](./examples/adding_new_model.md): key needed
+- [ ] [gpt4o-audio](./examples/adding_new_model.md): key needed
 
+
+gemini-1.5-flash
 
 ### How to evaluation your own models?
 As long as the model can do inference, you can load them and inference to get the responses.

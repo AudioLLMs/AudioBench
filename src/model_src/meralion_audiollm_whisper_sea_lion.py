@@ -82,10 +82,6 @@ def do_sample_inference(self, audio_array, instruction):
 
     inputs = self.processor(text=chat_prompt, audios=audio_array)
 
-    # inputs        = inputs.to("cuda")
-    # outputs       = self.model.generate(**inputs, max_new_tokens=512, do_sample=True, temperature=0.1, top_p=0.9, repetition_penalty=1.1)
-    # outputs       = self.model.generate(**inputs, max_new_tokens=512)
-
     for key in inputs:
         if isinstance(inputs[key], torch.Tensor):
             inputs[key] = inputs[key].to('cuda')
