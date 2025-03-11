@@ -32,7 +32,7 @@ export NLTK_DATA="/project/cache/nltk_data"
 
 # =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
 
-MODEL_NAME=cascade_whisper_large_v2_gemma2_9b_cpt_sea_lionv3_instruct
+MODEL_NAME=Qwen2-Audio-7B-Instruct
 
 # =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
 GPU=1
