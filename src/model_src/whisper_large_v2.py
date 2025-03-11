@@ -31,10 +31,10 @@ logging.basicConfig(
 )
 # =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
 
-whisper_model_path = "openai/whisper-large-v3"
+whisper_model_path = "openai/whisper-large-v2"
 
 
-def whisper_large_v3_model_loader(self):
+def whisper_large_v2_model_loader(self):
 
     self.whisper_model     = AutoModelForSpeechSeq2Seq.from_pretrained(whisper_model_path, torch_dtype=torch.float16, low_cpu_mem_usage=True, use_safetensors=True, device_map="auto")
     self.whisper_processor = AutoProcessor.from_pretrained(whisper_model_path)
@@ -55,7 +55,7 @@ def whisper_large_v3_model_loader(self):
     logging.info(f"Model loaded from {whisper_model_path}.")
 
 
-def whisper_large_v3_model_generation(self, sample):
+def whisper_large_v2_model_generation(self, sample):
 
     if sample['task_type'] == 'ASR':
         #whisper_output = self.whisper_pipe(sample['audio'], generate_kwargs={"language": "en"})['text'].strip()

@@ -68,7 +68,7 @@ class imda_30s_ds_human_test_dataset(object):
                                 "audio"    : audio,
                                 "text"     : instruction,
                                 "answer"   : reference,
-                                "task_type": "DS"
+                                "task_type": "SDS"
                                 })
 
         logging.info('\n=  =  =  Dataset Sample  =  =  =')

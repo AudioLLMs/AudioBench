@@ -29,20 +29,6 @@ er_instructions = [
 ]
 
 
-# er_instructions = [
-#     "How do you perceive the speaker's emotional state from their speech?",
-#     "What emotions do you detect in the speaker's voice?",
-#     "Can you identify the speaker's emotional state from their speech?",
-#     "Based on their speech, how would you describe the speaker's emotions?",
-#     "What emotional cues can you pick up from the speaker's speech?",
-#     "How would you describe the emotions conveyed in the speaker's voice?",
-#     "What do you think the speaker is feeling based on their speech?",
-#     "Can you interpret the emotions in the speaker's speech?",
-#     "How does the speaker's speech reflect their emotional state?",
-#     "What is the emotional tone of the speaker's speech?"
-# ]
-
-
 class meld_emotion_test_dataset(object):
 
     def __init__(self, raw_data, number_of_samples):

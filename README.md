@@ -119,12 +119,11 @@ Two simple steps:
 - [x] [SALMONN_7B](./examples/adding_new_model.md): need extra git clone.
 - [x] [WavLLM_fairseq](./examples/adding_new_model.md): no longer supported as the inference takes too much effort.
 - [x] [whisper_large_v3](./examples/adding_new_model.md)
-- [ ] [whisper_large_v2](./examples/adding_new_model.md)
-- [ ] [gemini-1.5-flash](./examples/adding_new_model.md): key needed
+- [x] [whisper_large_v2](./examples/adding_new_model.md)
+- [x] [gemini-1.5-flash](./examples/adding_new_model.md): key needed
+- [x] [gemini-2-flash](./examples/adding_new_model.md): key needed
 - [ ] [gpt4o-audio](./examples/adding_new_model.md): key needed
 
-
-gemini-1.5-flash
 
 ### How to evaluation your own models?
 As long as the model can do inference, you can load them and inference to get the responses.

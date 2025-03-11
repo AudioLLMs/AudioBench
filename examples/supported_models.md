@@ -25,6 +25,9 @@ MODEL_NAME=MERaLiON-AudioLLM-Whisper-SEA-LION
 MODEL_NAME=whisper_large_v3
 MODEL_NAME=whisper_large_v2
 
+# Google Gemini
+export GOOGLE_API_KEY=AIzxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+MODEL_NAME=gemini-1.5-flash
 ```
 
 

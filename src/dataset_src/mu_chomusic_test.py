@@ -38,7 +38,7 @@ class mu_chomusic_test_dataset(object):
                                 "audio"    : audio,
                                 "text"     : instruction,
                                 "answer"   : reference,
-                                "task_type": "SQA",
+                                "task_type": "Music-QA",
                                 })
 
         logging.info('\n=  =  =  Dataset Sample  =  =  =')

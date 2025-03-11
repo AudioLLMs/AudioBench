@@ -29,7 +29,6 @@ si_instructions = [
 ]
 
 
-
 class openhermes_audio_test_dataset(object):
 
     def __init__(self, raw_data, number_of_samples):
