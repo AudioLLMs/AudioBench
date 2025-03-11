@@ -93,6 +93,8 @@
 - [x] [imda_gr_dialogue](./examples/supported_datasets.md)
 - [x] [seame_dev_man](./examples/supported_datasets.md)
 - [x] [seame_dev_sge](./examples/supported_datasets.md)
+- [ ] [ASCEND](./examples/supported_datasets.md)
+- [ ] [MMAU](./examples/supported_datasets.md)
 
 
 How to evaluate with the supported datasets? That's as simple as it can be. Replace the DATASET and METRIC name.
@@ -178,9 +180,6 @@ If you find our work useful, please consider citing our paper!
 
 
 ## To-Do List
-- [ ] Evaluation datasets
-  - [ ] ASCEND
-  - [ ] MMAU
 - [ ] Models
   - [ ] phi-4-multimodal
 - [ ] Features
