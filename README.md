@@ -23,7 +23,7 @@
 
 
 ## 📝 Change log
-* *Mar 2025*: Support MMAU testset. Multiple-choice questions for speech, audio and music understanding!
+* *Mar 2025*: Support [MMAU](https://sakshi113.github.io/mmau_homepage/) testset. Multiple-choice questions for speech, audio and music understanding!
 * *Mar 2025*: AudioBench now supports over 50 datasets!!
 * *Mar 2025*: Support SEAME testsets (dev). It is a code-switching dataset for Chinese and Singapore accented English.
 * *JAN 2025*: AudioBench paper is accepted to NAACL 2025 Main Conference.
