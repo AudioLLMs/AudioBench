@@ -56,7 +56,6 @@ def gemini_1_5_flash_model_loader(self):
     logger.info("Model loaded")
 
 
-
 def do_sample_inference(self, audio_array, instruction, sampling_rate=16000):
 
     audio_path = tempfile.NamedTemporaryFile(suffix=".wav", prefix="audio_", delete=False)

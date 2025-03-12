@@ -51,9 +51,9 @@ class alpaca_audio_test_dataset(object):
             reference              = sample['answer']
             input_data.append({
                                 "audio"                 : audio,
-                                "text"                  : instruction,
+                                "instruction"           : instruction,
                                 "audio_text_instruction": audio_text_instruction,
-                                "answer"                : reference,
+                                "reference"             : reference,
                                 "task_type"             : "SI"
                                 })
 
@@ -85,11 +85,11 @@ class alpaca_audio_test_dataset(object):
         for item in data_with_model_predictions:
         
             question         = item["audio_text_instruction"]
-            answer           = item["answer"]
+            reference        = item["reference"]
             model_prediction = item["model_prediction"]
 
             questions.append(question)
-            references.append(answer)
+            references.append(reference)
             predictions.append(model_prediction)
 
         if metrics == 'llama3_70b_judge':

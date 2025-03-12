@@ -23,7 +23,7 @@
 
 
 ## 📝 Change log
-
+* *Mar 2025*: AudioBench now supports over 50 datasets!!
 * *Mar 2025*: Support SEAME testsets (dev). It is a code-switching dataset for Chinese and Singapore accented English.
 * *JAN 2025*: AudioBench paper is accepted to NAACL 2025 Main Conference.
 * *JAN 2025*: Support 10+ [MNSC - Singlish Understanding](https://huggingface.co/datasets/MERaLiON/Multitask-National-Speech-Corpus-v1) datasets, the results are updated on leaderboard.
@@ -38,63 +38,63 @@
 [![Star History Chart](https://api.star-history.com/svg?repos=AudioLLMs/AudioBench&type=Date)](https://star-history.com/#AudioLLMs/AudioBench&Date)
 
 ## Supported Evaluation Data
-- [x] [librispeech_test_clean](./examples/supported_datasets.md)
-- [x] [librispeech_test_other](./examples/supported_datasets.md)
-- [x] [common_voice_15_en_test](./examples/supported_datasets.md)
-- [x] [peoples_speech_test](./examples/supported_datasets.md)
-- [x] [gigaspeech_test](./examples/supported_datasets.md)
-- [x] [tedlium3_test](./examples/supported_datasets.md)
-- [x] [tedlium3_long_form_test](./examples/supported_datasets.md)
-- [x] [earnings21_test](./examples/supported_datasets.md)
-- [x] [earnings22_test](./examples/supported_datasets.md)
-- [x] [aishell_asr_zh_test](./examples/supported_datasets.md)
-- [x] [covost2_en_id_test](./examples/supported_datasets.md)
-- [x] [covost2_en_zh_test](./examples/supported_datasets.md)
-- [x] [covost2_en_ta_test](./examples/supported_datasets.md)
-- [x] [covost2_id_en_test](./examples/supported_datasets.md)
-- [x] [covost2_zh_en_test](./examples/supported_datasets.md)
-- [x] [covost2_ta_en_test](./examples/supported_datasets.md)
-- [x] [cn_college_listen_mcq_test](./examples/supported_datasets.md)
-- [x] [slue_p2_sqa5_test](./examples/supported_datasets.md)
-- [x] [dream_tts_mcq_test](./examples/supported_datasets.md)
-- [x] [public_sg_speech_qa_test](./examples/supported_datasets.md)
-- [x] [spoken_squad_test](./examples/supported_datasets.md)
-- [x] [openhermes_audio_test](./examples/supported_datasets.md)
-- [x] [alpaca_audio_test](./examples/supported_datasets.md)
-- [x] [clotho_aqa_test](./examples/supported_datasets.md)
-- [x] [wavcaps_qa_test](./examples/supported_datasets.md)
-- [x] [audiocaps_qa_test](./examples/supported_datasets.md)
-- [x] [wavcaps_test](./examples/supported_datasets.md)
-- [x] [audiocaps_test](./examples/supported_datasets.md)
-- [x] [iemocap_emotion_test](./examples/supported_datasets.md)
-- [x] [meld_sentiment_test](./examples/supported_datasets.md)
-- [x] [meld_emotion_test](./examples/supported_datasets.md)
-- [x] [voxceleb_accent_test](./examples/supported_datasets.md)
-- [x] [voxceleb_gender_test](./examples/supported_datasets.md)
-- [x] [iemocap_gender_test](./examples/supported_datasets.md)
-- [x] [muchomusic_test](./examples/supported_datasets.md)
-- [x] [imda_part1_asr_test](./examples/supported_datasets.md)
-- [x] [imda_part2_asr_test](./examples/supported_datasets.md)
-- [x] [imda_part3_30s_asr_test](./examples/supported_datasets.md)
-- [x] [imda_part4_30s_asr_test](./examples/supported_datasets.md)
-- [x] [imda_part5_30s_asr_test](./examples/supported_datasets.md)
-- [x] [imda_part6_30s_asr_test](./examples/supported_datasets.md)
-- [x] [imda_part3_30s_sqa_human_test](./examples/supported_datasets.md)
-- [x] [imda_part4_30s_sqa_human_test](./examples/supported_datasets.md)
-- [x] [imda_part5_30s_sqa_human_test](./examples/supported_datasets.md)
-- [x] [imda_part6_30s_sqa_human_test](./examples/supported_datasets.md)
-- [x] [imda_part3_30s_ds_human_test](./examples/supported_datasets.md)
-- [x] [imda_part4_30s_ds_human_test](./examples/supported_datasets.md)
-- [x] [imda_part5_30s_ds_human_test](./examples/supported_datasets.md)
-- [x] [imda_part6_30s_ds_human_test](./examples/supported_datasets.md)
-- [x] [imda_ar_sentence](./examples/supported_datasets.md)
-- [x] [imda_ar_dialogue](./examples/supported_datasets.md)
-- [x] [imda_gr_sentence](./examples/supported_datasets.md)
-- [x] [imda_gr_dialogue](./examples/supported_datasets.md)
-- [x] [seame_dev_man](./examples/supported_datasets.md)
-- [x] [seame_dev_sge](./examples/supported_datasets.md)
-- [ ] [ASCEND](./examples/supported_datasets.md)
-- [ ] [MMAU](./examples/supported_datasets.md)
+- [x] [librispeech_test_clean](./examples/supported_datasets.md), ASR, English, Metric: `wer`
+- [x] [librispeech_test_other](./examples/supported_datasets.md), ASR, English, Metric: `wer`
+- [x] [common_voice_15_en_test](./examples/supported_datasets.md), ASR, English, Metric: `wer`
+- [x] [peoples_speech_test](./examples/supported_datasets.md), ASR, English, Metric: `wer`
+- [x] [gigaspeech_test](./examples/supported_datasets.md), ASR, English, Metric: `wer`
+- [x] [tedlium3_test](./examples/supported_datasets.md), ASR, English, Metric: `wer`
+- [x] [tedlium3_long_form_test](./examples/supported_datasets.md), ASR, English, Long recording, Metric: `wer`
+- [x] [earnings21_test](./examples/supported_datasets.md), ASR, English, Long recording, Metric: `wer`
+- [x] [earnings22_test](./examples/supported_datasets.md), ASR, English, Long recording, Metric: `wer`
+- [x] [aishell_asr_zh_test](./examples/supported_datasets.md), ASR, Chinese, Metric: `wer`
+- [x] [covost2_en_id_test](./examples/supported_datasets.md), Speech Translation, English-Indonesian, Metric: `bleu`
+- [x] [covost2_en_zh_test](./examples/supported_datasets.md), Speech Translation, English-Chinese, Metric: `bleu`
+- [x] [covost2_en_ta_test](./examples/supported_datasets.md), Speech Translation, English-Tamil, Metric: `bleu`
+- [x] [covost2_id_en_test](./examples/supported_datasets.md), Speech Translation, Indonesian-English, Metric: `bleu`
+- [x] [covost2_zh_en_test](./examples/supported_datasets.md), Speech Translation, Chinese-English, Metric: `bleu`
+- [x] [covost2_ta_en_test](./examples/supported_datasets.md), Speech Translation, Tamil-English, Metric: `bleu`
+- [x] [cn_college_listen_mcq_test](./examples/supported_datasets.md), Speech Question Answering, Multiple Choice, Metric: `llama3_70b_judge`
+- [x] [slue_p2_sqa5_test](./examples/supported_datasets.md), Speech Question Answering, Metric: `llama3_70b_judge`
+- [x] [dream_tts_mcq_test](./examples/supported_datasets.md), Speech Question Answering, Multiple Choice, Metric: `llama3_70b_judge`
+- [x] [public_sg_speech_qa_test](./examples/supported_datasets.md), Speech Question Answering, Metric: `llama3_70b_judge`
+- [x] [spoken_squad_test](./examples/supported_datasets.md), Speech Question Answering, Metric: `llama3_70b_judge`
+- [x] [openhermes_audio_test](./examples/supported_datasets.md), Speech Instruction, Metric: `llama3_70b_judge`
+- [x] [alpaca_audio_test](./examples/supported_datasets.md), Speech Instruction, Metric: `llama3_70b_judge`
+- [x] [clotho_aqa_test](./examples/supported_datasets.md), Speech Question Answering, Metric: `llama3_70b_judge`
+- [x] [wavcaps_qa_test](./examples/supported_datasets.md), Audio Scene Question Answering, Metric: `llama3_70b_judge`
+- [x] [audiocaps_qa_test](./examples/supported_datasets.md), Audio Scene Question Answering, Metric: `llama3_70b_judge`
+- [x] [wavcaps_test](./examples/supported_datasets.md), Audio Scene Question Answering, Metric: `llama3_70b_judge`, `meteor`
+- [x] [audiocaps_test](./examples/supported_datasets.md), Audio Scene Question Answering, Metric: `llama3_70b_judge`, `meteor`
+- [x] [iemocap_emotion_test](./examples/supported_datasets.md), Emotion Recognition, Metric: `llama3_70b_judge`
+- [x] [meld_sentiment_test](./examples/supported_datasets.md), Emotion Recognition, Metric: `llama3_70b_judge`
+- [x] [meld_emotion_test](./examples/supported_datasets.md), Emotion Recognition, Metric: `llama3_70b_judge`
+- [x] [voxceleb_accent_test](./examples/supported_datasets.md), Accent Recognition, Metric: `llama3_70b_judge`
+- [x] [voxceleb_gender_test](./examples/supported_datasets.md), Gender Recognition, Metric: `llama3_70b_judge`
+- [x] [iemocap_gender_test](./examples/supported_datasets.md), Gender Recognition, Metric: `llama3_70b_judge`
+- [x] [muchomusic_test](./examples/supported_datasets.md), Music Understanding, Metric: `llama3_70b_judge`
+- [x] [imda_part1_asr_test](./examples/supported_datasets.md), Singlish ASR, Metric: `wer`
+- [x] [imda_part2_asr_test](./examples/supported_datasets.md), Singlish ASR, Metric: `wer`
+- [x] [imda_part3_30s_asr_test](./examples/supported_datasets.md), Singlish ASR, Metric: `wer`
+- [x] [imda_part4_30s_asr_test](./examples/supported_datasets.md), Singlish ASR, Metric: `wer`
+- [x] [imda_part5_30s_asr_test](./examples/supported_datasets.md), Singlish ASR, Metric: `wer`
+- [x] [imda_part6_30s_asr_test](./examples/supported_datasets.md), Singlish ASR, Metric: `wer`
+- [x] [imda_part3_30s_sqa_human_test](./examples/supported_datasets.md), Singlish Speech Question Answering, Metric: `llama3_70b_judge`
+- [x] [imda_part4_30s_sqa_human_test](./examples/supported_datasets.md), Singlish Speech Question Answering, Metric: `llama3_70b_judge`
+- [x] [imda_part5_30s_sqa_human_test](./examples/supported_datasets.md), Singlish Speech Question Answering, Metric: `llama3_70b_judge`
+- [x] [imda_part6_30s_sqa_human_test](./examples/supported_datasets.md), Singlish Speech Question Answering, Metric: `llama3_70b_judge`
+- [x] [imda_part3_30s_ds_human_test](./examples/supported_datasets.md), Singlish Speech Summarization, Metric: `llama3_70b_judge`
+- [x] [imda_part4_30s_ds_human_test](./examples/supported_datasets.md), Singlish Speech Summarization, Metric: `llama3_70b_judge`
+- [x] [imda_part5_30s_ds_human_test](./examples/supported_datasets.md), Singlish Speech Summarization, Metric: `llama3_70b_judge`
+- [x] [imda_part6_30s_ds_human_test](./examples/supported_datasets.md), Singlish Speech Summarization, Metric: `llama3_70b_judge`
+- [x] [imda_ar_sentence](./examples/supported_datasets.md), Singlish, Accent Recognition, Metric: `llama3_70b_judge`
+- [x] [imda_ar_dialogue](./examples/supported_datasets.md), Singlish, Accent Recognition, Metric: `llama3_70b_judge`
+- [x] [imda_gr_sentence](./examples/supported_datasets.md), Singlish, Gender Recognition, Metric: `llama3_70b_judge`
+- [x] [imda_gr_dialogue](./examples/supported_datasets.md), Singlish, Gender Recognition, Metric: `llama3_70b_judge`
+- [x] [seame_dev_man](./examples/supported_datasets.md), English-Chinese Code-Switching, Metric: `wer`
+- [x] [seame_dev_sge](./examples/supported_datasets.md), English-Chinese Code-Switching, Metric: `wer`
+- [x] [MMAU-mini](./examples/supported_datasets.md), Audio Understandign and Reasoning, Multiple Choice Questions, Metric: `llama3_70b_judge`
+- [ ] [ASCEND](./examples/supported_datasets.md), English-Chinese Code-Switching, Metric: `wer`
 
 
 How to evaluate with the supported datasets? That's as simple as it can be. Replace the DATASET and METRIC name.
@@ -122,7 +122,11 @@ Two simple steps:
 - [x] [whisper_large_v2](./examples/adding_new_model.md)
 - [x] [gemini-1.5-flash](./examples/adding_new_model.md): key needed
 - [x] [gemini-2-flash](./examples/adding_new_model.md): key needed
-- [ ] [gpt4o-audio](./examples/adding_new_model.md): key needed
+- [x] [gpt-4o-audio](./examples/adding_new_model.md): key needed
+- [ ] [phi-4-multimodal](./examples/adding_new_model.md): key needed
+- [ ] [ultravox](./examples/adding_new_model.md) https://huggingface.co/fixie-ai/ultravox-v0_5-llama-3_1-8b / https://www.ultravox.ai/
+- [ ] [llama3_s](./examples/adding_new_model.md) 
+
 
 
 ### How to evaluation your own models?
@@ -158,7 +162,7 @@ NUMBER_OF_SAMPLES=-1 # indicate all test samples if number_of_samples=-1
 MODEL_NAME=Qwen2-Audio-7B-Instruct
 
 DATASET=cn_college_listen_mcq_test
-METRICS=llama3_70b_judge_binary
+METRICS=llama3_70b_judge
 
 bash eval.sh $DATASET $MODEL_NAME $GPU $BATCH_SIZE $OVERWRITE $METRICS $NUMBER_OF_SAMPLES
 
@@ -183,8 +187,6 @@ If you find our work useful, please consider citing our paper!
 
 
 ## To-Do List
-- [ ] Models
-  - [ ] phi-4-multimodal
 - [ ] Features
   - [ ] Evaluation with audio/speech generation
   - [ ] Evaluation with multiround chatbot
@@ -193,3 +195,7 @@ If you find our work useful, please consider citing our paper!
   - [x] Threads of model-as-judge
   - [x] Post-processing script for IMDA PART4 which contains code-switching in 4 languages.
 
+
+
+## Contributors
+- Xue Cong Tey (MMAU-mini Dataset)

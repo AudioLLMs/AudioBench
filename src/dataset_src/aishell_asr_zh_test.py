@@ -1,17 +1,3 @@
-#!/usr/bin/env python
-# -*- coding:utf-8 -*-
-###
-# Created Date: Thursday, December 14th 2023, 2:01:36 pm
-# Author: Bin Wang
-# -----
-# Copyright (c) Bin Wang @ bwang28c@gmail.com
-#
-# -----
-# HISTORY:
-# Date&Time 			By	Comments
-# ----------			---	----------------------------------------------------------
-###
-
 import random
 import logging
 
@@ -41,10 +27,10 @@ class aishell_asr_zh_test_dataset(object):
             reference   = sample['answer']
             instruction = random.choice(self.prompt)
             input_data.append({
-                                "audio"    : audio,
-                                "text"     : instruction,
-                                "answer"   : reference,
-                                "task_type": "ASR-ZH"
+                                "audio"      : audio,
+                                "instruction": instruction,
+                                "reference"  : reference,
+                                "task_type"  : "ASR-ZH"
                                 })
 
         logging.info('\n=  =  =  Dataset Sample  =  =  =')
@@ -67,7 +53,6 @@ class aishell_asr_zh_test_dataset(object):
 
     def compute_score(self, data_with_model_predictions, metrics=None):
 
-
         if metrics != 'wer':
             raise ValueError(f"Unsupported metric: {metrics}. Supported metrics: 'wer' for ASR")
         
@@ -75,7 +60,7 @@ class aishell_asr_zh_test_dataset(object):
         references  = []
         for item in data_with_model_predictions:
             model_prediction = preprocess_text_asr_code_switch_chinese(item["model_prediction"])
-            answer           = preprocess_text_asr_code_switch_chinese(item["answer"])
+            answer           = preprocess_text_asr_code_switch_chinese(item["reference"])
 
             if len(model_prediction) == 0: model_prediction = "empty"
             if len(answer) == 0: answer = "empty"

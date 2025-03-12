@@ -5,17 +5,20 @@ export NLTK_DATA="/project/cache/nltk_data"
 
 # =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
 
-MODEL_NAME=gemini-2-flash
+MODEL_NAME=cascade_whisper_large_v3_llama_3_8b_instruct
 
 # =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
 GPU=1
 BATCH_SIZE=1
 OVERWRITE=True
-NUMBER_OF_SAMPLES=20
+NUMBER_OF_SAMPLES=5
 # =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
 
-DATASET=seame_dev_man
-METRICS=wer
+
+
+
+DATASET=imda_ar_sentence
+METRICS=llama3_70b_judge
 
 bash eval.sh $DATASET $MODEL_NAME $GPU $BATCH_SIZE $OVERWRITE $METRICS $NUMBER_OF_SAMPLES
 

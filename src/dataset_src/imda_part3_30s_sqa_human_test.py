@@ -1,16 +1,3 @@
-#!/usr/bin/env python
-# -*- coding:utf-8 -*-
-###
-# Created Date: Thursday, December 14th 2023, 2:01:36 pm
-# Author: Bin Wang
-# -----
-# Copyright (c) Bin Wang @ bwang28c@gmail.com
-#
-# -----
-# HISTORY:
-# Date&Time 			By	Comments
-# ----------			---	----------------------------------------------------------
-###
 import os
 import random
 import logging
@@ -36,10 +23,10 @@ class imda_part3_30s_sqa_human_test_dataset(object):
             instruction = sample['instruction']
             reference   = sample['answer']
             input_data.append({
-                                "audio"    : audio,
-                                "text"     : instruction,
-                                "answer"   : reference,
-                                "task_type": "SQA"
+                                "audio"      : audio,
+                                "instruction": instruction,
+                                "reference"  : reference,
+                                "task_type"  : "SQA"
                                 })
 
         logging.info('\n=  =  =  Dataset Sample  =  =  =')
@@ -68,8 +55,8 @@ class imda_part3_30s_sqa_human_test_dataset(object):
 
         for item in data_with_model_predictions:
         
-            question         = item["text"]
-            answer           = item["answer"]
+            question         = item["instruction"]
+            answer           = item["reference"]
             model_prediction = item["model_prediction"]
 
             questions.append(question)

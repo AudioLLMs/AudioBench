@@ -1,17 +1,3 @@
-#!/usr/bin/env python
-# -*- coding:utf-8 -*-
-###
-# Created Date: Thursday, December 14th 2023, 2:01:36 pm
-# Author: Bin Wang
-# -----
-# Copyright (c) Bin Wang @ bwang28c@gmail.com
-#
-# -----
-# HISTORY:
-# Date&Time 			By	Comments
-# ----------			---	----------------------------------------------------------
-###
-
 import random
 import logging
 
@@ -42,10 +28,10 @@ class ukusnews_short_test_dataset(object):
             reference   = sample['answer']['text']
             instruction = random.choice(self.prompt)
             input_data.append({
-                                "audio"    : audio,
-                                "text"     : instruction,
-                                "answer"   : reference,
-                                "task_type": "ASR"
+                                "audio"      : audio,
+                                "instruction": instruction,
+                                "reference"  : reference,
+                                "task_type"  : "ASR"
                                 })
 
         logging.info('\n=  =  =  Dataset Sample  =  =  =')
@@ -75,7 +61,7 @@ class ukusnews_short_test_dataset(object):
         references  = []
         for item in data_with_model_predictions:
             model_prediction = preprocess_text_asr(item["model_prediction"])
-            answer           = preprocess_text_asr(item["answer"])
+            answer           = preprocess_text_asr(item["reference"])
 
             if len(model_prediction) == 0: model_prediction = "empty"
             if len(answer) == 0: answer = "empty"

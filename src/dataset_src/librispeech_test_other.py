@@ -42,10 +42,10 @@ class librispeech_test_other_dataset(object):
             instruction = random.choice(self.prompt)
             reference   = sample['answer']
             input_data.append({
-                                "audio"    : audio,
-                                "text"     : instruction,
-                                "answer"   : reference,
-                                "task_type": "ASR"
+                                "audio"      : audio,
+                                "instruction": instruction,
+                                "reference"  : reference,
+                                "task_type"  : "ASR"
                                 })
 
         logging.info('\n=  =  =  Dataset Sample  =  =  =')
@@ -75,7 +75,7 @@ class librispeech_test_other_dataset(object):
         references=[]
         for item in data_with_model_predictions:
             model_prediction = preprocess_text_asr(item["model_prediction"])
-            answer           = preprocess_text_asr(item["answer"])
+            answer           = preprocess_text_asr(item["reference"])
 
             if len(model_prediction) == 0: model_prediction = "empty"
             if len(answer) == 0: answer = "empty"

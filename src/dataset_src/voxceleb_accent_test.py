@@ -1,17 +1,3 @@
-#!/usr/bin/env python
-# -*- coding:utf-8 -*-
-###
-# Created Date: Thursday, December 14th 2023, 2:01:36 pm
-# Author: Bin Wang
-# -----
-# Copyright (c) Bin Wang @ bwang28c@gmail.com
-#
-# -----
-# HISTORY:
-# Date&Time 			By	Comments
-# ----------			---	----------------------------------------------------------
-###
-
 import random
 import logging
 
@@ -30,12 +16,9 @@ ar_instructions = [
 ]
 
 
-
 class voxceleb_accent_test_dataset(object):
 
     def __init__(self, raw_data, number_of_samples):
-
-        # import pdb; pdb.set_trace()
 
         if number_of_samples != -1:
             raw_data = raw_data.shuffle(seed=42)
@@ -54,10 +37,10 @@ class voxceleb_accent_test_dataset(object):
             instruction = random.choice(self.prompt)
             reference   = sample['answer']
             input_data.append({
-                                "audio"    : audio,
-                                "text"     : instruction,
-                                "answer"   : reference,
-                                "task_type": "AR"
+                                "audio"      : audio,
+                                "instruction": instruction,
+                                "reference"  : reference,
+                                "task_type"  : "AR"
                                 })
 
         logging.info('\n=  =  =  Dataset Sample  =  =  =')
@@ -75,7 +58,7 @@ class voxceleb_accent_test_dataset(object):
             del new_sample["audio"]
 
             # special treatment for accent
-            new_sample['answer'] = new_sample['answer'].replace('From the audio, I guess the speaker is from ', '')
+            new_sample['reference'] = new_sample['reference'].replace('From the audio, I guess the speaker is from ', '')
             
             new_sample['model_prediction'] = model_predictions.pop(0)
             data_with_model_predictions.append(new_sample)
@@ -90,9 +73,8 @@ class voxceleb_accent_test_dataset(object):
         predictions = []
 
         for item in data_with_model_predictions:
-        
-            question         = item["text"]
-            answer           = item["answer"]
+            question         = item["instruction"]
+            answer           = item["reference"]
             model_prediction = item["model_prediction"]
 
             questions.append(question)
@@ -103,11 +85,6 @@ class voxceleb_accent_test_dataset(object):
             from dataset_src.eval_methods.eval_llama3_70b import llama3_70b_as_judge_binary
             llama3_70b_judge_results, all_details = llama3_70b_as_judge_binary("meta-llama/Meta-Llama-3-70B-Instruct", [questions, references, predictions])
             return {'llama3_70b_judge': llama3_70b_judge_results, 'details': all_details}
-
-        # elif metrics == 'llama3_70b_judge_binary':
-        #     from dataset_src.eval_methods.eval_llama3_70b import llama3_70b_as_judge_binary
-        #     llama3_70b_judge_binary_results, all_details = llama3_70b_as_judge_binary("meta-llama/Meta-Llama-3-70B-Instruct", [questions, references, predictions])
-        #     return {'llama3_70b_judge_binary': llama3_70b_judge_binary_results, 'details': all_details}
 
         elif metrics == 'llama3_8b_judge':
             from dataset_src.eval_methods.eval_llama3_8b import llama3_8b_as_judge

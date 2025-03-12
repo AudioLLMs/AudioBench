@@ -89,13 +89,13 @@ METRIC=bleu
 # == == == == == Spoken Question Answering == == == == ==
 
 DATASET=cn_college_listen_mcq_test
-METRIC=llama3_70b_judge_binary
+METRIC=llama3_70b_judge
 
 DATASET=slue_p2_sqa5_test
 METRIC=llama3_70b_judge
 
 DATASET=dream_tts_mcq_test
-METRIC=llama3_70b_judge_binary
+METRIC=llama3_70b_judge
 
 DATASET=public_sg_speech_qa_test
 METRIC=llama3_70b_judge
@@ -178,13 +178,13 @@ METRIC=meteor
 # == == == == == Emotion Recognition == == == == ==
 
 DATASET=iemocap_emotion_test
-METRIC=llama3_70b_judge_binary
+METRIC=llama3_70b_judge
 
 DATASET=meld_sentiment_test
-METRIC=llama3_70b_judge_binary
+METRIC=llama3_70b_judge
 
 DATASET=meld_emotion_test
-METRIC=llama3_70b_judge_binary
+METRIC=llama3_70b_judge
 
 
 
@@ -195,29 +195,29 @@ DATASET=voxceleb_accent_test
 METRIC=llama3_70b_judge
 
 DATASET=imda_ar_sentence
-METRIC=llama3_70b_judge_binary
+METRIC=llama3_70b_judge
 
 DATASET=imda_ar_dialogue
-METRIC=llama3_70b_judge_binary
+METRIC=llama3_70b_judge
 
 # == == == == == Gender Recognition == == == == ==
 
 DATASET=voxceleb_gender_test
-METRIC=llama3_70b_judge_binary
+METRIC=llama3_70b_judge
 
 DATASET=iemocap_gender_test
-METRIC=llama3_70b_judge_binary
+METRIC=llama3_70b_judge
 
 DATASET=imda_gr_sentence
-METRIC=llama3_70b_judge_binary
+METRIC=llama3_70b_judge
 
 DATASET=imda_gr_dialogue
-METRIC=llama3_70b_judge_binary
+METRIC=llama3_70b_judge
 
 # == == == == == Music Understanding == == == == ==
 
 DATASET=mu_chomusic_test
-METRIC=llama3_70b_judge_binary
+METRIC=llama3_70b_judge
 
 # == == == == == ASR Code-Switching == == == == ==
 

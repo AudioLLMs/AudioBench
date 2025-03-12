@@ -34,7 +34,7 @@ logging.basicConfig(
 whisper_model_path = "openai/whisper-large-v2"
 llm_model_path = "aisingapore/gemma2-9b-cpt-sea-lionv3-instruct"
 
-def cascade_whisper_large_v2_gemma2_9b_cpt_sea_lionv3_instruct_model_loader(self):
+def whisper_large_v2_gemma2_9b_cpt_sea_lionv3_instruct_model_loader(self):
 
     self.whisper_model     = AutoModelForSpeechSeq2Seq.from_pretrained(whisper_model_path, torch_dtype=torch.float16, low_cpu_mem_usage=True, use_safetensors=True, device_map="auto")
     self.whisper_processor = AutoProcessor.from_pretrained(whisper_model_path)
@@ -60,7 +60,7 @@ def cascade_whisper_large_v2_gemma2_9b_cpt_sea_lionv3_instruct_model_loader(self
     logging.info(f"Model loaded from {whisper_model_path} and {llm_model_path}.")
 
 
-def cascade_whisper_large_v2_gemma2_9b_cpt_sea_lionv3_instruct_model_generation(self, sample):
+def whisper_large_v2_gemma2_9b_cpt_sea_lionv3_instruct_model_generation(self, sample):
 
     if sample['task_type'] == 'ASR':
         whisper_output = self.whisper_pipe(sample['audio'], generate_kwargs={"language": "en"})['text'].strip()
@@ -80,14 +80,14 @@ def cascade_whisper_large_v2_gemma2_9b_cpt_sea_lionv3_instruct_model_generation(
     else:
         whisper_output = self.whisper_pipe(sample['audio'], generate_kwargs={"language": "en"})['text'].strip()
 
-        question = sample['text']
+        instruction = sample['instruction']
 
         PROMPT_TEMPLATE = """\
             [Audio Transcriptions]
             {whisper_output}
 
             [Question]
-            {question}
+            {instruction}
 
             [System]
             Please answer the question based on the audio transcription provided above. 
@@ -96,7 +96,7 @@ def cascade_whisper_large_v2_gemma2_9b_cpt_sea_lionv3_instruct_model_generation(
             Answer: (Provide a precise and concise answer here.)
             """
         
-        batch_input = [PROMPT_TEMPLATE.format(whisper_output=whisper_output, question=question)]
+        batch_input = [PROMPT_TEMPLATE.format(whisper_output=whisper_output, question=instruction)]
 
         # If speech instruction task, then only use whisper_output
         if sample['task_type'] == "SI":

@@ -69,7 +69,7 @@ def llama3_70b_as_judge_one_sample(args):
     )
 
     # Model
-    port = os.environ.get('MY_VLLM_PORT_JUDGE', 5000)
+    port = os.environ.get('MY_VLLM_PORT_JUDGE', 5001)
     openai_api_key = "EMPTY"
     openai_api_base = f"http://localhost:{port}/v1"
     client = OpenAI(
@@ -180,7 +180,7 @@ def llama3_70b_as_judge_binary_one_sample(args):
     )
 
     # Model
-    port = os.environ.get('MY_VLLM_PORT_JUDGE', 5000)
+    port = os.environ.get('MY_VLLM_PORT_JUDGE', 5001)
     openai_api_key = "EMPTY"
     openai_api_base = f"http://localhost:{port}/v1"
     client = OpenAI(
@@ -196,7 +196,7 @@ def llama3_70b_as_judge_binary_one_sample(args):
     prompt     = templated_sample,
     max_tokens = 512,
     n          = 1,
-        )
+    )
     
     output = completion.choices[0].text.strip()
 
@@ -230,8 +230,7 @@ def llama3_70b_as_judge_binary(model_path, input_data):
     # Generation
     questions, references, predictions = input_data
 
-    num_processes = min(8, len(input_data))
-
+    num_processes = min(8, len(input_data[0]))
 
     with Pool(processes=num_processes) as pool:
         all_details = list(

@@ -1,17 +1,3 @@
-#!/usr/bin/env python
-# -*- coding:utf-8 -*-
-###
-# Created Date: Thursday, December 14th 2023, 2:01:36 pm
-# Author: Bin Wang
-# -----
-# Copyright (c) Bin Wang @ bwang28c@gmail.com
-#
-# -----
-# HISTORY:
-# Date&Time 			By	Comments
-# ----------			---	----------------------------------------------------------
-###
-
 import random
 import logging
 
@@ -67,10 +53,10 @@ class covost2_en_ta_test_dataset(object):
             instruction = random.choice(self.prompt)
 
             input_data.append({
-                                "audio"    : audio,
-                                "text"     : instruction,
-                                "answer"   : reference,
-                                "task_type": "ST-EN-TA"
+                                "audio"      : audio,
+                                "instruction": instruction,
+                                "reference"  : reference,
+                                "task_type"  : "ST-EN-TA"
                                 })
 
         logging.info('\n=  =  =  Dataset Sample  =  =  =')
@@ -99,10 +85,8 @@ class covost2_en_ta_test_dataset(object):
         predictions = []
         references  = []
         for item in data_with_model_predictions:
-            # model_prediction = preprocess_text_asr(item["model_prediction"])
-            # answer           = preprocess_text_asr(item["answer"])
             model_prediction = item["model_prediction"]
-            answer           = item["answer"]
+            answer           = item["reference"]
 
             if len(model_prediction) == 0: model_prediction = "empty"
             if len(answer) == 0: answer = "empty"
@@ -110,9 +94,6 @@ class covost2_en_ta_test_dataset(object):
             predictions.append(model_prediction)
             references.append(answer)
 
-
         sacrebleu = evaluate.load("sacrebleu")
-
         results = sacrebleu.compute(predictions=predictions, references=references, tokenize='13a')
-
         return {"bleu": results['score']}

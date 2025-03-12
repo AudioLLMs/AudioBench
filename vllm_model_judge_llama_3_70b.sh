@@ -14,7 +14,7 @@ export HF_HOME=/project/cache/huggingface_cache
 
 
 export CUDA_VISIBLE_DEVICES=0
-port=5000
+port=5001
 
 python -m vllm.entrypoints.openai.api_server \
         --model casperhansen/llama-3-70b-instruct-awq \

@@ -1,20 +1,5 @@
-#!/usr/bin/env python
-# -*- coding:utf-8 -*-
-###
-# Created Date: Thursday, December 14th 2023, 2:01:36 pm
-# Author: Bin Wang
-# -----
-# Copyright (c) Bin Wang @ bwang28c@gmail.com
-#
-# -----
-# HISTORY:
-# Date&Time 			By	Comments
-# ----------			---	----------------------------------------------------------
-###
-
 import random
 import logging
-
 
 gr_instructions = [
     "Can you tell the speaker's gender from the audio (Male or Female)?",
@@ -28,8 +13,6 @@ gr_instructions = [
     "Can you recognize the speaker's gender from the audio (Male or Female)?",
     "Can you guess the gender of the speaker based on the audio (Male or Female)?"
 ]
-
-
 
 class voxceleb_gender_test_dataset(object):
 
@@ -52,10 +35,10 @@ class voxceleb_gender_test_dataset(object):
             instruction = random.choice(self.prompt)
             reference   = sample['answer']
             input_data.append({
-                                "audio"    : audio,
-                                "text"     : instruction,
-                                "answer"   : reference,
-                                "task_type": "GR"
+                                "audio"      : audio,
+                                "instruction": instruction,
+                                "reference"  : reference,
+                                "task_type"  : "GR"
                                 })
 
         logging.info('\n=  =  =  Dataset Sample  =  =  =')
@@ -73,7 +56,7 @@ class voxceleb_gender_test_dataset(object):
             del new_sample["audio"]
 
             # special treatment for accent
-            new_sample['answer'] = new_sample['answer'].replace('From the audio, I guess the speaker is from ', '')
+            new_sample['reference'] = new_sample['reference'].replace('From the audio, I guess the speaker is from ', '')
             
             new_sample['model_prediction'] = model_predictions.pop(0)
             data_with_model_predictions.append(new_sample)
@@ -89,8 +72,8 @@ class voxceleb_gender_test_dataset(object):
 
         for item in data_with_model_predictions:
         
-            question         = item["text"]
-            answer           = item["answer"]
+            question         = item["instruction"]
+            answer           = item["reference"]
             model_prediction = item["model_prediction"]
 
             questions.append(question)

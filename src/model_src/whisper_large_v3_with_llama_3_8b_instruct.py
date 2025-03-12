@@ -83,22 +83,22 @@ def whisper_large_v3_with_llama_3_8b_instruct_model_generation(self, sample):
     else:
         whisper_output = self.whisper_pipe(sample['audio'], generate_kwargs={"language": "en"})['text'].strip()
 
-        question = sample['text']
+        instruction = sample['instruction']
 
         PROMPT_TEMPLATE = """\
             [Audio Transcriptions]
             {whisper_output}
 
             [Question]
-            {question}
+            {instruction}
 
             [System]
-            Please answer the question based on the audio transcription provided above. 
+            Please answer the instruction based on the audio transcription provided above. 
             Ensure that your response adheres to the following format:
             
             Answer: (Provide a precise and concise answer here.)
             """
-        batch_input = [PROMPT_TEMPLATE.format(whisper_output=whisper_output, question=question)]
+        batch_input = [PROMPT_TEMPLATE.format(whisper_output=whisper_output, instruction=instruction)]
 
         # If speech instruction task, then only use whisper_output
         if sample['task_type'] == "SI":

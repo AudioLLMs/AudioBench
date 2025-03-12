@@ -17,14 +17,14 @@ asr_instructions = [
 
 
 asr_cn_instructions = [
-    "Convert the audio speech into a text transcript in Chinese.",
-    "Transcribe the spoken words into written form in Chinese.",
-    "Listen to the audio and provide the Chinese text.",
-    "Transform the speech into a text document in Chinese.",
-    "Convert the speech to Chinese text.",
-    "Give me the written transcription in Chinese.",
-    "Recognize the verbal content in the speech and transcribe it into text as Chinese.",
-    "Turn the speech input into a text transcription in Chinese.",
-    "Process the audio speech and provide the text output in Chinese.",
-    "Transcribe the spoken conversation into written text in Chinese.",
+    "将音频语音转换为中文文本记录。",
+    "将口语内容转写为中文书面形式。",
+    "听取音频并提供中文文本。",
+    "将语音转换为中文文本文档。",
+    "将语音转换为中文文本。",
+    "给我中文的文字转录。",
+    "识别语音内容并将其转录为中文文本。",
+    "将语音输入转换为中文文本转录。",
+    "处理音频语音并提供中文文本输出。",
+    "将口语对话转写为中文书面文本。"
 ]

@@ -28,7 +28,6 @@ si_instructions = [
     "Please listen carefully and follow the instructions given in the audio."
 ]
 
-
 class openhermes_audio_test_dataset(object):
 
     def __init__(self, raw_data, number_of_samples):
@@ -52,9 +51,9 @@ class openhermes_audio_test_dataset(object):
             reference              = sample['answer']
             input_data.append({
                                 "audio"                 : audio,
-                                "text"                  : instruction,
+                                "instruction"           : instruction,
                                 "audio_text_instruction": audio_text_instruction,
-                                "answer"                : reference,
+                                "reference"             : reference,
                                 "task_type"             : "SI"
                                 })
 
@@ -85,7 +84,7 @@ class openhermes_audio_test_dataset(object):
         for item in data_with_model_predictions:
         
             question         = item["audio_text_instruction"]
-            answer           = item["answer"]
+            answer           = item["reference"]
             model_prediction = item["model_prediction"]
 
             questions.append(question)

@@ -1,17 +1,3 @@
-#!/usr/bin/env python
-# -*- coding:utf-8 -*-
-###
-# Created Date: Thursday, December 14th 2023, 2:01:36 pm
-# Author: Bin Wang
-# -----
-# Copyright (c) Bin Wang @ bwang28c@gmail.com
-#
-# -----
-# HISTORY:
-# Date&Time 			By	Comments
-# ----------			---	----------------------------------------------------------
-###
-
 import random
 import logging
 
@@ -27,7 +13,6 @@ er_instructions = [
     "What sentiment tone do you hear in the speaker's speech (neutral, positive, negative)?",
     "What sentiment is conveyed through the speaker's voice (neutral, positive, negative)?"
 ]
-
 
 class meld_sentiment_test_dataset(object):
 
@@ -50,10 +35,10 @@ class meld_sentiment_test_dataset(object):
             instruction = random.choice(self.prompt)
             reference   = sample['answer']
             input_data.append({
-                                "audio"    : audio,
-                                "text"     : instruction,
-                                "answer"   : reference,
-                                "task_type": "ER"
+                                "audio"      : audio,
+                                "instruction": instruction,
+                                "reference"  : reference,
+                                "task_type"  : "ER"
                                 })
 
         logging.info('\n=  =  =  Dataset Sample  =  =  =')
@@ -82,8 +67,8 @@ class meld_sentiment_test_dataset(object):
 
         for item in data_with_model_predictions:
         
-            question         = item["text"]
-            answer           = item["answer"]
+            question         = item["instruction"]
+            answer           = item["reference"]
             model_prediction = item["model_prediction"]
 
             questions.append(question)
@@ -94,11 +79,6 @@ class meld_sentiment_test_dataset(object):
             from dataset_src.eval_methods.eval_llama3_70b import llama3_70b_as_judge_binary
             llama3_70b_judge_results, all_details = llama3_70b_as_judge_binary("meta-llama/Meta-Llama-3-70B-Instruct", [questions, references, predictions])
             return {'llama3_70b_judge': llama3_70b_judge_results, 'details': all_details}
-
-        # elif metrics == 'llama3_70b_judge_binary':
-        #     from dataset_src.eval_methods.eval_llama3_70b import llama3_70b_as_judge_binary
-        #     llama3_70b_judge_binary_results, all_details = llama3_70b_as_judge_binary("meta-llama/Meta-Llama-3-70B-Instruct", [questions, references, predictions])
-        #     return {'llama3_70b_judge_binary': llama3_70b_judge_binary_results, 'details': all_details}        
 
         elif metrics == 'llama3_8b_judge':
             from dataset_src.eval_methods.eval_llama3_8b import llama3_8b_as_judge
