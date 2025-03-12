@@ -23,6 +23,7 @@
 
 
 ## 📝 Change log
+* *Mar 2025*: Support MMAU testset. Multiple-choice questions for speech, audio and music understanding!
 * *Mar 2025*: AudioBench now supports over 50 datasets!!
 * *Mar 2025*: Support SEAME testsets (dev). It is a code-switching dataset for Chinese and Singapore accented English.
 * *JAN 2025*: AudioBench paper is accepted to NAACL 2025 Main Conference.
@@ -93,11 +94,11 @@
 - [x] [imda_gr_dialogue](./examples/supported_datasets.md), Singlish, Gender Recognition, Metric: `llama3_70b_judge`
 - [x] [seame_dev_man](./examples/supported_datasets.md), English-Chinese Code-Switching, Metric: `wer`
 - [x] [seame_dev_sge](./examples/supported_datasets.md), English-Chinese Code-Switching, Metric: `wer`
-- [x] [MMAU-mini](./examples/supported_datasets.md), Audio Understandign and Reasoning, Multiple Choice Questions, Metric: `llama3_70b_judge`
+- [x] [mmau_mini](./examples/supported_datasets.md), Audio Understandign and Reasoning, Multiple Choice Questions, Metric: `llama3_70b_judge`, `string_match`
 - [ ] [ASCEND](./examples/supported_datasets.md), English-Chinese Code-Switching, Metric: `wer`
 
 
-How to evaluate with the supported datasets? That's as simple as it can be. Replace the DATASET and METRIC name.
+How to evaluate with the supported datasets? That's as simple as it can be. Replace the `DATASET` and `METRIC` name.
 ```
 DATASET=librispeech_test_clean
 METRIC=wer
@@ -123,7 +124,7 @@ Two simple steps:
 - [x] [gemini-1.5-flash](./examples/adding_new_model.md): key needed
 - [x] [gemini-2-flash](./examples/adding_new_model.md): key needed
 - [x] [gpt-4o-audio](./examples/adding_new_model.md): key needed
-- [ ] [phi-4-multimodal](./examples/adding_new_model.md): key needed
+- [ ] [phi-4-multimodal](./examples/adding_new_model.md)
 - [ ] [ultravox](./examples/adding_new_model.md) https://huggingface.co/fixie-ai/ultravox-v0_5-llama-3_1-8b / https://www.ultravox.ai/
 - [ ] [llama3_s](./examples/adding_new_model.md) 
 

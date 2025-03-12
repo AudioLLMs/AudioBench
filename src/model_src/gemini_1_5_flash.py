@@ -1,18 +1,3 @@
-#!/usr/bin/env python
-# -*- coding:utf-8 -*-
-###
-# Created Date: Friday, April 19th 2024, 11:17:41 am
-# Author: Bin Wang
-# -----
-# Copyright (c) Bin Wang @ bwang28c@gmail.com
-# 
-# -----
-# HISTORY:
-# Date&Time 			By	Comments
-# ----------			---	----------------------------------------------------------
-###
-
-
 import os
 import re
 
@@ -68,11 +53,8 @@ def do_sample_inference(self, audio_array, instruction, sampling_rate=16000):
             "data": pathlib.Path(audio_path.name).read_bytes()
         }
     ])
-
     response = response.text
-
     return response
-
 
 
 def gemini_1_5_flash_model_generation(self, input):
@@ -80,7 +62,7 @@ def gemini_1_5_flash_model_generation(self, input):
     audio_array    = input["audio"]["array"]
     sampling_rate  = input["audio"]["sampling_rate"]
     audio_duration = len(audio_array) / sampling_rate
-    instruction    = input["text"]
+    instruction    = input["instruction"]
 
     os.makedirs('tmp', exist_ok=True)
 

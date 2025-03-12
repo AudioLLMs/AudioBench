@@ -200,6 +200,8 @@ class Dataset(object):
         elif self.dataset_name == 'seame_dev_sge':
             self.raw_data = load_dataset("AudioLLMs/seame_dev_sge")['test']
 
+        elif self.dataset_name == 'mmau_mini':
+            self.raw_data = load_dataset("AudioLLMs/MMAU-mini")['test']
 
         # Private
         elif self.dataset_name == 'ytb_asr_batch1':
@@ -470,6 +472,10 @@ class Dataset(object):
         elif self.dataset_name == 'imda_gr_dialogue':
             from dataset_src.imda_gr_dialogue import imda_gr_dialogue_test_dataset
             self.dataset_processor = imda_gr_dialogue_test_dataset(self.raw_data, self.number_of_samples)
+
+        elif self.dataset_name == 'mmau_mini':
+            from dataset_src.mmau_mini import mmau_mini_test_dataset
+            self.dataset_processor = mmau_mini_test_dataset(self.raw_data, self.number_of_samples)
 
         # Private
         elif self.dataset_name == 'ytb_asr_batch1':

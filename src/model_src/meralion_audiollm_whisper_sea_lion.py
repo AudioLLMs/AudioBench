@@ -1,18 +1,3 @@
-#!/usr/bin/env python
-# -*- coding:utf-8 -*-
-###
-# Created Date: Friday, April 19th 2024, 11:17:41 am
-# Author: Bin Wang
-# -----
-# Copyright (c) Bin Wang @ bwang28c@gmail.com
-# 
-# -----
-# HISTORY:
-# Date&Time 			By	Comments
-# ----------			---	----------------------------------------------------------
-###
-
-
 import os
 import re
 
@@ -95,14 +80,13 @@ def do_sample_inference(self, audio_array, instruction):
     return response
 
 
-
 def meralion_audiollm_whisper_sea_lion_model_generation(self, input):
 
     audio_array    = input["audio"]["array"]
     sampling_rate  = input["audio"]["sampling_rate"]
     audio_duration = len(audio_array) / sampling_rate
 
-    instruction = input["text"]
+    instruction = input["instruction"]
 
     # For ASR task, if audio duration is more than 30 seconds, we will chunk and infer separately
     if audio_duration > 30 and input['task_type'] == 'ASR':

@@ -5,20 +5,18 @@ export NLTK_DATA="/project/cache/nltk_data"
 
 # =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
 
-MODEL_NAME=cascade_whisper_large_v3_llama_3_8b_instruct
+MODEL_NAME=Qwen2-Audio-7B-Instruct
 
 # =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
 GPU=1
 BATCH_SIZE=1
-OVERWRITE=True
-NUMBER_OF_SAMPLES=5
+OVERWRITE=False
+NUMBER_OF_SAMPLES=-1
 # =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
 
 
-
-
-DATASET=imda_ar_sentence
-METRICS=llama3_70b_judge
+DATASET=mmau_mini
+METRICS=string_match
 
 bash eval.sh $DATASET $MODEL_NAME $GPU $BATCH_SIZE $OVERWRITE $METRICS $NUMBER_OF_SAMPLES
 

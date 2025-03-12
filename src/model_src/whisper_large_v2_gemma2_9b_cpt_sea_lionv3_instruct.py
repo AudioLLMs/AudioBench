@@ -1,17 +1,3 @@
-#!/usr/bin/env python
-# -*- coding:utf-8 -*-
-###
-# Created Date: Friday, April 19th 2024, 11:17:41 am
-# Author: Bin Wang
-# -----
-# Copyright (c) Bin Wang @ bwang28c@gmail.com
-# 
-# -----
-# HISTORY:
-# Date&Time 			By	Comments
-# ----------			---	----------------------------------------------------------
-###
-
 # add parent directory to sys.path
 import sys
 sys.path.append('.')
@@ -96,7 +82,7 @@ def whisper_large_v2_gemma2_9b_cpt_sea_lionv3_instruct_model_generation(self, sa
             Answer: (Provide a precise and concise answer here.)
             """
         
-        batch_input = [PROMPT_TEMPLATE.format(whisper_output=whisper_output, question=instruction)]
+        batch_input = [PROMPT_TEMPLATE.format(whisper_output=whisper_output, instruction=instruction)]
 
         # If speech instruction task, then only use whisper_output
         if sample['task_type'] == "SI":

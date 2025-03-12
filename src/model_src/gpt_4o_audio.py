@@ -108,7 +108,7 @@ def gpt_4o_audio_model_generation(self, input):
     audio_array    = input["audio"]["array"]
     sampling_rate  = input["audio"]["sampling_rate"]
     audio_duration = len(audio_array) / sampling_rate
-    instruction    = input["text"]
+    instruction    = input["instruction"]
 
     os.makedirs('tmp', exist_ok=True)
 

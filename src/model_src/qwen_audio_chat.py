@@ -1,18 +1,3 @@
-#!/usr/bin/env python
-# -*- coding:utf-8 -*-
-###
-# Created Date: Friday, April 19th 2024, 11:17:41 am
-# Author: Bin Wang
-# -----
-# Copyright (c) Bin Wang @ bwang28c@gmail.com
-# 
-# -----
-# HISTORY:
-# Date&Time 			By	Comments
-# ----------			---	----------------------------------------------------------
-###
-
-
 import os
 import re
 
@@ -104,7 +89,7 @@ def qwen_audio_chat_model_generation(self, input):
 
             query = self.tokenizer.from_list_format([
                 {'audio': audio_path.name}, # Either a local path or an url
-                {'text': input["text"]},
+                {'text': input["instruction"]},
             ])
             response, history = self.model.chat(self.tokenizer, query=query, history=None)
 
@@ -123,7 +108,7 @@ def qwen_audio_chat_model_generation(self, input):
 
         query = self.tokenizer.from_list_format([
             {'audio': audio_path.name}, # Either a local path or an url
-            {'text': input["text"]},
+            {'text': input["instruction"]},
         ])
         response, history = self.model.chat(self.tokenizer, query=query, history=None)
 
@@ -142,7 +127,7 @@ def qwen_audio_chat_model_generation(self, input):
 
         query = self.tokenizer.from_list_format([
             {'audio': audio_path.name}, # Either a local path or an url
-            {'text': input["text"]},
+            {'text': input["instruction"]},
         ])
         response, history = self.model.chat(self.tokenizer, query=query, history=None)
         

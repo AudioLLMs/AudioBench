@@ -1,17 +1,3 @@
-#!/usr/bin/env python
-# -*- coding:utf-8 -*-
-###
-# Created Date: Friday, April 19th 2024, 11:17:41 am
-# Author: Bin Wang
-# -----
-# Copyright (c) Bin Wang @ bwang28c@gmail.com
-# 
-# -----
-# HISTORY:
-# Date&Time 			By	Comments
-# ----------			---	----------------------------------------------------------
-###
-
 import os
 
 # add parent directory to sys.path
@@ -79,7 +65,7 @@ def wavllm_fairseq_model_generation(self, all_input_data):
                 audio_chunks.append(audio_array[i:i + 100 * sampling_rate])
 
             for audio_chunk in audio_chunks:
-                instruction   = input_data["text"].replace('\n', ' ').strip() # Wavllm does not support newline characters for instructions
+                instruction   = input_data["instruction"].replace('\n', ' ').strip() # Wavllm does not support newline characters for instructions
                 answer        = "==== No reference Answer ===="
                 audio_path    = f"tmp/wavllm/{dataset_name}/audios/audio_{chunk_index}.wav"
 
@@ -100,7 +86,7 @@ def wavllm_fairseq_model_generation(self, all_input_data):
                 logger.info("Audio is longer than 100 seconds. Truncating to 100 seconds.")
                 audio_array = audio_array[:sampling_rate*100]
 
-            instruction   = input_data["text"].replace('\n', ' ').strip()
+            instruction   = input_data["instruction"].replace('\n', ' ').strip()
             answer        = "==== No reference Answer ===="
             audio_path    = f"tmp/wavllm/{dataset_name}/audios/audio_{chunk_index}.wav"
             os.makedirs(os.path.dirname(audio_path), exist_ok=True)

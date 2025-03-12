@@ -47,7 +47,7 @@ class Model(object):
             from model_src.whisper_large_v3_with_llama_3_8b_instruct import whisper_large_v3_with_llama_3_8b_instruct_model_loader
             whisper_large_v3_with_llama_3_8b_instruct_model_loader(self)
 
-        elif self.model_name == "whisper_large_v2_gemma2_9b_cpt_sea_lionv3_instruct":
+        elif self.model_name == "cascade_whisper_large_v2_gemma2_9b_cpt_sea_lionv3_instruct":
             from model_src.whisper_large_v2_gemma2_9b_cpt_sea_lionv3_instruct import whisper_large_v2_gemma2_9b_cpt_sea_lionv3_instruct_model_loader
             whisper_large_v2_gemma2_9b_cpt_sea_lionv3_instruct_model_loader(self)
         
@@ -102,7 +102,7 @@ class Model(object):
                 from model_src.whisper_large_v3_with_llama_3_8b_instruct import whisper_large_v3_with_llama_3_8b_instruct_model_generation
                 return whisper_large_v3_with_llama_3_8b_instruct_model_generation(self, input)
             
-            elif self.model_name == "whisper_large_v2_gemma2_9b_cpt_sea_lionv3_instruct":
+            elif self.model_name == "cascade_whisper_large_v2_gemma2_9b_cpt_sea_lionv3_instruct":
                 from model_src.whisper_large_v2_gemma2_9b_cpt_sea_lionv3_instruct import whisper_large_v2_gemma2_9b_cpt_sea_lionv3_instruct_model_generation
                 return whisper_large_v2_gemma2_9b_cpt_sea_lionv3_instruct_model_generation(self, input)
             

@@ -1,18 +1,3 @@
-#!/usr/bin/env python
-# -*- coding:utf-8 -*-
-###
-# Created Date: Friday, April 19th 2024, 11:17:41 am
-# Author: Bin Wang
-# -----
-# Copyright (c) Bin Wang @ bwang28c@gmail.com
-# 
-# -----
-# HISTORY:
-# Date&Time 			By	Comments
-# ----------			---	----------------------------------------------------------
-###
-
-
 import os
 import re
 
@@ -101,7 +86,7 @@ def qwen2_audio_7b_instruct_model_generation(self, input):
                 {'role': 'system', 'content': 'You are a helpful assistant.'}, 
                 {"role": "user", "content": [
                     {"type": "audio", "audio_url": audio_path.name},
-                    {"type": "text", "text": input["text"]},
+                    {"type": "text", "text": input["instruction"]},
                 ]},
             ]
 
@@ -143,7 +128,7 @@ def qwen2_audio_7b_instruct_model_generation(self, input):
             {'role': 'system', 'content': 'You are a helpful assistant.'}, 
             {"role": "user", "content": [
                 {"type": "audio", "audio_url": audio_path.name},
-                {"type": "text", "text": input["text"]},
+                {"type": "text", "text": input["instruction"]},
             ]},
         ]
 
@@ -185,7 +170,7 @@ def qwen2_audio_7b_instruct_model_generation(self, input):
             {'role': 'system', 'content': 'You are a helpful assistant.'}, 
             {"role": "user", "content": [
                 {"type": "audio", "audio_url": audio_path.name},
-                {"type": "text", "text": input["text"]},
+                {"type": "text", "text": input["instruction"]},
             ]},
         ]
 

@@ -52,7 +52,7 @@ logging.basicConfig(
 def gemini_2_flash_model_loader(self):
 
     # Initialize a Gemini model appropriate for your use case.
-    self.model = genai.GenerativeModel('models/gemini-2-flash')
+    self.model = genai.GenerativeModel('models/gemini-2.0-flash-exp')
     logger.info("Model loaded")
 
 
@@ -70,7 +70,6 @@ def do_sample_inference(self, audio_array, instruction, sampling_rate=16000):
     ])
 
     response = response.text
-
     return response
 
 
@@ -80,7 +79,7 @@ def gemini_2_flash_model_generation(self, input):
     audio_array    = input["audio"]["array"]
     sampling_rate  = input["audio"]["sampling_rate"]
     audio_duration = len(audio_array) / sampling_rate
-    instruction    = input["text"]
+    instruction    = input["instruction"]
 
     os.makedirs('tmp', exist_ok=True)
 

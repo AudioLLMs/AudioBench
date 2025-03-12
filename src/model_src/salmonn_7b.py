@@ -1,17 +1,3 @@
-#!/usr/bin/env python
-# -*- coding:utf-8 -*-
-###
-# Created Date: Friday, April 19th 2024, 11:17:41 am
-# Author: Bin Wang
-# -----
-# Copyright (c) Bin Wang @ bwang28c@gmail.com
-# 
-# -----
-# HISTORY:
-# Date&Time 			By	Comments
-# ----------			---	----------------------------------------------------------
-###
-
 # add parent directory to sys.path
 import sys
 sys.path.append('.')
@@ -61,7 +47,6 @@ def salmonn_7b_model_generation(self, input):
     sampling_rate  = input["audio"]["sampling_rate"]
     audio_duration = len(audio_array) / sampling_rate
 
-
     # For ASR task, if audio duration is more than 30 seconds, we will chunk and infer separately
     if audio_duration > 30 and input['task_type'] == 'ASR':
         logger.info('Audio duration is more than 30 seconds. For ASR task, we will chunk and infer separately.')
@@ -76,7 +61,7 @@ def salmonn_7b_model_generation(self, input):
             if len(chunk) < sampling_rate:
                 chunk = np.pad(chunk, (0, sampling_rate - len(chunk)), 'constant', constant_values=(0, 0))
 
-            outputs = self.model.generate(audio_array=chunk, sampling_rate=sampling_rate, prompt=input["text"], device=self.device)[0]
+            outputs = self.model.generate(audio_array=chunk, sampling_rate=sampling_rate, prompt=input["instruction"], device=self.device)[0]
             model_predictions.append(outputs)
         
         output = ' '.join(model_predictions)
@@ -85,16 +70,16 @@ def salmonn_7b_model_generation(self, input):
     elif audio_duration > 30:
         logger.info('Audio duration is more than 30 seconds. Taking first 30 seconds.')
         audio_array = audio_array[:30 * sampling_rate]
-        output = self.model.generate(audio_array=audio_array, sampling_rate=sampling_rate, prompt=input["text"], device=self.device)[0]
+        output = self.model.generate(audio_array=audio_array, sampling_rate=sampling_rate, prompt=input["instruction"], device=self.device)[0]
 
     # If audio duration is less than 1 second, we will pad the audio to 1 second
     elif audio_duration < 1:
         logger.info('Audio duration is less than 1 second. Padding to 1 second.')
         audio_array = np.pad(audio_array, (0, sampling_rate - len(audio_array)), 'constant', constant_values=(0, 0))
-        output = self.model.generate(audio_array=audio_array, sampling_rate=sampling_rate, prompt=input["text"], device=self.device)[0]
+        output = self.model.generate(audio_array=audio_array, sampling_rate=sampling_rate, prompt=input["instruction"], device=self.device)[0]
 
     else:
-        output = self.model.generate(audio_array=audio_array, sampling_rate=sampling_rate, prompt=input["text"], device=self.device)[0]
+        output = self.model.generate(audio_array=audio_array, sampling_rate=sampling_rate, prompt=input["instruction"], device=self.device)[0]
 
     return output
 
