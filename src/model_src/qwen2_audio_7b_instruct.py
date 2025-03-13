@@ -90,7 +90,6 @@ def qwen2_audio_7b_instruct_model_generation(self, input):
                 ]},
             ]
 
-
             text = self.processor.apply_chat_template(conversation, add_generation_prompt=True, tokenize=False)
             audios = []
             for message in conversation:
@@ -120,7 +119,6 @@ def qwen2_audio_7b_instruct_model_generation(self, input):
 
     elif audio_duration > 30:
         logger.info('Audio duration is more than 30 seconds. Taking first 30 seconds.')
-        #audio_path = f"tmp/audio_{self.dataset_name}.wav"
         audio_path = tempfile.NamedTemporaryFile(suffix=".wav", prefix="audio_", delete=False)
         sf.write(audio_path.name, audio_array[:30 * sampling_rate], sampling_rate)
 

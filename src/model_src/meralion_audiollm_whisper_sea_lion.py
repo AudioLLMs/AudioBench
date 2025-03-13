@@ -84,9 +84,8 @@ def meralion_audiollm_whisper_sea_lion_model_generation(self, input):
 
     audio_array    = input["audio"]["array"]
     sampling_rate  = input["audio"]["sampling_rate"]
+    instruction    = input["instruction"]
     audio_duration = len(audio_array) / sampling_rate
-
-    instruction = input["instruction"]
 
     # For ASR task, if audio duration is more than 30 seconds, we will chunk and infer separately
     if audio_duration > 30 and input['task_type'] == 'ASR':

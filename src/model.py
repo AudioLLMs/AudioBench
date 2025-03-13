@@ -1,17 +1,3 @@
-#!/usr/bin/env python
-# -*- coding:utf-8 -*-
-###
-# Created Date: Friday, November 10th 2023, 12:25:19 pm
-# Author: Bin Wang
-# -----
-# Copyright (c) Bin Wang @ bwang28c@gmail.com
-#
-# -----
-# HISTORY:
-# Date&Time 			By	Comments
-# ----------			---	----------------------------------------------------------
-###
-
 # add parent directory to sys.path
 import sys
 sys.path.append('.')
@@ -91,6 +77,11 @@ class Model(object):
             from model_src.gpt_4o_audio import gpt_4o_audio_model_loader
             gpt_4o_audio_model_loader(self)
 
+        elif self.model_name == 'phi_4_multimodal_instruct':
+            from model_src.phi_4_multimodal_instruct import phi_4_multimodal_instruct_model_loader
+            phi_4_multimodal_instruct_model_loader(self)
+
+
         else:
             raise NotImplementedError("Model {} not implemented yet".format(self.model_name))
 
@@ -145,6 +136,10 @@ class Model(object):
             elif self.model_name == "gpt-4o-audio":
                 from model_src.gpt_4o_audio import gpt_4o_audio_model_generation
                 return gpt_4o_audio_model_generation(self, input)
+
+            elif self.model_name == 'phi_4_multimodal_instruct':
+                from model_src.phi_4_multimodal_instruct import phi_4_multimodal_instruct_model_generation
+                return phi_4_multimodal_instruct_model_generation(self, input)
 
             else:
                 raise NotImplementedError("Model {} not implemented yet".format(self.model_name))

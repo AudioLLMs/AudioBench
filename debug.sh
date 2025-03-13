@@ -5,18 +5,18 @@ export NLTK_DATA="/project/cache/nltk_data"
 
 # =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
 
-MODEL_NAME=Qwen2-Audio-7B-Instruct
+MODEL_NAME=phi_4_multimodal_instruct
 
 # =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
 GPU=1
 BATCH_SIZE=1
-OVERWRITE=False
-NUMBER_OF_SAMPLES=-1
+OVERWRITE=True
+NUMBER_OF_SAMPLES=20
 # =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
 
 
 DATASET=mmau_mini
-METRICS=string_match
+METRICS=llama3_70b_judge
 
 bash eval.sh $DATASET $MODEL_NAME $GPU $BATCH_SIZE $OVERWRITE $METRICS $NUMBER_OF_SAMPLES
 

@@ -21,6 +21,9 @@
   </a>
 </p>
 
+🏠 [AudioBench Leaderboard](https://huggingface.co/spaces/AudioLLMs/AudioBench-Leaderboard) | 🤗 [Huggingface Datasets](https://huggingface.co/AudioLLMs)
+
+
 
 ## 📝 Change log
 * *Mar 2025*: Support [MMAU](https://sakshi113.github.io/mmau_homepage/) testset. Multiple-choice questions for speech, audio and music understanding!
@@ -96,7 +99,7 @@
 - [x] [seame_dev_sge](./examples/supported_datasets.md), English-Chinese Code-Switching, Metric: `wer`
 - [x] [mmau_mini](./examples/supported_datasets.md), Audio Understandign and Reasoning, Multiple Choice Questions, Metric: `llama3_70b_judge`, `string_match`
 - [ ] [ASCEND](./examples/supported_datasets.md), English-Chinese Code-Switching, Metric: `wer`
-
+- [ ] [fleurs] speech translation
 
 How to evaluate with the supported datasets? That's as simple as it can be. Replace the `DATASET` and `METRIC` name.
 ```
@@ -124,10 +127,9 @@ Two simple steps:
 - [x] [gemini-1.5-flash](./examples/adding_new_model.md): key needed
 - [x] [gemini-2-flash](./examples/adding_new_model.md): key needed
 - [x] [gpt-4o-audio](./examples/adding_new_model.md): key needed
-- [ ] [phi-4-multimodal](./examples/adding_new_model.md)
+- [x] [phi_4_multimodal_instruct](./examples/adding_new_model.md)
 - [ ] [ultravox](./examples/adding_new_model.md) https://huggingface.co/fixie-ai/ultravox-v0_5-llama-3_1-8b / https://www.ultravox.ai/
 - [ ] [llama3_s](./examples/adding_new_model.md) 
-
 
 
 ### How to evaluation your own models?
@@ -181,6 +183,11 @@ If you find our work useful, please consider citing our paper!
   year={2025}
 }
 ```
+
+## To submit your model to leaderboard
+
+Email: `bwang28c@gmail.com`
+
 
 #### Researchers, companies or groups that are using AudioBench:
 - [Llama3-S: When Llama Learns to Listen](https://homebrew.ltd/blog/llama3-just-got-ears)
