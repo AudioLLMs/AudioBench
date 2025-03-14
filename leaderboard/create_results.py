@@ -34,18 +34,22 @@ def create_df(dataset_names, category, metrics):
 
     if not os.path.exists(f'./results_organized/{metrics}'):
         os.makedirs(f'./results_organized/{metrics}')
-    df.to_csv(f"./results_organized/{metrics}/{category}.csv", index = False)
+    # df.to_csv(f"./results_organized/{metrics}/{category}.csv", index = False)
+
+    breakpoint()
+
+    df.to_json(f"./results_organized/{metrics}/{category}.json")
     
     print(f'{category} Saved.')
 
 
 
-
 if __name__ == "__main__":
-    root = "../log2/*"
+    root = "../log_for_all_models/*"
     child_folders = glob.glob(root)
     
-    ASR_datasets = ['librispeech_test_clean', 
+    ASR_datasets = [
+                    'librispeech_test_clean', 
                     'librispeech_test_other', 
                     'common_voice_15_en_test', 
                     'peoples_speech_test', 
@@ -58,7 +62,8 @@ if __name__ == "__main__":
     create_df(ASR_datasets, 'asr_english', 'wer')
 
 
-    SQA_datasets = ['slue_p2_sqa5_test',
+    SQA_datasets = [
+                      'slue_p2_sqa5_test',
                       'public_sg_speech_qa_test', 
                       'spoken_squad_test',
                       'cn_college_listen_mcq_test', 
@@ -68,8 +73,9 @@ if __name__ == "__main__":
 
 
     # =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
-    SI_datasets = ['openhermes_audio_test', 
-                   'alpaca_audio_test',
+    SI_datasets = [
+                    'openhermes_audio_test', 
+                    'alpaca_audio_test',
                    ]
     create_df(SI_datasets, 'speech_instruction', 'llama3_70b_judge')
 
@@ -77,8 +83,9 @@ if __name__ == "__main__":
 
 
     # =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
-    AC_datasets = ['audiocaps_test', 
-                   'wavcaps_test',
+    AC_datasets = [
+                    'audiocaps_test', 
+                    'wavcaps_test',
                    ]
     create_df(AC_datasets, 'audio_captioning', 'llama3_70b_judge')
     create_df(AC_datasets, 'audio_captioning', 'meteor')
@@ -89,7 +96,8 @@ if __name__ == "__main__":
 
     # =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
     # =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
-    ASQA_datasets = ['clotho_aqa_test', 
+    ASQA_datasets = [
+                     'clotho_aqa_test', 
                      'audiocaps_qa_test', 
                      'wavcaps_qa_test',
                      ]
@@ -100,9 +108,10 @@ if __name__ == "__main__":
 
     # =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
     # =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
-    AR_datasets = ['voxceleb_accent_test',
-                   'imda_ar_sentence',
-                   'imda_ar_dialogue',
+    AR_datasets = [
+                    'voxceleb_accent_test',
+                    'imda_ar_sentence',
+                    'imda_ar_dialogue',
                    ]
     create_df(AR_datasets, 'accent_recognition', 'llama3_70b_judge')
 
@@ -161,8 +170,6 @@ if __name__ == "__main__":
     create_df(singlish_asr_datasets, 'asr_singlish', 'wer')
 
 
-
-
     # =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
     # =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
     singlish_sqa_datasets = ['imda_part3_30s_sqa_human_test', 
@@ -189,8 +196,6 @@ if __name__ == "__main__":
                              ]
     create_df(singlish_sds_datasets, 'sds_singlish', 'llama3_70b_judge')
 
-    
-
 
 
     # =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
@@ -207,8 +212,6 @@ if __name__ == "__main__":
                                 'mediacorp_short_test',
                                 'ytb_asr_batch1',
                                 'ytb_asr_batch2',
-                                #'seame_dev_man',
-                                #'seame_dev_sge',
                              ]
     create_df(under_development_wer_datasets, 'under_development_wer', 'wer')
 
@@ -221,7 +224,8 @@ if __name__ == "__main__":
     create_df(under_development_llama3_70b_judge_datasets, 'under_development_llama3_70b_judge', 'llama3_70b_judge')
 
 
-
+    # =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =    
+    create_df(['mmau_mini'], 'mmau_mini', 'llama3_70b_judge')
 
 
 

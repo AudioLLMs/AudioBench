@@ -3,8 +3,8 @@
 export HF_ENDPOINT=https://hf-mirror.com
 
 
-rm -r results_organized
-python create_results.py
+# rm -r results_organized
+python organize_model_results.py
 
 # This will create examples for display. Can be heavy, so skip for now.
 # python create_examples.py

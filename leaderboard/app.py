@@ -15,23 +15,23 @@ st.set_page_config(
 
 # Dictionary mapping menu items to their corresponding functions
 pages = {
-    'Dashboard'          : dashboard,
-    'ASR-English'        : asr_english,
-    'ASR-Mandarin'       : asr_mandarin,
-    'ASR-Singlish'       : asr_singlish,
-    'Speech Translation' : speech_translation,
-    'SQA-English'        : speech_question_answering_english,
-    'SQA-Singlish'       : speech_question_answering_singlish,
-    'SDS-Singlish'       : spoken_dialogue_summarization_singlish,
-    'Speech Instruction' : speech_instruction,
-    'Audio Captioning'   : audio_captioning,
-    'Audio-Scene QA'     : audio_scene_question_answering,
-    'Accent Recognition' : accent_recognition,
-    'Gender Recognition' : gender_recognition,
-    'Emotion Recognition': emotion_recognition,
-    'Music Understanding': music_understanding,
-
-    '* Under Development *': under_development,
+    'Dashboard'               : dashboard,
+    'ASR-English'             : asr_english,
+    'ASR-Mandarin'            : asr_mandarin,
+    'ASR-Singlish'            : asr_singlish,
+    'Speech Translation'      : speech_translation,
+    'SQA-English'             : speech_question_answering_english,
+    'SQA-Singlish'            : speech_question_answering_singlish,
+    'SDS-Singlish'            : spoken_dialogue_summarization_singlish,
+    'Speech Instruction'      : speech_instruction,
+    'Audio Captioning'        : audio_captioning,
+    'Audio-Scene QA'          : audio_scene_question_answering,
+    'Accent Recognition'      : accent_recognition,
+    'Gender Recognition'      : gender_recognition,
+    'Emotion Recognition'     : emotion_recognition,
+    'Music Understanding'     : music_understanding,
+    'MMAU-Audio Understanding': mmau_evaluation,
+    '* Under Development *'   : under_development,
 }
 
 # Initialize session state for menu selection

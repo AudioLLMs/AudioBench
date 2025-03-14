@@ -13,10 +13,11 @@ login(token=hf_token)
 repo_id = "AudioLLMs/AudioBench-Leaderboard"
 
 api = HfApi()
-api.upload_folder(repo_id=repo_id, 
-                  repo_type="space", 
-                  folder_path="./results_organized",
-                  path_in_repo="results_organized/")
+
+# api.upload_folder(repo_id=repo_id, 
+#                   repo_type="space", 
+#                   folder_path="./results_organized",
+#                   path_in_repo="results_organized/")
 
 # api.delete_folder(repo_id=repo_id, 
 #                   repo_type="space", 
