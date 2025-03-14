@@ -145,15 +145,12 @@ dataset_diaplay_information = {
     'YTB-SQA-Batch1': 'Under Development',
     'YTB-SDS-Batch1': 'Under Development',
     'YTB-PQA-Batch1': 'Under Development',
-    
-                }
-
+    }
 
 
 
 metrics_info = {
     'wer'                    : 'Word Error Rate (WER) - The Lower, the better.',
-    'llama3_70b_judge_binary': 'Model-as-a-Judge Peformance. Using LLAMA-3-70B. Scale from 0-100. The higher, the better.',
     'llama3_70b_judge'       : 'Model-as-a-Judge Peformance. Using LLAMA-3-70B. Scale from 0-100. The higher, the better.',
     'meteor'                 : 'METEOR Score. The higher, the better.',
     'bleu'                   : 'BLEU Score. The higher, the better.',

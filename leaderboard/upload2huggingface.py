@@ -40,6 +40,11 @@ api.upload_file(repo_id=repo_id,
 
 api.upload_file(repo_id=repo_id, 
                   repo_type="space", 
+                  path_or_fileobj="organize_model_results.json",
+                  path_in_repo = 'organize_model_results.json')
+
+api.upload_file(repo_id=repo_id, 
+                  repo_type="space", 
                   path_or_fileobj="./app.py",
                   path_in_repo = 'app.py')
 

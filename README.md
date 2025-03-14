@@ -202,6 +202,7 @@ Email: `bwang28c@gmail.com`
   - [ ] Evaluation with audio/speech generation
   - [ ] Evaluation with multiround chatbot
   - [ ] Also support other model-as-judge and report the results
+  - [ ] Update AI-SHELL from WER to CER
 - [x] Bugs
   - [x] Threads of model-as-judge
   - [x] Post-processing script for IMDA PART4 which contains code-switching in 4 languages.
