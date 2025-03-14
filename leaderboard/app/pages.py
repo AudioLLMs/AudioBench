@@ -55,7 +55,7 @@ def dashboard():
                 - AudioBench is a comprehensive evaluation benchmark designed for general instruction-following audio large language models.
                 - AudioBench is an evaluation benchmark that we continually improve and maintain.
                 
-                Below are the initial 26 datasets that are included in AudioBench. We are now exteneded to over 40 datasets and going to extend to more in the future.
+                Below are the initial 26 datasets that are included in AudioBench. We are now exteneded to over 50 datasets and going to extend to more in the future.
                 """
                 )
 
@@ -65,9 +65,9 @@ def dashboard():
         
         st.markdown("###### :dart: Our Benchmark includes: ")
         cols = st.columns(8)
-        cols[0].metric(label="Tasks", value=">8")
-        cols[1].metric(label="Datasets", value=">40")
-        cols[2].metric(label="Evaluated Models", value=">5")
+        cols[0].metric(label="Tasks", value=">10")
+        cols[1].metric(label="Datasets", value=">50")
+        cols[2].metric(label="Evaluated Models", value=">10")
     
     st.divider()
     with st.container():
