@@ -100,6 +100,7 @@
 - [x] [mmau_mini](./examples/supported_datasets.md), Audio Understandign and Reasoning, Multiple Choice Questions, Metric: `llama3_70b_judge`, `string_match`
 - [ ] [ASCEND](./examples/supported_datasets.md), English-Chinese Code-Switching, Metric: `wer`
 - [ ] [fleurs] speech translation
+- [ ] [AIR-Bench] airbench tasks
 
 How to evaluate with the supported datasets? That's as simple as it can be. Replace the `DATASET` and `METRIC` name.
 ```
