@@ -165,8 +165,10 @@ cython_debug/
 
 data/
 log/
-log2/*/*.json
-!log2/*/*_score.json
+
+log_for_all_models/*/*.json
+!log_for_all_models/*/*_score.json
+
 examples/SALMONN_7B/
 examples/wavllm_fairseq/
 examples/hy_whisper_local_cs/
