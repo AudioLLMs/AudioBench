@@ -47,14 +47,45 @@ for model_name in model_names:
         with open(os.path.join(results_folder, model_name, filename), 'r') as f:
             result = json.load(f)
 
+        # create data
         if dataset_name not in all_model_results: all_model_results[dataset_name] = {}
         if metric_name not in all_model_results[dataset_name]: all_model_results[dataset_name][metric_name] = {}
         if model_name not in all_model_results[dataset_name][metric_name]: all_model_results[dataset_name][metric_name][model_name] = {}
-        
         if metric_name == 'llama3_70b_judge' or metric_name == 'gpt4o_judge':
             all_model_results[dataset_name][metric_name][model_name] = result[metric_name]['judge_score']
         else: 
             all_model_results[dataset_name][metric_name][model_name] = result[metric_name]
+
+
+        if dataset_name == 'mmau_mini':
+            dataset_name = 'mmau_mini_music'
+            if dataset_name not in all_model_results: all_model_results[dataset_name] = {}
+            if metric_name not in all_model_results[dataset_name]: all_model_results[dataset_name][metric_name] = {}
+            if model_name not in all_model_results[dataset_name][metric_name]: all_model_results[dataset_name][metric_name][model_name] = {}
+            if metric_name == 'llama3_70b_judge' or metric_name == 'gpt4o_judge':
+                all_model_results[dataset_name][metric_name][model_name] = result['task_scores']['music']
+            else: 
+                all_model_results[dataset_name][metric_name][model_name] = result['task_scores']['music']
+
+            dataset_name = 'mmau_mini_sound'
+            if dataset_name not in all_model_results: all_model_results[dataset_name] = {}
+            if metric_name not in all_model_results[dataset_name]: all_model_results[dataset_name][metric_name] = {}
+            if model_name not in all_model_results[dataset_name][metric_name]: all_model_results[dataset_name][metric_name][model_name] = {}
+            if metric_name == 'llama3_70b_judge' or metric_name == 'gpt4o_judge':
+                all_model_results[dataset_name][metric_name][model_name] = result['task_scores']['sound']
+            else: 
+                all_model_results[dataset_name][metric_name][model_name] = result['task_scores']['sound']
+            
+            dataset_name = 'mmau_mini_speech'
+            if dataset_name not in all_model_results: all_model_results[dataset_name] = {}
+            if metric_name not in all_model_results[dataset_name]: all_model_results[dataset_name][metric_name] = {}
+            if model_name not in all_model_results[dataset_name][metric_name]: all_model_results[dataset_name][metric_name][model_name] = {}
+            if metric_name == 'llama3_70b_judge' or metric_name == 'gpt4o_judge':
+                all_model_results[dataset_name][metric_name][model_name] = result['task_scores']['speech']
+            else: 
+                all_model_results[dataset_name][metric_name][model_name] = result['task_scores']['speech']
+
+        
 
 with open('organize_model_results.json', 'w') as f:
     json.dump(all_model_results, f, indent=4)

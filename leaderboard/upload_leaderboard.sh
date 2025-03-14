@@ -10,6 +10,6 @@ python organize_model_results.py
 # python create_examples.py
 
 # For test how the website looks like
-# streamlit run app.
+streamlit run app.py
 
-python upload2huggingface.py
+# python upload2huggingface.py

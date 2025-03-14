@@ -53,6 +53,10 @@ displayname2datasetname = {
     'MNSC-PART6-SDS'       : 'imda_part6_30s_ds_human_test',
     'SEAME-Dev-Man'        : 'seame_dev_man',
     'SEAME-Dev-Sge'        : 'seame_dev_sge',
+    'MMAU-mini'            : 'mmau_mini',
+    'MMAU-mini-music'      : 'mmau_mini_music',
+    'MMAU-mini-sound'      : 'mmau_mini_sound',
+    'MMAU-mini-speech'     : 'mmau_mini_speech',
 
     'CNA'             : 'cna_test',
     'IDPC'            : 'idpc_test',
@@ -129,6 +133,11 @@ dataset_diaplay_information = {
     'MNSC-PART6-SDS'       : 'Multitak National Speech Corpus (MNSC) dataset, dialogue summarization task, Part 6.',
     'SEAME-Dev-Man'        : 'SEAME dataset, English-Mandarin Code-swithcing',
     'SEAME-Dev-Sge'        : 'SEAME dataset, English-Mandarin Code-swithcing',
+
+    'MMAU-mini'            : 'MMAU Dataset, Mini version, MMAU: A Massive Multi-Task Audio Understanding and Reasoning Benchmark',
+    'MMAU-mini-music'      : 'MMAU Dataset, Mini version, MMAU: A Massive Multi-Task Audio Understanding and Reasoning Benchmark',
+    'MMAU-mini-sound'      : 'MMAU Dataset, Mini version, MMAU: A Massive Multi-Task Audio Understanding and Reasoning Benchmark',
+    'MMAU-mini-speech'     : 'MMAU Dataset, Mini version, MMAU: A Massive Multi-Task Audio Understanding and Reasoning Benchmark',
 
     'CNA'             : 'Under Development',
     'IDPC'            : 'Under Development',

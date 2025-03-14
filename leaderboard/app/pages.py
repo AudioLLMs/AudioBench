@@ -575,4 +575,22 @@ def under_development():
 def mmau_evaluation():
     st.title("Task: MMAU-Audio Understanding")
 
+    dataset_list = [
+        'MMAU-mini',
+        'MMAU-mini-music',
+        'MMAU-mini-sound',
+        'MMAU-mini-speech',
+        ]
+    filters_1_list = dataset_list
+    
+    space1, space2, _, _ = st.columns([0.4, 0.4, 0.2 ,0.2])
+    
+    with space1: 
+        tab_section = st.selectbox('Dataset', filters_1_list)
+    with space2:
+        metric = st.selectbox('Metric', ['LLAMA3_70B_JUDGE'])
+        metric = metric.lower()
 
+    if tab_section:
+        dataset_contents(dataset_diaplay_information[tab_section], metrics_info[metric])
+        draw_table(tab_section, metric)
