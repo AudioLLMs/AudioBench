@@ -1,0 +1,168 @@
+{
+    "llama3_70b_judge_binary": {
+        "judge_score": 10.333333333333334,
+        "success_rate": 0.999
+    },
+    "details": [
+        {
+            "question": "How do the accents of the two speakers differ?",
+            "reference": "The first speaker has a Chinese accent, likely from the Chinese-Speaking community of Singapore, while the second speaker speaks good English with a Singapore accent.",
+            "model_prediction": "The speaker's accent is likely Taiwanese or Mandarin Chinese, whereas the question is not specified, making it unclear what the accent of the interviewer is.",
+            "judge_response": "Explanation: The reference answer is specific about the accents of the two speakers, stating that the first speaker has a Chinese accent likely from the Chinese-Speaking community of Singapore, and the second speaker speaks good English with a Singapore accent. In contrast, the model's answer is vague and uncertain, suggesting that the first speaker's accent is \"likely Taiwanese or Mandarin Chinese\" without providing any information about the second speaker's accent. The model's answer lacks the specificity and clarity of the reference answer.\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "How would you describe the accents of the two speakers?",
+            "reference": "The first speaker speaks good English with a Singapore accent, while the second speaker has a Malay accent, likely from the Malay-Speaking community of Singapore.",
+            "model_prediction": "The speaker's accents appear to be distinct. The first speaker has a non-native English accent, likely from a European country, possibly Eastern European, as the pronunciation and intonation suggest a non-native speaker. The second speaker's accent is not clearly audible, but it appears to be a standard American English accent.",
+            "judge_response": "Explanation: The reference answer is specific about the accents, stating that the first speaker has a Singapore accent and the second speaker has a Malay accent, likely from the Malay-Speaking community of Singapore. In contrast, the model's answer is incorrect, suggesting that the first speaker has a European accent and the second speaker has an American English accent, which is unrelated to the Singaporean context mentioned in the reference. I think the model's answer lacks accuracy and relevance to the reference.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What can you tell about the accents of the speakers in the audio clip?",
+            "reference": "Both speakers speak good English with a Singapore accent.",
+            "model_prediction": "The accents of the speakers in the audio clip appear to be non-regional or neutral, as there is no distinct regional or cultural inflection in their speech.",
+            "judge_response": "Explanation: The reference answer is specific about the accent, stating it is a Singapore accent, while the model's answer is vague, describing it as \"non-regional or neutral\". The model's response does not match the reference answer in terms of content, accuracy, and relevance. It does not provide any information about the accent being a Singapore accent, which is the key point in the reference answer.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What can you tell about the accent of both speakers?",
+            "reference": "Both speakers speak good English with a Singaporean accent.",
+            "model_prediction": "The accent of both speakers appears to be British, likely from the UK, as they use words like \"condolences\" and \"suppose\" which are commonly used in British English.",
+            "judge_response": "Explanation: The reference answer clearly states that both speakers have a Singaporean accent, while the model's answer incorrectly identifies the accent as British, likely from the UK. The model's answer focuses on the vocabulary used, but misinterprets the accent.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "How would you describe the accents of the two speakers?",
+            "reference": "The first speaker likely has a Chinese accent from the Chinese-Speaking community of Singapore, while the second speaker speaks good English with a Singapore accent.",
+            "model_prediction": "The accents of the two speakers are not specified in the audio transcription provided, as there is only one speaker.",
+            "judge_response": "Explanation: The reference answer describes the accents of two speakers, while the model's answer states that there is only one speaker and therefore, cannot describe their accents. The model's response is incorrect and irrelevant to the reference.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "How would you describe the accents of the two speakers?",
+            "reference": "The first speaker speaks good English with a Singapore accent, while the second speaker has a Chinese accent, likely from the Chinese-Speaking community of Singapore.",
+            "model_prediction": "The accents of the two speakers appear to be different. The first speaker has a distinct Southeast Asian accent, likely from Singapore, given the mention of Sentosa, a popular beach in Singapore. The second speaker's accent is not explicitly identified, but it seems to be a neutral or non-regional accent, possibly from a Western country.",
+            "judge_response": "Explanation: The reference answer specifically mentions that the first speaker has a Singaporean accent and the second speaker has a Chinese accent, likely from the Chinese-Speaking community of Singapore. In contrast, the model's answer describes the first speaker's accent as a \"distinct Southeast Asian accent, likely from Singapore\" which is close but not exactly accurate. The model's description of the second speaker's accent as a \"neutral or non-regional accent, possibly from a Western country\" is incorrect.\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What can you tell about the accent of both speakers?",
+            "reference": "Both speakers speak good English with a Singapore accent.",
+            "model_prediction": "The accent of the first speaker appears to be American, while the second speaker's accent is unclear due to the lack of sufficient audio data.",
+            "judge_response": "Explanation: The reference answer is clear about both speakers having a Singapore accent, while the model's answer is uncertain and inaccurate, mistakenly identifying the first speaker's accent as American and the second speaker's accent as unclear due to lack of data. I think the model's response is completely off the mark.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What can you tell about the accents of the speakers?",
+            "reference": "Both speakers speak good English with a Singapore accent.",
+            "model_prediction": "The accents of the speakers are not explicitly mentioned in the provided audio transcription, but based on the language and syntax used, it appears to be American English, likely from a North American region.",
+            "judge_response": "Explanation: The reference answer explicitly states that both speakers speak good English with a Singapore accent, while the model's answer claims that the accents are not mentioned and appears to be American English from a North American region. The model's response does not align with the reference answer in terms of content, accuracy, and relevance. \n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "How would you describe the accents of the two speakers?",
+            "reference": "The first speaker speaks good English with a Singapore accent, while the second speaker has a Chinese accent, likely from the Chinese-Speaking community of Singapore.",
+            "model_prediction": "The accents of the two speakers appear to be non-native English speakers, likely from the same region or cultural background, as they share similar pronunciation patterns, vocabulary, and grammatical structures. The speaker's use of filler words (\"you know\", \"hmm\"), incorrect verb tenses, and simplified sentence structures suggest that they may be non-native English speakers, possibly from a non-English speaking country.",
+            "judge_response": "Explanation: The reference answer specifically identifies the accents of the two speakers as a Singapore accent and a Chinese accent, likely from the Chinese-Speaking community of Singapore. In contrast, the model's answer provides a more general description, stating that the accents appear to be non-native English speakers, likely from the same region or cultural background, without specifying the exact origin of the accents. While the model's answer touches on the fact that the speakers are non-native English speakers, it lacks the specificity and accuracy of the reference answer.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Can you describe the accent of the speakers?",
+            "reference": "Both speakers have a Singapore accent and are likely from the Chinese-Speaking community of Singapore.",
+            "model_prediction": "The speaker appears to have a neutral or non-regional accent, possibly with a slight hint of a Singlish or Singaporean English influence.",
+            "judge_response": "Explanation: The reference answer specifically states that both speakers have a Singapore accent and are likely from the Chinese-Speaking community of Singapore, while the model's answer provides a vague description of a \"neutral or non-regional accent\" with a \"slight hint of a Singlish or Singaporean English influence\". The model's response does not capture the specific accent and community mentioned in the reference answer.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Can you describe the accent of the speakers?",
+            "reference": "Both speakers have a Malay accent. They are likely from the Malay-Speaking community of Singapore.",
+            "model_prediction": "The speaker's accent appears to be a non-native English accent, likely from a Middle Eastern or South Asian region, possibly with a slight influence of Arabic or Urdu.",
+            "judge_response": "Explanation: The reference answer explicitly states that both speakers have a Malay accent and are likely from the Malay-Speaking community of Singapore. In contrast, the model's answer suggests a non-native English accent from a Middle Eastern or South Asian region, possibly with a slight influence of Arabic or Urdu. The two answers are unrelated and do not share any similarities.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What can you tell about the speakers' accents?",
+            "reference": "Both speakers speak good English with a Singapore accent.",
+            "model_prediction": "The speakers' accents appear to be American, likely from the United States, given the usage of colloquialisms and words like \"yeah\" and \"hipster\".",
+            "judge_response": "Explanation: The reference answer explicitly states that the speakers have a Singapore accent, while the model's answer incorrectly identifies their accents as American. The model's response also mentions colloquialisms and words that are not relevant to the reference answer. I think this is a clear mismatch between the two answers.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What can you tell about the speaker's accent?",
+            "reference": "The speaker has a Malay accent. They are likely from the Malay-Speaking community of Singapore and speaks with a Singaporean accent.",
+            "model_prediction": "The speaker's accent appears to be American, possibly from the southern United States.",
+            "judge_response": "Explanation: The reference answer specifically identifies the speaker's accent as Malay with a Singaporean accent, whereas the model's answer incorrectly attributes the accent to be American, possibly from the southern United States. The two answers are not only different but also unrelated, indicating a complete mismatch.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What can you tell about the accents of both speakers?",
+            "reference": "Both speakers speak good English with a Singapore accent.",
+            "model_prediction": "The accents of the two speakers appear to be different. The first speaker has a neutral or non-regional accent, possibly American or Australian, as the pronunciation and diction are clear and easy to understand. The second speaker, however, has a distinct regional accent, likely British or British-influenced, as the pronunciation of \"Wednesday\" as \"Wed-nes-day\" and the use of \"okay\" as a filler word are characteristic of some British accents.",
+            "judge_response": "Explanation: The reference answer states that both speakers have a Singapore accent, whereas the model's answer claims that the first speaker has a neutral or non-regional accent and the second speaker has a British or British-influenced accent. The model's answer does not match the reference answer at all.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Can you describe the accent of the speakers?",
+            "reference": "Both speakers speak good English with a Singapore accent.",
+            "model_prediction": "The speaker appears to have a Southeast Asian accent, likely from a country such as Malaysia or Singapore, given the use of words like \"Can la\" and \"MoMo\", which are common in these countries.",
+            "judge_response": "Explanation: The reference answer is straightforward, stating that both speakers speak good English with a Singapore accent. The model's answer is more tentative, suggesting a Southeast Asian accent, possibly from Malaysia or Singapore, based on specific words used. While the model's answer is not as direct as the reference, it provides relevant information and is generally accurate. I think the model's answer is close enough to the reference to warrant a score of 1.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "What can you tell about the speaker's accent?",
+            "reference": "The speaker speaks good English with a Singapore accent.",
+            "model_prediction": "The speaker's accent appears to be American, likely from the Northeastern United States, possibly from the New York City area, given the mention of \"JB\" which is likely a reference to Jimmy John's sandwich shop, a popular chain in the Northeast.",
+            "judge_response": "Explanation: The reference answer is that the speaker speaks good English with a Singapore accent, while the model's answer is that the speaker's accent appears to be American, likely from the Northeastern United States, possibly from the New York City area. I think the model's answer is completely off the mark, providing incorrect and irrelevant information compared to the reference.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What can you tell about the accent of the speakers in the audio clip?",
+            "reference": "Both speakers speak good English with a Singapore accent.",
+            "model_prediction": "The speakers in the audio clip have an Indian accent, likely from a region such as the Indian subcontinent or a country with a significant Indian diaspora.",
+            "judge_response": "Explanation: The reference answer is specific about the speakers' accent being Singaporean, while the model's answer is incorrect and irrelevant, suggesting an Indian accent from a region like the Indian subcontinent or a country with a significant Indian diaspora. I think the model's answer is not accurate and does not align with the reference answer.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Can you describe the accent of the speakers?",
+            "reference": "Both speakers have a Chinese accent. They are likely from Singapore's Chinese-Speaking community.",
+            "model_prediction": "The accent of the speakers appears to be non-native English, possibly from a non-English speaking country, with a hint of a European or Asian influence. The speaker's pronunciation, vocabulary, and sentence structure suggest a non-native English speaker.",
+            "judge_response": "Explanation: The reference answer specifically identifies the accent as Chinese, likely from Singapore, whereas the model's answer is more general, stating that the accent appears to be non-native English with a hint of European or Asian influence. While the model's answer is not entirely incorrect, it lacks the specificity and accuracy of the reference answer. \nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Can you describe the accent of the speakers?",
+            "reference": "Both speakers have a Chinese accent. They are likely from Singapore's Chinese-Speaking community.",
+            "model_prediction": "The speakers' accent appears to be Asian, possibly Japanese, given the mention of Japan and Nagoya, which is a city in central Japan.",
+            "judge_response": "Explanation: The reference answer is that the speakers have a Chinese accent and are likely from Singapore's Chinese-Speaking community, while the model's answer is that the speakers' accent appears to be Asian, possibly Japanese. I think the model's answer is incorrect because it mentions a different language and country (Japanese and Japan) that is not relevant to the reference answer.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What do the speakers' accents have in common?",
+            "reference": "Both speakers speak good English with a Singapore accent.",
+            "model_prediction": "The speakers' accents appear to be non-native English, likely from an Asian or Eastern European region, as the pronunciation and intonation patterns suggest a non-native speaker's attempt to speak English.",
+            "judge_response": "Explanation: The reference answer is specific about the accent being Singaporean, while the model's answer is vague and suggests a broader region (Asian or Eastern European). The model's answer does not accurately capture the specificity of the reference answer. \nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        }
+    ]
+}

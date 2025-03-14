@@ -1,0 +1,168 @@
+{
+    "llama3_70b_judge": {
+        "judge_score": 32.124542124542124,
+        "success_rate": 1.0
+    },
+    "details": [
+        {
+            "question": "Why are the men arguing with each other?",
+            "reference": "It is because one of the men has hit his wife and the other man does not agree with his actions.",
+            "model_prediction": "It is not specified in the given information why the men are arguing with each other.",
+            "judge_response": "Explanation: The reference answer is \"It is because one of the men has hit his wife and the other man does not agree with his actions,\" which provides a specific reason for the men arguing with each other. In contrast, the model's answer is \"It is not specified in the given information why the men are arguing with each other,\" which refuses to provide a concrete reason. I think the model's answer is dodging the question and not even attempting to provide a relevant explanation.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Who is shouting at the husband of the woman?",
+            "reference": "The brother of the woman is shouting at her husband.",
+            "model_prediction": "It is not specified in the given information who is shouting at the husband of the woman.",
+            "judge_response": "Explanation: The reference answer is specific about the brother of the woman shouting at her husband, whereas the model's answer is uncertain and claims it is not specified in the given information. I think the model's answer is evasive and fails to provide a concrete response.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What is one of the men accusing the girl of?",
+            "reference": "That the girl does not care about his friend and is a homewrecker.",
+            "model_prediction": "One of the men is accusing the girl of being a whore.",
+            "judge_response": "Explanation: The reference answer is that the girl is accused of being a homewrecker and not caring about the man's friend, while the model's answer is that one of the men is accusing the girl of being a whore. I think the model's answer is somewhat related to the reference answer, but the terms used are different and have different connotations. The model's answer is more sensational and pejorative than the reference answer.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "How does the man react when his friend accused the girl of bad things?",
+            "reference": "He got angry and told the man not to talk about her like that.",
+            "model_prediction": "The man reacts by screaming and yelling at his friend.",
+            "judge_response": "Explanation: The reference answer states that the man gets angry and tells the friend not to talk about the girl in a certain way, while the model's answer claims the man reacts by screaming and yelling at his friend. Although both answers convey a negative emotional response, the specific actions and tone differ.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "What is the relationship between the two men?",
+            "reference": "They are friends.",
+            "model_prediction": "It is unclear from the given information what the relationship is between the two men.",
+            "judge_response": "Explanation: The reference answer is \"They are friends\", which provides a clear and specific relationship between the two men. However, the model's answer is \"It is unclear from the given information what the relationship is between the two men\", which refuses to provide a concrete result. I think the model's answer is not providing any insight into the relationship between the two men, and instead, is claiming that there is not enough information, which is not the case.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What is the point of contention between the man and the woman?",
+            "reference": "The woman wants to give more freedom to her brother but the man wants to be more protective of him.",
+            "model_prediction": "The point of contention between the man and the woman is not specified in the given information.",
+            "judge_response": "Explanation: The reference answer is specific about the point of contention between the man and the woman, while the model's answer is evasive and uninformative. I think the model's answer does not provide any concrete or relevant information, and instead, dodges the question.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Why does the woman think that the man is unreasonable?",
+            "reference": "It is because she thinks the man is being excessively protective of her brother.",
+            "model_prediction": "The woman thinks that the man is unreasonable because he insists on getting ice cream even though he knows it won't be available.",
+            "judge_response": "Explanation: The reference answer is that the woman thinks the man is being unreasonable because he is being excessively protective of her brother, while the model's answer is that the woman thinks the man is unreasonable because he insists on getting ice cream even though he knows it won't be available. These two answers are completely unrelated, and the model's answer is not mentioned in the reference. I think the model's answer is completely misaligned with the reference.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "How are the two people in the clip related?",
+            "reference": "They are partners.",
+            "model_prediction": "The two people in the clip are a father and son.",
+            "judge_response": "Explanation: The reference answer is \"They are partners\", which is a general and vague term that does not specify the type of partnership. The model's answer is \"The two people in the clip are a father and son\", which is a specific type of relationship. I think the model's answer is overly specific and does not align with the vague reference answer.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "Why is the man scoffing at the MRT staff?",
+            "reference": "It is because they realized about the sabotage by the hijackers quite late before they activated the alarm.",
+            "model_prediction": "It is not clear why the man is scoffing at the MRT staff. It is possible that he disagrees with the staff's actions or decisions, or he may simply be frustrated with the situation. Without more context, it is difficult to determine the exact reason for the man's behavior.",
+            "judge_response": "Explanation: The reference answer is clear and specific about the reason for the man's behavior, stating that it is because the MRT staff realized about the sabotage by the hijackers quite late before they activated the alarm. In contrast, the model's answer is vague and hesitant, providing multiple possible reasons for the man's behavior without any clear connection to the reference. The model's answer lacks accuracy and relevance to the reference.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "What is the man being dismissive about?",
+            "reference": "He is being dismissive about the skills of the MRT staff to properly check for explosives as he believes that they will not think to check his underwear were he to hide explosives in there.",
+            "model_prediction": "It is unclear what the man is dismissive about based on the given information.",
+            "judge_response": "Explanation: The reference answer is specific about what the man is being dismissive about, stating that it is the skills of the MRT staff to properly check for explosives. In contrast, the model's answer is vague and uncertain, saying that it is unclear what the man is being dismissive about. I think the model's answer lacks accuracy and relevance to the reference.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "How many different voices are there in this clip? ",
+            "reference": "There are three different voices in this clip.",
+            "model_prediction": "There are three different voices in this clip.",
+            "judge_response": "Explanation: The reference answer is \"There are three different voices in this clip\", while the model's answer is also \"There are three different voices in this clip\". I think the model's answer perfectly matches the reference answer in terms of content, accuracy, and relevance.\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "What is the man scolding the girl for?",
+            "reference": "According to the man, the girl was not taking care of her brother properly as she had been instructed to.",
+            "model_prediction": "The man is scolding the girl for not studying.",
+            "judge_response": "Explanation: The reference answer is about the man scolding the girl for not taking care of her brother as instructed, while the model's answer is about the man scolding the girl for not studying. The two answers are unrelated and provide different reasons for the man's scolding. I think the model's response is completely misaligned with the reference answer.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Why is the girl whining?",
+            "reference": "She is whining as she defends herself for giving her brother chocolate and not monitoring his tablet usage while she talked to her friends.",
+            "model_prediction": "It is not specified in the given information why the girl is whining.",
+            "judge_response": "Explanation: The reference answer provides a specific reason for the girl's whining, which is defending herself for giving her brother chocolate and not monitoring his tablet usage. In contrast, the model's answer claims that the reason for the girl's whining is not specified in the given information, which is not entirely accurate. \nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "To whom was the girl whining in the clip?",
+            "reference": "She was whining to her father.",
+            "model_prediction": "The girl was whining to her boyfriend in the clip.",
+            "judge_response": "Explanation: The reference answer is \"She was whining to her father,\" while the model's answer is \"The girl was whining to her boyfriend in the clip.\" I think the model's answer is completely misaligned with the reference answer, as it mentions a different person (boyfriend instead of father).\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What is the woman insecure about?",
+            "reference": "She thinks that the man is not going to stay with her and her baby once she gives birth.",
+            "model_prediction": "The woman is insecure about being a doctor.",
+            "judge_response": "Explanation: The reference answer is about the woman's insecurity regarding the man's commitment to her and her baby, whereas the model's answer is about the woman's insecurity about being a doctor, which is unrelated to the reference. The model's answer does not match the content, accuracy, or relevance of the reference answer.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What is the man being so adamant about?",
+            "reference": "The man is convincing the woman that he will not leave her and their baby after she gives birth.",
+            "model_prediction": "It is unclear from the given information what the man is being so adamant about.",
+            "judge_response": "Explanation: The reference answer clearly states that the man is being adamant about not leaving the woman and their baby after she gives birth, while the model's answer is vague and uncertain, stating that it is unclear what the man is being adamant about. I think the model's answer is too ambiguous and fails to capture the specific context mentioned in the reference.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What is the relationship between the man and the woman?",
+            "reference": "They are partners and are having a baby.",
+            "model_prediction": "It is unclear from the given information what the relationship is between the man and the woman.",
+            "judge_response": "Explanation: The reference answer is specific and clear, stating that the man and woman are partners and having a baby. In contrast, the model's answer is vague and non-committal, simply stating that it is unclear what the relationship is between the man and woman. The model's response does not provide any insight or understanding of the situation, unlike the reference answer.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What is the relationship between the two men raising their voices at each other?",
+            "reference": "They are brothers.",
+            "model_prediction": "It is unclear from the given information what the relationship is between the two men who are raising their voices at each other.",
+            "judge_response": "Explanation: The reference answer is \"They are brothers\", clearly stating the relationship between the two men. In contrast, the model's answer is \"It is unclear from the given information what the relationship is between the two men who are raising their voices at each other\", which refuses to provide a concrete result and instead expresses uncertainty. \nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What difference in opinion about their parents' marriage does the older brother and younger brother have?",
+            "reference": "The older brother believes that their birth mother was driven to depression because their father had an affair while the younger brother disagrees and says that they cannot be very sure about what actually happened in their parents' marriage.",
+            "model_prediction": "The older brother and younger brother have different opinions about their parents' marriage.",
+            "judge_response": "Explanation: The reference answer is specific about the difference in opinion between the two brothers regarding their parents' marriage, whereas the model's answer is vague and does not provide any details about their differing opinions. The model's answer only states that they have different opinions, which is an obvious conclusion, but it lacks the specific context and details provided in the reference answer. I think the model's answer is too general and lacks accuracy in capturing the essence of the reference answer.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "What is the woman complaining about?",
+            "reference": "She is complaining about the impropriety of the games conducted during the orientation week that her daughter attended in NUS; she felt that such games went against the values she had raised her daughter with.",
+            "model_prediction": "The woman is complaining about her daughter going to a top girl's school in Singapore.",
+            "judge_response": "Explanation: The reference answer is about the woman complaining about the games conducted during the orientation week at NUS, while the model's answer is about the woman complaining about her daughter going to a top girl's school in Singapore. These two answers are completely unrelated, with the model's answer not providing any accurate or relevant information compared to the reference.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        }
+    ]
+}

@@ -1,0 +1,168 @@
+{
+    "llama3_70b_judge": {
+        "judge_score": 64.86264249672958,
+        "success_rate": 0.9971967856475425
+    },
+    "details": [
+        {
+            "question": "What did Luther think was required to stop the violence?",
+            "reference": "personal presence",
+            "model_prediction": "Luther believed that his personal presence and living word were required to stop the violence.",
+            "judge_response": "Explanation: The reference answer is \"personal presence\", while the model's answer is \"personal presence and living word\". I think the model's answer is slightly more detailed than the reference answer, but still conveys the same main idea. The addition of \"living word\" provides more context, but it doesn't alter the fundamental meaning of the reference answer.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "What did Luther do during Lent at this time?",
+            "reference": "preached",
+            "model_prediction": "During Lent, Luther preached eight sermons which became known as the Invocavitsermonen.",
+            "judge_response": "Explanation: The reference answer is \"preached\", while the model's answer is \"During Lent, Luther preached eight sermons which became known as the Invocavitsermonen.\" I think the model's answer is a more detailed and specific response that includes the main action \"preached\" from the reference answer, providing additional context and information.\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "How did Luther want people to bring about change?",
+            "reference": "trust gods word",
+            "model_prediction": "Luther wanted people to bring about change through personal presence and living word, as he preached eight sermons during the eight days in Lent, which became known as the Invocavit.",
+            "judge_response": "Explanation: The reference answer is \"trust God's word\", implying that Luther wanted people to bring about change by having faith in God's word. On the other hand, the model's answer is about Luther preaching sermons during Lent, which is unrelated to the reference answer. The model's answer is more about Luther's actions rather than how he wanted people to bring about change.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What troops attacked Fort William Henry in early 1757?",
+            "reference": "french irregular forces",
+            "model_prediction": "French irregular forces, Canadian scouts, and Indians attacked Fort William Henry in early 1757.",
+            "judge_response": "Explanation: The reference answer is \"french irregular forces\", while the model's answer is \"French irregular forces, Canadian scouts, and Indians\". I think the model's answer is an expansion of the reference answer, providing additional details that are relevant to the context. The model's answer still captures the essence of the reference answer, which is the type of troops that attacked Fort William Henry.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "On what lake did troops attack fort willima henry in winter?",
+            "reference": "lake george",
+            "model_prediction": "Lake George",
+            "judge_response": "Explanation: The reference answer is \"lake george\", while the model's answer is \"Lake George\". The only difference is the capitalization of the first letter. Overall, the model's answer is identical to the reference answer in terms of content, accuracy, and relevance.\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "What did the the Europeans think the peoples in the tropics were in need of?",
+            "reference": "guidance and intervention",
+            "model_prediction": "The Europeans believed that the people in the tropics were in need of hardworking, moral, and upstanding human beings.",
+            "judge_response": "Explanation: The reference answer is \"guidance and intervention\", while the model's answer is that the people in the tropics were in need of \"hardworking, moral, and upstanding human beings\". I think the model's answer is not directly addressing the question and is providing a vague and unrelated response.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What company owned NBC in the 1930s?",
+            "reference": "radio corporation of america",
+            "model_prediction": "In the 1930s, NBC was owned by Radio Corporation of America (RCA).",
+            "judge_response": "Explanation: The reference answer is \"radio corporation of america\", while the model's answer is \"In the 1930s, NBC was owned by Radio Corporation of America (RCA)\". I think the model's answer is a perfect expansion of the reference answer, providing additional relevant information about the time period and the relationship between NBC and RCA.\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "What kind of markets did NBC Red serve?",
+            "reference": "major cities",
+            "model_prediction": "NBC Red served the radio market in the United States.",
+            "judge_response": "Explanation: The reference answer is specific about the type of markets served, mentioning \"major cities\", whereas the model's answer is more general, stating that NBC Red served \"the radio market in the United States\". The model's answer lacks detail and accuracy compared to the reference.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Which NBC radio network was tasked with testing new programs?",
+            "reference": "nbc blue network",
+            "model_prediction": "NBC's Radio Network, which later became known as the National Broadcasting Company (NBC), was tasked with testing new programs.",
+            "judge_response": "Explanation: The reference answer is \"nbc blue network\", which specifically identifies the NBC radio network that was tasked with testing new programs. In contrast, the model's answer is \"NBC's Radio Network, which later became known as the National Broadcasting Company (NBC)\" which is a more general description of NBC's radio network, but does not specifically mention the \"Blue Network\". I think the model's answer acknowledges the topic but lacks precise accuracy in identifying the specific network mentioned in the reference.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Commensal flora can change what specific conditions of their environment in the gastrointestinal tract?",
+            "reference": "ph or available iron",
+            "model_prediction": "They can change the pH or available iron conditions in their environment.",
+            "judge_response": "Explanation: The reference answer specifically mentions \"pH or available iron\" as the conditions that commensal flora can change in their environment, while the model's answer is more general, stating that they can change \"the pH or available iron conditions\" without specifying the environment. Although the model's answer is close, it lacks precision and detail compared to the reference. I think the model's answer is generally on the right track but could be more accurate and specific.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "What is a growing sport in southern California?",
+            "reference": "rugby",
+            "model_prediction": "Rugby is also a growing sport in southern California.",
+            "judge_response": "Explanation: The reference answer is simply \"rugby\", stating the sport itself, while the model's answer provides more context by specifying that rugby is a growing sport in southern California. I think the model's answer is more informative and relevant to the question, but still accurately captures the essence of the reference answer.\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "At which level of education is this sport becoming more popular?",
+            "reference": "high school",
+            "model_prediction": "High school level.",
+            "judge_response": "Explanation: The reference answer is \"high school\" which specifically mentions the level of education, whereas the model's answer is \"High school level\". I think the model's answer is rephrasing the reference answer in a slightly more formal and detailed way, but essentially conveying the same information.\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "What is rugby rapidly becoming with high schools?",
+            "reference": "an official school sport",
+            "model_prediction": "Rugby is rapidly becoming an official school sport in many high schools.",
+            "judge_response": "Explanation: The reference answer is \"an official school sport\" while the model's answer is \"rapidly becoming an official school sport in many high schools\". I think the model's answer is an expansion of the reference answer, providing more context and detail about the status of rugby in high schools.\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "The Rhine forms an inland delta into which lake?",
+            "reference": "lake constance",
+            "model_prediction": "The Rhine forms an inland delta into Lake Constance.",
+            "judge_response": "Explanation: The reference answer is \"lake constance\", while the model's answer is \"The Rhine forms an inland delta into Lake Constance.\" I think the model's answer is a correct and relevant expansion of the reference answer, providing additional information about the relationship between the Rhine and Lake Constance. \n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "What is the animal that the Rhine's islands are named after?",
+            "reference": "donkey",
+            "model_prediction": "The animal that the Rhine's islands are named after is the stork.",
+            "judge_response": "Explanation: The reference answer is \"donkey\", while the model's answer is \"the stork\". I think the model's answer is completely misaligned with the reference answer, providing an unrelated and incorrect piece of information.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "The inland delta at the mouth of the Rhine is with what Lake?",
+            "reference": "lake constance",
+            "model_prediction": "Lake Constance",
+            "judge_response": "Explanation: The reference answer is \"lake constance\", while the model's answer is \"Lake Constance\". I think the model's answer is almost a perfect match, with the only difference being the capitalization of the first letter, which is a minor detail.\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "What did the Rhine branch off to form in Austria?",
+            "reference": "small islands",
+            "model_prediction": "The Rhine branched off into at least two arms that formed small islands by precipitating sediments.",
+            "judge_response": "Explanation: The reference answer is \"small islands\", while the model's answer is explaining how the Rhine branched off to form these small islands. I think the model's answer is providing more detailed information about the formation of small islands, which is closely related to the reference answer. \n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "Who redesigned the central garden?",
+            "reference": "kim wilkie",
+            "model_prediction": "The central garden was redesigned by Kim Wilkie.",
+            "judge_response": "Explanation: The reference answer is a simple statement \"kim wilkie\", while the model's answer is a complete sentence \"The central garden was redesigned by Kim Wilkie.\" I think the model's answer is a correct interpretation of the reference answer, providing additional context that is likely intended by the original question.\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "What shape is the water feature in the John Madejski Garden?",
+            "reference": "elliptical",
+            "model_prediction": "The water feature in the John Madejski Garden is elliptical.",
+            "judge_response": "Explanation: The reference answer is \"elliptical\", a single word describing the shape of the water feature. The model's answer is \"The water feature in the John Madejski Garden is elliptical.\" I think the model's answer is a complete sentence that accurately and relevantly includes the reference answer, providing more context without altering the core meaning.\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "The steps around the water feature can be drained for what uses?",
+            "reference": "receptions gatherings or exhibition purposes",
+            "model_prediction": "The steps around the water feature may be drained for use as a reception area, gatherings, or exhibition purposes.",
+            "judge_response": "Explanation: The reference answer mentions \"receptions gatherings or exhibition purposes\" as the possible uses of the drained steps around the water feature. The model's answer is almost identical, stating \"reception area, gatherings, or exhibition purposes\" as the potential uses. The slight difference lies in the addition of \"area\" to \"reception\" in the model's answer, which is a minor and reasonable modification.\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        }
+    ]
+}

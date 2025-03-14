@@ -1,0 +1,168 @@
+{
+    "llama3_70b_judge_binary": {
+        "judge_score": 0.26666666666666666,
+        "success_rate": 1.0
+    },
+    "details": [
+        {
+            "question": "How do the accents of the two speakers differ?",
+            "reference": "The first speaker has a Chinese accent, likely from the Chinese-Speaking community of Singapore, while the second speaker speaks good English with a Singapore accent.",
+            "model_prediction": "The accents of the two speakers are Chinese and American.",
+            "judge_response": "Explanation: The reference answer is specific about the accents of the two speakers, stating that the first speaker has a Chinese accent from the Chinese-Speaking community of Singapore, and the second speaker speaks good English with a Singapore accent. In contrast, the model's answer is inaccurate, stating that the accents are Chinese and American, which does not match the reference answer. I think the model's answer is incorrect and irrelevant to the reference.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "How would you describe the accents of the two speakers?",
+            "reference": "The first speaker speaks good English with a Singapore accent, while the second speaker has a Malay accent, likely from the Malay-Speaking community of Singapore.",
+            "model_prediction": "One speaker has a southern accent, while the other has a more neutral accent.",
+            "judge_response": "Explanation: The reference answer is specific about the accents, mentioning a Singapore accent and a Malay accent, while the model's answer is vague, describing one accent as \"southern\" and the other as \"more neutral\". The model's answer does not accurately reflect the details provided in the reference answer.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What can you tell about the accents of the speakers in the audio clip?",
+            "reference": "Both speakers speak good English with a Singapore accent.",
+            "model_prediction": "The accents of the speakers are difficult to identify as they are not from the same region.",
+            "judge_response": "Explanation: The reference answer is specific about the accent, stating that both speakers speak good English with a Singapore accent. On the other hand, the model's answer is vague and incorrect, implying that the accents are difficult to identify due to being from different regions, which is not mentioned in the reference.\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What can you tell about the accent of both speakers?",
+            "reference": "Both speakers speak good English with a Singaporean accent.",
+            "model_prediction": "They both have a British accent.",
+            "judge_response": "Explanation: The reference answer is \"Both speakers speak good English with a Singaporean accent\", while the model's answer is \"They both have a British accent\". The model's response is inaccurate and irrelevant to the reference, as it mentions a British accent instead of a Singaporean accent. I think the model's answer fails to capture the meaning from the reference.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "How would you describe the accents of the two speakers?",
+            "reference": "The first speaker likely has a Chinese accent from the Chinese-Speaking community of Singapore, while the second speaker speaks good English with a Singapore accent.",
+            "model_prediction": "One speaker has a strong accent and the other has a milder accent.",
+            "judge_response": "Explanation: The reference answer specifies the type of accents, stating that one speaker has a Chinese accent from the Chinese-Speaking community of Singapore, and the other has a Singapore accent. In contrast, the model's answer provides a vague description, simply stating that one speaker has a strong accent and the other has a milder accent, without specifying the type of accent. I think the model's answer lacks accuracy and relevance compared to the reference.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "How would you describe the accents of the two speakers?",
+            "reference": "The first speaker speaks good English with a Singapore accent, while the second speaker has a Chinese accent, likely from the Chinese-Speaking community of Singapore.",
+            "model_prediction": "One speaker has a clear and distinct accent, while the other has a slightly different accent that is still easy to understand.",
+            "judge_response": "Explanation: The reference answer is specific about the accents, mentioning a Singapore accent and a Chinese accent, while the model's answer is vague, only describing one accent as \"clear and distinct\" and the other as \"slightly different\". I think the model's answer lacks precision and doesn't capture the specific characteristics of the accents mentioned in the reference.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What can you tell about the accent of both speakers?",
+            "reference": "Both speakers speak good English with a Singapore accent.",
+            "model_prediction": "Both speakers have a similar accent, which is difficult to determine.",
+            "judge_response": "Explanation: The reference answer is specific and clear, stating that both speakers have a Singapore accent, while the model's answer is vague and uncertain, saying it's difficult to determine. I think the model's answer doesn't provide any concrete or accurate information, which doesn't align with the reference answer.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What can you tell about the accents of the speakers?",
+            "reference": "Both speakers speak good English with a Singapore accent.",
+            "model_prediction": "One speaker has a very heavy accent, while the other has a lighter accent.",
+            "judge_response": "Explanation: The reference answer is specific about the accent, mentioning that both speakers speak good English with a Singapore accent. In contrast, the model's answer is more general, stating that one speaker has a heavy accent and the other has a lighter accent, without specifying the type of accent. I think the model's answer is not entirely accurate, as it doesn't capture the specific detail about the Singapore accent mentioned in the reference.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "How would you describe the accents of the two speakers?",
+            "reference": "The first speaker speaks good English with a Singapore accent, while the second speaker has a Chinese accent, likely from the Chinese-Speaking community of Singapore.",
+            "model_prediction": "One speaker has a heavy accent, while the other speaker has a lighter accent.",
+            "judge_response": "Explanation: The reference answer provides specific information about the accents of the two speakers, stating that one has a Singapore accent and the other has a Chinese accent. In contrast, the model's answer is vague and only mentions that one speaker has a heavy accent and the other has a lighter accent, without providing any specific details. I think the model's answer lacks accuracy and relevance to the reference.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Can you describe the accent of the speakers?",
+            "reference": "Both speakers have a Singapore accent and are likely from the Chinese-Speaking community of Singapore.",
+            "model_prediction": "The accent of the speakers is difficult to identify as they are speaking in different ways.",
+            "judge_response": "Explanation: The reference answer is specific and informative, stating that both speakers have a Singapore accent and are likely from the Chinese-Speaking community of Singapore. In contrast, the model's answer is vague and unhelpful, saying that the accent is difficult to identify. I think the model's answer fails to provide any accurate or relevant information compared to the reference.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Can you describe the accent of the speakers?",
+            "reference": "Both speakers have a Malay accent. They are likely from the Malay-Speaking community of Singapore.",
+            "model_prediction": "The speakers have a Pakistani accent.",
+            "judge_response": "Explanation: The reference answer is that the speakers have a Malay accent, indicating they are from the Malay-speaking community of Singapore. In contrast, the model's answer states that the speakers have a Pakistani accent, which is incorrect and irrelevant to the reference provided. \n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What can you tell about the speakers' accents?",
+            "reference": "Both speakers speak good English with a Singapore accent.",
+            "model_prediction": "The speakers have a neutral accent.",
+            "judge_response": "Explanation: The reference answer is specific about the speakers' accent, stating that they speak with a Singapore accent, whereas the model's answer says they have a neutral accent, which is incorrect. The model's response does not capture the meaning of the reference, and the information provided is contradictory.\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What can you tell about the speaker's accent?",
+            "reference": "The speaker has a Malay accent. They are likely from the Malay-Speaking community of Singapore and speaks with a Singaporean accent.",
+            "model_prediction": "The speaker's accent seems to be from the southern region of the United States.",
+            "judge_response": "Explanation: The reference answer is specific about the speaker's accent, stating it's from the Malay-Speaking community of Singapore with a Singaporean accent. In contrast, the model's answer is incorrect, claiming the accent is from the southern region of the United States, which is a completely different geographical location. \nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What can you tell about the accents of both speakers?",
+            "reference": "Both speakers speak good English with a Singapore accent.",
+            "model_prediction": "Both speakers have a neutral accent.",
+            "judge_response": "Explanation: The reference answer specifies that both speakers have a Singapore accent, while the model's answer claims they have a neutral accent. These two answers are contradictory, and the model's answer does not capture the information provided in the reference. I think the model's answer is incorrect and irrelevant to the reference.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Can you describe the accent of the speakers?",
+            "reference": "Both speakers speak good English with a Singapore accent.",
+            "model_prediction": "The accent of the speakers is difficult to identify as they are speaking in different languages and their audio quality is not very clear.",
+            "judge_response": "Explanation: The reference answer clearly states that both speakers speak good English with a Singapore accent, whereas the model's answer claims that the accent is difficult to identify due to different languages and poor audio quality. These responses are contradictory, and the model's answer does not capture the meaning of the reference.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What can you tell about the speaker's accent?",
+            "reference": "The speaker speaks good English with a Singapore accent.",
+            "model_prediction": "The speaker's accent seems to be from Eastern Europe or Russia.",
+            "judge_response": "Explanation: The reference answer is a Singapore accent, while the model's answer is an Eastern European or Russian accent. I think the model's answer is completely off and irrelevant to the reference answer, providing incorrect information.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What can you tell about the accent of the speakers in the audio clip?",
+            "reference": "Both speakers speak good English with a Singapore accent.",
+            "model_prediction": "The accent of the speakers is difficult to identify as they are speaking in different languages.",
+            "judge_response": "Explanation: The reference answer specifically states that both speakers speak good English with a Singapore accent, while the model's answer claims that the accent is difficult to identify due to the speakers speaking in different languages. This is not only incorrect but also irrelevant to the reference provided. \n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Can you describe the accent of the speakers?",
+            "reference": "Both speakers have a Chinese accent. They are likely from Singapore's Chinese-Speaking community.",
+            "model_prediction": "The accent of the speakers is not specified in the transcript.",
+            "judge_response": "Explanation: The reference answer is specific about the accent of the speakers, stating that they have a Chinese accent and are likely from Singapore's Chinese-Speaking community. On the other hand, the model's answer is vague and uninformative, stating that the accent of the speakers is not specified in the transcript. I think the model's answer is evasive and lacks concrete information, making it unaligned with the reference answer.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Can you describe the accent of the speakers?",
+            "reference": "Both speakers have a Chinese accent. They are likely from Singapore's Chinese-Speaking community.",
+            "model_prediction": "The accent of the speakers is difficult to identify as they are speaking in different languages.",
+            "judge_response": "Explanation: The reference answer is specific and direct, stating that both speakers have a Chinese accent and are likely from Singapore's Chinese-Speaking community. In contrast, the model's answer is vague and evasive, claiming that the accent is difficult to identify due to the speakers using different languages. This response does not capture the accuracy and relevance of the reference answer.\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What do the speakers' accents have in common?",
+            "reference": "Both speakers speak good English with a Singapore accent.",
+            "model_prediction": "Both speakers have a non-standard accent, making it difficult to identify their specific regional origin.",
+            "judge_response": "Explanation: The reference answer is specific about the accent, stating that both speakers speak good English with a Singapore accent. In contrast, the model's answer is vague, saying that both speakers have a non-standard accent, making it difficult to identify their specific regional origin. The model's answer does not mention the Singapore accent, which is a crucial detail. I think the model's answer does not accurately capture the meaning from the reference.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        }
+    ]
+}

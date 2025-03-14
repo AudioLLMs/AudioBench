@@ -1,0 +1,168 @@
+{
+    "llama3_70b_judge": {
+        "judge_score": 37.879999999999995,
+        "success_rate": 0.993
+    },
+    "details": [
+        {
+            "question": "Could you offer a brief summary of what the audio contains?",
+            "reference": "Speaker1 shared a humorous anecdote about a strike and a free bus, recalling how they and other Asians waited patiently at the side, internally complaining about the delay, while others opted to take a taxi instead.",
+            "model_prediction": "The audio transcription appears to be a personal anecdote about a situation where the speaker and others were waiting for a bus during a strike, and eventually, those who waited ended up taking a taxi instead.",
+            "judge_response": "Explanation: The reference answer is a brief and specific summary of the audio transcription, highlighting the humorous aspect of the story and the contrasting behaviors of Asians and others. In contrast, the model's answer is a vague and general summary, lacking the details and humor present in the reference answer. The model's answer focuses on the situation of waiting for a bus during a strike, but misses the key point about the different reactions of Asians and others.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Is it possible for you to summarize what's covered in the audio?",
+            "reference": "Speaker1 and Speaker2 had a conversation that seemed to be about a personal experience or situation. Speaker1 expressed that they didn't need to take something (#liao#) and mentioned that things are a bit strange now, and they feel unfamiliar or unaccustomed to something. Speaker2 responded with a series of ambiguous sounds and phrases, indicating possible agreement or acknowledgement. The conversation appears to be fragmented and lacks clear context, making it challenging to discern a specific topic or theme.",
+            "model_prediction": "The audio transcription discusses the fact that the speaker's videos are taken by tape, but acknowledges that their own video is of poor quality and a bit weird.",
+            "judge_response": "Explanation: The reference answer is a general description of a conversation between two speakers, mentioning that Speaker1 talks about not needing to take something and feeling unfamiliar, while Speaker2 responds with ambiguous sounds and phrases. On the other hand, the model's answer is a specific and unrelated statement about video quality. I think the model's answer is completely misaligned with the reference, providing incorrect and irrelevant information.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Please provide a summary of the audio.",
+            "reference": "Speaker1 and Speaker2 discussed the topic of ikan bilis sambal, specifically the addition of tomatoes to the dish. Speaker1 expressed disappointment with a particular preparation, stating that it was overloaded with tomatoes, while Speaker2 agreed that it was a mistake to add too many tomatoes, but noted that the flavor still resembled sambal, just without the spiciness.",
+            "model_prediction": "The speaker is expressing frustration and confusion about a dish called \"ikan bilik sambal\" that they tried, specifically about the amount of tomatoes used, which they felt overpowered the flavor of the sambal.",
+            "judge_response": "Explanation: The reference answer provides a detailed discussion between two speakers about the addition of tomatoes to ikan bilis sambal, highlighting their opinions and agreements. In contrast, the model's answer is vague, focusing on the speaker's frustration and confusion without capturing the nuances of the conversation. The model's response lacks specific details about the discussion, such as the agreement between the speakers that too many tomatoes were added.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Could you outline the main points from the audio for me?",
+            "reference": "Speaker1 and Speaker2 discussed their plans and schedules. Speaker2 mentioned a specific time, 3:30 pm, and Speaker1 checked their iPad for the timetable, confirming that they would be free by 12:30 pm.",
+            "model_prediction": "The main points from the audio are:\n\n* The speaker is thinking of arriving late\n* They mention eating at 3:30 pm, but then check the iPad timetable\n* The speaker finds out they ended their day early, and it's actually 12:30 pm.",
+            "judge_response": "Explanation: The reference answer clearly states that Speaker1 and Speaker2 discussed their plans and schedules, with Speaker2 mentioning 3:30 pm and Speaker1 checking their iPad to confirm they would be free by 12:30 pm. The model's answer, on the other hand, misinterprets the conversation, stating that the speaker is thinking of arriving late, eating at 3:30 pm, and finding out they ended their day early at 12:30 pm. The model's answer introduces incorrect information and misses the main points of the conversation.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Would you summarize the information from the audio for me?",
+            "reference": "Speaker1 and Speaker2 discussed the key elements of a good 炒面 (stir-fried noodles). Speaker1 emphasized the importance of having good sambal, while Speaker2 believed that the quality of the 炒米粉 (noodles) was the most crucial factor, suggesting it may be the secret ingredient.",
+            "model_prediction": "The most important thing about Chow mein is that the stall's samba (wok-frying technique) must be good, and the secret ingredient is the chow mein itself.",
+            "judge_response": "Explanation: The reference answer highlights the different opinions of Speaker1 and Speaker2 on the key elements of a good stir-fried noodles, with Speaker1 emphasizing the importance of sambal and Speaker2 believing the quality of noodles is the most crucial factor. In contrast, the model's answer simplistically states that the samba (wok-frying technique) must be good and the noodles themselves are the secret ingredient. The model's answer lacks the nuanced discussion of the reference answer and eliminates the differing opinions of the speakers.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Can I get your help to summarize what’s in the audio?",
+            "reference": "Speaker1 and Speaker2 discussed the topic of kadi reviews, with Speaker1 expressing difficulty in finding suitable candidates, citing limited English fluency among potential reviewers. Speaker2 agreed that the scope for kadi reviews has become smaller, and that nobody really does them anymore, unlike in the past when videos of kadi reviews were commonly recorded.",
+            "model_prediction": "The speaker is expressing difficulty in understanding and speaking English, and mentions that they can only pick 7 out of many options. They also mention that they don't see many Cardi reviews anymore and think that no one is currently recording videos.",
+            "judge_response": "Explanation: The reference answer discusses the topic of kadi reviews, specifically the difficulty in finding suitable candidates due to limited English fluency, and how the scope for kadi reviews has become smaller. In contrast, the model's answer appears to be a misunderstanding, as it mentions the speaker's own difficulty with English and a random mention of \"7 out of many options\" that is not present in the reference. The model's answer also incorrectly refers to \"Cardi reviews\" instead of \"kadi reviews\". \n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "Is it possible for you to summarize what's covered in the audio?",
+            "reference": "Speaker1 and Speaker2 discussed their increased consumption of pizza and chicken during the Circuit Breaker (CB) period. Speaker1 mentioned ordering pizza and chicken frequently, while Speaker2 shared that they prefer ordering chicken, particularly from a Korean-style fried chicken place in Beauty World, and especially enjoy the spicy option.",
+            "model_prediction": "The audio transcription discusses the speaker's food preferences, specifically their increased consumption of chicken and pizza, and their favorite Korean dish, jjajji, which they order frequently, especially the spicy version.",
+            "judge_response": "Explanation: The reference answer focuses on the speakers' increased consumption of pizza and chicken during the Circuit Breaker period, with specific details about Speaker2's preference for Korean-style fried chicken from Beauty World. In contrast, the model's answer introduces an unrelated term \"jjajji\" and fails to mention the Circuit Breaker period or Beauty World. The model's answer also implies that the speakers frequently order \"jjajji\", which is not mentioned in the reference.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "Could you offer a brief summary of what the audio contains?",
+            "reference": "Speaker1 and Speaker2 discussed a product, likely a beverage, and its potential combination of two features. Speaker2 shared a personal experience of trying a similar product, chrysanthemum milk tea, at a shop in Ang-Mo-Kio, which they found refreshing. They also mentioned that friends from their church had posted about the drink on social media, prompting them to try it.",
+            "model_prediction": "The audio transcription discusses the speaker's idea of combining two things together, possibly related to business or marketing, and also mentions a small shop in Amokyo that sells chrysanthemum milk tea, which some church friends enjoy and post about on Instagram.",
+            "judge_response": "Explanation: The reference answer clearly states that Speaker2 shared a personal experience of trying chrysanthemum milk tea, mentions the location Ang-Mo-Kio, and friends from their church posting about the drink on social media. The model's answer, on the other hand, vaguely mentions \"combining two things together\", a shop in \"Amokyo\" ( incorrect location), and church friends posting about the drink on Instagram (specific platform not mentioned in the reference). The model's answer lacks detail and accuracy compared to the reference.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Would you help me summarize the core message of the audio?",
+            "reference": "Speaker1 and Speaker2 discussed an initiative to support hawker food stalls, with Speaker1 mentioning that a few hundred stalls received assistance. Speaker2 found the initiative \"cute,\" but both speakers agreed that it was not a sustainable solution and didn't address the long-term needs of the hawkers, who require ongoing business and financial support.",
+            "model_prediction": "The core message of the audio is that the speaker is skeptical about the effectiveness of a one-time initiative to support hawker food stores, as it is not a sustainable solution and does not provide long-term benefits to the hawkers.",
+            "judge_response": "Explanation: The reference answer provides specific details about the conversation between two speakers, mentioning that the initiative to support hawker food stalls is not sustainable and doesn't address the long-term needs of the hawkers. In contrast, the model's answer is a more general statement that focuses on the speaker's skepticism about the initiative's effectiveness, without capturing the nuances of the conversation. While the model's answer is not entirely incorrect, it lacks the specificity and accuracy of the reference answer.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Can you assist with summarizing the details from the audio?",
+            "reference": "Speaker1 and Speaker2 discussed the TV show Riverdale, specifically Season 1. Speaker1 mentioned watching the show and developing a crush on Jughead, played by Cole Sprouse. Speaker2 shared their familiarity with Cole Sprouse from his previous work, including the TV show Friends, and initially questioned Speaker1's opinion of Cole Sprouse's appearance. However, after watching Riverdale, Speaker1 understood the hype surrounding Cole Sprouse's character.",
+            "model_prediction": "The speaker discusses watching Riverdale season 1 and mentions Jughead, played by Cole Sprouse. They initially express admiration for Jughead, calling him \"damn nice\" and \"cute\", but later express surprise and confusion when they realize Cole Sprouse was also in the TV show \"Friends\" as a child, and mention that they initially thought he was ugly.",
+            "judge_response": "Explanation: The reference answer describes a conversation between two speakers about Riverdale, specifically Season 1, where Speaker1 develops a crush on Jughead, and Speaker2 shares their familiarity with Cole Sprouse from previous work, including Friends. The model's answer, on the other hand, distorts the conversation, making Speaker1 initially think Cole Sprouse was ugly and later finding him cute. The model's response lacks accuracy and relevance to the reference, missing key details and altering the tone of the conversation.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "Could you provide a brief overview of the audio’s information?",
+            "reference": "Speaker1 discussed their need for planning and organization when going on holiday, emphasizing the importance of knowing the schedule, timings, and details of the trip. They shared their tendency to overplan and inform their travel companions about the itinerary to avoid unexpected closures or missed opportunities.",
+            "model_prediction": "The audio transcription discusses the speaker's preference for planning and organization, specifically in regards to their travel schedule and ensuring that they arrive at destinations on time.",
+            "judge_response": "Explanation: The reference answer provides detailed information about the speaker's need for planning and organization when going on holiday, including their tendency to overplan and inform their travel companions about the itinerary. In contrast, the model's answer is a brief and general statement that only touches on the speaker's preference for planning and organization in regards to their travel schedule. The model's answer lacks the specificity and details mentioned in the reference answer. I think the model's answer is a good start, but it fails to capture the essence and details of the reference answer.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Can you summarize the key points from the audio?",
+            "reference": "Speaker1 and Speaker2 discussed restaurants and locations in Singapore. Speaker1 mentioned a nice restaurant, and Speaker2 compared it to Vivo City, which they considered better. They also talked about the proximity of Acai in Holland Village to their home and the pricing of Brotzeit, a German restaurant, which costs $9 an hour, not bad according to Speaker1. The conversation also touched on the possibility of higher prices on weekends.",
+            "model_prediction": "The key points from the audio are:\n\n* The speaker remembers a nice restaurant, but thinks Vivo City is better.\n* Vivo City has many nice shops, but is a bit far away.\n* Asahi is located in Holland Village, which is closer to their home.\n* The Asahi in Broadside is only about an hour away, making it not bad.\n* The speaker is unsure if there is more money on weekends.",
+            "judge_response": "Explanation: The reference answer provides specific details about the conversation, such as the names of restaurants (Acai and Brotzeit) and locations (Holland Village and Vivo City), as well as specific prices ($9 an hour). In contrast, the model's answer is vague and lacks specific details. It incorrectly mentions \"Asahi\" instead of \"Acai\", and fails to provide accurate information about the conversation. Additionally, the model's answer introduces irrelevant information, such as \"Broadside\" which is not mentioned in the reference answer.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "Would you help me summarize the core message of the audio?",
+            "reference": "Speaker1 and Speaker2 discussed the topic of Chettinad cuisine, with Speaker1 sharing their thoughts on its evolution and adaptation. Speaker1 mentioned that Chettinad cuisine was introduced by Portuguese and has since become a staple in Tamil Nadu, but its originality has been lost over time. Speaker2 seemed to agree, suggesting that Australian Tamil cuisine might be a topic of interest.",
+            "model_prediction": "The speaker is mentioning an unknown word \"sapath\" and its equivalent \"kusini\" in Portuguese, which is not commonly found in everyday life, except for food items like coffee and honey.",
+            "judge_response": "Explanation: The reference answer provides a clear summary of the conversation about Chettinad cuisine, discussing its evolution and adaptation, while the model's answer seems unrelated, talking about unknown words \"sapath\" and \"kusini\" in Portuguese. The model's response does not capture the essence of the conversation and provides incorrect information. \n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Could you break down the important parts of the audio for me?",
+            "reference": "Speaker1 discussed the current situation of the COVID-19 pandemic and its impact on employment. They expressed gratitude that their father still has a job, unlike many friends' families who have lost their jobs and are facing stress due to the need to switch jobs.",
+            "model_prediction": "The important parts of the audio are:\n\n* The COVID pandemic is happening right now and affecting many people's lives.\n* The speaker's father is still working, which is a blessing.\n* Many friends and families are struggling to find jobs and are switching jobs, causing stress.",
+            "judge_response": "Explanation: The reference answer provides a clear breakdown of the audio's important parts, focusing on the COVID-19 pandemic, the speaker's father's job, and the struggles of friends and families. The model's answer mirrors these points, albeit briefly. It conveys the same information, but lacks some details. For instance, the model doesn't explicitly mention \"many friends' families\" who have lost jobs, unlike the reference answer.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "Can you summarize the key points from the audio?",
+            "reference": "Speaker1 and Speaker2 discussed a song from Tokyo Square, which is not the famous one, but uses the melody of \"Sukiyaki\". Speaker1 shared their familiarity with the song \"Sukiyaki\" and explained how the Tokyo Square song adapted the melody, making them feel sad and blue. Speaker2 acknowledged the conversation, but expressed limited familiarity with the song.",
+            "model_prediction": "The speaker mentions that a song called \"Tokyo Square\" is not the famous song from Tokyo Square, but rather uses the melody of a song called \"Sukiyaki\" (specifically, the song \"It's All Because of You\" by Patti Austin). The speaker notes that the lyrics are sung, but not too familiar with the song.",
+            "judge_response": "Explanation: The reference answer highlights the discussion between two speakers about a song from Tokyo Square, which is not the famous one, but uses the melody of \"Sukiyaki\", making Speaker1 feel sad and blue, while Speaker2 is not familiar with the song. In contrast, the model's answer focuses on the melody adaptation but lacks the context of the conversation, the speakers' opinions, and the emotional aspect mentioned in the reference. The model's answer also mentions a specific song \"It's All Because of You\" by Patti Austin, which is not present in the reference. \nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Could you help provide a summary of the audio details?",
+            "reference": "Speaker1 shared a humorous anecdote about a situation where someone's nasi (rice) went missing, possibly eaten by the driver, and expressed amusement at the absurdity of the situation. Speaker2 responded by asking if Speaker1 ended up eating the nasi in the end.",
+            "model_prediction": "The audio transcription appears to be a conversation in Malay, where the speaker is discussing a situation where someone (dorang) ate someone else's food (nasi) and then laughed or joked about it, and the speaker is wondering what would happen if they were in that situation.",
+            "judge_response": "Explanation: The reference answer is a specific summary of a conversation where Speaker1 shares a humorous anecdote about someone's nasi going missing, and Speaker2 responds with a question. In contrast, the model's answer is a vague summary of a situation where someone ate someone else's food and then laughed or joked about it, without capturing the conversational structure and specific details of the reference answer. I think the model's answer lacks precision and relevance to the reference.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Could you offer a brief summary of what the audio contains?",
+            "reference": "Speaker1 and Speaker2 discussed an encounter with someone who shared a cake and had a lengthy WhatsApp conversation about a noise issue. Speaker1 mentioned that the person had the same name as someone else and acknowledged that their family was responsible for the noise. Speaker2 asked clarifying questions, including the meaning of \"默认\" (acknowledging/guilty), which Speaker1 explained.",
+            "model_prediction": "The audio transcription describes a conversation about a person who exchanged numbers with someone and had a lengthy WhatsApp conversation about a noise they've been hearing. The person is discussing how the other person sent them cake and is acknowledging that their family is responsible for the noise.",
+            "judge_response": "Explanation: The reference answer provides a detailed summary of the conversation, including the person sharing a cake, the lengthy WhatsApp conversation about a noise issue, and the acknowledgement of responsibility for the noise. The model's answer, on the other hand, only mentions the cake and the acknowledgement of responsibility, but omits the WhatsApp conversation and the detail about the person's name being the same as someone else. \n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Can I get your help to summarize what’s in the audio?",
+            "reference": "Speaker1 and Speaker2 reflected on their past relationship, with Speaker1 sharing a dream they had about still being together. However, they realized that the breakup was the right decision, as they genuinely didn't want to be in the relationship anymore. Speaker2 agreed, adding that it can be difficult to distinguish between genuinely liking someone and craving companionship.",
+            "model_prediction": "The audio transcription is about a person who had a dream about being back together with an ex, which made them realize they were better off without them and didn't want to be in the relationship.",
+            "judge_response": "Explanation: The reference answer provides details about the conversation between Speaker1 and Speaker2, including the realization that the breakup was the right decision and the difficulty of distinguishing between genuinely liking someone and craving companionship. The model's answer, on the other hand, only focuses on the dream and the realization that the person is better off without their ex, omitting the conversational aspect and the additional insight shared by Speaker2. I think the model's answer lacks detail and precision compared to the reference.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Could you break down the important parts of the audio for me?",
+            "reference": "Speaker1 and Speaker2 discussed the topic of perception and interpretation, highlighting the importance of having the strength to process information accurately. Speaker1 emphasized that even with strength, one can still interpret things wrongly, leading to sadness and misjudgment. Speaker2 shared their experience, acknowledging that sometimes they are weak and may misinterpret others' thoughts, leading to negative conclusions about others.",
+            "model_prediction": "The important parts of the audio transcription are:\n\n* The speaker's assertion that others talk about them without meaning it, and their inability to process this.\n* The speaker's claim that they themselves have the strength to process this information.\n* The acknowledgement that people can misinterpret what's being said.\n* The recognition that people can be weak and struggling, even if they appear to have strength.\n* The idea that it's possible for people to find out if things are getting better for them.",
+            "judge_response": "Explanation: The reference answer highlights the importance of processing information accurately, the possibility of misinterpretation, and the acknowledgment of personal weaknesses. In contrast, the model's answer focuses on the speaker's ability to process information, the possibility of misinterpretation, and the recognition of personal weaknesses, but includes an unrelated point about finding out if things are getting better. The model's answer also misinterprets the reference by mentioning the speaker's assertion about others talking about them without meaning it, which is not present in the reference.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Could you offer a brief summary of what the audio contains?",
+            "reference": "Speaker1 and Speaker2 attempted to figure out the zodiac sign associated with a specific date range, starting and ending in September. They eliminated Scorpio, Gemini, and Sagittarius as possibilities, but were unable to determine the correct sign. The conversation was more focused on the process of elimination than arriving at a definitive answer.",
+            "model_prediction": "The audio contains a person trying to recall the sequence of zodiac signs, starting from the beginning of the year, with some confusion and uncertainty about the correct order.",
+            "judge_response": "Explanation: The reference answer is focused on Speaker1 and Speaker2 trying to figure out a specific zodiac sign associated with a date range in September, eliminating certain signs, and not arriving at a definitive answer. In contrast, the model's answer is more general, stating that the audio contains a person trying to recall the sequence of zodiac signs with some confusion. The model's answer lacks specific details about the date range, the elimination process, and the uncertainty of the speakers. I think the model's answer only captures the general idea of the conversation being about zodiac signs, but misses the key points mentioned in the reference answer.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        }
+    ]
+}

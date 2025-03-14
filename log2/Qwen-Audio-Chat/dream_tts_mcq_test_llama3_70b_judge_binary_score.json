@@ -1,0 +1,168 @@
+{
+    "llama3_70b_judge_binary": {
+        "judge_score": 59.69681129116571,
+        "success_rate": 0.9989545216936748
+    },
+    "details": [
+        {
+            "question": "Question:\nWhat can we conclude about the movie?\n Choices:\n(A) They want to buy the tickets for the movie.\n(B) The tickets for the movie were sold.\n(C) The movie will not be shown.",
+            "reference": "(C) The movie will not be shown.",
+            "model_prediction": "The woman says \"What do you mean? Well, by last night only a few tickets have been sold.\" So, we can conclude that the movie has been cancelled due to lack of interest.",
+            "judge_response": "Explanation: The reference answer is \"(C) The movie will not be shown\", which directly states the conclusion about the movie. The model's answer explains the reason behind the conclusion, \"the movie has been cancelled due to lack of interest\", which is relevant and accurate. I think the model's answer is a correct interpretation of the reference.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "Question:\nWhat do we usually refer to when we talk about energy according to the man?\n Choices:\n(A) Coal burnt daily for the comfort of our homes.\n(B) Anything that can be used to produce power.\n(C) Fuel refined from oil extracted from underground.",
+            "reference": "(C) Fuel refined from oil extracted from underground.",
+            "model_prediction": "The man is referring to (C) fuel refined from oil extracted from underground when he says, \"When we think of energy or fuel for our homes and cars, we think of petroleum - a fossil fuel processed from oil removed from the ground, of which there is a limited supply, but alternative fuels can be many things - wind, sun, and water can all be used to create fuel.\"",
+            "judge_response": "Explanation: The reference answer is (C) Fuel refined from oil extracted from underground, which is accurately matched by the model's answer that explains the man is referring to fuel refined from oil extracted from underground when talking about energy. The model's response is relevant and identical to the reference answer, capturing its exact meaning.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "Question:\nWhat do most experts agree on according to the man?\n Choices:\n(A) Oil will soon be replaced by alternative energy sources.\n(B) Oil production will begin to decline worldwide by 2025.\n(C) Oil consumption has given rise to many global problems.",
+            "reference": "(B) Oil production will begin to decline worldwide by 2025.",
+            "model_prediction": "The man is speaking about the term \"alternative energy source\" and its meaning. He explains that when we think of energy or fuel for our homes and cars, we typically think of petroleum, a fossil fuel that is extracted from the ground and has a limited supply. However, he notes that alternative fuels can be many things, such as wind, sun, and water, which can all be used to create fuel. He also mentions that the threat of running out of petroleum is real, but it has taken thousands of years to create the natural stores of petroleum that we have available. Therefore, he believes that we have available.",
+            "judge_response": "Explanation: The reference answer is (B) Oil production will begin to decline worldwide by 2025, which is not explicitly mentioned in the model's response. The model's answer focuses on explaining alternative energy sources and the limited supply of petroleum, but does not provide a specific timeline for oil production decline. I think the model's response is not accurate and relevant to the reference answer.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Question:\nWhat does the man think we should do now?\n Choices:\n(A) Minimize the use of fossil fuels.\n(B) Start developing alternative fuels.\n(C) Find the real cause for global warming.",
+            "reference": "(B) Start developing alternative fuels.",
+            "model_prediction": "The man thinks we should start developing alternative fuels.",
+            "judge_response": "Explanation: The reference answer is \"(B) Start developing alternative fuels\", which explicitly states the action the man thinks we should do. The model's answer is \"The man thinks we should start developing alternative fuels\", which accurately conveys the same meaning. I think the model's response is a perfect match with the reference answer.\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "Question:\nWhat does the man mean?\n Choices:\n(A) He knows John well enough.\n(B) John won't know at all.\n(C) John would be the one to ask.",
+            "reference": "(B) John won't know at all.",
+            "model_prediction": "The man says: \"Should I ask John what we have to read for tomorrow? How would he know? Bines.\". Based on the context, it seems like the man is asking if he should ask John about the reading material for the next day. However, the man is unsure if John would know about it, so he mentions Bines as a possible option. Therefore, the most likely choice is (A) He knows John well enough.",
+            "judge_response": "Explanation: The reference answer is (B) John won't know at all, indicating that the man is expressing his doubt about John's knowledge. However, the model's answer is (A) He knows John well enough, which is unrelated to the man's doubt about John's knowledge. The model's response does not accurately capture the meaning of the reference.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Question:\nWhen will the film begin?\n Choices:\n(A) At six fifty\n(B) At seven\n(C) At seven fifty",
+            "reference": "(B) At seven",
+            "model_prediction": "The answer is (A) At six fifty.",
+            "judge_response": "Explanation: The reference answer is (B) At seven, while the model's answer is (A) At six fifty. I think the model's response is incorrect and does not match the reference answer.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Question:\nWhere does the conversation most probably take place?\n Choices:\n(A) In an office.\n(B) In a museum.\n(C) In a clothing store.",
+            "reference": "(C) In a clothing store.",
+            "model_prediction": "The conversation most probably takes place in a clothing store.",
+            "judge_response": "Explanation: The reference answer is \"(C) In a clothing store\", while the model's answer is \"The conversation most probably takes place in a clothing store.\" I think the model's response accurately mirrors the reference answer, providing the same location where the conversation takes place.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "Question:\nWhy is the woman trying to find a new job?\n Choices:\n(A) She is thirsty for promotion.\n(B) She is tired of her present work.\n(C) She wants a much higher salary.",
+            "reference": "(B) She is tired of her present work.",
+            "model_prediction": "The woman is trying to find a new job because she is \"fed up with my job\" and \"there's a perfect job for you in the paper today\" as heard in the audio.",
+            "judge_response": "Explanation: The reference answer is (B) She is tired of her present work, which is supported by the model's answer mentioning \"fed up with my job\". The model's answer provides relevant information from the audio and accurately explains why the woman is trying to find a new job. Although the model's answer is not a direct copy of the reference answer, it conveys the same meaning and relevance.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "Question:\nWhat position is being advertised in the paper?\n Choices:\n(A) Language instructor.\n(B) Environmental engineer.\n(C) Translator.",
+            "reference": "(C) Translator.",
+            "model_prediction": "The position being advertised in the paper is (C) Translator.",
+            "judge_response": "Explanation: The reference answer is \"(C) Translator\", while the model's answer is \"The position being advertised in the paper is (C) Translator.\" I think the model's answer is a correct rephrasing of the reference answer, maintaining the same content and accuracy.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "Question:\nWhat are the key factors that determine the salary of the new position?\n Choices:\n(A) Devotion and work efficiency.\n(B) Lively personality and inquiring mind.\n(C) Education and experience.",
+            "reference": "(C) Education and experience.",
+            "model_prediction": "The key factors that determine the salary of the new position are (C) Education and experience.",
+            "judge_response": "Explanation: The reference answer is \"(C) Education and experience\", a concise answer directly selecting an option. The model's answer is a complete sentence that states the key factors, which is a rephrased version of the correct answer. I think the model's answer is correct and relevant to the reference.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "Question:\nWhich is true according to the woman?\n Choices:\n(A) She lives a sad life.\n(B) She is living a happy life.\n(C) She is happy.",
+            "reference": "(B) She is living a happy life.",
+            "model_prediction": "(B) She is living a happy life.",
+            "judge_response": "Explanation: The reference answer is \"She is living a happy life\", and the model's answer is also \"She is living a happy life\". They are identical, indicating that the model has accurately captured the correct answer.\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "Question:\nWhy does the woman buy a new bike?\n Choices:\n(A) The old one is broken.\n(B) She doesn't like the old one.\n(C) The old one is lost.",
+            "reference": "(A) The old one is broken.",
+            "model_prediction": "The woman buys a new bike because the old one doesn't work well.",
+            "judge_response": "Explanation: The reference answer is \"The old one is broken\", stating a clear and concise reason for the woman buying a new bike. The model's answer is \"The woman buys a new bike because the old one doesn't work well\", which is similar but not exactly the same. The model's answer is more descriptive and implies the old bike is broken, but it doesn't directly state it. I think the model's answer is close but not identical to the reference answer.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "Question:\nWhat did the woman do yesterday evening?\n Choices:\n(A) She ate out.\n(B) She watched TV.\n(C) She watched a match.",
+            "reference": "(A) She ate out.",
+            "model_prediction": "The woman said \"No, I didn't. I had dinner with a friend and didn't go back home until eight o'clock.\" (B)",
+            "judge_response": "Explanation: The reference answer is \"She ate out\", which is a concise answer to the question. The model's answer is a more detailed response that implies she ate out, but also provides additional information about having dinner with a friend and her return time. I think the model's answer is relevant and accurate, but not exactly aligning with the brevity and specific focus of the reference answer.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "Question:\nWhat does the woman mean?\n Choices:\n(A) She can help the man.\n(B) The machine was just repaired.\n(C) The clerk doesn't like to be troubled.",
+            "reference": "(A) She can help the man.",
+            "model_prediction": "The woman means (C) The clerk doesn't like to be troubled.",
+            "judge_response": "Explanation: The reference answer is (A) She can help the man, while the model's answer is (C) The clerk doesn't like to be troubled. I think the model's answer is incorrect and irrelevant to the reference answer.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Question:\nWhat can we learn about Linda?\n Choices:\n(A) She has been staying in the U.S. for 12 years.\n(B) She went to America at the age of 12.\n(C) She didn't leave the U.S. until she was 12.",
+            "reference": "(C) She didn't leave the U.S. until she was 12.",
+            "model_prediction": "The woman says \"Don't you know her family lived in the U.S. until she was twelve years old? She's never forgotten her English.\" So we can learn that Linda lived in the U.S. until she was 12 years old and that she has never forgotten her English.",
+            "judge_response": "Explanation: The reference answer is (C) She didn't leave the U.S. until she was 12, which specifically states when Linda left the U.S. The model's answer is \"Linda lived in the U.S. until she was 12 years old...\", which conveys the same information. I think the model's answer accurately captures the meaning from the reference.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "Question:\nWhat's the relationship between the speakers?\n Choices:\n(A) Brother and sister.\n(B) Mother and son.\n(C) Classmates.",
+            "reference": "(C) Classmates.",
+            "model_prediction": "The relationship between the speakers is not mentioned in the audio.",
+            "judge_response": "Explanation: The reference answer is \"(C) Classmates\", which provides a specific relationship between the speakers. In contrast, the model's answer is \"The relationship between the speakers is not mentioned in the audio\", which is a vague statement that does not provide a concrete relationship. I think this response is avoiding giving a concrete result, which is not aligning with the reference answer.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Question:\nWhat are they going to do?\n Choices:\n(A) They are going to have an exam.\n(B) They are going to travel.\n(C) They are going to buy a watch.",
+            "reference": "(A) They are going to have an exam.",
+            "model_prediction": "The conversation is about someone almost being late for an exam, so they are going to hurry and pack their things. They mention that if they are late, the teachers won't let them in, so they need to be ready. Someone else asks if they need money for the exam, and someone else responds that they don't need money because they are having the exam. Someone else asks if they are going to be late, and someone else responds that they are almost ready and will be there on time.",
+            "judge_response": "Explanation: The reference answer is \"They are going to have an exam\", which explicitly states the action that they are going to take. The model's answer, on the other hand, provides a summary of the conversation but does not explicitly state the action they are going to take. While the model's answer is related to the reference, it does not directly answer the question.\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Question:\nWhat does the woman think of the man?\n Choices:\n(A) He is very serious.\n(B) He is too careless.\n(C) He is very lazy.",
+            "reference": "(B) He is too careless.",
+            "model_prediction": "The woman's response suggests that she thinks the man is being careless. She says \"one minute please, I'm packing my things\" and \"we'll be late if you don't hurry,\" which implies that she is in a hurry and the man is not moving quickly enough. Additionally, she says \"the teachers won't let us in if we are late,\" which suggests that she is concerned about being late for an important event. Overall, her response suggests that she thinks the man is being careless and not taking the situation seriously enough.",
+            "judge_response": "Explanation: The reference answer is \"He is too careless\", and the model's answer correctly interprets the conversation between the woman and the man, stating that the woman thinks the man is being careless and not taking the situation seriously enough. The model's answer aligns perfectly with the reference answer, capturing the same meaning and interpretation.\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "Question:\nAt what time can Mr. James Potter call Martin Richard on his mobile?\n Choices:\n(A) Before 6:00 p.m.\n(B) After 6:00 p.m.\n(C) Anytime that day.",
+            "reference": "(C) Anytime that day.",
+            "model_prediction": "The message states that Mr. James Potter isn't available right now, but would like to leave a message. Martin Richard is from Sun Electronics and it's very important that he returns his call this afternoon. The message ends with \"Does he have your office number and your mobile phone number?\" and \"I think so, but let me give them to you again.\" Therefore, the answer is (C) Anytime that day.",
+            "judge_response": "Explanation: The reference answer is \"(C) Anytime that day\", which indicates that Mr. James Potter can call Martin Richard anytime that day. The model's answer is also \"(C) Anytime that day\", and it provides a clear explanation based on the message content, accurately identifying the time when Mr. James Potter can call Martin Richard on his mobile.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "Question:\nWhat did the doctor advise the man to do?\n Choices:\n(A) To take less wine.\n(B) To give up smoking.\n(C) Not to drink hard drinks.",
+            "reference": "(C) Not to drink hard drinks.",
+            "model_prediction": "The doctor advised the man to not drink hard drinks.",
+            "judge_response": "Explanation: The reference answer is \"(C) Not to drink hard drinks\", while the model's answer is \"The doctor advised the man to not drink hard drinks.\" I think the model's answer is a correct paraphrased version of the reference answer, maintaining the same content, accuracy, and relevance.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        }
+    ]
+}

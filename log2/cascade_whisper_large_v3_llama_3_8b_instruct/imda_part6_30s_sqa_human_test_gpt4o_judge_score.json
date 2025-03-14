@@ -1,0 +1,168 @@
+{
+    "gpt4o_judge": {
+        "judge_score": 67.0,
+        "success_rate": 1.0
+    },
+    "details": [
+        {
+            "question": "What discounts are available for travel bookings in December?",
+            "reference": "Speaker1 shares that a 50% discount is available for December bookings, reducing the per-person cost from $2,500 to around $1,000, excluding customizations.",
+            "model_prediction": "A 50% discount is available for all travel packages booked in December.",
+            "judge_response": "Explanation: The reference answer specifies that a 50% discount is available for December bookings, which reduces the per-person cost from $2,500 to around $1,000, excluding customizations. The model's answer states that a 50% discount is available for all travel packages booked in December, but it omits the specific details about the price reduction from $2,500 to $1,000 and the exclusion of customizations. While the model's answer captures the main point of the discount, it lacks the details provided in the reference answer, such as the initial cost, the reduced cost, and the exclusion of customizations. Therefore, the model's answer is generally aligned with the reference but is not as detailed or accurate.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "What payment options does AXS provide for bill payments?",
+            "reference": "AXS offers physical stations, E-station for online access, and M-station through a mobile app.",
+            "model_prediction": "AXS provides payment options such as physical station, E station (online), and M station (mobile app) for bill payments.",
+            "judge_response": "Explanation: The reference answer is \"AXS offers physical stations, E-station for online access, and M-station through a mobile app.\" The model's answer is \"AXS provides payment options such as physical station, E station (online), and M station (mobile app) for bill payments.\" Both answers mention the same three payment methods: physical stations, E-station (online), and M-station (mobile app). The model's response is accurate and captures the essence and detail of the reference answer. The phrasing is slightly different, but the content is identical in terms of the options provided by AXS. Therefore, the model's answer is highly accurate and matches the reference answer perfectly.\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "What feedback did Speaker1 provide about the room?",
+            "reference": "Speaker1 mentioned the room was good, with everything working well, and praised the cleaning crew for efficiently addressing an incident involving their child.",
+            "model_prediction": "The room was good, and everything was working fine, except for the fact that the speaker's boy threw up in the room.",
+            "judge_response": "Explanation: The reference answer is \"Speaker1 mentioned the room was good, with everything working well, and praised the cleaning crew for efficiently addressing an incident involving their child.\" The model's answer is \"The room was good, and everything was working fine, except for the fact that the speaker's boy threw up in the room.\" The model's answer captures the general positive feedback about the room being good and everything working fine. However, it omits the praise for the cleaning crew, which is a significant detail in the reference. Additionally, the model's answer seems to put more emphasis on the incident with the child rather than on the efficient response by the cleaning crew, which is more central in the reference answer. Therefore, the model's answer is generally aligned with the reference but lacks detail and accuracy regarding the cleaning crew's role.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "What is Speaker1 going to send to the listener to help them make a decision regarding insurance they want?",
+            "reference": "Speaker1 will send more detailed information regarding the first tier and perhaps the business tier.",
+            "model_prediction": "Speaker1 is going to send an email to the listener with more detailed information regarding the first tier and business tier of insurance options.",
+            "judge_response": "Explanation: The reference answer states that Speaker1 will send more detailed information regarding the first tier and perhaps the business tier, without specifying the method of communication. The model's answer, however, specifies that this information will be sent via email and includes both the first tier and business tier of insurance options. While the model adds the detail of email communication and slightly expands on the business tier by not using \"perhaps,\" it captures the essence of the reference by identifying the content of the information being sent. However, the model's answer includes slightly more detail than the reference specifies, introducing an assumption about the method of communication. \n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "How long does it take to approve and receive a credit card?",
+            "reference": "Approval takes 3-5 working days, and the card will be received within 1-2 weeks (7-14 days total).",
+            "model_prediction": "It takes about 3 to 5 working days for approval, and then you should receive your card within 1 to 2 weeks, which is 7 to 14 days.",
+            "judge_response": "Explanation: The reference answer states that the approval process takes 3-5 working days, and the card will be received within 1-2 weeks, resulting in a total time of 7-14 days. The model's answer conveys the same information, specifying that approval takes 3 to 5 working days and the card will be received within 1 to 2 weeks, which also totals to 7 to 14 days. Both answers are consistent in terms of content, accuracy, and relevance, effectively capturing the necessary details regarding the timeline for approving and receiving a credit card.\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "What promotion is offered for the new card?",
+            "reference": "New customers applying within the next month will have their first month’s annual fee of $120 waived.",
+            "model_prediction": "The promotion offered for the new card is the first month of annual fees being waived off.",
+            "judge_response": "Explanation: The reference answer is \"New customers applying within the next month will have their first month’s annual fee of $120 waived,\" while the model's answer is \"The promotion offered for the new card is the first month of annual fees being waived off.\" I think the model's answer generally aligns with the reference answer as it correctly identifies the promotion of waiving the first month's annual fee. However, the model's answer lacks detail, such as specifying that the fee is $120 and that the promotion is available to new customers applying within the next month. Due to the absence of these specific details, the model's answer is not as detailed or precise as the reference.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Feedback on room service delays during a stay",
+            "reference": "Speaker1 reports long delays in room service delivery, needing to call twice for assistance during their stay.",
+            "model_prediction": "The guest experienced a delay in room service delivery, with a long wait after calling the front desk to request food, and had to call again to follow up on the status.",
+            "judge_response": "Explanation: The reference answer is \"Speaker1 reports long delays in room service delivery, needing to call twice for assistance during their stay,\" while the model's answer is \"The guest experienced a delay in room service delivery, with a long wait after calling the front desk to request food, and had to call again to follow up on the status.\" Both answers convey the issue of delays in room service and the need to call twice. However, the model's answer slightly diverges by adding the detail about requesting food specifically, which was not explicitly mentioned in the reference. Despite this minor addition, the model's answer captures the main issue of service delay and the necessity of multiple calls, aligning well with the reference.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "What are the eligibility criteria for travel insurance?",
+            "reference": "Speaker1 confirms that applicants must be Singaporean and reside in Singapore for at least 183 days annually to qualify for travel insurance.",
+            "model_prediction": "To be eligible to apply for the travel insurance, you must be a Singaporean and live in Singapore for at least 183 days in a year.",
+            "judge_response": "Explanation: The reference answer states that to qualify for travel insurance, applicants must be Singaporean and reside in Singapore for at least 183 days annually. The model's answer conveys the same information, specifying that applicants must be Singaporean and live in Singapore for at least 183 days in a year. Both answers are aligned in terms of content, accuracy, and relevance, with no significant discrepancies or omissions. The model's response is clear and captures the essential details from the reference answer.\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "How much does Speaker2 spend monthly, and what payment methods are discussed?",
+            "reference": "Speaker2 spends about $1,000 monthly, and Speaker1 inquires about credit card usage and GIRO for insurance payments.",
+            "model_prediction": "Speaker2 spends at least $1,000 monthly on expenses, and currently uses a credit card to pay for insurance, food, and transport, specifically mentioning the credit card being used for insurance payments.",
+            "judge_response": "Explanation: The reference answer indicates that Speaker2 spends about $1,000 monthly and mentions an inquiry about credit card usage and GIRO for insurance payments. The model's answer states that Speaker2 spends at least $1,000 monthly on expenses and uses a credit card for insurance, food, and transport, specifically mentioning the credit card being used for insurance payments. The model's answer captures the essence of the reference by stating the monthly spending and mentioning the credit card usage for insurance payments. However, it does not mention the inquiry about GIRO for insurance payments, which is a detail present in the reference. While the model's response is mostly accurate, it lacks the detail about the GIRO inquiry. \n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "What kind of trip is Speaker1 planning in Australia?",
+            "reference": "Speaker1 is planning a free and easy trip, renting a car and sightseeing without participating in high-risk activities.",
+            "model_prediction": "A free and easy trip, involving sightseeing and traveling around Australia by renting a car.",
+            "judge_response": "Explanation: The reference answer is \"Speaker1 is planning a free and easy trip, renting a car and sightseeing without participating in high-risk activities,\" while the model's answer is \"A free and easy trip, involving sightseeing and traveling around Australia by renting a car.\" I think the model's answer aligns well with the reference in terms of the trip being \"free and easy,\" involving \"sightseeing,\" and \"renting a car.\" However, the model's response does not explicitly mention the aspect of avoiding \"high-risk activities,\" which is a detail included in the reference answer. This omission makes the model's response slightly less detailed and precise compared to the reference.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "How can a father benefit from shared maternity leave?",
+            "reference": "If eligible, the mother can share her government-paid maternity leave with the father by declaring her intention to do so before consuming the leave.",
+            "model_prediction": "A father can benefit from shared maternity leave by being eligible under the government-paid maternity leave scheme, having a Singaporean child, and declaring his intention to share the leave benefits with the mother, allowing him to take the leave and use the benefits.",
+            "judge_response": "Explanation: The reference answer states that the mother can share her government-paid maternity leave with the father by declaring her intention to do so before consuming the leave. The model's answer adds additional details, specifying that the father must be eligible under the government-paid maternity leave scheme, have a Singaporean child, and declare his intention to share the leave benefits with the mother. While the model's answer is mostly aligned with the reference, it introduces extra conditions for the father that are not mentioned in the reference. These additions are not incorrect but they slightly diverge from the simplicity of the reference answer. Therefore, the model's answer is mostly accurate and relevant, closely following the reference but could be clearer or more detailed in directly matching it.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "What do the parking lot color codes mean?",
+            "reference": "Speaker2 explains that red is for season parking holders, red-white is bi-colored, white is a general lot, and yellow indicates another specific category.",
+            "model_prediction": "The parking lot color codes are: Red, White and White (bi-coloured), White, and Yellow, which correspond to different types of parking lots.",
+            "judge_response": "Explanation: The reference answer specifies the meanings of the parking lot color codes as follows: red for season parking holders, red-white as bi-colored, white as a general lot, and yellow for another specific category. The model's answer lists the color codes as Red, White and White (bi-coloured), White, and Yellow, but fails to accurately describe what each color code represents in terms of parking lot categories. The model's response is missing crucial details and explanations provided in the reference answer, leading to a lack of clarity and precision. Hence, it does not fully capture the essence and detail of the reference.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "What is the promotional Christmas deal mentioned by Speaker2?",
+            "reference": "Speaker2 mentions a promotional deal where a log cake can be added to a meal for $10, reduced from the usual price of $30.",
+            "model_prediction": "The promotional Christmas deal is a log cake added to the meal at a discounted price of $10, instead of the usual price of $30.",
+            "judge_response": "Explanation: The reference answer is \"Speaker2 mentions a promotional deal where a log cake can be added to a meal for $10, reduced from the usual price of $30,\" while the model's answer is \"The promotional Christmas deal is a log cake added to the meal at a discounted price of $10, instead of the usual price of $30.\" I think the model's answer closely aligns with the reference answer. Both mention the promotional deal involving a log cake added to a meal at a discounted price of $10, reduced from the usual price of $30. The model's response captures the essence and detail of the reference answer accurately.\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "What is the restaurant’s process for catering for 15 guests?",
+            "reference": "Speaker2 explains that the restaurant can cater for 15 guests and requires details about the dishes to be ordered to provide recommendations.",
+            "model_prediction": "The restaurant's process for catering for 15 guests is to require the guest to provide the dishes they intend to order, and the restaurant will advise them along the way.",
+            "judge_response": "Explanation: The reference answer states that the restaurant can cater for 15 guests and requires details about the dishes to be ordered to provide recommendations. The model's answer reflects this by explaining that the restaurant's process involves requiring the guest to provide the dishes they intend to order, and then the restaurant advises them along the way. Both answers are discussing the same process where guest input on the dishes is needed for the restaurant to provide recommendations. The model's answer captures the essence of the reference and aligns closely with it, though it could have been slightly clearer by explicitly stating that the restaurant can cater for 15 guests as well. Overall, the model's answer is mostly accurate and relevant to the reference.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "Why is Speaker2 unsure about the travel duration?",
+            "reference": "Speaker2 explains they will only know the duration after completing their work and estimate a maximum of six weeks, not planning to book flights yet.",
+            "model_prediction": "The Speaker2 is unsure about the travel duration because they only know the maximum duration, which is 6 weeks, and the earliest possible duration, which is 4 weeks, but they cannot confirm the exact duration until they complete the work.",
+            "judge_response": "Explanation: The reference answer states that Speaker2 will only know the duration after completing their work and estimates a maximum of six weeks, without plans to book flights yet. The model's answer mentions Speaker2 is unsure about the travel duration, knowing only the maximum duration of 6 weeks and an earliest possible duration of 4 weeks, but cannot confirm the exact duration until the work is completed. While the model's answer captures the uncertainty about the duration and mentions the maximum duration, it introduces an additional detail (4 weeks) not present in the reference and omits the part about not planning to book flights yet. Hence, the model's response is somewhat aligned but includes a detail not mentioned in the reference and misses a point from it.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "How can Speaker2 apply for a credit card near their location?",
+            "reference": "Speaker1 explains that a branch near Junction 8 is available for applying in person, or it can be done online via Singpass through A B C Bank's website.",
+            "model_prediction": "Speaker2 can apply for a credit card by visiting any of the bank's branches at Junction 8.",
+            "judge_response": "Explanation: The reference answer provides two options for Speaker2 to apply for a credit card: by visiting a branch near Junction 8 or by applying online via Singpass on A B C Bank's website. The model's answer only mentions visiting any of the bank's branches at Junction 8, omitting the online application option. While the model's answer is partially accurate, it lacks completeness and detail compared to the reference answer, which explicitly mentions the online application route. Therefore, the model's response aligns generally with the reference but misses a significant part of the information provided.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "What does Speaker1 recommend for someone unable to travel?",
+            "reference": "Speaker1 recommends a cashback card for spending on online purchases, food delivery, and petrol.",
+            "model_prediction": "The speaker recommends the cashback option for someone unable to travel.",
+            "judge_response": "Explanation: The reference answer suggests that Speaker1 recommends a cashback card for online purchases, food delivery, and petrol. The model's answer states that the speaker recommends the cashback option for someone unable to travel. While the model's response touches on the concept of a cashback option, it misses the specific details provided in the reference answer about spending categories like online purchases, food delivery, and petrol. Therefore, the model's answer is somewhat related to the topic but diverges significantly in terms of accuracy and relevance to the specifics mentioned in the reference answer.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Why did Speaker1 delay submitting the bill?",
+            "reference": "Speaker1 delayed submitting the bill because they couldn't find the notice number but plans to resolve it today.",
+            "model_prediction": "Speaker1 delayed submitting the appeal because they couldn't find the notice number, which is why they delayed submitting the appeal.",
+            "judge_response": "Explanation: The reference answer is \"Speaker1 delayed submitting the bill because they couldn't find the notice number but plans to resolve it today.\" The model's answer is \"Speaker1 delayed submitting the appeal because they couldn't find the notice number, which is why they delayed submitting the appeal.\" The model's answer correctly identifies that Speaker1 delayed the action due to not finding the notice number, which aligns with the reference. However, the model incorrectly refers to the action as submitting the \"appeal\" rather than the \"bill.\" This is a significant divergence in accuracy, as the task specifically asked why the bill was delayed. Despite this, the reason for the delay is correctly captured. The model answer also redundantly states the reason for the delay. Overall, the model answer aligns with the reference in capturing the reason for the delay but diverges in specifying the action related to the bill.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "What features of the hotel package does Speaker2 mention?",
+            "reference": "The package includes flexible arrangements and ensures guests don't feel pressured about decisions.",
+            "model_prediction": "The speaker mentions the following features of the hotel package: being free and easy, private, and allowing arrangements to be made as and when the guest likes to change their mind.",
+            "judge_response": "Explanation: The reference answer highlights that the package includes flexible arrangements and ensures guests don't feel pressured about decisions. In contrast, the model's answer emphasizes that the package is free and easy, private, and allows guests to change their minds about arrangements. While both answers touch on the flexibility aspect, the model's answer includes additional details like the package being private, which is not mentioned in the reference. The model's answer captures the essence of flexibility but adds information that isn't directly in the reference and lacks the emphasis on guests not feeling pressured. Overall, the model's response aligns generally with the reference but introduces elements not explicitly stated and misses some emphasis present in the reference.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "What is the school meals subsidy for primary school students?",
+            "reference": "Speaker2 clarifies that the subsidy is $2 per meal, applicable to seven meals per school week, for primary school students.",
+            "model_prediction": "The school meals subsidy for primary school students is $2 per week, applicable to 7 meals.",
+            "judge_response": "Explanation: The reference answer states that the subsidy is $2 per meal and is applicable to seven meals per school week for primary school students, making it clear that the subsidy applies to each meal individually. In contrast, the model's answer incorrectly states that the subsidy is $2 per week, which misrepresents the frequency and total value of the subsidy as described in the reference. The model's response lacks accuracy and relevance because it provides incorrect information regarding how the subsidy is applied.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        }
+    ]
+}

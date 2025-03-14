@@ -1,0 +1,168 @@
+{
+    "llama3_70b_judge": {
+        "judge_score": 18.46666666666667,
+        "success_rate": 1.0
+    },
+    "details": [
+        {
+            "question": "What is the gender of the two people speaking in the dialogue?",
+            "reference": "Both speakers are male.",
+            "model_prediction": "The gender of the speaker is female. There is no indication of the gender of Jay Chow in the provided text.",
+            "judge_response": "Explanation: The reference answer is \"Both speakers are male\", while the model's answer is \"The gender of the speaker is female. There is no indication of the gender of Jay Chow in the provided text.\" The model's answer is incorrect and irrelevant to the reference provided, as it states the speaker's gender is female, which contradicts the reference answer.\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What is the gender of the two speakers in the dialogue?",
+            "reference": "Both speakers are female.",
+            "model_prediction": "The genders of the speakers are not determinable from the provided audio transcription.",
+            "judge_response": "Explanation: The reference answer is \"Both speakers are female\", which provides a concrete and specific answer to the question. On the other hand, the model's answer is \"The genders of the speakers are not determinable from the provided audio transcription\", which refuses to give a concrete result. I think the model's answer is evasive and does not provide a direct answer to the question.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What are the genders of the two speakers in the dialogue?",
+            "reference": "The first speaker is female, and the second speaker is male.",
+            "model_prediction": "The genders of the speakers are not determinable from the provided audio transcription.",
+            "judge_response": "Explanation: The reference answer is specific about the genders of the speakers, stating that the first speaker is female and the second speaker is male. In contrast, the model's answer is vague and uncertain, stating that the genders are not determinable from the provided audio transcription. The model's answer does not align with the reference answer in terms of accuracy and relevance. \n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What are the genders of the two speakers in the dialogue?",
+            "reference": "The first speaker is male, and the second speaker is female.",
+            "model_prediction": "The genders of the speakers are not determinable from the provided audio transcription.",
+            "judge_response": "Explanation: The reference answer is specific and definitive, stating that the first speaker is male and the second speaker is female. In contrast, the model's answer is vague and uncertain, claiming that the genders of the speakers are not determinable from the provided audio transcription. I think the model's answer is evasive and lacks concrete information, which deviates from the reference answer.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What is the gender of the two speakers in the dialogue?",
+            "reference": "Both speakers are male.",
+            "model_prediction": "The gender of the speakers is not determinable from the provided audio transcription.",
+            "judge_response": "Explanation: The reference answer is \"Both speakers are male\", which provides a clear and specific answer to the question. However, the model's answer is \"The gender of the speakers is not determinable from the provided audio transcription\", which is evasive and does not provide a concrete answer. I think the model's answer is refusing to give a concrete result, providing something like 'cannot decide'.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What are the genders of the two speakers in the dialogue?",
+            "reference": "The first speaker is female, and the second speaker is male.",
+            "model_prediction": "The genders of the speakers are not identifiable from the provided audio transcription.",
+            "judge_response": "Explanation: The reference answer is specific and concrete, stating the genders of the speakers, while the model's answer is vague and uncertain, claiming that the genders cannot be identified. I think the model's answer is evasive and does not provide any useful information, which is not aligned with the reference answer.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What are the genders of the two speakers in the dialogue?",
+            "reference": "The first speaker is female and the second speaker is male.",
+            "model_prediction": "The genders of the speakers are not determinable from the provided audio transcription.\n\n\n",
+            "judge_response": "Explanation: The reference answer is specific about the genders of the speakers, stating that the first speaker is female and the second speaker is male. In contrast, the model's answer is unclear and says that the genders of the speakers are not determinable from the provided audio transcription. I think this rating should be 0 because the model's answer is refusing to give concrete results and is not providing accurate information compared to the reference.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What are the genders of the two speakers in the dialogue?",
+            "reference": "The first speaker is male and the second speaker is female.",
+            "model_prediction": "The genders of the speakers are not explicitly stated in the provided audio transcription.",
+            "judge_response": "Explanation: The reference answer is providing the genders of the speakers, stating that the first speaker is male and the second speaker is female. In contrast, the model's answer is saying that the genders of the speakers are not explicitly stated in the provided audio transcription. I think the model's response is correct because it accurately reflects the lack of information about the speakers' genders in the dialogue.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "What is the gender of the two speakers in the dialogue?",
+            "reference": "Both speakers are female.",
+            "model_prediction": "The genders of the speakers are not explicitly stated in the dialogue.",
+            "judge_response": "Explanation: The reference answer explicitly states that both speakers are female, while the model's answer claims that the genders of the speakers are not explicitly stated in the dialogue. I think the model's answer is incorrect because it avoids providing a concrete answer, which is actually available in the reference.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What are the genders of the two speakers in the dialogue?",
+            "reference": "The first speaker is male, and the second speaker is female.",
+            "model_prediction": "The audio transcription does not provide information about the genders of the speakers.",
+            "judge_response": "Explanation: The reference answer is providing a concrete gender for each speaker, while the model's answer is stating that the audio transcription does not provide information about the genders of the speakers. I think the model's answer is correct because it accurately reflects the limitations of the audio transcription, and it is a more neutral and objective response.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "What is the gender of the two speakers in the dialogue?",
+            "reference": "Both speakers are female.",
+            "model_prediction": "The genders of the speakers are not determinable from the provided audio transcription.",
+            "judge_response": "Explanation: The reference answer is that both speakers are female, whereas the model's answer is that the genders of the speakers are not determinable from the provided audio transcription. I think the model's answer is not accurate and relevant to the reference, as the reference provides a clear answer.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What is the gender of the speakers in the dialogue?",
+            "reference": "Both speakers are female.",
+            "model_prediction": "Female",
+            "judge_response": "Explanation: The reference answer is \"Both speakers are female\", while the model's answer is simply \"Female\". I think the model's answer is somewhat brief, but it still conveys the correct information that the speakers are female. \n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "What is the gender of the speaker in the audio clip?",
+            "reference": "The gender of the speaker is male.",
+            "model_prediction": "The gender of the speaker is not determinable from the provided audio transcription.",
+            "judge_response": "Explanation: The reference answer is a direct statement that the gender of the speaker is male, while the model's answer is ambiguous, stating that the gender is not determinable from the provided audio transcription. I think the model's answer is evasive and doesn't provide a concrete result, which doesn't align with the reference answer.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What is the gender of the two people speaking in the dialogue?",
+            "reference": "The first speaker is female and the second speaker is male.",
+            "model_prediction": "The genders of the speakers are not determinable from the provided audio transcription.",
+            "judge_response": "Explanation: The reference answer clearly states the gender of the speakers, whereas the model's answer claims that the genders are not determinable. I think the model's answer is refusing to provide a concrete result, which doesn't align with the reference answer.\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What are the genders of the two speakers in the dialogue?",
+            "reference": "The first speaker is male, and the second speaker is female.",
+            "model_prediction": "The genders of the speakers are not determinable from the provided audio transcription.",
+            "judge_response": "Explanation: The reference answer is specific about the genders of the speakers, stating that the first speaker is male and the second speaker is female. In contrast, the model's answer is evasive, claiming that the genders of the speakers are not determinable from the provided audio transcription. I think the model's answer is avoiding giving a concrete result.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What is the gender of the speaker in the audio clip?",
+            "reference": "The gender of the speaker is male.",
+            "model_prediction": "The audio does not provide information about the speaker's gender.",
+            "judge_response": "Explanation: The reference answer is that the gender of the speaker is male, but the model's answer is that the audio does not provide information about the speaker's gender. I think the model's answer is correct in the sense that it does not make an assumption or provide incorrect information, but it does not align with the reference answer.\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What is the gender of the two people speaking in the dialogue?",
+            "reference": "Both speakers are female.",
+            "model_prediction": "The gender of the speakers is not determinable from the provided audio transcription.",
+            "judge_response": "Explanation: The reference answer is specific, stating that both speakers are female, while the model's answer is vague, saying that the gender of the speakers is not determinable from the provided audio transcription. I think the model's answer is evasive and doesn't provide a concrete result, which aligns with a score of 0.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What is the gender of the speakers in the conversation?",
+            "reference": "Both speakers are female.",
+            "model_prediction": "The gender of the speakers is not determinable from the provided audio transcription.",
+            "judge_response": "Explanation: The reference answer is clear that both speakers are female, whereas the model's answer is uncertain, stating that the gender is not determinable from the provided audio transcription. I think the model's answer is refusing to give a concrete result, which does not align with the reference answer.\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What is the gender of the two people speaking in the dialogue?",
+            "reference": "The first speaker is female and the second speaker is male.",
+            "model_prediction": "The genders of the speakers are not determinable from the provided audio transcription.",
+            "judge_response": "Explanation: The reference answer clearly states the genders of the speakers, whereas the model's answer is vague and indecisive, claiming that the genders are not determinable from the provided audio transcription. I think the model's answer is evasive and lacks concrete information compared to the reference.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What is the gender of the two speakers engaged in the conversation?",
+            "reference": "Both speakers are female.",
+            "model_prediction": "The gender of the speakers is not determinable from the provided audio transcription.",
+            "judge_response": "Explanation: The reference answer is \"Both speakers are female\", which provides a clear and concrete gender identification for the speakers. In contrast, the model's answer is \"The gender of the speakers is not determinable from the provided audio transcription\", which is vague and uncertain. I think the model's answer is refusing to give a concrete result, and the information provided is incorrect compared to the reference.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        }
+    ]
+}

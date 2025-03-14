@@ -1,0 +1,168 @@
+{
+    "llama3_70b_judge_binary": {
+        "judge_score": 43.03333333333333,
+        "success_rate": 0.9976666666666667
+    },
+    "details": [
+        {
+            "question": "What is the gender of the two people speaking in the dialogue?",
+            "reference": "Both speakers are male.",
+            "model_prediction": "The gender of the two people speaking in the dialogue is not specified.",
+            "judge_response": "Explanation: The reference answer is \"Both speakers are male\", which clearly indicates the gender of the speakers. On the other hand, the model's answer is \"The gender of the two people speaking in the dialogue is not specified\", which implies that the information is unknown or unavailable. I think the model's answer is evasive and incorrect, as it does not align with the provided reference answer.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What is the gender of the two speakers in the dialogue?",
+            "reference": "Both speakers are female.",
+            "model_prediction": "The gender of the two speakers in the dialogue is not specified.",
+            "judge_response": "Explanation: The reference answer is \"Both speakers are female\", which provides a concrete and specific answer to the question. On the other hand, the model's answer is \"The gender of the two speakers in the dialogue is not specified\", which is evasive and does not provide a clear answer.\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What are the genders of the two speakers in the dialogue?",
+            "reference": "The first speaker is female, and the second speaker is male.",
+            "model_prediction": "The two speakers in the dialogue are a male and a female.",
+            "judge_response": "Explanation: The reference answer is \"The first speaker is female, and the second speaker is male\", which provides specific information about the gender of each speaker. The model's answer is \"The two speakers in the dialogue are a male and a female\", which also conveys the same information but in a more general way. I think the model's answer is still accurate and relevant to the reference, although it lacks the specific information about which speaker is which gender.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "What are the genders of the two speakers in the dialogue?",
+            "reference": "The first speaker is male, and the second speaker is female.",
+            "model_prediction": "The genders of the two speakers in the dialogue are male and female.",
+            "judge_response": "Explanation: The reference answer is a direct statement of the speakers' genders, while the model's answer is a rephrased version of the same information. I think the model's answer accurately captures the content and meaning of the reference, providing a correct and relevant response.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "What is the gender of the two speakers in the dialogue?",
+            "reference": "Both speakers are male.",
+            "model_prediction": "The gender of the two speakers in the dialogue is not specified.",
+            "judge_response": "Explanation: The reference answer is \"Both speakers are male\", while the model's answer is \"The gender of the two speakers in the dialogue is not specified\". I think the model's answer is incorrect and does not align with the reference answer, which provides a specific gender for the speakers.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What are the genders of the two speakers in the dialogue?",
+            "reference": "The first speaker is female, and the second speaker is male.",
+            "model_prediction": "The genders of the two speakers in the dialogue are not specified.",
+            "judge_response": "Explanation: The reference answer specifies the genders of the speakers (female and male), while the model's answer is vague and states that the genders are not specified. I think the model's answer is avoiding providing a concrete result, which is not in line with the reference answer.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What are the genders of the two speakers in the dialogue?",
+            "reference": "The first speaker is female and the second speaker is male.",
+            "model_prediction": "The genders of the two speakers in the dialogue are not specified.",
+            "judge_response": "Explanation: The reference answer is specific about the genders of the speakers, stating that the first speaker is female and the second speaker is male. In contrast, the model's answer is vague and unclear, stating that the genders of the speakers are not specified. I think the model is evading providing a concrete answer, which is incorrect.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What are the genders of the two speakers in the dialogue?",
+            "reference": "The first speaker is male and the second speaker is female.",
+            "model_prediction": "The genders of the two speakers in the dialogue are male and female.",
+            "judge_response": "Explanation: The reference answer is \"The first speaker is male and the second speaker is female\", while the model's answer is \"The genders of the two speakers in the dialogue are male and female\". I think the model's answer is correct, but it does not fully capture the meaning from the reference, as it does not specify which speaker is male and which is female.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "What is the gender of the two speakers in the dialogue?",
+            "reference": "Both speakers are female.",
+            "model_prediction": "The gender of the two speakers in the dialogue is not specified.",
+            "judge_response": "Explanation: The reference answer is \"Both speakers are female\", which provides a clear and specific answer to the question. On the other hand, the model's answer is \"The gender of the two speakers in the dialogue is not specified\", which is vague and does not provide any concrete information. I think the model's answer is evasive and does not align with the reference answer.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What are the genders of the two speakers in the dialogue?",
+            "reference": "The first speaker is male, and the second speaker is female.",
+            "model_prediction": "The two speakers in the dialogue are a male and a female.",
+            "judge_response": "Explanation: The reference answer is \"The first speaker is male, and the second speaker is female\", while the model's answer is \"The two speakers in the dialogue are a male and a female\". I think the model's answer is correct, as it conveys the same meaning as the reference answer, albeit in a slightly different wording. Both answers clearly identify the genders of the two speakers.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "What is the gender of the two speakers in the dialogue?",
+            "reference": "Both speakers are female.",
+            "model_prediction": "The two speakers in the dialogue are female.",
+            "judge_response": "Explanation: The reference answer is \"Both speakers are female\", while the model's answer is \"The two speakers in the dialogue are female\". I think the model's answer accurately mirrors the reference answer, conveying the same meaning and information. \n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "What is the gender of the speakers in the dialogue?",
+            "reference": "Both speakers are female.",
+            "model_prediction": "The speakers in the dialogue are female.",
+            "judge_response": "Explanation: The reference answer is \"Both speakers are female\", while the model's answer is \"The speakers in the dialogue are female\". I think the model's answer is a rephrased version of the reference answer, conveying the same meaning and accuracy.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "What is the gender of the speaker in the audio clip?",
+            "reference": "The gender of the speaker is male.",
+            "model_prediction": "The gender of the speaker in the audio clip is male.",
+            "judge_response": "Explanation: The reference answer is \"The gender of the speaker is male\", while the model's answer is \"The gender of the speaker in the audio clip is male\". I think the model's answer is a direct mirror of the reference answer, providing the same information with only a minor addition of \"in the audio clip\" which does not change the accuracy or relevance of the answer.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "What is the gender of the two people speaking in the dialogue?",
+            "reference": "The first speaker is female and the second speaker is male.",
+            "model_prediction": "The gender of the two people speaking in the dialogue is not specified.",
+            "judge_response": "Explanation: The reference answer is specific about the gender of the speakers, stating that the first speaker is female and the second speaker is male. On the other hand, the model's answer is neutral and vague, saying that the gender is not specified. I think the model is not providing accurate information compared to the reference, and instead, is refusing to give concrete results.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What are the genders of the two speakers in the dialogue?",
+            "reference": "The first speaker is male, and the second speaker is female.",
+            "model_prediction": "The two speakers in the dialogue are a male and a female.",
+            "judge_response": "Explanation: The reference answer is \"The first speaker is male, and the second speaker is female\", which clearly states the genders of the two speakers. The model's answer is \"The two speakers in the dialogue are a male and a female\", which conveys the same information in a slightly rephrased way. I think the model's answer is a correct and relevant paraphrase of the reference answer.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "What is the gender of the speaker in the audio clip?",
+            "reference": "The gender of the speaker is male.",
+            "model_prediction": "Male",
+            "judge_response": "Explanation: The reference answer is \"The gender of the speaker is male.\", while the model's answer is simply \"Male\". I think the model's answer is correct and directly aligns with the reference answer, capturing the same meaning.\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "What is the gender of the two people speaking in the dialogue?",
+            "reference": "Both speakers are female.",
+            "model_prediction": "The gender of the two people speaking in the dialogue is not specified.",
+            "judge_response": "Explanation: The reference answer is \"Both speakers are female\", which directly states the gender of the speakers. In contrast, the model's answer is \"The gender of the two people speaking in the dialogue is not specified\", which implies a lack of information about the speakers' gender. I think the model's answer is evasive and does not align with the reference answer.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What is the gender of the speakers in the conversation?",
+            "reference": "Both speakers are female.",
+            "model_prediction": "The gender of the speakers in the conversation is not specified.",
+            "judge_response": "Explanation: The reference answer is \"Both speakers are female\", which explicitly states the gender of the speakers. On the other hand, the model's answer is \"The gender of the speakers in the conversation is not specified\", implying that the information is unknown or unavailable. I think the model's answer is refusing to provide a concrete result, and hence, it does not align with the reference answer.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What is the gender of the two people speaking in the dialogue?",
+            "reference": "The first speaker is female and the second speaker is male.",
+            "model_prediction": "The gender of the two people speaking in the dialogue is not specified.",
+            "judge_response": "Explanation: The reference answer is specific about the gender of the speakers, stating that the first speaker is female and the second speaker is male. In contrast, the model's answer is vague and uncertain, stating that the gender of the two people speaking in the dialogue is not specified. I think the model's answer is evasive and refuses to provide concrete results.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What is the gender of the two speakers engaged in the conversation?",
+            "reference": "Both speakers are female.",
+            "model_prediction": "The two speakers engaged in the conversation are female.",
+            "judge_response": "Explanation: The reference answer is a straightforward statement about the gender of the speakers, while the model's answer is a rephrased version of the same information, maintaining the same level of accuracy and relevance. I think the model's answer is a perfect paraphrase of the reference answer.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        }
+    ]
+}

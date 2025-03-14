@@ -1,0 +1,88 @@
+{
+    "llama3_70b_judge": {
+        "judge_score": 66.0,
+        "success_rate": 1.0
+    },
+    "details": [
+        {
+            "question": "How does Speaker1 describe their work-from-home arrangement?",
+            "reference": "Speaker1 works from home as part of their internship but occasionally has to visit the office one or two times a week.",
+            "model_prediction": "Speaker1 describes their work-from-home arrangement as an internship that primarily involves working from home but requires going to the office one or two times a week.\n",
+            "judge_response": "Explanation: The reference answer is a concise description of Speaker1's work arrangement, stating that they work from home but visit the office one or two times a week. The model's answer rephrases this information in a similar structure, using slightly different wording. I think the model's answer is a good paraphrase of the reference answer.\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "What languages did Speaker2 suggest for singing the national anthem?",
+            "reference": "Half in Chinese and half in English.",
+            "model_prediction": "Malay and English.",
+            "judge_response": "Explanation: The reference answer is \"Half in Chinese and half in English\", while the model's answer is \"Malay and English\". I think the model's answer is completely misaligned, as it doesn't match the reference answer in terms of the specific languages mentioned, and the concept of \"half and half\" is also lost.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "How does Speaker1 describe changes in taking MCs (medical certificates)?",
+            "reference": "Speaker1 notes that taking MCs now is more scrutinized compared to before, as employers may keep records, making it less casual than in the past.",
+            "model_prediction": "Speaker1 describes taking MCs nowadays as being more scrutinized and recorded, unlike in the past where it was more lenient and less traceable.  Employees' names might be flagged, and their absences become more transparent to their bosses.\n",
+            "judge_response": "Explanation: The reference answer states that taking MCs nowadays is more scrutinized compared to before, as employers may keep records, making it less casual than in the past. The model's answer describes taking MCs nowadays as being more scrutinized and recorded, unlike in the past where it was more lenient and less traceable. Both answers convey the idea that taking MCs is more formalized and recorded nowadays compared to the past. However, the model's answer adds extra information about employees' names being flagged and their absences becoming more transparent to their bosses, which is not present in the reference answer.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "What is Speaker1’s criticism of online posts?",
+            "reference": "Speaker1 criticizes that posts often repeat themselves with redundant introductions and lack meaningful content.",
+            "model_prediction": "Speaker1 criticizes the repetition of introductory content in online posts, finding it redundant and lacking variety. They specifically mention seeing \"introduction\" in both the first and second post examples, questioning the purpose of such repetition.",
+            "judge_response": "Explanation: The reference answer is a straightforward summary of Speaker1's criticism, stating that online posts often repeat themselves with redundant introductions and lack meaningful content. The model's answer, while related, adds its own interpretation and details, such as questioning the purpose of the repetition and specifying the examples. I think the model's answer is close to the reference but adds some extra information.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "What does Speaker1 describe about Hazel’s friendship situation?",
+            "reference": "Speaker1 recounts that Hazel didn’t invite someone out, leading to tension, and that a guy named Dickson liked Hazel, who was already with someone else.",
+            "model_prediction": "Speaker1 describes that Hazel's friendships tend to be calming and relaxing for others (\"chill her out\"), except for one guy named Dickson, who doesn't have the same effect. This dynamic leads to Speaker1 observing an imbalance and questioning why Hazel hasn't pursued a romantic interest with Dickson, given his apparent liking for her. \n\n",
+            "judge_response": "Explanation: The reference answer is about Hazel not inviting someone out, leading to tension, and Dickson liking Hazel who was already with someone else. The model's answer, on the other hand, describes Hazel's friendships as calming, except for Dickson, and questions why Hazel hasn't pursued a romantic interest with him. I think the model's answer is partially related to the reference, but it misinterprets the situation and adds unnecessary details.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "How does Speaker1 describe an IT showcase experience?",
+            "reference": "Speaker1 talks about elements of an IT showcase, focusing on lighting, visuals, and how the showcase felt spiritual. Speaker2 agrees, adding their impressions.",
+            "model_prediction": "Speaker1 describes the IT showcase experience as having seen the game showcased there and finding it \"pretty cool\" due to the modder's work, colouring, and lighting.\n",
+            "judge_response": "Explanation: The reference answer is specific about the elements that made the IT showcase experience stand out, including lighting, visuals, and a spiritual feeling. In contrast, the model's answer only mentions that it was \"pretty cool\" due to modder's work, colouring, and lighting, without capturing the essence of the spiritual feeling or the overall atmosphere. While the model's answer touches on the topic, it lacks detail and accuracy.\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "How does Speaker 2 use the paddle board in the swimming pool?",
+            "reference": "Speaker 2 places the paddle board underneath themselves in the pool to float and move around without knowing how to swim.",
+            "model_prediction": "Speaker 2 uses the paddle board as a flotation device in the swimming pool, placing it underneath them while swimming.\n",
+            "judge_response": "Explanation: The reference answer is \"Speaker 2 places the paddle board underneath themselves in the pool to float and move around without knowing how to swim\", whereas the model's answer is \"Speaker 2 uses the paddle board as a flotation device in the swimming pool, placing it underneath them while swimming\". While the model's answer captures the general idea of using the paddle board as a flotation device, it adds the phrase \"while swimming\", which is not present in the reference answer and implies that Speaker 2 knows how to swim, which is incorrect. \n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "How do Speaker1 and Speaker2 recall the SARS outbreak?",
+            "reference": "Speaker1 remembers being in secondary school during SARS, while Speaker2 recalls being in primary school but is unsure of specific details.",
+            "model_prediction": "Speaker1 recalls the SARS outbreak during their secondary school years (possibly Logo Sec), remembering it as a significant event due to its impact while they were young. Speaker2's recollection is less detailed, but they agree that the situation is less severe now compared to then.",
+            "judge_response": "Explanation: The reference answer is specific about the speakers' memories, stating that Speaker1 was in secondary school and Speaker2 was in primary school, with the latter being unsure of details. The model's answer, while generally accurate, lacks these specific details, instead providing a more general summary of the speakers' recollections.\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "How does Speaker1 respond to people repeatedly visiting?",
+            "reference": "Speaker1 initially asks if visitors have other plans but eventually stops asking and suggests they help settle tasks if they keep coming.",
+            "model_prediction": "Initially, Speaker1 inquires if the visitors have nothing better to do (\"melepak with friends\"), but gradually stops asking and simply welcomes them with a casual \"Eh you okay lah, can lah, you- you all coming ah?\".",
+            "judge_response": "Explanation: The reference answer is \"Speaker1 initially asks if visitors have other plans but eventually stops asking and suggests they help settle tasks if they keep coming\", while the model's answer is \"Initially, Speaker1 inquires if the visitors have nothing better to do, but gradually stops asking and simply welcomes them with a casual 'Eh you okay lah, can lah, you- you all coming ah?'\". I think the model's answer is close to the reference, but lacks the detail about \"helping settle tasks\" and focuses more on the casual welcoming tone.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "Why does Speaker1 question the need for additional practice with the bike?",
+            "reference": "Speaker1 argues that the bike and instructor are the same as before and believes more practice isn't necessary. Speaker2 suggests it might be a way to charge more money.",
+            "model_prediction": "Speaker1 questions the need for additional practice because they believe that since the bike and their abilities were fine yesterday (same brakes, same value, same example), further practice wouldn't significantly change anything. They find it illogical to require more practice for the same bike and situation.\n",
+            "judge_response": "Explanation: The reference answer is that Speaker1 argues the bike and instructor are the same as before and believes more practice isn't necessary. The model's answer is that Speaker1 questions the need for additional practice because they believe the bike and their abilities were fine yesterday, and further practice wouldn't significantly change anything. I think the model's answer is a good paraphrase of the reference answer, capturing the essence of Speaker1's argument.\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        }
+    ]
+}

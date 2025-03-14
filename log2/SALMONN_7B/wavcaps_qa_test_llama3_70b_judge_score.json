@@ -1,0 +1,168 @@
+{
+    "llama3_70b_judge": {
+        "judge_score": 47.30263157894737,
+        "success_rate": 1.0
+    },
+    "details": [
+        {
+            "question": "Do you think the sound could be from a printer?",
+            "reference": "Yes, it might be doing certain cleaning job.",
+            "model_prediction": "Yes, the sound could be from a printer.",
+            "judge_response": "Explanation: The reference answer is vague and general, stating that the sound could be from a device doing a certain cleaning job. In contrast, the model's answer is more specific, suggesting that the sound is from a printer. While the model's answer is more concrete, it doesn't directly align with the reference answer's focus on a cleaning job. I think the model's answer is somewhat related to the topic but diverges in terms of accuracy and relevance.\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "What type of weapon can be heard in the audio recording?",
+            "reference": "Sound of a machine gun firing can be heard in the audio.",
+            "model_prediction": "A machine gun.",
+            "judge_response": "Explanation: The reference answer is \"Sound of a machine gun firing can be heard in the audio\", while the model's answer is \"A machine gun\". I think the model's answer is somewhat relevant to the reference, as it mentions a machine gun, but it lacks the specific detail about the sound being heard in the audio.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "What type of environment is depicted in the audio recording?",
+            "reference": "A harbor or a busy streetside.",
+            "model_prediction": "The audio recording depicts an outdoor environment.",
+            "judge_response": "Explanation: The reference answer is specific, pointing to a harbor or a busy streetside as the environment depicted in the audio recording. In contrast, the model's answer is vague, simply stating that it's an outdoor environment. While the model's answer is not incorrect, it lacks the specificity and detail present in the reference answer. \n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "What is the sound being recorded in the audio clip?",
+            "reference": "A door or a drawer is closing.",
+            "model_prediction": "The sound being recorded in the audio clip is a door closing.",
+            "judge_response": "Explanation: The reference answer is \"A door or a drawer is closing\" which provides two possible sources of the sound, whereas the model's answer is \"The sound being recorded in the audio clip is a door closing\" which specifically identifies the sound as a door closing, ruling out the possibility of it being a drawer. I think the model's answer is close to the reference, but lacks the nuance of considering multiple possibilities.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "Was the telephone answered?",
+            "reference": "Yes, it is answered.",
+            "model_prediction": "No, the telephone was not answered.",
+            "judge_response": "Explanation: The reference answer is \"Yes, it is answered\", indicating that the telephone was answered. On the other hand, the model's answer is \"No, the telephone was not answered\", which is the opposite of the reference answer. I think the model's response is completely misaligned with the reference answer, providing incorrect information.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What type of environment or setting is likely to be recorded in the audio file?",
+            "reference": "An industrial or mechanical setting, such as a factory or a machine shop, is likely to be recorded in the audio file.",
+            "model_prediction": "The audio file is likely to be recorded in an outdoor environment or setting.",
+            "judge_response": "Explanation: The reference answer is \"An industrial or mechanical setting, such as a factory or a machine shop, is likely to be recorded in the audio file\", which specifies a particular type of environment. In contrast, the model's answer is \"The audio file is likely to be recorded in an outdoor environment or setting\", which is a completely different type of environment. I think the model's answer is misaligned and lacks relevance to the reference.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What type of object is being moved in the audio recording?",
+            "reference": "A drawer or a chair.",
+            "model_prediction": "The audio recording is of an office chair being moved.",
+            "judge_response": "Explanation: The reference answer provides a general category of objects that are being moved, which includes \"a drawer or a chair\". The model's answer, on the other hand, specifically identifies the object being moved as \"an office chair\". I think the model's answer is more specific and accurate than the reference answer.\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "Can we hear sheep bleating in the audio recording?",
+            "reference": "No, we can hear cows moo.",
+            "model_prediction": "Yes, we can hear sheep bleating in the audio recording.",
+            "judge_response": "Explanation: The reference answer is \"No, we can hear cows moo\", indicating that the audio recording does not contain sheep bleating sounds. On the other hand, the model's answer is \"Yes, we can hear sheep bleating in the audio recording\", which is a direct contradiction to the reference answer. The model's response is incorrect and irrelevant to the reference.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What is passing by while the church bell rings in the audio recording?",
+            "reference": "Some vehicles are passing by.",
+            "model_prediction": "A car is passing by while the church bell rings in the audio recording.",
+            "judge_response": "Explanation: The reference answer is vague, stating that \"some vehicles are passing by\", while the model's answer is more specific, saying \"a car is passing by while the church bell rings in the audio recording\". I think the model's answer is more detailed and specific, but it also adds unnecessary information (the church bell) that is not present in the reference answer.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Is there still a sound at the end?",
+            "reference": "No.",
+            "model_prediction": "No, there is no sound at the end.",
+            "judge_response": "Explanation: The reference answer is a simple \"No\", while the model's answer is \"No, there is no sound at the end.\" I think the model's answer is an expanded version of the reference answer, providing a brief explanation for why the answer is \"No\". This provides more context and clarity to the response.\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "What are the primary sounds being recorded in the audio file?",
+            "reference": "host speaking, cheering and shouting.",
+            "model_prediction": "The primary sounds being recorded in the audio file are screaming and cheering.",
+            "judge_response": "Explanation: The reference answer is \"host speaking, cheering and shouting\", while the model's answer is \"screaming and cheering\". I think the model's answer is quite close to the reference, capturing two of the three primary sounds mentioned. However, it misses the \"host speaking\" part, which is an important detail.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "What is the main sound that can be heard in the audio recording?",
+            "reference": "Steam is the main sound that can be heard in the audio recording.",
+            "model_prediction": "The main sound that can be heard in the audio recording is the hissing of steam.",
+            "judge_response": "Explanation: The reference answer is \"Steam is the main sound that can be heard in the audio recording\", while the model's answer is \"The main sound that can be heard in the audio recording is the hissing of steam\". I think the model's answer is very close to the reference answer, but it provides a bit more detail by specifying \"hissing\" as a characteristic of the steam sound.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "Can we hear singing?",
+            "reference": "No.",
+            "model_prediction": "No, we cannot hear singing in this audio.",
+            "judge_response": "Explanation: The reference answer is a simple \"No\", while the model's answer is \"No, we cannot hear singing in this audio.\" I think the model's answer is a more detailed and relevant response that accurately aligns with the reference answer, providing a clear explanation to support the \"No\" response.\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "What type of outdoor setting is likely depicted in this audio recording?",
+            "reference": "A beach or coastal area with a sailboat is likely depicted in this audio recording.",
+            "model_prediction": "The outdoor setting depicted in this audio recording is likely a beach.",
+            "judge_response": "Explanation: The reference answer is \"A beach or coastal area with a sailboat is likely depicted in this audio recording\", providing a specific detail about a sailboat. Meanwhile, the model's answer is \"The outdoor setting depicted in this audio recording is likely a beach\", which omits the sailboat detail. I think the model's answer aligns with the reference generally but lacks a specific detail.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "What can we hear after the hair dryer?",
+            "reference": "People are speaking and laughing. A dog is present.",
+            "model_prediction": "Laughter, conversation, and more laughter.",
+            "judge_response": "Explanation: The reference answer provides a detailed description of the scene, including the presence of people speaking and laughing, and a dog being present. In contrast, the model's answer only mentions \"Laughter, conversation, and more laughter\", which focuses solely on the auditory aspect and lacks the visual detail about the dog. I think the model's answer is too simplistic and doesn't capture the full essence of the reference answer.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "What types of sounds are heard in the audio recording?",
+            "reference": "Chirping, and crowing sounds are heard in the audio recording.",
+            "model_prediction": "The audio recording contains the sounds of a rooster crowing, chickens clucking, and a crowing rooster.",
+            "judge_response": "Explanation: The reference answer is brief and only mentions \"chirping, and crowing sounds\", whereas the model's answer is more specific and mentions \"rooster crowing, chickens clucking, and a crowing rooster\". The model's answer is more detailed, but it also includes some redundancy and assumes more than what is present in the reference answer. I think the model's answer is mostly accurate and relevant, but could be clearer and more concise.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "What is the coffee machine producing in the audio recording?",
+            "reference": "The coffee machine is producing hot coffee.",
+            "model_prediction": "The coffee machine is producing a cup of coffee in the audio recording.",
+            "judge_response": "Explanation: The reference answer is \"The coffee machine is producing hot coffee\", while the model's answer is \"The coffee machine is producing a cup of coffee in the audio recording\". I think the model's answer is not entirely accurate, as it adds an unnecessary detail about the audio recording, and also changes the description of what the coffee machine is producing from \"hot coffee\" to \"a cup of coffee\".\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "What types of sounds are present in the audio recording?",
+            "reference": "Dogs barking and yipping, and rhythmic music.",
+            "model_prediction": "The audio recording contains sounds of growling, barking, and music.",
+            "judge_response": "Explanation: The reference answer is specific about the types of sounds, mentioning \"dogs barking and yipping\" and \"rhythmic music\", whereas the model's answer is more general, stating \"sounds of growling, barking, and music\". The model's answer lacks the specificity of the reference answer, and also introduces an incorrect detail (\"growling\" is not mentioned in the reference). I think the model's answer shows some alignment with the reference but diverges in accuracy and relevance.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "What type of instrument is playing in the audio recording?",
+            "reference": "A drum is playing in the audio recording.",
+            "model_prediction": "A percussion instrument is playing in the audio recording.",
+            "judge_response": "Explanation: The reference answer is specific, stating that \"a drum is playing in the audio recording.\" In contrast, the model's answer is more general, saying \"a percussion instrument is playing in the audio recording.\" While the model's answer is related to the reference, it lacks precision and detail. A drum is a type of percussion instrument, but not all percussion instruments are drums.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "What can we hear from the audio?",
+            "reference": "A car is passing by.",
+            "model_prediction": "We can hear the sound of a car approaching and passing.",
+            "judge_response": "Explanation: The reference answer is a simple and direct statement \"A car is passing by\", while the model's answer is \"We can hear the sound of a car approaching and passing\". I think the model's answer is a good elaboration of the reference answer, providing more detail and context to the situation. It's not a perfect match, but it captures the essence and accuracy of the reference answer.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        }
+    ]
+}

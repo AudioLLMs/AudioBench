@@ -1,0 +1,168 @@
+{
+    "llama3_70b_judge": {
+        "judge_score": 24.647544968400585,
+        "success_rate": 1.0
+    },
+    "details": [
+        {
+            "question": "Are there waves?",
+            "reference": "Yes, waves do exist.",
+            "model_prediction": "The audio only asks \"Are there waves?\". It does not contain information to confirm or deny the existence of waves.",
+            "judge_response": "Explanation: The reference answer is a clear affirmation of the existence of waves, while the model's answer is a refusal to provide a concrete answer, citing a lack of information. I think the model is evading a clear answer, which is not aligned with the reference answer.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Is the area dry?",
+            "reference": "Yes, the area is not dry.",
+            "model_prediction": "The audio transcription does not contain information about the dryness of an area.",
+            "judge_response": "Explanation: The reference answer is a clear \"no\" to the question of whether the area is dry, while the model's answer is more evasive and unclear, stating that the audio transcription does not contain information about the dryness of an area. I think the model's answer is refusing to give a concrete result, which is not aligned with the reference answer.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Is the sound falling water?",
+            "reference": "The sound is that of falling water.",
+            "model_prediction": "No.",
+            "judge_response": "Explanation: The reference answer is \"The sound is that of falling water\", which directly answers the question, while the model's answer is simply \"No\", which does not provide any relevant information or context. The model's answer does not align with the reference answer in terms of content, accuracy, or relevance.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Is water flowing?",
+            "reference": "Water is flowing.",
+            "model_prediction": "The audio transcription does not contain information about water flow.",
+            "judge_response": "Explanation: The reference answer is a clear statement that \"Water is flowing\", while the model's answer is a vague statement that \"The audio transcription does not contain information about water flow.\" I think the model's answer is completely misaligned with the reference answer, as it does not provide any information about whether water is flowing or not.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What is flowing?",
+            "reference": "Water is flowing.",
+            "model_prediction": "Nothing is explicitly stated as flowing in the provided audio transcription.",
+            "judge_response": "Explanation: The reference answer is \"Water is flowing\", which explicitly states what is flowing. In contrast, the model's answer is \"Nothing is explicitly stated as flowing in the provided audio transcription\", which is a refusal to provide a concrete answer. The model's response does not align with the reference answer in terms of content, accuracy, and relevance.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "How many times does the wood make a sound?",
+            "reference": "In the audio clip, the sound of wood making a sound happens six times.",
+            "model_prediction": "0 times",
+            "judge_response": "Explanation: The reference answer is 6, indicating that the wood makes a sound six times in the audio clip. However, the model's answer is 0, which is a completely incorrect and misaligned response. The model's answer does not provide any relevant information and does not match the reference answer at all.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Is a dog barking?",
+            "reference": "The dog is barking.",
+            "model_prediction": "No.",
+            "judge_response": "Explanation: The reference answer is a statement \"The dog is barking\" indicating that a dog is indeed barking, while the model's answer is a simple \"No\" which suggests the opposite. I think the model's answer is completely misaligned with the reference answer, providing incorrect information.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Is that the sound of wood?",
+            "reference": "Yes, that is the sound of wood.",
+            "model_prediction": "No.",
+            "judge_response": "Explanation: The reference answer is \"Yes, that is the sound of wood\", while the model's answer is a simple \"No\". The model's answer is completely misaligned with the reference, providing incorrect information. \nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Is the sample taking place inside a wood building?",
+            "reference": "The sample is taking place inside a wood building.",
+            "model_prediction": "Cannot be determined.",
+            "judge_response": "Explanation: The reference answer is a clear statement \"The sample is taking place inside a wood building\", while the model's answer is \"Cannot be determined\". I think the model's response is evasive and does not provide any concrete information, which is misaligned with the reference answer.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Is the sound caused by pressure from/against wood?",
+            "reference": "Yes, the sound is caused by pressure from/against wood.",
+            "model_prediction": "The audio transcription does not provide information about any sound or its cause related to pressure on wood.",
+            "judge_response": "Explanation: The reference answer confirms that the sound is caused by pressure from/against wood, while the model's answer states that the audio transcription does not provide information about any sound or its cause related to pressure on wood. I think the model's answer is completely misaligned, providing incorrect or irrelevant information compared to the reference.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Is something solid falling?",
+            "reference": "No, nothing solid is falling.",
+            "model_prediction": "No.",
+            "judge_response": "Explanation: The reference answer is a concise and clear \"No, nothing solid is falling\", while the model's answer is a simple \"No\". I think the model's answer is brief and to the point, but it lacks the additional explanatory detail provided in the reference answer. \n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "Is there a lighting strike?",
+            "reference": "There is no lightning strike.",
+            "model_prediction": "No mention of a lighting strike is made in the audio.",
+            "judge_response": "Explanation: The reference answer is a direct statement \"There is no lightning strike\", while the model's answer is \"No mention of a lighting strike is made in the audio\". I think the model's answer is a rephrased version of the reference answer, conveying the same meaning and accuracy. It's not a direct copy, but it's clear and relevant to the reference.\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "Is water being poured?",
+            "reference": "Yes, water is being poured.",
+            "model_prediction": "No.",
+            "judge_response": "Explanation: The reference answer is \"Yes, water is being poured.\", indicating that water is indeed being poured. However, the model's answer is a simple \"No\", which directly contradicts the reference answer. I think the model's answer is completely misaligned with the reference.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What is being poured?",
+            "reference": "The water is being poured.",
+            "model_prediction": "It is not specified what drink is being poured.",
+            "judge_response": "Explanation: The reference answer is \"The water is being poured\", which provides a specific answer to the question. However, the model's answer is \"It is not specified what drink is being poured\", which avoids giving a concrete answer and instead points out the ambiguity of the question. I think the model's answer is not providing a direct response to the question and instead is providing an unnecessary clarification.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What is being prepared?",
+            "reference": "The food is being prepared.",
+            "model_prediction": "A drink",
+            "judge_response": "Explanation: The reference answer is \"The food is being prepared\", indicating that food is the subject being prepared, whereas the model's answer is \"A drink\", which is a different subject. I think the model's answer is unrelated to the reference and provides incorrect information.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Is a lullaby playing?",
+            "reference": "There is no lullaby currently playing.",
+            "model_prediction": "Yes, based on the \"♪♪ ♪♪\" transcription, a lullaby-like melody is playing.",
+            "judge_response": "Explanation: The reference answer is \"There is no lullaby currently playing\", while the model's answer is \"Yes, based on the \"♪♪ ♪♪\" transcription, a lullaby-like melody is playing.\" I think the model's answer is completely misaligned with the reference, providing incorrect information.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Is only one person around?",
+            "reference": "There are multiple people around.",
+            "model_prediction": "Insufficient information to determine.",
+            "judge_response": "Explanation: The reference answer is a clear \"no\" to the question \"Is only one person around?\" since it states \"There are multiple people around.\" On the other hand, the model's answer is \"Insufficient information to determine,\" which implies that the model is unsure or lacks enough information to provide a concrete answer. I think the model's answer is refusing to give a concrete result, which misaligns with the reference answer.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Is this a triumphant tune?",
+            "reference": "This is a triumphant tune.",
+            "model_prediction": "Insufficient information. The provided audio transcription only contains musical notes (♪♪ ♪♪) and doesn't convey the emotional tone or character of the tune to determine if it's triumphant.",
+            "judge_response": "Explanation: The reference answer directly states that the tune is triumphant, while the model's answer is hesitant and claims there is insufficient information to make a judgment. I think the model's response is too cautious and doesn't attempt to provide an answer, unlike the reference answer which provides a clear assessment.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Is this outside?",
+            "reference": "Yes, this is outside.",
+            "model_prediction": "Cannot be determined.",
+            "judge_response": "Explanation: The reference answer is a definitive \"Yes, this is outside\", whereas the model's answer is \"Cannot be determined\". The model's response does not provide a concrete result, instead, it shows indecision, which misaligns with the reference answer.\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Where is the music coming from?",
+            "reference": "The music is coming from a band.",
+            "model_prediction": "The audio transcription does not specify the source of the music.",
+            "judge_response": "Explanation: The reference answer is specific, stating that the music is coming from a band. In contrast, the model's answer is vague and unsure, saying that the audio transcription does not specify the source of the music. I think the model's answer is evasive and does not provide any concrete information, which is not aligned with the reference answer.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        }
+    ]
+}

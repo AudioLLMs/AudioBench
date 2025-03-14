@@ -1,0 +1,168 @@
+{
+    "llama3_70b_judge": {
+        "judge_score": 88.57843137254902,
+        "success_rate": 1.0
+    },
+    "details": [
+        {
+            "question": "Which regions have temperate climates?",
+            "reference": "mid-atlantic",
+            "model_prediction": "Stephen's City and Frederick County have temperate climates.",
+            "judge_response": "Explanation: The reference answer is \"mid-atlantic\", specifying a particular region with a temperate climate, while the model's answer is \"Stephen's City and Frederick County\", which is a different region. The model's answer lacks specificity and does not match the reference answer in terms of content and accuracy. Although the model's answer is related to temperate climates, it does not align with the reference answer.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "What scripture did Luther use to back up his opinion that churchmen were not infallible?",
+            "reference": "matthew 16:18",
+            "model_prediction": "Matthew 16, verse 18.",
+            "judge_response": "Explanation: The reference answer is \"matthew 16:18\", while the model's answer is \"Matthew 16, verse 18.\". Although the model's answer is very close to the reference answer, it is not an exact match. The model adds \"verse\" which is not present in the reference answer.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "What were many pastors unable to do?",
+            "reference": "teaching",
+            "model_prediction": "Many pastors were unable to teach Christian doctrine effectively.",
+            "judge_response": "Explanation: The reference answer is \"teaching\", while the model's answer is \"teach Christian doctrine effectively\". I think the model's answer is an expanded explanation of what kind of \"teaching\" is meant, making it a more specific and detailed response.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "By whom did St Paul say all authorities were appointed?",
+            "reference": "god",
+            "model_prediction": "God",
+            "judge_response": "Explanation: The reference answer is \"god\" (in lowercase), while the model's answer is \"God\" (in uppercase). Although the model's answer is essentially the same, the difference in capitalization suggests a slight deviation from the reference. I think the model's answer is generally accurate and relevant, but not perfectly aligned.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "Besides the arguments with Rome and his own fellow reformers, what scandal  contributed to Luther's failing health?",
+            "reference": "the bigamy of the philip of hesse incident",
+            "model_prediction": "The scandal involving the bigamy of Philip of Hesse, in which Luther played a leading role, contributed to his failing health.",
+            "judge_response": "Explanation: The reference answer is \"the bigamy of the philip of hesse incident\", while the model's answer is \"The scandal involving the bigamy of Philip of Hesse, in which Luther played a leading role, contributed to his failing health.\" I think the model's answer is highly accurate and relevant, as it not only mentions the incident but also provides additional context regarding Luther's role and its impact on his health.\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "What did giving money to the church absolve the giver from?",
+            "reference": "punishments",
+            "model_prediction": "According to the text, giving money to the church, specifically through indulgences, was believed by some (like Johann Tetzel) to absolve the giver from **all punishments** and grant them **salvation**.\n\n",
+            "judge_response": "Explanation: The reference answer is \"punishments\", while the model's answer is \"all punishments and grant them salvation\". I think the model's answer is mostly accurate and relevant, closely following the reference but could be clearer or more detailed. The model correctly identifies \"punishments\" as the main answer, but adds extra information about \"salvation\" which is not asked in the question.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "What did Luther insist was present in the bread and wine?",
+            "reference": "real presence of the body and blood of christ in the consecrated bread and wine",
+            "model_prediction": "Luther insisted the **real presence of the body and blood of Christ** was present in the consecrated bread and wine.\n",
+            "judge_response": "Explanation: The reference answer is \"real presence of the body and blood of Christ in the consecrated bread and wine\", while the model's answer is \"real presence of the body and blood of Christ\". I think the model's answer is almost identical to the reference answer, with the only difference being the omission of \"in the consecrated bread and wine\". This omission does affect the precision of the answer, but the core idea is still accurately conveyed.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "What was the Marburg Colloquy meant to establish? ",
+            "reference": "doctrinal unity",
+            "model_prediction": "The Marburg Colloquy was meant to establish doctrinal unity in the emerging Protestant states.",
+            "judge_response": "Explanation: The reference answer is \"doctrinal unity\", while the model's answer is \"The Marburg Colloquy was meant to establish doctrinal unity in the emerging Protestant states.\" I think the model's answer is a perfect match with the reference answer, providing additional context without deviating from the main idea.\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "When did Luther return to Wittenberg?",
+            "reference": "6 march 1522",
+            "model_prediction": "March 6, 1522",
+            "judge_response": "Explanation: The reference answer is \"6 march 1522\", while the model's answer is \"March 6, 1522\". I think the model's answer is essentially the same as the reference answer, just with the month and day switched around, which is a common and acceptable format for dates.\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "What did Luther use to celebrate worship?",
+            "reference": "singing",
+            "model_prediction": "Luther used **congregational singing of hymns and psalms in German, parts of the liturgy including his unison setting of the Creed, and simplified versions of baptism and marriage services** to celebrate worship.\n",
+            "judge_response": "Explanation: The reference answer is \"singing\", which is a concise answer pointing to a specific aspect of Luther's worship celebration. The model's answer, on the other hand, provides more detailed information about Luther's use of congregational singing, liturgy, and simplified services, which is relevant but goes beyond the brevity of the reference answer. I think the model's answer is more informative, but not entirely aligned with the simplicity of the reference answer.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "Who noticed that Luther's view of the soul after death differed from later theologians?",
+            "reference": "pieper",
+            "model_prediction": "Franz August Otto Pieper and Lessing in 1755 noticed that Luther's view of the soul after death differed from later theologians, such as Johann Gerhard.",
+            "judge_response": "Explanation: The reference answer is simply \"pieper\", while the model's answer is \"Franz August Otto Pieper and Lessing in 1755 noticed that Luther's view of the soul after death differed from later theologians, such as Johann Gerhard.\" I think the model's answer is providing more information than requested, but it does contain the correct name \"Pieper\" and additional relevant context.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "What did this affair cause to Luther's reputation?",
+            "reference": "caused lasting damage",
+            "model_prediction": "Lasting damage to Luther's reputation.",
+            "judge_response": "Explanation: The reference answer is \"caused lasting damage\", while the model's answer is \"Lasting damage to Luther's reputation.\" I think the model's answer is a rephrased and more specific version of the reference answer, providing additional context about what was damaged (Luther's reputation).\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "Who got a safe conduct pass for Luther to come and leave the event?",
+            "reference": "prince frederick iii",
+            "model_prediction": "Prince Frederick III, Elector of Saxony.",
+            "judge_response": "Explanation: The reference answer is \"Prince Frederick III\", while the model's answer is \"Prince Frederick III, Elector of Saxony.\" I think the model's answer is an expansion of the reference answer, providing additional information about Prince Frederick III's title. The model's answer is more specific and informative, making it a more accurate and relevant response.\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "When was the Battle of Hastings?",
+            "reference": "1066",
+            "model_prediction": "October 14, 1066.",
+            "judge_response": "Explanation: The reference answer is a simple year \"1066\", while the model's answer is a specific date \"October 14, 1066\". I think the model's answer is more detailed and accurate than the reference answer, providing the exact date of the Battle of Hastings.\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "What did Roland Bainton say about Luther's position on Jews?",
+            "reference": "entirely religious and in no respect racial",
+            "model_prediction": "Roland Bainton stated that Luther's position on Jews was entirely religious and in no respect racial.",
+            "judge_response": "Explanation: The reference answer is a simple statement \"entirely religious and in no respect racial\", while the model's answer is a rephrased version of the same statement, attributing it to Roland Bainton. I think the model's answer is a perfect paraphrase of the reference answer, capturing its essence and detail.\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "What is the name of the museum and research center for Near Eastern studies, that is owned by the university?",
+            "reference": "oriental institute",
+            "model_prediction": "Oriental Institute",
+            "judge_response": "Explanation: The reference answer is \"oriental institute\", which is a specific and accurate response to the question. The model's answer is \"Oriental Institute\", which is identical to the reference answer except for the capitalization of the first letter. I think the model's answer is almost perfect, with only a minor formatting difference.\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "Whose saying about freeing souls from purgatory was often quoted?",
+            "reference": "tetzel",
+            "model_prediction": "Johann Tetzel",
+            "judge_response": "Explanation: The reference answer is \"tetzel\", while the model's answer is \"Johann Tetzel\". I think the model's answer is a more complete and accurate response, as it provides the full name of the person whose saying about freeing souls from purgatory was often quoted.\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "What was planned for Luther by Frederick III after the meeting?",
+            "reference": "luther's disappearance",
+            "model_prediction": "Luther was intercepted and escorted to the security of Wartburg Castle at Eisenach.",
+            "judge_response": "Explanation: The reference answer is \"Luther's disappearance\", which implies the event or plan that led to Luther's disappearance. The model's answer is \"Luther was intercepted and escorted to the security of Wartburg Castle at Eisenach\", which accurately describes the event that led to Luther's disappearance. I think the model's answer is a good match for the reference answer.\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "What one point was not agreed on that was dear to Luther?",
+            "reference": "nature of the eucharist",
+            "model_prediction": "The nature of the Eucharist, specifically the significance of Jesus' words \"This is my body which is for you\" at the Last Supper.",
+            "judge_response": "Explanation: The reference answer is \"nature of the Eucharist\", while the model's answer explains the significance of Jesus' words \"This is my body which is for you\" at the Last Supper, which is related to the topic of Eucharist. However, the model's answer provides more specific and detailed information than the reference answer. I think the model's answer is generally accurate and relevant to the reference, but it goes beyond what the reference answer states.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "What does photosynthesis release into the Earth's atmosphere?",
+            "reference": "oxygen",
+            "model_prediction": "Oxygen in the form of O2.",
+            "judge_response": "Explanation: The reference answer is simply \"oxygen\", while the model's answer is \"Oxygen in the form of O2\". I think the model's answer is an improvement over the reference answer, as it provides additional relevant information about the form of oxygen released during photosynthesis. However, the added detail is not essential to the question, and the reference answer is still correct.\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        }
+    ]
+}

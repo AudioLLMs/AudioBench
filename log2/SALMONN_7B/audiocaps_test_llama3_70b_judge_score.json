@@ -1,0 +1,168 @@
+{
+    "llama3_70b_judge": {
+        "judge_score": 37.445454545454545,
+        "success_rate": 0.9988636363636364
+    },
+    "details": [
+        {
+            "question": "Hear the audio and write a brief description.",
+            "reference": "Constant rattling noise and sharp vibrations",
+            "model_prediction": "A machine is running and people are talking in the background.",
+            "judge_response": "Explanation: The reference answer is describing a specific audio scene with distinct features (\"Constant rattling noise and sharp vibrations\"), while the model's answer is providing a vague and unrelated description (\"A machine is running and people are talking in the background\"). The model's response lacks accuracy and relevance to the reference, failing to capture the essence of the audio scene. \n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Listen to the track and summarize it.",
+            "reference": "A rocket flies by followed by a loud explosion and fire crackling as a truck engine runs idle",
+            "model_prediction": "This track is a sound effect of a car crashing and exploding. It is loud and intense, with a lot of crashing and screeching noises. The track is likely to be used in movies or video games to create a sense of danger and excitement. It could also be used in commercials to create a sense of urgency or excitement. Overall, the track is a great addition to any soundtrack that needs to create a sense of danger or excitement.",
+            "judge_response": "Explanation: The reference answer describes a rocket flying by followed by an explosion and a truck engine running idle, while the model's answer describes a car crashing and exploding with screeching noises. The model's answer is completely misaligned with the reference, providing incorrect information and irrelevant details. \n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Listen to the track and summarize it.",
+            "reference": "Humming and vibrating with a man and children speaking and laughing",
+            "model_prediction": "This is a playful children's song. The main melody is sung by a child's voice. The melody is accompanied by a simple piano accompaniment. The song is in the key of C major. The tempo of the song is medium. The mood of the song is playful. The style of the song is folk. This song can be used as a nursery rhyme. This song can be used as a children's song. This song can be used as a children's lullaby. This song can be used as a children's educational song. This song can be used as a children's song about animals. This song can be used as a children's song about insects. This song can be used as a children's song about birds. This song can be used as a children's song about reptiles. This song",
+            "judge_response": "Explanation: The reference answer describes the audio track as \"humming and vibrating with a man and children speaking and laughing\", which suggests a lively and playful atmosphere. In contrast, the model's answer attempts to categorize the song into various genres and uses, but does not accurately capture the essence of the audio track. The model's answer is overly broad and lacks specificity, failing to mention the key features mentioned in the reference answer.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "Analyze the recording and describe it.",
+            "reference": "A train running on a railroad track followed by a vehicle door closing and a man talking in the distance while a train horn honks and railroad crossing warning signals ring",
+            "model_prediction": "This is a recording of a train passing by. The recording captures the sound of the train whistle blowing as it passes by. The whistle is followed by the sound of the train's wheels rattling on the tracks. The whistle is blown three times as the train passes by. The whistle is blown three times as the train passes by. The whistle is blown three times as the train passes by. The whistle is blown three times as the train passes by. The whistle is blown three times as the train passes by. The whistle is blown three times as the train passes by. The whistle is blown three times as the train passes by. The whistle is blown three times as the train passes by. The whistle is blown three times as the train passes by",
+            "judge_response": "Explanation: The reference answer provides a clear and concise description of the recording, mentioning a train, a vehicle door closing, a man talking, and railroad crossing warning signals. In contrast, the model's response is overly focused on the train whistle, repeating the same information multiple times without mentioning the other sounds present in the recording. The model fails to capture the essence of the reference answer.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "Hear the recording and summarize it briefly.",
+            "reference": "Food is frying, and a woman talks",
+            "model_prediction": "A frying pan is being stirred while a woman speaks.",
+            "judge_response": "Explanation: The reference answer is \"Food is frying, and a woman talks\", which is a concise summary of the recording. The model's answer is \"A frying pan is being stirred while a woman speaks\", which is a more detailed and accurate representation of the recording. The model's answer is not only relevant but also provides more specific information about the recording.\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "Listen to the audio and give a description.",
+            "reference": "A man speaks as birds chirp and dogs bark",
+            "model_prediction": "An adult male is speaking, and a dog is barking in the background.",
+            "judge_response": "Explanation: The reference answer is \"A man speaks as birds chirp and dogs bark\", which provides a more comprehensive description of the audio, including the sounds of birds chirping. The model's answer, \"An adult male is speaking, and a dog is barking in the background\", only mentions the dog barking but omits the birds chirping. While the model's answer is not entirely incorrect, it lacks detail and accuracy compared to the reference.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Observe the audio and give an account of it.",
+            "reference": "A large truck driving by as an emergency siren wails and truck horn honks",
+            "model_prediction": "A fire truck siren is going off and a car horn is honking. Then the fire truck siren goes off again and a car horn is honking again. The fire truck siren goes off again and a car horn is honking again. The fire truck siren goes off again and a car horn is honking again. The fire truck siren goes off again and a car horn is honking again. The fire truck siren goes off again and a car horn is honking again. The fire truck siren goes off again and a car horn is honking again. The fire truck siren goes off again and a car horn is honking again. The fire truck siren goes off again and a car horn is honking again. The fire truck siren goes off again and a car horn is honking again. The fire truck",
+            "judge_response": "Explanation: The reference answer describes a single event where a large truck drives by with an emergency siren wailing and a truck horn honking. In contrast, the model's answer repeatedly describes a fire truck siren going off and a car horn honking, with no mention of a truck driving by. The model's response is overly repetitive and inaccurate, missing the key detail about the truck driving by.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "Listen to the clip and write a description.",
+            "reference": "A child yelling as a young boy talks during several slaps on a hard surface",
+            "model_prediction": "In this clip, a toddler is crying and a woman is trying to calm him down. The woman speaks to the toddler in a calm and soothing voice. The toddler eventually stops crying and smiles at the woman. The clip ends with the woman continuing to speak to the toddler in a calm and soothing voice.",
+            "judge_response": "Explanation: The reference answer describes a chaotic scene where a child is yelling and a young boy is talking while receiving slaps on a hard surface. In contrast, the model's answer describes a calm scene where a woman is soothing a crying toddler, who eventually stops crying and smiles. I think the model's answer is completely misaligned from the reference, providing a peaceful and opposite scenario.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Check the audio and provide an overview.",
+            "reference": "An engine rumbles loudly, then an air horn honk three times",
+            "model_prediction": "A truck engine is idling and honking its horn.",
+            "judge_response": "Explanation: The reference answer is a descriptive phrase that highlights the sounds of an engine rumbling and an air horn honking three times, whereas the model's answer is a concise sentence that summarizes the situation as a truck engine idling and honking its horn. I think the model's answer is relevant and accurate, capturing the essence of the reference answer, but lacks some detail and precision.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "Observe the audio and give an account of it.",
+            "reference": "A person snoring with another man speaking",
+            "model_prediction": "A man is speaking in a foreign language. The man is speaking in a foreign language. The man is speaking in a foreign language. The man is speaking in a foreign language. The man is speaking in a foreign language. The man is speaking in a foreign language. The man is speaking in a foreign language. The man is speaking in a foreign language. The man is speaking in a foreign language. The man is speaking in a foreign language. The man is speaking in a foreign language. The man is speaking in a foreign language. The man is speaking in a foreign language. The man is speaking in a foreign language. The man is speaking in a foreign language. The man is speaking in a foreign language. The man is speaking in a foreign language. The man is speaking in a foreign language. The man is speaking in a foreign language. The man is speaking in a foreign language. The man is speaking",
+            "judge_response": "Explanation: The reference answer describes a scene where a person is snoring, and another man is speaking. In contrast, the model's answer repeatedly states that a man is speaking in a foreign language, with no mention of snoring. The model's response does not accurately or relevantly capture the content of the reference answer. \n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Analyze the recording and describe it.",
+            "reference": "Thunder and a gentle rain",
+            "model_prediction": "This is a recording of a thunderstorm. You can hear the thunder rumbling in the distance and the rain hitting the ground. It sounds like the storm is getting closer and closer. The recording is in stereo, so you can hear the thunder from both the left and right speakers. This recording would be great for use in a thunderstorm scene in a movie or a video game.",
+            "judge_response": "Explanation: The reference answer is a simple and concise description of the recording, \"Thunder and a gentle rain\", while the model's answer is a lengthy and detailed explanation of the recording, including the stereo sound and potential uses in movies or video games. I think the model's answer is overly elaborate and lacks the simplicity and precision of the reference answer.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Listen to the track and summarize it.",
+            "reference": "A woman talks and a baby whispers",
+            "model_prediction": "This is a cute audio clip featuring a baby cooing and a woman talking to the baby. The woman talks about how cute the baby is, and the baby responds by cooing. Overall, it's a heartwarming audio clip that's sure to put a smile on anyone's face.",
+            "judge_response": "Explanation: The reference answer is a simple and concise description of the audio clip, stating \"A woman talks and a baby whispers.\" In contrast, the model's answer provides a more detailed and interpretative response, describing the woman's tone and the baby's cooing. While the model's answer is relevant and attempts to provide more context, it diverges from the reference answer in terms of specificity and accuracy. The reference answer focuses on the simple actions of talking and whispering, whereas the model's answer adds more emotional and descriptive language.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Check the audio and provide an overview.",
+            "reference": "A man talking as a stream of water trickles in the background",
+            "model_prediction": "A man is giving a speech. He is speaking into a microphone. He is standing in front of a group of people. The microphone is plugged into a speaker. The speaker is plugged into an amplifier. The amplifier is plugged into an electrical outlet. The electrical outlet is plugged into a wall socket. The wall socket is plugged into the wall. The wall is made of bricks. The bricks are made of clay. The clay is made of dirt. The dirt is made of rocks. The rocks are made of minerals. The minerals are made of elements. The elements are made of atoms. The atoms are made of protons and neutrons. The protons and neutrons are made of quarks. The quarks are made of leptons. The leptons are made of photons. The phot",
+            "judge_response": "Explanation: The reference answer is a simple description of a scene where a man is speaking while a stream of water trickles in the background. The model's answer, on the other hand, is a convoluted and overly detailed explanation of the technical aspects of the scene, starting from the microphone and amplifier and going all the way down to the atomic level. The model's answer is completely misaligned with the reference, providing irrelevant and unnecessary information.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Analyze the recording and describe it.",
+            "reference": "A person briefly talks followed quickly by toilet flushing and another voice from another person",
+            "model_prediction": "A woman is talking to a group of young children. She tells them to flush the toilet. The toilet flushes. The woman continues to talk to the children. The toilet flushes again. The woman continues to talk to the children. The toilet flushes again. The woman continues to talk to the children. The toilet flushes again. The woman continues to talk to the children. The toilet flushes again. The woman continues to talk to the children. The toilet flushes again. The woman continues to talk to the children. The toilet flushes again. The woman continues to talk to the children. The toilet flushes again. The woman continues to talk to the children. The toilet flushes again. The woman continues to talk to the children. The toilet flushes again. The woman continues to talk",
+            "judge_response": "Explanation: The reference answer is a brief description of a person talking briefly, followed by a toilet flushing and another voice, while the model's answer is a repetitive and inaccurate description of a woman talking to children and flushing the toilet multiple times. I think the model has misinterpreted the scenario and provided an irrelevant and incorrect response.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Listen to the track and summarize it.",
+            "reference": "A woman singing then choking followed by birds chirping",
+            "model_prediction": "This is a recording of a woman singing a song. She is imitating the sound of a bird. She starts off with a high-pitched screeching sound and then moves on to a lower-pitched moaning sound. Throughout the recording, she is imitating the sound of a bird. The recording is of poor quality and it is difficult to make out the lyrics of the song that she is singing. There is no background music in the recording. The recording ends abruptly.",
+            "judge_response": "Explanation: The reference answer is a concise description of the track, stating that it features a woman singing, then choking, followed by birds chirping. In contrast, the model's answer incorrectly assumes the woman is imitating a bird's sound throughout the recording and focuses on the quality of the recording and the lack of background music. The model's response lacks accuracy and relevance to the reference.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "Hear the recording and summarize it briefly.",
+            "reference": "Machinery banging and hissing",
+            "model_prediction": "This is a recording of a train passing by. The sound of the wheels on the tracks and the whistle of the train can be heard. The recording is clear and in stereo.",
+            "judge_response": "Explanation: The reference answer is a brief and vague description of a sound recording, mentioning \"machinery banging and hissing\", while the model's answer is a more specific and detailed description of a train passing by, mentioning \"the sound of the wheels on the tracks and the whistle of the train\". The model's answer assumes a specific context and provides more details than the reference answer. \n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Observe the audio and give an account of it.",
+            "reference": "A person talking which later imitates a couple of meow sounds",
+            "model_prediction": "In this audio, a man is making funny cat noises. He is pretending to be a cat meowing and purring. He is also making funny noises with his mouth. This is a funny and entertaining audio.",
+            "judge_response": "Explanation: The reference answer is brief and to the point, describing the audio as a person talking and then imitating a couple of meow sounds. The model's answer, on the other hand, expands on this idea, adding details about the person pretending to be a cat, making funny noises with their mouth, and characterizing the audio as \"funny and entertaining\". While the model's answer is not entirely inaccurate, it adds unnecessary details and interprets the tone of the audio, which is not explicitly mentioned in the reference. \n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Listen to the audio and give a description.",
+            "reference": "Rain is falling continuously",
+            "model_prediction": "Water is running from a faucet into a sink.",
+            "judge_response": "Explanation: The reference answer is \"Rain is falling continuously\", which describes an outdoor weather phenomenon. In contrast, the model's answer is \"Water is running from a faucet into a sink\", which describes a completely different scenario involving indoor plumbing. The two answers are unrelated and lack any similarity in content, accuracy, or relevance. \n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Hear the sound and explain what you hear.",
+            "reference": "An infant crying followed by a man laughing",
+            "model_prediction": "This is the sound of a baby laughing hysterically. The baby's laughter is so loud and high-pitched that it almost sounds like a woman's laughter. The baby's laughter is so loud and high-pitched that it almost sounds like a woman's laughter. The baby's laughter is so loud and high-pitched that it almost sounds like a woman's laughter. The baby's laughter is so loud and high-pitched that it almost sounds like a woman's laughter. The baby's laughter is so loud and high-pitched that it almost sounds like a woman's laughter. The baby's laughter is so loud and high-pitched that it almost sounds like a woman's laughter. The baby's laughter is so loud",
+            "judge_response": "Explanation: The reference answer describes an infant crying followed by a man laughing, while the model's answer claims to hear a baby laughing hysterically. The model's response is entirely misaligned with the reference, providing incorrect and irrelevant information. \n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Analyze the recording and describe it.",
+            "reference": "A man talking as a door slams shut followed by a door creaking",
+            "model_prediction": "This is a recording of a man practicing archery. The man is standing in a field with a bow and arrow. He is talking to someone off-camera. The audio quality is not very good and there is some background noise. The man is practicing his technique and talking about how to improve his aim. He is also talking about the different types of arrows that he is using. Overall, this recording would be of interest to anyone who is interested in archery or outdoor sports.",
+            "judge_response": "Explanation: The reference answer is a brief description of an audio recording, stating that it's a man talking followed by a door slamming shut and creaking. In contrast, the model's answer is a fictional and unrelated scenario, describing a man practicing archery in a field. The model's answer has no relevance to the reference and provides incorrect information.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        }
+    ]
+}

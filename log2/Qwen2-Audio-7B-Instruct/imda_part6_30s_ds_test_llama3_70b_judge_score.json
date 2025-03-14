@@ -1,0 +1,168 @@
+{
+    "llama3_70b_judge": {
+        "judge_score": 48.38,
+        "success_rate": 0.999
+    },
+    "details": [
+        {
+            "question": "Would you summarize the information from the audio for me?",
+            "reference": "Speaker1 and Speaker2 discussed the educational system, specifically comparing the Junior College (JC) experience to Polytechnic. Speaker1 highlighted that JC students focus on studying for a major exam, the A levels, over the course of two years. In response, Speaker2 expressed interest in learning more about co-curricular activities (CCA) in both Polytechnic and JC, although their inquiry was not fully addressed in the provided transcription.",
+            "model_prediction": "The child would be studying for two whole years to prepare for one major exam, which is the A-levels.",
+            "judge_response": "Explanation: The reference answer is discussing the educational system, specifically comparing JC and Polytechnic, and highlighting the focus on A levels in JC. The model's answer is a simplified and narrow statement only focusing on the A-level exam preparation in JC, without mentioning Polytechnic or the broader educational system. I think the model's answer is partially aligned with the reference, but lacks detail and context.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Would you be able to summarize the content captured in the audio?",
+            "reference": "Speaker1 discussed their parents' current situation, mentioning that they are both 57 years old and working desk-bound jobs with a standard 9-to-5 schedule. The speaker expressed that they do not perceive any health risks for their parents and described them as generally healthy.",
+            "model_prediction": "The original content of this audio is: 'ah currently my parents yeah they're fifty seven both fifty seven this year so i think both of them are working their small jobs yeah the normal nine to five jobs and yeah i don't think there's any risk in terms of health wise yeah i would say they are rather healthy.'",
+            "judge_response": "Explanation: The reference answer provides a clear and concise summary of the speaker's parents' situation, including their age, job type, and health status. The model's response mirrors this content, mentioning the parents' age, job type, and health status in a similar manner. Although the model's response is not as concise or polished as the reference answer, it captures the essential details.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "Could you please summarize the audio?",
+            "reference": "Speaker1 explained the process of registering a newborn child with the government, emphasizing that no application is required as long as the birth is registered during the certificate period. This registration enables the government to acknowledge the new birth, and subsequently, any related payments will be made in periodic installments rather than a single payment.",
+            "model_prediction": "The audio explains that no application is required to receive benefits; instead, the government is notified through the birth certificate process that a new child has been born. Afterward, the payments for the mother would be spread out over time rather than being a single lump sum.",
+            "judge_response": "Explanation: The reference answer explains that registering a newborn child with the government involves registering the birth during the certificate period, after which the government acknowledges the new birth and makes related payments in periodic installments. The model's answer is a concise summary, stating that no application is required, and the government is notified through the birth certificate process, leading to payments spread out over time. While the model's answer is brief, it accurately captures the essence of the reference answer, omitting some details but retaining the core information.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "Can you assist in summarizing the audio recording?",
+            "reference": "Speaker1 and Speaker2 discussed pet travel insurance, with Speaker1 explaining that pets can be covered and a health checkup is required before purchasing the insurance. Speaker2 asked for clarification on the timeline for the health checkup and inquired about the costs involved.",
+            "model_prediction": "The pet insurance can be claimed for two of the cats, and there's a health check-up required before they can be insured. The length of time in advance for the health check-up is not specified.",
+            "judge_response": "Explanation: The reference answer explains that pets can be covered by pet travel insurance, and a health checkup is required before purchasing the insurance, with Speaker2 asking about the timeline and costs involved. In contrast, the model's answer only mentions that pet insurance can be claimed for two cats, requires a health checkup, but doesn't specify the timeline. The model's response lacks details about the cost inquiry and the conversation between Speaker1 and Speaker2.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Would you be able to summarize the content captured in the audio?",
+            "reference": "Speaker1 and Speaker2 are discussing an insurance claim, specifically whether an expense is covered under a premium plan. Speaker1 asks Speaker2 for evidence of currency conversion from Singapore dollars to Korean won to determine the value used for the conversion, but Speaker2 is uncertain about having such evidence.",
+            "model_prediction": "The original content of this audio is:'okay yeah you did apply for our, you did apply for our premium plan, so i think it will actually be covered. but ah okay. uh yeah have any evidence of you converting the money to korean won? sorry again. do you have any evidence of you converting the singapore cash to korean won so we can gauge the value that will use to convert to the korean currency? i'm not sure but um'",
+            "judge_response": "Explanation: The reference answer clearly outlines the discussion between Speaker1 and Speaker2 about an insurance claim, specifically the requirement for evidence of currency conversion from Singapore dollars to Korean won. In contrast, the model's answer is a direct quote from the audio, but it does not provide a clear summary of the content. The model's answer focuses on the conversation itself rather than summarizing the main topic.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Can you assist in summarizing the audio recording?",
+            "reference": "Speaker1 informed Speaker2 about a travel promotion, offering a 50% discount for all travel packages booked in December. The original price per person was around $2,500, but with the discount, it's now approximately $1,000, inclusive of GST and service charges, with additional costs for customisation if needed. Speaker2 acknowledged the information.",
+            "model_prediction": "The original price per person for a travel package was around two thousand five hundred, but it has now been reduced to one thousand plus, including any GST or service charges.",
+            "judge_response": "Explanation: The reference answer is detailed and provides specific information about the original price, discounted price, and additional costs, whereas the model's answer only mentions the original and discounted prices without any additional information. The model's answer lacks precision and clarity, using phrases like \"around\" and \"plus\" instead of providing exact figures. Additionally, it fails to mention the inclusion of GST and service charges.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Could you please summarize the audio?",
+            "reference": "Speaker1 and Speaker2 discussed the topic of public housing requirements, specifically in relation to the HDB law. Speaker1 emphasized the importance of meeting the requirements and the need to obtain necessary documents. Speaker2 acknowledged this information and began to ask about the process of selling, but the conversation was cut off before they could elaborate.",
+            "model_prediction": "The audio describes the process of requesting documents from public housing tenants to ensure they meet the requirements set by the HDB laws.",
+            "judge_response": "Explanation: The reference answer explains that the conversation is about public housing requirements, specifically HDB law, and that Speaker1 emphasizes meeting the requirements and obtaining necessary documents, while Speaker2 asks about the process of selling. In contrast, the model's answer oversimplifies the conversation, stating that it is about requesting documents from public housing tenants to ensure they meet HDB laws. The model's answer lacks the specific details and context provided in the reference answer. I think the model's answer is a superficial summary that misses the nuances of the conversation.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Can you help clarify the main ideas in the audio?",
+            "reference": "Speaker1 explained the process of using AXS for payment, where a document with a barcode is sent for scanning at an AXS machine. However, they also mentioned that AXS now offers alternative methods, such as E station and M station, which can be accessed through the internet and mobile app, respectively, eliminating the need to physically go to a station. Speaker2 acknowledged the information with a brief response.",
+            "model_prediction": "The speaker is discussing the process of claiming an access code, mentioning that once the payment is made, a document will be sent with a barcode for scanning at an access machine. They also mention that there are various forms of physical access points such as E-stations and M-stations which allow internet access through mobile devices.",
+            "judge_response": "Explanation: The reference answer explains the process of using AXS for payment, highlighting the traditional method of scanning a document at an AXS machine, and alternative methods such as E station and M station. In contrast, the model's answer focuses on the process of claiming an access code, mentioning E-stations and M-stations, but lacks clarity and accuracy. The model's response does not fully capture the essence of the reference answer, omitting the traditional method and incorrectly framing the process as claiming an access code.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Is it possible for you to summarize what's covered in the audio?",
+            "reference": "Speaker1 explained payment options for a premium service to Speaker2, stating that users can choose to pay either yearly or monthly. For monthly payments, the premium is simply divided by twelve with no additional charges. In contrast, choosing to pay the premium yearly results in a one-time three percent discount.",
+            "model_prediction": "The audio discusses membership options, mentioning that monthly payments involve dividing the premium by 12 and there are no additional charges. Annual payments allow for a one-time discount of 3%.",
+            "judge_response": "Explanation: The reference answer provides a detailed explanation of the payment options, stating that users can choose to pay either yearly or monthly, with the monthly payment being the premium divided by 12 with no additional charges, and the yearly payment resulting in a one-time 3% discount. The model's answer, on the other hand, summarizes the main points but omits some details, such as the 'no additional charges' part for monthly payments. The model's answer is concise and relevant, but lacks some precision and detail compared to the reference.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "Would you help me summarize the core message of the audio?",
+            "reference": "Speaker1 and Speaker2 discussed the topic of data usage, specifically in relation to internet plans. Speaker1 advised against a particular plan, suggesting that thirty gigabytes would be more than enough for Speaker2's needs, given their average usage of around twenty gigabytes per month. Speaker2 agreed with the suggestion.",
+            "model_prediction": "The speaker suggests that 30 GB is more than enough storage for the current needs, based on the average maximum usage of around 20 GB per month.",
+            "judge_response": "Explanation: The reference answer provides specific context about the discussion between Speaker1 and Speaker2 regarding internet plans and data usage, highlighting the suggested plan of 30 GB based on Speaker2's average usage of 20 GB per month. In contrast, the model's answer focuses on the suggestion that 30 GB is sufficient for the user's needs, but lacks the specific details about the discussion and the average usage. I think the model's answer is a summarized version of the reference answer, but loses some accuracy and relevance in the process.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Could you help by giving an overview of the audio's content?",
+            "reference": "Speaker1 and Speaker2 discussed the details of an order and payment process, likely for food delivery or catering. Speaker1 explained that the order details and total cost would be sent to Speaker2 via mail and their contact number, and that payment could be made by cash or through an online portal. Speaker2 agreed to the arrangement and thanked Speaker1, who in turn expressed appreciation for the call and looked forward to serving Speaker2 in two hours.",
+            "model_prediction": "The audio contains a conversation between a customer service representative and a client, discussing an order, total cost, payment methods, and expressing gratitude.",
+            "judge_response": "Explanation: The reference answer provides specific details about the conversation, including the methods of receiving order details and payment, whereas the model's answer is more general, mentioning only the topics discussed. The model's answer lacks the precision and accuracy of the reference answer. I think it's a good effort, but it doesn't quite capture the essence of the conversation.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Can you assist me in summarizing the audio file’s content?",
+            "reference": "Speaker1 and Speaker2 discussed the topic of paid childcare leave. Speaker1 explained that an employee can take up to six days of paid childcare leave within a calendar year or any twelve-month period, based on a mutual agreement with their employer. Speaker2 inquired if this policy applies to fathers as well, and Speaker1 confirmed that it does.",
+            "model_prediction": "The audio discusses an employee's right to take up to six days of paternity leave based on a mutual agreement between the employee and employer. The speaker also mentions that they can take paternity leave for themselves and implies it is a benefit available to both genders.",
+            "judge_response": "Explanation: The reference answer clearly states that the topic is about paid childcare leave, whereas the model's answer incorrectly labels it as \"paternity leave\". Additionally, the model's answer implies that the leave is specifically for the employee themselves, which is not mentioned in the reference. The model also omits the key detail about the mutual agreement with the employer and the specific number of days (six) mentioned in the reference.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Would you be able to summarize the content captured in the audio?",
+            "reference": "Speaker1 and Speaker2 discussed the rules for registering a vehicle for season parking. Speaker1 explained that the first vehicle registered by an individual receives priority for season parking, while subsequent vehicles, regardless of ownership, are considered second priority. Speaker2 acknowledged and agreed with Speaker1's explanation.",
+            "model_prediction": "The speaker is discussing vehicle registration and the requirements for receiving a first party or second party status for parking permits.",
+            "judge_response": "Explanation: The reference answer provides specific details about the rules for registering a vehicle for season parking, including the priority given to the first vehicle registered by an individual. In contrast, the model's answer is vague and only mentions the general topic of vehicle registration and parking permits without providing any specific details. I think the model's answer lacks accuracy and relevance to the reference.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Could you help by giving an overview of the audio's content?",
+            "reference": "Speaker1 and Speaker2 discussed eligibility for a credit card application. Speaker1 asked Speaker2 to confirm their nationality and annual income, which Speaker2 stated was Singaporean and $40,000, respectively. Speaker1 then informed Speaker2 that they were eligible to apply for their credit cards and inquired about their interest in a specific card.",
+            "model_prediction": "The audio contains a conversation between two individuals, where one person appears to be inquiring about the other's eligibility for a credit card and asking for personal information such as gross annual income.",
+            "judge_response": "Explanation: The reference answer provides specific details about the conversation, including the topics of nationality and annual income, as well as the outcome of the eligibility check. In contrast, the model's answer is quite vague, only mentioning that one person is inquiring about the other's eligibility for a credit card and asking for personal information. While the model's answer touches on the general topic, it lacks the specific details and accuracy of the reference answer.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Please provide a summary of the audio.",
+            "reference": "Speaker1 and Speaker2 discussed maternity and paternity leave benefits. Speaker1 explained that a father can take up to 4 weeks of the mother's 16-week maternity leave, which Speaker2 confirmed. Speaker1 then inquired about any additional paternity benefits available for fathers, but the conversation did not elaborate further on this topic.",
+            "model_prediction": "The speaker is discussing the possibility of a father borrowing time from his four weeks off for additional purposes, within the context of a legal or work environment.",
+            "judge_response": "Explanation: The reference answer explains that Speaker1 and Speaker2 discussed maternity and paternity leave benefits, specifically the father taking up to 4 weeks of the mother's 16-week maternity leave. In contrast, the model's answer is unrelated, discussing a father borrowing time for additional purposes in a legal or work environment. The model's response does not align with the reference answer's topic or content.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "I would appreciate it if you could summarize the audio content.",
+            "reference": "Speaker1 and Speaker2 discussed Speaker1's experience at a hotel or accommodation. Speaker2 asked for feedback on the stay, and Speaker1 shared that they enjoyed their time and found the room to be satisfactory, with all amenities in working order. Speaker1 also commended the hotel's cleaning service, citing a specific incident where their child got ill and the cleaning crew responded efficiently.",
+            "model_prediction": "The client had a positive experience at the hotel, indicating that everything was good and working properly. However, there was an issue with their children being a bit upset, which led to a minor inconvenience as their boy threw up in the room. Despite this, the client appreciated the cleaning staff's efforts.",
+            "judge_response": "Explanation: The reference answer mentions that the client enjoyed their time, the room was satisfactory, and the cleaning service was commendable, especially in responding to an incident where their child got ill. In contrast, the model's answer focuses on the client having a positive experience, but then introduces an issue with the child throwing up in the room, which is not entirely accurate. The model's answer lacks details on the room's condition and the cleaning service's efforts. I think the model's response is not entirely accurate and misses some key points from the reference.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Could you help by giving an overview of the audio's content?",
+            "reference": "Speaker1 and Speaker2 discussed the topic of household income. Speaker2 asked Speaker1 about their monthly household income, and Speaker1 replied that it is three thousand dollars.",
+            "model_prediction": "The audio features a conversation between two individuals discussing financial matters, specifically focusing on monthly household income. The first speaker mentions that their monthly household income is three thousand dollars, which is confirmed by the second speaker. There seems to be an informal tone to the conversation, possibly indicating a personal or casual setting.",
+            "judge_response": "Explanation: The reference answer is a concise summary of the conversation between two speakers about household income, whereas the model's answer is a bit more elaborate, adding some extra information about the tone of the conversation. I think the model's answer is generally accurate and relevant, but could be more concise and precise in some aspects.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "Would you help me summarize the core message of the audio?",
+            "reference": "Speaker1 and Speaker2 discussed a promotional offer. Speaker1 mentioned a promo code, \"ABCDEF123\", which provides a 20% discount for the first three months of the bill. Speaker2 clarified that the discount applies to both bills, even though they are billed separately, and Speaker1 confirmed this.",
+            "model_prediction": "The audio describes a process or an offer where there is a discount or promotion available for the first three months. It seems to be related to bills or subscriptions, and it appears that customers have the option to choose between having two separate bills or just one bill regardless of whether they are for different services.",
+            "judge_response": "Explanation: The reference answer provides specific details about the promotional offer, including the promo code and the discount percentage, whereas the model's answer is vague and lacks concrete information. The model's response tries to infer the topic, but it doesn't capture the essence of the promotional offer. \n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Could you please summarize the audio?",
+            "reference": "Speaker1 and Speaker2 discussed personal topics, starting with Speaker1's smoking habits, describing themselves as a social smoker. Speaker1's wife does not smoke. The conversation then shifted to their occupations, with Speaker1 revealing that they work as a civil engineer and their spouse works as a financial planner in insurance.",
+            "model_prediction": "The speaker talks about their habit of smoking socially and mentions that both they and their spouse smoke. They also share their professions; the speaker is an engineer and the other's spouse is a financial planner.",
+            "judge_response": "Explanation: The reference answer is specific about the speaker's smoking habits, stating they are a \"social smoker\" and their wife does not smoke. In contrast, the model's answer incorrectly states that both the speaker and their spouse smoke. Additionally, the model's answer lacks details about their occupations. \n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "Would you mind helping to summarize the content of the audio?",
+            "reference": "Speaker1 and Speaker2 had a customer service interaction where Speaker1 informed Speaker2, likely a customer named Amira, that her delivery would arrive by 6 PM and provided instructions on what to do if it didn't arrive on time. Speaker2 thanked Speaker1 and confirmed that there were no other issues, ending the conversation with a polite exchange of goodbyes.",
+            "model_prediction": "The summary is as follows: A delivery is expected by 6pm and if it's late, a call should be made. The speaker expresses gratitude and closes with well-wishes before ending the conversation.",
+            "judge_response": "Explanation: The reference answer provides a detailed summary of the customer service interaction, including the specific time of delivery, the instructions provided, and the polite exchange of goodbyes. In contrast, the model's answer is brief and lacks specific details, only mentioning the expected delivery time and the need to make a call if it's late. The model's answer does not capture the full context of the conversation.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        }
+    ]
+}

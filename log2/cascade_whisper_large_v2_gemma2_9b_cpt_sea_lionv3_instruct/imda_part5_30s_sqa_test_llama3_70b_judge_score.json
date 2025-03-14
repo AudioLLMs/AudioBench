@@ -1,0 +1,168 @@
+{
+    "llama3_70b_judge": {
+        "judge_score": 80.34,
+        "success_rate": 0.999
+    },
+    "details": [
+        {
+            "question": "What is Speaker2's suggestion for avoiding regrets in daily life?",
+            "reference": "Speaker2 suggests pushing out of one's comfort zone and trying new things to avoid having regrets.",
+            "model_prediction": "The audio doesn't explicitly offer a direct suggestion for *avoiding* regrets, but it emphasizes being mindful and acting on desires in the moment, like buying that ice cream, to minimize potential regrets later.",
+            "judge_response": "Explanation: The reference answer is \"pushing out of one's comfort zone and trying new things\" to avoid regrets, while the model's answer is \"being mindful and acting on desires in the moment\" to minimize potential regrets. I think the model's answer is related to the topic of regrets, but it diverges significantly from the reference in accuracy and relevance. The model's answer focuses more on being mindful in the present, whereas the reference answer emphasizes taking action outside of one's comfort zone.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "What was the reason for Speaker1's feelings of shame and upset in the context of the friendship?",
+            "reference": "Speaker1's trust was betrayed by someone they trusted, and there was photo and video evidence of the betrayal.",
+            "model_prediction": "Speaker1 felt shame and upset because a trusted friend betrayed them, which was made worse by the presence of photo or video evidence confirming the betrayal.\n",
+            "judge_response": "Explanation: The reference answer is specific about the betrayal being committed by someone Speaker1 trusted, whereas the model's answer is more general, using the term \"trusted friend\". The model's answer also changes the focus from the betrayal to the presence of evidence, making it less accurate. However, the model's answer does capture the essence of Speaker1 feeling shame and upset due to the betrayal.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Does Speaker1 still need to wait for their ticket to be processed?",
+            "reference": "Yes",
+            "model_prediction": "Yes, Speaker1 still needs to wait for their ticket to be processed.",
+            "judge_response": "Explanation: The reference answer is a simple \"Yes\", while the model's answer is \"Yes, Speaker1 still needs to wait for their ticket to be processed.\" I think the model's answer is a clear and detailed elaboration of the reference answer, providing additional context that is relevant to the question.\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "Is Speaker1 planning to start investing soon?",
+            "reference": "The speaker is considering it, as they mention \"would you like would you start investing soon or are you planning to\", indicating that they are thinking about investing but have not made a decision yet.",
+            "model_prediction": "The audio doesn't explicitly state if Speaker1 is *planning* to start investing soon, only that they used some end-of-month savings.",
+            "judge_response": "Explanation: The reference answer is explaining that Speaker1 is considering investing, while the model's answer is questioning whether the audio provides explicit information about Speaker1's plans to invest. I think the model's answer is more neutral and refuses to make an inference, whereas the reference answer is making an inference based on the conversation.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What is one activity that Speaker2 enjoys doing when traveling to different places?",
+            "reference": "Experiencing their culture and heritage.",
+            "model_prediction": "Speaker2 enjoys **experiencing the culture and heritage** of different places when traveling.\n",
+            "judge_response": "Explanation: The reference answer is \"Experiencing their culture and heritage\", while the model's answer is \"experiencing the culture and heritage of different places\". I think the model's answer is a paraphrased version of the reference answer, maintaining the same meaning and content.\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "What is the main difference in financial habits between the speaker and their friends, according to the speaker?",
+            "reference": "The speaker uses an ATM card and manages their finances digitally, while their friends still use cash and do not have ATM cards.",
+            "model_prediction": "The main difference is that the speaker confidently uses banking services like ATM cards for withdrawals, deposits, and savings, while their friends primarily rely on cash.",
+            "judge_response": "Explanation: The reference answer highlights the digital aspect of the speaker's financial habits, emphasizing the use of ATM cards and digital management of finances, whereas their friends rely on cash and do not have ATM cards. In contrast, the model's answer focuses on the speaker's confidence in using banking services, which is not the primary difference mentioned in the reference answer. While the model's answer is related to the topic, it diverges from the reference in terms of accuracy and relevance.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "What is the extent of an insurance agent's knowledge about policy contract wordings, according to Speaker1?",
+            "reference": "They only know the general information, such as what is covered and how much the customer is being covered.",
+            "model_prediction": "Speaker1 believes insurance agents, even with their expertise, **only grasp the general gist and coverages of a policy contract, not the intricate details and specific wordings.**\n",
+            "judge_response": "Explanation: The reference answer states that insurance agents only know general information, such as what is covered and how much the customer is being covered. In contrast, the model's answer implies that insurance agents lack knowledge of intricate details and specific wordings of a policy contract, which is an inferred interpretation rather than a direct match. While the model's answer is related to the topic, it doesn't perfectly capture the simplicity and generality mentioned in the reference answer.\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "What two main reasons does Speaker2 mention for not switching to another bank from POSB?",
+            "reference": "Attractive interest rate and no requirement for a minimum amount to be held in the account.",
+            "model_prediction": "Speaker2 mentions **familiarity from using it since young** and **attractive interest rates without a minimum balance requirement** as reasons for staying with POSB.",
+            "judge_response": "Explanation: The reference answer is \"Attractive interest rate and no requirement for a minimum amount to be held in the account\", while the model's answer is \"attractive interest rates without a minimum balance requirement\". The model's answer accurately captures one of the reasons mentioned in the reference answer, and phrases it similarly. \n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "What does Speaker2 suggest that people should realize about others when forming judgments or impressions?",
+            "reference": "That they are human and have multiple sides to them.",
+            "model_prediction": "Speaker 2 suggests that people should realize that others are humans with multifaceted personalities, not just one-dimensional beings.",
+            "judge_response": "Explanation: The reference answer highlights the idea that people are human and have multiple sides to them, implying that others are complex and multidimensional. The model's answer similarly conveys that people are not one-dimensional beings, but rather have multifaceted personalities. I think the model's answer accurately captures the essence of the reference answer.\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "What does the speaker believe about the relationship between risk level and healthcare insurance premiums?",
+            "reference": "The speaker believes that premiums are usually lower when patients or citizens consider their risk level.",
+            "model_prediction": "The speaker believes that healthcare insurance premiums are usually lower for individuals with lower risk levels.",
+            "judge_response": "Explanation: The reference answer is \"The speaker believes that premiums are usually lower when patients or citizens consider their risk level\", while the model's answer is \"The speaker believes that healthcare insurance premiums are usually lower for individuals with lower risk levels\". I think the model's answer accurately conveys the same meaning as the reference answer, with the addition of specifying \"healthcare insurance\" which is implicit in the reference answer.\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "What does CPF stand for in the context of Speaker2's conversation?",
+            "reference": "Central Provident Fund",
+            "model_prediction": "CPF likely stands for **Central Provident Fund**.",
+            "judge_response": "Explanation: The reference answer is a direct statement that CPF stands for Central Provident Fund. The model's answer, \"CPF likely stands for **Central Provident Fund**,\" is also correct but uses the hedge word \"likely\" which introduces a slight degree of uncertainty. I think the model's answer is mostly accurate and relevant, but the added uncertainty prevents it from being a perfect match.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "What is one key factor that Speaker2 considers when evaluating bank loans for home loans?",
+            "reference": "The lock-in period.",
+            "model_prediction": "**Lock-in period**",
+            "judge_response": "Explanation: The reference answer is \"The lock-in period\", which indicates that Speaker2 considers the lock-in period as a key factor when evaluating bank loans for home loans. The model's answer is \"**Lock-in period**\", which is almost identical to the reference answer and captures the essence of the reference perfectly.\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "What is the speaker's concern about relying on a mentor?",
+            "reference": "The speaker is concerned that they may not be able to rely on their mentor forever, as the mentor may not be around all the time.",
+            "model_prediction": "The speaker's concern is that mentors and supportive friends may not always be available due to unforeseen circumstances in life.",
+            "judge_response": "Explanation: The reference answer is \"The speaker is concerned that they may not be able to rely on their mentor forever, as the mentor may not be around all the time\", while the model's answer is \"The speaker's concern is that mentors and supportive friends may not always be available due to unforeseen circumstances in life\". I think the model's answer captures the essence of the reference answer, but is a bit more general, using \"mentors and supportive friends\" instead of just \"mentor\", and \"unforeseen circumstances\" instead of \"may not be around all the time\".\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "How old is Speaker1's son?",
+            "reference": "Two years old.",
+            "model_prediction": "2 years old",
+            "judge_response": "Explanation: The reference answer is \"Two years old\", while the model's answer is \"2 years old\". I think the model's answer is a more concise and common way to express the age, but it conveys the same information as the reference answer.\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "What challenge does Speaker2 think a regular person who doesn't know sign language might face when trying to convey their point to a consumer?",
+            "reference": "Speaker2 thinks that a regular person who doesn't know sign language might face the challenge of how to convey their point to a consumer, implying that they would struggle to communicate effectively.",
+            "model_prediction": "A regular person who doesn't know sign language would face the challenge of **conveying their point to a consumer who relies on sign language**.",
+            "judge_response": "Explanation: The reference answer is describing the challenge of communication between a regular person who doesn't know sign language and a consumer, while the model's answer is specifically highlighting the struggle to convey a point to a consumer who relies on sign language. I think the model's answer is a more detailed and specific version of the reference answer, accurately capturing the essence of the challenge.\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "What is John's preference when it comes to waffles, according to Speaker2?",
+            "reference": "John is not a fan of toppings, he is a \"waffle guy\".",
+            "model_prediction": "John prefers waffles without toppings.",
+            "judge_response": "Explanation: The reference answer implies that John prefers waffles with no toppings, while the model's answer states that John prefers waffles without toppings, which conveys the same meaning. The model's answer is concise and accurately captures the essence of John's preference.\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "What was the outcome of the conversation between the speaker and their direct boss after the speaker's direct boss was upset?",
+            "reference": "The issue was resolved after they talked it out, and everything was fine.",
+            "model_prediction": "They talked it out and it was fine.",
+            "judge_response": "Explanation: The reference answer is \"The issue was resolved after they talked it out, and everything was fine\", which provides a clear and detailed outcome of the conversation. The model's answer \"They talked it out and it was fine\" is concise and to the point, but lacks a bit of detail compared to the reference. It still conveys the same general meaning, though.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "What event or realization led to a decrease in Speaker1's motivation to continue with their education?",
+            "reference": "The thought of education being a necessity started to wane when Speaker1 considered doing National Service (NS) and then taking any job afterward.",
+            "model_prediction": "The realization that National Service (NS) could be followed by any job, diminishing the perceived necessity of further education, decreased Speaker1's motivation to continue studying.",
+            "judge_response": "Explanation: The reference answer is \"The thought of education being a necessity started to wane when Speaker1 considered doing National Service (NS) and then taking any job afterward.\" This implies that the event that led to the decrease in motivation was the consideration of doing NS and taking any job afterward. The model's answer is \"The realization that National Service (NS) could be followed by any job, diminishing the perceived necessity of further education, decreased Speaker1's motivation to continue studying.\" I think the model's answer accurately captures the essence of the reference answer, with a slight rephrasing to make it more concise and clear.\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "What happened when Speaker1's washing machine broke down?",
+            "reference": "Speaker1 couldn't open the door and felt frustrated.",
+            "model_prediction": "Speaker1 couldn't open the washing machine door when it broke down, leading to frustration.\n",
+            "judge_response": "Explanation: The reference answer is \"Speaker1 couldn't open the door and felt frustrated.\", which is a general statement about Speaker1's inability to open a door and their subsequent frustration. The model's answer is \"Speaker1 couldn't open the washing machine door when it broke down, leading to frustration.\", which adds specific details about the type of door (washing machine door) and the reason for the inability to open it (it broke down). While the model's answer is more detailed, it still captures the essence of the reference answer.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "What type of personal attribute does Speaker2 refuse to joke about?",
+            "reference": "Something a person can't actually change.",
+            "model_prediction": "Speaker2 refuses to joke about **physical attributes** like weight or appearance.",
+            "judge_response": "Explanation: The reference answer is \"Something a person can't actually change\", implying that it's an attribute that is unchangeable or inherent to a person. The model's answer is \"physical attributes like weight or appearance\", which is a specific type of attribute that fits the description of being unchangeable or difficult to change.\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        }
+    ]
+}

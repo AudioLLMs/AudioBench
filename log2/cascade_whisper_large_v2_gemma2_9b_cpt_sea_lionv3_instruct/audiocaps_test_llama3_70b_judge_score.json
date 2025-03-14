@@ -1,0 +1,168 @@
+{
+    "llama3_70b_judge": {
+        "judge_score": 3.0954545454545457,
+        "success_rate": 0.9995454545454545
+    },
+    "details": [
+        {
+            "question": "Listen to the audio and give a description.",
+            "reference": "Constant rattling noise and sharp vibrations",
+            "model_prediction": "Someone is preparing to light something and confirms that the current amount is sufficient.",
+            "judge_response": "Explanation: The reference answer is \"Constant rattling noise and sharp vibrations\", which describes a distinctive sound and sensation. In contrast, the model's answer is \"Someone is preparing to light something and confirms that the current amount is sufficient\", which is unrelated to the audio description and appears to be describing a different scenario altogether. I think the model's answer is completely misaligned with the reference.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Observe the audio and give an account of it.",
+            "reference": "A rocket flies by followed by a loud explosion and fire crackling as a truck engine runs idle",
+            "model_prediction": "The audio ends with a simple expression of gratitude, \"Thanks for watching!\".",
+            "judge_response": "Explanation: The reference answer describes the audio as a rocket flying by followed by an explosion and fire crackling, then a truck engine running idle, whereas the model's answer is a simple expression of gratitude, \"Thanks for watching!\". These two answers are completely unrelated, and the model's answer does not accurately describe the audio content.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Review the audio and offer a description.",
+            "reference": "Humming and vibrating with a man and children speaking and laughing",
+            "model_prediction": "The audio consists of a short utterance expressing surprise or alarm followed by an exclamation of distress (\"Oh no!\").  It suggests a sudden, unexpected event or realization.",
+            "judge_response": "Explanation: The reference answer describes a scene with a humming and vibrating sound, accompanied by a man and children speaking and laughing. In contrast, the model's answer focuses on a sudden, unexpected event or realization, with an expression of surprise or alarm, which is completely unrelated to the reference answer. The model's response does not capture the essence of the reference answer, which is a description of a soundscape. \n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Observe the audio and give an account of it.",
+            "reference": "A train running on a railroad track followed by a vehicle door closing and a man talking in the distance while a train horn honks and railroad crossing warning signals ring",
+            "model_prediction": "The audio consists only of the single utterance \"Oh\".",
+            "judge_response": "Explanation: The reference answer is a descriptive passage detailing the sounds present in the audio, including a train, a vehicle door closing, a man talking, a train horn, and railroad crossing warning signals. In contrast, the model's answer is a single utterance \"Oh\" that lacks any relevance or accuracy to the reference answer. The model's response does not provide any information about the audio's content, making it completely misaligned.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Hear the sound and explain what you hear.",
+            "reference": "Food is frying, and a woman talks",
+            "model_prediction": "The audio suggests adding a small amount of oil to prevent something from sticking.",
+            "judge_response": "Explanation: The reference answer is describing a scenario where food is being fried and a woman is talking, while the model's answer is suggesting adding a small amount of oil to prevent something from sticking. I think the two answers are unrelated, and the model's response doesn't capture the essence of the reference answer.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Listen to the clip and write a description.",
+            "reference": "A man speaks as birds chirp and dogs bark",
+            "model_prediction": "The audio transcription mentions the state of Washington.",
+            "judge_response": "Explanation: The reference answer provides a descriptive phrase about the audio clip, mentioning the sounds of birds chirping and dogs barking, while the model's answer mentions the state of Washington, which is not related to the audio clip. The model's answer is completely misaligned and lacks any relevance to the reference.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Listen to the audio and give a description.",
+            "reference": "A large truck driving by as an emergency siren wails and truck horn honks",
+            "model_prediction": "The audio transcription consists solely of a prolonged, high-pitched scream or shriek.",
+            "judge_response": "Explanation: The reference answer describes a scene with a large truck driving by, accompanied by an emergency siren and a truck horn honking. In contrast, the model's answer describes a prolonged, high-pitched scream or shriek. There is no similarity between the two descriptions, and the model's answer does not capture any aspect of the reference answer.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Listen to the audio and give a description.",
+            "reference": "A child yelling as a young boy talks during several slaps on a hard surface",
+            "model_prediction": "The audio is a short, repetitive phrase asking \"Are you over tired?\" with encouraging \"yeah, yeah, say yeah, baby\" interjections.",
+            "judge_response": "Explanation: The reference answer describes a chaotic scene with a child yelling and a young boy talking with slaps on a hard surface, whereas the model's answer is a short, repetitive phrase asking \"Are you over tired?\" with encouraging interjections. These two descriptions are completely unrelated, indicating a complete mismatch between the reference and the model's response. I think the model's answer is not even remotely close to the reference, demonstrating a complete lack of understanding.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Listen to the track and summarize it.",
+            "reference": "An engine rumbles loudly, then an air horn honk three times",
+            "model_prediction": "The audio transcription expresses gratitude to the viewer for watching.",
+            "judge_response": "Explanation: The reference answer describes an auditory experience, detailing the sounds of an engine rumbling and an air horn honking three times. In contrast, the model's answer expresses gratitude to the viewer for watching, which is unrelated to the audio transcription. The model's response is completely misaligned with the reference, providing incorrect and irrelevant information.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Check the audio and provide an overview.",
+            "reference": "A person snoring with another man speaking",
+            "model_prediction": "The speaker believes that one slap in the face is insufficient punishment and demands two slaps instead.\n",
+            "judge_response": "Explanation: The reference answer describes a scene where a person is snoring, and another man is speaking. In contrast, the model's answer is unrelated and talks about a person demanding two slaps as punishment. The two responses are completely disparate, with no common thread or connection. The model's answer does not capture the essence or detail of the reference answer.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Listen to the clip and write a description.",
+            "reference": "Thunder and a gentle rain",
+            "model_prediction": "The audio clip ends with a simple expression of gratitude to the viewer: \"Thanks for watching!\".",
+            "judge_response": "Explanation: The reference answer is a description of the audio clip's ending, mentioning \"Thunder and a gentle rain\", while the model's answer is a description of the audio clip's ending, mentioning \"Thanks for watching!\". These two answers are completely different and unrelated, as the model's answer does not mention anything about thunder or rain, and instead talks about a phrase that is not even mentioned in the reference.\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Check the audio and provide an overview.",
+            "reference": "A woman talks and a baby whispers",
+            "model_prediction": "The audio expresses admiration, stating that someone is \"cute\".",
+            "judge_response": "Explanation: The reference answer describes a specific scene where \"a woman talks and a baby whispers\", while the model's answer is unrelated, stating that someone is \"cute\". There is no connection between the two answers, and the model's response does not capture the essence of the reference. I think the model fails to understand the context of the audio.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Observe the audio and give an account of it.",
+            "reference": "A man talking as a stream of water trickles in the background",
+            "model_prediction": "The audio describes a Briggs & Stratton 5 horsepower, 4-stroke outboard motor mounted on a 17-foot vessel.",
+            "judge_response": "Explanation: The reference answer is a description of a peaceful scene with a man speaking and a stream of water trickling in the background, while the model's answer is a technical description of a motorboat. I think the model's answer is completely misaligned with the reference answer, providing irrelevant information.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Listen to the audio and give a description.",
+            "reference": "A person briefly talks followed quickly by toilet flushing and another voice from another person",
+            "model_prediction": "The audio snippet is a casual conversation hinting at a recurring event or appointment, likely a menstrual cycle, with a farewell phrase \"See you next Tuesday\".",
+            "judge_response": "Explanation: The reference answer is a descriptive sentence highlighting the peculiar sequence of events, whereas the model's answer is an interpretive response attempting to make sense of the audio snippet. I think the model's answer is overly ambitious and loses sight of the original content.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "Hear the audio and write a brief description.",
+            "reference": "A woman singing then choking followed by birds chirping",
+            "model_prediction": "The audio transcription consists solely of a prolonged, continuous \"O\" sound.",
+            "judge_response": "Explanation: The reference answer describes a sequence of sounds, including a woman singing, choking, and birds chirping, whereas the model's answer states that the audio consists solely of a prolonged, continuous \"O\" sound. The two answers are completely mismatched, with no overlap in content, accuracy, or relevance. The model's answer does not capture any aspect of the reference answer.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Hear the audio and write a brief description.",
+            "reference": "Machinery banging and hissing",
+            "model_prediction": "The audio transcription contains only the word \"the\".",
+            "judge_response": "Explanation: The reference answer is \"Machinery banging and hissing\", which provides a descriptive phrase about the audio content. In contrast, the model's answer is \"The audio transcription contains only the word 'the'\", which is a completely different and inaccurate description. The model's answer does not attempt to describe the audio content and instead provides a false statement about the transcription. I think this response is completely misaligned with the reference answer.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Review the audio and offer a description.",
+            "reference": "A person talking which later imitates a couple of meow sounds",
+            "model_prediction": "The audio expresses a violent and threatening statement, vowing to inflict harm by scratching someone's eyes out.",
+            "judge_response": "Explanation: The reference answer describes a person speaking and then making a few meow sounds, whereas the model's answer is a violent and threatening statement. The two responses are unrelated and contrasting in nature and content. The model's answer does not capture the essence of the reference answer at all.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Hear the audio and write a brief description.",
+            "reference": "Rain is falling continuously",
+            "model_prediction": "The audio requests viewers to subscribe to the channel.",
+            "judge_response": "Explanation: The reference answer is \"Rain is falling continuously\", which describes the audio content, while the model's answer is \"The audio requests viewers to subscribe to the channel\", which is unrelated to the reference answer. The model's answer seems to be describing a completely different audio content.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Hear the sound and explain what you hear.",
+            "reference": "An infant crying followed by a man laughing",
+            "model_prediction": "The audio transcription states \"I'm not a robot.\"",
+            "judge_response": "Explanation: The reference answer is a descriptive phrase \"An infant crying followed by a man laughing\", while the model's answer is a statement \"The audio transcription states 'I'm not a robot.'\" I think the model's response is completely misaligned with the reference answer, as it doesn't mention anything about the audio content, and instead provides an unrelated statement.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Review the audio and offer a description.",
+            "reference": "A man talking as a door slams shut followed by a door creaking",
+            "model_prediction": "\nThe audio snippet discusses the speaker's desire for quality time with someone (\"me and you\") and emphasizes that approaching God requires persistence, comparing Him favorably to a non-grumpy neighbor.\n\n\n",
+            "judge_response": "Explanation: The reference answer describes the audio snippet as a man talking followed by a door slamming shut and creaking, whereas the model's answer talks about the speaker's desire for quality time with someone and approaching God, which is completely unrelated to the audio snippet. I think the model's answer is entirely misaligned with the reference answer.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        }
+    ]
+}

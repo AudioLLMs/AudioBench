@@ -1,0 +1,168 @@
+{
+    "llama3_70b_judge": {
+        "judge_score": 60.70935960591133,
+        "success_rate": 1.0
+    },
+    "details": [
+        {
+            "question": "What are the benefits of being open-minded to different cultures as mentioned in the clip?",
+            "reference": "Open-mindedness to different cultures promotes understanding, acceptance, and cohesion among diverse populations, which are beneficial for societal harmony.",
+            "model_prediction": "It helps us remember our early pioneers in Singapore and the region, and highlights the interconnectedness of the South East Asian region.",
+            "judge_response": "Explanation: The reference answer is \"Open-mindedness to different cultures promotes understanding, acceptance, and cohesion among diverse populations, which are beneficial for societal harmony\", while the model's answer is \"It helps us remember our early pioneers in Singapore and the region, and highlights the interconnectedness of the South East Asian region.\" I think the model's answer is completely misaligned, providing incorrect and irrelevant information compared to the reference.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Does China prefer Donald Trump or Joe Biden to be president?",
+            "reference": "The male speaker is uncertain about whether China prefers Donald Trump or Joe Biden as president. However, if Trump were president, China would likely have to negotiate hard but would be able to manage independently.",
+            "model_prediction": "It is not clear whether China prefers Trump or Biden, but they don't want to get involved.",
+            "judge_response": "Explanation: The reference answer explains that China's preference between Trump and Biden is unclear, but if Trump were president, China would likely have to negotiate hard but could manage independently. In contrast, the model's answer simply states that China doesn't know whether it prefers Trump or Biden and doesn't want to get involved. The model's answer lacks the additional context and explanation provided in the reference answer. I think it only partially captures the essence of the reference answer.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "How would China likely handle negotiations if Trump were president, according to the male speaker?",
+            "reference": "According to the male speaker, if Trump were president, China would have to negotiate very hard. However, they would still be able to manage on their own",
+            "model_prediction": "They would have to negotiate it hard, as they prefer not to get involved, but with Trump, there would be more ideology involved.",
+            "judge_response": "Explanation: The reference answer is clear that if Trump were president, China would have to negotiate very hard, but they would still be able to manage on their own. In contrast, the model's answer is vague and mentions \"they would have to negotiate it hard\" but also adds an unprompted detail about ideology, which is not present in the reference answer. The model's answer does not convey the idea that China would be able to manage on their own, which is a key point in the reference answer.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "What does the male speaker imply about preparing for Trump's potential return?",
+            "reference": "The male speaker implies that people should consider the possibility of Donald Trump returning to the presidency as a serious scenario. He suggests that preparation is necessary, as Trump's presidency would require hard negotiations, particularly with China.",
+            "model_prediction": "He implies that they should prepare for a more involved negotiation and ideological differences with a democratic administration.",
+            "judge_response": "Explanation: The reference answer is specific about preparing for Trump's potential return, highlighting the need for hard negotiations, especially with China, implying a more intense and challenging diplomatic environment. In contrast, the model's answer is vague, suggesting preparation for \"a more involved negotiation and ideological differences with a democratic administration,\" which lacks the specific context and detail of the reference answer. \n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "What is PW Mark accreditation?",
+            "reference": "PW Mark accreditation is a recognition given to companies committed to paying progressive wages, and providing  career development opportunities for their employees.",
+            "model_prediction": "PW Mark accreditation is a certification for companies responsible for maintaining Singapore's cleanliness. It commits them to providing progressive wages, upskilling opportunities, and clear career pathways.",
+            "judge_response": "Explanation: The reference answer is a concise and clear definition of PW Mark accreditation, focusing on its purpose of recognizing companies committed to paying progressive wages and providing career development opportunities. The model's answer, on the other hand, adds an unrelated detail about maintaining Singapore's cleanliness, which is not present in the reference answer. While the model's answer does mention progressive wages and career development, it is not as accurate and concise as the reference answer.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Who is Jamal and what is his role?",
+            "reference": "Jamal is an employee of Chye Thiam Maintenance who is in charge of keeping Pasir Ris Park clean.",
+            "model_prediction": "Jamal is one of the team members responsible for keeping a section of the park clean. His role is to clean the shore line and put up the road for the lorry to pick up all the things.",
+            "judge_response": "Explanation: The reference answer states that Jamal is an employee of Chye Thiam Maintenance responsible for keeping Pasir Ris Park clean, whereas the model's answer describes Jamal as a team member responsible for cleaning a specific section of the park, specifically the shore line, and preparing for lorry pickup. While the model's answer is related to the reference answer, it lacks precision and provides additional details not present in the reference.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "How does Chye Thiam Maintenance contribute to Singapore's status as a clean and green city?",
+            "reference": "Chye Thiam Maintenance plays a critical role by maintaining cleanliness and sanitation in public areas, thereby directly contributing to Singapore's reputation as a clean and green city.",
+            "model_prediction": "Chye Thiam Maintenance, an accredited P.W.M. company, is committed to paying progressive wages, providing upskilling opportunities, and providing clear career pathways, contributing to Singapore's status as a clean and green city.",
+            "judge_response": "Explanation: The reference answer emphasizes Chye Thiam Maintenance's role in maintaining cleanliness and sanitation in public areas, directly contributing to Singapore's reputation as a clean and green city. The model's answer, on the other hand, focuses on the company's commitment to progressive wages, upskilling, and career pathways, which only indirectly contributes to Singapore's status as a clean and green city.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "What are some specific missions carried out by the female speaker during peacetime?",
+            "reference": "The female speaker carries out missions like airdrops and airlifts to resupply troops and equipment, as well as search and rescue operations.",
+            "model_prediction": "Air drops, air lift missions to resupply troops and equipment, and search and locate missions.",
+            "judge_response": "Explanation: The reference answer is specific about the type of missions the female speaker carries out, mentioning \"airdrops\", \"airlifts\", and \"search and rescue operations\", whereas the model's answer is brief and lacks some details, using more general terms like \"air drops\", \"air lift missions\", and \"search and locate missions\" (instead of \"rescue\"). The model's answer captures the essence of the reference, but it's not as detailed or accurate.\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "What is the significance of these operations in a broader context?",
+            "reference": "The significance of these operations in a broader context lies in their essential role in maintaining readiness and supporting military and humanitarian efforts.",
+            "model_prediction": "These operations are significant in maintaining peace and supporting the troops during wartime, as well as providing logistical support for air drops, airlift missions, and search and locate missions.",
+            "judge_response": "Explanation: The reference answer highlights the significance of these operations in maintaining readiness and supporting military and humanitarian efforts. The model's answer, on the other hand, focuses on maintaining peace, supporting troops, and providing logistical support for specific missions. The model's answer is related to the reference, but it doesn't exactly mirror the content and accuracy. The model's answer is more specific and tactical, whereas the reference answer is more strategic and broad.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "What inspired the female speaker to pursue a career as a pilot, especially given the low number of female pilots in Singapore?",
+            "reference": "The female speaker had a passion for aviation since she was young. Her interest grew stronger when she joined the Singapore Youth Flying Club.",
+            "model_prediction": "She had a passion for aviation since she was young, and joining the Singapore Youth Flying Club further fueled her interest in flying.",
+            "judge_response": "Explanation: The reference answer explains the speaker's passion for aviation since she was young and how it grew stronger when she joined the Singapore Youth Flying Club. The model's answer also conveys the same message, stating that she had a passion for aviation since she was young and that joining the club further fueled her interest. I think the model's answer is very close to the reference answer, capturing the same details and essence.\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "What are the primary responsibilities of a prowler during guard duty?",
+            "reference": "A prowler carries heavy equipment and patrols the area in Tekong, which involves significant physical activity and endurance.",
+            "model_prediction": "A prowler is the person who carries a heavy shield and stink and walks around the entire tunk for one to two hours, which is very exhausting, especially at night.",
+            "judge_response": "Explanation: The reference answer describes a prowler as carrying heavy equipment and patrolling an area, requiring physical activity and endurance. In contrast, the model's answer describes a prowler as carrying a heavy shield, having stink, and walking around for 1-2 hours, which adds unnecessary and inaccurate details. The model's answer also lacks clarity on the context of the prowler's activity.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Why does the male speaker recommend choosing the role of a sentry over a prowler?",
+            "reference": "The male speaker recommends the sentry role because it is less physically demanding and easier to manage.",
+            "model_prediction": "The male speaker recommends choosing the role of a sentry over a prowler because being a prowler is exhausting and involves carrying a heavy shield and walking around for one to two hours, while being a sentry is boring but less physically demanding.",
+            "judge_response": "Explanation: The reference answer is that the male speaker recommends the sentry role because it is less physically demanding and easier to manage. The model's answer is that the male speaker recommends choosing the role of a sentry over a prowler because being a prowler is exhausting and involves carrying a heavy shield and walking around for one to two hours, while being a sentry is boring but less physically demanding. I think the model's answer provides more specific details about why being a prowler is physically demanding, which aligns with the reference answer's general statement about sentry being less physically demanding.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "What are the challenges associated with the sentry role?",
+            "reference": "The challenges associated with the sentry role  include the boredom of standing in one spot for one to two hours. While it may be less physically demanding than the prowler role, the monotony can make it difficult to stay focused and alert throughout the duty.",
+            "model_prediction": "The challenges associated with the sentry role include standing at the post for one to two hours, which can be boring, and it's exhausting to walk around the entire track for one to two hours.",
+            "judge_response": "Explanation: The reference answer explains that the sentry role is challenging because of the boredom of standing in one spot for a long time, making it hard to stay focused and alert. In contrast, the model's answer incorrectly states that the challenge lies in walking around the entire track for 1-2 hours, which is not mentioned in the reference. The model's answer also misses the key point about staying focused and alert.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What are the concerns related to personal relationships in this clip?",
+            "reference": "One of the female speakers expresses her fear of losing important people in her life too soon.  This reflects her concerns about losing people before having enough time to fully know and appreciate them.",
+            "model_prediction": "The first speaker is worried about people leaving them before they have the time to get to know and love them, while the second speaker is concerned about redeveloping social skills and securing a job after graduation.",
+            "judge_response": "Explanation: The reference answer specifically highlights the fear of losing important people in life too soon, whereas the model's answer focuses on the different concerns of the two speakers, with the first speaker worried about people leaving before getting to know them. While the model's answer touches on the topic, it lacks the nuance and detail of the reference answer, failing to capture the essence of the concern.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "How do individuals feel about their career choices in this clip?",
+            "reference": "One of the female speakers worries about finding a job after graduation, while another feels torn between the stability of a 9-to-6 job and the flexibility of freelancing.",
+            "model_prediction": "The first speaker is worried about securing a job after graduation, while the second speaker is concerned about redeveloping social skills and communicating in a professional environment.",
+            "judge_response": "Explanation: The reference answer is discussing two female speakers' concerns about their career choices, where one is worried about finding a job after graduation, and the other is torn between a 9-to-6 job and freelancing. In contrast, the model's answer is talking about two different concerns: securing a job after graduation and redeveloping social skills and communicating in a professional environment. The model's answer does not match the reference answer in terms of content and accuracy, as it does not mention the flexibility of freelancing and instead focuses on social skills and communication.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "What common anxiety is reflected in the speakers' concerns?",
+            "reference": "The common anxiety reflected in the speakers' concerns is financial insecurity. The speakers are all worried about managing major life expenses—whether it's the struggle to achieve financial stability, the high cost of living in Singapore, or the stress of planning for future obligations like housing and raising children. ",
+            "model_prediction": "The anxiety of being in their thirties, dealing with expensive living expenses, and planning for bigger expenses like housing and raising a family.",
+            "judge_response": "Explanation: The reference answer is a detailed explanation of the common anxiety reflected in the speakers' concerns, specifically identifying financial insecurity as the root cause of their worries, including the struggle to achieve financial stability, high living costs, and planning for future obligations. In contrast, the model's answer is a brief and vague statement that only scratch the surface of the concern, mentioning expensive living expenses and planning for bigger expenses without providing any context or specific details. I think the model's answer lacks the nuance and specificity of the reference answer.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "What additional responsibilities does a bus captain have besides driving?",
+            "reference": "Besides driving, a bus captain is responsible for making critical decisions, and act as the first responder in emergencies. .",
+            "model_prediction": "A bus captain is responsible for being a top priority in critical situations, training in first aid, and knowing how to put out fires.",
+            "judge_response": "Explanation: The reference answer is stating that a bus captain is responsible for making critical decisions and acting as a first responder in emergencies, while the model's answer is mentioning being a top priority in critical situations, training in first aid, and knowing how to put out fires. I think the model's answer is related to the reference answer, but it's not exactly mirroring the content and accuracy. The model's answer is more specific and focuses on the emergency aspects, whereas the reference answer is more general.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Does the female speaker believe she is fit for the bus captain role?",
+            "reference": "We can infer that the female speaker might feel she is suitable for the role, as she shares that she is trained in first aid and fire safety, and demonstrates these skills.",
+            "model_prediction": "Yes, she claims to be an expert at pasting plaster and knows how to do first aid, including CPR.",
+            "judge_response": "Explanation: The reference answer focuses on the speaker's confidence in her suitability for the role, highlighting her training in first aid and fire safety as evidence, while the model's answer only mentions specific skills like pasting plaster, CPR, and first aid. Although the model's answer is related to the speaker's qualifications, it lacks the context of the speaker's confidence and suitability for the role. I think the model's answer is close but not quite there.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "What is the significance of emergency response in the bus captain's role?",
+            "reference": "The significance of emergency response in a bus captain's role is crucial, as they are the first line of defense in ensuring passenger safety during emergencies. Bus captains are trained in CPR, first aid, and fire safety, allowing them to quickly and effectively respond to accidents, medical incidents, or fires.",
+            "model_prediction": "The bus captain is considered the top priority and the first responder in emergency situations. They are trained in CPR, first aid, and fire extinguishing.",
+            "judge_response": "Explanation: The reference answer emphasizes the bus captain's role as the \"first line of defense\" in ensuring passenger safety, highlighting their training in CPR, first aid, and fire safety, which enables them to respond effectively to emergencies. In contrast, the model's answer is brief and superficial, failing to capture the nuances of the bus captain's role and the importance of their training. The model's answer lacks detail and accuracy, using vague terms like \"top priority\" and \"first responder\" without providing context.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "What are the options for collecting medications ordered via the NUHS app?",
+            "reference": "Patients can collect their medications from MedSAFE, a self-service locker, available 24/7 at the NUH main building, near the taxi stand or opt to have their medications delivered to them on a pre-agreed date.",
+            "model_prediction": "You can collect your medication another day from Medsafe, a 24/7 self-service locker located at NUH Main Building taxi stand, or opt for medication delivery where the medication will be delivered to you on the chosen day.",
+            "judge_response": "Explanation: The reference answer provides two options for collecting medications: collecting from MedSAFE, a 24/7 self-service locker, or opting for medication delivery on a pre-agreed date. The model's answer also provides these two options, but with slightly rephrased wording. The model's answer changes \"available 24/7 at the NUH main building, near the taxi stand\" to \"located at NUH Main Building taxi stand\", and \"on a pre-agreed date\" to \"on the chosen day\". These changes are minor and do not affect the overall accuracy or relevance of the answer.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        }
+    ]
+}

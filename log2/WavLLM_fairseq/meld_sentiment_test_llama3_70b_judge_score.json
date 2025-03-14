@@ -1,0 +1,168 @@
+{
+    "llama3_70b_judge": {
+        "judge_score": 51.072796934865906,
+        "success_rate": 0.9996168582375479
+    },
+    "details": [
+        {
+            "question": "Can you recognize the sentiment in the speaker's speech (neutral, positive, negative)?",
+            "reference": "From the speaker's speech, it seems they are in a neutral sentiment state.",
+            "model_prediction": "The speaker conveys a neutral emotional tone.",
+            "judge_response": "Explanation: The reference answer is \"From the speaker's speech, it seems they are in a neutral sentiment state\", while the model's answer is \"The speaker conveys a neutral emotional tone\". I think the model's answer is a accurate paraphrase of the reference answer, conveying the same meaning and sentiment.\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "What sentiment tone do you hear in the speaker's speech (neutral, positive, negative)?",
+            "reference": "The speaker's sentiment is negative, as reflected in their language throughout the audio.",
+            "model_prediction": "The speaker conveys a negative sentiment.",
+            "judge_response": "Explanation: The reference answer is \"The speaker's sentiment is negative, as reflected in their language throughout the audio\", which provides a clear and specific explanation of the sentiment tone. The model's answer is \"The speaker conveys a negative sentiment\", which accurately captures the same sentiment tone. I think the model's answer is concise and relevant to the reference.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "What sentiment do you think the speaker is conveying through their speech (neutral, positive, negative)?",
+            "reference": "The speaker's tone sounds positive.",
+            "model_prediction": "neutral",
+            "judge_response": "Explanation: The reference answer is \"positive\", while the model's answer is \"neutral\". I think the model's response is incorrect because it does not align with the reference answer, which explicitly states that the speaker's tone sounds positive.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "How would you interpret the sentiment expressed in the speaker's voice (neutral, positive, negative)?",
+            "reference": "The speaker's tone suggesting a neutral sentiment.",
+            "model_prediction": "The speaker's speech appears to convey a neutral emotion.",
+            "judge_response": "Explanation: The reference answer is \"The speaker's tone suggesting a neutral sentiment\", while the model's answer is \"The speaker's speech appears to convey a neutral emotion\". I think the model's answer is very similar in meaning to the reference answer, both conveying a neutral sentiment/emotion.\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "What sentiment do you think the speaker is conveying through their speech (neutral, positive, negative)?",
+            "reference": "The speaker's sentiment is positive, as reflected in their language throughout the audio.",
+            "model_prediction": "The speaker conveys a neutral sentiment.",
+            "judge_response": "Explanation: The reference answer is that the speaker's sentiment is positive, while the model's answer is that the speaker conveys a neutral sentiment. I think the model's answer is incorrect and fails to capture the sentiment reflected in the speaker's language.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What sentiment signals can you hear in the speaker's speech (neutral, positive, negative)?",
+            "reference": "From the speaker's speech, it seems they are in a positive sentiment state.",
+            "model_prediction": "happy",
+            "judge_response": "Explanation: The reference answer is \"From the speaker's speech, it seems they are in a positive sentiment state\", which indicates a positive sentiment. The model's answer is simply \"happy\", which is a sentiment that is closely related to positive. I think the model's answer is concise and accurately captures the sentiment indicated in the reference.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "Can you determine the speaker's sentiment from their speech (neutral, positive, negative)?",
+            "reference": "The speaker's tone suggesting a neutral sentiment.",
+            "model_prediction": "The speaker's sentiment is happy.",
+            "judge_response": "Explanation: The reference answer is \"neutral\", while the model's answer is \"happy\". I think the model's answer is incorrect because it doesn't match the sentiment described in the reference answer.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What sentiment is conveyed through the speaker's voice (neutral, positive, negative)?",
+            "reference": "The speaker's tone suggesting a positive sentiment.",
+            "model_prediction": "The speaker conveys a happy emotional state.",
+            "judge_response": "Explanation: The reference answer is \"The speaker's tone suggesting a positive sentiment\", while the model's answer is \"The speaker conveys a happy emotional state\". I think the model's answer is similar in meaning to the reference answer, both indicating a positive emotional tone. The word \"happy\" is a strong indicator of a positive sentiment, which aligns with the reference answer.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "What sentiment do you sense in the speaker's voice (neutral, positive, negative)?",
+            "reference": "From the speaker's speech, it seems they are in a neutral sentiment state.",
+            "model_prediction": "neutral",
+            "judge_response": "Explanation: The reference answer is \"From the speaker's speech, it seems they are in a neutral sentiment state\", while the model's answer is simply \"neutral\". I think the model's answer correctly captures the sentiment state mentioned in the reference, although it lacks the explanatory context provided in the reference.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "What sentiment is conveyed through the speaker's voice (neutral, positive, negative)?",
+            "reference": "The speaker's speech indicating a negative sentiment.",
+            "model_prediction": "neutral",
+            "judge_response": "Explanation: The reference answer is \"negative sentiment\", while the model's answer is \"neutral\". Since the model's answer does not align with the reference, I think the model failed to identify the correct sentiment.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What sentiment tone do you hear in the speaker's speech (neutral, positive, negative)?",
+            "reference": "From the speaker's speech, it seems they are in a neutral sentiment state.",
+            "model_prediction": "The speaker conveys a neutral sentiment.",
+            "judge_response": "Explanation: The reference answer is \"From the speaker's speech, it seems they are in a neutral sentiment state.\", while the model's answer is \"The speaker conveys a neutral sentiment.\" I think the model's answer correctly captures the same meaning as the reference answer, both implying a neutral sentiment tone in the speaker's speech.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "Can you recognize the sentiment in the speaker's speech (neutral, positive, negative)?",
+            "reference": "From the speaker's speech, it seems they are in a neutral sentiment state.",
+            "model_prediction": "The sentiment of the speaker is neutral.",
+            "judge_response": "Explanation: The reference answer is \"From the speaker's speech, it seems they are in a neutral sentiment state\", which implies a neutral sentiment. The model's answer is \"The sentiment of the speaker is neutral\", which directly states a neutral sentiment. I think the model's answer is a more direct and concise way of expressing the same idea as the reference answer.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "Can you recognize the sentiment in the speaker's speech (neutral, positive, negative)?",
+            "reference": "The speaker's speech indicating a neutral sentiment.",
+            "model_prediction": "neutral",
+            "judge_response": "Explanation: The reference answer is \"The speaker's speech indicating a neutral sentiment.\", which explicitly states the sentiment as neutral. The model's answer is simply \"neutral\", which accurately and concisely conveys the same information. I think the model's answer is a perfect match with the reference answer.\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "What sentiment signals can you hear in the speaker's speech (neutral, positive, negative)?",
+            "reference": "The speaker's tone suggesting a negative sentiment.",
+            "model_prediction": "The speaker is expressing happy in the sentence.",
+            "judge_response": "Explanation: The reference answer is indicating that the speaker's tone suggests a negative sentiment, while the model's answer is stating that the speaker is expressing happiness. The two answers are contradictory, and the model's answer does not align with the reference.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "How would you describe the speaker's sentiment based on their speech (neutral, positive, negative)?",
+            "reference": "From the speaker's speech, it seems they are in a negative sentiment state.",
+            "model_prediction": "The speaker's sentiment is neutral.",
+            "judge_response": "Explanation: The reference answer is that the speaker's sentiment is negative, while the model's answer is that the speaker's sentiment is neutral. I think the model's answer is incorrect and irrelevant to the reference, as it doesn't capture the negative sentiment expressed in the speaker's speech.\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "How would you describe the speaker's sentiment based on their speech (neutral, positive, negative)?",
+            "reference": "Based on the auditory cues, it sounds like the speaker is neutral.",
+            "model_prediction": "neutral",
+            "judge_response": "Explanation: The reference answer is \"neutral\", while the model's answer is also \"neutral\". I think the model's response accurately mirrors the reference answer, providing the same sentiment description.\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "What sentiment is conveyed through the speaker's voice (neutral, positive, negative)?",
+            "reference": "The speaker's speech indicating a neutral sentiment.",
+            "model_prediction": "neutral",
+            "judge_response": "Explanation: The reference answer is \"The speaker's speech indicating a neutral sentiment\", while the model's answer is simply \"neutral\". I think the model's response accurately captures the sentiment conveyed in the reference answer, providing a concise and relevant answer.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "How would you interpret the sentiment expressed in the speaker's voice (neutral, positive, negative)?",
+            "reference": "The speaker's tone suggesting a neutral sentiment.",
+            "model_prediction": "The sentiment of the speaker's voice is happy.",
+            "judge_response": "Explanation: The reference answer is \"neutral\", while the model's answer is \"happy\". I think the model's response is inaccurate and irrelevant to the reference answer. The sentiment of the speaker's voice is described as neutral in the reference, but the model incorrectly identifies it as happy.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "How does the speaker's speech indicate their sentiment (neutral, positive, negative)?",
+            "reference": "Based on the auditory cues, it sounds like the speaker is neutral.",
+            "model_prediction": "The speaker's speech is expressing happy in the sentence.",
+            "judge_response": "Explanation: The reference answer is \"neutral\", while the model's answer is \"happy\". I think the model's answer is incorrect and irrelevant to the reference provided, as it does not capture the sentiment expressed in the original sentence.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What sentiment signals can you hear in the speaker's speech (neutral, positive, negative)?",
+            "reference": "The speaker's tone sounds neutral.",
+            "model_prediction": "neutral",
+            "judge_response": "Explanation: The reference answer is \"The speaker's tone sounds neutral\", while the model's answer is simply \"neutral\". I think the model's answer is a concise and direct equivalent of the reference answer, accurately capturing the sentiment tone.\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        }
+    ]
+}

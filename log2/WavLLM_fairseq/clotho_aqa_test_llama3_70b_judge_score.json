@@ -1,0 +1,168 @@
+{
+    "llama3_70b_judge": {
+        "judge_score": 43.01199466903598,
+        "success_rate": 0.998223011994669
+    },
+    "details": [
+        {
+            "question": "Are there waves?",
+            "reference": "Yes, there are waves.",
+            "model_prediction": "Yes, there are waves.",
+            "judge_response": "Explanation: The reference answer is a simple \"Yes, there are waves.\" and the model's answer is also \"Yes, there are waves.\". I think this is a perfect match between the two answers, with identical wording and content.\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "Is the area dry?",
+            "reference": "The ground is not dry.",
+            "model_prediction": "No, it's not dry, there's water in the area.",
+            "judge_response": "Explanation: The reference answer is a simple statement \"The ground is not dry\", while the model's answer is \"No, it's not dry, there's water in the area\". I think the model's answer is an acceptable explanation of why the ground is not dry, making it more informative than the reference answer. However, the model's answer is not a direct response to the question and provides additional information that is not explicitly stated in the reference.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "Is the sound falling water?",
+            "reference": "The sound is indeed falling water.",
+            "model_prediction": "Yes",
+            "judge_response": "Explanation: The reference answer is a direct statement confirming that the sound is falling water, whereas the model's answer is a simple \"Yes\". While the model's answer does align with the reference in terms of accuracy, it lacks detail and relevance, as it doesn't elaborate on what sound is being referred to.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Is water flowing?",
+            "reference": "Water is indeed flowing.",
+            "model_prediction": "Yes, water is flowing.",
+            "judge_response": "Explanation: The reference answer is \"Water is indeed flowing\" and the model's answer is \"Yes, water is flowing.\" I think the model's answer is almost identical to the reference answer, with the only difference being the presence of the word \"indeed\" in the reference answer, which adds a slight emphasis to the confirmation. However, this difference does not affect the overall accuracy or relevance of the model's answer.\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "What is flowing?",
+            "reference": "What is flowing is water.",
+            "model_prediction": "Water is flowing.",
+            "judge_response": "Explanation: The reference answer is \"What is flowing is water\", which clearly states that the subject \"what is flowing\" is equal to \"water\". The model's answer is \"Water is flowing\", which is a reversed sentence structure that conveys the same meaning. I think the model's answer is generally accurate and relevant to the reference, but the sentence structure is different.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "How many times does the wood make a sound?",
+            "reference": "The wood makes a sound six times.",
+            "model_prediction": "2",
+            "judge_response": "Explanation: The reference answer is \"The wood makes a sound six times,\" while the model's answer is simply \"2.\" I think the model's answer is incorrect and lacks context, failing to provide the complete information presented in the reference. The model's response could be interpreted as an answer to a different question, such as \"How many sounds does the wood make at once?\" rather than \"How many times does the wood make a sound?\"\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Is a dog barking?",
+            "reference": "Yes, the dog is barking.",
+            "model_prediction": "Yes, a dog is barking.",
+            "judge_response": "Explanation: The reference answer is \"Yes, the dog is barking\", which implies a specific dog being referred to, whereas the model's answer is \"Yes, a dog is barking\", which implies any dog in general. Although the model's answer is not incorrect, it lacks the specificity and detail present in the reference answer. \nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Is that the sound of wood?",
+            "reference": "That's the unmistakable sound of wood, a clear and distinct auditory cue that confirms the presence of wood.",
+            "model_prediction": "Yes, it sounds like the sound of wood.",
+            "judge_response": "Explanation: The reference answer provides a descriptive and specific confirmation of the sound being the unmistakable sound of wood, while the model's answer simply states \"it sounds like the sound of wood\" without additional details. The model's response lacks the distinctiveness and clarity of the reference answer. I think the model's answer is close but lacks the precision and descriptiveness of the reference.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Is the sample taking place inside a wood building?",
+            "reference": "The sample is taking place inside a wood building.",
+            "model_prediction": "Yes",
+            "judge_response": "Explanation: The reference answer is \"The sample is taking place inside a wood building\", which clearly states the location of the sample. The model's answer is simply \"Yes\", which is a affirmation but lacks the specific detail mentioned in the reference answer. Although the model's answer is related to the question, it does not provide the same level of detail as the reference answer. \n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Is the sound caused by pressure from/against wood?",
+            "reference": "The sound is caused by the pressure from or against the wood.",
+            "model_prediction": "Yes",
+            "judge_response": "Explanation: The reference answer explains that the sound is caused by the pressure from or against the wood, whereas the model's answer simply responds with \"Yes\". I think the model's answer lacks detail and accuracy, failing to provide a clear explanation for the cause of the sound.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Is something solid falling?",
+            "reference": "There's nothing falling.",
+            "model_prediction": "Yes, something solid is falling.",
+            "judge_response": "Explanation: The reference answer is \"There's nothing falling,\" indicating that no solid object is falling. The model's answer is \"Yes, something solid is falling,\" which is a direct contradiction to the reference. I think the model's answer is completely misaligned with the reference, providing incorrect information.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Is there a lighting strike?",
+            "reference": "There is no lightning strike.",
+            "model_prediction": "Yes, there's a lightning strike.",
+            "judge_response": "Explanation: The reference answer is \"There is no lightning strike\", indicating the absence of a lightning strike. However, the model's answer is \"Yes, there's a lightning strike\", which contradicts the reference answer, claiming the presence of a lightning strike. This shows a complete mismatch between the two answers.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Is water being poured?",
+            "reference": "Yes, water is being poured.",
+            "model_prediction": "Yes, water is being poured.",
+            "judge_response": "Explanation: The reference answer is a simple affirmation that water is being poured, and the model's answer is an exact replica of the reference. I think this is a perfect match, with the model's response capturing the exact wording and essence of the reference.\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "What is being poured?",
+            "reference": "Something is being poured with water.",
+            "model_prediction": "Water is being poured.",
+            "judge_response": "Explanation: The reference answer is \"Something is being poured with water\", while the model's answer is \"Water is being poured\". I think the model's answer is close but lacks the details provided in the reference answer, specifically the phrase \"with water\" which indicates the manner in which the pouring is happening.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "What is being prepared?",
+            "reference": "Something is being prepared for eating.",
+            "model_prediction": "A cup of hot water.",
+            "judge_response": "Explanation: The reference answer is \"Something is being prepared for eating\", which implies that some food or dish is being prepared. The model's answer is \"A cup of hot water\", which is a specific item being prepared, but it doesn't capture the essence of the reference answer. The reference answer is more general and doesn't specify what exactly is being prepared, whereas the model's answer is too specific and limited.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Is a lullaby playing?",
+            "reference": "There is no lullaby playing in the background.",
+            "model_prediction": "Yes, a lullaby is playing in the background.",
+            "judge_response": "Explanation: The reference answer is \"There is no lullaby playing in theBackground.\", while the model's answer is \"Yes, a lullaby is playing in the background.\". The model's response is opposite to the reference answer, stating the exact opposite. This shows a complete misalignment between the two answers.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Is only one person around?",
+            "reference": "There are multiple people around.",
+            "model_prediction": "Indeed, there is only one person speaking in the audio clip.",
+            "judge_response": "Explanation: The reference answer is \"There are multiple people around\", while the model's answer is \"There is only one person speaking in the audio clip.\" I think the model's answer is completely misaligned with the reference answer, as it contradicts the information provided and focuses on a different aspect (speaking in the audio clip instead of being around).\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Is this a triumphant tune?",
+            "reference": "This is a triumphant tune.",
+            "model_prediction": "Yes, it is a triumphant tune.",
+            "judge_response": "Explanation: The reference answer is a simple affirmation of the statement, while the model's answer is a identical affirmation. I think the model's answer perfectly captures the essence and detail of the reference answer, providing an exact match.\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "Is this outside?",
+            "reference": "\"This is outside.\"",
+            "model_prediction": "Yes, the sound of a storm can be heard in the background.",
+            "judge_response": "Explanation: The reference answer is a simple statement \"This is outside.\", indicating the location, while the model's answer is explaining the sound of a storm in the background, which is unrelated to the reference answer. I think the model's answer is not addressing the question \"Is this outside?\" directly and provides irrelevant information.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Where is the music coming from?",
+            "reference": "[Question]\n    Where is the music coming from?\n\n[Ground Truth Reference]\n    band\n\n[Explanation]\n    The ground truth reference is a single word, \"band\", which is not a complete sentence. It seems to be a noun referring to a group of musicians, but it does not provide a clear answer to the question \"Where is the music coming from?\".\n\n[Answer]\n    The music is coming from the band on stage.",
+            "model_prediction": "It is not clear where the music is coming from as it is not mentioned in the transcript.",
+            "judge_response": "Explanation: The reference answer is \"The music is coming from the band on stage\", which directly answers the question and provides a clear location for the source of the music. The model's answer, on the other hand, is \"It is not clear where the music is coming from as it is not mentioned in the transcript\", which is evasive and does not provide any relevant information. I think the model's answer is not only incorrect but also irrelevant to the question.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        }
+    ]
+}

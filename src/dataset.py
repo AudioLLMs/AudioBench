@@ -41,26 +41,23 @@ class Dataset(object):
         elif self.dataset_name == 'public_sg_speech_qa_test': 
             self.raw_data = load_dataset("AudioLLMs/public_sg_speech_qa_test")['test']
 
-        elif self.dataset_name == 'dream_tts_test': 
-            self.raw_data = load_dataset("AudioLLMs/dream_tts_test")['test']
-
         elif self.dataset_name == 'dream_tts_mcq_test': 
             self.raw_data = load_dataset("AudioLLMs/dream_tts_mcq_test")['test']
 
         elif self.dataset_name == 'librispeech_test_clean': 
-            self.raw_data = load_dataset("AudioLLMs/librispeech_test_clean_v2")['test']
+            self.raw_data = load_dataset("AudioLLMs/librispeech_test_clean")['test']
 
         elif self.dataset_name == 'librispeech_test_other': 
-            self.raw_data = load_dataset("AudioLLMs/librispeech_test_other_v2")['test']
+            self.raw_data = load_dataset("AudioLLMs/librispeech_test_other")['test']
 
         elif self.dataset_name == 'common_voice_15_en_test': 
-            self.raw_data = load_dataset("AudioLLMs/common_voice_15_en_test_v2")['test']
+            self.raw_data = load_dataset("AudioLLMs/common_voice_15_en_test")['test']
 
         elif self.dataset_name == 'peoples_speech_test': 
-            self.raw_data = load_dataset("AudioLLMs/peoples_speech_test_v2")['test']
+            self.raw_data = load_dataset("AudioLLMs/peoples_speech_test")['test']
 
         elif self.dataset_name == 'gigaspeech_test': 
-            self.raw_data = load_dataset("AudioLLMs/gigaspeech_test_v2")['test']
+            self.raw_data = load_dataset("AudioLLMs/gigaspeech_test")['test']
 
         elif self.dataset_name == 'earnings21_test': 
             self.raw_data = load_dataset("AudioLLMs/earnings21_test")['test']
@@ -69,10 +66,10 @@ class Dataset(object):
             self.raw_data = load_dataset("AudioLLMs/earnings22_test")['test']
 
         elif self.dataset_name == 'tedlium3_test': 
-            self.raw_data = load_dataset("AudioLLMs/tedlium3_test_v2")['test']
+            self.raw_data = load_dataset("AudioLLMs/tedlium3_test")['test']
 
         elif self.dataset_name == 'tedlium3_long_form_test': 
-            self.raw_data = load_dataset("AudioLLMs/tedlium3_long_form_test_v2")['test']
+            self.raw_data = load_dataset("AudioLLMs/tedlium3_long_form_test")['test']
 
         elif self.dataset_name == 'openhermes_audio_test': 
             self.raw_data = load_dataset("AudioLLMs/openhermes_instruction_test")['test']
@@ -87,13 +84,13 @@ class Dataset(object):
             self.raw_data = load_dataset("AudioLLMs/wavcaps_test")['test']
 
         elif self.dataset_name == 'clotho_aqa_test': 
-            self.raw_data = load_dataset("AudioLLMs/clotho_asqa_test_v2")['test']
+            self.raw_data = load_dataset("AudioLLMs/clotho_aqa_test")['test']
 
         elif self.dataset_name == 'audiocaps_qa_test': 
-            self.raw_data = load_dataset("AudioLLMs/audiocaps_qa_test_v3")['test']
+            self.raw_data = load_dataset("AudioLLMs/audiocaps_qa_test")['test']
 
         elif self.dataset_name == 'wavcaps_qa_test': 
-            self.raw_data = load_dataset("AudioLLMs/wavcaps_qa_test_v3")['test']
+            self.raw_data = load_dataset("AudioLLMs/wavcaps_qa_test")['test']
 
         elif self.dataset_name == 'voxceleb_accent_test': 
             self.raw_data = load_dataset("AudioLLMs/voxceleb_accent_test")['test']
@@ -114,28 +111,28 @@ class Dataset(object):
             self.raw_data = load_dataset("AudioLLMs/meld_emotion_test")['test']
 
         elif self.dataset_name == 'covost2_en_id_test': 
-            self.raw_data = load_dataset("AudioLLMs/covost2_en_id_test_v1")['test']
+            self.raw_data = load_dataset("AudioLLMs/covost2_en_id_test")['test']
 
         elif self.dataset_name == 'covost2_en_zh_test': 
-            self.raw_data = load_dataset("AudioLLMs/covost2_en_zh_test_v1")['test']
+            self.raw_data = load_dataset("AudioLLMs/covost2_en_zh_test")['test']
 
         elif self.dataset_name == 'covost2_en_ta_test': 
-            self.raw_data = load_dataset("AudioLLMs/covost2_en_ta_test_v1")['test']
+            self.raw_data = load_dataset("AudioLLMs/covost2_en_ta_test")['test']
 
         elif self.dataset_name == 'covost2_id_en_test': 
-            self.raw_data = load_dataset("AudioLLMs/covost2_id_en_test_v1")['test']
+            self.raw_data = load_dataset("AudioLLMs/covost2_id_en_test")['test']
 
         elif self.dataset_name == 'covost2_zh_en_test': 
-            self.raw_data = load_dataset("AudioLLMs/covost2_zh_en_test_v1")['test']
+            self.raw_data = load_dataset("AudioLLMs/covost2_zh_en_test")['test']
 
         elif self.dataset_name == 'covost2_ta_en_test': 
-            self.raw_data = load_dataset("AudioLLMs/covost2_ta_en_test_v2")['test']
+            self.raw_data = load_dataset("AudioLLMs/covost2_ta_en_test")['test']
 
         elif self.dataset_name == 'aishell_asr_zh_test': 
-            self.raw_data = load_dataset("AudioLLMs/aishell_asr_zh_test_v1")['test']
+            self.raw_data = load_dataset("AudioLLMs/aishell_1_zh_test")['test']
 
         elif self.dataset_name == 'spoken_squad_test': 
-            self.raw_data = load_dataset("AudioLLMs/spoken_squad_test_v1")['test']
+            self.raw_data = load_dataset("AudioLLMs/spoken_squad_test")['test']
 
         elif self.dataset_name == 'muchomusic_test': 
             self.raw_data = load_dataset("AudioLLMs/mu_chomusic_test")['test']

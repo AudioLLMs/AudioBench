@@ -1,0 +1,168 @@
+{
+    "llama3_70b_judge": {
+        "judge_score": 66.34,
+        "success_rate": 1.0
+    },
+    "details": [
+        {
+            "question": "What did the people waiting for the free bus end up taking instead?",
+            "reference": "A taxi.",
+            "model_prediction": "Taxi",
+            "judge_response": "Explanation: The reference answer is \"A taxi\", implying that the people waiting for the free bus ended up taking a taxi as an alternative mode of transportation. The model's answer is simply \"Taxi\", which is a concise and accurate response that mirrors the reference answer. I think the model's answer is a perfect match.\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "What time period does Speaker1 mention as when something felt different to them?",
+            "reference": "Four years",
+            "model_prediction": "The transcription does not specify a particular time period when something felt different.",
+            "judge_response": "Explanation: The reference answer is \"Four years\", indicating a specific time period when something felt different. In contrast, the model's answer is \"The transcription does not specify a particular time period when something felt different.\" which is an incorrect assumption about the reference. I think the model's response is misaligned and does not provide any relevant information.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What did Speaker2 think was the dominant taste in the #ikan bilis sambal# with tomato, despite having tomatoes in it?",
+            "reference": "#sambal#",
+            "model_prediction": "Sambal, but not spicy.",
+            "judge_response": "Explanation: The reference answer is \"#sambal#\", which is a keyword, while the model's answer is \"Sambal, but not spicy.\" I think the model's answer is not aligned with the reference answer, as it adds additional information about the spiciness, which is not present in the reference answer.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "What time did Speaker1 say they will end?",
+            "reference": "十二点半",
+            "model_prediction": "Speaker1 ended early but did not specify a definite end time.",
+            "judge_response": "Explanation: The reference answer is \"十二点半\" (12:30), which is a specific time, while the model's answer is vague and doesn't provide a specific time. The model's answer suggests that Speaker1 ended early but didn't specify a definite end time, which doesn't match the reference answer.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What does Speaker1 consider the most important thing about 炒面?",
+            "reference": "Speaker1 thinks the most important thing is 那个档口的 sambal (the sambal from a particular stall or shop) must be good.",
+            "model_prediction": "The most important thing about Chow Mein is the sambal must be good.",
+            "judge_response": "Explanation: The reference answer is specific about the importance of sambal from a particular stall or shop, while the model's answer is too general, stating that the sambal must be good without specifying the source. I think the model's answer lacks detail and precision, failing to capture the essence of the reference answer.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "What is the current state of kadi reviews, according to Speaker1 and Speaker2?",
+            "reference": "Nowadays, nobody does kadi reviews.",
+            "model_prediction": "Speaker1 states that nowadays, they **cannot see Kadi reviews** and **believes no one really does Kadi reviews** anymore, unlike in the past when there were many video recordings of them.\n",
+            "judge_response": "Explanation: The reference answer is a direct statement that nobody does kadi reviews nowadays, while the model's answer is an interpretation of the statement, adding additional information that is not present in the reference. The model's answer is not entirely accurate and adds unnecessary information, making it less relevant to the reference. I think the model's answer is an over-interpretation of the reference.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "What type of food does Speaker2 usually order, particularly from Beauty World, during CB?",
+            "reference": "Chicken, especially the spicy Korean-style fried chicken.",
+            "model_prediction": "Speaker2 usually orders chicken, particularly spicy Korean jjajji, from Beauty World during CB.",
+            "judge_response": "Explanation: The reference answer is \"Chicken, especially the spicy Korean-style fried chicken\", while the model's answer is \"Speaker2 usually orders chicken, particularly spicy Korean jjajji, from Beauty World during CB\". I think the model's answer is relevant and accurate, but it provides additional details not present in the reference answer.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "Where did Speaker2 visit a Playmade shop that sells chrysanthemum milk tea?",
+            "reference": "Ang-Mo-Kio",
+            "model_prediction": "Ang Mo Kio.",
+            "judge_response": "Explanation: The reference answer is \"Ang-Mo-Kio\", while the model's answer is \"Ang Mo Kio.\" I think the model's answer is very close to the reference answer, with only a minor difference in punctuation (hyphen vs space).\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "What is the main concern that Speaker1 and Speaker2 have about the initiative to provide a few hundred hawker food stalls?",
+            "reference": "The initiative is not sustainable.",
+            "model_prediction": "Speaker1 and Speaker2's main concern is that the one-time financial aid of a few hundred dollars to hawker food stalls is **not sustainable** and **doesn't offer long-term help** for their businesses.\n",
+            "judge_response": "Explanation: The reference answer is concise, stating that \"the initiative is not sustainable.\" In contrast, the model's answer provides additional details, explaining that the one-time financial aid doesn't offer long-term help for the businesses. While the model's answer is not a direct match, it accurately conveys the same concern as the reference answer. I think the model's answer is a clear and relevant expansion on the reference answer.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "What TV show, besides Riverdale, is mentioned in the conversation as another show featuring Cole Sprouse?",
+            "reference": "Zac and Cody.",
+            "model_prediction": "Zack and Cody",
+            "judge_response": "Explanation: The reference answer is \"Zac and Cody\", while the model's answer is \"Zack and Cody\". The model's answer is very close to the reference answer, with only a minor spelling difference (\"Zac\" vs \"Zack\"). I think the model's answer is mostly accurate and relevant, closely following the reference but could be clearer or more detailed if it exactly matched the spelling.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "What is Speaker1's approach to going on holiday?",
+            "reference": "Speaker1 is a planner who likes to know the schedule and timings of their holiday plans.",
+            "model_prediction": "Speaker1 takes a highly **structured and planned** approach to holidays, requiring detailed schedules, specific timings, and advance knowledge of closing times to ensure everything runs smoothly.",
+            "judge_response": "Explanation: The reference answer is about Speaker1's preference for knowing the schedule and timings of their holiday plans. The model's answer is a more detailed and elaborated explanation of Speaker1's approach to holidays, which aligns perfectly with the reference. I think the model's answer is a great expansion of the reference answer, providing more context and details, which makes it more informative and clearer.\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "What is the location of acai mentioned by Speaker1?",
+            "reference": "acai 是 holland village.",
+            "model_prediction": "Holland Village",
+            "judge_response": "Explanation: The reference answer is \"Holland Village\", which explicitly states the location of acai, while the model's answer is also \"Holland Village\", which perfectly matches the reference answer. I think the model's answer accurately and precisely captures the essence and detail of the reference answer.\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "What type of food did Speaker1 mention that they had at the beginning, which was a new word for them?",
+            "reference": "சப்பாத்து குஸ்னி (Sappathu kusini)",
+            "model_prediction": "Sapath Kusini",
+            "judge_response": "Explanation: The reference answer is \"சப்பாத்து குஸ்னி\" which is a Tamil phrase, while the model's answer is \"Sapath Kusini\" which appears to be a phonetic transcription of the Tamil phrase. I think the model's answer is close to the reference answer, but lacks the exact Tamil script.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "What is happening currently that is affecting the employment of Speaker1's friends and their families?",
+            "reference": "The COVID pandemic.",
+            "model_prediction": "The COVID-19 pandemic is affecting the employment of Speaker1's friends and their families, causing job losses and stress as many switch jobs.",
+            "judge_response": "Explanation: The reference answer is simply \"The COVID pandemic\", indicating that the pandemic is the current event affecting the employment of Speaker1's friends and their families. The model's answer, on the other hand, provides more details, stating that the pandemic is causing job losses and stress as many switch jobs. While the model's answer is more elaborate, it still conveys the same general idea as the reference answer.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "What is the name of the song mentioned by Speaker1 that was used as a melody in Tokyo Square?",
+            "reference": "Sukiyaki",
+            "model_prediction": "Sukiyaki",
+            "judge_response": "Explanation: The reference answer is \"Sukiyaki\", while the model's answer is also \"Sukiyaki\". I think the model's answer perfectly matches the reference answer, capturing its essence and detail.\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "Did Speaker1 eat the nasi?",
+            "reference": "No",
+            "model_prediction": "Yes, Speaker1 ended up eating the nasi.",
+            "judge_response": "Explanation: The reference answer is \"No\", indicating Speaker1 did not eat the nasi. On the other hand, the model's answer is \"Yes, Speaker1 ended up eating the nasi\", which is a direct contradiction. The model's answer is incorrect and provides irrelevant information compared to the reference.\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What did the person with the same name as Speaker1 send to them?",
+            "reference": "Cake",
+            "model_prediction": "Cake",
+            "judge_response": "Explanation: The reference answer is \"Cake\", which is a clear and specific response to the question. The model's answer is also \"Cake\", which perfectly matches the reference answer in terms of content, accuracy, and relevance. The model's response is concise, clear, and identical to the reference answer.\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "What was Speaker1's realization after waking up from the dream about being with their ex-partner?",
+            "reference": "That breaking up was the right thing to do.",
+            "model_prediction": "Speaker1 realized they genuinely didn't want to be in the relationship anymore after waking up from the dream.",
+            "judge_response": "Explanation: The reference answer is a clear statement that \"breaking up was the right thing to do\", implying a sense of affirmation or confirmation. In contrast, the model's answer is \"Speaker1 realized they genuinely didn't want to be in the relationship anymore...\", which is related to the topic but focuses on the motivation behind the realization rather than the realization itself. While the model's answer is relevant, it doesn't exactly mirror the reference answer in terms of content and accuracy.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Does Speaker1 think that having strength to process negative comments can sometimes prevent misinterpretation of others' opinions?",
+            "reference": "No",
+            "model_prediction": "Yes, Speaker1 suggests that while having the strength to process negative comments is important,  emotional states like sadness can sometimes lead to misinterpretations even with that strength.",
+            "judge_response": "Explanation: The reference answer is \"No\", implying that Speaker1 does not think that having strength to process negative comments can prevent misinterpretation of others' opinions. On the other hand, the model's answer is \"Yes\" and provides an additional explanation. I think the model's answer is not only incorrect but also provides unnecessary details that deviate from the reference.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What month is the zodiac sign Gemini associated with, according to Speaker2?",
+            "reference": "June",
+            "model_prediction": "June",
+            "judge_response": "Explanation: The reference answer is \"June\", while the model's answer is also \"June\". I think the model's response perfectly matches the reference answer, providing the exact correct information about the month associated with the zodiac sign Gemini.\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        }
+    ]
+}

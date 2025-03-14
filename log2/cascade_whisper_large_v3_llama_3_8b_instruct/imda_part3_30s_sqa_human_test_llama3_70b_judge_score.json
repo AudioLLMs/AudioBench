@@ -1,0 +1,168 @@
+{
+    "llama3_70b_judge": {
+        "judge_score": 49.0,
+        "success_rate": 1.0
+    },
+    "details": [
+        {
+            "question": "What does the first speaker share about their experience with Jay Chou and their opinion of him compared to JJ Lin?",
+            "reference": "The first speaker describes being very close to Jay Chou, about three meters away, and mentions that it was one of the best experiences for them as a fan. They think Jay Chou is a very good singer and prefer his songs over JJ Lin's, even though JJ Lin is more popular in Singapore.",
+            "model_prediction": "The speaker shares that they were extremely close to Jay Chou, just 3 meters away, and that they really like him as a singer, considering him very good and interesting. They also compare him favorably to JJ Lin, implying that they think Jay Chou is better.",
+            "judge_response": "Explanation: The reference answer is specific about the speaker's experience, mentioning being \"three meters away\" and comparing Jay Chou's popularity to JJ Lin's in Singapore. In contrast, the model's answer omits these details, providing a more general description of the speaker's fondness for Jay Chou. I think the model's answer lacks precision and accuracy compared to the reference.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "How do the speakers compare the features of their respective rabbit cages?",
+            "reference": "The first speaker describes their cage as having a sign that says \"buy me\" located on the front at the top, while the second speaker mentions their cage is green with a yellow base and does not have the \"buy me\" sign.",
+            "model_prediction": "The speakers compare the features of their respective rabbit cages by describing the color and contents of their cages, with one speaker mentioning a green cage with a yellow base and a white rabbit, and the other speaker referencing a \"buy me\" sign on the top of their cage.",
+            "judge_response": "Explanation: The reference answer specifically highlights the differences between the two cages, mentioning the \"buy me\" sign on one cage and the color scheme of the other. In contrast, the model's answer provides a general description of the cages, mentioning the color and contents, but fails to capture the distinct features of each cage. It also doesn't emphasize the differences between the two cages as the reference answer does.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "What is the background color of the bar sign described by Speaker1?",
+            "reference": "The background color of the sign is brown.",
+            "model_prediction": "There is no mention of the background color of the bar sign in the provided audio transcription.",
+            "judge_response": "Explanation: The reference answer is \"The background color of the sign is brown\", while the model's answer is \"There is no mention of the background color of the bar sign in the provided audio transcription.\" I think the model's response is more accurate, as it correctly points out that the information is not provided in the audio transcription. The reference answer seems to be an incorrect assumption.\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "What differences do the speakers identify regarding the peaches in the basket?",
+            "reference": "Speaker1 and Speaker2 observe that one person’s basket has peaches tied to a string, specifically three, while another basket does not have peaches tied this way.",
+            "model_prediction": "There are no peaches mentioned in the audio transcription, and the speakers do not discuss or identify any differences regarding peaches in a basket.",
+            "judge_response": "Explanation: The reference answer implies that the speakers identify differences in peaches in a basket, while the model's answer states that there are no peaches mentioned in the audio transcription and the speakers do not discuss any differences regarding peaches in a basket. The model's answer directly contradicts the reference answer, indicating that the speakers do not even mention peaches.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What do the speakers discuss about the process of filling orders, and what aspects do they enjoy?",
+            "reference": "The speakers discuss a task involving filling orders. They enjoy that it’s not rushed, transport is provided, and there’s no pressure despite no additional incentives being offered.",
+            "model_prediction": "The speakers discuss the process of filling orders and mention that they are taken to random places that they don't like, but they enjoy the fact that there is no time limit and it's not as rushed, allowing them to fulfill orders at their own pace.",
+            "judge_response": "Explanation: The reference answer highlights the speakers' enjoyment of filling orders due to the lack of rush, provision of transport, and absence of pressure, despite no additional incentives. In contrast, the model's answer focuses on the lack of time limit and the speakers being taken to random places they don't like. The model's answer is partially accurate but omits some key details and adds unrelated information.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "What differences are observed between the shop signs?",
+            "reference": "Speaker1 notes their sign mentions \"special offer peach wine,\" while Speaker2's sign says something different.",
+            "model_prediction": "The shop signs show different messages, with one saying \"special offer peach wine\" and the other saying something else (not specified).",
+            "judge_response": "Explanation: The reference answer is specific about the difference between the two shop signs, stating that one says \"special offer peach wine\" and the other says something else. The model's answer also mentions the difference, but it's less specific, only stating that one says \"special offer peach wine\" and the other says \"something else\" without providing the exact message. I think the model's answer is close, but lacks a bit of specificity.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "What do the speakers discuss regarding the road structure?",
+            "reference": "Speaker1 describes how the constructed roads make traveling back difficult, requiring a far detour and a 30-minute walk to a distant bus stop to return to the same location.",
+            "model_prediction": "The speakers discuss that the road structure is different, making it not as simple as walking to a nearby bus stop, and that it takes longer to get to a bus stop, requiring a 30-minute journey for 4 bus stops.",
+            "judge_response": "Explanation: The reference answer describes the constructed roads making it difficult to travel back, requiring a far detour and a 30-minute walk to a distant bus stop. In contrast, the model's answer explains that the road structure is different, making it not as simple as walking to a nearby bus stop, and that it takes longer to get to a bus stop, requiring a 30-minute journey for 4 bus stops. While the model's answer touches on the topic of road structure and bus stops, it provides incorrect and irrelevant information (4 bus stops) and lacks precision in describing the detour and walking distance.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "How do the speakers feel about their past preferences for TV shows like Glee?",
+            "reference": "Speaker1 finds it embarrassing that Speaker2 was a \"Gleek\", while Speaker2 shares their past fandom, including having a related username on social media.",
+            "model_prediction": "The speakers seem to have a mix of fondness and embarrassment about their past preferences for TV shows like Glee, with a tone of nostalgia and self-deprecation.",
+            "judge_response": "Explanation: The reference answer highlights the embarrassment and nostalgia of Speaker1 and Speaker2 about their past fandom for Glee, while the model's answer generally captures the tone of nostalgia and self-deprecation but lacks specificity about the speakers' emotions. The model's answer is more general and doesn't explicitly mention Speaker1's embarrassment.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "What challenges do the speakers highlight about life in their country?",
+            "reference": "The speakers highlight challenges such as the high cost of living, difficulty getting married, and the increasing expense of owning a decent house, which may cost at least $500,000.",
+            "model_prediction": "The speakers highlight the challenge of affording a house in their country, stating that it's difficult to get a decent house and that it might cost close to $500,000, making it unaffordable for many.",
+            "judge_response": "Explanation: The reference answer mentions three challenges: high cost of living, difficulty getting married, and the increasing expense of owning a decent house. The model's answer only focuses on the last challenge, leaving out the other two. It does, however, provide a similar detail about the cost of a decent house. I think the model's answer is incomplete but still somewhat relevant.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "What suggestions does Speaker1 offer for Speaker2's safety concerns, and how does Speaker2 react?",
+            "reference": "Speaker1 suggests visiting the SAFRA shooting range for safety training. Speaker2 finds the idea practical but mentions being too lazy to go, despite acknowledging its value for safety.",
+            "model_prediction": "Speaker1 suggests going to a shooting range (Safra) for safety, but Speaker2 is reluctant, citing laziness as the reason.",
+            "judge_response": "Explanation: The reference answer is specific about the location of the shooting range (SAFRA) and the reason for Speaker2's reluctance (laziness), while the model's answer is more general, only mentioning \"a shooting range\" and \"laziness\" without providing the specific details. I think the model's answer captures the general idea but lacks precise accuracy.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "What issues does Speaker1 describe regarding noise in chalets, and how does Speaker2 respond?",
+            "reference": "Speaker1 mentions frequent noise issues at chalets, sometimes involving police intervention. Speaker2 reacts by likening the noisy groups to \"gangsters.\"",
+            "model_prediction": "Speaker1 describes that the chalet police are not particular about noise, but there is a problem with noise from outside under block one.",
+            "judge_response": "Explanation: The reference answer is describing noise issues at chalets, involving police intervention, and Speaker2 reacting by likening the noisy groups to \"gangsters\". In contrast, the model's answer only mentions noise from outside under block one, without any mention of police intervention or Speaker2's reaction. I think the model's answer fails to capture the essence of the reference answer.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "What differences do the speakers identify regarding the items on their desks?",
+            "reference": "Speaker1 notes that their desk has peaches and a blender, while Speaker2's desk has only a blender with nothing else.",
+            "model_prediction": "The speakers identify two differences: one, the presence of only one blender on the desk, which has nothing inside; and two, the image of two peaches on the packaging of the peaches, whereas the speaker's own peaches have only one peach on the packaging.",
+            "judge_response": "Explanation: The reference answer clearly states that Speaker1's desk has peaches and a blender, while Speaker2's desk has only a blender with nothing else. In contrast, the model's answer is unrelated to the reference, mentioning the presence of only one blender, the image of two peaches on the packaging, and the speaker's own peaches having only one peach on the packaging, which are not mentioned in the reference.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What do the speakers discuss about the hotel check-in time and the travel duration from the airport?",
+            "reference": "The speakers note that the travel time from the airport to the hotel is about 30 minutes, but the hotel check-in time is at 2 pm, requiring them to wait at the lobby.",
+            "model_prediction": "The speakers discuss the hotel check-in time as 2pm, and the travel duration from the airport as approximately 30 minutes.",
+            "judge_response": "Explanation: The reference answer explains that the speakers mention the travel time from the airport to the hotel is about 30 minutes, and since the hotel check-in time is 2 pm, they have to wait at the lobby. In contrast, the model's answer only mentions the facts about the hotel check-in time and travel duration without referencing the consequence of waiting at the lobby. I think the model's answer lacks some crucial information, making it less detailed and accurate compared to the reference answer.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "What unique drink combination does Speaker1 mention, and how does Speaker2 react?",
+            "reference": "A combination of Baileys and sweet green tea, describing it as a highly recommended mix despite sounding unusual.",
+            "model_prediction": "Speaker1 mentions the unique drink combination of Baileys (the Irish cream liqueur) and green tea, and Speaker2 reacts with surprise and skepticism, asking if it's the same Baileys drink and questioning the combination.",
+            "judge_response": "Explanation: The reference answer specifically states that the unique drink combination is Baileys and sweet green tea, and that it's highly recommended despite sounding unusual. In contrast, the model's answer only mentions the combination of Baileys and green tea, without the crucial detail about it being sweet green tea, and focuses more on the surprise and skepticism of Speaker2. While the model's answer is related to the reference, it lacks important details and accuracy.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "How does Speaker1 describe their abilities compared to Speaker2’s perspective?",
+            "reference": "Speaker1 downplays their intelligence, calling themselves a hard worker rather than smart. Speaker2 disagrees, arguing that Speaker1’s ability to navigate practical skills shows intelligence.",
+            "model_prediction": "Speaker1 describes themselves as a hard worker who can memorize information, but not as smart as Speaker2, who is perceived as one of the smartest people they've seen.",
+            "judge_response": "Explanation: The reference answer highlights the contrast between Speaker1's humility and Speaker2's recognition of Speaker1's intelligence. In contrast, the model's answer focuses on Speaker1's self-description and their perception of Speaker2's intelligence. The model's response misses the key point of disagreement between the two speakers. I think the model's response lacks accuracy and relevance to the reference.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "What do the speakers say about their detailed descriptions in discussions?",
+            "reference": "Speaker1 humorously comments that they may describe things in excessive detail, pointing out their over-explaining tendencies. Speaker2 agrees with this observation.",
+            "model_prediction": "The speakers do not mention detailed descriptions in discussions. The conversation is about the speaker's way of rebelling, specifically by ignoring what others say and not caring about their opinions.",
+            "judge_response": "Explanation: The reference answer mentions the speakers' tendency to describe things in excessive detail, while the model's answer completely misinterprets the conversation, suggesting it's about rebellion and ignoring others' opinions. The model's response has no relevance to the topic of detailed descriptions in discussions.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What happened when Speaker2 interacted with the person who was talking irrelevantly?",
+            "reference": "Speaker2 explains that the person suddenly shouted and promised to repay them the next day, then placing money on the table before retreating back into the room.",
+            "model_prediction": "The speaker shut themselves out when the other person started talking irrelevantly, and then suddenly the other person stopped talking and said something.",
+            "judge_response": "Explanation: The reference answer is a descriptive passage about a person's behavior, whereas the model's answer is a vague and incomplete statement that doesn't capture the essence of the reference. The model mentions the person stopping talking and saying something, but it lacks the crucial details provided in the reference, such as the shouting, promise to repay, and leaving money on the table.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "What type of teachers does Speaker1 describe, and who does Speaker2 prefer?",
+            "reference": "Speaker1 describes their Chinese teachers as very nice and supportive, while Speaker2 prefers English and Literature teachers, particularly a funny English teacher who amused the class.",
+            "model_prediction": "Speaker1 describes Chinese teachers as generally nice and supportive. Speaker2 prefers lead teachers and English teachers, mentioning a specific English teacher who is funny and entertaining.",
+            "judge_response": "Explanation: The reference answer is specific about Speaker1 describing Chinese teachers as very nice and supportive, while Speaker2 prefers English and Literature teachers, particularly a funny English teacher. The model's answer describes Chinese teachers as generally nice and supportive, but lacks the specificity of the reference answer. Also, the model's answer refers to \"lead teachers\" which is not mentioned in the reference answer. I think the model's answer is close but lacks some accuracy and detail.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "How does Speaker1 describe their current conversations with Speaker2 and their routine at the co-op?",
+            "reference": "Speaker1 describes their conversations as infrequent, with long response gaps of one day. They also mention enjoying their co-op routine, particularly being allowed to make coffee.",
+            "model_prediction": "Speaker1 describes their conversations with Speaker2 as continuous and daily, with a pattern of replying to each other every day or so, indicating a routine conversation pattern at the co-op.",
+            "judge_response": "Explanation: The reference answer mentions infrequent conversations with long response gaps of one day, whereas the model's answer describes daily conversations with a routine pattern. Additionally, the reference highlights the enjoyment of the co-op routine, particularly making coffee, which is not mentioned in the model's answer. I think the model's answer is completely misaligned with the reference, providing incorrect information.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What contrast do the speakers draw between older and younger generations in terms of hardship?",
+            "reference": "Speaker1 shares how their mother faced hardships like fighting snakes and killing pigs barehanded, which Speaker2 contrasts with the easier lives of the younger generation, emphasizing independence.",
+            "model_prediction": "The speakers draw a contrast between older and younger generations in terms of hardship, suggesting that the younger generation does not face the same difficulties as the older generation, implying that the younger generation has an easier life.",
+            "judge_response": "Explanation: The reference answer is specific about the hardships faced by the older generation (fighting snakes and killing pigs barehanded) and the contrast with the younger generation's easier life, emphasizing independence. In contrast, the model's answer is more general, stating that the younger generation does not face the same difficulties as the older generation, implying an easier life. While the model captures the general idea, it lacks the specific details and doesn't explicitly mention independence. \n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        }
+    ]
+}

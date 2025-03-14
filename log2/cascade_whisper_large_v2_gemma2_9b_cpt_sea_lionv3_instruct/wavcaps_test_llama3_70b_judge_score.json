@@ -1,0 +1,168 @@
+{
+    "llama3_70b_judge": {
+        "judge_score": 6.3468208092485545,
+        "success_rate": 1.0
+    },
+    "details": [
+        {
+            "question": "Hear the sound and explain what you hear.",
+            "reference": "A sound is playing.",
+            "model_prediction": "The audio transcription says \"the next, video!!\".",
+            "judge_response": "Explanation: The reference answer is \"A sound is playing\", which is a vague description of the sound without providing any specific details. The model's answer is \"The audio transcription says 'the next, video!!'\" which seems to be providing specific details about the sound, but it doesn't align with the reference answer. The model's answer provides a transcription of the sound, whereas the reference answer simply states the existence of a sound.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Hear the audio and write a brief description.",
+            "reference": "A choir is singing and camera sounds are heard.",
+            "model_prediction": "The audio transcription consists only of musical notes represented by \"🎵\".",
+            "judge_response": "Explanation: The reference answer is a descriptive text that explains the audio content, mentioning a choir singing and camera sounds. In contrast, the model's answer is a brief and cryptic response consisting only of a musical note emoji (🎵). The model's answer lacks any descriptive detail and does not accurately convey the content of the audio. I think the model's answer is completely misaligned with the reference answer.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Listen to the clip and write a description.",
+            "reference": "A whoosh sound.",
+            "model_prediction": "The audio transcription consists only of the single word \"Oh\".",
+            "judge_response": "Explanation: The reference answer is a description of the audio clip, which is a \"whoosh sound\", while the model's answer is a single word \"Oh\". I think the model's answer is completely misaligned and irrelevant to the reference.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Observe the audio and give an account of it.",
+            "reference": "A signal is being recorded in a software.",
+            "model_prediction": "The audio consists only of musical notes represented by \"♪\". There is no speech or other discernible audio content.",
+            "judge_response": "Explanation: The reference answer is a general statement about the audio being recorded in a software, while the model's answer is a specific description of the audio content, which is not mentioned in the reference. The model's answer is not accurate and not relevant to the reference. I think the model has over-interpreted the situation and provided an answer that is not supported by the reference.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Observe the audio and give an account of it.",
+            "reference": "A rifle is firing shots.",
+            "model_prediction": "The audio ends with a simple expression of gratitude, \"Thanks for watching!\".",
+            "judge_response": "Explanation: The reference answer is a description of the audio content, \"A rifle is firing shots.\", while the model's answer is a statement of gratitude, \"Thanks for watching!\". These two answers are completely unrelated, with the model's answer not providing any information about the audio content.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Hear the sound and explain what you hear.",
+            "reference": "A walnut is rolling.",
+            "model_prediction": "The audio transcription contains a single word: \"Bye.\"",
+            "judge_response": "Explanation: The reference answer is a description of a walnut rolling, implying a visual or audio scenario. On the other hand, the model's answer is a transcription of an audio containing a single word \"Bye\", which is unrelated to the reference answer. I think the model's response is completely misaligned and provides incorrect information compared to the reference.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Listen to the clip and write a description.",
+            "reference": "A strings melody is playing with a filter.",
+            "model_prediction": "The audio clip consists only of musical notes (♪♪♪).",
+            "judge_response": "Explanation: The reference answer is \"A string's melody is playing with a filter\", which provides specific details about the audio clip, such as the instrument and the effect used. In contrast, the model's answer is \"The audio clip consists only of musical notes (♪♪♪)\", which is a vague and generic statement that doesn't capture the essence of the reference answer. \n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "Hear the sound and explain what you hear.",
+            "reference": "Someone's pretty vocals.",
+            "model_prediction": "A single vocalization, \"Oh\".",
+            "judge_response": "Explanation: The reference answer is \"Someone's pretty vocals\", which implies a general description of a pleasant and harmonious singing voice. On the other hand, the model's answer is \"A single vocalization, 'Oh'\", which is a very specific and limited description that doesn't quite align with the reference. I think the model's answer is too narrow and doesn't capture the essence of the reference.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Check the audio and provide an overview.",
+            "reference": "The sound of mechanical movements.",
+            "model_prediction": "The audio transcription simply expresses gratitude to the viewers for watching.",
+            "judge_response": "Explanation: The reference answer describes the content of an audio as \"The sound of mechanical movements\", while the model's answer states that \"The audio transcription simply expresses gratitude to the viewers for watching.\" These two answers are completely unrelated, with the model's answer providing incorrect and irrelevant information. \nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Listen to the clip and write a description.",
+            "reference": "Crickets chirp while a man screams and speaks.",
+            "model_prediction": "The audio transcription consists solely of a prolonged, high-pitched scream.",
+            "judge_response": "Explanation: The reference answer is a description of an audio clip that includes crickets chirping and a man screaming and speaking, while the model's answer is a description of a prolonged, high-pitched scream. I think the model's answer is completely misaligned with the reference, missing the crucial detail about the crickets chirping and the man speaking. \n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Listen to the audio and give a description.",
+            "reference": "A phone exchange is ringing.",
+            "model_prediction": "The audio consists solely of a ringing sound.",
+            "judge_response": "Explanation: The reference answer is a brief description of the audio content, stating that it consists solely of a ringing sound. The model's answer is also a brief description, mirroring the reference answer's content and accuracy. I think the model's answer is a perfect match to the reference answer.\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "Hear the audio and write a brief description.",
+            "reference": "Wife is coughing due to asthma.",
+            "model_prediction": "The audio consists of a simple farewell utterance, \"Bye bye.\"",
+            "judge_response": "Explanation: The reference answer describes a situation where a wife is coughing due to asthma, while the model's answer is a simple farewell utterance, \"Bye bye\". These two answers are completely unrelated, and the model's answer does not provide any information about the audio content. I think the model's answer is completely misaligned with the reference answer.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Listen to the track and summarize it.",
+            "reference": "Cheering, whistling, male speech, music, male singing, and screaming are heard.",
+            "model_prediction": "The audio track consists of repetitive utterances of \"I see the streetlight.\"",
+            "judge_response": "Explanation: The reference answer describes a chaotic scene with various sounds like cheering, whistling, male speech, music, male singing, and screaming, while the model's answer simplistically repeats the phrase \"I see the streetlight\". The two answers are completely unrelated, with the model's answer lacking any connection to the sounds described in the reference.\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Check the audio and provide an overview.",
+            "reference": "Buzzing, cricket sounds, and human sounds accompany music.",
+            "model_prediction": "The audio transcription contains only the word \"the\".",
+            "judge_response": "Explanation: The reference answer is a descriptive overview of the audio transcription, mentioning specific sounds and accompaniments. In contrast, the model's answer is a brief statement indicating that the audio transcription contains only the word \"the\". I think the model's response is completely misaligned with the reference, providing incorrect and irrelevant information.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Listen to the clip and write a description.",
+            "reference": "Music and ticking are heard.",
+            "model_prediction": "The audio transcription consists only of the word \"so\".",
+            "judge_response": "Explanation: The reference answer is a descriptive phrase \"Music and ticking are heard\", indicating that the audio clip contains sounds of music and ticking. In contrast, the model's answer is a single word \"so\" which does not provide any relevant or accurate information about the audio clip. The model's answer is completely unrelated to the reference answer.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Listen to the clip and write a description.",
+            "reference": "Something is making loud blasts.",
+            "model_prediction": "The audio clip ends with a simple \"Thanks for watching.\"",
+            "judge_response": "Explanation: The reference answer describes the content of the audio clip, stating that \"Something is making loud blasts.\" In contrast, the model's answer seems to be describing a unrelated aspect of the clip, stating that \"The audio clip ends with a simple 'Thanks for watching.'\" This response is completely misaligned with the reference answer, providing incorrect and irrelevant information.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Review the audio and offer a description.",
+            "reference": "Something is splashing.",
+            "model_prediction": "The audio consists of a simple closing statement, \"Thank you for watching!\".",
+            "judge_response": "Explanation: The reference answer is \"Something is splashing\", indicating a description of an audio clip, while the model's answer is \"The audio consists of a simple closing statement, 'Thank you for watching!'\" which is completely unrelated to the reference answer. The model's answer does not mention anything about splashing, which is the main aspect of the reference answer.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Hear the recording and summarize it briefly.",
+            "reference": "A dark Timpani with a lot of low-end is played.",
+            "model_prediction": "The audio prompt instructs the system to listen to a recording and provide a brief summary of its content.",
+            "judge_response": "Explanation: The reference answer is a descriptive summary of the audio content, specifying the instrument and its characteristics, whereas the model's answer is a general statement about the task of summarizing the recording. The model's answer does not provide any specific details about the audio content, making it unrelated to the reference answer.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "Listen to the audio and give a description.",
+            "reference": "Someone is unzipping and zipping a leather bag.",
+            "model_prediction": "The audio expresses gratitude to the viewer for watching.",
+            "judge_response": "Explanation: The reference answer is a descriptive phrase about someone unzipping and zipping a leather bag, whereas the model's answer is a completely unrelated statement expressing gratitude to the viewer for watching. These two answers are not related in content, accuracy, or relevance. The model's answer does not provide any description of the audio, which is the task requested.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Analyze the recording and describe it.",
+            "reference": "A church bell chimes with mechanisms in the background.",
+            "model_prediction": "The audio transcription consists of a single word: \"the\".",
+            "judge_response": "Explanation: The reference answer is a detailed description of the audio recording, stating that a church bell chimes with mechanisms in the background. In contrast, the model's answer is a single word \"the\", which lacks any relevance or accuracy to the reference answer. The model's response does not provide any meaningful information about the audio recording.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        }
+    ]
+}

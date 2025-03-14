@@ -1,0 +1,168 @@
+{
+    "llama3_70b_judge": {
+        "judge_score": 7.0,
+        "success_rate": 0.99
+    },
+    "details": [
+        {
+            "question": "Generate a summary that distills the dialogue into its most important discussions and decisions.",
+            "reference": "Speaker1 and Speaker2 discuss a hawker support initiative, agreeing that while it is a good idea, it lacks long-term sustainability for the hawkers.",
+            "model_prediction": "The group is discussing the possibility of starting a food truck business. They discuss the potential benefits and drawbacks of starting a food truck business. They also discuss the possibility of starting a brick and mortar restaurant business. Ultimately, they decide to start a food truck business.",
+            "judge_response": "Explanation: The reference answer is about a discussion on a hawker support initiative, focusing on its lack of long-term sustainability for the hawkers. In contrast, the model's answer is about a group discussing starting a food truck business, including the benefits and drawbacks, and ultimately deciding to start one. These two topics are completely unrelated, with no overlap in content or theme. \n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Prepare a concise overview of the dialogue, highlighting central themes and decisions.",
+            "reference": "Speaker1 and Speaker2 discussed emotional struggles, highlighting how weakness or misinterpretation can arise during difficult times.",
+            "model_prediction": "The dialogue revolves around the theme of mental health and the stigma associated with it. The participants express their struggles with depression and anxiety, and discuss the challenges of seeking help. They also discuss the importance of talking about mental health and breaking the stigma associated with it. Ultimately, the participants come to the realization that mental health is just as important as physical health, and that seeking help is a sign of strength rather than weakness.",
+            "judge_response": "Explanation: The reference answer focuses on the specific aspects of emotional struggles, highlighting the potential for weakness or misinterpretation during difficult times. In contrast, the model's answer takes a broader approach, discussing the importance of mental health, breaking stigmas, and seeking help. While the model's answer touches on the general theme of emotional struggles, it lacks the specific details and accuracy of the reference answer.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Forge a succinct narrative summarizing the dialogue’s main points and resolutions.",
+            "reference": "The speakers attempt to determine an astrological sign but fail to identify the one between November and Sagittarius, with no consensus reached.",
+            "model_prediction": "A group of children are discussing their opinions on various topics. One child expresses confusion about the meaning of the word \"censorship,\" and another child responds by saying that censorship is the act of suppressing information or ideas that are considered inappropriate or offensive. The group then discusses the concept of censorship in more detail, with one child arguing that it is necessary to protect children from harmful or inappropriate content. However, another child argues that censorship can be harmful in its own right, as it can stifle creativity and freedom of expression. Ultimately, the group agrees that censorship is a complex and controversial issue that requires careful consideration and debate.",
+            "judge_response": "Explanation: The reference answer is about a group of people discussing and failing to determine an astrological sign, while the model's answer is about a group of children discussing censorship. I think the model's answer is completely off-topic and has no relevance to the reference answer.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Synthesize the dialogue into a concise summary, focusing on key discussions and decisions.",
+            "reference": "Speaker1 explains that not all grants are available at Community Centres, but many people assume so, particularly for government-provided COVID-related assistance.",
+            "model_prediction": "The group is discussing the issue of government corruption and how it affects people's lives. They also discuss the importance of community centers and the need for people to be informed about what is happening in their community. They also talk about the importance of education and how it can help people make informed decisions. The group ultimately decides to focus on education as a way to combat government corruption and empower people to make positive changes in their community.",
+            "judge_response": "Explanation: The reference answer is about the misconception that all grants are available at Community Centres, specifically government-provided COVID-related assistance. The model's answer, on the other hand, discusses government corruption, community centers, education, and empowerment, which are unrelated topics. The model's response is completely misaligned and provides incorrect information compared to the reference.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Summarize the dialogue by focusing on critical points and speaker contributions.",
+            "reference": "Conversation about cafes near Dhoby Ghaut, comparing \"Plus Eight Two\" and \"Gather the Misfits.\" The latter stood out for its latte art and atmosphere, while the speaker remarked on pricing expectations.",
+            "model_prediction": "The speaker is discussing their experience at a plus 82 cafe. They note that the cafe is very plain and does not have a lot of fan art or other decorations. However, they also note that the cafe has a reputation for being expensive. They also mention that they went to the cafe with someone named Robby, but do not provide any further information about him. Overall, the speaker seems to have a positive attitude towards the cafe, despite its lack of decorations and high price.",
+            "judge_response": "Explanation: The reference answer is a comparison between two cafes (\"Plus Eight Two\" and \"Gather the Misfits\") focusing on their differences in latte art, atmosphere, and pricing expectations. In contrast, the model's answer is about a single cafe (\"Plus Eight Two\") and discusses its plain decor, reputation for being expensive, and a mention of someone named Robby. The model's answer misses the main point of the conversation, which is the comparison between the two cafes. \n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "Generate a summary that distills the dialogue into its most important discussions and decisions.",
+            "reference": "A discussion between two speakers about job hunting through LinkedIn. The first speaker advises applying even if the listings are recruitment-based.",
+            "model_prediction": "The dialogue revolves around the recruitment agency and its activities. The speakers discuss the importance of data in recruitment and how it can be used to find suitable candidates. They also discuss the challenges faced by recruitment agencies and the need to adapt to new technologies and trends. The speakers also emphasize the importance of building relationships with clients and candidates to ensure the success of the recruitment process. Overall, the dialogue highlights the importance of effective recruitment strategies and the need to stay up-to-date with the latest trends and technologies in the industry.",
+            "judge_response": "Explanation: The reference answer describes a discussion between two speakers about job hunting through LinkedIn, where one speaker advises applying to job listings even if they are recruitment-based. In contrast, the model's answer discusses the importance of data in recruitment, challenges faced by recruitment agencies, and building relationships with clients and candidates. The model's answer is completely unrelated to the reference answer, providing incorrect and irrelevant information.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Provide a succinct summary that captures the essence and key outcomes of the dialogue.",
+            "reference": "Conversation about a group activity where one participant had an incident. The group hesitated initially but was urged to continue. The injured participant eventually stopped and went home.",
+            "model_prediction": "The speaker talks about his experience playing cricket and how it has changed over the years. He also talks about the importance of teamwork and how it has helped him in his personal and professional life. The speaker also talks about his passion for cricket and how it has been a part of his life for as long as he can remember. Finally, he talks about how cricket has taught him valuable life lessons and how it has helped him become the person he is today.",
+            "judge_response": "Explanation: The reference answer is about a group activity where one participant had an incident, whereas the model's answer is about the speaker's experience playing cricket and its impact on their personal and professional life. The two answers are completely unrelated, and the model's answer does not capture the essence or key outcomes of the dialogue mentioned in the reference.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Prepare a concise overview of the dialogue, highlighting central themes and decisions.",
+            "reference": "Speaker1 and Speaker2 discussed parenting challenges, with Speaker1 expressing frustration over household responsibilities and managing children alone.",
+            "model_prediction": "The dialogue revolves around a discussion between a man and his wife about their children's breakfast, lunch, and activities. The man suggests that they don't need to settle their children's breakfast and lunch, but the wife disagrees, saying that they need to settle their children's breakfast and lunch. The man then suggests that they don't need to settle their children's activities, but the wife disagrees, saying that they need to settle their children's activities. The man then suggests that they don't need to settle their children's activities, but the wife disagrees, saying that they need to settle their children's activities. The man then suggests that they don't need to settle their children's activities, but the wife disagrees, saying that",
+            "judge_response": "Explanation: The reference answer highlights the discussion between Speaker1 and Speaker2 about parenting challenges, focusing on frustration with household responsibilities and managing children alone. In contrast, the model's answer is unrelated to the reference, describing a dialogue about settling children's breakfast, lunch, and activities. The model's response is completely misaligned, providing incorrect and irrelevant information.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Compose a brief summary emphasizing the key topics and decisions within the dialogue.",
+            "reference": "Speaker1 and Speaker2 had a lighthearted discussion about shaving a toddler’s hair, which can require repetitive maintenance.",
+            "model_prediction": "The dialogue revolves around the speaker's refusal to comply with someone's request. The speaker explains that they don't want to comply because they don't like the person making the request, and they also don't want to comply because they don't think the request is fair. The speaker also mentions that they will refuse to comply even if the request is made by someone they like. Additionally, the speaker mentions that they will refuse to comply even if the request is made by someone they love. The speaker also mentions that they will refuse to comply even if the request is made by someone they respect. The speaker also mentions that they will refuse to comply even if the request is made by someone they admire. The speaker also mentions that they will refuse to comply even if the request is made by someone they",
+            "judge_response": "Explanation: The reference answer is a brief summary of a lighthearted discussion about shaving a toddler's hair, which requires repetitive maintenance. In contrast, the model's answer is unrelated to the reference, discussing refusal to comply with a request. I think the model's response is a complete mismatch to the reference, providing incorrect and irrelevant information.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Compile a concise report of the dialogue, spotlighting major topics and outcomes.",
+            "reference": "Speaker1 and Speaker2 discussed bike maintenance, with Speaker1 sharing their routine for changing engine oil every 2,000-3,000 km, now extended to a month due to COVID.",
+            "model_prediction": "The conversation revolves around the COVID-19 pandemic and how it has affected people's lives. The speakers express their opinions on how the pandemic has changed the way people live, work, and interact with each other. They also discuss the impact of the pandemic on the economy and the government's response to it. Additionally, the speakers talk about the importance of taking precautions and getting vaccinated to curb the spread of the virus. Overall, the conversation focuses on the challenges and opportunities presented by the pandemic and how people can adapt to the new normal.",
+            "judge_response": "Explanation: The reference answer is about bike maintenance, specifically changing engine oil, and how COVID-19 has affected the routine. In contrast, the model's answer is about the COVID-19 pandemic's impact on people's lives, the economy, and the importance of precautions and vaccination. I think the model's answer is completely unrelated to the reference answer, discussing a different topic altogether.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Draft a concise summary that includes main topics and any decisions reached.",
+            "reference": "Speaker1 and Speaker2 discussed childhood memories of using the toilet as a place to skip class and watch YouTube videos, recalling it as a funny moment.",
+            "model_prediction": "The speaker discusses the importance of toilets and how they can be a source of entertainment for children. They also talk about how toilets have evolved over time and how they have become more technologically advanced. The speaker also talks about how toilets can be a source of education for children and how they can learn about different types of toilets and how they work. The speaker also talks about how toilets can be a source of fun for children and how they can learn about different types of toilets and how they work. The speaker also talks about how toilets can be a source of education for children and how they can learn about different types of toilets and how they work. The speaker also talks about how toilets can be a source of fun for children and how they can learn about different types of",
+            "judge_response": "Explanation: The reference answer describes a conversation between two speakers about skipping class and watching YouTube videos in the toilet, recalling it as a funny moment. In contrast, the model's answer discusses the importance of toilets, their evolution, educational value, and entertainment for children, which is unrelated to the reference answer. The model's response is off-topic and lacks any relevance to the reference conversation.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Provide a succinct summary that captures the essence and key outcomes of the dialogue.",
+            "reference": "Speaker1 recommends direct communication with the property to negotiate the best rates for long stays, emphasizing simplicity over third-party bookings.",
+            "model_prediction": "A woman is speaking to someone over the phone. She tells the person on the other end of the line that she has a family member who wants to stay for 10 days and asks if they can give her the best price. The person on the other end of the line tells her that they can give her the best price, but she will have to go to the third party. The woman tells the person on the other end of the line that it is difficult to go to the third party. The person on the other end of the line tells the woman that she can just call them and ask. The woman tells the person on the other end of the line that she can just call them and ask. The person on the other end of the line tells the woman that she can just call them and ask. The woman tells the person on the other end of",
+            "judge_response": "Explanation: The reference answer emphasizes the importance of direct communication with the property to negotiate the best rates for long stays, while the model's response is a dialogue that seems to be discussing the same topic but lacks clarity and focus. The model's answer is confusing, with repetitive phrases and unclear communication. It does not clearly convey the main idea of direct communication for better rates.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "Draft a concise summary that includes main topics and any decisions reached.",
+            "reference": "Speaker1 highlights inefficiencies in handling urgent tasks, such as delays in response and difficulty in locating appropriate personnel.",
+            "model_prediction": "The audio features a conversation between a woman and a man. The woman starts by asking the man if he is married. The man confirms that he is. The woman then asks the man if he has children. The man confirms that he does. The woman then asks the man if he is working. The man confirms that he is. The woman then asks the man if he is happy in his job. The man confirms that he is. The woman then asks the man if he is happy in his marriage. The man confirms that he is. The woman then asks the man if he is happy in his life. The man confirms that he is. The woman then asks the man if he is happy with his children. The man confirms that he is. The woman then asks the man if he is happy with his wife. The man confirms that he is",
+            "judge_response": "Explanation: The reference answer highlights the main topic of inefficiencies in handling urgent tasks, while the model's answer is a series of unrelated questions and answers about a person's marital status, job, and happiness. The model's answer is completely misaligned with the reference, providing incorrect and irrelevant information.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Create a streamlined summary that captures the core discussions and decisions of the dialogue.",
+            "reference": "Speaker1 and Speaker2 discuss ongoing changes to bus services, highlighting route adjustments and the introduction of new green SMRT buses.",
+            "model_prediction": "A group of women are discussing their experiences with buses. One woman talks about how she doesn't know why buses go straight to Tampines, while another woman talks about how buses used to be more frequent. They also talk about how buses have changed over the years, with one woman mentioning that buses used to be smaller and brighter green. They also talk about how buses can be loud and uncomfortable. Finally, they talk about how buses can be a convenient way to get around, especially for people who don't have cars.",
+            "judge_response": "Explanation: The reference answer discusses specific changes to bus services, including route adjustments and the introduction of new green SMRT buses. In contrast, the model's answer focuses on general experiences with buses, discussing their frequency, size, comfort, and convenience, without mentioning specific changes to bus services. The model's answer lacks detail and accuracy compared to the reference.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "Draft a concise summary that includes main topics and any decisions reached.",
+            "reference": "Speaker1 and Speaker2 discussed educational decisions, with Speaker1 explaining how their experience in secondary school influenced their choice of course in polytechnic.",
+            "model_prediction": "The audio clip features a conversation between a man and a woman. The man asks the woman if she has any previous experience or education related to the topic they are discussing. The woman admits that she doesn't have any experience or education related to the topic. The man then asks the woman if she has any questions related to the topic they are discussing. The woman admits that she doesn't have any questions related to the topic. The man then asks the woman if she likes the topic they are discussing. The woman admits that she doesn't like the topic. The man then asks the woman why she doesn't like the topic. The woman admits that she doesn't know why she doesn't like the topic. The man then asks the woman if she has any previous experience or education related to the topic they are discussing. The",
+            "judge_response": "Explanation: The reference answer is about Speaker1 and Speaker2 discussing educational decisions, with Speaker1 explaining how their experience in secondary school influenced their choice of course in polytechnic. However, the model's answer is completely unrelated, discussing a conversation between a man and a woman about a topic, with no mention of educational decisions or experiences.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Provide a succinct summary that captures the essence and key outcomes of the dialogue.",
+            "reference": "Speaker1 and Speaker2 discussed dietary choices, with Speaker1 recounting their decision to eat minimally to avoid feeling sick after encountering fried food.",
+            "model_prediction": "A mother and daughter are having a heated argument about the daughter's eating habits. The daughter is refusing to eat the meal her mother has prepared and the mother is trying to convince her to eat it. The daughter eventually agrees to eat the meal and apologizes to her mother.",
+            "judge_response": "Explanation: The reference answer describes a conversation about dietary choices, where Speaker1 discusses their decision to eat minimally to avoid feeling sick after encountering fried food. In contrast, the model's answer is about a mother-daughter argument about eating habits, which is a completely different scenario. I think the model's response is unrelated to the reference answer.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Generate a summary that distills the dialogue into its most important discussions and decisions.",
+            "reference": "Speaker1 and Speaker2 discussed the emotional impact of high death rates, with Speaker1 reflecting on the humanity behind the statistics.",
+            "model_prediction": "It is unclear what the conversation is about, as the audio is not clear and the speakers are difficult to understand. However, it appears that they are discussing a hypothetical situation in which a country has a large number of deaths and the speakers are trying to come up with a solution to the problem.",
+            "judge_response": "Explanation: The reference answer clearly states that the speakers are discussing the emotional impact of high death rates, focusing on the humanity behind the statistics. In contrast, the model's answer is unclear and vague, suggesting a hypothetical situation with a country experiencing a large number of deaths and the speakers trying to come up with a solution. The model's answer lacks accuracy and relevance to the reference answer, providing incorrect information.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Provide a succinct summary that captures the essence and key outcomes of the dialogue.",
+            "reference": "Speaker1 and Speaker2 discussed the challenges of speaking for extended periods, emphasizing the added difficulty of filtering thoughts during conversations.",
+            "model_prediction": "The conversation revolves around the challenges of creating music and the importance of taking breaks to avoid burnout. The participants also discuss the role of technology in music production and how it has evolved over time. They also touch on the importance of experimentation and taking risks in the creative process. Ultimately, the conversation emphasizes the importance of finding a balance between creativity and practicality in the music industry.",
+            "judge_response": "Explanation: The reference answer discusses the challenges of speaking for extended periods and filtering thoughts during conversations, while the model's answer talks about the challenges of creating music, taking breaks to avoid burnout, and the role of technology in music production. These two topics are completely unrelated, indicating a complete misalignment between the reference and the model's answer.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Prepare a concise overview of the dialogue, highlighting central themes and decisions.",
+            "reference": "Speaker1 and Speaker2 discussed online trends, with Speaker1 expressing frustration over repetitive and superficial posts seen on social media.",
+            "model_prediction": "In this dialogue, a man and a woman are discussing the importance of communication in a relationship. The man argues that every post on social media should have a purpose, while the woman believes that people should be allowed to post whatever they want without fear of backlash. The man then argues that people should be held accountable for their posts, while the woman believes that people should be allowed to express themselves freely. Ultimately, the man decides to unfollow the woman on social media, while the woman continues to post whatever she wants without fear of backlash.",
+            "judge_response": "Explanation: The reference answer describes a discussion between two speakers about online trends, specifically the frustration with repetitive and superficial social media posts. In contrast, the model's answer presents a fictional dialogue about the importance of communication in a relationship, with a focus on accountability and freedom of expression on social media. The two responses have no common ground in terms of content, accuracy, or relevance.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Prepare a concise overview of the dialogue, highlighting central themes and decisions.",
+            "reference": "Speaker1 and Speaker2 discussed CDA accounts, with Speaker1 emphasizing that the funds are a mix of government contributions and parents' input.",
+            "model_prediction": "The dialogue revolves around a conversation between a father and his son. The father is disappointed with his son's lack of ambition and is trying to encourage him to pursue higher education. The son, on the other hand, is content with his current job and does not see the need for further education. The father believes that the son is wasting his potential, while the son believes that he is happy with his life as it is. Ultimately, the son decides to continue working at his current job while the father continues to encourage him to pursue higher education.",
+            "judge_response": "Explanation: The reference answer describes a conversation between two speakers about CDA accounts, emphasizing the mix of government contributions and parents' input. In contrast, the model's answer discusses a conversation between a father and son about education and career goals, which is a completely different topic. The model's answer is unrelated to the reference, providing incorrect information.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        }
+    ]
+}

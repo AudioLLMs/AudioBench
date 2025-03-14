@@ -1,0 +1,168 @@
+{
+    "llama3_70b_judge": {
+        "judge_score": 33.97687861271676,
+        "success_rate": 0.999421965317919
+    },
+    "details": [
+        {
+            "question": "Hear the audio and write a brief description.",
+            "reference": "A sound is playing.",
+            "model_prediction": "A drum loop is playing.",
+            "judge_response": "Explanation: The reference answer is \"A sound is playing\", which is a very general description, while the model's answer is \"A drum loop is playing\", which is a more specific description. I think the model's answer is providing more detailed information than the reference answer, but it is still related to the sound being played.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "Listen to the clip and write a description.",
+            "reference": "A choir is singing and camera sounds are heard.",
+            "model_prediction": "A choir sings with music.",
+            "judge_response": "Explanation: The reference answer is specific about the sounds heard, mentioning a choir singing and camera sounds, while the model's answer is vague, only mentioning a choir singing with music. The model's answer does not capture the camera sounds mentioned in the reference answer. I think the model's answer shows minimal alignment with the reference.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "Analyze the recording and describe it.",
+            "reference": "A whoosh sound.",
+            "model_prediction": "A sound is being made.",
+            "judge_response": "Explanation: The reference answer is a specific description of the sound being a \"whoosh\", while the model's answer is a vague statement saying \"a sound is being made\". The model's answer lacks specificity and accuracy compared to the reference answer. It recognizes that a sound is present but fails to identify or describe it in any way.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Listen to the audio and give a description.",
+            "reference": "A signal is being recorded in a software.",
+            "model_prediction": "A guitar is playing a chord.",
+            "judge_response": "Explanation: The reference answer is \"A signal is being recorded in a software\", which is a description of an audio recording process. The model's answer is \"A guitar is playing a chord\", which is a description of a musical instrument playing a specific note combination. I think the model's answer is completely misaligned with the reference answer, as it doesn't describe the recording process at all.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Hear the sound and explain what you hear.",
+            "reference": "A rifle is firing shots.",
+            "model_prediction": "A sound is being made.",
+            "judge_response": "Explanation: The reference answer is specific about the sound being made by a rifle firing shots, while the model's answer is more general, simply stating that \"a sound is being made.\" The model's response lacks the specificity and detail of the reference answer. I think the model's answer is vague and doesn't provide a clear explanation of what is being heard.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Review the audio and offer a description.",
+            "reference": "A walnut is rolling.",
+            "model_prediction": "A coin is being dropped on a wooden table.",
+            "judge_response": "Explanation: The reference answer is \"A walnut is rolling\", which describes a dynamic scene of a walnut in motion. In contrast, the model's answer is \"A coin is being dropped on a wooden table\", which describes a completely different scene involving a coin, a table, and a distinct action (dropping) unrelated to the walnut. I think the model's answer is completely misaligned from the reference.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Hear the recording and summarize it briefly.",
+            "reference": "A strings melody is playing with a filter.",
+            "model_prediction": "A sound is being made.",
+            "judge_response": "Explanation: The reference answer is specific about the sound being a string's melody playing with a filter, while the model's answer is a vague statement that a sound is being made. The model's response lacks detail and accuracy compared to the reference. \n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Check the audio and provide an overview.",
+            "reference": "Someone's pretty vocals.",
+            "model_prediction": "A female voice is singing.",
+            "judge_response": "Explanation: The reference answer is \"Someone's pretty vocals\", which implies a subjective evaluation of vocals as pleasing to the ear. The model's answer is \"A female voice is singing\", which focuses on the objective fact of a female voice singing, without mentioning the subjective aspect of the vocals being \"pretty\". I think the model's answer is relevant but lacks the nuanced subjective evaluation present in the reference answer.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Listen to the track and summarize it.",
+            "reference": "The sound of mechanical movements.",
+            "model_prediction": "A train is moving with a clickety-clack sound.",
+            "judge_response": "Explanation: The reference answer is describing the sound of mechanical movements in a very general and abstract way, while the model's answer is providing a specific example of a train moving with a clickety-clack sound. I think the model's answer is trying to illustrate the concept described in the reference answer, but it's not a direct and precise match.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Listen to the track and summarize it.",
+            "reference": "Crickets chirp while a man screams and speaks.",
+            "model_prediction": "A man is speaking and screaming, with background noise and music.",
+            "judge_response": "Explanation: The reference answer is specific about the sounds present in the track, mentioning \"crickets chirp\" and \"a man screams and speaks\". In contrast, the model's answer is more general, describing \"background noise and music\" without specifying what the noise is, and only mentioning the man's actions. The model's answer lacks the detail and accuracy of the reference answer.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Hear the sound and explain what you hear.",
+            "reference": "A phone exchange is ringing.",
+            "model_prediction": "A phone is ringing.",
+            "judge_response": "Explanation: The reference answer is \"A phone exchange is ringing\", while the model's answer is \"A phone is ringing\". I think the model's answer is generally aligned with the reference answer, but it lacks precision in its description. The reference answer provides more context by specifying that it's a phone exchange ringing, whereas the model's answer simply states that a phone is ringing, which could refer to any phone.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Listen to the track and summarize it.",
+            "reference": "Wife is coughing due to asthma.",
+            "model_prediction": "Someone is coughing.",
+            "judge_response": "Explanation: The reference answer is specific about the person coughing (wife) and the reason for coughing (asthma), while the model's answer is vague and only states that \"Someone is coughing\". The model's answer lacks the specific details provided in the reference answer. I think it's a Score2 because the model recognizes the topic (coughing) but diverges significantly from the reference in accuracy and relevance.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Listen to the clip and write a description.",
+            "reference": "Cheering, whistling, male speech, music, male singing, and screaming are heard.",
+            "model_prediction": "A crowd cheers and a man sings.",
+            "judge_response": "Explanation: The reference answer lists multiple sounds heard in the clip, including cheering, whistling, male speech, music, male singing, and screaming. In contrast, the model's answer only mentions a crowd cheering and a man singing, leaving out the other sounds mentioned in the reference. While the model's answer is related to the reference, it lacks precision and detail.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Listen to the audio and give a description.",
+            "reference": "Buzzing, cricket sounds, and human sounds accompany music.",
+            "model_prediction": "Music is playing.",
+            "judge_response": "Explanation: The reference answer provides specific details about the accompaniments to the music, including buzzing, cricket sounds, and human sounds. In contrast, the model's answer is very general, simply stating that music is playing without mentioning any accompaniments. I think the model's answer is too vague and lacks details, making it only somewhat relevant to the reference.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Listen to the clip and write a description.",
+            "reference": "Music and ticking are heard.",
+            "model_prediction": "Music is playing.",
+            "judge_response": "Explanation: The reference answer is \"Music and ticking are heard\", while the model's answer is \"Music is playing\". I think the model's answer partially aligns with the reference, as it correctly identifies the presence of music, but misses the important detail about the ticking sound. This lack of detail prevents the model's answer from being a perfect match.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Observe the audio and give an account of it.",
+            "reference": "Something is making loud blasts.",
+            "model_prediction": "A door is being opened and closed.",
+            "judge_response": "Explanation: The reference answer is \"Something is making loud blasts\", implying an unknown source of loud noises. In contrast, the model's answer is \"A door is being opened and closed\", which specifies a specific source of the noise. Although the model's answer attempts to provide a concrete explanation, it's not entirely accurate and relevant to the reference answer, which focuses on the loud blasts rather than the door opening and closing. \n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Analyze the recording and describe it.",
+            "reference": "Something is splashing.",
+            "model_prediction": "A toilet is flushing.",
+            "judge_response": "Explanation: The reference answer is \"Something is splashing\", which is a general description of a sound, while the model's answer is \"A toilet is flushing\", which is a specific scenario that could match the sound. I think the model's answer is a plausible interpretation of the reference answer, but it's not a perfect match, as there could be other scenarios that would also fit the description \"Something is splashing\".\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Analyze the recording and describe it.",
+            "reference": "A dark Timpani with a lot of low-end is played.",
+            "model_prediction": "A drum is being played.",
+            "judge_response": "Explanation: The reference answer provides a specific description of the sound, mentioning a \"dark Timpani with a lot of low-end\" being played, whereas the model's answer is very general, stating simply \"A drum is being played.\" The model's response lacks the specific details that make the reference answer informative and accurate.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Observe the audio and give an account of it.",
+            "reference": "Someone is unzipping and zipping a leather bag.",
+            "model_prediction": "Someone is making a fart sound.",
+            "judge_response": "Explanation: The reference answer specifically describes the sound as someone unzipping and zipping a leather bag, whereas the model's answer interprets it as a fart sound. These two descriptions are unrelated and inaccurate. The model's response does not capture the essence of the reference answer, and its interpretation is completely off-base.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Listen to the audio and give a description.",
+            "reference": "A church bell chimes with mechanisms in the background.",
+            "model_prediction": "A clock is ticking and a bell is ringing.",
+            "judge_response": "Explanation: The reference answer is \"A church bell chimes with mechanisms in the background\", providing a specific and detailed description of the sound. However, the model's answer is \"A clock is ticking and a bell is ringing\", which lacks the specific context of a church bell and the presence of mechanisms in the background. The model's answer is more general and doesn't capture the essence of the reference answer.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        }
+    ]
+}

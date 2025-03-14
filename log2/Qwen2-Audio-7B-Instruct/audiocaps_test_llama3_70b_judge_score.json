@@ -1,0 +1,168 @@
+{
+    "llama3_70b_judge": {
+        "judge_score": 40.77727272727273,
+        "success_rate": 0.9977272727272727
+    },
+    "details": [
+        {
+            "question": "Listen to the audio and give a description.",
+            "reference": "Constant rattling noise and sharp vibrations",
+            "model_prediction": "The audio contains sounds of things, mechanisms throughout its duration.",
+            "judge_response": "Explanation: The reference answer is specific about the sounds, describing them as \"constant rattling noise and sharp vibrations\", while the model's answer is vague, stating that the audio contains \"sounds of things, mechanisms throughout its duration\". I think the model's answer lacks detail and precision, failing to capture the essence of the reference answer.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Observe the audio and give an account of it.",
+            "reference": "A rocket flies by followed by a loud explosion and fire crackling as a truck engine runs idle",
+            "model_prediction": "The audio contains background noises that include wind blowing and a loud explosion or eruption.",
+            "judge_response": "Explanation: The reference answer provides specific details about the audio, mentioning a rocket flying by, a loud explosion, fire crackling, and a truck engine running idle. In contrast, the model's answer is quite vague, only mentioning wind blowing and a loud explosion or eruption, omitting the other distinct sounds. I think the model's response lacks precision and detail, failing to capture the complexity of the audio.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Hear the recording and summarize it briefly.",
+            "reference": "Humming and vibrating with a man and children speaking and laughing",
+            "model_prediction": "The audio contains domestic sounds such as a vacuum cleaner, alongside instances of generic impact sounds and laughter from a child.",
+            "judge_response": "Explanation: The reference answer is describing a scene with a humming and vibrating sound, accompanied by a man and children speaking and laughing, whereas the model's answer focuses on domestic sounds, specifically a vacuum cleaner, and adds some generic impact sounds and a child's laughter. I think the model's answer is not accurately capturing the essence of the reference answer, and the details provided are not closely related.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Observe the audio and give an account of it.",
+            "reference": "A train running on a railroad track followed by a vehicle door closing and a man talking in the distance while a train horn honks and railroad crossing warning signals ring",
+            "model_prediction": "The audio contains the sound of a train chugging by and its horn blowing several times.",
+            "judge_response": "Explanation: The reference answer provides a detailed description of the audio, including the sounds of a train running on a railroad track, a vehicle door closing, a man talking in the distance, and the sound of a train horn honking and railroad crossing warning signals ringing. In contrast, the model's answer is much more generic, only mentioning the sound of a train chugging by and its horn blowing several times. The model's answer lacks the specificity and detail of the reference answer, omitting several key elements.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Hear the sound and explain what you hear.",
+            "reference": "Food is frying, and a woman talks",
+            "model_prediction": "The sound is of liquid being stirred, and a female voice is speaking in English saying 'Kids are talking by the door'.",
+            "judge_response": "Explanation: The reference answer describes the sound as \"Food is frying, and a woman talks\", whereas the model's answer states that the sound is of \"liquid being stirred\" and a female voice speaking in English about \"Kids are talking by the door\". These two descriptions are completely different and unrelated, with no common elements.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Hear the recording and summarize it briefly.",
+            "reference": "A man speaks as birds chirp and dogs bark",
+            "model_prediction": "A man is narrating in Spanish, 'Más de ochenta mil personas han sido asesinadas en Colombia durante el conflicto armado.'",
+            "judge_response": "Explanation: The reference answer is a brief description of a scene where a man speaks amidst background noises of birds chirping and dogs barking. In contrast, the model's answer is a translation of a sentence in Spanish, which seems unrelated to the reference answer. The model's response does not capture the essence of the reference, which is a descriptive phrase of an atmosphere, and instead provides a factual statement. I think the model has completely misinterpreted the reference.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Listen to the track and summarize it.",
+            "reference": "A large truck driving by as an emergency siren wails and truck horn honks",
+            "model_prediction": "The audio contains sounds of an emergency vehicle driving down the street with the sirens going off multiple times.",
+            "judge_response": "Explanation: The reference answer is specific about the sound of a large truck and a truck horn honking, while the model's answer is more general, mentioning an emergency vehicle but not specifying the truck or honking sound. I think the model's answer captures the general idea of an emergency vehicle but lacks the specific details present in the reference answer.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Observe the audio and give an account of it.",
+            "reference": "A child yelling as a young boy talks during several slaps on a hard surface",
+            "model_prediction": "The audio contains a series of sounds, starting with a kid talking by the door in English with a female voice characterized as singing and exhibiting an angry mood. Following this, there is a sound of a clock ticking at intervals. Subsequently, a child can be heard laughing. The sequence continues with another instance of clock ticking and an explosion or eruption sound. Lastly, there is a male voice speaking in English, again with an angry mood, saying 'Kids are talking by the door'.",
+            "judge_response": "Explanation: The reference answer is a concise description of the audio, focusing on a child yelling and a young boy talking during several slaps on a hard surface. In contrast, the model's answer is a convoluted and inaccurate description of the audio, mentioning a female voice, clock ticking, a child laughing, an explosion sound, and a male voice speaking. I think the model's answer is completely misaligned with the reference answer, providing incorrect and irrelevant information.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Analyze the recording and describe it.",
+            "reference": "An engine rumbles loudly, then an air horn honk three times",
+            "model_prediction": "The recording contains an engine sound, specifically that of a medium engine running at mid frequency, throughout the duration of the clip from start to finish. Additionally, there are instances of a horn honking at multiple intervals: first between 2.74 seconds and 3.86 seconds, then between 5.70 seconds and 6.59 seconds, followed by another instance between 8.61 seconds and 9.38 seconds.",
+            "judge_response": "Explanation: The reference answer is brief and concise, simply stating that an engine rumbles loudly and an air horn honks three times. In contrast, the model's answer is overly detailed and specific, providing unnecessary information about the frequency of the engine and the exact time intervals of the horn honking. While the model's answer is not incorrect, it diverges significantly from the reference in terms of accuracy and relevance. The model's answer is more focused on providing technical details rather than simply describing the essence of the recording.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Listen to the track and summarize it.",
+            "reference": "A person snoring with another man speaking",
+            "model_prediction": "The audio contains sounds of a vehicle or motor vehicle on a road, some generic impact sounds, a clock ticking, surface contact noises, and respiratory sounds such as breathing. A male voice is also heard speaking in a non-English language.",
+            "judge_response": "Explanation: The reference answer describes a person snoring with another man speaking, while the model's answer mentions a vehicle, impact sounds, a clock ticking, surface contact noises, and a male voice speaking in a non-English language, which does not match the reference answer at all. The model's answer provides completely unrelated information.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Check the audio and provide an overview.",
+            "reference": "Thunder and a gentle rain",
+            "model_prediction": "The audio contains heavy rainfall and thunder occurring intermittently over a span of 10 minutes.",
+            "judge_response": "Explanation: The reference answer is brief and poetic, describing the audio as \"Thunder and a gentle rain\". In contrast, the model's answer is more detailed and technical, stating that the audio contains \"heavy rainfall and thunder occurring intermittently over a span of 10 minutes\". While the model's answer provides more information, it doesn't quite capture the essence of the reference answer, which conveys a sense of contrast between the loud thunder and the gentle rain. I think the model's answer is relevant but lacks the poetic touch of the reference answer.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Hear the recording and summarize it briefly.",
+            "reference": "A woman talks and a baby whispers",
+            "model_prediction": "A woman is speaking to a child, who then talks back, and they both laugh.",
+            "judge_response": "Explanation: The reference answer is \"A woman talks and a baby whispers\", which implies a specific and unique interaction between the two. Meanwhile, the model's answer is \"A woman is speaking to a child, who then talks back, and they both laugh\", which presents a more typical and ordinary conversation scenario. I think the model's answer completely misrepresents the reference's intended meaning.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Observe the audio and give an account of it.",
+            "reference": "A man talking as a stream of water trickles in the background",
+            "model_prediction": "The audio contains sounds of water flowing continuously and intermittently, and a male voice speaking in English. The speech is delivered in a neutral mood.",
+            "judge_response": "Explanation: The reference answer is specific about the background sound, describing it as \"a stream of water trickling\", whereas the model's answer is more general, saying \"sounds of water flowing continuously and intermittently\". The model's answer also adds \"in a neutral mood\" which is not present in the reference. I think the model's answer is close but lacks precision in describing the background sound.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "Listen to the track and summarize it.",
+            "reference": "A person briefly talks followed quickly by toilet flushing and another voice from another person",
+            "model_prediction": "The audio contains music playing in the background intermittently, the sound of a toilet flushing at intervals, and a female voice speaking in English. The speech is delivered in a disgusted mood by a young adult female.",
+            "judge_response": "Explanation: The reference answer is concise and describes the audio as a person speaking briefly, followed by a toilet flushing sound and another voice. In contrast, the model's answer mentions music playing in the background, a female voice speaking, and a disgusted mood, which are not present in the reference answer. The model's answer also lacks the key detail about another voice being heard after the toilet flushing sound. I think the model's answer is overly elaborate and inaccurate.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Review the audio and offer a description.",
+            "reference": "A woman singing then choking followed by birds chirping",
+            "model_prediction": "The low quality recording features a wide synth pad progression that fades out at the very beginning of the loop, after which there is an alarm sound effect. The recording ends with some birds chirping in the background. It sounds weird and like an old video game sound.",
+            "judge_response": "Explanation: The reference answer describes a woman singing, then choking, followed by birds chirping, whereas the model's answer mentions a synth pad progression, an alarm sound effect, and birds chirping, but omits the woman singing and choking. The two descriptions are quite different, with the model providing unrelated details. I think the model's response fails to accurately capture the essence of the reference answer.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Hear the audio and write a brief description.",
+            "reference": "Machinery banging and hissing",
+            "model_prediction": "The audio contains sounds of rail transport, specifically a train, throughout its duration.",
+            "judge_response": "Explanation: The reference answer is a specific description of the sounds, mentioning \"machinery banging and hissing\", while the model's answer is a more general description of the sounds, stating that it's related to rail transport, specifically a train. The model's answer doesn't capture the specific sounds mentioned in the reference, so it's not a close match. I think the model's answer is relevant to the topic, but it lacks detail and precision compared to the reference.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Hear the recording and summarize it briefly.",
+            "reference": "A person talking which later imitates a couple of meow sounds",
+            "model_prediction": "A cat meows repeatedly.",
+            "judge_response": "Explanation: The reference answer is describing a person talking and then imitating a couple of meow sounds, while the model's answer is stating that a cat meows repeatedly. I think the model's answer is misaligned with the reference answer as it fails to capture the essence of the original recording, which involves a person speaking and imitating a cat's meow, not an actual cat meowing.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Listen to the clip and write a description.",
+            "reference": "Rain is falling continuously",
+            "model_prediction": "The sound is of water flowing continuously at a medium speed.",
+            "judge_response": "Explanation: The reference answer is \"Rain is falling continuously\", which directly describes the sound, while the model's answer is \"The sound is of water flowing continuously at a medium speed.\" which describes the sound in a more abstract way, focusing on the flow of water rather than the rain. I think the model's answer is related to the reference, but it lacks precision and directness.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Hear the sound and explain what you hear.",
+            "reference": "An infant crying followed by a man laughing",
+            "model_prediction": "I heard sounds of things, mechanisms along with crying - sobbing, baby cry at various intervals from the beginning to the end of the audio.",
+            "judge_response": "Explanation: The reference answer is a clear and concise description of the audio, highlighting the distinctive sounds of an infant crying and a man laughing. In contrast, the model's response is vague and focuses on \"sounds of things\" and \"mechanisms\" without specifically identifying the infant cry or the man's laughter. The model mentions \"crying - sobbing, baby cry\" but it's buried amidst other irrelevant details.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Observe the audio and give an account of it.",
+            "reference": "A man talking as a door slams shut followed by a door creaking",
+            "model_prediction": "The audio contains various sounds including mechanisms, gunshots, video game sounds, explosions, and other sourceless sound effects. There is also male speech in English with a disgusted mood.",
+            "judge_response": "Explanation: The reference answer specifically describes the audio as containing a man talking, a door slamming shut, and a door creaking. In contrast, the model's answer vaguely describes the audio as containing \"male speech in English with a disgusted mood\" and lists various other sounds that are not present in the reference. While the model's answer mentions male speech, it fails to capture the specific details mentioned in the reference. The model's answer also introduces irrelevant information about mechanisms, gunshots, and explosions.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        }
+    ]
+}

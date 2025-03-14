@@ -1,0 +1,168 @@
+{
+    "llama3_70b_judge": {
+        "judge_score": 65.9697386519945,
+        "success_rate": 0.9931224209078404
+    },
+    "details": [
+        {
+            "question": "Could you outline the key content presented in the audio?",
+            "reference": "The focus on the Peranakan story serves as a vital reminder of the rich history of Singapore's pioneers and the interconnectedness of the Southeast Asian region. This clip further illustrates the importance of embracing diverse cultures, which is crucial for fostering regional cohesion and understanding. ",
+            "model_prediction": "The audio emphasizes the importance of Peranakan culture.  It highlights that the Peranakan story serves as a reminder of early pioneers in Singapore and the region, illustrating the interconnectedness of Southeast Asia and the value of open-mindedness towards diverse cultures.\n",
+            "judge_response": "Explanation: The reference answer is detailed and highlights the importance of embracing diverse cultures for regional cohesion and understanding. The model's answer is concise and only touches on the significance of Peranakan culture, omitting the crucial aspect of cultural diversity and regional cohesion. I think the model's answer aligns with the reference generally but lacks detail and precise accuracy.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Could you give me an overview of what's discussed in the audio?",
+            "reference": "The male speaker discusses the potential impact of Donald Trump being president, suggesting that everyone needs to consider this as a possible scenario. He expresses uncertainty about whether China prefers Trump or Biden. While China may not want to get involved, with Trump, they would have to negotiate hard but can manage on their own",
+            "model_prediction": "The audio discusses the potential impact of a Trump presidency on China's foreign policy. The speaker notes that China must consider Trump as a possible scenario, expressing uncertainty over whether China prefers Trump or Biden.  While China prefers to avoid direct involvement, the speaker suggests that a Trump presidency would necessitate harder negotiations, but that China is capable of looking after its own interests.  In contrast, a Democratic administration would involve more ideological considerations.\n",
+            "judge_response": "Explanation: The reference answer focuses on the speaker's discussion of the potential impact of Donald Trump being president, specifically his uncertainty about China's preference for Trump or Biden, and how China would need to negotiate hard with Trump but can manage on its own. The model's answer accurately captures the main points, including the speaker's uncertainty and the implications of a Trump presidency for China's foreign policy. However, the model's answer adds some extra information about a Democratic administration, which is not mentioned in the reference answer.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "Please provide a concise summary of the audio's content.",
+            "reference": "The male speaker discusses the potential impact of Donald Trump being president, suggesting that everyone needs to consider this as a possible scenario. He expresses uncertainty about whether China prefers Trump or Biden. While China may not want to get involved, with Trump, they would have to negotiate hard but can manage on their own",
+            "model_prediction": "The speaker discusses the possibility of a Trump presidency and its impact on China.  They are unsure whether China prefers Trump or Biden, but acknowledge that negotiating with Trump would be difficult, although China could look after its own interests.  A Democratic administration would involve more ideological considerations.\n",
+            "judge_response": "Explanation: The reference answer provides a clear explanation of the speaker's discussion on the potential impact of Donald Trump being president and its implications on China, while the model's answer also discusses the same topic, albeit with less detail. The model's answer correctly captures the speaker's uncertainty about China's preference between Trump and Biden and the difficulty of negotiating with Trump, but lacks some precision in its wording. I think the model's answer is mostly accurate and relevant, closely following the reference but could be clearer or more detailed.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "Can you distill the essential information and key takeaways from the audio?",
+            "reference": "In this clip, the male narrator presents Chye Thiam Maintenance, a PW Mark-certified company dedicated to maintaining cleanliness in Singapore. The company focuses on providing progressive wages and clear career advancement opportunities for its staff. Jamal, who oversees the upkeep of Pasir Ris Park, will showcase the hands-on aspects of his job, specifically cleaning the shoreline.",
+            "model_prediction": "The speaker is meeting with Jamal and his team from Chito Maintenance, a PWMC-accredited company responsible for keeping Singapore clean.  They're at Pasir Ris Park, where Jamal's team is cleaning the shoreline and preparing debris for lorry pickup.  Chito Maintenance is highlighted as a company committed to fair wages, upskilling, and career progression.\n",
+            "judge_response": "Explanation: The reference answer is highlighting Chye Thiam Maintenance, a PW Mark-certified company, focusing on progressive wages and clear career advancement opportunities, and showcasing Jamal's hands-on job of cleaning the shoreline at Pasir Ris Park. The model's answer is similar, mentioning Chito Maintenance (instead of Chye Thiam), PWMC-accredited, and highlighting the company's commitment to fair wages, upskilling, and career progression, with Jamal's team cleaning the shoreline. The model's answer lacks detail and accuracy in some aspects, such as the company name and certification. \n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Can you distill the essential information and key takeaways from the audio?",
+            "reference": "In this clip, the male narrator presents Chye Thiam Maintenance, a PW Mark-certified company dedicated to maintaining cleanliness in Singapore. The company focuses on providing progressive wages and clear career advancement opportunities for its staff. Jamal, who oversees the upkeep of Pasir Ris Park, will showcase the hands-on aspects of his job, specifically cleaning the shoreline.",
+            "model_prediction": "The audio describes a meeting with a representative from Chita Maintenance, a company responsible for keeping Singapore clean.  They are a PWMC-accredited company with a commitment to fair wages, upskilling opportunities, and career advancement.  The speaker is at Pasir Ris Park, meeting with Jamal, whose team is cleaning the shoreline, preparing the collected refuse for lorry pickup.\n",
+            "judge_response": "Explanation: The reference answer provides a clear and concise overview of Chye Thiam Maintenance, its focus on progressive wages and career advancement, and Jamal's role in cleaning the shoreline at Pasir Ris Park. The model's answer also discusses Chita Maintenance ( slight variation in company name), its accreditation, and Jamal's task, but omits the specific aspects about wages and career advancement. The model's answer is generally aligned but lacks some details and precision.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Summarize the audio, focusing on the most important details and conclusions.",
+            "reference": "The male speaker asks Fiona, the female speaker, about how the C130 operates during wartime. Fiona explains that she currently works during peacetime, where her tasks include airdrops, airlift missions to resupply troops and equipment, as well as search and rescue operations.",
+            "model_prediction": "The audio discusses the C-130 aircraft and its uses.  The main point is that while most current operations are in peacetime, the C-130's work is mission-based.  Its primary functions include airdrops, airlift missions for resupplying troops and equipment, and search and locate missions – essentially logistical support.\n",
+            "judge_response": "Explanation: The reference answer states that Fiona explains her peacetime tasks, including airdrops, airlift missions, and search and rescue operations. In contrast, the model's answer focuses on the C-130's work being mission-based and mentions \"search and locate missions\" instead of \"search and rescue operations\". While the model's answer is related to the topic, it lacks precision and accuracy in its details.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Write a comprehensive summary of the audio that covers its main subject matter.",
+            "reference": "The male speaker asks Fiona, the female speaker, about how the C130 operates during wartime. Fiona explains that she currently works during peacetime, where her tasks include airdrops, airlift missions to resupply troops and equipment, as well as search and rescue operations.",
+            "model_prediction": "The audio focuses on the C-130 aircraft and its operational use.  The speaker explains that while most of their current work is in peacetime, much of it is mission-based.  These missions include airdrops, airlift missions for resupplying troops and equipment, and search and locate missions.  The overall implication is that the C-130 plays a significant logistical role, even outside of wartime scenarios.\n",
+            "judge_response": "Explanation: The reference answer specifically mentions that the speaker is asked about how the C130 operates during wartime, and Fiona explains her peacetime tasks. In contrast, the model's answer focuses on the C-130's operational use in general, mentioning peacetime work but not specifically addressing the wartime context. The model's answer also uses \"search and locate\" instead of \"search and rescue\" operations. I think the model's answer is close but lacks precision in details.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Please provide a concise summary of the main points discussed in the audio.",
+            "reference": "The male speaker asks the female speaker about how she became a pilot, noting that there are few female pilots in Singapore. The female speaker responds that the number of female pilots is increasing. She also shares that she has had a passion for aviation since childhood, and her interest in flying deepened when she joined the Singapore Youth Flying Club.",
+            "model_prediction": "The audio discusses a female pilot's career path.  She notes that while there are a growing number of female pilots in Singapore, her own path began with a lifelong passion for aviation.  Joining the Singapore Youth Flying Club is what solidified her interest in flying and ultimately led to her becoming a pilot.\n",
+            "judge_response": "Explanation: The reference answer highlights the speaker's interest in aviation since childhood, joining the Singapore Youth Flying Club, and the increasing number of female pilots in Singapore. The model's answer focuses on the speaker's lifelong passion for aviation, joining the club, and the growing number of female pilots. Both answers align in terms of content, accuracy, and relevance, but the model's answer condenses the information and lacks some details.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "Can you distill the essential information and key takeaways from the audio?",
+            "reference": "In this clip, the male narrator explains that every recruit must do guard duty at least once. He advises against choosing the role of a prowler, who carries a heavy shield and patrols Tekong for one to two hours, as it is tiring, especially at night. Instead, he recommends opting to be a sentry, who simply stands in one spot for the same duration. While being a sentry can be boring, it is an easier task to endure.",
+            "model_prediction": "All recruits undergo guard duty.  The speaker advises against being a prowler (patrolling for 1-2 hours with heavy equipment) due to its exhausting nature, especially at night.  Instead, they recommend being a sentry (standing guard in one spot for 1-2 hours), which is boring but less physically demanding.\n",
+            "judge_response": "Explanation: The reference answer and the model's response convey the same information and key takeaways from the audio. Both mention that every recruit must do guard duty, and advise against being a prowler due to its exhausting nature, especially at night. Both also recommend being a sentry as a less physically demanding option. The model's answer is a concise and accurate summary of the reference answer.\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "Please extract and summarize the main ideas covered in the audio content.",
+            "reference": "In this clip, the male narrator explains that every recruit must do guard duty at least once. He advises against choosing the role of a prowler, who carries a heavy shield and patrols Tekong for one to two hours, as it is tiring, especially at night. Instead, he recommends opting to be a sentry, who simply stands in one spot for the same duration. While being a sentry can be boring, it is an easier task to endure.",
+            "model_prediction": "The audio discusses guard duty, a mandatory task for recruits.  The speaker strongly advises against choosing the \"prowler\" role, which involves carrying heavy equipment and patrolling for one to two hours. This is described as very exhausting, especially at night.  Instead, the speaker recommends the \"sentry\" role, which involves standing in one spot for a similar duration.  While boring, it's considered less physically demanding.\n",
+            "judge_response": "Explanation: The reference answer provides a clear and concise explanation of the audio content, highlighting the narrator's advice on choosing between being a prowler and a sentry for guard duty. The model's answer mirrors the reference answer closely, accurately summarizing the main ideas and using similar phrases to describe the tasks. However, the model's answer lacks some of the detail and nuance found in the reference answer, such as the mention of carrying a heavy shield and patrolling Tekong.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "Could you give me an overview of what's discussed in the audio?",
+            "reference": "In this clip, the speakers share their worries in life. A female speaker voices her fear of losing important people in her life too soon, while a male speaker highlights the need to rebuild his social skills in the professional world. Two other female speakers express anxiety about finding employment after graduation, torn between the stability of a 9-to-6 job and the freedom of freelancing.",
+            "model_prediction": "The audio features several individuals sharing their biggest worries.  These worries center around:\n\n* **Fear of losing loved ones before getting to know them:** One person expresses concern about people leaving their life before they have a chance to build meaningful relationships.\n\n* **Difficulty with social skills and professional communication:** Another person worries about redeveloping social skills and communicating effectively in professional settings, feeling they currently only communicate informally.\n\n* **Securing a job after graduation:** A third person expresses anxiety about their ability to find employment after graduating, considering different career paths.\n",
+            "judge_response": "Explanation: The reference answer provides a clear and concise overview of the audio, mentioning specific worries such as fear of losing important people, rebuilding social skills, and anxiety about finding employment after graduation. The model's answer is similar, but it rephrases and simplifies the worries, losing some of the original details. For example, the model's answer does not mention the 9-to-6 job vs freelancing dilemma. I think the model's answer is a good summary, but it could be more detailed and accurate.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "Please provide a concise summary of the main points discussed in the audio.",
+            "reference": "The first female speaker, approaching 30, expresses concern over financial stability while the second male speaker laments the high cost of living in expensive Singapore, where the salary seems insufficient. The third female speaker highlights the stress of planning for significant future expenses such as housing and potentially raising a child. This reveals a common anxiety among Singaporeans about financial security and the pressures of societal expectations at certain life stages.",
+            "model_prediction": "The audio expresses anxieties about the speaker's financial situation in Singapore.  Approaching 30, they worry about their insufficient savings, the high cost of living, and upcoming major expenses like housing and raising a family.\n",
+            "judge_response": "Explanation: The reference answer provides a more detailed and nuanced summary of the audio, breaking down the concerns into three distinct perspectives: financial stability, high cost of living, and future expenses. In contrast, the model's answer is more general and concise, focusing on the anxiety about financial situation without capturing the specific concerns mentioned in the reference answer. I think the model's answer lacks detail and precision compared to the reference.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Please extract and summarize the main ideas covered in the audio content.",
+            "reference": "The male speaker explains that being a bus captain goes beyond driving; it involves making crucial decisions and acting as the first responder in emergencies. Bus captains are trained in CPR, first aid, and fire safety. The female speaker adds that she is trained in first aid and fire safety, and she demonstrates how to apply a plaster and put out a fire.",
+            "model_prediction": "The audio describes the multifaceted role of a bus captain.  It's more than just driving; bus captains are trained in critical decision-making, first aid (including CPR), and fire suppression.  They are considered first responders in emergency situations on the bus, with commuters looking to them for help first.\n",
+            "judge_response": "Explanation: The reference answer and the model's response both convey the idea that being a bus captain involves more than just driving and requires training in first aid, fire safety, and critical decision-making. The model's answer closely follows the reference, but lacks some specific details, such as the demonstration of applying a plaster and putting out a fire mentioned in the reference. \n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "Please extract and summarize the main ideas covered in the audio content.",
+            "reference": "The male speaker explains that being a bus captain goes beyond driving; it involves making crucial decisions and acting as the first responder in emergencies. Bus captains are trained in CPR, first aid, and fire safety. The female speaker adds that she is trained in first aid and fire safety, and she demonstrates how to apply a plaster and put out a fire.",
+            "model_prediction": "The audio discusses the responsibilities of a bus captain, emphasizing that the role is far more than just driving.  Bus captains are trained in critical decision-making, particularly in emergency situations.  They are considered first responders, and receive training in CPR, first aid, and fire suppression.  The audio includes a demonstration of putting out a fire.\n",
+            "judge_response": "Explanation: The reference answer provides specific details about the role of a bus captain, including their training in CPR, first aid, and fire safety, as well as a demonstration of applying a plaster and putting out a fire. The model's answer accurately captures the main idea that being a bus captain involves more than driving and requires training in emergency response, but lacks some specific details, such as the plaster demonstration.\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "Please provide a concise summary of the main points discussed in the audio.",
+            "reference": "This informative clip introduces the NUHS app, which simplifies the process of ordering and collecting medications. Patients can place orders for their medications through the Order & Relax Service and choose to pick them up later from MedSAFE, a self-service locker located at the NUH main building near the taxi stand, available 24/7. Alternatively, patients can opt for Medication Delivery, where their medications will be delivered to them on a scheduled date.",
+            "model_prediction": "The audio describes how patients can order medications through the NUHS app.  They can choose to collect their medication later from MedSafe, a 24/7 self-service locker, or opt for medication delivery.  Patients with existing prescriptions can use the order and release service.\n",
+            "judge_response": "Explanation: The reference answer is clear and concise, explaining the NUHS app's features for ordering and collecting medications, including the Order & Relax Service, MedSAFE, and Medication Delivery options. The model's answer omits some details, such as the Medication Delivery option, and rephrases the Order & Relax Service as \"order and release service\". While it captures the general idea, it lacks precision and clarity.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Please provide a concise summary of the audio's content.",
+            "reference": "This informative clip introduces the NUHS app, which simplifies the process of ordering and collecting medications. Patients can place orders for their medications through the Order & Relax Service and choose to pick them up later from MedSAFE, a self-service locker located at the NUH main building near the taxi stand, available 24/7. Alternatively, patients can opt for Medication Delivery, where their medications will be delivered to them on a scheduled date.",
+            "model_prediction": "The audio announces that patients can order medications via the NUHS app and choose to collect them later from MedSafe, a 24/7 self-service locker at the NUHS main building taxi stand.  Patients with existing prescriptions can use the order and release service, and medication delivery is also available.\n",
+            "judge_response": "Explanation: The reference answer provides detailed information about the NUHS app, including the location of MedSAFE and the two options for patients to obtain their medications. In contrast, the model's answer is more concise and omits some relevant details, such as the location of MedSAFE and the 24/7 availability. However, the model's answer still captures the main idea of the NUHS app and the two options for patients.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "Summarize the audio, focusing on the most important details and conclusions.",
+            "reference": "In this segment, group participants are engaged in a lively discussion about whether Muslims are allowed to purchase insurance, with some apparent confusion on the topic. One female participant shares that her sister, a financial advisor, has many Muslim clients, implying that buying insurance may be common among Muslims in Singapore. Another woman adds that insurance is essentially a safety net for unforeseen events, and she doesn't understand why there would be any issue with purchasing it.",
+            "model_prediction": "The audio discusses whether Muslims are allowed to buy insurance.  The speakers initially debate the permissibility of musical instruments, seemingly a tangent.  However, the core discussion centers on whether or not purchasing insurance is acceptable within a Muslim community. One speaker notes that it's quite common in Singapore, suggesting a prevalent acceptance, while another questions the ethical implications, wondering if insurance contradicts religious principles since it's meant to be a safety net.  The audio concludes without a definitive answer on the religious permissibility of insurance.\n",
+            "judge_response": "Explanation: The reference answer provides a clear summary of the discussion, highlighting the participants' confusion and differing opinions on whether Muslims are allowed to purchase insurance. The model's answer, on the other hand, incorrectly mentions a tangent about musical instruments and omits the key point about one participant's sister being a financial advisor with many Muslim clients. Additionally, the model's answer focuses more on the questionable ethical implications of insurance, which is not the main emphasis of the reference answer.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Please provide a concise summary of the audio's content.",
+            "reference": "In this segment, group participants are engaged in a lively discussion about whether Muslims are allowed to purchase insurance, with some apparent confusion on the topic. One female participant shares that her sister, a financial advisor, has many Muslim clients, implying that buying insurance may be common among Muslims in Singapore. Another woman adds that insurance is essentially a safety net for unforeseen events, and she doesn't understand why there would be any issue with purchasing it.",
+            "model_prediction": "The audio discusses whether Muslims are allowed to buy insurance.  The speakers initially debate the permissibility of Muslims owning musical instruments, then shift to the question of insurance, with one speaker noting that it's common in their community (Singapore) and questioning why insurance, as a safety net, would be disallowed.\n",
+            "judge_response": "Explanation: The reference answer is clear about the discussion topic, which is whether Muslims are allowed to purchase insurance, and highlights the participants' perspectives, including the mention of a financial advisor and the idea of insurance as a safety net. In contrast, the model's answer starts by mentioning a non-existent discussion about Muslims owning musical instruments, which is not present in the reference answer. The model then touches on the insurance topic, but lacks specific details and clarity.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Create a short summary that include the core points of this audio.",
+            "reference": "In this clip, the female speaker explains Mustafa's business strategy for keeping their product prices low. Mustafa maintains profit margins of only 10%-15%, which is much lower than the typical 25% profit margin seen in average retail businesses. This approach is sustainable for Mustafa because they sell a high volume of products daily. By offering lower prices, they attract more customers, which results in higher sales. Additionally, Mustafa imports goods directly, avoiding the cost of middlemen, and purchases in bulk, which allows them to secure lower prices.",
+            "model_prediction": "Mustafa's products are inexpensive due to a low 10-15% profit margin, significantly lower than the average 25% retail margin.  This is possible because of high daily sales volume (low prices attract more customers), direct importing (eliminating middlemen), and bulk purchasing.\n",
+            "judge_response": "Explanation: The reference answer explains Mustafa's business strategy in detail, including the low profit margin, high daily sales volume, direct importing, and bulk purchasing. The model's answer, on the other hand, is a concise summary that maintains the core points of the reference answer. While it omits some details, it accurately conveys the main ideas.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "Please extract and summarize the main ideas covered in the audio content.",
+            "reference": "In this clip, the female speaker explains Mustafa's business strategy for keeping their product prices low. Mustafa maintains profit margins of only 10%-15%, which is much lower than the typical 25% profit margin seen in average retail businesses. This approach is sustainable for Mustafa because they sell a high volume of products daily. By offering lower prices, they attract more customers, which results in higher sales. Additionally, Mustafa imports goods directly, avoiding the cost of middlemen, and purchases in bulk, which allows them to secure lower prices.",
+            "model_prediction": "Mustafa's products are cheap because they maintain a low profit margin (10-15%) compared to the average retail margin (25%).  This is possible due to high sales volume (low prices attract more customers), direct importing (eliminating middlemen), and bulk purchasing.\n",
+            "judge_response": "Explanation: The reference answer explains Mustafa's business strategy in detail, highlighting the low profit margin, high sales volume, direct importing, and bulk purchasing. The model's answer, on the other hand, provides a concise summary of the main ideas, covering the low profit margin, high sales volume, and eliminating middlemen, but omits the detail about bulk purchasing. I think the model's answer is a good summary, but lacks some detail and precision.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        }
+    ]
+}

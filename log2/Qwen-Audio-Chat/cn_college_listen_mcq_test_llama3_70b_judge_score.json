@@ -1,0 +1,168 @@
+{
+    "llama3_70b_judge": {
+        "judge_score": 63.232056362835756,
+        "success_rate": 0.9995596653456627
+    },
+    "details": [
+        {
+            "question": "Question:\nWhat does the woman want to do?\n Choices:\n(A) Find a place.\n(B) Buy a map.\n(C) Get an address.",
+            "reference": "(A) Find a place.",
+            "model_prediction": "The woman wants to find a place, so the correct answer is (A) Find a place.",
+            "judge_response": "Explanation: The reference answer is (A) Find a place, and the model's answer is also (A) Find a place, which matches perfectly. The model accurately captures the meaning from the reference, providing a relevant and correct response.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "Question:\nWhat does the man do for the woman?\n Choices:\n(A) Repair her car\n(B) Give her a ride\n(C) Pick up her aunt.",
+            "reference": "(B) Give her a ride",
+            "model_prediction": "The man offers to give the woman a ride to meet her aunt at the railway station before noon.",
+            "judge_response": "Explanation: The reference answer is \"(B) Give her a ride\", while the model's answer is \"The man offers to give the woman a ride to meet her aunt at the railway station before noon.\" I think the model's answer is correct, but it provides more information than the reference answer. The model's answer is still relevant and accurate, as it includes the core idea of \"give her a ride\" and adds more context.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "Question:\nWho might Mr.Peterson be?\n Choices:\n(A) A new professor\n(B) A department head\n(C) A company director.",
+            "reference": "(C) A company director.",
+            "model_prediction": "Based on the conversation, it sounds like Mr. Peterson is a department head who is coming to the office next week. Therefore, the answer is (B) A department head.",
+            "judge_response": "Explanation: The reference answer is (C) A company director, while the model's answer is (B) A department head. I think the model's answer is incorrect and irrelevant to the reference provided.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Question:\nWhat does the man think of the book?\n Choices:\n(A) Quite difficult.\n(B) Very interesting.\n(C) Too simple.",
+            "reference": "(B) Very interesting.",
+            "model_prediction": "The man thinks the book is quite interesting.",
+            "judge_response": "Explanation: The reference answer is \"(B) Very interesting\", which is a concise and direct answer to the question. The model's answer is \"The man thinks the book is quite interesting\", which is a paraphrased version of the reference answer. The model's answer captures the same meaning and content as the reference answer, with a slight difference in wording.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "Question:\nWhat are the speakers talking about?\n Choices:\n(A) Weather\n(B) Clothes\n(C) News.",
+            "reference": "(A) Weather",
+            "model_prediction": "The speakers are talking about the weather and clothes. They are discussing the fact that it is still warm and they still have to wear warm clothes, but there is some good news on the radio that they can wear shorts tomorrow.",
+            "judge_response": "Explanation: The reference answer is \"(A) Weather\", while the model's answer is \"The speakers are talking about the weather and clothes.\". I think the model's answer is partially correct, as it mentions weather, which is the reference answer. However, it also adds \"clothes\" which is not the exact reference answer.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "Question:\nWhy is Harry unwilling to join the woman?\n Choices:\n(A) He has a pain in his knee.\n(B) He wants to watch TV.\n(C) he is too lazy.",
+            "reference": "(B) He wants to watch TV.",
+            "model_prediction": "The woman suggests playing ping pong, but Harry refuses because his right arm hurts and he has decided to stop playing ping pong until it feels better. He also mentions that his knee hurts too. Therefore, the answer is (A) he has a pain in his knee.",
+            "judge_response": "Explanation: The reference answer is (B) He wants to watch TV, while the model's answer is (A) He has a pain in his knee. The model's answer is incorrect and provides irrelevant information compared to the reference. The model's response is based on the context provided, but it does not match the correct answer.\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Question:\nWhat will the woman probably do next?\n Choices:\n(A) Stay at home.\n(B) Take Harry to hospital.\n(C) Do some exercise.",
+            "reference": "(C) Do some exercise.",
+            "model_prediction": "Based on the conversation, it sounds like the woman is not feeling well and is looking for an excuse to stay home. Therefore, the most likely option is (A) Stay at home.",
+            "judge_response": "Explanation: The reference answer is (C) Do some exercise, while the model's answer is (A) Stay at home. I think the model's response is completely off the mark and irrelevant to the reference answer. The model's answer is based on an incorrect interpretation of the conversation, and it doesn't match the provided reference.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Question:\nWhen will the man be home from work?\n Choices:\n(A) At 5:45\n(B) At 6:15\n(C) At 6:50",
+            "reference": "(A) At 5:45",
+            "model_prediction": "The man will be home from work at 5:45.",
+            "judge_response": "Explanation: The reference answer is \"At 5:45\", while the model's answer is \"The man will be home from work at 5:45.\" I think the model's answer is correct and accurately conveys the same information as the reference answer, providing additional context that is relevant to the question.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "Question:\nWhere will the speakers go?\n Choices:\n(A) The Green House Cinema.\n(B) The New State Cinema.\n(C) The UME Cinema.",
+            "reference": "(C) The UME Cinema.",
+            "model_prediction": "The speakers will go to the Green House Cinema.",
+            "judge_response": "Explanation: The reference answer is (C) The UME Cinema, while the model's answer is The Green House Cinema. I think the model's answer is incorrect and does not align with the reference answer.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Question:\nHow will the speakers go to New York?\n Choices:\n(A) By air.\n(B) By taxi.\n(C) By bus.",
+            "reference": "(A) By air.",
+            "model_prediction": "The speakers will go to New York by air. They will be picked up by the company car and taken to the airport.",
+            "judge_response": "Explanation: The reference answer is \"(A) By air\", while the model's answer is \"The speakers will go to New York by air. They will be picked up by the company car and taken to the airport.\" I think the model's answer is correct and relevant, but it provides additional information that is not present in the reference answer. The model's answer still captures the essence of the reference answer, which is that the speakers will go to New York by air.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "Question:\nWhy are the speakers making the trip?\n Choices:\n(A) For business.\n(B) For shopping.\n(C) For holiday.",
+            "reference": "(A) For business.",
+            "model_prediction": "The speakers are making the trip for business.",
+            "judge_response": "Explanation: The reference answer is \"(A) For business\", while the model's answer is \"The speakers are making the trip for business.\" I think the model's answer accurately conveys the same meaning as the reference answer, providing a clear and concise explanation for why the speakers are making the trip.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "Question:\nWhat is the probalbe relationship between the speakers?\n Choices:\n(A) Driver and passenger\n(B) Husband and wife\n(C) Fellow workers.",
+            "reference": "(C) Fellow workers.",
+            "model_prediction": "The possible relationship between the speakers is (B) Husband and wife. They are discussing their next week's trip and their plans for transportation to and from the airport.",
+            "judge_response": "Explanation: The reference answer is (C) Fellow workers, while the model's answer is (B) Husband and wife. The model's answer is incorrect and irrelevant to the reference provided.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Question:\nWhere does this conversation probably take place?\n Choices:\n(A) In a restaurant.\n(B) In an office.\n(C) In a classroom.",
+            "reference": "(B) In an office.",
+            "model_prediction": "Based on the conversation, it is most likely that this conversation takes place in a classroom. The conversation mentions someone graduating from college in June and their major being Chinese, which suggests they are in a classroom setting. Additionally, the conversation mentions someone working as a tour guide for Chinese travelers, which suggests they may be taking a class on Chinese culture or language.",
+            "judge_response": "Explanation: The reference answer is \"In an office\", while the model's answer is \"In a classroom\". The model's answer is incorrect and provides irrelevant information compared to the reference. The model's reasoning is not supported by the reference answer, and the conversation does not suggest that it takes place in a classroom.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Question:\nWhat does John do now?\n Choices:\n(A) He’s a trainer.\n(B) He’s a tour guide.\n(C) He’s a college student.",
+            "reference": "(C) He’s a college student.",
+            "model_prediction": "The person says they are a college student and their major is Chinese. They used to be a tour guide for Chinese travelers.",
+            "judge_response": "Explanation: The reference answer is \"He's a college student\", while the model's answer is \"The person says they are a college student and their major is Chinese. They used to be a tour guide for Chinese travelers.\" The model's answer not only mentions that the person is a college student but also provides additional unrelated information, making it partially correct.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "Question:\nHow much can a new person earn for the first year?\n Choices:\n(A) $10,500.\n(B) $12,000.\n(C) $15,000.",
+            "reference": "(A) $10,500.",
+            "model_prediction": "The answer is (C) $15,000.",
+            "judge_response": "Explanation: The reference answer is $10,500, while the model's answer is $15,000. I think the model's answer is incorrect and does not align with the reference answer.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Question:\nHow many people will the woman hire?\n Choices:\n(A) Four\n(B) Three\n(C) Two",
+            "reference": "(C) Two",
+            "model_prediction": "The woman says \"Please sit down. Let's see, you're Mr. Smith, is that correct?\" and then asks if he is interested in this job. He responds that he is and states that he will graduate from college in the coming June and that his major is Chinese. She asks if he has ever done any work in this field and he responds that he used to be a tour guide for Chinese travelers. She then asks how much money he expects to have for a year.",
+            "judge_response": "Explanation: The reference answer is \"(C) Two\", indicating the number of people the woman will hire. However, the model's answer does not provide any information about the number of people the woman will hire. It provides a summary of the conversation between the woman and Mr. Smith, but it does not answer the question. \n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Question:\nHow long has the speaker lived in a big city?\n Choices:\n(A) One year.\n(B) Ten years.\n(C) Eighteen years",
+            "reference": "(B) Ten years.",
+            "model_prediction": "The speaker says \"I grew up in a small town until I was eighteen and then moved to a big city, so I have experienced the good and bad sides of both. I never thought that I would like living in a big city, but I was wrong. After ten years of living in one, I can't imagine ever living in a small town again. Surely small towns and big cities both have some problems.\"",
+            "judge_response": "Explanation: The reference answer is \"(B) Ten years\", and the model's answer states \"After ten years of living in one, I can't imagine ever living in a small town again.\" The model's response accurately conveys the same information as the reference answer, providing a specific duration of time the speaker has lived in a big city.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "Question:\nWhat is the speaker’s opinion on public transport?\n Choices:\n(A) It’s comfortable\n(B) It’s time-saving\n(C) It’s cheap.",
+            "reference": "(C) It’s cheap.",
+            "model_prediction": "The speaker says, \"Well, I'd love to share with you my personal opinions on city life and life in small towns. I grew up in a small town until I was eighteen, and then moved to a big city. So, I have experienced the good and bad sides of both. I never thought that I would like living in a big city, but I was wrong. After ten years of living in one, I can't imagine ever living in a small town again. Sure, small towns and big cities both have some problems.\"",
+            "judge_response": "Explanation: The reference answer is \"(C) It's cheap\", which is a specific opinion on public transport. However, the model's response provides a completely unrelated narrative about the speaker's experience with city life and small towns, without mentioning public transport at all. I think this is a clear mismatch.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Question:\nWhat is good about living in a small town?\n Choices:\n(A) It’s safer.\n(B) It’s healthier.\n(C) It’s more convenient.",
+            "reference": "(A) It’s safer.",
+            "model_prediction": "The answer is (C) It’s more convenient.",
+            "judge_response": "Explanation: The reference answer is (A) It's safer, while the model's answer is (C) It's more convenient. I think the model's answer does not align with the reference answer, as it provides a different advantage of living in a small town.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Question:\nWhat kind of life does the speaker seem to like most?\n Choices:\n(A) Busy.\n(B) Colourful.\n(C) Quiet.",
+            "reference": "(B) Colourful.",
+            "model_prediction": "The speaker seems to prefer quiet life.",
+            "judge_response": "Explanation: The reference answer is (C) Quiet, while the model's answer is \"The speaker seems to prefer quiet life.\" I think the model's response accurately captures the meaning of the reference answer, conveying the same information in a slightly rephrased manner.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        }
+    ]
+}

@@ -1,0 +1,168 @@
+{
+    "llama3_70b_judge": {
+        "judge_score": 2.55,
+        "success_rate": 0.9998333333333334
+    },
+    "details": [
+        {
+            "question": "What can you tell about the speaker's accent",
+            "reference": "The speaker has a Chinese accent who is likely from the Chinese-Speaking community of Singapore.",
+            "model_prediction": "The speaker has an English accent.",
+            "judge_response": "Explanation: The reference answer is \"The speaker has a Chinese accent who is likely from the Chinese-Speaking community of Singapore\", which provides specific information about the speaker's accent and origin. In contrast, the model's answer is \"The speaker has an English accent\", which is a completely different and incorrect information. \n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "How would you describe the accent of this speaker?",
+            "reference": "The speaker speaks fluent English with a Singaporean Indian-Speaking accent, characterized by local intonation and occasional Singlish expressions.",
+            "model_prediction": "The speaker has an English accent.",
+            "judge_response": "Explanation: The reference answer is specific about the accent, mentioning it's a Singaporean Indian-Speaking accent with local intonation and Singlish expressions, whereas the model's answer simply states that the speaker has an English accent, which is incorrect and lacks the specific details mentioned in the reference.\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Can you identify any specific ethnic characteristics typical of Singaporean English in the speaker's accent?",
+            "reference": "Yes, the speaker's accent seems to have a Indian-Speaking tone. This speaker may from Indian community of Singapore.",
+            "model_prediction": "The specific accent does not exhibit any distinct ethnic characteristics of Singaporean English; it is more generic English.",
+            "judge_response": "Explanation: The reference answer specifically identifies the speaker's accent as having an Indian-Speaking tone, suggesting they may be from the Indian community of Singapore. In contrast, the model's answer claims that the accent does not exhibit any distinct ethnic characteristics of Singaporean English, making it more generic English. The model's answer is incorrect and irrelevant to the reference, failing to capture the specific nuance of the speaker's accent.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Can you describe the accent of the speaker?",
+            "reference": "The speaker has a Chinese accent. They are likely from the Chinese-Speaking community of Singapore.",
+            "model_prediction": "The speaker has an English accent.",
+            "judge_response": "Explanation: The reference answer is \"The speaker has a Chinese accent. They are likely from the Chinese-Speaking community of Singapore\", while the model's answer is \"The speaker has an English accent\". I think the model's answer is completely off, as it doesn't match the reference answer in terms of content, accuracy, and relevance.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What can you tell about the speaker's accent",
+            "reference": "The speaker has a Chinese accent who is likely from the Chinese-Speaking community of Singapore.",
+            "model_prediction": "The speaker has an English accent.",
+            "judge_response": "Explanation: The reference answer is \"The speaker has a Chinese accent who is likely from the Chinese-Speaking community of Singapore\", while the model's answer is \"The speaker has an English accent\". I think the model's answer is incorrect and irrelevant to the reference provided, as it doesn't match the accent type and origin.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What can you tell about the speaker's accent",
+            "reference": "The speaker has a Chinese accent who is likely from the Chinese-Speaking community of Singapore.",
+            "model_prediction": "The speaker has an English accent.",
+            "judge_response": "Explanation: The reference answer is \"The speaker has a Chinese accent who is likely from the Chinese-Speaking community of Singapore\", while the model's answer is \"The speaker has an English accent\". I think the model's answer is incorrect and irrelevant to the reference, as it provides a different accent type and does not mention the Singaporean context.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Can you describe the accent of the speaker?",
+            "reference": "The speaker has a Chinese accent who is likely from the Chinese-Speaking community of Singapore.",
+            "model_prediction": "The speaker has an English accent.",
+            "judge_response": "Explanation: The reference answer is that the speaker has a Chinese accent, likely from the Chinese-Speaking community of Singapore, while the model's answer is that the speaker has an English accent. I think these two answers are incompatible and provide contradictory information.\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "How would you describe the accent of this speaker?",
+            "reference": "The speaker speaks fluent English with a Singaporean Chinese-Speaking accent, characterized by local intonation and occasional Singlish expressions.",
+            "model_prediction": "The speaker has an English accent.",
+            "judge_response": "Explanation: The reference answer is describing the speaker's accent as having a Singaporean Chinese-Speaking accent with local intonation and occasional Singlish expressions, whereas the model's answer simply states the speaker has an English accent. The two answers are not equivalent, and the model's answer is inaccurate.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "How would you describe the accent of this speaker?",
+            "reference": "The speaker speaks fluent English with a Singaporean Malay-Speaking accent, characterized by local intonation and occasional Singlish expressions.",
+            "model_prediction": "The speaker has an English accent.",
+            "judge_response": "Explanation: The reference answer is specific about the speaker's accent, describing it as \"fluent English with a Singaporean Malay-Speaking accent, characterized by local intonation and occasional Singlish expressions.\" In contrast, the model's answer is a vague and incorrect statement that \"The speaker has an English accent.\" The model's answer fails to capture the nuances of the speaker's accent described in the reference answer.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Can you identify if the speaker's accent reflects any Singaporean tones in their English?",
+            "reference": "The speaker's accent suggests they are a Indian-Speaking community of Singapore.",
+            "model_prediction": "Yes, the speaker has a Singaporean accent in their English.",
+            "judge_response": "Explanation: The reference answer is specific about the accent, stating that it suggests the speaker is from an Indian-Speaking community of Singapore, whereas the model's answer is more general, only mentioning a Singaporean accent without specifying the community. I think the model's answer lacks the precision and detail provided in the reference answer.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Can you infer the speaker's accent from this audio clip?",
+            "reference": "The speaker is likely from Singapore's Malay-Speaking community, whose first language is Malay.",
+            "model_prediction": "The speaker is South African.",
+            "judge_response": "Explanation: The reference answer is \"The speaker is likely from Singapore's Malay-Speaking community, whose first language is Malay\", while the model's answer is \"The speaker is South African\". I think the model's answer is incorrect and irrelevant to the reference provided, as it suggests a completely different geographical origin and language background.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Can you identify any specific ethnic characteristics typical of Singaporean English in the speaker's accent?",
+            "reference": "Yes, the speaker's accent seems to have a Chinese-Speaking tone. This speaker may from Chinese community of Singapore.",
+            "model_prediction": "The specific accent does not have noticeable ethnic characteristics; it is more generic Singaporean English.",
+            "judge_response": "Explanation: The reference answer specifically identifies the accent as having a Chinese-Speaking tone, suggesting that the speaker may be from the Chinese community of Singapore. In contrast, the model's answer claims that the accent is generic Singaporean English with no noticeable ethnic characteristics. These two responses are contradictory, and the model's answer does not capture the specific ethnic characteristics mentioned in the reference answer.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Can you describe the accent of the speaker?",
+            "reference": "The speaker has a Chinese accent who is likely from the Chinese-Speaking community of Singapore.",
+            "model_prediction": "The speaker has an English accent.",
+            "judge_response": "Explanation: The reference answer is that the speaker has a Chinese accent, likely from the Chinese-Speaking community of Singapore, while the model's answer is that the speaker has an English accent. I think the model's answer is incorrect and does not align with the reference answer, as it provides a different accent type.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Can you describe the accent of the speaker?",
+            "reference": "The speaker has a Indian accent who is likely from the Indian-Speaking community of Singapore.",
+            "model_prediction": "The speaker has an English accent.",
+            "judge_response": "Explanation: The reference answer is specific that the speaker has an Indian accent and is likely from the Indian-Speaking community of Singapore, whereas the model's answer is a generic statement that the speaker has an English accent. I think the model's answer is incorrect and irrelevant to the reference.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "How would you describe the accent of this speaker?",
+            "reference": "The speaker speaks fluent English with a Singaporean Malay-Speaking accent, characterized by local intonation and occasional Singlish expressions.",
+            "model_prediction": "The speaker has an English accent.",
+            "judge_response": "Explanation: The reference answer is a detailed description of the speaker's accent, specifying it as a Singaporean Malay-Speaking accent with local intonation and occasional Singlish expressions. In contrast, the model's answer is a vague and brief statement saying the speaker has an English accent, which is incorrect and irrelevant to the reference. I think the model's answer fails to capture the specific details and characteristics mentioned in the reference.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Can you identify if the speaker's accent reflects any Singaporean tones in their English?",
+            "reference": "The speaker's accent suggests they are a Chinese-Speaking community of Singapore.",
+            "model_prediction": "Yes, the speaker exhibits characteristics of the Singaporean accent in their English speech.",
+            "judge_response": "Explanation: The reference answer is specific, stating that the speaker's accent suggests they are from a Chinese-Speaking community of Singapore. In contrast, the model's answer is more general, stating that the speaker exhibits characteristics of the Singaporean accent in their English speech. While the model's answer is accurate, it lacks the specificity of the reference answer. I think the model's answer is correct, but it doesn't fully capture the nuance of the reference answer.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "Can you describe the accent of the speaker?",
+            "reference": "The speaker has a Chinese accent. They are likely from the Chinese-Speaking community of Singapore.",
+            "model_prediction": "The speaker has an English accent.",
+            "judge_response": "Explanation: The reference answer is that the speaker has a Chinese accent, likely from the Chinese-Speaking community of Singapore, while the model's answer is that the speaker has an English accent. I think the model's answer is incorrect and lacks relevance to the reference.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Can you describe the accent of the speaker?",
+            "reference": "The speaker has a Chinese accent who is likely from the Chinese-Speaking community of Singapore.",
+            "model_prediction": "The speaker has an English accent.",
+            "judge_response": "Explanation: The reference answer is that the speaker has a Chinese accent likely from the Chinese-Speaking community of Singapore, while the model's answer is that the speaker has an English accent. I think the model's answer is completely off the mark, providing incorrect information that does not match the reference at all.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Can you identify any specific ethnic characteristics typical of Singaporean English in the speaker's accent?",
+            "reference": "Yes, the speaker's accent seems to have a Chinese-Speaking tone. This speaker may from Chinese community of Singapore.",
+            "model_prediction": "The speech does not contain any discernible ethnic characteristics; it is standard English.",
+            "judge_response": "Explanation: The reference answer is specific about the accent, indicating that the speaker's accent has a Chinese-Speaking tone, suggesting they may be from the Chinese community of Singapore. In contrast, the model's answer is vague, claiming that the speech contains no discernible ethnic characteristics and is standard English. I think the model's answer is oversimplifying and lacks relevant information about the speaker's accent.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What can you tell about the speaker's accent",
+            "reference": "The speaker has a Indian accent who is likely from the Indian-Speaking community of Singapore.",
+            "model_prediction": "The speaker has an English accent.",
+            "judge_response": "Explanation: The reference answer is \"The speaker has a Indian accent who is likely from the Indian-Speaking community of Singapore\", while the model's answer is \"The speaker has an English accent.\" I think the model's answer is incorrect and irrelevant to the reference provided. The model failed to capture the correct information about the speaker's accent and incorrectly assumed it to be English.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        }
+    ]
+}

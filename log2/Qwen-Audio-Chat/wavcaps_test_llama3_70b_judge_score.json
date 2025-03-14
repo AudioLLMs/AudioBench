@@ -1,0 +1,168 @@
+{
+    "llama3_70b_judge": {
+        "judge_score": 32.9364161849711,
+        "success_rate": 0.999421965317919
+    },
+    "details": [
+        {
+            "question": "Hear the recording and summarize it briefly.",
+            "reference": "A sound is playing.",
+            "model_prediction": "A drum loop with a hard-hitting beat.",
+            "judge_response": "Explanation: The reference answer is very brief and generic, stating only that \"A sound is playing.\" The model's answer, on the other hand, provides a more specific and detailed description, stating that the sound is a \"drum loop with a hard-hitting beat.\" While the model's answer is more informative, it's not entirely accurate or relevant to the reference, which doesn't specify the type of sound. I think the model's answer is an over-interpretation of the reference.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Hear the recording and summarize it briefly.",
+            "reference": "A choir is singing and camera sounds are heard.",
+            "model_prediction": "The recording features a choir singing a song.",
+            "judge_response": "Explanation: The reference answer provides specific details about the recording, mentioning both the choir singing and the camera sounds. In contrast, the model's answer only mentions the choir singing, omitting the camera sounds. While the model's answer is related to the topic, it lacks precision and detail compared to the reference.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Listen to the clip and write a description.",
+            "reference": "A whoosh sound.",
+            "model_prediction": "This is a recording of a short snippet of a metal guitar being played. It is a high-pitched, metallic sound, with a sharp attack and a quick decay.",
+            "judge_response": "Explanation: The reference answer is a brief and general description of a \"whoosh sound\", while the model's answer is a detailed description of a \"high-pitched, metallic sound, with a sharp attack and a quick decay\" specifically related to a metal guitar being played. I think the model's answer is over-describing the sound and providing unnecessary details, making it less aligned with the reference answer.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Observe the audio and give an account of it.",
+            "reference": "A signal is being recorded in a software.",
+            "model_prediction": "This is a song whose genre is Folk, and the lyrics are \"When you hear a siren, you know that you are near a cop car. You better slow down, and don't you dare stop, or you'll get a ticket, and your day will be spoiled.\".",
+            "judge_response": "Explanation: The reference answer is a vague description of an audio signal being recorded in a software, while the model's answer is a description of a song with specific lyrics and a genre. I think the model's answer is completely misaligned with the reference answer, providing irrelevant information.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Listen to the track and summarize it.",
+            "reference": "A rifle is firing shots.",
+            "model_prediction": "Someone is firing a weapon at a target.",
+            "judge_response": "Explanation: The reference answer is \"A rifle is firing shots\", specifically describing the action of firing and the object involved (rifle and shots). In contrast, the model's answer is \"Someone is firing a weapon at a target\", which is more general and changes the focus to the person firing and adds the concept of a target. While the model's answer is related to the reference, it lacks specificity and precision. I think the model's answer aligns with the reference generally but lacks detail or precise accuracy in some aspects.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Observe the audio and give an account of it.",
+            "reference": "A walnut is rolling.",
+            "model_prediction": "The recording is of a group of tennis balls bouncing and rolling on a hard surface.",
+            "judge_response": "Explanation: The reference answer is \"A walnut is rolling\", which specifically describes the audio content. In contrast, the model's answer is \"The recording is of a group of tennis balls bouncing and rolling on a hard surface\", which is entirely different and unrelated to the walnut mentioned in the reference. The model's answer introduces new and incorrect information about tennis balls and a hard surface, which is not present in the reference. I think the model's response is completely misaligned with the reference.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Listen to the audio and give a description.",
+            "reference": "A strings melody is playing with a filter.",
+            "model_prediction": "A sad, slow, emotional, and mournful violin piece.",
+            "judge_response": "Explanation: The reference answer is a concise description of the audio as \"A strings melody is playing with a filter\", whereas the model's answer is a more interpretative description of the audio as \"A sad, slow, emotional, and mournful violin piece\". While the model's answer attempts to convey the emotional tone of the audio, it strays away from the technical description provided in the reference answer. I think the model's answer lacks accuracy and relevance to the reference.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Review the audio and offer a description.",
+            "reference": "Someone's pretty vocals.",
+            "model_prediction": "This is a song whose genre is Pop, and the lyrics are \"Oh oh oh oh oh\".",
+            "judge_response": "Explanation: The reference answer is \"Someone's pretty vocals\", which is a concise and descriptive phrase, whereas the model's answer is \"This is a song whose genre is Pop, and the lyrics are 'Oh oh oh oh oh'\", which provides irrelevant information about the song's genre and lyrics. I think the model's answer completely misses the point of the reference answer, which is to describe the vocalist's performance.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Hear the recording and summarize it briefly.",
+            "reference": "The sound of mechanical movements.",
+            "model_prediction": "A vehicle engine is running and then a vehicle door opens and closes.",
+            "judge_response": "Explanation: The reference answer is a brief description of \"the sound of mechanical movements\", while the model's answer is a more specific scenario involving a vehicle engine and door opening and closing. I think the model's answer is more detailed and concrete, but still conveys the idea of mechanical movements, making it a relevant and accurate summary.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "Hear the audio and write a brief description.",
+            "reference": "Crickets chirp while a man screams and speaks.",
+            "model_prediction": "A person screams and a mouse squeaks.",
+            "judge_response": "Explanation: The reference answer is \"Crickets chirp while a man screams and speaks\", which provides specific details about the sounds heard in the audio. In contrast, the model's answer is \"A person screams and a mouse squeaks\", which replaces crickets with a mouse and removes the detail about the man speaking. I think the model's answer is incorrect and irrelevant to the reference.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Check the audio and provide an overview.",
+            "reference": "A phone exchange is ringing.",
+            "model_prediction": "This is a recording of a phone ringing and being picked up.",
+            "judge_response": "Explanation: The reference answer is describing the audio as \"A phone exchange is ringing\", while the model's answer is \"This is a recording of a phone ringing and being picked up\". I think the model's answer is more detailed and includes an additional action (being picked up) that is not present in the reference answer. This suggests that the model's answer is not a perfect match with the reference.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Hear the audio and write a brief description.",
+            "reference": "Wife is coughing due to asthma.",
+            "model_prediction": "Someone clearing their throat.",
+            "judge_response": "Explanation: The reference answer is \"Wife is coughing due to asthma\", which provides a specific reason for the coughing. In contrast, the model's answer is \"Someone clearing their throat\", which is a vague and incorrect description of the audio. The model's response does not capture the essence of the reference answer, which is about asthma-induced coughing. \n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Check the audio and provide an overview.",
+            "reference": "Cheering, whistling, male speech, music, male singing, and screaming are heard.",
+            "model_prediction": "The crowd is cheering and clapping.",
+            "judge_response": "Explanation: The reference answer is a detailed list of sounds heard in the audio, including cheering, whistling, male speech, music, male singing, and screaming, while the model's answer is a simplified statement that \"The crowd is cheering and clapping.\" I think the model's answer is incomplete and lacks the specific details mentioned in the reference answer.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Hear the sound and explain what you hear.",
+            "reference": "Buzzing, cricket sounds, and human sounds accompany music.",
+            "model_prediction": "A mosquito buzzing in the distance followed by a sudden stop and a low hissing sound.",
+            "judge_response": "Explanation: The reference answer is describing a general soundscape, mentioning \"buzzing, cricket sounds, and human sounds\" accompanying music. In contrast, the model's answer is focused on a specific, detailed scenario: \"A mosquito buzzing in the distance followed by a sudden stop and a low hissing sound.\" While the model's answer does include a type of buzzing sound, it diverges from the reference in terms of content and relevance, focusing on a mosquito sound rather than a general soundscape. \n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Review the audio and offer a description.",
+            "reference": "Music and ticking are heard.",
+            "model_prediction": "This audio contains a simple melody played on a ukulele. The melody is played twice. The ukulele is played in the higher register. There is no other instrumentation in this audio. There is no voice in this audio. There is no percussion in this audio. There is no background noise in this audio. There is no singing in this audio. This audio can be played in the background.",
+            "judge_response": "Explanation: The reference answer is brief and only mentions that \"Music and ticking are heard\", while the model's answer provides a more detailed description of the audio, mentioning a ukulele melody, instrumentation, and background noise. However, the model's answer does not mention the \"ticking\" sound, which is a crucial part of the reference answer. I think the model's answer is overly detailed in some aspects, but misses a key element of the reference answer.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Hear the sound and explain what you hear.",
+            "reference": "Something is making loud blasts.",
+            "model_prediction": "This is the sound of a car door being slammed shut.",
+            "judge_response": "Explanation: The reference answer is describing an unknown sound as \"Something is making loud blasts\", which is vague and doesn't specifically identify the source of the sound. In contrast, the model's answer is \"This is the sound of a car door being slammed shut\", which is a specific and incorrect assumption about the source of the sound. I think the model's answer is overconfident and doesn't align with the reference answer's vagueness.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Hear the sound and explain what you hear.",
+            "reference": "Something is splashing.",
+            "model_prediction": "This is the sound of a toilet flushing.",
+            "judge_response": "Explanation: The reference answer is a vague statement indicating that \"something is splashing\", whereas the model's answer is a specific claim that \"this is the sound of a toilet flushing\". I think the model's answer is overly specific and not necessarily aligned with the reference answer, as the reference could be referring to any type of splashing sound, not just a toilet flushing.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Listen to the clip and write a description.",
+            "reference": "A dark Timpani with a lot of low-end is played.",
+            "model_prediction": "This is a recording of a room filled with people laughing.",
+            "judge_response": "Explanation: The reference answer is describing a sound effect, specifically a dark Timpani with a lot of low-end, while the model's answer is describing a scene of people laughing in a room. These two answers are completely unrelated and provide different information. The model's answer does not mention sound effects or music at all.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Review the audio and offer a description.",
+            "reference": "Someone is unzipping and zipping a leather bag.",
+            "model_prediction": "The recording is of a zip being opened and closed.",
+            "judge_response": "Explanation: The reference answer is specific about the action being performed on a leather bag, while the model's answer is more general, only describing the sound of a zip being opened and closed. I think the model's answer is a good start, but it lacks the specific detail about the leather bag.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Listen to the audio and give a description.",
+            "reference": "A church bell chimes with mechanisms in the background.",
+            "model_prediction": "A bell is ringing.",
+            "judge_response": "Explanation: The reference answer provides a detailed description of the sound, mentioning \"mechanisms in the background\", which implies a more complex scene. In contrast, the model's answer is very brief and only states \"A bell is ringing\". It misses the additional details provided in the reference answer. I think the model's answer shows some alignment with the reference, but is lacking in detail and accuracy.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        }
+    ]
+}

@@ -1,0 +1,88 @@
+{
+    "llama3_70b_judge": {
+        "judge_score": 56.0,
+        "success_rate": 1.0
+    },
+    "details": [
+        {
+            "question": "Why was Speaker1 asked to help out, and what did they say about their involvement in the ATC camp?",
+            "reference": "Speaker1 was asked to help out because they are seen as an initiative-taking person. They described the ATC camp as adventurous, matching its name, Adventure Training Camp.",
+            "model_prediction": "Speaker1 was asked to help out at the ATC camp because they are an initiative person and two secondary 5 students needed assistance in taking over a position. They stated they were involved in the camp and found it to sound \"very...\" (the audio cuts off before completing the sentence).\n",
+            "judge_response": "Explanation: The reference answer is clear about why Speaker1 was asked to help out, stating they are seen as an initiative-taking person, and describes the ATC camp as adventurous. In contrast, the model's answer provides some accurate information, such as Speaker1 being an \"initiative person\", but adds extraneous information about two secondary 5 students needing assistance, which is not present in the reference. The model's answer also cuts off before completing a sentence, making it unclear what they were going to say about their involvement in the ATC camp. I think the model's answer shows some alignment with the reference, but lacks precision and clarity.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "What are the speakers discussing regarding their payment, and how does Speaker2 compare their work experiences?",
+            "reference": "The speakers discuss receiving payment from STB by the end of the month. Speaker2 compares their current job, earning $270–$280 for two days of work, to a previous job at Raffles Medical where they worked 4–5 days for similar pay.",
+            "model_prediction": "The speakers are discussing a payment expected from STDC by the end of the month. Speaker 2 mentions they previously received similar payments and established an annual contact, implying a recurring work arrangement. They also highlight a past project's payout of around 270-280, finding it satisfactory (\"shiok\").",
+            "judge_response": "Explanation: The reference answer is specific about the speakers discussing receiving payment from STB by the end of the month, and Speaker2 comparing their current job to a previous job at Raffles Medical. In contrast, the model's answer is inaccurate, stating that the speakers are discussing a payment from STDC (not STB), and that Speaker2 mentions a past project's payout as \"shiok\" (which is not mentioned in the reference). The model's answer also lacks detail and conveys a different meaning. \n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "What does Speaker1 describe as their most expensive possession?",
+            "reference": "Speaker1 identifies their customized Pandora bracelet.",
+            "model_prediction": "Speaker1's most expensive possession is a customized Pandora bracelet worth $700.",
+            "judge_response": "Explanation: The reference answer is about Speaker1 identifying their customized Pandora bracelet, while the model's answer is about the bracelet being Speaker1's most expensive possession worth $700. I think the model's answer provides additional information that is not mentioned in the reference, but it is still related to the bracelet, which is the main topic.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "How does Speaker1 describe their current conversations with Speaker2 and their routine at the co-op?",
+            "reference": "Speaker1 describes their conversations as infrequent, with long response gaps of one day. They also mention enjoying their co-op routine, particularly being allowed to make coffee.",
+            "model_prediction": "Speaker1 describes their conversations with Speaker2 as infrequent, occurring only once a day through text messages with delayed replies (sometimes a day apart). They express a sense of indifference (\"whatever already\") towards this communication pattern.  The transcription doesn't offer details about their routine at the co-op. \n\n",
+            "judge_response": "Explanation: The reference answer is clear about the infrequency of conversations with long response gaps of one day, and also mentions enjoying the co-op routine, particularly making coffee. The model's answer, however, adds unnecessary details about text messages, and incorrectly states that the transcription doesn't provide details about the co-op routine. The model's answer lacks accuracy and relevance in some aspects. \n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "What difference in quality do the speakers notice about frozen items kept in the freezer?",
+            "reference": "Speaker1 observes that their frozen item becomes watery after just one day, while Speaker2 notes that theirs remained intact for two to four days with only slight wateriness. Speaker2 attributes this to a difference in quality.",
+            "model_prediction": "The speakers notice a difference in how quickly frozen items become watery after thawing. One speaker's items remained relatively firm even after 3-4 days, while the other's experienced significant wateriness after just one day.",
+            "judge_response": "Explanation: The reference answer highlights the difference in quality between the two speakers' frozen items, with Speaker2 attributing their item's longer intactness to a quality difference. In contrast, the model's answer focuses on the observation of the difference in how quickly frozen items become watery, without explicitly mentioning the quality difference. The model's answer is more general and lacks the specific detail about the quality difference.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "What does Speaker1 mention about buying games through Humble Bundles, and how does the pricing work?",
+            "reference": "Speaker1 explains that Humble Bundles offer multiple games at a low price. There are monthly memberships and bundles with a \"pay what you want\" pricing model, depending on the amount paid.",
+            "model_prediction": "Speaker1 states they buy Humble Bundles, which offer around 10 games for the price of one, making them significantly cheaper than buying individual games. They also mention Humble Bundles release 3 different bundles monthly.",
+            "judge_response": "Explanation: The reference answer explains that Humble Bundles offer multiple games at a low price, with monthly memberships and a \"pay what you want\" pricing model, depending on the amount paid. In contrast, the model's answer states that Humble Bundles offer around 10 games for the price of one, making them significantly cheaper than buying individual games, and also mentions the release of 3 different bundles monthly. While the model's answer touches on the affordability of Humble Bundles, it oversimplifies the pricing model and adds an unrelated detail about the number of bundles released.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "How does Speaker1 feel about the misuse of religion, and what is their perspective on peace?",
+            "reference": "Speaker1 is frustrated by the misuse of religion to create divisions. They believe in living peacefully, helping one another, and focusing on economic growth for a harmonious life.",
+            "model_prediction": "Speaker1 feels that the misuse of religion to stereotype and judge entire groups (like Muslims) is wrong. They emphasize that bad people exist in all religions and cultures, advocating for peace and unity for a prosperous and harmonious society where everyone helps each other.",
+            "judge_response": "Explanation: The reference answer emphasizes Speaker1's frustration with the misuse of religion to create divisions, and their belief in living peacefully, helping one another, and focusing on economic growth for a harmonious life. The model's answer is aligned with this perspective, stating that Speaker1 believes the misuse of religion is wrong and advocates for peace and unity for a prosperous and harmonious society. While the model's answer lacks some details, it captures the essence of Speaker1's perspective.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "How does Speaker1 view the sushi in Singapore, and what new restaurant do they mention?",
+            "reference": "Speaker1 views sushi in Singapore as acceptable when considered as Singaporean cuisine. They mention a new restaurant similar to Keisuke in the Tanjong Pagar area.",
+            "model_prediction": "Speaker 1 views the sushi in Singapore as comparable to Singaporean cuisine, finding it \"perfectly fine\" rather than top-tier. They mention a new KSK-like restaurant in the Tan Tan Pa Kek area as one they plan to try.",
+            "judge_response": "Explanation: The reference answer is specific about Speaker1's view of sushi in Singapore as \"acceptable when considered as Singaporean cuisine\" and mentions a new restaurant \"similar to Keisuke in the Tanjong Pagar area\". In contrast, the model's answer describes the view as \"comparable to Singaporean cuisine, finding it 'perfectly fine' rather than top-tier\" and mentions a new \"KSK-like restaurant in the Tan Tan Pa Kek area\". While the model's answer is close, it contains some inaccuracies and differences in wording.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "How do the speakers compare their pictures of the guy and the ball?",
+            "reference": "Speaker1 describes the ball on the ground with the guy's right leg raised to kick, while Speaker2 mentions their picture has the ball in the air with three lines and the guy’s right leg in front.",
+            "model_prediction": "The speakers compare the position of the guy's right leg and the ball in their respective pictures, clarifying whether the leg is at the front or back right and circling the ball and the guy for better understanding.",
+            "judge_response": "Explanation: The reference answer is specific about the differences in the pictures, mentioning the position of the guy's right leg and the ball. The model's answer is more general, stating that the speakers compare the position of the guy's right leg and the ball without providing specific details about the differences. I think the model's answer is lacking in precision and clarity, failing to capture the essence of the reference answer.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "What do Speaker1 and Speaker2 say about their food preferences and old-fashioned habits?",
+            "reference": "Speaker1 prefers prawns, while Speaker2 favors chicken thigh but finds it troublesome due to tendons and bones. Speaker2 also shares their method of deboning fish using a fork, which Speaker1 acknowledges.",
+            "model_prediction": "Speaker1 prefers chicken thigh despite its tendons and bones, associating it with daily familiarity. Speaker2 suggests fish as a preferable \"old person\" food, acknowledging its bony nature but emphasizing a technique to avoid bone ingestion.",
+            "judge_response": "Explanation: The reference answer states that Speaker1 prefers prawns, while Speaker2 favors chicken thigh but finds it troublesome due to tendons and bones, and also shares a method of deboning fish. In contrast, the model's answer incorrectly states that Speaker1 prefers chicken thigh, and Speaker2 suggests fish as a preferable \"old person\" food, with a technique to avoid bone ingestion. The model's answer misrepresents the speakers' preferences and adds an unnecessary label of \"old person\" food.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        }
+    ]
+}

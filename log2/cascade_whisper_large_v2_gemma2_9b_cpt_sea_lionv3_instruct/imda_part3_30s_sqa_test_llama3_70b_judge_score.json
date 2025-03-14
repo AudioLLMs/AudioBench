@@ -1,0 +1,168 @@
+{
+    "llama3_70b_judge": {
+        "judge_score": 70.17999999999999,
+        "success_rate": 1.0
+    },
+    "details": [
+        {
+            "question": "Who does Speaker1 think is a better singer, Jay Chou or JJ Lin?",
+            "reference": "Jay Chou",
+            "model_prediction": "Speaker1 states they think both Jay Chou and JJ Lin are very good singers.  They don't explicitly say one is *better* than the other.",
+            "judge_response": "Explanation: The reference answer is \"Jay Chou\", indicating that the question is asking for Speaker1's opinion on who is the better singer. However, the model's answer states that Speaker1 thinks both Jay Chou and JJ Lin are very good singers, without explicitly saying one is better than the other. This implies that the model is unsure or refuses to make a decision, which is not in line with the reference answer.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Where is the bunny sign located on Speaker1's cage?",
+            "reference": "It's at the top, on the front side.",
+            "model_prediction": "On the top side, on the front of the cage.",
+            "judge_response": "Explanation: The reference answer is \"It's at the top, on the front side\", which clearly specifies the location of the bunny sign, while the model's answer is \"On the top side, on the front of the cage\". The model's answer is similar but not identical to the reference answer, as it adds the phrase \"of the cage\" which is implied but not present in the reference. I think the model's answer is close to the reference but lacks precision.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "How many white buttons does the bear have, according to Speaker2?",
+            "reference": "Three",
+            "model_prediction": "Three",
+            "judge_response": "Explanation: The reference answer is \"Three\", while the model's answer is also \"Three\". The model's response perfectly matches the reference answer, providing an exact and accurate response.\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "What is the background color of the sign in the top middle of the building described by Speaker1?",
+            "reference": "The background color of the sign is brown.",
+            "model_prediction": "Brown",
+            "judge_response": "Explanation: The reference answer is \"The background color of the sign is brown\", while the model's answer is simply \"Brown\". I think the model's answer is concise and directly addresses the question, accurately providing the correct background color of the sign.\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "What is the speaker's view on the government's encouragement of entrepreneurship, as mentioned in relation to NTUC?",
+            "reference": "The speaker believes the government's encouragement is insincere, referring to it as \"#wayang#\", implying that it's just a show.",
+            "model_prediction": "The speaker believes the government's encouragement of entrepreneurship, while seemingly present, is insincere (\"wayang\") and not truly supportive.",
+            "judge_response": "Explanation: The reference answer is explicit about the speaker's belief that the government's encouragement is insincere, using the term \"#wayang#\" to imply it's just a show. The model's answer also conveys the idea that the speaker thinks the government's encouragement is insincere, but it doesn't specifically mention the term \"#wayang#\". I think the model's answer is mostly accurate and relevant, but it could be more detailed and precise.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "Why does Speaker1 think it is necessary to wear shoes in the area being discussed?",
+            "reference": "To prevent getting cuts on the leg and feet from glass shards.",
+            "model_prediction": "Speaker1 believes wearing shoes is necessary to prevent cuts on feet from glass shards that may be present on the sand due to nearby bars.",
+            "judge_response": "Explanation: The reference answer is \"To prevent getting cuts on the leg and feet from glass shards,\" while the model's answer is \"Speaker1 believes wearing shoes is necessary to prevent cuts on feet from glass shards that may be present on the sand due to nearby bars.\" I think the model's answer is a good paraphrase of the reference answer, capturing the main idea of preventing cuts from glass shards, and adding a relevant detail about the source of the glass shards.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "How does Speaker1 describe their physical coordination?",
+            "reference": "Speaker1 describes themselves as \"clumsy\".",
+            "model_prediction": "Speaker1 describes themselves as clumsy.",
+            "judge_response": "Explanation: The reference answer is \"Speaker1 describes themselves as \"clumsy\"\", while the model's answer is \"Speaker1 describes themselves as clumsy.\" The model's answer is a verbatim copy of the reference answer, with only a slight difference in punctuation (quotes vs no quotes). I think this is a perfect match.\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "What was Speaker1's past like when they were young?",
+            "reference": "A bit colourful.",
+            "model_prediction": "Speaker1 describes their past as \"a bit colorful\" when they were young.\n",
+            "judge_response": "Explanation: The reference answer is a simple phrase \"A bit colourful\", which implies that Speaker1's past was eventful or unconventional. The model's answer is \"Speaker1 describes their past as 'a bit colorful' when they were young.\" I think the model's answer is a faithful paraphrase of the reference answer, accurately conveying the same meaning.\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "How many peaches is \"he\" holding in his right hand, according to Speaker2?",
+            "reference": "three",
+            "model_prediction": "The audio doesn't specify peaches, but states \"he\" is holding **three pictures** in his right hand.",
+            "judge_response": "Explanation: The reference answer is \"three\", indicating the number of peaches \"he\" is holding. However, the model's answer clarifies that \"he\" is holding three pictures, not peaches, in his right hand. I think the model's answer is accurate and relevant, but it corrects a misunderstanding in the question.\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "What is Speaker1's favourite CCA?",
+            "reference": "A drama club.",
+            "model_prediction": "Drama club",
+            "judge_response": "Explanation: The reference answer is \"A drama club\", while the model's answer is simply \"Drama club\". I think the model's answer is very close to the reference answer, differing only in the absence of the indefinite article \"A\". \n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "What Islamic book does Speaker2 read as a source of inspiration?",
+            "reference": "Al-Quran",
+            "model_prediction": "Al-Quran",
+            "judge_response": "Explanation: The reference answer is \"Al-Quran\", while the model's answer is also \"Al-Quran\". I think the model's answer perfectly matches the reference answer, providing the exact same response with high accuracy and relevance.\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "What distinctive feature did the Nokia phone, received by Speaker2 in their goodie bag, have?",
+            "reference": "The Nokia phone had a fake interface with apps and a torchlight that could be activated by swinging it around.",
+            "model_prediction": "The Nokia phone looked like it had apps on it and could be \"touched\" and swung around, simulating functionality despite being a fake.",
+            "judge_response": "Explanation: The reference answer provides specific details about the Nokia phone's fake interface, mentioning \"apps\" and a \"torchlight\" that can be activated by swinging it around. In contrast, the model's answer is more general, stating that the phone \"looked like it had apps on it\" and could be \"swung around, simulating functionality\". The model's answer lacks the specific details about the torchlight feature. I think the model's answer captures the general idea but misses some important details.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "What does the speaker do after buying an expensive phone from every brand?",
+            "reference": "The speaker looks online for repair guides, specifically mentioning \"iFixit\".",
+            "model_prediction": "They open the phone and refer to repair guides on a website called \"iFixit\" to learn how to fix it.",
+            "judge_response": "Explanation: The reference answer mentions that the speaker looks online for repair guides, specifically mentioning \"iFixit\", whereas the model's answer states that they open the phone and refer to repair guides on \"iFixit\" to learn how to fix it. The model's answer is more specific and assumes a particular action (opening the phone) that is not mentioned in the reference. I think the model's answer is an interpretation of the reference, but not a direct match.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "What type of shop does Speaker2 mention that sells shirts at a reasonable price?",
+            "reference": "A designer fashion shop",
+            "model_prediction": "A design fashion shop",
+            "judge_response": "Explanation: The reference answer is \"A designer fashion shop\", while the model's answer is \"A design fashion shop\". I think the model's answer is very close to the reference answer, with only a minor typo (missing \"er\" in \"designer\").\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "What is the sequence of locations mentioned by Speaker1 for going to Jem?",
+            "reference": "cathay, westgate, J cube, then jem",
+            "model_prediction": "KT, Westgate, JQ, Jam",
+            "judge_response": "Explanation: The reference answer is \"cathay, westgate, J cube, then jem\", which specifies a clear sequence of locations to reach Jem. In contrast, the model's answer \"KT, Westgate, JQ, Jam\" appears to be a jumbled mixture of locations, with \"KT\" and \"JQ\" not matching the reference, and \"Jam\" being a possible substitue for \"Jem\" but without context. The model's answer lacks accuracy and relevance to the reference.\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "What is the capacity of Speaker1's car fuel tank, and how much does it cost to fill up?",
+            "reference": "The capacity of Speaker1's car fuel tank is 39 liters, and it costs fifty bucks to fill up.",
+            "model_prediction": "Speaker1's car fuel tank capacity is 39 liters, and it costs 50 bucks to fill up.",
+            "judge_response": "Explanation: The reference answer states the capacity of Speaker1's car fuel tank is 39 liters, and it costs fifty bucks to fill up. The model's answer is identical, with the same sentence structure and values. I think the model's response is a perfect match to the reference answer, capturing all the details accurately.\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "Did the speakers receive any incentives for their work, per hour?",
+            "reference": "No",
+            "model_prediction": "The audio transcript does not mention any hourly incentives for the speaker's work.",
+            "judge_response": "Explanation: The reference answer is a simple \"No\", indicating that there are no hourly incentives for the speaker's work. The model's answer is an elaboration of this, stating that \"The audio transcript does not mention any hourly incentives for the speaker's work.\" I think the model's answer is a clear and accurate restatement of the reference answer, providing additional context while still conveying the same information.\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "How does Speaker2 typically deal with stressful situations?",
+            "reference": "By eating.",
+            "model_prediction": "Speaker2 typically deals with stressful situations by **eating**.\n",
+            "judge_response": "Explanation: The reference answer is \"By eating\", a concise and direct response to the question. The model's answer is \"Speaker2 typically deals with stressful situations by eating\", which is a complete sentence with similar content. I think the model's response is a paraphrased version of the reference answer, making it highly accurate and relevant.\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "What is Speaker1's favorite place they've been to?",
+            "reference": "Japan, specifically Nagoya.",
+            "model_prediction": "Nagoya, Japan\n\n",
+            "judge_response": "Explanation: The reference answer is \"Japan, specifically Nagoya\" while the model's answer is \"Nagoya, Japan\". I think the model's answer is a rephrased version of the reference answer, but it still conveys the same information and is largely accurate.\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "Does Speaker1 go on dates often?",
+            "reference": "No",
+            "model_prediction": "No, Speaker1 seldom goes on dates.",
+            "judge_response": "Explanation: The reference answer is a simple \"No\", indicating that Speaker1 does not go on dates often. The model's answer is \"No, Speaker1 seldom goes on dates\", which is a more detailed explanation of the same idea. I think the model's answer is a good expansion of the reference answer.\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        }
+    ]
+}

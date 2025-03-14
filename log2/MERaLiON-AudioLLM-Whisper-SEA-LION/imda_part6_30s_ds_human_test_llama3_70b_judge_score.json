@@ -1,0 +1,168 @@
+{
+    "llama3_70b_judge": {
+        "judge_score": 62.599999999999994,
+        "success_rate": 1.0
+    },
+    "details": [
+        {
+            "question": "Write a short overview focusing on the main discussions and outcomes of the dialogue.",
+            "reference": "Speaker2 inquired about travel package discounts, and Speaker1 confirmed a 50% discount with cost details and potential additional charges.",
+            "model_prediction": "Speaker1 is discussing a travel package promotion with Speaker2, highlighting a 50% discount for bookings made in December. The original price per person was around $2,500, but with the discount, it is now around $1,000 plus, inclusive of GST and service charges. Speaker2 acknowledges the information with a brief response.",
+            "judge_response": "Explanation: The reference answer is brief and focuses on the discussion of a travel package discount, while the model's answer provides more specific details about the promotion, such as the original price, discount percentage, and additional charges. I think the model's answer is more informative and relevant to the conversation, and it accurately captures the essence of the dialogue.\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "Generate a summary that distills the dialogue into its most important discussions and decisions.",
+            "reference": "Speaker1 outlines various AXS payment options, including physical, online, and mobile access methods.",
+            "model_prediction": "Speaker1 explained the payment process for AXS, stating that once the payment is due, a document with a bar code will be sent, which can be scanned at an AXS machine. However, Speaker1 also mentioned that AXS now offers alternative payment methods, including E-station and M-station, which can be accessed through the internet and mobile app, respectively, eliminating the need to visit a physical station.",
+            "judge_response": "Explanation: The reference answer highlights various AXS payment options, including physical, online, and mobile access methods. The model's answer provides more specific details about the payment process, explaining how AXS machines work and mentioning alternative payment methods like E-station and M-station. While the model's answer is related to the topic, it focuses on the payment process rather than the payment options themselves. I think the model's answer is close to the reference but lacks precise accuracy in conveying the main idea.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Create a streamlined summary that captures the core discussions and decisions of the dialogue.",
+            "reference": "Speaker1 and Speaker2 discuss Speaker1's positive experience with the room and cleaning services, despite an issue caused by their unwell child.",
+            "model_prediction": "Speaker1 and Speaker2 discussed Speaker2's experience with a service or accommodation. Speaker2 expressed satisfaction with the room, stating that everything was working fine. They also mentioned a positive interaction with the cleaner, who was helpful when their child threw up in the room. Speaker1 acknowledged the positive feedback and thanked Speaker2 for sharing their experience.",
+            "judge_response": "Explanation: The reference answer provides a concise summary of the discussion between Speaker1 and Speaker2, highlighting Speaker2's positive experience with the room and cleaning services despite an issue caused by their unwell child. In contrast, the model's answer provides a more detailed account of the discussion, including the speakers' interactions and the specifics of the issue. However, the model's answer still captures the core of the discussion, focusing on Speaker2's positive experience with the room and cleaning services.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "Compose a brief summary emphasizing the key topics and decisions within the dialogue.",
+            "reference": "Speaker1 and Speaker2 discussed insurance options, specifically the first tier and business tier. Speaker1 offered to send more detailed information to Speaker2, who agreed that would be helpful in making a decision about the insurance. Speaker1 then asked for Speaker2's email address to send all the necessary information.",
+            "model_prediction": "Speaker1 and Speaker2 discussed insurance options, with Speaker1 offering to send more detailed information about the first tier and business tier to help Speaker2 make a decision. Speaker2 agreed to this, and Speaker1 asked for Speaker2's email address to send the necessary information.",
+            "judge_response": "Explanation: The reference answer highlights the key discussion topics (insurance options, specifically the first tier and business tier) and the key decision (Speaker1 sending detailed information to Speaker2 via email). The model's answer also captures these essential points, but in a more concise manner. While the model's answer lacks some detail, it still accurately conveys the main ideas and decisions made in the dialogue.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "Synthesize the dialogue into a concise summary, focusing on key discussions and decisions.",
+            "reference": "Speaker1 explains the timeline for credit card approval and delivery when applied via Singpass.",
+            "model_prediction": "Speaker1 and Speaker2 discussed the application process for a credit card. Speaker1 explained that the only secure way to apply for the card is through a Singpass account, due to the sensitive nature of credit card information. Speaker2 inquired about the approval timeline, and Speaker1 replied that it typically takes three to five working days, with the card being delivered within one to two weeks, or seven to fourteen days in total.",
+            "judge_response": "Explanation: The reference answer is a concise statement explaining the timeline for credit card approval and delivery when applied via Singpass, whereas the model's answer provides a dialogue between Speaker1 and Speaker2 discussing the application process, including the secure way to apply and the approval timeline. The model's answer is more detailed and provides additional context, but it accurately conveys the key information about the approval timeline.\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "Forge a succinct narrative summarizing the dialogue’s main points and resolutions.",
+            "reference": "Speaker1 explains the new credit card promotion, which includes waiving the first month’s annual fee for new applicants.",
+            "model_prediction": "Speaker1 informed the listener about a new credit card with an annual fee of $120 per month. However, they mentioned that new customers who apply for the card within the next month will have their first month's annual fee waived, as it is a new product being introduced by their company.",
+            "judge_response": "Explanation: The reference answer mentions waiving the first month's annual fee for new applicants, whereas the model's answer mistakenly states that the annual fee is $120 per month and adds an unnecessary condition of applying within the next month. The model's answer lacks precision and accuracy compared to the reference.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Generate a summary that distills the dialogue into its most important discussions and decisions.",
+            "reference": "Speaker1 provided feedback on room service delays, explaining that staff took a long time to deliver the service after the first request.",
+            "model_prediction": "Speaker1 and Speaker2 discussed feedback on room service and cleaning. Speaker1 shared a negative experience with room service, where they had to wait a long time for someone to arrive after calling the front desk, and had to call again to follow up. Speaker2 listened and acknowledged the issue, but did not contribute any additional information or feedback.",
+            "judge_response": "Explanation: The reference answer is concise and focuses specifically on the room service delay issue, while the model's answer expands on the topic by mentioning cleaning, which is not present in the reference. However, the model's answer still accurately captures the essence of the room service delay issue and provides additional context. I think the model's answer is a good representation of the reference, but with some extra information that's not entirely relevant.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "Summarize the dialogue by focusing on critical points and speaker contributions.",
+            "reference": "Speaker1 and Speaker2 discuss the eligibility criteria for travel insurance, confirming that Speaker2 meets the requirements as a Singaporean resident for more than 183 days a year.",
+            "model_prediction": "Speaker1 and Speaker2 discussed the eligibility criteria for applying for travel insurance. Speaker1 asked Speaker2 a series of questions to verify their eligibility, including whether they are a Singaporean and if they live in Singapore for at least 183 days a year. Speaker2 confirmed that they are a Singaporean and meet the residency requirement, making them eligible to apply for the travel insurance.",
+            "judge_response": "Explanation: The reference answer is concise and focuses on the critical points that Speaker2 meets the eligibility criteria for travel insurance as a Singaporean resident for more than 183 days a year. In contrast, the model's answer provides a more detailed and sequential account of the conversation, including the questions asked by Speaker1 and the confirmations made by Speaker2. While the model's answer is accurate and relevant, it lacks the brevity and focus of the reference answer.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "Summarize the dialogue by focusing on critical points and speaker contributions.",
+            "reference": "Speaker1 discusses Speaker2's monthly expenses and asks about using credit cards or GIRO for payments like insurance and transport.",
+            "model_prediction": "Speaker1 and Speaker2 discussed Speaker2's monthly expenses. Speaker2 mentioned that their mean spending is around $1,000 per month, which Speaker1 confirmed. Speaker1 then inquired about Speaker2's payment methods for expenses such as insurance, food, and transportation, asking if they use a credit card, specifically mentioning the use of GIRO for insurance payments.",
+            "judge_response": "Explanation: The reference answer is concise and focuses on the main points, stating that Speaker1 discussed Speaker2's monthly expenses and asked about using credit cards or GIRO for payments like insurance and transport. The model's answer, on the other hand, provides more details about the conversation, including the amount of Speaker2's mean spending and specific examples of expenses. While the model's answer is more detailed, it still aligns with the reference answer in terms of content and accuracy.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "Formulate a summary that condenses the main discussions and resolutions of the dialogue.",
+            "reference": "Speaker1 shares details about their planned trip to Australia, focusing on a relaxed itinerary with car rentals and sightseeing, avoiding high-risk activities.",
+            "model_prediction": "Speaker1 and Speaker2 discussed their upcoming trip to Australia, where they plan to rent a car and travel around at their own pace, focusing on sightseeing and leisurely activities. Speaker2 confirmed their understanding of the trip's nature, noting that it will be a free and easy experience with no high-risk activities involved.",
+            "judge_response": "Explanation: The reference answer focuses on Speaker1 sharing details about their planned trip to Australia, while the model's answer rephrases it as a discussion between Speaker1 and Speaker2. The model's answer accurately captures the relaxed nature of the trip and the focus on sightseeing, but adds an unnecessary detail about Speaker2's confirmation. I think the model's answer is mostly accurate and relevant, but could be clearer and more detailed.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "Craft a summary that focuses on the pivotal points and conclusions of the dialogue.",
+            "reference": "Speaker1 explains how a mother can share her maternity leave benefits with the father under the government-paid maternity leave scheme, provided the child is a Singapore citizen.",
+            "model_prediction": "Speaker1 explained the eligibility criteria for a government-paid maternity leave scheme, highlighting that the mother must be eligible and the child must be a Singapore citizen. Additionally, the mother must declare her intention to share the leave benefits with the child before consuming the leave, implying that the leave cannot be used up before being shared.",
+            "judge_response": "Explanation: The reference answer specifically states that the mother can share her maternity leave benefits with the father under the government-paid maternity leave scheme, provided the child is a Singapore citizen. In contrast, the model's answer focuses on the eligibility criteria, the mother's declaration of intention, and the requirement that the leave cannot be used up before being shared. While the model's answer is related to the topic, it lacks the key point of sharing benefits with the father.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Forge a succinct narrative summarizing the dialogue’s main points and resolutions.",
+            "reference": "Speaker1 and Speaker2 discuss parking lot color codes, with Speaker2 detailing the purposes of red, red-white, white, and yellow markings.",
+            "model_prediction": "Speaker1 asked Speaker2 about the color codes on a parking lot line, and Speaker2 explained that there are four different types of color codes: red, red and white, white, and yellow. Speaker2 began to explain the purpose of the red color code, but the transcription was cut off before they could finish.",
+            "judge_response": "Explanation: The reference answer provides a clear and detailed explanation of the parking lot color codes, mentioning the purposes of red, red-white, white, and yellow markings. In contrast, the model's answer only mentions the existence of four color codes and partially explains the purpose of the red color code, but the transcription was cut off. The model's answer lacks detail and does not fully capture the essence of the reference answer.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Generate a summary that distills the dialogue into its most important discussions and decisions.",
+            "reference": "Speaker1 and Speaker2 discuss a Christmas promotion for log cakes, where the price is reduced to $10 as an add-on to meal orders.",
+            "model_prediction": "Speaker1 and Speaker2 discussed a large order, with Speaker1 confirming a flat delivery fee of $5. Speaker1 then introduced a promotional Christmas deal, offering a log cake for an additional $10, which is a discount from its usual price of $30. Speaker2 inquired about the size of the log cake.",
+            "judge_response": "Explanation: The reference answer is focused on the discussion of a Christmas promotion for log cakes, whereas the model's answer diverges to discuss a large order and a flat delivery fee. While the model does mention the log cake promotion, it adds unnecessary details and loses focus on the main topic. \n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Create a brief summary capturing the key points and decisions made during the dialogue.",
+            "reference": "Speaker1 contacted a restaurant for catering services for 15 guests, with Speaker2 confirming they could handle the order and requesting details of the dishes to assist further.",
+            "model_prediction": "Speaker1 and Speaker2 discussed catering arrangements for a dinner party at A B C restaurant. Speaker2, likely a representative of the restaurant, confirmed their ability to accommodate a group of 15 people and requested information on the intended dishes to be ordered, offering to provide guidance throughout the process.",
+            "judge_response": "Explanation: The reference answer provides a concise summary of the conversation, stating that Speaker1 contacted a restaurant for catering services for 15 guests, and Speaker2 confirmed they could handle the order and requested details of the dishes. The model's answer is a rephrased version of the reference, maintaining the same level of detail and accuracy. It correctly captures the key points of the conversation, including the catering arrangement, number of guests, and the restaurant's response.\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "Assemble a brief recap of the dialogue, emphasizing important topics and outcomes.",
+            "reference": "Speaker1 and Speaker2 discuss travel plans, with Speaker2 noting uncertainty about their return timing due to incomplete work and estimating a six-week maximum duration.",
+            "model_prediction": "Speaker1 and Speaker2 discussed the uncertainty of their travel plans, with Speaker2 explaining that they won't know the exact duration of their trip until they complete their work. As a result, they are planning to estimate the maximum duration, which is six weeks, rather than the earliest possible duration of four weeks. Due to this uncertainty, they are not planning to book flight tickets back home until they have a clearer idea of their return date.",
+            "judge_response": "Explanation: The reference answer is concise and brief, focusing on the discussion of travel plans and uncertainty about return timing. The model's answer is more detailed and tries to provide additional information, but it also introduces new ideas not present in the reference answer, such as not booking flight tickets. I think the model's answer is overexplaining and not entirely focused on the main points.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Construct a concise encapsulation of the dialogue, noting significant topics and outcomes.",
+            "reference": "Speaker2 inquired about a convenient way to apply for a credit card, and Speaker1 suggested both in-person and online options with relevant details.",
+            "model_prediction": "Speaker1 and Speaker2 discussed the process of applying for a credit card from ABC bank. Speaker1 informed Speaker2 that they have a branch near their house at Junction 8, where they can apply for the credit card. Alternatively, Speaker1 suggested that Speaker2 can visit the bank's website, log in using their SingPass, and choose the credit card they wish to apply for. Speaker2 expressed satisfaction with the options provided.",
+            "judge_response": "Explanation: The reference answer is brief and general, mentioning that Speaker1 suggested both in-person and online options for applying for a credit card. In contrast, the model's answer is more detailed, providing specific information about the bank branch location and the online application process. While the model's answer is more informative, it closely follows the reference answer's general idea.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "Condense the dialogue into a concise summary highlighting major topics and conclusions.",
+            "reference": "Speaker1 suggests a cashback card as a better option for Speaker2 due to their spending habits and lack of travel.",
+            "model_prediction": "Speaker1 and Speaker2 discussed the benefits of an air miles credit card, specifically the cashback feature. Speaker1 suggested that since Speaker2 is unable to travel, the cashback would be more beneficial. Speaker2 shared their typical spending habits, mentioning online purchases and petrol as their main expenses.",
+            "judge_response": "Explanation: The reference answer highlights Speaker1 suggesting a cashback card as a better option for Speaker2 due to their spending habits and lack of travel. In contrast, the model's response focuses on the discussion of the air miles credit card and cashback feature, but fails to emphasize the main point of Speaker1's suggestion being driven by Speaker2's travel limitations and spending habits.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Create a streamlined summary that captures the core discussions and decisions of the dialogue.",
+            "reference": "Speaker1 explains a delay in submitting a bill due to a missing notice number and plans to write to the officer today with Lily's help.",
+            "model_prediction": "Speaker1 and Speaker2, Lily, discussed a delayed submission of a bill due to a missing notice. Speaker1 apologized for the delay and explained that they would submit the bill today by providing their car plate number to obtain an offense number. Speaker1 thanked Lily for her help and assistance with the inquiry.",
+            "judge_response": "Explanation: The reference answer explains a delay in submitting a bill due to a missing notice number, and Speaker1 plans to write to the officer today with Lily's help. In contrast, the model's response mentions a missing notice, but provides incorrect information about obtaining an offense number using a car plate number, which is not present in the reference. The model's answer also omits the key detail about writing to the officer. I think the model's response shows minimal alignment with the reference answer.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "Synthesize the dialogue into a concise summary, focusing on key discussions and decisions.",
+            "reference": "Speaker2 describes a private hotel's flexibility and free-and-easy approach to bookings for guests.",
+            "model_prediction": "Speaker1 and Speaker2 discussed a hotel package, with Speaker1 assuring Speaker2 that they don't need to feel pressured to make a decision. Speaker1 explained that the hotel can make arrangements to accommodate any changes in plans, allowing for a free and easy experience. Speaker1 then proceeded to present a package to Speaker2, specifically tailored for a trip to a particular hotel.",
+            "judge_response": "Explanation: The reference answer is focused on Speaker2 describing a private hotel's flexibility and free-and-easy approach to bookings for guests, whereas the model's answer is about Speaker1 and Speaker2 discussing a hotel package with a focus on accommodating changes in plans. Although the model's answer touches on the flexibility aspect, it doesn't accurately capture the essence of the reference answer. The model's answer is more focused on the interaction between Speaker1 and Speaker2, whereas the reference answer is about the hotel's approach.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Craft a summary that focuses on the pivotal points and conclusions of the dialogue.",
+            "reference": "Speaker1 and Speaker2 discuss school meal subsidies, with Speaker2 explaining the weekly $2 per meal subsidy for primary school students, helping them afford lunch during CCA days.",
+            "model_prediction": "Speaker1 and Speaker2 discussed the rules and details of a meal subsidy program. Speaker1 clarified that the subsidy is only applicable within the school premises and not elsewhere. Speaker2 confirmed this understanding. Speaker1 then explained that the meal subsidy is $2 per primary school student, covering seven meals per school week, which is intended to provide lunch for students who stay back for CCA activities.",
+            "judge_response": "Explanation: The reference answer is straightforward and concise, explaining the weekly $2 per meal subsidy for primary school students, which helps them afford lunch during CCA days. The model's answer, on the other hand, is also concise but provides more details and clarifications, such as the subsidy being applicable only within the school premises, covering seven meals per school week, and intended to provide lunch for students during CCA activities. While the model's answer is more detailed, it is still accurate and relevant to the reference.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        }
+    ]
+}

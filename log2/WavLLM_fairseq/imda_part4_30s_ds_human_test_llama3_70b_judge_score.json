@@ -1,0 +1,168 @@
+{
+    "llama3_70b_judge": {
+        "judge_score": 31.6,
+        "success_rate": 1.0
+    },
+    "details": [
+        {
+            "question": "Generate a summary that distills the dialogue into its most important discussions and decisions.",
+            "reference": "Speaker1 and Speaker2 discuss a hawker support initiative, agreeing that while it is a good idea, it lacks long-term sustainability for the hawkers.",
+            "model_prediction": "The speakers discuss the one-time initiative of giving Hawker food stores to help the homeless, but they question its sustainability and long-term effectiveness in helping the homeless.",
+            "judge_response": "Explanation: The reference answer is discussing the hawker support initiative and its lack of long-term sustainability, while the model's answer is talking about a one-time initiative of giving Hawker food stores to help the homeless, which is a completely different topic. The model's answer is not only misaligned but also provides incorrect information.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Prepare a concise overview of the dialogue, highlighting central themes and decisions.",
+            "reference": "Speaker1 and Speaker2 discussed emotional struggles, highlighting how weakness or misinterpretation can arise during difficult times.",
+            "model_prediction": "The dialogue discusses the importance of having strength to process emotions, as sometimes people with strength can also act wrongly and feel worse afterward.",
+            "judge_response": "Explanation: The reference answer focuses on the theme of emotional struggles and how weakness or misinterpretation can arise during difficult times. In contrast, the model's answer discusses the importance of having strength to process emotions and how even strong people can act wrongly and feel worse afterward. While the model's answer touches on emotional struggles, it diverges in its focus on strength and incorrect actions. The model's answer lacks accuracy and relevance in capturing the essence of the reference answer.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Forge a succinct narrative summarizing the dialogue’s main points and resolutions.",
+            "reference": "The speakers attempt to determine an astrological sign but fail to identify the one between November and Sagittarius, with no consensus reached.",
+            "model_prediction": "The speakers discuss various dates, including Gemina in June, Katherine, and Sagittarius. They are uncertain about the exact dates and mention that Sagittarius is in November. They also mention a median point, but the specifics are unclear.",
+            "judge_response": "Explanation: The reference answer clearly states that the speakers failed to identify the astrological sign between November and Sagittarius, whereas the model's answer is vague and doesn't specifically mention the failure to identify the sign. The model's answer focuses on the dates and mentions Sagittarius being in November, but it doesn't capture the essence of the reference answer. I think the model's answer lacks accuracy and relevance to the reference.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Synthesize the dialogue into a concise summary, focusing on key discussions and decisions.",
+            "reference": "Speaker1 explains that not all grants are available at Community Centres, but many people assume so, particularly for government-provided COVID-related assistance.",
+            "model_prediction": "The conversation discusses the confusion about what is under c.c. and the importance of visiting the community centre for assistance during the pandemic.",
+            "judge_response": "Explanation: The reference answer is specific about the misassumption that all grants are available at Community Centres, especially for government-provided COVID-related assistance. In contrast, the model's answer is vague and doesn't capture the essence of the conversation. It focuses on the importance of visiting the Community Centre, but doesn't address the main point of the misassumption about grants.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Summarize the dialogue by focusing on critical points and speaker contributions.",
+            "reference": "Conversation about cafes near Dhoby Ghaut, comparing \"Plus Eight Two\" and \"Gather the Misfits.\" The latter stood out for its latte art and atmosphere, while the speaker remarked on pricing expectations.",
+            "model_prediction": "The speakers discuss different cafes they have visited, focusing on the atmosphere and art at Gather the Miscreants, comparing it to a plain 82 cafe.",
+            "judge_response": "Explanation: The reference answer is specific about the cafes being compared, mentioning \"Plus Eight Two\" and \"Gather the Misfits\", and highlights the latter's unique latte art and atmosphere. In contrast, the model's answer is vague, referring to \"82 cafe\" instead of \"Plus Eight Two\" and \"Gather the Miscreants\" (with a typo) instead of \"Gather the Misfits\". The model also omits the details about latte art and pricing expectations.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Generate a summary that distills the dialogue into its most important discussions and decisions.",
+            "reference": "A discussion between two speakers about job hunting through LinkedIn. The first speaker advises applying even if the listings are recruitment-based.",
+            "model_prediction": "The speakers discuss the possibility of applying to an recruitment agency and grabbing opportunities in case the situation in their company doesn't improve. They also mention interviewing as a possibility to get something.",
+            "judge_response": "Explanation: The reference answer explicitly mentions applying to job listings even if they are recruitment-based, while the model's answer talks about applying to recruitment agencies and mentioning interviewing as a possibility. Although the model's answer touches on the job hunting topic, it diverges from the reference answer's specific advice on applying to recruitment-based listings. I think the model's answer is related to the topic but lacks precise accuracy in its details.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Provide a succinct summary that captures the essence and key outcomes of the dialogue.",
+            "reference": "Conversation about a group activity where one participant had an incident. The group hesitated initially but was urged to continue. The injured participant eventually stopped and went home.",
+            "model_prediction": "A person was hesitant to continue with an activity, but another individual encouraged them to continue. After the activity, the first person was limping, suggesting an injury.",
+            "judge_response": "Explanation: The reference answer provides a clear sequence of events, including the group's initial hesitation, the injured participant's continuation, and their eventual stop and departure. In contrast, the model's answer focuses on the individual's initial hesitation and subsequent limping, omitting the group's reaction and the injured participant's eventual stop. I think the model's answer shows minimal alignment with the reference, misunderstanding the key events and their sequence.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "Prepare a concise overview of the dialogue, highlighting central themes and decisions.",
+            "reference": "Speaker1 and Speaker2 discussed parenting challenges, with Speaker1 expressing frustration over household responsibilities and managing children alone.",
+            "model_prediction": "The conversation is about not having to settle meals for children, dealing with their gambling, and the presence of a camera for show purposes only when the speaker is alone with the kids. The speaker mentions feeling tired and plans to come back to see if everything is settled.",
+            "judge_response": "Explanation: The reference answer is about parenting challenges, specifically household responsibilities and managing children alone, while the model's answer is about not having to settle meals, dealing with gambling, and a camera for show purposes. The two answers are unrelated, and the model's answer is not relevant to the reference. I think the model's answer is a complete mismatch.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Compose a brief summary emphasizing the key topics and decisions within the dialogue.",
+            "reference": "Speaker1 and Speaker2 had a lighthearted discussion about shaving a toddler’s hair, which can require repetitive maintenance.",
+            "model_prediction": "The speaker is unable to shave due to a crawling sensation in their yard, but plans to shave tomorrow. They mention that shaving would make the situation better and that they would do it themselves instead of paying someone.",
+            "judge_response": "Explanation: The reference answer discusses Speaker1 and Speaker2 having a lighthearted conversation about shaving a toddler's hair, whereas the model's response talks about the speaker's personal experience with shaving, mentioning a crawling sensation in their yard, and their plan to shave tomorrow. The two responses are completely unrelated, with the model's response not even mentioning a toddler or hair shaving.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Compile a concise report of the dialogue, spotlighting major topics and outcomes.",
+            "reference": "Speaker1 and Speaker2 discussed bike maintenance, with Speaker1 sharing their routine for changing engine oil every 2,000-3,000 km, now extended to a month due to COVID.",
+            "model_prediction": "The conversation revolves around the mileage of a bike, with the first speaker mentioning their bike uses one liter, equivalent to one liter of fuel, and that it lasts for one month. The second speaker shares their experience of traveling 28 kilometers daily while working in an office, and the first speaker confirms that it lasts for two weeks. The conversation also touches on the current COVID-19 pandemic.",
+            "judge_response": "Explanation: The reference answer is about bike maintenance, specifically changing engine oil every 2,000-3,000 km, which is now extended to a month due to COVID. In contrast, the model's answer is about the mileage of a bike, with details about daily travel and fuel consumption, which are not present in the reference answer. I think the model's answer is misaligned and provides irrelevant information.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Draft a concise summary that includes main topics and any decisions reached.",
+            "reference": "Speaker1 and Speaker2 discussed childhood memories of using the toilet as a place to skip class and watch YouTube videos, recalling it as a funny moment.",
+            "model_prediction": "The speakers frequently use the bathroom to escape and watch videos on their old, slow iPhone 3GS during breaks in their lessons.",
+            "judge_response": "Explanation: The reference answer mentions childhood memories of using the toilet as a place to skip class and watch YouTube videos, recalling it as a funny moment. In contrast, the model's answer focuses on using the bathroom to escape and watch videos on an iPhone 3GS during lesson breaks, without mentioning the aspect of childhood memories or it being a funny moment. While the model's answer shares some similarities with the reference, it lacks crucial details and alters the context.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Provide a succinct summary that captures the essence and key outcomes of the dialogue.",
+            "reference": "Speaker1 recommends direct communication with the property to negotiate the best rates for long stays, emphasizing simplicity over third-party bookings.",
+            "model_prediction": "The best price to give for a long stay should be negotiated by calling the service provider directly, rather than going through a third party.",
+            "judge_response": "Explanation: The reference answer is about negotiating the best rates for long stays by communicating directly with the property, emphasizing simplicity over third-party bookings. The model's answer is a concise summary of the idea, stating that one should call the service provider directly to negotiate the best price for a long stay. I think the model's answer captures the essence of the reference answer, conveying the same message in a more condensed form.\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "Draft a concise summary that includes main topics and any decisions reached.",
+            "reference": "Speaker1 highlights inefficiencies in handling urgent tasks, such as delays in response and difficulty in locating appropriate personnel.",
+            "model_prediction": "The conversation revolves around urgent requests in the office and the difficulty of getting a response quickly. It suggests using phones or other communication methods to address such requests.",
+            "judge_response": "Explanation: The reference answer highlights the specific inefficiencies in handling urgent tasks, such as delays in response and difficulty in locating appropriate personnel. In contrast, the model's answer is vague, only mentioning the general difficulty of getting a response quickly and suggesting the use of phones or other communication methods. The model's answer lacks the specific details and clear explanations provided in the reference answer.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Create a streamlined summary that captures the core discussions and decisions of the dialogue.",
+            "reference": "Speaker1 and Speaker2 discuss ongoing changes to bus services, highlighting route adjustments and the introduction of new green SMRT buses.",
+            "model_prediction": "The bus routes in the area are undergoing renovation, with new large green buses being introduced as part of the changes.",
+            "judge_response": "Explanation: The reference answer mentions \"route adjustments\" and \"the introduction of new green SMRT buses\", while the model's answer only mentions \"new large green buses\" without referring to the route adjustments. The model's answer is generally aligned with the reference but lacks a crucial detail. I think the model's answer is a good summary, but it could be more detailed.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Draft a concise summary that includes main topics and any decisions reached.",
+            "reference": "Speaker1 and Speaker2 discussed educational decisions, with Speaker1 explaining how their experience in secondary school influenced their choice of course in polytechnic.",
+            "model_prediction": "The speaker discussed their experience with events, having started from small events in secondary school and then transitioning to bigger ones. They felt they liked events and decided to pursue it further.",
+            "judge_response": "Explanation: The reference answer is about Speaker1 explaining how their experience in secondary school influenced their choice of course in polytechnic, while the model's answer is about the speaker discussing their experience with events. The model's answer is completely misaligned and provides incorrect information compared to the reference.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Provide a succinct summary that captures the essence and key outcomes of the dialogue.",
+            "reference": "Speaker1 and Speaker2 discussed dietary choices, with Speaker1 recounting their decision to eat minimally to avoid feeling sick after encountering fried food.",
+            "model_prediction": "The speaker had a deep-fried fish for lunch, feeling unsatisfied and choosing to eat biscuits instead, causing others to be surprised and concerned about their health.",
+            "judge_response": "Explanation: The reference answer is about Speaker1's decision to eat minimally to avoid feeling sick after encountering fried food, whereas the model's answer is about the speaker having a deep-fried fish, feeling unsatisfied, and choosing to eat biscuits instead. The model's answer does not capture the essence of the reference answer, and the details are mostly irrelevant. I think the model's answer is a complete misinterpretation of the reference.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Generate a summary that distills the dialogue into its most important discussions and decisions.",
+            "reference": "Speaker1 and Speaker2 discussed the emotional impact of high death rates, with Speaker1 reflecting on the humanity behind the statistics.",
+            "model_prediction": "The conversation revolves around the sadness and confusion caused by a country experiencing a large number of deaths in one day, like in Indonesia.",
+            "judge_response": "Explanation: The reference answer is specific about the discussion between two speakers, focusing on the emotional impact of high death rates and the humanity behind the statistics. In contrast, the model's answer is vague and unrelated to the reference, mentioning a country (Indonesia) and a large number of deaths in one day, which is not present in the reference. The model's answer lacks accuracy and relevance to the reference.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Provide a succinct summary that captures the essence and key outcomes of the dialogue.",
+            "reference": "Speaker1 and Speaker2 discussed the challenges of speaking for extended periods, emphasizing the added difficulty of filtering thoughts during conversations.",
+            "model_prediction": "The conversation is harder than expected, making it difficult to continuously talk for a one-hour timeframe, especially when narrating a story.",
+            "judge_response": "Explanation: The reference answer highlights the challenges of speaking for extended periods, especially filtering thoughts during conversations. In contrast, the model's response focuses on the difficulty of continuously talking for a one-hour timeframe, particularly when narrating a story. While both answers touch on the theme of speaking challenges, they differ in their specific focus and details. The model's answer is more concrete and scenario-based, whereas the reference answer is more abstract and emphasizes the cognitive aspect of filtering thoughts.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Prepare a concise overview of the dialogue, highlighting central themes and decisions.",
+            "reference": "Speaker1 and Speaker2 discussed online trends, with Speaker1 expressing frustration over repetitive and superficial posts seen on social media.",
+            "model_prediction": "The conversation revolves around the speakers' dislike for a channel's posts and their confusion about why there are two introductory posts.",
+            "judge_response": "Explanation: The reference answer is about the speakers' discussion on online trends and frustration with repetitive and superficial social media posts, while the model's answer is about the speakers' dislike for a channel's posts and their confusion about introductory posts. I think the model's answer is completely misaligned with the reference, providing incorrect and irrelevant information.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Prepare a concise overview of the dialogue, highlighting central themes and decisions.",
+            "reference": "Speaker1 and Speaker2 discussed CDA accounts, with Speaker1 emphasizing that the funds are a mix of government contributions and parents' input.",
+            "model_prediction": "The dialogue discusses the government providing money for two positions, with one speaker expressing concern about the amount and the other acknowledging that they still have hours. The main theme is government funding and its impact on work hours.",
+            "judge_response": "Explanation: The reference answer is about CDA accounts, emphasizing the mix of government contributions and parents' input, while the model's answer discusses government funding and its impact on work hours, which is a completely different topic. I think the model's answer is misaligned and provides incorrect information compared to the reference.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        }
+    ]
+}

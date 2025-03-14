@@ -1,0 +1,168 @@
+{
+    "llama3_70b_judge": {
+        "judge_score": 33.8,
+        "success_rate": 1.0
+    },
+    "details": [
+        {
+            "question": "Provide a succinct summary that captures the essence and key outcomes of the dialogue.",
+            "reference": "Speaker1 and Speaker2 discuss their opinions on Jay Chou and JJ Lin. The first speaker recalls being extremely close to Jay Chou at an event and describes it as a memorable experience. They express a preference for Jay Chou’s music over JJ Lin’s, despite JJ Lin's greater popularity in Singapore. The second speaker agrees and adds that Jay Chou’s fanbase in Singapore is growing.",
+            "model_prediction": "The original content of this audio is:'ya no seats left we went up to the front i was like i was like i was like these close like about three meters away from jialu was like if i stretch out my hand touching already ya like like that's that's how close them then there's like what the best thing happened i really like jialu things very interesting uh it's a very good singer next to jayden ah most people like jayden more than in singapore but i think jialu is like something ya i think jialu also deserved chance also to in singapore so i think his fandom is also growing ya i think that's one correct one of the best'",
+            "judge_response": "Explanation: The reference answer is a summary of a dialogue between two speakers discussing their opinions on Jay Chou and JJ Lin, with the first speaker sharing a memorable experience with Jay Chou and preferring his music over JJ Lin's, while the second speaker agrees and notes that Jay Chou's fanbase in Singapore is growing. In contrast, the model's answer is a paraphrased version of the dialogue, but it loses some important details, such as the speaker's personal experience with Jay Chou and the comparison between Jay Chou and JJ Lin. The model's answer focuses more on the speakers' general opinions about Jay Chou, but it does mention that Jay Chou's fandom is growing in Singapore, which aligns with the reference answer.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Generate a summary that distills the dialogue into its most important discussions and decisions.",
+            "reference": "The conversation involves comparing features of rabbit cages. Speaker2 describes their cage as green with a yellow base and no \"buy me\" sign, while Speaker1’s cage has the sign on the front at the top.",
+            "model_prediction": "The main discussion revolves around a cage, with various items being presented about it such as a yellow base, a white rabbit, and a 'buy me' sign. There is an inquiry about the location of the 'buy me' sign and confusion over whether it is on the top or front of the cage.",
+            "judge_response": "Explanation: The reference answer is focused on the comparison of features between two rabbit cages, specifically the color and the presence of a \"buy me\" sign. In contrast, the model's answer is vague and mentions irrelevant details such as a white rabbit. The model's answer also implies that there is confusion or inquiry about the location of the sign, which is not present in the reference answer. \n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Provide a succinct summary that captures the essence and key outcomes of the dialogue.",
+            "reference": "Speaker1 and Speaker2 discussed describing a visual scene, with Speaker2 pointing out a specific detail, a sign in the top right-hand corner. Speaker1 agreed and began to describe the scene in more detail, including a large rectangular box-shaped building with a brown background and a sign saying \"bar\".",
+            "model_prediction": "The conversation revolves around a description of an image, with various parts being identified and labeled. The discussion includes elements like color, shape, and position within the image.",
+            "judge_response": "Explanation: The reference answer specifically highlights the discussion about describing a visual scene, focusing on the details mentioned by Speaker1 and Speaker2, such as the sign in the top right-hand corner, the large rectangular box-shaped building, and the sign saying \"bar\". In contrast, the model's answer is too vague, providing a general description of the conversation without capturing the specific details mentioned in the reference. \nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Write a short overview focusing on the main discussions and outcomes of the dialogue.",
+            "reference": "The speakers compare details about baskets of peaches. One basket has three peaches tied to a string, while another lacks this arrangement, prompting discussion of the difference.",
+            "model_prediction": "The dialogue revolves around the presence of pictures, with one speaker implying there are numerous pictures, while another mentions only three being present. There is also a mention of a string, which seems to be related to the pictures, but the exact connection is not clear. The conversation appears to be incomplete as it ends abruptly with 'or they mean the pictures tied to a string.'",
+            "judge_response": "Explanation: The reference answer clearly states that the speakers are comparing details about baskets of peaches, with one having three peaches tied to a string and another lacking this arrangement. In contrast, the model's answer is vague and inaccurate, mentioning pictures and a string without providing a clear connection or explanation. The model's answer also lacks relevance to the reference, focusing on a different topic altogether.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Create a brief summary capturing the key points and decisions made during the dialogue.",
+            "reference": "The conversation focuses on filling orders. Speaker1 and Speaker2 highlight the flexibility and efficiency of the process, appreciating the lack of time pressure and the provided transport.",
+            "model_prediction": "The speaker expresses dissatisfaction with being assigned to random places they dislike, indicating it takes them a lot of time to shop due to transportation issues. They appreciate that there's no time limit but find the process tedious as it involves filling in forms and complying with orders without any incentives or rewards.",
+            "judge_response": "Explanation: The reference answer highlights the flexibility and efficiency of the process, appreciating the lack of time pressure and the provided transport. In contrast, the model's answer expresses dissatisfaction with the process, highlighting the negative aspects such as transportation issues, tediousness, and lack of incentives. The model's answer does not capture the essence of the reference answer, which focuses on the positivity of the process.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Synthesize the dialogue into a concise summary, focusing on key discussions and decisions.",
+            "reference": "The speakers compare their observations, noting differences in the shop signs and describing the bottles' colors on the table.",
+            "model_prediction": "The summary is as follows:\n\nA sign near the entrance indicates a special offer for peaches. There are three bottles of wine: one white, one yellow, and one red. The background is green, similar to the color of a trash bin. A brick wall can be seen in the foreground. Additionally, there is a bachelor living there.",
+            "judge_response": "Explanation: The reference answer focuses on the speakers comparing their observations, noting differences in shop signs and describing the colors of the bottles on the table. The model's answer, on the other hand, provides unrelated details such as a sign near the entrance, the color of the background, a brick wall, and a bachelor living there. There is no mention of speakers comparing their observations or shop signs.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Prepare a concise overview of the dialogue, highlighting central themes and decisions.",
+            "reference": "The speakers discuss the inconvenience caused by road construction, with Speaker1 describing a lengthy walk to a distant bus stop to complete the same journey.",
+            "model_prediction": "The dialogue revolves around the difference in routes between two locations, emphasizing the complexity involved in traveling across town compared to taking a direct bus. The speaker also highlights the time it takes to reach various bus stops and the need for passengers to factor in these delays when planning their journeys.",
+            "judge_response": "Explanation: The reference answer is specific about the inconvenience caused by road construction, mentioning a lengthy walk to a distant bus stop. In contrast, the model's answer is vague, talking about the complexity of traveling across town and the need to factor in delays, without specifically mentioning the road construction or the walk to the bus stop. I think the model's answer lacks detail and precise accuracy.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Condense the dialogue into a concise summary highlighting major topics and conclusions.",
+            "reference": "The speakers discuss their past TV show preferences, with Speaker1 teasing Speaker2 for being a Glee fan, while Speaker2 reminisces about their deep fandom and related usernames.",
+            "model_prediction": "The conversation revolves around personal preferences, with various participants expressing likes for different things like pets, colors, and songs. There is also a mention of a previous interaction where someone was accused of being a 'geek' which caused offense. The conversation ends with a discussion about changing a printer ribbon, followed by an admission of never having changed it before.",
+            "judge_response": "Explanation: The reference answer specifically discusses the speakers' conversation about their past TV show preferences, focusing on Speaker2's fandom of Glee. In contrast, the model's answer is a vague summary of a conversation that mentions various preferences, a previous incident, and changing a printer ribbon, which is unrelated to the reference answer. The model's answer lacks accuracy and relevance to the reference.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Provide a succinct summary that captures the essence and key outcomes of the dialogue.",
+            "reference": "The conversation reflects on life's challenges, including the irony of money being essential for many things, the difficulty of marriage, and the high cost of housing in their country.",
+            "model_prediction": "The speakers discuss the challenges of financial stability, particularly in regards to affording a house. They express that it is difficult to live without money and acknowledge the irony of needing funds for basic necessities. The conversation hints at the future goal of owning a decent house, estimating the cost at five hundred thousand dollars, which seems daunting given the current financial situation.",
+            "judge_response": "Explanation: The reference answer highlights the conversation's themes of life's challenges, including the importance of money, marriage difficulties, and high housing costs. In contrast, the model's answer primarily focuses on financial stability and the high cost of housing, barely mentioning the other challenges. While the model's answer captures some aspects of the conversation, it lacks the breadth and depth of the reference answer.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Compose a brief summary emphasizing the key topics and decisions within the dialogue.",
+            "reference": "The speakers discuss safety concerns, with Speaker1 recommending the SAFRA shooting range. Speaker2 agrees it’s beneficial but hesitates due to the inconvenience of traveling there.",
+            "model_prediction": "The summary can be stated as follows:\n\nThe conversation revolves around personal safety and travel options. One individual feels safe when they are holding a weapon, implying a preference for self-defense measures. Another mentions that going to a place like Safra provides a shooting range for training and defense. There is also a discussion about the ease of access to a location, with one person suggesting it's easy to get to their house due to only one road crossing. The conversation touches on medical supplies as well, with one person mentioning a new polyclinic near their residence that could potentially serve as a place to procure them.",
+            "judge_response": "Explanation: The reference answer clearly states that the conversation is about safety concerns, specifically discussing the SAFRA shooting range and the inconvenience of traveling there. In contrast, the model's answer is quite vague and misaligned, mentioning various unrelated topics such as self-defense measures, ease of access to a location, and medical supplies. The model's answer fails to capture the essence of the conversation, which is focused on a specific topic.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "Compose a brief summary emphasizing the key topics and decisions within the dialogue.",
+            "reference": "The speakers discuss noise disturbances at chalets. Speaker1 describes instances where police were involved, while Speaker2 comments humorously, comparing the rowdy groups to gangsters.",
+            "model_prediction": "The audio revolves around recurring issues of problems on both sides, leading to confrontations. A discussion about helping in times of trouble is also present. Additionally, it mentions a group of twenty people, including women and children, possibly facing challenges or conflicts.",
+            "judge_response": "Explanation: The reference answer specifically highlights the topic of noise disturbances at chalets, involving the police and humorous comparisons to gangsters. In contrast, the model's answer talks about general \"problems on both sides\" and \"confrontations\" without specifying the context, and introduces unrelated details about a group of twenty people. I think the model's answer lacks accuracy and relevance to the reference.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "Provide a succinct summary that captures the essence and key outcomes of the dialogue.",
+            "reference": "The speakers compare their desks, identifying differences such as peaches being present on Speaker1’s desk but absent from Speaker2’s, which only has a blender.",
+            "model_prediction": "The speaker describes their desk setup, mentioning items like a blender and pictures, highlighting differences from another person's setup.",
+            "judge_response": "Explanation: The reference answer specifically highlights the unique items on each desk, such as peaches on Speaker1's desk and a blender on Speaker2's, emphasizing their differences. In contrast, the model's answer is vague, mentioning a blender and pictures, but fails to capture the distinct differences between the two desks. The model's response is too general and lacks the specific details that make the reference answer informative.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Craft a summary that focuses on the pivotal points and conclusions of the dialogue.",
+            "reference": "The speakers plan logistics for their hotel stay, considering a 30-minute travel time from the airport but noting a gap until the 2 pm check-in time at the hotel.",
+            "model_prediction": "The conversation revolves around the journey from the airport to a hotel, transportation methods, and an event happening at two PM. The estimated time for the airport transfer is thirty minutes, with the departure time from the airport being twelve-thirty PM. There's also mention of a search operation involving a 'coke hens' aircraft register.",
+            "judge_response": "Explanation: The reference answer is focused on the speakers' plan for their hotel stay, noting the 30-minute travel time from the airport and the gap until the 2 pm check-in time. In contrast, the model's answer is unclear and includes irrelevant information such as a \"search operation involving a 'coke hens' aircraft register\" which is not present in the reference answer. The model's answer also provides unnecessary details like the \"departure time from the airport being twelve-thirty PM\" which is not mentioned in the reference.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "Generate a summary that distills the dialogue into its most important discussions and decisions.",
+            "reference": "The speakers discuss a unique drink combination of Baileys and sweet green tea. Speaker1 suggests it as a must-try, while Speaker2 expresses curiosity and interest in giving it a shot.",
+            "model_prediction": "The audio's key points revolve around the preferences of drinks, specifically green tea, and the opinions about the best combination or type of green tea.",
+            "judge_response": "Explanation: The reference answer highlights the discussion of a unique drink combination of Baileys and sweet green tea, with Speaker1 recommending it and Speaker2 expressing interest. In contrast, the model's answer focuses on general preferences for drinks, specifically green tea, and opinions about the best combination or type. The model's answer lacks specificity and accuracy, failing to capture the unique drink combination and the speakers' opinions about it.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Formulate a summary that condenses the main discussions and resolutions of the dialogue.",
+            "reference": "The speakers discuss Speaker1’s abilities. While Speaker1 views themselves as simply hardworking, Speaker2 believes their practical skills and problem-solving ability reflect intelligence.",
+            "model_prediction": "The dialogue revolves around intelligence and learning, with one individual highlighting the importance of practical skills and勤奋 over raw intelligence. They also discuss the relatability of academic success to everyday tasks such as taking an MRT and emphasize that not everyone finds it easy.",
+            "judge_response": "Explanation: The reference answer highlights the discussion around Speaker1's abilities, with Speaker2 attributing their practical skills and problem-solving ability to intelligence. In contrast, the model's answer takes a more general approach, discussing the importance of practical skills and diligence over raw intelligence, and relates academic success to everyday tasks. While the model's answer touches on the theme of intelligence, it lacks the specific details and focus on Speaker1's abilities mentioned in the reference answer.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Forge a succinct narrative summarizing the dialogue’s main points and resolutions.",
+            "reference": "The speakers reflect on their tendency to describe situations in great detail, with Speaker1 jokingly offering \"condolences\" to anyone transcribing their words.",
+            "model_prediction": "The speaker describes their rebellious nature, stating that they do not care about what others think and often act contrary to societal expectations. They also mention rebelling against their parents and find it a small yet significant act of defiance. The conversation touches on the notion that rebellion can be personal or collective, with the speaker considering both options.",
+            "judge_response": "Explanation: The reference answer describes the speakers' tendency to describe situations in great detail and their humorous apology to the transcriber. In contrast, the model's answer talks about rebellion, personal and collective, and the speaker's nonconformity. The two answers are unrelated, and the model fails to capture the main points and tone of the reference answer.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Draft a concise summary that includes main topics and any decisions reached.",
+            "reference": "Speaker2 recounts an emotional interaction where someone unexpectedly shouted, promised repayment, and left money on the table before withdrawing.",
+            "model_prediction": "The speaker expresses frustration about a conversation that seemed off-topic and irrelevant, leading to a sense of disconnection or irritation.",
+            "judge_response": "Explanation: The reference answer describes a specific emotional interaction where someone shouted, promised repayment, and left money on the table, while the model's answer talks about a conversation that seemed off-topic and led to frustration. The two answers are unrelated, and the model's response does not capture the essence of the reference answer.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Compose a brief summary emphasizing the key topics and decisions within the dialogue.",
+            "reference": "Speaker1 recalls their positive experiences with Chinese teachers, while Speaker2 highlights their enjoyment of English and Literature teachers, praising one for their humor.",
+            "model_prediction": "The conversation revolves around the speaker's perception of Chinese teachers, finding them generally very nice and supportive. A specific English teacher who is described as extremely funny and influential in the speaker's life is highlighted.",
+            "judge_response": "Explanation: The reference answer highlights the contrast between the speakers' positive experiences with Chinese teachers and English/Literature teachers, whereas the model's answer focuses primarily on the speakers' positive experiences with teachers, mentioning a specific English teacher. The model's answer is concise but lacks the nuance of the reference answer, which emphasizes the distinction between the two types of teachers. I think the model's answer is a good attempt but misses some key details.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Assemble a brief recap of the dialogue, emphasizing important topics and outcomes.",
+            "reference": "Speaker1 expresses dissatisfaction with infrequent conversations but appreciates the freedom to make coffee as part of their co-op experience.",
+            "model_prediction": "The conversation revolves around ongoing communication, with one participant describing it as a continuous back-and-forth that they find exhausting. They mention replying to messages the next day and the conversation evolving without end. The topic shifts to physical activity when another participant talks about being active and working out constantly.",
+            "judge_response": "Explanation: The reference answer highlights Speaker1's dissatisfaction with infrequent conversations and their appreciation for the freedom to make coffee in their co-op experience. In contrast, the model's answer discusses ongoing communication, physical activity, and working out, which are unrelated topics. The model's response does not address the co-op experience or the speaker's feelings about conversations and coffee.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Prepare a concise overview of the dialogue, highlighting central themes and decisions.",
+            "reference": "The speakers discuss generational differences, with Speaker1 reflecting on the physical challenges their mother endured, while Speaker2 highlights the modern lack of such hardships and stresses independence.",
+            "model_prediction": "The dialogue revolves around personal experiences with family and cultural identity, touching on topics like comparing generations and individual freedom. The speakers also discuss the influence of their parents and the challenges they face in a modern society while preserving their heritage.",
+            "judge_response": "Explanation: The reference answer focuses on the generational differences, physical challenges, and independence, while the model's answer discusses personal experiences, family, cultural identity, and individual freedom. Although the model's answer touches on the topic of generations, it lacks specific details and accuracy compared to the reference answer.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        }
+    ]
+}

@@ -130,6 +130,7 @@ Two simple steps:
 - [x] [phi_4_multimodal_instruct](./examples/adding_new_model.md)
 - [ ] [ultravox](./examples/adding_new_model.md) https://huggingface.co/fixie-ai/ultravox-v0_5-llama-3_1-8b / https://www.ultravox.ai/
 - [ ] [llama3_s](./examples/adding_new_model.md) 
+- [ ] [audio-flamingo-2](./examples/adding_new_model.md) 
 
 
 ### How to evaluation your own models?
@@ -191,6 +192,7 @@ Email: `bwang28c@gmail.com`
 
 #### Researchers, companies or groups that are using AudioBench:
 - [Llama3-S: When Llama Learns to Listen](https://homebrew.ltd/blog/llama3-just-got-ears)
+- [llms-eval] https://github.com/EvolvingLMMs-Lab/lmms-eval/blob/main/docs/lmms-eval-0.3.md
 - More to come...
 
 

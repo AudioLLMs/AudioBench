@@ -165,7 +165,8 @@ cython_debug/
 
 data/
 log/
-log2/
+log2/*/*.json
+!log2/*/*_score.json
 examples/SALMONN_7B/
 examples/wavllm_fairseq/
 examples/hy_whisper_local_cs/

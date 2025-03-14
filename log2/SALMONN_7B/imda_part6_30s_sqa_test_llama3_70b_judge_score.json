@@ -1,0 +1,168 @@
+{
+    "llama3_70b_judge": {
+        "judge_score": 66.86,
+        "success_rate": 1.0
+    },
+    "details": [
+        {
+            "question": "How long does a child typically study for the A levels exam in Junior College, according to Speaker1?",
+            "reference": "two years",
+            "model_prediction": "According to Speaker1, a child typically studies for the A levels exam in Junior College for two whole years.",
+            "judge_response": "Explanation: The reference answer is a brief statement \"two years\", while the model's answer is a sentence that elaborates on the reference answer, providing more context and details. I think the model's answer accurately and relevancely expands on the reference answer, making it a closely aligned response.\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "How old are Speaker1's parents this year?",
+            "reference": "Fifty-seven",
+            "model_prediction": "Speaker1's parents are 57 years old this year.",
+            "judge_response": "Explanation: The reference answer is a simple numeric value \"Fifty-seven\", while the model's answer is \"Speaker1's parents are 57 years old this year.\" I think the model's answer is highly accurate and relevant, as it not only provides the correct numeric value but also adds context to make the answer more informative.\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "What is the timing of the payment for a registered newborn child, as explained by Speaker 1?",
+            "reference": "The payment will be periodic, not in one whole shot.",
+            "model_prediction": "The timing of the payment for a registered newborn child, as explained by Speaker 1, is during the birth certificate period.",
+            "judge_response": "Explanation: The reference answer is \"The payment will be periodic, not in one whole shot\", implying that the payment will be made in installments over time. In contrast, the model's answer is \"The timing of the payment for a registered newborn child, as explained by Speaker 1, is during the birth certificate period\", which suggests a specific point in time rather than a periodic payment schedule. I think the model's answer is completely misaligned with the reference answer.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "How long in advance does Speaker2 want to know they should take their pets for a health checkup before purchasing travel insurance?",
+            "reference": "Speaker2 does not provide a specific time frame in the transcription, but they ask how long in advance they would have to take their pets for the checkup.",
+            "model_prediction": "Speaker2 wants to know how long in advance they should take their pets for a health checkup before purchasing travel insurance.",
+            "judge_response": "Explanation: The reference answer does not provide a specific time frame, but the model's answer attempts to infer the question being asked, which is how long in advance Speaker2 should take their pets for a health checkup before purchasing travel insurance. The model's answer is a good interpretation of the context.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "What type of evidence is Speaker1 asking Speaker2 to provide to gauge the value used to convert to the Korean currency?",
+            "reference": "Evidence of converting Singapore cash to Korean won.",
+            "model_prediction": "Speaker1 is asking Speaker2 to provide evidence of the value used to convert to the Korean currency.",
+            "judge_response": "Explanation: The reference answer is looking for a specific type of evidence that Speaker1 is asking Speaker2 to provide, whereas the model's answer is a restatement of the question, explaining the context of the conversation. I think the model's answer is relevant to the question but lacks specificity and clarity in terms of the type of evidence.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "What is the discounted price per person for the travel package, inclusive of GST or service charges, as mentioned by Speaker1?",
+            "reference": "One thousand plus.",
+            "model_prediction": "The discounted price per person for the travel package, inclusive of GST or service charges, as mentioned by Speaker1, is around two thousand five hundred.",
+            "judge_response": "Explanation: The reference answer is \"One thousand plus\", while the model's answer is \"around two thousand five hundred\". I think the model's response is completely misaligned, providing a significantly higher and incorrect value compared to the reference.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What type of housing is being discussed in the conversation between Speaker1 and Speaker2?",
+            "reference": "Public housing.",
+            "model_prediction": "Public housing.",
+            "judge_response": "Explanation: The reference answer is \"Public housing\", and the model's answer is also \"Public housing\". I think the model's answer perfectly matches the reference answer, providing the exact same response with high accuracy and relevance.\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "What are the two alternative platforms mentioned by Speaker1 for accessing AXS, aside from the physical station?",
+            "reference": "E station and M station.",
+            "model_prediction": "The two alternative platforms mentioned by Speaker1 for accessing AXS, aside from the physical station, are the mobile app and the website.",
+            "judge_response": "Explanation: The reference answer is \"E station and M station\", which are two specific platform names. The model's answer is \"the mobile app and the website\", which are two different platforms mentioned in the context. I think the model's answer is not accurate and relevant to the reference.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What percentage discount does Speaker1 mention for choosing the yearly premium payment option?",
+            "reference": "three percent",
+            "model_prediction": "Speaker1 mentions a discount of 3% for choosing the yearly premium payment option.",
+            "judge_response": "Explanation: The reference answer is \"three percent\", while the model's answer is \"Speaker1 mentions a discount of 3% for choosing the yearly premium payment option.\" I think the model's answer is a paraphrased version of the reference answer, accurately conveying the same information in a slightly different way.\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "How much data does Speaker2 think they need, according to Speaker1's understanding of their data usage?",
+            "reference": "Around twenty gigabytes per month.",
+            "model_prediction": "Speaker2 thinks they need 30 gigabytes per month, according to Speaker1's understanding of their data usage.",
+            "judge_response": "Explanation: The reference answer is \"Around twenty gigabytes per month\", while the model's answer is \"30 gigabytes per month\". I think the model's answer is incorrect, as it provides a different data usage amount than the reference answer.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What are the two payment methods mentioned by Speaker1 for the order?",
+            "reference": "By cash or through the online portal.",
+            "model_prediction": "The two payment methods mentioned by Speaker1 for the order are cash or through our online portal.",
+            "judge_response": "Explanation: The reference answer is a simple and concise statement of the two payment methods, \"By cash or through the online portal.\" The model's answer, \"The two payment methods mentioned by Speaker1 for the order are cash or through our online portal,\" is nearly identical, with the added detail of specifying \"Speaker1\" and \"our online portal\" (which is not present in the reference).\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "Is Speaker2, who is a father, eligible for paid childcare leave?",
+            "reference": "Yes",
+            "model_prediction": "Yes, Speaker2, who is a father, is eligible for paid childcare leave.",
+            "judge_response": "Explanation: The reference answer is a simple \"Yes\", while the model's answer is \"Yes, Speaker2, who is a father, is eligible for paid childcare leave.\" I think the model's answer is a bit more detailed than the reference answer, but it still accurately conveys the same information.\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "What is the priority for registering a vehicle for season parking if the person already has a registered vehicle?",
+            "reference": "It is considered as second priority for subsequent vehicles.",
+            "model_prediction": "The priority for registering a vehicle for season parking if the person already has a registered vehicle is the second party.",
+            "judge_response": "Explanation: The reference answer is \"It is considered as second priority for subsequent vehicles\", while the model's answer is \"The priority for registering a vehicle for season parking if the person already has a registered vehicle is the second party.\" I think the model's answer is close, but not entirely accurate. The phrase \"second party\" is not entirely clear, and it would be better to say \"second priority\" to match the reference answer.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "What is the gross annual income of the Singaporean individual who is eligible to apply for the credit card?",
+            "reference": "Forty thousand.",
+            "model_prediction": "The gross annual income of the Singaporean individual who is eligible to apply for the credit card is about forty thousand.",
+            "judge_response": "Explanation: The reference answer is a straightforward \"Forty thousand\", while the model's answer is a elaborated sentence \"The gross annual income of the Singaporean individual who is eligible to apply for the credit card is about forty thousand.\" I think the model's answer is an appropriate expansion of the reference answer, providing context and clarity.\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "Can a father borrow up to four weeks from the 16 weeks of maternity leave for paternity benefit?",
+            "reference": "Yes",
+            "model_prediction": "Yes, a father can borrow up to four weeks from the 16 weeks of maternity leave for paternity benefit.",
+            "judge_response": "Explanation: The reference answer is a simple \"Yes\", while the model's answer provides additional relevant information that aligns with the question. The model's answer not only answers the question but also provides context, making it more informative and relevant. I think the model's answer is an improvement over the reference answer.\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "What issue did the guest's child have in the room, and how did the hotel staff respond?",
+            "reference": "The guest's child threw up in the room, but the hotel's cleaning service crew responded efficiently.",
+            "model_prediction": "The guest's child was a little bit unwell in the room, and the hotel staff responded by providing a cleaner.",
+            "judge_response": "Explanation: The reference answer is specific about the issue (\"threw up\") and the hotel staff's response (\"cleaning service crew responded efficiently\"), while the model's answer is vague and inaccurate (\"a little bit unwell\", \"providing a cleaner\"). The model's answer downplays the severity of the issue and misrepresents the hotel staff's response.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "What is Speaker1's monthly household income?",
+            "reference": "Three thousand dollars",
+            "model_prediction": "Speaker1's monthly household income is $3000.",
+            "judge_response": "Explanation: The reference answer is \"$3000\", while the model's answer is \"Speaker1's monthly household income is $3000.\" I think the model's response is a perfect paraphrase of the reference answer, providing the same information in a slightly rephrased form.\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "What is the discount offered by using the promo code ABCDEF123, and which bills does it apply to, according to Speaker1?",
+            "reference": "The discount offered is 20% off for the first three months of both bills.",
+            "model_prediction": "The discount offered by using the promo code ABCDEF123 is 20% off for the first three bills, according to Speaker1.",
+            "judge_response": "Explanation: The reference answer is \"The discount offered is 20% off for the first three months of both bills\", while the model's answer is \"The discount offered by using the promo code ABCDEF123 is 20% off for the first three bills, according to Speaker1.\" I think the model's answer is close to the reference answer, but it incorrectly says \"bills\" instead of \"months of both bills\", and adds the unnecessary phrase \"according to Speaker1\".\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "What are the occupations of Speaker1 and his spouse?",
+            "reference": "Speaker1 is a civil engineer, and his spouse is a financial planner in insurance.",
+            "model_prediction": "Speaker1 is an engineer and his spouse is a financial planner.",
+            "judge_response": "Explanation: The reference answer is specific about the fields of expertise, stating that Speaker1 is a civil engineer and their spouse is a financial planner in insurance. In contrast, the model's answer is more general, only mentioning that Speaker1 is an engineer and their spouse is a financial planner, omitting the specific fields. I think the model's answer is close but lacks precision.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "What time did Speaker1 inform Speaker2 that their delivery would arrive?",
+            "reference": "Six PM.",
+            "model_prediction": "Speaker1 informed Speaker2 that their delivery would arrive at 6 PM.",
+            "judge_response": "Explanation: The reference answer is a simple statement of time \"Six PM\", while the model's answer is a sentence describing the scenario \"Speaker1 informed Speaker2 that their delivery would arrive at 6 PM.\" I think the model's answer is highly accurate and detailed, capturing the essence of the reference answer perfectly.\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        }
+    ]
+}

@@ -1,0 +1,168 @@
+{
+    "llama3_70b_judge": {
+        "judge_score": 31.295,
+        "success_rate": 0.99625
+    },
+    "details": [
+        {
+            "question": "Is it possible for you to summarize what's covered in the audio?",
+            "reference": "Speaker1 and Speaker2 discussed their experience and appreciation for Jay-Chou, a singer. Speaker1 mentioned being close to Jay-Chou at an event, almost close enough to touch him, and expressed their admiration for his music. Speaker2 shared that they had already touched Jay-Chou and agreed that he deserves more recognition in Singapore. Both speakers acknowledged Jay-Chou's growing fandom in the country and considered it a positive development.",
+            "model_prediction": "The audio is of a conversation between two people, a man and a woman, speaking in a Singaporean English, where they are discussing their opinions on the local music scene and the artists they like. They mention some local artists such as JJC, Gentle Bones, and Zee Avi, and express their appreciation for their music. They also mention that JJC is the most popular artist in Singapore and that his fandom is growing. The woman also mentions that she thinks JJC is a good performer and that his music is very interesting. The conversation ends with the man expressing his agreement with the woman's opinions.",
+            "judge_response": "Explanation: The reference answer is about two speakers discussing their experience and appreciation for Jay-Chou, a singer, while the model's answer is about two people discussing their opinions on the local music scene and mentioning several local artists, including JJC, which is likely Jay-Chou's stage name. Although both answers mention Jay-Chou, the model's answer provides irrelevant information about the local music scene and other artists, and fails to capture the essence of the reference answer. I think the model's answer is not accurate and relevant enough to the reference.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "Could you help by giving an overview of the audio's content?",
+            "reference": "Speaker1 and Speaker2 discussed their personalized rabbit cages. Speaker2 described their cage as green with a yellow base and a white rabbit, while Speaker1 mentioned that their cage has a \"buy me\" sign on the top. The speakers exchanged details about the design and placement of the signs on their respective cages.",
+            "model_prediction": "The audio is of a conversation between two people, a man and a woman, discussing a cage for a rabbit. The woman asks if the cage has a sign that says \"buy me\" and the man responds that it does not. The woman then asks where the sign is located and the man explains that it is on the top of the cage, on the top side.",
+            "judge_response": "Explanation: The reference answer describes a conversation between two speakers discussing their personalized rabbit cages, including details about the design and placement of signs on their respective cages. In contrast, the model's answer focuses on a single cage and a sign that says \"buy me\", with the man and woman discussing its location on the top of the cage. The model's answer lacks the detail and specificity of the reference answer, and misrepresents the conversation as a question-and-answer session about a single cage rather than a discussion between two speakers about their own cages.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Could you help by giving an overview of the audio's content?",
+            "reference": "Speaker1 and Speaker2 had a brief conversation, asking each other questions about seemingly unrelated topics. Speaker1 asked Speaker2 about the direction of the sun and then inquired about the number and color of buttons on a bear, which Speaker2 replied were three white buttons.",
+            "model_prediction": "The audio is of a conversation between two people, a man and a woman. The woman is asking the man about something, and the man responds. The woman asks about the buttons on the man's head, and the man says that there are three white buttons.",
+            "judge_response": "Explanation: The reference answer is a description of a conversation between two speakers about unrelated topics, including the direction of the sun and the number and color of buttons on a bear. In contrast, the model's answer is a description of a conversation about the number and color of buttons on the man's head, which is not mentioned in the reference answer. I think the model's answer is completely misaligned and provides incorrect information.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Please summarize the audio content.",
+            "reference": "Speaker1 and Speaker2 discussed describing a visual scene, with Speaker2 pointing out a specific detail, a sign in the top right-hand corner. Speaker1 agreed and began to describe the scene in more detail, including a large rectangular box-shaped building with a brown background and a sign saying \"bar\". Both speakers acknowledged that they might be describing the scene in too much detail.",
+            "model_prediction": "The audio is of a man speaking, in a conversational manner, about a building. He mentions that there are differences between the building he is describing and another building, and that he thinks the top right hand corner of the building he is describing is the best view. He also mentions that the building has a rectangular box shape, and that there is a sign on the top middle saying \"bar\" in brown letters.",
+            "judge_response": "Explanation: The reference answer is a summary of a conversation between two speakers, describing a visual scene with a specific detail, a sign in the top right-hand corner, and a large rectangular box-shaped building with a brown background and a sign saying \"bar\". In contrast, the model's answer is a summary of a single speaker describing a building, mentioning its rectangular box shape, and a sign saying \"bar\" in brown letters, but lacks the conversation and detail about the top right-hand corner. I think the model's answer recognizes the topic but diverges significantly from the reference in accuracy and relevance.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Is it possible for you to summarize what's covered in the audio?",
+            "reference": "Speaker1 and Speaker2 discussed the government's stance on entrepreneurship, with Speaker1 expressing skepticism about the government's encouragement of entrepreneurship, calling it \"#wayang#\" (a Singaporean colloquialism meaning \"pretentious\" or \"fake\"). Speaker2 acknowledged the point, but the conversation was cut off, and no further details were provided.",
+            "model_prediction": "The audio is of a man speaking, in a foreign language, saying, \"Even the NTVC and the NTVC the thing is that the government also like like ah not very encouraging people to do entrepreneurship though they are though they are encouraging in that sense but I think he's wired man like you know this this is all ah\".",
+            "judge_response": "Explanation: The reference answer is about Speaker1 and Speaker2 discussing the government's stance on entrepreneurship, with Speaker1 expressing skepticism and using a Singaporean colloquialism \"wayang#\". The model's answer is a fragmented and unclear transcription of the audio, which doesn't convey the same meaning or topic as the reference answer. I think the model's answer fails to capture the essence and detail of the reference answer.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Would you be able to summarize the content captured in the audio?",
+            "reference": "Speaker1 explained the reason for wearing shoes at the beach in Sentosa, Singapore, citing the presence of nearby bars and the potential for broken glass on the sand, which could cause cuts on the legs and feet. Speaker2 acknowledged this explanation with a nod of understanding.",
+            "model_prediction": "The content captured in the audio is as follows: \"also i think because there is a bar nearby right in Singapore santosa there are also many bars in the at the beach so if they are bars right they are bound to be some um glasses shards on the sand so i guess it's to prevent you know getting cuts on the leg yeah and the feet right that's why we wear shoes to prevent cuts oh i see\".",
+            "judge_response": "Explanation: The reference answer explains that Speaker1 mentioned the presence of nearby bars at the beach in Sentosa, Singapore, which may lead to broken glass on the sand, and thus, it's necessary to wear shoes to prevent cuts on the legs and feet. The model's answer is a paraphrased version of this explanation, stating that there are many bars at the beach, which could lead to glass shards on the sand, and wearing shoes is necessary to prevent cuts. While the model's answer is not a perfect match, it conveys the same idea and information as the reference answer.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "Is it possible for you to break down the key ideas from the audio?",
+            "reference": "Speaker1 and Speaker2 discussed the topic of a ring, with Speaker1 expressing concerns about taking care of it due to their clumsiness. Speaker1 mentioned being accident-prone and bumping into things, and Speaker2 jokingly echoed this sentiment. Despite this, Speaker1 assured that they would take care of the ring.",
+            "model_prediction": "The key ideas from the audio are:\n\nOK, I'm gonna always have a ring here, correct, but a particular ring wherever you give right OK, one thing I've, OK, I I am clumsy, yeah OK, I it's not, I try to be so very safe, I've banked my own self very far away of course, I'll take care of it, but if it's so\n\n[('OK, I'm gonna always have a ring here, correct,', 'key idea'), ('OK, one thing I've', 'key idea'), ('OK, I I am clumsy, yeah', 'key idea'), ('OK, I it's not', 'key idea'), ('I try to be so very safe', 'key idea'), ('I've banked my own self very far away', 'key idea'), ('of course, I'll take care of it', 'key idea'), ('but if it's so', 'key idea')]",
+            "judge_response": "Explanation: The reference answer clearly outlines the main points of the conversation, including Speaker1's concerns about taking care of the ring due to their clumsiness and Speaker2's joking response. In contrast, the model's answer is a sequence of fragmented sentences that appear to be a transcript of the conversation rather than a summary of the key ideas. The model's answer lacks clarity and coherence, and it does not provide a clear summary of the conversation.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "Is it possible for you to offer a summary of the audio?",
+            "reference": "Speaker1 and Speaker2 engaged in a conversation about Speaker1's past, which they described as \"a bit colourful\". Speaker1 shared that they had a best friend when they were young, and hinted at a significant event or experience that they wanted to share with Speaker2, although the details were not revealed in this portion of the dialogue.",
+            "model_prediction": "The audio is of a man speaking, in a foreign language, saying, \"Okay, basically, it's a long story, it's way before I got to know you, okay? So, basically, we used to have a best best friend, and we went everywhere together, okay?\".",
+            "judge_response": "Explanation: The reference answer provides a general overview of the conversation, mentioning that Speaker1 shared about their past, which they described as \"a bit colourful\", and hinted at a significant event or experience. In contrast, the model's answer provides a more concrete and specific quote from Speaker1, which aligns with the general idea of Speaker1 sharing about their past. However, the model's answer lacks the detail about the conversation being about a significant event or experience. I think the model's answer is generally accurate but lacks some precision and detail.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Is it possible for you to break down the key ideas from the audio?",
+            "reference": "Speaker1 and Speaker2 discussed an image of a person holding a basket of peaches. Speaker2 described the scene, noting that the person's right hand held three peaches tied to a string. Speaker1 expressed surprise and asked for clarification, eventually understanding that the peaches were tied to a string.",
+            "model_prediction": "The key ideas from the audio are:\n\n\"I have a lot here, no three, six, no I know, I know she I know he's ah you know holding something like you know a basket, a basket, a lot of pictures like that, a lot like, a lot, but then he's right here, no he still uses a string up, no ah three pictures, no he's right here, three pictures are yeah yeah yeah, oh holding three pictures are yeah yeah string, oh my God, that string, ha ah oh they make the pictures tied with a string, yeah yeah yeah yeah.\"",
+            "judge_response": "Explanation: The reference answer summarizes the key ideas from the audio, stating that Speaker2 described a person holding a basket of peaches, with three peaches tied to a string in their right hand. In contrast, the model's answer is a transcription of the audio, but it does not provide a clear summary of the key ideas. The model's answer is filled with filler words, hesitations, and unclear statements, making it difficult to understand the main points. \n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Could you please summarize the audio?",
+            "reference": "Speaker1 discussed their experiences in a Co-Curricular Activity (CCA) that involves learning hard skills like tent pitching, tying knots, and marching. However, Speaker1 mentioned that this is not their favorite CCA, and instead, their favorite is being part of a drama club, which they enjoy.",
+            "model_prediction": "The audio is of a person speaking, in a English, saying, \"Learning all sorts of hard skills such as ten pitting tying knots marching yeah so um but this is but this is not my favorite cca as well why is it so actually my favorite cca is to be in the drama club because i get to\".",
+            "judge_response": "Explanation: The reference answer provides a clear summary of the audio, highlighting the speaker's experience in a CCA that involves learning hard skills and their preference for being part of a drama club. In contrast, the model's answer is a partial transcription of the audio, lacking a clear summary and omitting key details. The model's answer is incomplete and doesn't provide a coherent summary of the audio.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Can you assist with summarizing the details from the audio?",
+            "reference": "Speaker1 and Speaker2 discussed the topic of inspiration, with Speaker1 sharing a personal belief that one should not care about others' opinions. Speaker2 mentioned being inspired by a specific book, which is the Islamic holy book, Al-Quran. Both speakers acknowledged the significance of their religious books, with Speaker1 noting that these books can have a profound impact, although the exact nature of this impact was not specified.",
+            "model_prediction": "The audio is of a conversation between two people, a man and a woman, speaking in English. The man says, \"It allows me to like feel that um I shouldn't care what other people think of me. I should just do what I want to do. How about you? Have you read any books? Yeah, what book is the most inspiring to you? Oh what, like movie show is the most inspiring to you? No, I read the what, the Islamie books. Islamie books? Yeah, Oh yes, like our religious books, it just makes you it makes you it allows you to um\" and the woman responds, \"It makes you feel um\".",
+            "judge_response": "Explanation: The reference answer provides a clear and concise summary of the conversation, highlighting the speakers' discussion on inspiration, their views on others' opinions, and the significance of religious books. In contrast, the model's answer is a partial and incomplete transcription of the conversation, missing crucial details and failing to provide a coherent summary. The model's answer is also unclear and lacks context, making it difficult to understand the conversation.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Could you break down the important parts of the audio for me?",
+            "reference": "Speaker1 and Speaker2 shared their experiences and memories from an event. Speaker1 mentioned taking a photo of a fighter jet, but was unsure how to show it to their parents. Speaker2 reminisced about receiving a fake Nokia phone in a goodie bag, which they thought was a real phone, and joked about feeling like a hipster.",
+            "model_prediction": "The important parts of the audio are:\n\nSomeone is talking about a photo of a naked child and how they showed it to their friend. They mention that they have a fake phone and it looks like the apps are on. They laugh and say they just started talking and then they started singing around. They mention that they are so excited and that they have to meet their friend.",
+            "judge_response": "Explanation: The reference answer describes Speaker1 and Speaker2 sharing experiences from an event, with Speaker1 mentioning a photo of a fighter jet and Speaker2 reminiscing about a fake Nokia phone. In contrast, the model's answer is completely misaligned, mentioning a photo of a naked child, a fake phone with apps, singing, and meeting a friend, which are not mentioned in the reference answer. \n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Would you mind helping to summarize the content of the audio?",
+            "reference": "Speaker1 discussed their approach to learning about expensive phones from various brands. They explained that they buy a phone, open it up, and then look for online repair guides, including \"I fix it\" tutorials, to learn how to repair them.",
+            "model_prediction": "The audio is of a man speaking, in a foreign language, saying, \"Yeah, so so you can learn so so each each like express phone ah from every brand yeah that for every brand I you buy then you open up and you you look go online and I fix it or something and other other ah other fix repair guides are available but when I see I fix it and then I learn how to repair.\".",
+            "judge_response": "Explanation: The reference answer explains the speaker's approach to learning about expensive phones from various brands, involving buying a phone, opening it up, and looking for online repair guides like \"I fix it\" tutorials to learn how to repair them. The model's answer attempts to convey the same idea, but with many filler words and unclear phrasing, making it difficult to understand. Although it mentions key points like buying a phone, looking online, and \"I fix it\" guides, the model's answer lacks clarity and precision.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Could you offer a brief summary of what the audio contains?",
+            "reference": "Speaker1 and Speaker2 discussed a shopping experience on a Wednesday. Speaker2 mentioned a designer fashion shop that sells items at a reasonable price, citing a specific example of a shirt. Speaker1 shared a vivid description of a scene they witnessed, involving a lady holding a pie and a dog walking on the road.",
+            "model_prediction": "The audio is of a woman speaking, in a English, saying, \"And short lived vanity. Okay, I think there's a design and fashion shop that sells quite cheap, quite cheap, yeah, selling a shirt, it's quite a reasonable price. And the lady going away, holding the pie, the dog walking on the road.\".",
+            "judge_response": "Explanation: The reference answer outlines a conversation between two speakers discussing a shopping experience on a Wednesday, with one speaker mentioning a designer fashion shop and the other describing a scene with a lady holding a pie and a dog on the road. In contrast, the model's answer appears to be a jumbled mixture of phrases taken from the conversation, but lacks coherence and context. The model seems to have randomly picked phrases from the conversation and combined them, resulting in a nonsensical sentence.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Could you help provide a summary of the audio details?",
+            "reference": "Speaker1 and Speaker2 discussed the location of a \"momo\" ( likely referring to a Moomin character), with Speaker1 explaining that it can only be found at specific locations such as Cathay, Jem, Westgate, J Cube, and back to Jem. Speaker2 simply acknowledged the mention of \"momo\".",
+            "model_prediction": "The audio is of a woman speaking, in a Korean language, saying, \"만약 나만만 놀고 있으면 너무 고마워요. 왜냐하면 엄마가 좀만 나만 보는 게 좋아요. 그리고 왜냐하면 엄마가 좀만 나만 보는 게 좋아요. 그리고 왜냐하면 엄마가 좀만 나만 보는 게 좋아요. 그리고 왜냐하면 엄마가 좀만 나만 보는 게 좋아요. 그리고 왜냐하면 엄마가 좀만 나만 보는 게 좋아요. 그리고 왜냐하면 엄마가 좀만 나만 보는 게 좋아요. 그리고 왜냐하면 엄마가 좀만 나만 보는 게 좋아요. 그리고 왜냐하면 엄마가 좀만 나만 보는 게 좋아요. 그리고 왜냐하면 엄마가 좀만 나만 보는 게 좋아요. 그리고 왜냐하면 엄마가 좀만 나만 보는 게 좋아요. 그리고 왜냐하면 엄마가 좀만 나만 보는 게 좋아요. 그리고 왜냐하면 엄마가 좀만 나만 보는 게 좋아요. 그리고 왜냐하면 엄마가 좀만 나만 보는 게 좋아요. 그리고 왜냐하면 엄마가 좀만 나만 보는 게 좋아요. 그리고 왜냐하면 엄마가 좀만 나만 보는 게 좋아요. 그리고 왜냐하면 엄마가 좀만 나만 보는 게 좋아요. 그리고 왜냐하면 엄마가 좀만 나만 보는 게 좋아요. 그리고 왜냐하면 엄마가 좀만 나만 보는 게 좋아요. 그리고 왜냐하면 엄마가 좀만 나만 보는 게 좋아요. 그리고 왜냐하면 엄마가 좀만 나만 보는 게 좋아요. 그리고 왜냐하면 엄마가 좀만 나만 보는 게 좋아요. 그리고 왜냐하면 엄마가 좀만 나만 보는 게 좋아요. 그리고 왜냐하면 엄마가 좀만 나만 보는 게 좋아요. 그리고 왜냐하면 엄마가 좀만 나만 보는 게 좋아요. 그리고 왜냐하면 엄마가 좀만 나만 보는 게 좋아요. 그리고 왜냐",
+            "judge_response": "Explanation: The reference answer is a clear conversation between two speakers about the location of a \"momo\" (Moomin character), while the model's answer is a repetitive and nonsensical response in Korean that has no relevance to the reference answer. The model's response is completely unrelated to the topic and lacks any semblance of understanding or accuracy.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Can you assist with summarizing the details from the audio?",
+            "reference": "Speaker1 discussed their car, mentioning its fuel capacity and affordability, with a full tank costing only $50. They also shared that they drive fast, although their car is not as fast as their brother's cars.",
+            "model_prediction": "The audio is of a man speaking, in a English, saying, \"The capacity for my car is thirty nine liters. A full tank is not expensive, it's fifty bucks. Only once or twice I went to J B to pump. After that I didn't really want to. Um my car is not as fast as my brother's cars but I drive very fast.\".",
+            "judge_response": "Explanation: The reference answer highlights the speaker's discussion about their car, focusing on its fuel capacity, affordability, and speed. In contrast, the model's response provides a more literal translation of the audio, including the speaker's aside about not wanting to go to \"J B\" to pump gas. While the model's answer is closer to the reference, it lacks clarity and omits some details. I think the model's response recognizes the topic but diverges slightly from the reference in accuracy and relevance.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Can you assist with summarizing the details from the audio?",
+            "reference": "Speaker1 and Speaker2 discussed their experience with a job or task that involved shopping and transportation. Speaker1 mentioned taking a taxi and spending a lot of time shopping, while Speaker2 highlighted the benefits of the job, including the lack of time limits and the freedom to work at their own pace. They both agreed that the job was enjoyable and didn't involve pressure or incentives.",
+            "model_prediction": "The audio is of a conversation between two people, a man and a woman, speaking in English. They are discussing their experience with transport and how it affects their lives. The woman mentions that they have been put in very random places that they don't like, so they have had to find alternative ways to get around. She also mentions that transport is also a gift, as it allows them to explore new places and meet new people. The man agrees and adds that the things they like about transport are the freedom and the adventure. The woman also mentions that they don't like to be late, as it makes them feel rushed and they don't like to call anybody. The man agrees and adds that basically, it's just fulfilling all these things that they want to do. The woman also mentions that transport is very fun and they don't care how much sugar is in their drink, as long as it tastes good. The man agrees and adds that they don't get any incentives for their transport.",
+            "judge_response": "Explanation: The reference answer describes a conversation between two people discussing their experience with a job or task that involved shopping and transportation, highlighting the benefits of the job and the lack of pressure or incentives. On the other hand, the model's answer appears to be a completely different conversation, discussing the importance of transport, meeting new people, and having fun. There is no mention of shopping, jobs, or pressure/incentives in the model's answer. I think this is a clear case of misalignment, with the model providing incorrect and irrelevant information compared to the reference.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Can you assist me in summarizing the audio file’s content?",
+            "reference": "Speaker1 and Speaker2 discussed leadership and job-related topics. Speaker1 inquired about a gap in Speaker2's employment, and Speaker2 explained that it was a brief break between leaving a retail job and joining a new one. Speaker1 then asked how Speaker2 deals with stressful situations, and Speaker2 replied that they handle stress by eating and having a flexible work schedule with their own targets.",
+            "model_prediction": "The audio file is of a woman speaking, in a English, saying, \"That's right, um, why was there a gap in your employment? Um, gap, that is when I'm so I think that I think that it's before that when I was in a retail line, then I had been a few days' break, then I joined the new team. How do you deal with stressful situation? I eat. Yeah, basically my\".",
+            "judge_response": "Explanation: The reference answer provides a clear and concise summary of the audio file's content, including the discussion of a gap in employment and how the speaker deals with stressful situations. In contrast, the model's answer is incomplete, fragmented, and lacks clarity. While it mentions the gap in employment and the speaker's response to stressful situations, it does not provide a coherent summary and omits key details.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "I would appreciate it if you could summarize the audio content.",
+            "reference": "Speaker1 and Speaker2 started a conversation about favorite places, with Speaker1 immediately exclaiming about Japan, specifically Nagoya, without fully explaining its significance. Speaker2 then corrected Speaker1, indicating that the question was meant to be about them, not the other way around.",
+            "model_prediction": "The audio is of a conversation between two people, a man and a woman, speaking in English. The man says, \"Friend? What do you mean? Friends everywhere. No one can get away with anything. Get down. Name your favorite place that you've been to. What is it significant? Oh my god. Japan. Nagoya.\" The woman responds, \"I was in Japan. I went to Nagoya. It was amazing.\"",
+            "judge_response": "Explanation: The reference answer explains that Speaker1 starts talking about Japan, specifically Nagoya, without fully explaining its significance, and Speaker2 corrects Speaker1, indicating that the question was meant to be about them. On the other hand, the model's answer simply transcribes the conversation without capturing the essence of the conversation, i.e., the correction and the significance of Japan/Nagoya. I think the model's answer misses the point of the conversation and only provides a surface-level transcription.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "Would you help me summarize the core message of the audio?",
+            "reference": "Speaker1 and Speaker2 engaged in a casual conversation about dates, with Speaker1 mentioning that they don't often go on dates and struggling to recall a specific instance. Speaker2 playfully teases Speaker1, saying they can't give them anything (possibly a piece of advice or a date idea) and then tells Speaker1 it's their turn (likely to share a story or idea).",
+            "model_prediction": "The core message of the audio is that the speaker is trying to explain why they cannot give a specific answer to a question. They mention that they are trying to remember something but cannot, and that it is causing them frustration. They also mention that they are trying to go for dates but are having difficulty remembering the words.",
+            "judge_response": "Explanation: The reference answer is a summary of a casual conversation between two speakers, where Speaker1 struggles to recall a specific date and Speaker2 playfully teases them. The model's answer, on the other hand, focuses on the speaker's inability to give a specific answer due to frustration and difficulty remembering words. While the model's answer captures the speaker's frustration, it misinterprets the context and tone of the conversation. I think the model's answer lacks accuracy and relevance to the reference.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        }
+    ]
+}

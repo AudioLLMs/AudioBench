@@ -1,0 +1,168 @@
+{
+    "llama3_70b_judge": {
+        "judge_score": 53.8,
+        "success_rate": 1.0
+    },
+    "details": [
+        {
+            "question": "What concerns do Speaker1 and Speaker2 have about hawker food stall initiatives?",
+            "reference": "Speaker1 appreciates the initiative of helping hawker stalls but finds it unsustainable for the long term.",
+            "model_prediction": "Speaker1 and Speaker2 are concerned that the hawker food stall initiative is not sustainable and does not provide long-term benefits to the hawkers, as it is a one-time thing and does not provide a steady source of income.",
+            "judge_response": "Explanation: The reference answer is specific to Speaker1's concern, stating that they find the initiative unsustainable for the long term. In contrast, the model's response is more general, combining the concerns of both speakers and adding the idea that the initiative is a one-time thing without a steady source of income. While the model's response captures the general idea of sustainability, it lacks the precision and specificity of the reference answer.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "How does Speaker1 describe processing emotions at a low point?",
+            "reference": "Speaker1 explains that when someone is at their lowest, they might interpret situations incorrectly or lack the strength to process emotions.",
+            "model_prediction": "You don't have the strength to process it.",
+            "judge_response": "Explanation: The reference answer explains that when someone is at their lowest, they might interpret situations incorrectly or lack the strength to process emotions. The model's answer is a brief statement \"You don't have the strength to process it.\" While the model's answer touches on the idea of lacking strength to process emotions, it doesn't fully capture the context and nuance of the reference answer. \n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "What astrological sign are the speakers trying to determine?",
+            "reference": "Speaker1 and Speaker2 discuss astrological signs, but neither can identify the sign before Sagittarius, with Speaker2 suggesting it isn’t Cancer or Gemini.",
+            "model_prediction": "The speakers are trying to determine the astrological sign for the month of June.",
+            "judge_response": "Explanation: The reference answer indicates that the speakers are discussing astrological signs and trying to determine the sign before Sagittarius, whereas the model's answer claims they are trying to determine the astrological sign for the month of June. I think these answers are not exactly aligned, as the reference doesn't mention a specific month, and the model's answer is making an assumption.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Why do some people think that all grants can be obtained at a CC?",
+            "reference": "People mistakenly believe all grants can be obtained at a Community Centre (CC) due to a lack of awareness and assumptions related to COVID-related government aid.",
+            "model_prediction": "Some people think that all grants can be obtained at a CC (Community Centre) because they are not aware that not all grants are under CC, and they may not know the limitations of what CC can do.",
+            "judge_response": "Explanation: The reference answer is discussing the lack of awareness and assumptions related to COVID-related government aid as the reason for people's misconception, while the model's answer is focusing on the lack of awareness about the limitations of what CC can do. Although the model's answer is similar, it doesn't quite capture the essence of the reference answer. \nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "What did the speaker like about \"Gather the Misfits\" cafe, and how did it compare to other cafes?",
+            "reference": "The speaker liked the fan art and latte art at \"Gather the Misfits,\" finding it cooler than the plainer \"Plus Eight Two Cafe.\" They also expected such cafes to be more expensive.",
+            "model_prediction": "The speaker liked \"Gather the Misfits\" cafe because of its unique features, such as the fan art on the cappuccino and latte art, which made it stand out compared to other cafes like \"plus 82\" which was described as plain.",
+            "judge_response": "Explanation: The reference answer highlights the speaker's preference for \"Gather the Misfits\" cafe due to its unique features, specifically fan art and latte art, and expects such cafes to be more expensive. The model's answer focuses on the unique features, but omits the expectation of higher prices. Additionally, the model renames \"Plus Eight Two Cafe\" to \"plus 82\" which might be considered a minor detail. I think the model's answer is close to the reference, but lacking in detail.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "What does the first speaker suggest about using LinkedIn for job hunting?",
+            "reference": "The first speaker suggests that many LinkedIn listings are under recruitment agencies, so there's no harm in applying as they just collect data.",
+            "model_prediction": "The first speaker suggests that using LinkedIn for job hunting is acceptable, as long as the recruiter is collecting data and not causing any harm.",
+            "judge_response": "Explanation: The reference answer is specific about the type of listings (under recruitment agencies) and the purpose of applying (they just collect data), while the model's answer is vague and focuses on the harmlessness of applying, without specifying the context. I think the model's answer is superficially related to the reference but lacks crucial details.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Why did the group hesitate during the activity, and what happened to the person involved?",
+            "reference": "The group hesitated because they were unsure whether to continue, but the instructor encouraged them to proceed. The person involved stopped, and later, he limped and went home.",
+            "model_prediction": "The group hesitated because they were unsure if they wanted to continue the activity after the instructor's initial encouragement. The person involved, likely the one who was playing the starting line, got hurt and was limping after the instructor helped him out and pulled the bike to the side, suggesting that he may have stopped participating.",
+            "judge_response": "Explanation: The reference answer states that the group hesitated due to uncertainty about proceeding, and the person involved stopped and limped home. In contrast, the model's answer introduces unnecessary details like the \"starting line\" and the instructor helping the person, which are not present in the reference. The model also infers that the person stopped participating, which is not explicitly stated in the reference. Overall, the model's answer recognizes the topic but diverges from the reference in accuracy and relevance. \n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "How does Speaker1 manage household tasks with kids?",
+            "reference": "Speaker1 relies on cameras for supervision but feels exhausted managing instructions and balancing tasks for the kids.",
+            "model_prediction": "Speaker1 does not manage household tasks with kids, as they do not instruct them to do tasks such as taking a shower or helping others, implying a hands-off approach to household responsibilities.",
+            "judge_response": "Explanation: The reference answer indicates that Speaker1 feels exhausted managing instructions and balancing tasks for the kids, implying an active role in managing household tasks with kids. In contrast, the model's answer suggests that Speaker1 does not manage household tasks with kids and takes a hands-off approach. These two answers are contradictory, and the model's answer does not align with the reference.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Where do Speaker1 go to shave their toddler’s hair?",
+            "reference": "Speaker1 shaves the toddler’s hair themselves.",
+            "model_prediction": "Speaker1 does not explicitly state where they will go to shave their toddler's hair, but it is implied that they will shave the child themselves.",
+            "judge_response": "Explanation: The reference answer is explicit that Speaker1 shaves the toddler's hair themselves, while the model's answer implies the same but in a more cautious tone, saying \"it is implied that they will shave the child themselves.\" I think the model's answer aligns closely with the reference, conveying the same meaning with slightly different wording.\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "How often does Speaker1 change their bike’s engine oil?",
+            "reference": "Speaker1 changes the bike’s engine oil every 2,000-3,000 kilometers.",
+            "model_prediction": "Every 2000 clicks.",
+            "judge_response": "Explanation: The reference answer is \"every 2,000-3,000 kilometers\", while the model's answer is \"every 2000 clicks\". I think the model's answer is close, but not entirely accurate. The term \"clicks\" is not a standard unit of measurement for distance, and it's unclear whether the model means kilometers or miles. Additionally, the model's answer does not capture the range provided in the reference answer.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Why did Speaker1 and their friends spend time in the toilet during class?",
+            "reference": "Speaker1 and their friends went to the toilet to watch YouTube videos on a passed-down iPhone 3S, using it as an escape during lessons.",
+            "model_prediction": "Speaker1 and their friends spent time in the toilet during class to watch YouTube videos on their iPhone 3GS, which had been passed down to them in primary 6.",
+            "judge_response": "Explanation: The reference answer is \"to watch YouTube videos on a passed-down iPhone 3S, using it as an escape during lessons\", while the model's answer is \"to watch YouTube videos on their iPhone 3GS, which had been passed down to them in primary 6\". I think the model's answer is mostly accurate and relevant, but it adds extra information about \"primary 6\" which is not present in the reference answer. \n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "How does Speaker1 suggest getting the best rate for a long stay?",
+            "reference": "Speaker1 advises directly calling the property to ask for the best rate for long stays, avoiding third-party platforms as they complicate the booking process.",
+            "model_prediction": "Speaker1 suggests getting the best rate for a long stay by calling the hotel directly and asking for their best rate for a 10-day stay.",
+            "judge_response": "Explanation: The reference answer is advising to call the property directly to ask for the best rate for long stays, avoiding third-party platforms, while the model's answer simplifies it to calling the hotel directly and asking for their best rate for a 10-day stay. I think the model's answer is close, but it loses some details, especially the part about avoiding third-party platforms.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "Why are urgent tasks difficult to address, according to Speaker1?",
+            "reference": "Speaker1 notes the difficulty of escalating urgent cases due to unresponsive systems.",
+            "model_prediction": "Urgent tasks are difficult to address because there is a delay in response, taking longer than usual, even after submitting a request.",
+            "judge_response": "Explanation: The reference answer is specific about the reason for difficulty in addressing urgent tasks, stating that it's due to \"unresponsive systems\". The model's answer, on the other hand, is vague, saying there is a \"delay in response\" without specifying the cause. While the model's answer is related to the topic, it lacks the precision and accuracy of the reference answer.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "What changes are being made to bus services?",
+            "reference": "Speaker1 mentions revamps to bus routes, noting that some buses like the 700 series have been removed, while Speaker2 observes new green SMRT buses.",
+            "model_prediction": "Bus routes are being revamped, and some bus services, such as bus 700, have been taken out, and new large bright green buses, like SM12, have been introduced.",
+            "judge_response": "Explanation: The reference answer mentions the revamp of bus routes, removal of certain buses (700 series), and the introduction of new green SMRT buses. The model's answer also mentions the revamp of bus routes, removal of bus 700, and introduction of new bright green buses. However, the model's answer lacks specific details about the type of buses (SMRT) and introduces an irrelevant detail about the bus number (SM12).\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "How did Speaker1 decide to take their course in polytechnic?",
+            "reference": "Speaker1 decided to take their course after organizing small events in secondary school, which sparked their interest in event management.",
+            "model_prediction": "Speaker1 did not have any prior experience or studies in events management, but they developed an interest in events during secondary school when they participated in a few small events. They then went straight to a polytechnic course in events management without any prior knowledge or experience in the field.",
+            "judge_response": "Explanation: The reference answer is specific about Speaker1 taking their course after organizing small events in secondary school, which sparked their interest in event management. The model's answer, on the other hand, states that Speaker1 developed an interest in events during secondary school and then took a polytechnic course without prior knowledge or experience. I think the model's answer is close to the reference answer but lacks the specific detail about \"organizing small events\" and instead uses the phrase \"participated in a few small events\".\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "What did Speaker1 eat during the day to avoid getting sick?",
+            "reference": "Speaker1 avoided eating fried fish and instead had Milo and biscuits for the entire day until reaching home at 9:30 PM.",
+            "model_prediction": "The speaker ate only biscuits throughout the day, after initially considering eating deep-fried fish but deciding against it to avoid getting sick.",
+            "judge_response": "Explanation: The reference answer is specific about the speaker's food intake, stating that they had Milo and biscuits for the entire day. In contrast, the model's answer simplifies this to \"biscuits throughout the day\" and adds an assumption about avoiding getting sick, which is not explicit in the reference. I think the model's answer lacks detail and precision compared to the reference.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "What saddens Speaker1 about high death rates in certain countries?",
+            "reference": "Speaker1 is saddened by high daily death tolls, like a thousand deaths in Indonesia, emphasizing that each individual is someone’s loved one.",
+            "model_prediction": "Speaker1 is saddened by the thought of the individual people who die in large numbers in a single day, such as the thousands of deaths in Indonesia, and wonders who these people are and how they got infected.",
+            "judge_response": "Explanation: The reference answer is concerned about the high daily death tolls, emphasizing that each individual is someone's loved one, whereas the model's answer wonders about the identity of the deceased and how they got infected. I think the model's answer is somewhat relevant but lacks the emotional tone and emphasis on the individuals being loved ones.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Why does Speaker1 think continuous talking is challenging?",
+            "reference": "Speaker1 finds continuous talking difficult because the conversations require some filtering.",
+            "model_prediction": "Speaker1 thinks continuous talking is challenging because it's difficult to maintain a conversation for an extended period, unlike narrating a story where they can talk for a whole hour without interruptions.",
+            "judge_response": "Explanation: The reference answer states that Speaker1 finds continuous talking difficult because conversations require some filtering, implying that the challenge lies in selecting what to say. In contrast, the model's answer suggests that the challenge is in maintaining a conversation for an extended period without interruptions, which is a different perspective. While the model's answer is related to continuous talking, it doesn't capture the essence of the reference answer. I think the model's answer recognizes the topic but diverges significantly from the reference in accuracy or relevance.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "What is Speaker1’s criticism of online posts?",
+            "reference": "Speaker1 criticizes that posts often repeat themselves with redundant introductions and lack meaningful content.",
+            "model_prediction": "Speaker1 criticizes online posts by saying that they only provide superficial introductions and lack substance, with the same format repeated in every post, making them uninteresting to read.",
+            "judge_response": "Explanation: The reference answer is concise and directly states the criticism, whereas the model's answer is a bit more elaborate and uses different wording. The model's answer correctly captures the idea of redundant introductions and lack of substance, but phrases it as \"superficial introductions\" and \"lack substance.\" I think the model's answer is a good paraphrase of the reference answer, maintaining the same level of accuracy and relevance.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "What does Speaker1 say about paying for CDA accounts?",
+            "reference": "Speaker1 mentions that even though the government provides funds for the CDA accounts, parents still contribute their money as well.",
+            "model_prediction": "Speaker1 mentions that you may need to pay for two CDA accounts, and that one of them is $800, which is money given by the government, not their own.",
+            "judge_response": "Explanation: The reference answer states that parents contribute their own money to CDA accounts in addition to government funds, while the model's answer claims that one of the CDA accounts is funded by the government with $800, with no mention of parental contributions. The model's answer is not only inaccurate but also focuses on a different aspect of CDA accounts.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        }
+    ]
+}

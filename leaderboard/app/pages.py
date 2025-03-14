@@ -540,12 +540,8 @@ def under_development():
                       'Parliament-Short',
                       'UKUS-News-Short',
                       'Mediacorp-Short',
-
                       'YTB-ASR-Batch1',
                       'YTB-ASR-Batch2',
-                      'SEAME-Dev-Man',
-                      'SEAME-Dev-Sge',
-
                       'YTB-SQA-Batch1',
                       'YTB-SDS-Batch1',
                       'YTB-PQA-Batch1',

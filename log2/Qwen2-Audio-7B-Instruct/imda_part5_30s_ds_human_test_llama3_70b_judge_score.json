@@ -1,0 +1,168 @@
+{
+    "llama3_70b_judge": {
+        "judge_score": 40.4,
+        "success_rate": 1.0
+    },
+    "details": [
+        {
+            "question": "Condense the dialogue into a concise summary highlighting major topics and conclusions.",
+            "reference": "Speaker1 and Speaker2 discuss handling regrets, with Speaker2 advocating for pushing boundaries to live a more fulfilled and regret-free life.",
+            "model_prediction": "The speaker discusses the concept of regrets in life, suggesting that since one cannot predict what they might regret not doing at the end of the day, it is better to try new things without hesitation. They also mention that regrets are common in daily life and occur when people don't act on their desires, such as not buying ice cream. The speaker concludes by advising listeners to avoid regrets by stepping out of their comfort zones and trying new experiences.",
+            "judge_response": "Explanation: The reference answer highlights the discussion between two speakers, with Speaker2 advocating for pushing boundaries to live a more fulfilled and regret-free life. In contrast, the model's answer focuses on a single speaker advising listeners to try new things and step out of their comfort zones to avoid regrets. While the model's answer touches on the idea of avoiding regrets, it lacks the context of the discussion between two speakers and omits the key point about living a more fulfilled life. \n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Outline the primary points and conclusions discussed in the dialogue.",
+            "reference": "Speaker1 and Speaker2 discuss their reasons for using POSB. Speaker1 follows their parents' choice, while Speaker2 appreciates POSB's competitive interest rates and lack of minimum balance requirement compared to other banks.",
+            "model_prediction": "The primary points discussed in the dialogue pertain to the reasons for choosing PSB as a bank and the advantages it offers compared to other banks. The speaker mentions that their parents have been using PSB since they were young and did not find the need to switch to any other bank. They highlight the attractive interest rates and the lack of a minimum amount requirement to be held in the account as factors that contribute to their preference for PSB. Additionally, the speaker notes that some banks require a minimum balance, which is not the case with PSB.",
+            "judge_response": "Explanation: The reference answer highlights the two speakers' reasons for using POSB, with one following their parents' choice and the other appreciating the competitive interest rates and lack of minimum balance requirement. The model's answer focuses on the second speaker's reasons, mentioning the attractive interest rates and lack of minimum balance requirement, but omits the first speaker's reason. The model's answer also adds a new point about other banks requiring a minimum balance, which is not present in the reference answer.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Generate a summary that distills the dialogue into its most important discussions and decisions.",
+            "reference": "Speaker1 and Speaker2 discuss handling judgments and perceptions. Speaker2 stresses the subjectivity of people's views and the need to acknowledge human complexity while striving for balance in social interactions.",
+            "model_prediction": "The speakers discuss the challenge of having people form impressions and judgments about them, and suggest that it's important to maintain a positive image. They also emphasize the need for self-awareness and understanding that everyone has different perspectives. Finally, they encourage a healthy balance in interactions with others.",
+            "judge_response": "Explanation: The reference answer emphasizes the subjectivity of people's views and the importance of acknowledging human complexity while striving for balance in social interactions. In contrast, the model's answer focuses on maintaining a positive image, self-awareness, and understanding different perspectives, but lacks the nuance of the reference answer. The model's answer is more superficial and does not capture the depth of the reference answer.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Produce a short summary detailing the primary discussions and decisions from the dialogue.",
+            "reference": "Speaker1 and Speaker2 discussed CPF, with Speaker2 likening its benefits to a lottery win due to its perceived significance for specific individuals.",
+            "model_prediction": "The primary discussion revolves around striking a lottery and the challenges in generating consensus among a small group of people. It is also mentioned that one individual's idea might be to introduce a Central Processing Unit (CPU).",
+            "judge_response": "Explanation: The reference answer is about CPF and its benefits being likened to a lottery win, while the model's answer talks about striking a lottery, CPUs, and generating consensus among a small group of people. The model's answer is completely misaligned with the reference answer, showing no understanding of the topic being discussed.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Condense the dialogue into a concise summary highlighting major topics and conclusions.",
+            "reference": "Speaker1 recounts an incident at Bedok Interchange where a woman refused to move aside for their two-year-old son, who was walking unsteadily, causing frustration.",
+            "model_prediction": "The audio discusses a person's experience of walking with their two-year-old son who is not very stable on his feet. The conversation reflects on the challenges of parenting, particularly when trying to ensure the safety of both the child and oneself. It highlights how a child's independence can conflict with parental responsibilities, as illustrated by the child's refusal to stop walking despite the danger involved.",
+            "judge_response": "Explanation: The reference answer is about a woman who refused to move aside for a two-year-old child who was walking unsteadily at Bedok Interchange, causing frustration. In contrast, the model's answer focuses on the challenges of parenting, the child's independence, and parental responsibilities, which are irrelevant to the specific incident described in the reference answer. The model's response does not capture the essence and detail of the reference answer.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "Generate a summary that distills the dialogue into its most important discussions and decisions.",
+            "reference": "Speaker1 and Speaker2 discussed group dynamics during holidays, highlighting how one member’s independent behavior affects group cohesion.",
+            "model_prediction": "The main discussion revolves around a person's tendency to move ahead quickly, leaving others behind, especially during group activities like walking or going to stores. It also touches on how this individual's behavior is perceived in relation to holidays and health conditions.",
+            "judge_response": "Explanation: The reference answer is about group dynamics during holidays and how one member's independent behavior affects group cohesion, while the model's answer is about a person's tendency to move ahead quickly, leaving others behind, and how this behavior is perceived in relation to holidays and health conditions. I think the model's answer is somewhat related to the topic of group dynamics, but it lacks the specificity and accuracy of the reference answer.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Compose a brief summary emphasizing the key topics and decisions within the dialogue.",
+            "reference": "Speaker1 recounts a targeted incident where classmates admitted to placing a thumbtack on their chair, acting on a mistaken belief that Speaker1 had taken their competition spot.",
+            "model_prediction": "The dialogue revolves around a situation where the speaker found an object on their chair which led them to suspect foul play. An investigation revealed that two classmates were responsible for placing it there as they believed the speaker had stolen their spot in a competition. The speaker was unaware of the competition, and no participation was involved.",
+            "judge_response": "Explanation: The reference answer is specific about the object being a thumbtack, and the mistaken belief of the classmates being about taking their competition spot. In contrast, the model's answer is vague, stating that an object was found on the chair and the classmates' belief was about stealing their spot in a competition, without providing specific details. I think the model's answer lacks precision and clarity compared to the reference answer.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Write a short overview focusing on the main discussions and outcomes of the dialogue.",
+            "reference": "Speaker1 and Speaker2 discuss Speaker1's meditation experience. Speaker1 reflects on their ability to remain calm and focused during meditation, contrasting it with others who find it challenging to sit quietly for extended periods.",
+            "model_prediction": "The dialogue revolves around the practice of meditation, with one participant indicating they can meditate for over thirty minutes without getting restless. They also discuss the concept of people being unable to stand the quiet for extended periods, highlighting a contrast in individual abilities to concentrate and maintain focus during meditation.",
+            "judge_response": "Explanation: The reference answer is concise and precise, highlighting the main theme of the dialogue, which is the discussion of meditation and the speaker's ability to remain calm and focused. The model's answer also captures the main theme, but provides a bit more detail, mentioning the time duration (over thirty minutes) and the contrast in individual abilities to concentrate. I think the model's answer is mostly accurate and relevant, closely following the reference but could be clearer or more detailed.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "Formulate a summary that condenses the main discussions and resolutions of the dialogue.",
+            "reference": "Speaker1 and Speaker2 share experiences of witnessing sad events. Speaker1 does not elaborate but asks Speaker2, who shares their experiences related to their role as a firefighter or civil servant.",
+            "model_prediction": "The dialogue revolves around a situation where a bonus is at stake, leading to a conversation about strategies to avoid talking about it. It eventually shifts to individual introductions, with one participant mentioning their profession as a firefighter.",
+            "judge_response": "Explanation: The reference answer is focused on the conversation about witnessing sad events and sharing experiences related to being a firefighter or civil servant. In contrast, the model's answer talks about a bonus, strategies to avoid talking about it, and eventually shifts to individual introductions with one participant mentioning their profession as a firefighter. The two answers have minimal alignment, with the model's response providing irrelevant details unrelated to the reference.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "Draft a concise summary that includes main topics and any decisions reached.",
+            "reference": "Speaker1 and Speaker2 discuss comfort food. Speaker1 shares their love for spicy food, describing how it excites their taste buds.",
+            "model_prediction": "The audio discusses the preference for spicy food and comfort foods. Both speakers enjoy spicy food, with one considering it their comfort food. They also discuss the topic of thankfulness for food.",
+            "judge_response": "Explanation: The reference answer is specific about Speaker1's love for spicy food and its effect on their taste buds, whereas the model's answer is more general, discussing the preference for spicy food and comfort foods without highlighting the excitement of taste buds. The model's answer also introduces a new topic, \"thankfulness for food,\" which is not present in the reference answer. I think the model's response lacks precision and detail compared to the reference.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Prepare a concise overview of the dialogue, highlighting central themes and decisions.",
+            "reference": "Speaker1 and Speaker2 discuss bad customer service. Speaker1 shares their disdain for rude staff, vowing never to return to the shop in question despite their appreciation for good service elsewhere.",
+            "model_prediction": "The conversation revolves around a negative shopping experience at a specific store, where the customer service was notably poor. The speaker expresses a strong determination not to return to that shop again. They also mention a related incident involving food in another location, which seems to have been a more positive experience.",
+            "judge_response": "Explanation: The reference answer clearly states that Speaker1 shares their disdain for rude staff and vows never to return to the shop, while also appreciating good service elsewhere. In contrast, the model's answer focuses on the negative shopping experience and the speaker's determination not to return, but it does not explicitly mention the appreciation for good service elsewhere. Additionally, it introduces an unrelated incident involving food, which is not present in the reference answer.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Draft a concise summary that includes main topics and any decisions reached.",
+            "reference": "Speaker1 recounts their boss's frustration with the subpar service standards at their cafe. The discussion highlights the importance of hiring and training staff to ensure a better experience for customers.",
+            "model_prediction": "The speaker discussed a situation where the boss was furious about F & M E service standards and felt the need to hire someone to train staff. The speaker also expressed frustration about the standard being too high and imagined its impact on customers in their cafe.",
+            "judge_response": "Explanation: The reference answer highlights the importance of hiring and training staff to ensure a better customer experience, while the model's answer focuses on the boss's frustration and the speaker's concern about the high standards. The model's answer lacks clarity and accuracy in conveying the main topic, which is the need for proper staff training to improve service standards.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Summarize the dialogue by focusing on critical points and speaker contributions.",
+            "reference": "Speaker1 shares their experience of being appreciated at work. They mention receiving positive feedback for their team's performance and being treated to a meal by their GM as a gesture of appreciation.",
+            "model_prediction": "The speaker has received recognition for their hard work and dedication from various groups, including through appraisals from their GM. The speaker also appreciated the support from their GM in providing food.",
+            "judge_response": "Explanation: The reference answer is specific about the appreciation the speaker received, mentioning \"positive feedback for their team's performance\" and \"being treated to a meal by their GM as a gesture of appreciation\". In contrast, the model's answer is more general, stating that the speaker received \"recognition for their hard work and dedication\" and \"appreciated the support from their GM in providing food\". The model's answer loses some details and specificity compared to the reference answer.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Forge a succinct narrative summarizing the dialogue’s main points and resolutions.",
+            "reference": "Speaker1 and Speaker2 reflect on the challenges of interpreting terms and conditions. Speaker1 points out the complex legal language, the lack of clarity, and the frustration of not having a reliable way to verify their intended meaning.",
+            "model_prediction": "The dialogue revolves around the issue of people not understanding certain conditions in their contracts. It highlights the problem of ambiguous language and the difficulty in verifying its accuracy, leading to potential misunderstandings or disputes. The speakers seem to agree that there is a need for clearer definitions and explanations to avoid such issues.",
+            "judge_response": "Explanation: The reference answer highlights the challenges of interpreting terms and conditions, specifically mentioning complex legal language, lack of clarity, and the frustration of not having a reliable way to verify intended meaning. The model's answer, while discussing the issue of ambiguous language and the need for clearer definitions, omits the reference's emphasis on the frustration and lack of verification methods. I think the model's answer is a simplified version of the reference, capturing the general idea but lacking some details.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Summarize the dialogue by focusing on critical points and speaker contributions.",
+            "reference": "Speaker1 and Speaker2 discussed eligibility for financial benefits, with Speaker1 explaining their rejection due to unemployment.",
+            "model_prediction": "The speaker begins by expressing an interest in teaching but then reveals that they were denied eligibility. They relate a personal experience of attempting to qualify for a program with a $1,000 fee but being rejected after failing a drug test. The conversation shifts when another participant mentions a $800 fee with three rejections before employment is required. The speaker then shares their own story of being rejected for the same program last year despite not working all year.",
+            "judge_response": "Explanation: The reference answer is focused on the discussion between Speaker1 and Speaker2 about eligibility for financial benefits, with Speaker1 explaining their rejection due to unemployment. In contrast, the model's answer is more focused on the speaker's personal experience and the conversation shifts between different fees and rejections. While the model's answer touches on the topic of rejection, it lacks the clarity and precision of the reference answer.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Develop a summary that succinctly captures the essential points and results of the dialogue.",
+            "reference": "Speaker1 and Speaker2 engaged in a conversation about negativity, with Speaker2 encouraging Speaker1 to share. Speaker2 suggested that they don't think they are negative people, but wanted to discuss negative thoughts and feelings. Speaker1 seemed hesitant to share their thoughts, but Speaker2 continued to prompt them to open up about what they dislike about someone.",
+            "model_prediction": "The conversation revolves around self-reflection on negative behavior and its impact on societal perceptions. The speakers question if they are seen as negative individuals and discuss what triggers their negative responses towards others. They also delve into the concept of sharing personal dislikes to understand他人 better.",
+            "judge_response": "Explanation: The reference answer specifies that Speaker1 is hesitant to share their negative thoughts and feelings, and Speaker2 encourages them to open up about what they dislike about someone. In contrast, the model's answer struggles to capture this interaction, instead focusing on the speakers questioning their own negativity and discussing triggers for negative responses. The model also introduces unrelated concepts, such as societal perceptions and understanding others better.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Condense the dialogue into a concise summary highlighting major topics and conclusions.",
+            "reference": "Speaker1 and Speaker2 discuss financial planning, with Speaker1 highlighting the need to plan ahead and budget carefully to meet future financial goals.",
+            "model_prediction": "The speaker emphasizes the importance of planning ahead and saving money from the current salary or income level to achieve financial goals.",
+            "judge_response": "Explanation: The reference answer highlights the importance of planning ahead and budgeting carefully to meet future financial goals, while the model's answer emphasizes the need to plan ahead and save money from the current salary or income level to achieve financial goals. Although the model's answer is concise and relevant, it lacks the detail and precision of the reference answer, particularly the mention of budgeting carefully. I think the model's answer is generally aligned with the reference but could be more detailed.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Compose a brief summary emphasizing the key topics and decisions within the dialogue.",
+            "reference": "Speaker1 and Speaker2 discuss Speaker1's JC experience involving cycling. Speaker1 shares an anecdote about getting caught in the rain, adapting to avoid such situations, and reflecting on the challenges of commuting during that period.",
+            "model_prediction": "The speaker details an interesting experience related to cycling involving a bus and a parking lot, indicating it happened occasionally, not frequently.",
+            "judge_response": "Explanation: The reference answer highlights Speaker1's JC experience involving cycling, focusing on getting caught in the rain, adapting to avoid such situations, and reflecting on the challenges of commuting. In contrast, the model's answer describes an anecdote about cycling involving a bus and a parking lot, which is unrelated to the reference. The model's response lacks accuracy and relevance, providing a different experience altogether.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Outline the primary points and conclusions discussed in the dialogue.",
+            "reference": "Speaker1 and Speaker2 discuss Speaker1’s aversion to supernatural topics. Speaker1 explains that they actively avoid such discussions and ask their friends not to bring them up due to their discomfort with the subject.",
+            "model_prediction": "The primary points discussed include someone's aversion to topics related to ghosts and an experience shared on social media about a solo round-the-island trip. The conclusion seems to be that the speaker is cautious about sharing personal information, especially when it involves potentially dangerous activities like ghost hunting.",
+            "judge_response": "Explanation: The reference answer is about Speaker1's aversion to supernatural topics and their avoidance of such discussions, while the model's answer is about someone being cautious about sharing personal information, especially when it involves potentially dangerous activities like ghost hunting. The model's answer seems to be unrelated to the reference answer, and the primary points and conclusions discussed are not accurate. I think the model's answer is completely misaligned with the reference answer.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Outline the primary points and conclusions discussed in the dialogue.",
+            "reference": "Speaker1 and Speaker2 discuss Sweet Talk beverages. Speaker1 notes its presence in Hougang, while Speaker2 shares their occasional purchases, describing the tea as sweet but lacking an authentic tea aroma.",
+            "model_prediction": "The primary points discussed include someone's experience with a certain product, personal preferences, and an inquiry about its availability. The conclusion seems to be that the product is not commonly bought by most people.",
+            "judge_response": "Explanation: The reference answer specifically mentions the topic of Sweet Talk beverages, the speakers' discussion about its presence in Hougang, and the assessment of its taste. In contrast, the model's answer is vague, mentioning general topics like \"someone's experience with a certain product\" and \"personal preferences\" without providing any specific details about Sweet Talk beverages. The model's conclusion about the product not being commonly bought by most people is also not supported by the reference answer.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        }
+    ]
+}

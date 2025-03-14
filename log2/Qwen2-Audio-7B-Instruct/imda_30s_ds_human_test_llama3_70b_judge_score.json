@@ -1,0 +1,168 @@
+{
+    "llama3_70b_judge": {
+        "judge_score": 37.599999999999994,
+        "success_rate": 0.995
+    },
+    "details": [
+        {
+            "question": "Please provide a summary of the audio.",
+            "reference": "Speaker1 and Speaker2 discuss their opinions on Jay Chou and JJ Lin. The first speaker recalls being extremely close to Jay Chou at an event and describes it as a memorable experience. They express a preference for Jay Chou’s music over JJ Lin’s, despite JJ Lin's greater popularity in Singapore. The second speaker agrees and adds that Jay Chou’s fanbase in Singapore is growing.",
+            "model_prediction": "The audio seems to be a collection of several unrelated statements or thoughts by different individuals. There is mention of a person named 'Ji Xiao' and another individual who appears to have a large fan base in Singapore, but without more context it's difficult to provide a comprehensive summary.",
+            "judge_response": "Explanation: The reference answer is a clear and concise summary of the audio discussion between two speakers about their opinions on Jay Chou and JJ Lin, specifically mentioning their personal experiences and preferences. In contrast, the model's answer is vague and lacks any specific details about the audio content, mistakenly mentioning an unrelated name \"Ji Xiao\" and failing to grasp the main topic. I think the model's answer is completely misaligned with the reference.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Could you break down the important parts of the audio for me?",
+            "reference": "The conversation involves comparing features of rabbit cages. Speaker2 describes their cage as green with a yellow base and no \"buy me\" sign, while Speaker1’s cage has the sign on the front at the top.",
+            "model_prediction": "Certainly, the important parts of the audio are: 'ya okay there on that tree gods eyes okay and then i have a cage green cage with yellow base and a rabbit white rabbit um does it say buy me no okay mine says buy me okay your buy me sign where is it um it's at the top is the under front on the top side on the top of the okay on the top of the cage.'",
+            "judge_response": "Explanation: The reference answer highlights the key features of the rabbit cages, specifically the color, base, and the presence/absence of a \"buy me\" sign. In contrast, the model's answer is a jumbled transcript of the conversation, with some relevant information scattered throughout. While it mentions the cage's color, base, and \"buy me\" sign, it does not provide a clear or concise summary of the key features. I think the model's answer is attempting to provide some relevant information but falls short in terms of clarity and organization.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Would you be able to summarize the content captured in the audio?",
+            "reference": "Speaker1 and Speaker2 discussed describing a visual scene, with Speaker2 pointing out a specific detail, a sign in the top right-hand corner. Speaker1 agreed and began to describe the scene in more detail, including a large rectangular box-shaped building with a brown background and a sign saying \"bar\".",
+            "model_prediction": "The transcription of the audio is: 'Okay, so I don't think there's any differences in this one. Okay, I think it's the top right-hand corner. Yeah, I suppose so. Oh, got even more words. Okay, I suppose that'll probably be there. And we describe this in too much detail? I think so too. My condolences to whoever transcribes this. Okay, so let's see. In the top right there's a large build, rectangular box-shaped building, boxy building. There's a sign, the sign in the top middle saying 'Parc'. It's a brown background.'",
+            "judge_response": "Explanation: The reference answer describes a visual scene with a large rectangular box-shaped building with a brown background and a sign saying \"bar\" in the top right-hand corner. In contrast, the model's answer describes a scene with a similar building, but with a sign saying \"Parc\" in the top middle, not top right-hand corner, and the building shape is described as \"boxy\" instead of rectangular. This shows a similarity in topic, but a divergence in accuracy and detail. \n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Could you kindly summarize the audio's content?",
+            "reference": "The speakers compare details about baskets of peaches. One basket has three peaches tied to a string, while another lacks this arrangement, prompting discussion of the difference.",
+            "model_prediction": "The speaker seems to be describing a scenario where there are multiple items, possibly related to photography or strings, being held or displayed in a specific manner involving a 'basket' and a 'string'. The context appears to involve a discussion about the quantity of pictures, which seem to be either three or five, and how they might be connected or secured together.",
+            "judge_response": "Explanation: The reference answer is specific about the context, mentioning \"baskets of peaches\" and the difference between them, whereas the model's answer is vague and unrelated, talking about \"photography or strings\" and \"quantity of pictures\". The model's answer lacks accuracy and relevance to the reference, providing incorrect information.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Could you kindly summarize the audio's content?",
+            "reference": "The conversation focuses on filling orders. Speaker1 and Speaker2 highlight the flexibility and efficiency of the process, appreciating the lack of time pressure and the provided transport.",
+            "model_prediction": "The speaker discusses their dissatisfaction with being assigned to random places they dislike, indicating that the process of shopping takes up a lot of time due to transportation issues. They appreciate the lack of time constraints and the ability to complete tasks quickly without needing to inform anyone, highlighting the simplicity of fulfilling orders. The speaker also mentions that there are no incentives given for the amount of sugar produced per hour.",
+            "judge_response": "Explanation: The reference answer highlights the flexibility and efficiency of the process, appreciating the lack of time pressure and the provided transport. In contrast, the model's answer discusses dissatisfaction with assigned places, transportation issues, and lack of incentives, which are not mentioned in the reference answer. The model's answer also incorrectly mentions \"sugar produced per hour\" which is not relevant to the conversation about filling orders.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Is it possible for you to offer a summary of the audio?",
+            "reference": "The speakers compare their observations, noting differences in the shop signs and describing the bottles' colors on the table.",
+            "model_prediction": "The original content of this audio is:'Okay, so there's a sign, right? Mine says 'special offer - peach wine.' Uh-huh yours says a different thing, correct? Yes, correct. And then on the shop front table there are two bottles, okay? One white and one yellow and one red. Okay. And then at the foreground, background, the background is green in color, same color as the trash bin, yes, correct. It's a brick wall, right? Ya, brick wall. And then there are, there is one bachelor, and there's one...'",
+            "judge_response": "Explanation: The reference answer is a concise summary of the audio, focusing on the speakers comparing their observations of shop signs and bottle colors. The model's answer, on the other hand, is a paraphrased version of the original audio content, including unnecessary details such as the background color and trash bin. While the model's answer touches on the topic, it lacks the clarity and focus of the reference answer.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Would you mind helping to summarize the content of the audio?",
+            "reference": "The speakers discuss the inconvenience caused by road construction, with Speaker1 describing a lengthy walk to a distant bus stop to complete the same journey.",
+            "model_prediction": "The speaker is discussing a route that is different from going across to the other side of the road and taking the same bus back, involving more stops and a longer travel time.",
+            "judge_response": "Explanation: The reference answer is describing the inconvenience caused by road construction, specifically a lengthy walk to a distant bus stop, while the model's answer is discussing a route that is different from going across to the other side of the road and taking the same bus back, involving more stops and a longer travel time. Although the model's answer mentions the bus route, it doesn't capture the essence of the reference answer, which focuses on the inconvenience caused by road construction.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Is it possible for you to offer a summary of the audio?",
+            "reference": "The speakers discuss their past TV show preferences, with Speaker1 teasing Speaker2 for being a Glee fan, while Speaker2 reminisces about their deep fandom and related usernames.",
+            "model_prediction": "The conversation in the audio is a mix of English and non-English words, with one person expressing frustration about a situation involving a 'deek' and a change in a 'pontificate'. The conversation seems to be a personal exchange without a clear public context.",
+            "judge_response": "Explanation: The reference answer clearly states that the speakers discuss their past TV show preferences, specifically mentioning Glee and related usernames. In contrast, the model's answer is completely misaligned, providing unrelated information about a \"deek\" and a \"pontificate\", which is not mentioned in the reference.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Could you offer a brief summary of what the audio contains?",
+            "reference": "The conversation reflects on life's challenges, including the irony of money being essential for many things, the difficulty of marriage, and the high cost of housing in their country.",
+            "model_prediction": "The audio discusses the challenges of affording basic necessities like a house, highlighting the irony that money cannot buy happiness and how difficult it is to achieve financial stability.",
+            "judge_response": "Explanation: The reference answer is more comprehensive, covering specific challenges in life such as the irony of money, difficulty of marriage, and high cost of housing. The model's answer, on the other hand, only focuses on the difficulty of affording basic necessities like a house and the idea that money can't buy happiness. While the model's answer touches on the topic, it lacks the details and specificity of the reference answer. I think the model's answer is somewhat aligned with the reference but lacks precision in some aspects.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Could you help provide a summary of the audio details?",
+            "reference": "The speakers discuss safety concerns, with Speaker1 recommending the SAFRA shooting range. Speaker2 agrees it’s beneficial but hesitates due to the inconvenience of traveling there.",
+            "model_prediction": "The audio contains a conversation where two men discuss personal safety and potential options for addressing it, including going to a shooting range. One man suggests that living in a rural area with only one road across may make it easier to feel unsafe due to limited mobility. The conversation also touches on the topic of gun ownership, with one individual mentioning that they have a new poly clinic nearby which could potentially be used for medical supplies in an emergency situation.",
+            "judge_response": "Explanation: The reference answer specifically mentions the speakers discussing safety concerns and the SAFRA shooting range, whereas the model's answer goes off on a tangent, discussing rural areas, gun ownership, and poly clinics. The model's answer does not accurately capture the content and accuracy of the reference answer.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "I would appreciate it if you could summarize the audio content.",
+            "reference": "The speakers discuss noise disturbances at chalets. Speaker1 describes instances where police were involved, while Speaker2 comments humorously, comparing the rowdy groups to gangsters.",
+            "model_prediction": "The audio consists of a series of disconnected phrases and statements, including references to problems, assistance, police, noise, groups, and individuals with wives and gangsters. There seems to be no coherent narrative or central theme.",
+            "judge_response": "Explanation: The reference answer is a concise summary of the audio content, highlighting the topic of noise disturbances at chalets and the speakers' discussion style. In contrast, the model's answer is vague and fail to capture the essence of the reference answer, providing instead a list of disconnected phrases and statements.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Can you help clarify the main ideas in the audio?",
+            "reference": "The speakers compare their desks, identifying differences such as peaches being present on Speaker1’s desk but absent from Speaker2’s, which only has a blender.",
+            "model_prediction": "The speaker is describing their desk setup, mentioning items like a blender and pictures. They highlight a difference with their setup compared to possibly another's, specifically regarding the presence of pictures and the number of blenders.",
+            "judge_response": "Explanation: The reference answer is specific about the differences between the two desks, mentioning peaches and a blender, whereas the model's answer is vague and focuses on general items like \"pictures\" and \"blenders\" without specifying the unique differences. The model's answer lacks accuracy and relevance to the reference.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Can you assist with summarizing the details from the audio?",
+            "reference": "The speakers plan logistics for their hotel stay, considering a 30-minute travel time from the airport but noting a gap until the 2 pm check-in time at the hotel.",
+            "model_prediction": "The conversation is about the estimated time and process of getting from the airport to a hotel. It is implied that the journey takes around thirty minutes, and one should make arrangements in advance, possibly by contacting a taxi service like K歌Hing's. The discussion also notes that it might be around twelve-thirty PM or one or two PM when they leave the airport, and an event or activity is being referenced that starts at two PM.",
+            "judge_response": "Explanation: The reference answer specifically mentions the speakers planning logistics for their hotel stay, including a 30-minute travel time from the airport and a gap until the 2 pm check-in time at the hotel. In contrast, the model's answer is more general, discussing the estimated time and process of getting from the airport to a hotel, but also introducing unrelated information about contacting a taxi service and an unknown event or activity. I think the model's answer lacks precision and detail compared to the reference answer.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Can you summarize the key points from the audio?",
+            "reference": "The speakers discuss a unique drink combination of Baileys and sweet green tea. Speaker1 suggests it as a must-try, while Speaker2 expresses curiosity and interest in giving it a shot.",
+            "model_prediction": "The audio discusses trying different types of green tea, including 'Baileys Green Tea', 'Pocahontas Green Tea', and other brands like 'Wishful Green Tea'.",
+            "judge_response": "Explanation: The reference answer describes a specific conversation between two speakers about trying a unique drink combination of Baileys and sweet green tea. In contrast, the model's response appears to be discussing different types of green tea brands, which is unrelated to the reference answer. The model's answer does not mention Baileys or the conversation between the speakers.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Could you help provide a summary of the audio details?",
+            "reference": "The speakers discuss Speaker1’s abilities. While Speaker1 views themselves as simply hardworking, Speaker2 believes their practical skills and problem-solving ability reflect intelligence.",
+            "model_prediction": "The conversation in the audio reveals a discussion about intelligence and skills. One person mentions that they are smart but do not always perform well in studies, while another counters by saying that being smart is just one aspect and hard work also plays a significant role. There is also a mention of practical skills and an example given with taking an MRT, suggesting that not everyone finds it easy. The conversation touches on the idea that intelligence has different forms and that勤奋是重要的品质。",
+            "judge_response": "Explanation: The reference answer specifically highlights the speakers' discussion about Speaker1's abilities, with Speaker1 attributing their success to hard work and Speaker2 believing their practical skills and problem-solving ability reflect intelligence. In contrast, the model's answer provides a more general overview of the conversation, mentioning the discussion about intelligence, skills, and hard work, but lacks specific details about the speakers' perspectives.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Could you please summarize the audio?",
+            "reference": "The speakers reflect on their tendency to describe situations in great detail, with Speaker1 jokingly offering \"condolences\" to anyone transcribing their words.",
+            "model_prediction": "The speaker describes their rebellious nature, stating that they do not care about what others say and often act contrary to societal expectations. They also mention rebelling against their parents and find it a small form of rebellion that has a significant impact on them.",
+            "judge_response": "Explanation: The reference answer is about the speakers' tendency to provide excessive detail and their acknowledgment of the difficulty it may cause for transcribers. In contrast, the model's answer is about the speaker's rebellious nature and their behavior towards their parents. There is no connection between the two answers, and the model's response does not address the topic mentioned in the reference.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Can you summarize the key points from the audio?",
+            "reference": "Speaker2 recounts an emotional interaction where someone unexpectedly shouted, promised repayment, and left money on the table before withdrawing.",
+            "model_prediction": "The speaker expresses frustration about a conversation that seemed off-topic and irrelevant, leading to their decision to end it. They also mention a person named 'Uncle Ebene' who they had been expecting but did not show up, as well as a situation where someone demanded money without explanation and then left.",
+            "judge_response": "Explanation: The reference answer describes an emotional interaction where someone unexpectedly shouted, promised repayment, and left money on the table before withdrawing. In contrast, the model's answer seems to be describing a completely different scenario, mentioning an off-topic conversation, Uncle Ebene, and someone demanding money without explanation. The two answers share no common points or themes.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Would you be able to summarize the content captured in the audio?",
+            "reference": "Speaker1 recalls their positive experiences with Chinese teachers, while Speaker2 highlights their enjoyment of English and Literature teachers, praising one for their humor.",
+            "model_prediction": "The original content of this audio is: 'Actually, I feel like generally Chinese teachers are very, very nice. Most of them were very supportive for me, from my primary school to my late teachers. For me, I think my favorite teachers for late teachers and English teachers, maybe that's why they're always I had this teacher who was so funny. Say English teacher, he just never fails to crack us up in class. He's the funniest guy I've ever met in my life, literally.'",
+            "judge_response": "Explanation: The reference answer highlights the speakers' positive experiences with teachers, with Speaker1 mentioning Chinese teachers and Speaker2 mentioning English and Literature teachers, specifically praising one for their humor. The model's answer, while not perfectly structured, captures the essence of the reference answer, mentioning the speakers' favorite teachers, specifically an English teacher who was humorous. The model's answer lacks clarity and detail, but it generally aligns with the reference answer.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Could you help provide a summary of the audio details?",
+            "reference": "Speaker1 expresses dissatisfaction with infrequent conversations but appreciates the freedom to make coffee as part of their co-op experience.",
+            "model_prediction": "The conversation seems to involve two individuals communicating by text, where there is a back-and-forth exchange that appears to be ongoing and involves multiple days. The conversation style suggests a casual or informal interaction, with one participant describing their activity as mainly walking and working.",
+            "judge_response": "Explanation: The reference answer is focused on the content of the conversation, specifically the speaker's dissatisfaction with infrequent conversations and appreciation for the freedom to make coffee. In contrast, the model's answer is more about the format and style of the conversation, describing it as a casual, back-and-forth exchange. The model's answer lacks alignment with the reference in terms of content and accuracy.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Can you break down the main ideas from the audio for me?",
+            "reference": "The speakers discuss generational differences, with Speaker1 reflecting on the physical challenges their mother endured, while Speaker2 highlights the modern lack of such hardships and stresses independence.",
+            "model_prediction": "The main ideas discussed in the audio include a comparison of how different generations face problems and the impact of societal changes on personal freedom.",
+            "judge_response": "Explanation: The reference answer specifically highlights the themes of generational differences and the impact of modernity on personal freedom, while the model's answer provides a more general outline of the discussion, mentioning a comparison of problems faced by different generations and the impact of societal changes on personal freedom. The model's answer lacks the specific details mentioned in the reference answer. I think the model's answer aligns with the reference answer generally, but lacks precision and detail in some aspects.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        }
+    ]
+}

@@ -1,0 +1,168 @@
+{
+    "llama3_70b_judge": {
+        "judge_score": 29.382470119521916,
+        "success_rate": 1.0
+    },
+    "details": [
+        {
+            "question": "How does the speaker's speech reflect their emotional state (frustration, anger, excited, neutral, happiness, surprise, sad)?",
+            "reference": "From the speaker's speech, it seems they are in a neutral state state.",
+            "model_prediction": "Based on the voice, it sounds like this person is neutral.",
+            "judge_response": "Explanation: The reference answer is \"From the speaker's speech, it seems they are in a neutral state\", while the model's answer is \"Based on the voice, it sounds like this person is neutral\". I think the model's answer is a correct and relevant paraphrase of the reference answer, conveying the same meaning.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "Can you identify the speaker's emotional state from their speech (frustration, anger, excited, neutral, happiness, surprise, sad)?",
+            "reference": "The speaker's tone sounds excited.",
+            "model_prediction": "Based on the voice, it sounds like this person is happy in the speech.",
+            "judge_response": "Explanation: The reference answer is \"excited\", while the model's answer is \"happy\". I think the model's answer is close, but not exactly the same as the reference answer. However, \"happy\" is a related emotional state to \"excited\", and the model's answer still conveys a positive tone.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "Can you interpret the emotions in the speaker's speech (frustration, anger, excited, neutral, happiness, surprise, sad)?",
+            "reference": "From the speaker's speech, it seems they are in a frustration state.",
+            "model_prediction": "Based on the voice, it sounds like this person is neutral in the speech.",
+            "judge_response": "Explanation: The reference answer is that the speaker is in a frustrated state, while the model's answer is that the speaker is neutral. These two answers are inconsistent, and the model's answer does not accurately capture the emotion conveyed in the speaker's speech. I think the model's answer is incorrect and fails to provide relevant information compared to the reference.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Can you identify the speaker's emotional state from their speech (frustration, anger, excited, neutral, happiness, surprise, sad)?",
+            "reference": "The speaker's speech suggesting they might be feeling neutral state.",
+            "model_prediction": "Based on the voice, it sounds like this person is neutral.",
+            "judge_response": "Explanation: The reference answer is suggesting the speaker's emotional state is neutral, while the model's answer is also identifying the speaker's emotional state as neutral. I think the model's answer accurately captures the meaning from the reference.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "How does the speaker's speech reflect their emotional state (frustration, anger, excited, neutral, happiness, surprise, sad)?",
+            "reference": "From the speaker's speech, it seems they are in a happiness state.",
+            "model_prediction": "Based on the voice, it sounds like this person is neutral.",
+            "judge_response": "Explanation: The reference answer is that the speaker's speech reflects a happiness state, while the model's answer is that the speaker's voice sounds neutral. I think the model's answer does not accurately capture the emotional state reflected in the speaker's speech, which is happiness, and instead provides a different emotional state, neutral.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Based on their speech, how would you describe the speaker's emotions (frustration, anger, excited, neutral, happiness, surprise, sad)?",
+            "reference": "Based on the auditory cues, it sounds like the speaker is neutral state.",
+            "model_prediction": "Based on the voice, it sounds like this person is neutral.",
+            "judge_response": "Explanation: The reference answer is \"Based on the auditory cues, it sounds like the speaker is in a neutral state\", while the model's answer is \"Based on the voice, it sounds like this person is neutral\". I think the model's response is a good paraphrase of the reference answer, conveying the same meaning and content with slight rephrasing.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "Based on their speech, how would you describe the speaker's emotions (frustration, anger, excited, neutral, happiness, surprise, sad)?",
+            "reference": "From the speaker's speech, it seems they are in a happiness state.",
+            "model_prediction": "Based on the voice, it sounds like this person is neutral.",
+            "judge_response": "Explanation: The reference answer is \"happiness\", while the model's answer is \"neutral\". I think the model's answer does not align with the reference answer, as \"happiness\" and \"neutral\" describe different emotional states. The model's answer does not capture the meaning from the reference.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Can you identify the speaker's emotional state from their speech (frustration, anger, excited, neutral, happiness, surprise, sad)?",
+            "reference": "The speaker's speech suggesting they might be feeling anger.",
+            "model_prediction": "Based on the voice, it sounds like this person is neutral.",
+            "judge_response": "Explanation: The reference answer is that the speaker's speech suggests they might be feeling anger, while the model's answer is that the speaker sounds neutral. I think the model's answer is incorrect and does not align with the reference answer.\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Can you identify the speaker's emotional state from their speech (frustration, anger, excited, neutral, happiness, surprise, sad)?",
+            "reference": "Based on the speaker's speech patterns, it seems like they are feeling happiness.",
+            "model_prediction": "Based on the voice, it sounds like this person is neutral.",
+            "judge_response": "Explanation: The reference answer is that the speaker's emotional state is happiness, while the model's answer is that the speaker's emotional state is neutral. These two answers do not match, indicating that the model's response is incorrect. \nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What do you think the speaker is feeling based on their speech (frustration, anger, excited, neutral, happiness, surprise, sad)?",
+            "reference": "From the speaker's speech, it seems they are in a happiness state.",
+            "model_prediction": "Based on the voice, it sounds like this person is neutral.",
+            "judge_response": "Explanation: The reference answer is \"happiness\", while the model's answer is \"neutral\". I think the model's answer does not align with the reference answer, as \"neutral\" and \"happiness\" are different emotions. The model's answer does not capture the meaning from the reference.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What emotions do you detect in the speaker's voice (frustration, anger, excited, neutral, happiness, surprise, sad)?",
+            "reference": "The speaker's speech suggesting they might be feeling frustration.",
+            "model_prediction": "Based on the voice, it sounds like this person is neutral.",
+            "judge_response": "Explanation: The reference answer is suggesting frustration, while the model's answer is neutral. I think the model's answer is incorrect and does not capture the emotional tone suggested in the reference answer.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What emotions do you detect in the speaker's voice (frustration, anger, excited, neutral, happiness, surprise, sad)?",
+            "reference": "The speaker's emotion seems frustration.",
+            "model_prediction": "Based on the voice, it sounds like this person is neutral.",
+            "judge_response": "Explanation: The reference answer is that the speaker's emotion is frustration, while the model's answer is that the speaker's emotion is neutral. I think the model's response is incorrect and irrelevant to the reference answer.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "How do you perceive the speaker's emotional state from their speech (frustration, anger, excited, neutral, happiness, surprise, sad)?",
+            "reference": "Based on the speaker's speech patterns, it seems like they are feeling anger.",
+            "model_prediction": "Based on the voice, it sounds like this person is angry.",
+            "judge_response": "Explanation: The reference answer is \"Based on the speaker's speech patterns, it seems like they are feeling anger\", while the model's answer is \"Based on the voice, it sounds like this person is angry\". I think the model's response accurately mirrors the reference answer in terms of content, accuracy, and relevance. Both answers convey the same emotional state (anger) and use a similar sentence structure.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "How does the speaker's speech reflect their emotional state (frustration, anger, excited, neutral, happiness, surprise, sad)?",
+            "reference": "The tone of the speaker's voice suggests that the speaker may be feeling sad.",
+            "model_prediction": "Based on the voice, it sounds like this person is neutral.",
+            "judge_response": "Explanation: The reference answer is that the speaker's tone suggests sadness, while the model's answer is that the speaker's voice sounds neutral. I think the model's answer is incorrect and fails to capture the emotional state reflected in the reference answer.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What emotions do you detect in the speaker's voice (frustration, anger, excited, neutral, happiness, surprise, sad)?",
+            "reference": "From the speaker's speech, it seems they are in a neutral state state.",
+            "model_prediction": "Based on the voice, it sounds like this person is neutral.",
+            "judge_response": "Explanation: The reference answer is \"From the speaker's speech, it seems they are in a neutral state state,\" while the model's answer is \"Based on the voice, it sounds like this person is neutral.\" I think the model's answer perfectly mirrors the reference answer in terms of content, accuracy, and relevance, perfectly concurring with the neutral emotion detected in the speaker's voice.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "How do you perceive the speaker's emotional state from their speech (frustration, anger, excited, neutral, happiness, surprise, sad)?",
+            "reference": "The speaker's emotion seems frustration.",
+            "model_prediction": "Based on the voice, it sounds like this person is neutral.",
+            "judge_response": "Explanation: The reference answer is that the speaker's emotion seems frustration, while the model's answer is that the speaker is neutral. I think the model's answer is incorrect and does not align with the reference answer, as it provides a different emotional state.\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What emotional cues can you pick up from the speaker's speech (frustration, anger, excited, neutral, happiness, surprise, sad)?",
+            "reference": "Based on the auditory cues, it sounds like the speaker is neutral state.",
+            "model_prediction": "Based on the voice, it sounds like this person is neutral.",
+            "judge_response": "Explanation: The reference answer is explaining the emotional cue as \"neutral state\" based on the auditory cues, while the model's answer is also stating that the person is \"neutral\" based on the voice. I think the model's answer accurately captures the same emotional cue as the reference answer.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "How does the speaker's speech reflect their emotional state (frustration, anger, excited, neutral, happiness, surprise, sad)?",
+            "reference": "The speaker's emotion seems frustration.",
+            "model_prediction": "Based on the voice, it sounds like this person is neutral.",
+            "judge_response": "Explanation: The reference answer is \"The speaker's emotion seems frustration\", while the model's answer is \"it sounds like this person is neutral\". I think the model's answer is incorrect and irrelevant compared to the reference, as it suggests a completely different emotional state.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Based on their speech, how would you describe the speaker's emotions (frustration, anger, excited, neutral, happiness, surprise, sad)?",
+            "reference": "The speaker's speech suggesting they might be feeling anger.",
+            "model_prediction": "Based on the voice, it sounds like this person is angry.",
+            "judge_response": "Explanation: The reference answer is describing the speaker's emotions as anger, while the model's answer is also describing the speaker's emotions as anger. I think the model's answer is correct and aligns well with the reference answer, capturing the same emotion.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "What emotions do you detect in the speaker's voice (frustration, anger, excited, neutral, happiness, surprise, sad)?",
+            "reference": "Based on the tone of the speaker's voice and their delivery, it seems like the speaker is surprise.",
+            "model_prediction": "Based on the voice, it sounds like this person is happy in the speaker's voice.",
+            "judge_response": "Explanation: The reference answer is that the speaker seems surprised, while the model's answer is that the speaker sounds happy. The two emotions are different, and the model's response does not align with the reference. \nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        }
+    ]
+}

@@ -90,16 +90,10 @@ def main(
 
     data_with_model_predictions = json.load(open('log/{}/{}.json'.format(model_name, dataset_name)))
 
-    # Metric evaluation
-    try:
-        # Clear the cache to avoid memory leak
-        logger.info("Clear the cache to avoid memory leak")
-        del model
-        torch.cuda.empty_cache()
-    except: 
-        pass
-    
     results = dataset.dataset_processor.compute_score(data_with_model_predictions, metrics=metrics)
+
+    # Take only the first 100 samples for record.
+    results['details'] = results['details'][:20]
 
     # Print the result with metrics
     logger.info('=  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =')

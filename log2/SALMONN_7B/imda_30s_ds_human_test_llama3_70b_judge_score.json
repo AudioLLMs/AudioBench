@@ -1,0 +1,168 @@
+{
+    "llama3_70b_judge": {
+        "judge_score": 16.15,
+        "success_rate": 0.9975
+    },
+    "details": [
+        {
+            "question": "Could you kindly summarize the audio's content?",
+            "reference": "Speaker1 and Speaker2 discuss their opinions on Jay Chou and JJ Lin. The first speaker recalls being extremely close to Jay Chou at an event and describes it as a memorable experience. They express a preference for Jay Chou’s music over JJ Lin’s, despite JJ Lin's greater popularity in Singapore. The second speaker agrees and adds that Jay Chou’s fanbase in Singapore is growing.",
+            "model_prediction": "A group of men are having a conversation.",
+            "judge_response": "Explanation: The reference answer is a summary of a conversation between two speakers discussing their opinions on Jay Chou and JJ Lin, while the model's answer is a vague statement \"A group of men are having a conversation\". I think the model's response is completely misaligned with the reference answer, providing no relevant information about the conversation.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Can you assist in summarizing the audio recording?",
+            "reference": "The conversation involves comparing features of rabbit cages. Speaker2 describes their cage as green with a yellow base and no \"buy me\" sign, while Speaker1’s cage has the sign on the front at the top.",
+            "model_prediction": "A woman is having a conversation with a man. The woman is trying to convince the man to do something, but the man is hesitant. The woman is trying to persuade the man to do something, but the man is hesitant. The woman is trying to persuade the man to do something, but the man is hesitant. The woman is trying to persuade the man to do something, but the man is hesitant. The woman is trying to persuade the man to do something, but the man is hesitant. The woman is trying to persuade the man to do something, but the man is hesitant. The woman is trying to persuade the man to do something, but the man is hesitant. The woman is trying to persuade the man to do something, but the man is hesitant. The woman is trying to persuade",
+            "judge_response": "Explanation: The reference answer is a descriptive summary of a conversation about rabbit cages, while the model's answer is an unrelated and repetitive statement about a woman trying to persuade a man to do something. The model's answer lacks any relevance or accuracy to the reference answer, failing to capture the conversation's topic, content, or details.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "I would appreciate it if you could summarize the audio content.",
+            "reference": "Speaker1 and Speaker2 discussed describing a visual scene, with Speaker2 pointing out a specific detail, a sign in the top right-hand corner. Speaker1 agreed and began to describe the scene in more detail, including a large rectangular box-shaped building with a brown background and a sign saying \"bar\".",
+            "model_prediction": "A man is giving a speech to a group of people. He talks about the importance of transparency and accountability in government. He also talks about the need for people to get involved and participate in the democratic process. He encourages people to vote and to make their voices heard. He also talks about the importance of education and the need for people to be informed about the issues that affect them. Finally, he concludes by thanking the audience for their attention and encouraging them to continue working towards a better future.",
+            "judge_response": "Explanation: The reference answer describes a visual scene with a specific detail, a sign in the top right-hand corner, and a large rectangular box-shaped building with a brown background and a sign saying \"bar\". In contrast, the model's answer has no relevance to the reference, describing a man giving a speech about government, democracy, and education. The model's answer is completely misaligned and provides incorrect information.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Can you assist with summarizing the details from the audio?",
+            "reference": "The speakers compare details about baskets of peaches. One basket has three peaches tied to a string, while another lacks this arrangement, prompting discussion of the difference.",
+            "model_prediction": "The audio is a conversation between two people in a foreign language. One of the speakers is a man who is trying to communicate with someone who does not speak the language fluently. He uses gestures and body language to help convey his message. The other speaker is a woman who speaks the language fluently. She helps the man by translating his words into the language of the listener. Throughout the conversation, the man struggles to find the right words and the woman has to correct him several times. Despite the language barrier, the speakers are able to communicate effectively and the listener is able to understand what they are saying.",
+            "judge_response": "Explanation: The reference answer provides a clear and concise summary of the audio, stating that the speakers compare details about baskets of peaches and discuss the difference in arrangement. In contrast, the model's answer provides an unrelated and inaccurate summary, describing a conversation between two people with a language barrier. The model's answer lacks any connection to the original reference, making it completely misaligned.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Would you mind helping to summarize the content of the audio?",
+            "reference": "The conversation focuses on filling orders. Speaker1 and Speaker2 highlight the flexibility and efficiency of the process, appreciating the lack of time pressure and the provided transport.",
+            "model_prediction": "A woman is speaking in a foreign language, and it is unclear what she is saying. It is possible that she is speaking in a language that the listener is not familiar with, or she may be speaking in a way that is difficult for the listener to understand. Regardless, the listener is able to understand that the woman is speaking in a foreign language and that it is difficult for them to understand what she is saying. It is also possible that the woman is speaking in a way that is intended to be difficult for the listener to understand. It is also possible that the woman is speaking in a way that is intended to be difficult for the listener to understand. It is also possible that the woman is speaking in a way that is intended to be difficult for the listener to understand. It is also possible that the woman is speaking in a way that is intended to be difficult for the listener to understand.",
+            "judge_response": "Explanation: The reference answer clearly describes the conversation as being about filling orders, highlighting the flexibility and efficiency of the process, and appreciating the lack of time pressure and the provided transport. In contrast, the model's answer is completely unrelated, describing a woman speaking in a foreign language and the listener's difficulty in understanding her. The model's answer does not align with the reference answer in terms of content, accuracy, or relevance.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Can you help clarify the main ideas in the audio?",
+            "reference": "The speakers compare their observations, noting differences in the shop signs and describing the bottles' colors on the table.",
+            "model_prediction": "Yes, I can help clarify the main ideas in the audio.",
+            "judge_response": "Explanation: The reference answer is a concise and specific description of the main ideas in the audio, while the model's answer is a vague and general acknowledgement of the question. I think the model's answer fails to provide any concrete information or details about the main ideas in the audio, unlike the reference answer.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "Please summarize the audio content.",
+            "reference": "The speakers discuss the inconvenience caused by road construction, with Speaker1 describing a lengthy walk to a distant bus stop to complete the same journey.",
+            "model_prediction": "A man is giving a speech to a group of people. He talks about the importance of sustainable development and how it can be achieved through the use of renewable energy sources. He also talks about the importance of education and how it can be used to promote sustainable development. Finally, he concludes by saying that sustainable development is not just a buzzword, but a way of life that we all need to embrace.",
+            "judge_response": "Explanation: The reference answer describes a conversation about the inconvenience caused by road construction, while the model's answer talks about a speech on sustainable development and education. These two topics are completely unrelated, and the model's answer does not address the original topic at all. \n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Would you summarize the information from the audio for me?",
+            "reference": "The speakers discuss their past TV show preferences, with Speaker1 teasing Speaker2 for being a Glee fan, while Speaker2 reminisces about their deep fandom and related usernames.",
+            "model_prediction": "The audio features a conversation between a mother and daughter. The mother is discussing her daughter's love life with her, and the daughter is expressing her confusion and frustration about her love life. The mother is trying to offer advice and support, but the daughter is hesitant to take it. Towards the end of the conversation, the mother tells her daughter that she loves her, and the daughter expresses her love for her mother in return. The conversation ends on a positive note, with the daughter expressing her gratitude for her mother's support.",
+            "judge_response": "Explanation: The reference answer describes a conversation between two speakers discussing their past TV show preferences, with one teasing the other about being a Glee fan. In contrast, the model's answer describes a conversation between a mother and daughter discussing the daughter's love life, with the mother offering advice and support. The model's answer is completely irrelevant to the reference, providing incorrect information. \n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Could you kindly summarize the audio's content?",
+            "reference": "The conversation reflects on life's challenges, including the irony of money being essential for many things, the difficulty of marriage, and the high cost of housing in their country.",
+            "model_prediction": "A woman and a man are having a conversation. The woman is expressing frustration and disappointment about not having enough money. The man tries to reassure her that things will get better, but she is unconvinced.",
+            "judge_response": "Explanation: The reference answer provides a detailed summary of the conversation, including the themes of money, marriage, and housing costs. In contrast, the model's answer is quite vague, only mentioning a woman's frustration about money and a man's attempt to reassure her. The model's answer lacks the specific details and themes mentioned in the reference answer. I think the model's answer recognizes the topic but diverges significantly from the reference in accuracy and relevance.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Is it possible for you to summarize what's covered in the audio?",
+            "reference": "The speakers discuss safety concerns, with Speaker1 recommending the SAFRA shooting range. Speaker2 agrees it’s beneficial but hesitates due to the inconvenience of traveling there.",
+            "model_prediction": "The audio features a conversation between a man and a woman. The man starts by asking the woman if she believes in God. The woman responds by saying that she doesn't believe in God. The man then asks the woman if she believes in life after death. The woman responds by saying that she doesn't believe in life after death. The man then asks the woman if she believes in reincarnation. The woman responds by saying that she doesn't believe in reincarnation. The man then asks the woman if she believes in heaven. The woman responds by saying that she doesn't believe in heaven. The man then asks the woman if she believes in hell. The woman responds by saying that she doesn't believe in hell. The man then asks the woman if she believes in angels. The woman",
+            "judge_response": "Explanation: The reference answer describes a conversation about safety concerns and a shooting range, while the model's answer is completely unrelated, discussing beliefs in God, life after death, reincarnation, heaven, hell, and angels. The model's answer lacks any relevance or accuracy to the reference answer.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Is it possible for you to break down the key ideas from the audio?",
+            "reference": "The speakers discuss noise disturbances at chalets. Speaker1 describes instances where police were involved, while Speaker2 comments humorously, comparing the rowdy groups to gangsters.",
+            "model_prediction": "Certainly! Here's a breakdown of the key ideas from the audio:\n\n* The speaker begins by expressing their disdain for people who don't know how to play cards.\n* The speaker then talks about how playing cards can lead to talking nonsense.\n* The speaker then talks about how playing cards can lead to problems.\n* The speaker then talks about how playing cards can lead to cheating.\n* The speaker then talks about how playing cards can lead to gambling.\n* The speaker then talks about how playing cards can lead to gambling addiction.\n* The speaker then talks about how playing cards can lead to gambling addiction.\n* The speaker then talks about how playing cards can lead to gambling addiction.\n* The speaker then talks",
+            "judge_response": "Explanation: The reference answer provides a concise summary of the audio, mentioning noise disturbances at chalets, police involvement, and a humorous comparison to gangsters. In contrast, the model's answer is completely unrelated, discussing playing cards and its consequences, which is not mentioned in the reference answer. The model's answer lacks any relevance or accuracy to the reference.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Could you help provide a summary of the audio details?",
+            "reference": "The speakers compare their desks, identifying differences such as peaches being present on Speaker1’s desk but absent from Speaker2’s, which only has a blender.",
+            "model_prediction": "The audio features a conversation between two men. One of them is a blender enthusiast who talks about the benefits of using a blender over other kitchen appliances. He also talks about the different types of fruits and vegetables that can be blended. The other man agrees with him and talks about his own experiences with blenders. They also talk about the importance of using fresh ingredients in blended drinks and smoothies. Towards the end of the conversation, they briefly talk about other kitchen appliances such as juicers and food processors.",
+            "judge_response": "Explanation: The reference answer describes a conversation between two speakers comparing their desks, with one having peaches and the other having a blender. In contrast, the model's answer describes a conversation between two men discussing blenders, fruits, and kitchen appliances, which is unrelated to the reference answer. I think the model's response is completely misaligned with the reference answer.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Could you provide a brief overview of the audio’s information?",
+            "reference": "The speakers plan logistics for their hotel stay, considering a 30-minute travel time from the airport but noting a gap until the 2 pm check-in time at the hotel.",
+            "model_prediction": "The audio features a conversation between a man and a woman in a car. The man is asking the woman about her job and she tells him that she works at a hotel. The woman also tells the man about a hotel guest who was rude to her. The audio also features background music and the sound of a car driving.",
+            "judge_response": "Explanation: The reference answer provides a concise summary of the conversation, focusing on the speakers' discussion about logistics for their hotel stay. In contrast, the model's answer is completely misaligned, providing information about a separate conversation between a man and a woman, which is not present in the reference answer. The model's answer does not capture the essence of the reference answer at all.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Would you mind helping to summarize the content of the audio?",
+            "reference": "The speakers discuss a unique drink combination of Baileys and sweet green tea. Speaker1 suggests it as a must-try, while Speaker2 expresses curiosity and interest in giving it a shot.",
+            "model_prediction": "The audio features a conversation between a man and a woman. The man asks the woman if she has ever tried green tea, to which she replies that she has not. The man then tells the woman that green tea is a type of tea that is made from the leaves of the Camellia sinensis plant, which is also known as the tea plant. The man then asks the woman if she has ever tried matcha tea, to which she replies that she has not. The man then tells the woman that matcha tea is a type of tea that is made from the leaves of the Camellia sinensis plant, which is also known as the tea plant. The man then asks the woman if she has ever tried hojicha tea, to which she replies that she has not. The man then tells the woman that hojicha tea is a type of tea that is made",
+            "judge_response": "Explanation: The reference answer is about a conversation between two speakers discussing a unique drink combination of Baileys and sweet green tea, while the model's answer is about a conversation between a man and a woman discussing various types of tea, but not mentioning Baileys or the specific drink combination. The two conversations are completely unrelated, and the model's answer does not provide any relevant information about the reference topic.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Could you please summarize the audio?",
+            "reference": "The speakers discuss Speaker1’s abilities. While Speaker1 views themselves as simply hardworking, Speaker2 believes their practical skills and problem-solving ability reflect intelligence.",
+            "model_prediction": "A woman is speaking with an accent. She is discussing the different types of intelligence and how it affects people's abilities. She also talks about the importance of emotional intelligence.",
+            "judge_response": "Explanation: The reference answer is about the conversation between two speakers, where Speaker1 views themselves as hardworking, and Speaker2 believes their practical skills and problem-solving ability reflect intelligence. On the other hand, the model's answer talks about a woman discussing types of intelligence and emotional intelligence, which is a completely different topic. There is no alignment between the two answers in terms of content, accuracy, and relevance.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "I would appreciate it if you could summarize the audio content.",
+            "reference": "The speakers reflect on their tendency to describe situations in great detail, with Speaker1 jokingly offering \"condolences\" to anyone transcribing their words.",
+            "model_prediction": "A man is talking about rebellion. He talks about how he has rebelled in the past and how he believes rebellion is important. He also talks about how rebellion can be a positive thing and how it can lead to positive change. He also talks about how rebellion can be a way of expressing oneself and standing up for what one believes in. He also talks about how rebellion can be a way of breaking free from societal norms and expectations. He also talks about how rebellion can be a way of fighting against injustice and oppression. He also talks about how rebellion can be a way of creating a better world. He also talks about how rebellion can be a way of expressing oneself and standing up for what one believes in. He also tal",
+            "judge_response": "Explanation: The reference answer is a brief summary of the speakers' conversation, focusing on their tendency to describe situations in great detail, while the model's answer is an unrelated and lengthy response about a person talking about rebellion. I think the model's answer is completely off-topic and provides no relevant information compared to the reference.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Is it possible for you to break down the key ideas from the audio?",
+            "reference": "Speaker2 recounts an emotional interaction where someone unexpectedly shouted, promised repayment, and left money on the table before withdrawing.",
+            "model_prediction": "Yes, the key ideas from the audio can be broken down as follows:\n\n1. The speaker talks about someone who talks a lot but doesn't actually do anything.\n2. The speaker talks about someone who talks a lot but doesn't actually do anything.\n3. The speaker talks about someone who talks a lot but doesn't actually do anything.\n4. The speaker talks about someone who talks a lot but doesn't actually do anything.\n5. The speaker talks about someone who talks a lot but doesn't actually do anything.\n6. The speaker talks about someone who talks a lot but doesn't actually do anything.\n7. The speaker talks about someone who talks a lot but doesn't actually do anything.\n8. The speaker talks about someone who",
+            "judge_response": "Explanation: The reference answer is a concise summary of the speaker's emotional interaction, while the model's answer is a repetitive and irrelevant response about someone who talks a lot but doesn't actually do anything. The model's answer does not capture the key ideas from the audio and is completely misaligned with the reference.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Is it possible for you to offer a summary of the audio?",
+            "reference": "Speaker1 recalls their positive experiences with Chinese teachers, while Speaker2 highlights their enjoyment of English and Literature teachers, praising one for their humor.",
+            "model_prediction": "Yes, I can offer a summary of the audio.",
+            "judge_response": "Explanation: The reference answer expects a summary of the audio, while the model's answer simply states that it can offer a summary without providing any details. I think the model's response is vague and doesn't provide any concrete information, which is not aligned with the reference answer's expectation.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Please provide a summary of the audio.",
+            "reference": "Speaker1 expresses dissatisfaction with infrequent conversations but appreciates the freedom to make coffee as part of their co-op experience.",
+            "model_prediction": "Teenage girls are having a conversation.",
+            "judge_response": "Explanation: The reference answer provides specific details about the conversation, mentioning dissatisfaction with infrequent conversations and appreciation for freedom to make coffee in a co-op experience. In contrast, the model's answer is a vague and generic statement that does not capture any of the specific details mentioned in the reference. The model's answer does not even attempt to summarize the audio.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Please provide a summary of the audio.",
+            "reference": "The speakers discuss generational differences, with Speaker1 reflecting on the physical challenges their mother endured, while Speaker2 highlights the modern lack of such hardships and stresses independence.",
+            "model_prediction": "A group of men are having a conversation in a noisy environment. One of the men is speaking into a microphone while the others are laughing and talking. The audio is a recording of the conversation.",
+            "judge_response": "Explanation: The reference answer provides a summary of the conversation, highlighting the topics discussed, such as generational differences and the speakers' perspectives. In contrast, the model's answer focuses on the environment and setting of the conversation, describing the noise and the men's laughter. The model's response does not capture the essence of the conversation or the topics discussed.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        }
+    ]
+}

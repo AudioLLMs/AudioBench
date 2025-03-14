@@ -1,0 +1,168 @@
+{
+    "llama3_70b_judge": {
+        "judge_score": 61.48,
+        "success_rate": 0.996
+    },
+    "details": [
+        {
+            "question": "Can you assist with summarizing the details from the audio?",
+            "reference": "Speaker1 and Speaker2 discussed the importance of trying new things and stepping out of one's comfort zone to avoid having regrets in life. Speaker2 used a relatable example of regretting not buying a desired ice cream when passing by an ice cream shop, highlighting how such small regrets can occur in daily life. Both speakers seemed to agree that taking risks and trying new experiences is essential to minimizing regrets.",
+            "model_prediction": "\nThe speaker argues that while avoiding certain actions might seem prudent, it can lead to regrets later in life, even for seemingly small things like forgetting to buy desired ice cream.  They emphasize that regrets are a common part of daily existence.\n",
+            "judge_response": "Explanation: The reference answer is discussing the importance of trying new things and stepping out of one's comfort zone to avoid regrets in life, using a relatable example of regretting not buying a desired ice cream. The model's answer, on the other hand, is vague and only mentions that regrets are a common part of daily existence, without capturing the essence of trying new things and stepping out of one's comfort zone. The model's answer lacks specific details and accuracy compared to the reference.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "I would appreciate it if you could summarize the audio content.",
+            "reference": "Speaker1 shared their emotional experience of being betrayed by a trusted friend, feeling ashamed and upset about the situation. They mentioned having photo and video evidence of the betrayal, which made it even more distressing.",
+            "model_prediction": "The speaker expresses deep hurt and betrayal after a friend broke their trust, emphasizing the added pain caused by concrete evidence (photos or videos) confirming the betrayal.\n",
+            "judge_response": "Explanation: The reference answer provides specific details about the speaker's emotional experience, mentioning feelings of shame and upset, as well as the presence of photo and video evidence, which exacerbated the distress. In contrast, the model's answer focuses on the overall emotional impact of the betrayal, but omits specific details about the speaker's feelings and the evidence. While the model's answer is relevant and generally accurate, it lacks some precision and detail compared to the reference.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Could you offer a brief summary of what the audio contains?",
+            "reference": "Speaker1 discussed using their mileage to redeem a ticket, which they are still waiting to receive, while their friend has already obtained theirs.",
+            "model_prediction": "\nThe speaker successfully redeemed their ticket using mileage and is awaiting confirmation while their friend has already received theirs.\n",
+            "judge_response": "Explanation: The reference answer provides information about the speaker redeeming a ticket using mileage and still waiting to receive it, while their friend has already obtained theirs. In contrast, the model's answer simplifies the information and omits the crucial detail that the speaker is still waiting to receive their ticket. I think the model's answer lacks precision and accuracy compared to the reference.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Can you assist me in summarizing the audio file’s content?",
+            "reference": "Speaker1 and Speaker2 discussed their financial habits and savings strategies. Speaker1 mentioned struggling to maintain their monthly savings due to staying up late and overspending, but had some NS savings to fall back on. They then asked Speaker2 about their plans for investing and saving.",
+            "model_prediction": "The speaker mentions they sometimes exhaust their monthly savings early due to spending habits and used leftover savings. They inquire if the listener plans to start investing soon.\n\n\n",
+            "judge_response": "Explanation: The reference answer is a detailed summary of the conversation between Speaker1 and Speaker2, including specific details about Speaker1's struggles with savings and their question to Speaker2 about investing. In contrast, the model's answer is a brief and vague summary that only captures the general idea of the conversation. The model's answer lacks specific details and only mentions that the speaker exhausts their monthly savings and inquires about the listener's investment plans.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Can you assist me in summarizing the audio file’s content?",
+            "reference": "Speaker1 and Speaker2 discussed their interests and passions. Speaker2 shared their love for traveling, citing the experience of different cultures and heritage as what amazes them. They also mentioned enjoying trying local food while traveling.",
+            "model_prediction": "The speaker expresses amazement at experiencing different cultures and heritages while traveling, highlighting the enjoyment derived from immersing oneself in new environments.",
+            "judge_response": "Explanation: The reference answer highlights the speaker's love for traveling, trying local food, and experiencing different cultures and heritage. In contrast, the model's answer only focuses on the cultural aspect, omitting the food experience. Although it's related, it doesn't fully capture the essence of the reference answer.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Would you mind helping to summarize the content of the audio?",
+            "reference": "Speaker1 discussed the importance of financial planning and management, sharing their concern about friends who still use cash and don't have ATM cards. They emphasized the need to learn how to use a card, save money, and manage finances, warning that their friends' habits may have a negative impact in the coming years.",
+            "model_prediction": "The speaker expresses concern that some friends lack basic financial literacy, such as using ATM cards for transactions, saving, and managing money, which they believe will negatively impact their financial well-being in the future.",
+            "judge_response": "Explanation: The reference answer provides a more detailed explanation of the speaker's concern, mentioning specific issues such as using cash, not having ATM cards, and the potential negative impact in the coming years. In contrast, the model's answer is more concise and focuses on the speaker's concern about their friends' lack of financial literacy, including using ATM cards, saving, and managing money. While the model's answer captures the essence of the speaker's concern, it lacks some details and specificity compared to the reference answer.\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "Please provide a summary of the audio.",
+            "reference": "Speaker1 and Speaker2 discussed the limitations of insurance agents in understanding policy contract wordings. Speaker1 emphasized that agents may not be able to thoroughly explain the policy details, only having a general understanding of what is covered and the coverage amounts. Speaker2 agreed, stating that agents definitely lack in-depth knowledge of policy contract wordings.",
+            "model_prediction": "Even with agents, fully understanding complex policy contract wordings can be challenging as agents typically grasp the general gist and coverages rather than every intricate detail.",
+            "judge_response": "Explanation: The reference answer highlights the limitations of insurance agents in understanding policy contract wordings, specifically their lack of in-depth knowledge. The model's answer also conveys the idea that agents struggle to fully understand complex policy contract wordings, suggesting they only grasp the general gist and coverages. While the model's answer is concise, it captures the essence of the reference answer. I think the model's answer is a good summary of the reference.\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "Can you help clarify the main ideas in the audio?",
+            "reference": "Speaker1 and Speaker2 discussed their choice of bank, specifically POSB. Speaker1 opted for POSB due to their parents' existing relationship with the bank, while Speaker2 stayed with POSB since childhood. Speaker2 highlighted the attractive interest rate and lack of minimum account balance requirement as reasons for not switching to another bank.",
+            "model_prediction": "\nThe speaker chose POSB primarily due to their long-standing use since childhood and the bank's attractive interest rates without requiring a minimum account balance.\n",
+            "judge_response": "Explanation: The reference answer highlights that both speakers chose POSB due to their personal connections, with Speaker1 having parents who used the bank and Speaker2 having used it since childhood. Additionally, Speaker2 mentioned the attractive interest rate and lack of minimum account balance requirement as reasons for not switching. In contrast, the model's answer focuses solely on Speaker2's reasons, omitting Speaker1's perspective and the personal connection aspect. I think the model's answer lacks detail and preciseness in capturing the essence of the reference answer.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Could you help provide a summary of the audio details?",
+            "reference": "Speaker1 and Speaker2 discussed the importance of self-acceptance and not worrying about others' opinions. Speaker2 emphasized that people will always have judgments about us, and it's essential to recognize that we are human and have multiple facets. They suggested being mindful of how others might perceive us, but ultimately, finding a healthy balance is key. Speaker1 agreed, affirming the need for a balanced approach.",
+            "model_prediction": "\nThe speaker emphasizes the subjective nature of impressions and judgments people form, advocating for understanding and recognizing the multifaceted nature of individuals. They hope for balanced interactions where perceptions aren't taken wrongly and encourage finding a healthy equilibrium in these exchanges.\n",
+            "judge_response": "Explanation: The reference answer emphasizes the importance of self-acceptance and not worrying about others' opinions, highlighting the need for a balanced approach. The model's answer focuses on the subjective nature of impressions and judgments, advocating for balanced interactions where perceptions aren't taken wrongly. While both answers touch on the theme of balancing one's approach to others' opinions, the model's answer is more abstract and lacks the specific emphasis on self-acceptance.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "I would appreciate it if you could summarize the audio content.",
+            "reference": "Speaker1 discussed the importance of considering risk levels when choosing healthcare insurance, specifically highlighting the case of active young teenagers who engage in adventurous activities. They emphasized that premiums are often lower for such individuals, suggesting that citizens should assess their risk level when selecting healthcare insurance.",
+            "model_prediction": "When choosing healthcare insurance, individuals should consider their risk level. Those with higher risk profiles, like active teenagers engaging in adventurous activities, may face lower premiums despite potential increased healthcare needs.",
+            "judge_response": "Explanation: The reference answer highlights the importance of considering risk levels, specifically for active young teenagers who engage in adventurous activities, and notes that premiums are often lower for such individuals. The model's answer also emphasizes the importance of considering risk levels, but frames it in a slightly different way, stating that individuals with higher risk profiles may face lower premiums despite potential increased healthcare needs. While the model's answer is generally aligned with the reference, it lacks some detail and precision, particularly in its description of the specific example.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "Could you please summarize the audio?",
+            "reference": "Speaker1 and Speaker2 discussed the concept of being in a favorable situation, likening it to \"striking the lottery.\" They acknowledged that this is a rare occurrence and cannot be generalized. The conversation then shifted to the topic of CPF (Central Provident Fund), with both speakers expressing agreement and willingness to discuss it further.",
+            "model_prediction": "\nThe audio discusses the rarity of accumulating significant wealth during one's lifetime, comparing it to winning the lottery, and highlights the Central Provident Fund (CPF) as another relevant factor.\n",
+            "judge_response": "Explanation: The reference answer highlights two specific topics discussed in the audio: the rarity of being in a favorable situation and the Central Provident Fund (CPF). In contrast, the model's answer summarizes the audio in a more general way, touching on the idea of accumulating significant wealth and mentioning CPF as a relevant factor. While the model's answer is not inaccurate, it lacks the detail and specificity of the reference answer.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Could you kindly summarize the audio's content?",
+            "reference": "Speaker1 and Speaker2 discussed factors to consider when choosing a bank for a home loan. Speaker2 emphasized the importance of comparing interest rates and lock-in periods, as well as the potential for refinancing in the future.",
+            "model_prediction": "\nThe audio discusses seeking home loan recommendations from banks, prioritizing those with competitive interest rates and favorable lock-in periods (shorter is preferable for future refinancing options).\n",
+            "judge_response": "Explanation: The reference answer highlights the importance of comparing interest rates and lock-in periods, as well as considering refinancing options in the future. The model's answer also mentions competitive interest rates and favorable lock-in periods, but it oversimplifies the latter by stating that shorter is preferable for future refinancing options, which is not explicitly mentioned in the reference. Additionally, the model's answer lacks the emphasis on refinancing options.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Can you assist me in summarizing the audio file’s content?",
+            "reference": "Speaker1 expressed concerns about relying on mentors and supportive friends, highlighting that they may not always be available due to life's uncertainties.",
+            "model_prediction": "The audio acknowledges the importance of mentors and supportive friends but highlights the reality that these sources of support may not always be consistently available throughout life.",
+            "judge_response": "Explanation: The reference answer is specific about the concerns of relying on mentors and supportive friends, highlighting their unavailability due to life's uncertainties. The model's answer acknowledges the importance of these sources but highlights the reality of their inconsistent availability. I think the model's response accurately captures the essence of the reference answer, although it's a bit more general and lacks the specific detail about \"life's uncertainties\".\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "Could you offer a brief summary of what the audio contains?",
+            "reference": "Speaker1 shared a personal anecdote about walking with their 2-year-old son at Bedok Interchange, where the child was still learning to walk steadily. They expressed frustration about an encounter with an auntie who refused to give way, expecting the child to adjust his path instead. Speaker2 remained silent, offering no response or opinion on the matter.",
+            "model_prediction": "The speaker recounts an encounter at Bedok Interchange where a woman refused to move aside despite their 2-year-old son walking unsteadily beside them, expecting the speaker to adjust instead.\n",
+            "judge_response": "Explanation: The reference answer provides more context and details about the encounter, including the speaker's frustration and the child's age, whereas the model's response is brief and only focuses on the encounter itself. The model's answer lacks details, but it still conveys the core idea of the encounter. I think the model's answer is a concise version of the reference answer, but it misses some important details.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Could you help provide a summary of the audio details?",
+            "reference": "Speaker1 and Speaker2 discussed the challenges of communication with someone who is deaf or hard of hearing. Speaker1 suggested that written words or sign language could be used, but Speaker2 countered that not everyone knows sign language, posing the question of how a regular person would convey their point to a deaf consumer.",
+            "model_prediction": "The speaker expresses uncertainty about conveying complex messages, particularly those involving sensitive topics like \"the death card,\"  highlighting the limitations of relying solely on sign language for communication when not everyone knows it. They question how a non-signer could effectively communicate with consumers in such situations.\n",
+            "judge_response": "Explanation: The reference answer explains the discussion between Speaker1 and Speaker2 about the challenges of communication with someone who is deaf or hard of hearing, highlighting the limitation of using written words or sign language. The model's answer, on the other hand, focuses on the limitation of relying solely on sign language and questions how a non-signer could effectively communicate with consumers in sensitive situations. While both answers share a similar context, the model's answer lacks the detail and precision of the reference answer, particularly in explaining the discussion between the two speakers.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Could you outline the main points from the audio for me?",
+            "reference": "Speaker1 and Speaker2 discussed a topic related to waffles, with Speaker2 sharing that John loves waffles and is passionate about them, but not a fan of toppings. Despite this, Speaker2 found a particular waffle experience to be disappointing, which Speaker1 agreed with, suggesting that it fell short as a topping.",
+            "model_prediction": "The speaker discusses John's preference for plain food (no toppings) despite the speaker's own enjoyment of toppings. They acknowledge John's passion for football and accept his taste as a matter of personal preference. The speaker humorously expresses disappointment at John's lack of topping appreciation from a \"topping person's\" perspective.",
+            "judge_response": "Explanation: The reference answer specifically discusses John's love for waffles, his aversion to toppings, and the speaker's disappointment with a particular waffle experience. In contrast, the model's answer mistakenly introduces \"football\" as John's passion and focuses on the speaker's perspective as a \"topping person.\" The model's answer lacks accuracy and relevance to the reference, omitting key details about waffles and toppings.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "Please provide a summary of the audio.",
+            "reference": "Speaker1 shared an experience where they had to convey a message from the principal to someone, which led to an apologetic response. Speaker1 withheld the information from their direct boss, causing upset, but eventually, they talked it out and resolved the issue. Speaker1 reflected on the experience, highlighting what they learned from it.",
+            "model_prediction": "The speaker bypassed their direct boss when instructed by another colleague to quickly disseminate information from the principal, leading to an initial upset but ultimately resolved through conversation.\n",
+            "judge_response": "Explanation: The reference answer mentioned that the speaker had to convey a message from the principal, which led to an apologetic response, and the speaker withheld information from their direct boss, causing upset, but eventually resolved the issue. In contrast, the model's answer is brief and lacks details, only mentioning that the speaker bypassed their direct boss when instructed by another colleague to quickly disseminate information from the principal, leading to an initial upset but ultimately resolved through conversation. The model's answer is concise but lacks the apologetic response and the resolution details.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Could you kindly summarize the audio's content?",
+            "reference": "Speaker1 shared their personal experience and thoughts about their education, revealing that the necessity to pursue higher education began to dwindle, and they started to consider alternative paths, such as completing National Service (NS) and finding a job afterwards, which ultimately led to a loss of motivation to continue their education.",
+            "model_prediction": "The speaker's motivation to continue their education decreased because they realized they could fulfill national service (NS) obligations and pursue any job afterward, diminishing the perceived necessity of further studies.",
+            "judge_response": "Explanation: The reference answer provides a detailed explanation of the speaker's experience, including their realization that pursuing higher education was not necessary and their consideration of alternative paths. The model's answer, on the other hand, condenses this information, focusing on the decrease in motivation and the reason behind it. While the model's answer is concise, it still manages to capture the essence of the reference answer.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "Could you help provide a summary of the audio details?",
+            "reference": "Speaker1 shared a personal experience of feeling frustrated when their washing machine broke down, causing them to feel helpless and unable to open the door. Speaker2 acknowledged their situation, indicating empathy and understanding. The conversation revolves around the theme of dealing with negative experiences and feeling frustrated when faced with everyday problems.",
+            "model_prediction": "The speaker generally doesn't recall negative experiences but admits to frustration during appliance malfunctions, specifically citing a washing machine issue where they couldn't open the door.\n",
+            "judge_response": "Explanation: The reference answer is a detailed summary of the conversation between two speakers, highlighting the theme of dealing with negative experiences and frustration. In contrast, the model's answer is a brief and vague statement about the speaker's frustration with appliance malfunctions, specifically mentioning a washing machine issue. While the model's answer touches on the theme of frustration, it lacks the detail and accuracy of the reference answer.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Can you assist in summarizing the audio recording?",
+            "reference": "Speaker2 shared their perspective on not making fun of or mocking people for things they cannot change, such as their appearance, as it is an awful thing to say. Speaker1 seemed to agree, but their contribution was minimal, consisting only of an affirmative noise.",
+            "model_prediction": "The speaker believes it's wrong to make fun of or mock someone's unchangeable traits like weight or appearance because they are beyond an individual's control.",
+            "judge_response": "Explanation: The reference answer is a summary of the conversation, highlighting the main point made by Speaker2 and the minimal contribution of Speaker1. In contrast, the model's answer focuses solely on the main point made by Speaker2, ignoring the context and the role of Speaker1. I think the model's answer is generally aligned with the reference, but lacks detail and context.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        }
+    ]
+}
