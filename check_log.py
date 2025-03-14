@@ -83,8 +83,9 @@ DATASETS_TO_CHECK = {
     'ytb_sqa_batch1': ['llama3_70b_judge'],
     'ytb_sds_batch1': ['llama3_70b_judge'],
     'ytb_pqa_batch1': ['llama3_70b_judge'],
-
 }
+
+folder_to_check = 'log_for_all_models'
 
 MODEL_SCORE_NAMES = []
 for dataset_name, metric_names in DATASETS_TO_CHECK.items():
@@ -93,7 +94,7 @@ for dataset_name, metric_names in DATASETS_TO_CHECK.items():
 
 
 
-MODEL_NAME_TO_CHECK = os.listdir('log2')
+MODEL_NAME_TO_CHECK = os.listdir(folder_to_check)
 # sort by model names
 MODEL_NAME_TO_CHECK.sort()
 
@@ -115,7 +116,7 @@ for MODEL_NAME in MODEL_NAME_TO_CHECK:
             if 'wer' not in model_score_name:
                 continue
         
-        score_log_path = f"log2/{MODEL_NAME}/{model_score_name}_score.json"
+        score_log_path = f"{folder_to_check}/{MODEL_NAME}/{model_score_name}_score.json"
 
         if os.path.exists(score_log_path) == False:
             print(f"Error: {score_log_path} not found.")

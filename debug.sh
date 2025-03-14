@@ -11,7 +11,7 @@ MODEL_NAME=phi_4_multimodal_instruct
 GPU=1
 BATCH_SIZE=1
 OVERWRITE=True
-NUMBER_OF_SAMPLES=200
+NUMBER_OF_SAMPLES=-1
 # =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
 
 

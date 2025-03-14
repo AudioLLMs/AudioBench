@@ -80,7 +80,7 @@ def phi_4_multimodal_instruct_model_generation(self, input):
 
     # For ASR task, if audio duration is more than 30 seconds, we will chunk and infer separately
     if audio_duration > 40 and input['task_type'] == 'ASR':
-        logger.info('Audio duration is more than 30 seconds. Chunking and inferring separately.')
+        logger.info('Audio duration is more than 40 seconds. Chunking and inferring separately.')
         audio_chunks = []
         for i in range(0, len(audio_array), 40 * sampling_rate):
             audio_chunks.append(audio_array[i:i + 40 * sampling_rate])
