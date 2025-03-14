@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+import json
+
 from streamlit_echarts import st_echarts
 from app.show_examples import *
 from app.content import *
@@ -11,48 +13,15 @@ from model_information import get_dataframe
 info_df = get_dataframe()
 
 
-def draw(folder_name, category_name, displayname, metrics, cus_sort=True):
-    
-    folder = f"./results_organized/{metrics}/"
+def draw_table(dataset_displayname, metrics):
 
-    # Load the results from CSV
-    data_path = f'{folder}/{category_name.lower()}.csv'
-    chart_data = pd.read_csv(data_path).round(3)
-    
-    dataset_name = displayname2datasetname[displayname]
-    chart_data = chart_data[['Model', dataset_name]]
+    with open('organize_model_results.json', 'r') as f:
+        organize_model_results = json.load(f)
 
-    # Rename to proper display name
-    chart_data = chart_data.rename(columns=datasetname2diaplayname)
-
-
-    st.markdown("""
-                <style>
-                .stMultiSelect [data-baseweb=select] span {
-                    max-width: 800px;
-                    font-size: 0.9rem;
-                    background-color: #3C6478 !important; /* Background color for selected items */
-                    color: white; /* Change text color */
-                    back
-                }
-                </style>
-                """, unsafe_allow_html=True)
-    
-    # remap model names
-    display_model_names = {key.strip() :val.strip() for key, val in zip(info_df['Original Name'], info_df['Proper Display Name'])}
-    chart_data['model_show'] = chart_data['Model'].map(lambda x: display_model_names.get(x, x))
-
-
-    models = st.multiselect("Please choose the model", 
-                            sorted(chart_data['model_show'].tolist()), 
-                            default = sorted(chart_data['model_show'].tolist()),
-                            )
-    
-    chart_data = chart_data[chart_data['model_show'].isin(models)]
-    chart_data = chart_data.sort_values(by=[displayname], ascending=cus_sort).dropna(axis=0)
-
-    if len(chart_data) == 0: return
-
+    dataset_nickname   = displayname2datasetname[dataset_displayname]
+    model_results      = organize_model_results[dataset_nickname][metrics]
+    model_name_mapping = {key.strip(): val for key, val in zip(info_df['Original Name'], info_df['Proper Display Name'])}
+    model_results      = {model_name_mapping.get(key, key): val for key, val in model_results.items()}
 
 
     # = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
@@ -62,28 +31,17 @@ def draw(folder_name, category_name, displayname, metrics, cus_sort=True):
     with st.container():
         st.markdown('##### TABLE')
 
-        
-        model_link = {key.strip(): val for key, val in zip(info_df['Proper Display Name'], info_df['Link'])}
-
-        chart_data['model_link'] = chart_data['model_show'].map(model_link) 
-
-        chart_data_table = chart_data[['model_show', chart_data.columns[1], chart_data.columns[3]]]
-
-        # Format numeric columns to 2 decimal places
-        #chart_data_table[chart_data_table.columns[1]] = chart_data_table[chart_data_table.columns[1]].apply(lambda x: round(float(x), 3) if isinstance(float(x), (int, float)) else float(x))
-        cur_dataset_name = chart_data_table.columns[1]
-
+        model_link_mapping             = {key.strip(): val for key, val in zip(info_df['Proper Display Name'], info_df['Link'])}
+        chart_data_table               = pd.DataFrame(list(model_results.items()), columns=["model_show", dataset_displayname])
+        chart_data_table["model_link"] = chart_data_table["model_show"].map(model_link_mapping)
 
         def highlight_first_element(x):
                 # Create a DataFrame with the same shape as the input
-                df_style = pd.DataFrame('', index=x.index, columns=x.columns)
-                # Apply background color to the first element in row 0 (df[0][0])
-                # df_style.iloc[0, 1] = 'background-color: #b0c1d7; color: white'
+                df_style            = pd.DataFrame('', index=x.index, columns=x.columns)
                 df_style.iloc[0, 1] = 'background-color: #b0c1d7'
-                
                 return df_style
 
-        if cur_dataset_name in [
+        if dataset_displayname in [
                             'LibriSpeech-Clean',
                             'LibriSpeech-Other',
                             'CommonVoice-15-EN',
@@ -116,42 +74,39 @@ def draw(folder_name, category_name, displayname, metrics, cus_sort=True):
                             ]:
             
             chart_data_table = chart_data_table.sort_values(
-                    by=chart_data_table.columns[1],
-                    ascending=True
-                ).reset_index(drop=True)
+                                    by        = chart_data_table.columns[1],
+                                    ascending = True
+                                ).reset_index(drop=True)
         else:
             chart_data_table = chart_data_table.sort_values(
-                    by=chart_data_table.columns[1],
-                    ascending=False
-                ).reset_index(drop=True)
-            
+                                    by        = chart_data_table.columns[1],
+                                    ascending = False
+                                ).reset_index(drop=True)
+                            
 
         styled_df = chart_data_table.style.format(
-            {chart_data_table.columns[1]: "{:.3f}"}
-        ).apply(
-            highlight_first_element, axis=None
-        )
+                                    {chart_data_table.columns[1]: "{:.3f}"}
+                                ).apply(
+                                    highlight_first_element, axis=None
+                                )
 
 
         st.dataframe(
-                styled_df,
-                column_config={
-                    'model_show': 'Model',
-                    chart_data_table.columns[1]: {'alignment': 'left'},
-                    "model_link": st.column_config.LinkColumn(
-                        "Model Link",
-                    ),
-                },
-                hide_index=True,
-                use_container_width=True
-            )
-        
+                        styled_df,
+                        column_config={
+                            'model_show'               : 'Model',
+                            chart_data_table.columns[1]: {'alignment': 'left'},
+                            "model_link"               : st.column_config.LinkColumn("Model Link"),
+                        },
+                        hide_index=True,
+                        use_container_width=True
+                    )
+                
 
     # = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
     '''
     Show Chart
     '''
-
     # Initialize a session state variable for toggling the chart visibility
     if "show_chart" not in st.session_state:
         st.session_state.show_chart = False
@@ -166,7 +121,7 @@ def draw(folder_name, category_name, displayname, metrics, cus_sort=True):
             st.markdown('##### CHART')
 
             # Get Values
-            data_values = chart_data.iloc[:, 1]
+            data_values = chart_data_table.iloc[:, 1]
             
             # Calculate Q1 and Q3
             q1 = data_values.quantile(0.25)
@@ -201,7 +156,7 @@ def draw(folder_name, category_name, displayname, metrics, cus_sort=True):
                         "type": "category",
                         "boundaryGap": True,
                         "triggerEvent": True,
-                        "data":  chart_data['model_show'].tolist(),
+                        "data":  chart_data_table['model_show'].tolist(),
                     }
                 ],
                 "yAxis": [{"type": "value", 
@@ -211,9 +166,9 @@ def draw(folder_name, category_name, displayname, metrics, cus_sort=True):
                             # "splitNumber": 10
                             }],
                 "series": [{
-                        "name": f"{dataset_name}",
+                        "name": f"{dataset_nickname}",
                         "type": "bar",
-                        "data": chart_data[f'{displayname}'].tolist(),
+                        "data": chart_data_table[f'{dataset_displayname}'].tolist(),
                     }],
             }
             
@@ -224,15 +179,10 @@ def draw(folder_name, category_name, displayname, metrics, cus_sort=True):
             value = st_echarts(options=options, events=events, height="500px")
             
 
-
-
     # = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
-
     '''
     Show Examples
     '''
-
-
     # Initialize a session state variable for toggling the chart visibility
     if "show_examples" not in st.session_state:
         st.session_state.show_examples = False
@@ -242,7 +192,6 @@ def draw(folder_name, category_name, displayname, metrics, cus_sort=True):
         st.session_state.show_examples = not st.session_state.show_examples
 
     if st.session_state.show_examples:
-        
         st.markdown('To be implemented')
 
         # # if dataset_name in ['Earnings21-Test', 'Earnings22-Test', 'Tedlium3-Test', 'Tedlium3-Long-form-Test']:

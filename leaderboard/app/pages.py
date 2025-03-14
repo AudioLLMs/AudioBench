@@ -1,10 +1,9 @@
 import streamlit as st
-from app.draw_diagram import *
+from app.draw_diagram import draw_table
 from app.content import *
-from app.summarization import *
+from app.summarization import sum_table_mulit_metrix
 
 def dataset_contents(dataset, metrics):
-    
     custom_css = """
                 <style>
                 .my-dataset-info {
@@ -39,7 +38,6 @@ def dashboard():
             **Resource for AudioLLMs:** [![GitHub Repo stars](https://img.shields.io/github/stars/AudioLLMs/Awesome-Audio-LLM?style=social)][gh2]
             """)
 
-
     st.markdown("""
             #### Recent updates
             - **Jan. 2025**: AudioBench is officially accepted to NAACL 2025!
@@ -51,7 +49,6 @@ def dashboard():
             """)
 
     st.divider()
-    
     st.markdown("""
                 #### Evaluating Audio-based Large Language Models
                 
@@ -62,9 +59,7 @@ def dashboard():
                 """
                 )
 
-
-    with st.container():
-        
+    with st.container():        
         st.markdown('''
                 ''')
         
@@ -113,20 +108,14 @@ def dashboard():
                             year={2024}
                             }
                         ```
-
                         """)
-
-
-
-
-
 
 
 def asr_english():
     st.title("Task: Automatic Speech Recognition - English")
     
     sum = ['Overall']
-    dataset_lists = [
+    dataset_list = [
                     'LibriSpeech-Clean', 
                     'LibriSpeech-Other', 
                     'CommonVoice-15-EN', 
@@ -137,30 +126,29 @@ def asr_english():
                     'TED-LIUM-3', 
                     'TED-LIUM-3-LongForm', 
                     ]
-
-    filters_levelone = sum + dataset_lists
+    filters_1_list = sum + dataset_list
     
-    left, center, _, middle, right = st.columns([0.4, 0.2, 0.2, 0.2 ,0.2])
+    space1, space2, _, _ = st.columns([0.4, 0.4, 0.2 ,0.2])
     
-    with left:
-        filter_1 = st.selectbox('Dataset', filters_levelone)
+    with space1:
+        tab_section = st.selectbox('Dataset', filters_1_list)
+    with space2:
+        metric = st.selectbox('Metric', ['WER'])
+        metric = metric.lower()
     
-    if filter_1:
-        if filter_1 in sum:
-            sum_table_mulit_metrix('asr_english', ['wer'])
+    if tab_section:
+        if tab_section in sum:
+            sum_table_mulit_metrix(dataset_list, metric)
         else:
-            dataset_contents(dataset_diaplay_information[filter_1], metrics_info['wer'])
-            draw('su', 'asr_english', filter_1, 'wer', cus_sort=True)
-
-
-
+            dataset_contents(dataset_diaplay_information[tab_section], metrics_info[metric])
+            draw_table(tab_section, metric)
 
 
 def asr_singlish():
     st.title("Task: Automatic Speech Recognition - Singlish")
 
     sum = ['Overall']
-    dataset_lists = [
+    dataset_list = [
                     'MNSC-PART1-ASR', 
                     'MNSC-PART2-ASR',
                     'MNSC-PART3-ASR',
@@ -170,20 +158,22 @@ def asr_singlish():
                     'SEAME-Dev-Man',
                     'SEAME-Dev-Sge',
                     ]
-
-    filters_levelone = sum + dataset_lists
+    filters_1_list = sum + dataset_list
     
-    left, center, _, middle, right = st.columns([0.4, 0.2, 0.2, 0.2 ,0.2])
+    space1, space2, _, _ = st.columns([0.4, 0.4, 0.2 ,0.2])
     
-    with left:
-        filter_1 = st.selectbox('Dataset', filters_levelone)
+    with space1:
+        tab_section = st.selectbox('Dataset', filters_1_list)
+    with space2:
+        metric = st.selectbox('Metric', ['WER'])
+        metric = metric.lower()
     
-    if filter_1:
-        if filter_1 in sum:
-            sum_table_mulit_metrix('asr_singlish', ['wer'])
+    if tab_section:
+        if tab_section in sum:
+            sum_table_mulit_metrix(dataset_list, metric)
         else:
-            dataset_contents(dataset_diaplay_information[filter_1], metrics_info['wer'])
-            draw('su', 'asr_singlish', filter_1, 'wer')
+            dataset_contents(dataset_diaplay_information[tab_section], metrics_info[metric])
+            draw_table(tab_section, metric)
 
 
 
@@ -192,52 +182,56 @@ def asr_mandarin():
     st.title("Task: Automatic Speech Recognition - Mandarin")
 
     sum = ['Overall']
-    dataset_lists = [
+    dataset_list = [
                     'AISHELL-ASR-ZH', 
                     ]
+    filters_1_list = sum + dataset_list
+    
+    space1, space2, _, _ = st.columns([0.4, 0.4, 0.2 ,0.2])
+    
+    with space1:
+        tab_section = st.selectbox('Dataset', filters_1_list)
+    with space2:
+        metric = st.selectbox('Metric', ['WER'])
+        metric = metric.lower()
 
-    filters_levelone = sum + dataset_lists
-    
-    left, center, _, middle, right = st.columns([0.4, 0.2, 0.2, 0.2 ,0.2])
-    
-    with left:
-        filter_1 = st.selectbox('Dataset', filters_levelone)
-    
-    if filter_1:
-        if filter_1 in sum:
-            sum_table_mulit_metrix('asr_mandarin', ['wer'])
+    if tab_section:
+        if tab_section in sum:
+            sum_table_mulit_metrix(dataset_list, metric)
         else:
-            dataset_contents(dataset_diaplay_information[filter_1], metrics_info['wer'])
-            draw('su', 'asr_mandarin', filter_1, 'wer')
+            dataset_contents(dataset_diaplay_information[tab_section], metrics_info[metric])
+            draw_table(tab_section, metric)
+
 
     
-
 
 def speech_translation():
     st.title("Task: Speech Translation")
     
     sum = ['Overall']
-    dataset_lists = [
+    dataset_list = [
                         'CoVoST2-EN-ID', 
                         'CoVoST2-EN-ZH',
                         'CoVoST2-EN-TA', 
                         'CoVoST2-ID-EN', 
                         'CoVoST2-ZH-EN', 
                         'CoVoST2-TA-EN']
+    filters_1_list = sum + dataset_list
+    
+    space1, space2, _, _ = st.columns([0.4, 0.4, 0.2 ,0.2])
+    
+    with space1:
+        tab_section = st.selectbox('Dataset', filters_1_list)
+    with space2:
+        metric = st.selectbox('Metric', ['BLEU'])
+        metric = metric.lower()
 
-    filters_levelone = sum + dataset_lists
-    
-    left, center, _, middle, right = st.columns([0.4, 0.2, 0.2, 0.2 ,0.2])
-    
-    with left:
-        filter_1 = st.selectbox('Dataset', filters_levelone)
-    
-    if filter_1:
-        if filter_1 in sum:
-            sum_table_mulit_metrix('st', ['bleu'])
+    if tab_section:
+        if tab_section in sum:
+            sum_table_mulit_metrix(dataset_list, metric)
         else:
-            dataset_contents(dataset_diaplay_information[filter_1], metrics_info['bleu'])
-            draw('su', 'ST', filter_1, 'bleu')
+            dataset_contents(dataset_diaplay_information[tab_section], metrics_info[metric])
+            draw_table(tab_section, metric)
 
 
 
@@ -246,93 +240,85 @@ def speech_question_answering_english():
     st.title("Task: Spoken Question Answering - English")
     
     sum = ['Overall']
-
-    dataset_lists = [
+    dataset_list = [
                     'CN-College-Listen-MCQ',
                     'DREAM-TTS-MCQ',
                     'SLUE-P2-SQA5', 
                     'Public-SG-Speech-QA', 
                     'Spoken-SQuAD',
                      ]
-
-    filters_levelone = sum + dataset_lists
+    filters_1_list = sum + dataset_list
     
-    left, center, _, middle, right = st.columns([0.4, 0.2, 0.2, 0.2 ,0.2])
+    space1, space2, _, _ = st.columns([0.4, 0.4, 0.2 ,0.2])
     
-    with left:
-        filter_1 = st.selectbox('Dataset', filters_levelone)
+    with space1:
+        tab_section = st.selectbox('Dataset', filters_1_list)
+    with space2:
+        metric = st.selectbox('Metric', ['LLAMA3_70B_JUDGE'])
+        metric = metric.lower()
 
-    if filter_1:
-        if filter_1 in sum:
-            sum_table_mulit_metrix('sqa_english', ['llama3_70b_judge'])
-
-        #elif filter_1 in dataset_lists:
-        #    dataset_contents(sqa_datasets[filter_1], metrics['llama3_70b_judge'])
-        #    draw('su', 'SQA', filter_1, 'llama3_70b_judge')
-        
+    if tab_section:
+        if tab_section in sum:
+            sum_table_mulit_metrix(dataset_list, metric)
         else:
-            dataset_contents(dataset_diaplay_information[filter_1], metrics_info['llama3_70b_judge'])
-            draw('su', 'sqa_english', filter_1, 'llama3_70b_judge')
-
-
+            dataset_contents(dataset_diaplay_information[tab_section], metrics_info[metric])
+            draw_table(tab_section, metric)
 
 
 def speech_question_answering_singlish():
     st.title("Task: Spoken Question Answering - Singlish")
     
     sum = ['Overall']
-
-    dataset_lists = [
+    dataset_list = [
               'MNSC-PART3-SQA', 
               'MNSC-PART4-SQA',
               'MNSC-PART5-SQA',
               'MNSC-PART6-SQA',
               ]
-
-
-    filters_levelone = sum + dataset_lists
+    filters_1_list = sum + dataset_list
     
-    left, center, _, middle, right = st.columns([0.4, 0.2, 0.2, 0.2 ,0.2])
+    space1, space2, _, _ = st.columns([0.4, 0.4, 0.2 ,0.2])
     
-    with left: 
-        filter_1 = st.selectbox('Dataset', filters_levelone)
+    with space1: 
+        tab_section = st.selectbox('Dataset', filters_1_list)
+    with space2:
+        metric = st.selectbox('Metric', ['LLAMA3_70B_JUDGE'])
+        metric = metric.lower()
 
-    if filter_1:
-        if filter_1 in sum:
-            sum_table_mulit_metrix('sqa_singlish', ['llama3_70b_judge'])
-        
+    if tab_section:
+        if tab_section in sum:
+            sum_table_mulit_metrix(dataset_list, metric)
         else:
-            dataset_contents(dataset_diaplay_information[filter_1], metrics_info['llama3_70b_judge'])
-            draw('su', 'sqa_singlish', filter_1, 'llama3_70b_judge')
+            dataset_contents(dataset_diaplay_information[tab_section], metrics_info[metric])
+            draw_table(tab_section, metric)
 
 
 def spoken_dialogue_summarization_singlish():
     st.title("Task: Spoken Dialogue Summarization - Singlish")
     
     sum = ['Overall']
-
-    dataset_lists = [
+    dataset_list = [
               'MNSC-PART3-SDS', 
               'MNSC-PART4-SDS',
               'MNSC-PART5-SDS',
               'MNSC-PART6-SDS',
               ]
+    filters_1_list = sum + dataset_list
 
-
-    filters_levelone = sum + dataset_lists
+    space1, space2, _, _ = st.columns([0.4, 0.4, 0.2 ,0.2])
     
-    left, center, _, middle, right = st.columns([0.4, 0.2, 0.2, 0.2 ,0.2])
-    
-    with left: 
-        filter_1 = st.selectbox('Dataset', filters_levelone)
+    with space1: 
+        tab_section = st.selectbox('Dataset', filters_1_list)
+    with space2:
+        metric = st.selectbox('Metric', ['LLAMA3_70B_JUDGE'])
+        metric = metric.lower()
 
-    if filter_1:
-        if filter_1 in sum:
-            sum_table_mulit_metrix('sds_singlish', ['llama3_70b_judge'])
-        
+    if tab_section:
+        if tab_section in sum:
+            sum_table_mulit_metrix(dataset_list, metric)
         else:
-            dataset_contents(dataset_diaplay_information[filter_1], metrics_info['llama3_70b_judge'])
-            draw('su', 'sds_singlish', filter_1, 'llama3_70b_judge')
+            dataset_contents(dataset_diaplay_information[tab_section], metrics_info[metric])
+            draw_table(tab_section, metric)
 
 
 
@@ -341,100 +327,72 @@ def speech_instruction():
     st.title("Task: Speech Instruction")
     
     sum = ['Overall']
-
-    dataset_lists = ['OpenHermes-Audio', 
+    dataset_list = ['OpenHermes-Audio', 
                      'ALPACA-Audio',
                      ]
+    filters_1_list = sum + dataset_list
+    space1, space2, _, _ = st.columns([0.4, 0.4, 0.2 ,0.2])
     
-    filters_levelone = sum + dataset_lists
-    
-    left, center, _, middle, right = st.columns([0.4, 0.2, 0.2, 0.2 ,0.2])
-    
-    with left:
-        filter_1 = st.selectbox('Dataset', filters_levelone)
+    with space1: 
+        tab_section = st.selectbox('Dataset', filters_1_list)
+    with space2:
+        metric = st.selectbox('Metric', ['LLAMA3_70B_JUDGE'])
+        metric = metric.lower()
 
-    if filter_1:
-        if filter_1 in sum:
-            sum_table_mulit_metrix('speech_instruction', ['llama3_70b_judge'])
+    if tab_section:
+        if tab_section in sum:
+            sum_table_mulit_metrix(dataset_list, metric)
         else:
-            dataset_contents(dataset_diaplay_information[filter_1], metrics_info['llama3_70b_judge'])
-            draw('su', 'speech_instruction', filter_1, 'llama3_70b_judge')
-
+            dataset_contents(dataset_diaplay_information[tab_section], metrics_info[metric])
+            draw_table(tab_section, metric)
 
 
 
 def audio_captioning():
     st.title("Task: Audio Captioning")
 
-    filters_levelone = ['WavCaps', 
+    dataset_list = [    'WavCaps', 
                         'AudioCaps',
                         ]
-    filters_leveltwo = ['Llama3-70b-judge', 'Meteor']
     
-    left, center, _, middle, right = st.columns([0.4, 0.2, 0.2, 0.2 ,0.2])
+    space1, space2, _, _ = st.columns([0.4, 0.4, 0.2 ,0.2])
     
-    with left:
-        filter_1 = st.selectbox('Dataset', filters_levelone)
-    with middle:
-        metric = st.selectbox('Metric', filters_leveltwo)
+    with space1:
+        tab_section = st.selectbox('Dataset', dataset_list)
+    with space2:
+        metric = st.selectbox('Metric', ['LLAMA3_70B_JUDGE', 'METEOR'])
+        metric = metric.lower()
 
-    if filter_1 or metric:
-        dataset_contents(dataset_diaplay_information[filter_1], metrics_info[metric.lower().replace('-', '_')])
-        draw('asu', 'audio_captioning', filter_1, metric.lower().replace('-', '_'))
-
-
+    if tab_section:
+        dataset_contents(dataset_diaplay_information[tab_section], metrics_info[metric])
+        draw_table(tab_section, metric)
 
 
 def audio_scene_question_answering():
     st.title("Task: Audio Scene Question Answering")
 
     sum = ['Overall']
-
-    dataset_lists = ['Clotho-AQA', 
+    dataset_list = ['Clotho-AQA', 
                     'WavCaps-QA', 
                     'AudioCaps-QA']
     
-    filters_levelone = sum + dataset_lists
+    filters_1_list = sum + dataset_list
+
+    space1, space2, _, _ = st.columns([0.4, 0.4, 0.2 ,0.2])
     
-    left, center, _, middle, right = st.columns([0.4, 0.2, 0.2, 0.2 ,0.2])
-    
-    with left:
-        filter_1 = st.selectbox('Dataset', filters_levelone)
-    
-    if filter_1:
-        if filter_1 in sum:
-            sum_table_mulit_metrix('audio_scene_question_answering', ['llama3_70b_judge'])
+    with space1: 
+        tab_section = st.selectbox('Dataset', filters_1_list)
+    with space2:
+        metric = st.selectbox('Metric', ['LLAMA3_70B_JUDGE'])
+        metric = metric.lower()
+
+    if tab_section:
+        if tab_section in sum:
+            sum_table_mulit_metrix(dataset_list, metric)
         else:
-            dataset_contents(dataset_diaplay_information[filter_1], metrics_info['llama3_70b_judge'])
-            draw('asu', 'audio_scene_question_answering', filter_1, 'llama3_70b_judge')
+            dataset_contents(dataset_diaplay_information[tab_section], metrics_info[metric])
+            draw_table(tab_section, metric)
 
-
-
-
-def emotion_recognition():
-    st.title("Task: Emotion Recognition")
-
-    sum = ['Overall']
-
-    dataset_lists = [
-                    'IEMOCAP-Emotion', 
-                    'MELD-Sentiment', 
-                    'MELD-Emotion',
-                    ]
-
-    filters_levelone = sum + dataset_lists
-    
-    left, center, _, middle, right = st.columns([0.4, 0.2, 0.2, 0.2 ,0.2])
-    
-    with left:
-        filter_1 = st.selectbox('Dataset', filters_levelone)
-
-    if filter_1:
-        if filter_1 in sum:
-            sum_table_mulit_metrix('emotion_recognition', ['llama3_70b_judge'])
-        else:
-            dataset_contents(dataset_diaplay_information[filter_1], metrics_info['llama3_70b_judge'])
-            draw('vu', 'emotion_recognition', filter_1, 'llama3_70b_judge')
 
 
 
@@ -443,28 +401,27 @@ def accent_recognition():
     st.title("Task: Accent Recognition")
 
     sum = ['Overall']
-    dataset_lists = [
+    dataset_list = [
         'VoxCeleb-Accent',
         'MNSC-AR-Sentence',
         'MNSC-AR-Dialogue',
         ]
-
-
-    filters_levelone = sum + dataset_lists
+    filters_1_list = sum + dataset_list
     
-    left, center, _, middle, right = st.columns([0.4, 0.2, 0.2, 0.2 ,0.2])
+    space1, space2, _, _ = st.columns([0.4, 0.4, 0.2 ,0.2])
     
-    with left:
-        filter_1 = st.selectbox('Dataset', filters_levelone)
+    with space1: 
+        tab_section = st.selectbox('Dataset', filters_1_list)
+    with space2:
+        metric = st.selectbox('Metric', ['LLAMA3_70B_JUDGE'])
+        metric = metric.lower()
 
-
-    if filter_1:
-        if filter_1 in sum:
-            sum_table_mulit_metrix('accent_recognition', ['llama3_70b_judge'])
+    if tab_section:
+        if tab_section in sum:
+            sum_table_mulit_metrix(dataset_list, metric)
         else:
-            dataset_contents(dataset_diaplay_information[filter_1], metrics_info['llama3_70b_judge'])
-            draw('vu', 'accent_recognition', filter_1, 'llama3_70b_judge')
-
+            dataset_contents(dataset_diaplay_information[tab_section], metrics_info[metric])
+            draw_table(tab_section, metric)
 
 
 
@@ -472,25 +429,56 @@ def gender_recognition():
     st.title("Task: Gender Recognition")
     
     sum = ['Overall']
-
-    dataset_lists =  [
+    dataset_list =  [
                         'VoxCeleb-Gender', 
                         'IEMOCAP-Gender'
                         ]
+    filters_1_list = sum + dataset_list
+    
+    space1, space2, _, _ = st.columns([0.4, 0.4, 0.2 ,0.2])
+    
+    with space1: 
+        tab_section = st.selectbox('Dataset', filters_1_list)
+    with space2:
+        metric = st.selectbox('Metric', ['LLAMA3_70B_JUDGE'])
+        metric = metric.lower()
 
-    filters_levelone = sum + dataset_lists
-    
-    left, center, _, middle, right = st.columns([0.4, 0.2, 0.2, 0.2 ,0.2])
-    
-    with left:
-        filter_1 = st.selectbox('Dataset', filters_levelone)
-    
-    if filter_1:
-        if filter_1 in sum:
-            sum_table_mulit_metrix('gender_recognition', ['llama3_70b_judge'])
+    if tab_section:
+        if tab_section in sum:
+            sum_table_mulit_metrix(dataset_list, metric)
         else:
-            dataset_contents(dataset_diaplay_information[filter_1], metrics_info['llama3_70b_judge'])
-            draw('vu', 'gender_recognition', filter_1, 'llama3_70b_judge')
+            dataset_contents(dataset_diaplay_information[tab_section], metrics_info[metric])
+            draw_table(tab_section, metric)
+
+
+
+
+
+def emotion_recognition():
+    st.title("Task: Emotion Recognition")
+
+    sum = ['Overall']
+    dataset_list = [
+                    'IEMOCAP-Emotion', 
+                    'MELD-Sentiment', 
+                    'MELD-Emotion',
+                    ]
+    filters_1_list = sum + dataset_list
+    
+    space1, space2, _, _ = st.columns([0.4, 0.4, 0.2 ,0.2])
+    
+    with space1: 
+        tab_section = st.selectbox('Dataset', filters_1_list)
+    with space2:
+        metric = st.selectbox('Metric', ['LLAMA3_70B_JUDGE'])
+        metric = metric.lower()
+
+    if tab_section:
+        if tab_section in sum:
+            sum_table_mulit_metrix(dataset_list, metric)
+        else:
+            dataset_contents(dataset_diaplay_information[tab_section], metrics_info[metric])
+            draw_table(tab_section, metric)
 
 
 
@@ -500,25 +488,25 @@ def music_understanding():
     
     sum = ['Overall']
 
-    dataset_lists =  ['MuChoMusic',
+    dataset_list =  ['MuChoMusic',
                       ]
 
-    filters_levelone = sum + dataset_lists
+    filters_1_list = sum + dataset_list
     
-    left, center, _, middle, right = st.columns([0.4, 0.2, 0.2, 0.2 ,0.2])
+    space1, space2, _, _ = st.columns([0.4, 0.4, 0.2 ,0.2])
     
-    with left:
-        filter_1 = st.selectbox('Dataset', filters_levelone)
-    
-    if filter_1:
-        if filter_1 in sum:
-            sum_table_mulit_metrix('music_understanding', ['llama3_70b_judge'])
+    with space1: 
+        tab_section = st.selectbox('Dataset', filters_1_list)
+    with space2:
+        metric = st.selectbox('Metric', ['LLAMA3_70B_JUDGE'])
+        metric = metric.lower()
+
+    if tab_section:
+        if tab_section in sum:
+            sum_table_mulit_metrix(dataset_list, metric)
         else:
-            dataset_contents(dataset_diaplay_information[filter_1], metrics_info['llama3_70b_judge'])
-            draw('vu', 'music_understanding', filter_1, 'llama3_70b_judge')
-
-
-
+            dataset_contents(dataset_diaplay_information[tab_section], metrics_info[metric])
+            draw_table(tab_section, metric)
 
 
 
@@ -529,8 +517,7 @@ def music_understanding():
 def under_development():
     st.title("Task: Under Development")
     
-
-    dataset_lists =  [
+    dataset_list =  [
                       'CNA',
                       'IDPC',
                       'Parliament',
@@ -545,43 +532,44 @@ def under_development():
                       'YTB-SQA-Batch1',
                       'YTB-SDS-Batch1',
                       'YTB-PQA-Batch1',
-
                       ]
 
-    filters_levelone = dataset_lists
+    filters_1_list = dataset_list
     
-    left, center, _, middle, right = st.columns([0.4, 0.2, 0.2, 0.2 ,0.2])
+    space1, space2, _, _ = st.columns([0.4, 0.4, 0.2 ,0.2])
     
-    with left:
-        filter_1 = st.selectbox('Dataset', filters_levelone)
-    
-    dataset_contents(dataset_diaplay_information[filter_1], 'under_development')
-    
-    if filter_1 in [
-                      'CNA',
-                      'IDPC',
-                      'Parliament',
-                      'UKUS-News',
-                      'Mediacorp',
-                      'IDPC-Short',
-                      'Parliament-Short',
-                      'UKUS-News-Short',
-                      'Mediacorp-Short',
-                      'YTB-ASR-Batch1',
-                      'YTB-ASR-Batch2',
-                      'SEAME-Dev-Man',
-                      'SEAME-Dev-Sge',
-                      ]:
-        
-        draw('vu', 'under_development_wer', filter_1, 'wer')
+    with space1:
+        tab_section = st.selectbox('Dataset', filters_1_list)
+    with space2:
+        if tab_section in [
+                'CNA',
+                'IDPC',
+                'Parliament',
+                'UKUS-News',
+                'Mediacorp',
+                'IDPC-Short',
+                'Parliament-Short',
+                'UKUS-News-Short',
+                'Mediacorp-Short',
+                'YTB-ASR-Batch1',
+                'YTB-ASR-Batch2',
+                ]:
+            metric = st.selectbox('Metric', ['WER'])
+            metric = metric.lower()
+        elif tab_section in [
+                'YTB-SQA-Batch1',
+                'YTB-SDS-Batch1',
+                'YTB-PQA-Batch1',
+                ]:
+            metric = st.selectbox('Metric', ['LLAMA3_70B_JUDGE'])
+            metric = metric.lower()
+        else:
+            raise ValueError('Invalid dataset')
 
-    elif filter_1 in [
-        'YTB-SQA-Batch1',
-        'YTB-SDS-Batch1',
-        'YTB-PQA-Batch1',
-        ]:
-        draw('vu', 'under_development_llama3_70b_judge', filter_1, 'llama3_70b_judge')
-
+    
+    if tab_section:
+        dataset_contents(dataset_diaplay_information[tab_section], metrics_info[metric])
+        draw_table(tab_section, metric)
 
 
 def mmau_evaluation():

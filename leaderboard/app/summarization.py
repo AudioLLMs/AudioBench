@@ -1,6 +1,9 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+
+import json
+
 from streamlit_echarts import st_echarts
 from streamlit.components.v1 import html
 # from PIL import Image 
@@ -14,20 +17,27 @@ from model_information import get_dataframe
 
 info_df = get_dataframe()
 
+def sum_table_mulit_metrix(dataset_displayname_list, metric):
 
-def sum_table_mulit_metrix(task_name, metrics_lists: List[str]):
+    with open('organize_model_results.json', 'r') as f:
+        organize_model_results = json.load(f)
 
-    # combine chart data from multiple sources
-    chart_data = pd.DataFrame()
-    for metrics in metrics_lists:
-        folder = f"./results_organized/{metrics}"
-        data_path = f'{folder}/{task_name.lower()}.csv'
-        one_chart_data = pd.read_csv(data_path).round(3)
-        if len(chart_data) == 0:
-            chart_data = one_chart_data
-        else:
-            chart_data = pd.merge(chart_data, one_chart_data, on='Model', how='outer')
-    
+    dataset_results = {}
+
+    for dataset_displayname in dataset_displayname_list:
+        dataset_nickname = displayname2datasetname[dataset_displayname]
+        model_results = organize_model_results[dataset_nickname][metric]
+        model_name_mapping = {key.strip(): val for key, val in zip(info_df['Original Name'], info_df['Proper Display Name'])}
+        model_results      = {model_name_mapping.get(key, key): val for key, val in model_results.items()}
+
+        dataset_results[dataset_displayname] = model_results
+
+    df_results = pd.DataFrame(dataset_results)
+
+    # Reset index to have models as a column
+    df_results.reset_index(inplace=True)
+    df_results.rename(columns={"index": "Model"}, inplace=True)
+    chart_data = df_results    
 
     selected_columns = [i for i in chart_data.columns if i != 'Model']
     chart_data['Average'] = chart_data[selected_columns].mean(axis=1)
@@ -81,7 +91,7 @@ def sum_table_mulit_metrix(task_name, metrics_lists: List[str]):
         # Format numeric columns to 2 decimal places
         chart_data_table[chart_data_table.columns[1]] = chart_data_table[chart_data_table.columns[1]].apply(lambda x: round(float(x), 3) if isinstance(float(x), (int, float)) else float(x))
 
-        if metrics in ['wer']:
+        if metric == 'wer':
             ascend = True
         else:
             ascend= False
@@ -124,4 +134,4 @@ def sum_table_mulit_metrix(task_name, metrics_lists: List[str]):
             )
             
     # Only report the last metrics
-    st.markdown(f'###### Metric: {metrics_info[metrics]}')
+    st.markdown(f'###### Metric: {metrics_info[metric]}')
