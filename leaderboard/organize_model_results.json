@@ -20,7 +20,11 @@
             "MERaLiON-AudioLLM-Whisper-SEA-LION": 0.0,
             "Qwen2-Audio-7B-Instruct": 0.5685405990059489,
             "whisper_large_v3": 0.8294532718704128,
-            "phi_4_multimodal_instruct": 1.3868687388941825
+            "cascade_whisper_large_v2_gemma2_9b_cpt_sea_lionv3_instruct": 0.4757667842702995,
+            "phi_4_multimodal_instruct": 1.3868687388941825,
+            "WavLLM_fairseq": 1.2058793232211378,
+            "SALMONN_7B": 0.7757204295537071,
+            "cascade_whisper_large_v3_llama_3_8b_instruct": 0.4715562308464886
         }
     },
     "wavcaps_test": {
@@ -895,13 +899,21 @@
             "Qwen-Audio-Chat": 38.5,
             "MERaLiON-AudioLLM-Whisper-SEA-LION": 60.5,
             "Qwen2-Audio-7B-Instruct": 44.4,
-            "phi_4_multimodal_instruct": 54.50000000000001
+            "cascade_whisper_large_v2_gemma2_9b_cpt_sea_lionv3_instruct": 46.7,
+            "gemini-1.5-flash": 31.4,
+            "phi_4_multimodal_instruct": 54.50000000000001,
+            "SALMONN_7B": 40.5,
+            "cascade_whisper_large_v3_llama_3_8b_instruct": 51.0
         },
         "llama3_70b_judge": {
             "Qwen-Audio-Chat": 53.6,
             "MERaLiON-AudioLLM-Whisper-SEA-LION": 64.60000000000001,
             "Qwen2-Audio-7B-Instruct": 58.9,
-            "phi_4_multimodal_instruct": 59.4
+            "cascade_whisper_large_v2_gemma2_9b_cpt_sea_lionv3_instruct": 52.7,
+            "gemini-1.5-flash": 58.199999999999996,
+            "phi_4_multimodal_instruct": 59.4,
+            "SALMONN_7B": 48.4,
+            "cascade_whisper_large_v3_llama_3_8b_instruct": 55.60000000000001
         }
     },
     "mmau_mini_music": {
@@ -909,13 +921,21 @@
             "Qwen-Audio-Chat": 0.4311377245508982,
             "MERaLiON-AudioLLM-Whisper-SEA-LION": 0.6077844311377245,
             "Qwen2-Audio-7B-Instruct": 0.45808383233532934,
-            "phi_4_multimodal_instruct": 0.6377245508982036
+            "cascade_whisper_large_v2_gemma2_9b_cpt_sea_lionv3_instruct": 0.39520958083832336,
+            "gemini-1.5-flash": 0.2904191616766467,
+            "phi_4_multimodal_instruct": 0.6377245508982036,
+            "SALMONN_7B": 0.4820359281437126,
+            "cascade_whisper_large_v3_llama_3_8b_instruct": 0.5
         },
         "llama3_70b_judge": {
             "Qwen-Audio-Chat": 0.5958083832335329,
             "MERaLiON-AudioLLM-Whisper-SEA-LION": 0.6437125748502994,
             "Qwen2-Audio-7B-Instruct": 0.6017964071856288,
-            "phi_4_multimodal_instruct": 0.688622754491018
+            "cascade_whisper_large_v2_gemma2_9b_cpt_sea_lionv3_instruct": 0.44011976047904194,
+            "gemini-1.5-flash": 0.5868263473053892,
+            "phi_4_multimodal_instruct": 0.688622754491018,
+            "SALMONN_7B": 0.5598802395209581,
+            "cascade_whisper_large_v3_llama_3_8b_instruct": 0.5359281437125748
         }
     },
     "mmau_mini_sound": {
@@ -923,13 +943,21 @@
             "Qwen-Audio-Chat": 0.43543543543543545,
             "MERaLiON-AudioLLM-Whisper-SEA-LION": 0.6606606606606606,
             "Qwen2-Audio-7B-Instruct": 0.4744744744744745,
-            "phi_4_multimodal_instruct": 0.5975975975975976
+            "cascade_whisper_large_v2_gemma2_9b_cpt_sea_lionv3_instruct": 0.45045045045045046,
+            "gemini-1.5-flash": 0.3483483483483483,
+            "phi_4_multimodal_instruct": 0.5975975975975976,
+            "SALMONN_7B": 0.4594594594594595,
+            "cascade_whisper_large_v3_llama_3_8b_instruct": 0.46546546546546547
         },
         "llama3_70b_judge": {
             "Qwen-Audio-Chat": 0.5945945945945946,
             "MERaLiON-AudioLLM-Whisper-SEA-LION": 0.7027027027027027,
             "Qwen2-Audio-7B-Instruct": 0.6306306306306306,
-            "phi_4_multimodal_instruct": 0.6456456456456456
+            "cascade_whisper_large_v2_gemma2_9b_cpt_sea_lionv3_instruct": 0.5345345345345346,
+            "gemini-1.5-flash": 0.5885885885885885,
+            "phi_4_multimodal_instruct": 0.6456456456456456,
+            "SALMONN_7B": 0.5105105105105106,
+            "cascade_whisper_large_v3_llama_3_8b_instruct": 0.5105105105105106
         }
     },
     "mmau_mini_speech": {
@@ -937,13 +965,21 @@
             "Qwen-Audio-Chat": 0.2882882882882883,
             "MERaLiON-AudioLLM-Whisper-SEA-LION": 0.5465465465465466,
             "Qwen2-Audio-7B-Instruct": 0.3993993993993994,
-            "phi_4_multimodal_instruct": 0.3993993993993994
+            "cascade_whisper_large_v2_gemma2_9b_cpt_sea_lionv3_instruct": 0.5555555555555556,
+            "gemini-1.5-flash": 0.3033033033033033,
+            "phi_4_multimodal_instruct": 0.3993993993993994,
+            "SALMONN_7B": 0.2732732732732733,
+            "cascade_whisper_large_v3_llama_3_8b_instruct": 0.5645645645645646
         },
         "llama3_70b_judge": {
             "Qwen-Audio-Chat": 0.4174174174174174,
             "MERaLiON-AudioLLM-Whisper-SEA-LION": 0.5915915915915916,
             "Qwen2-Audio-7B-Instruct": 0.5345345345345346,
-            "phi_4_multimodal_instruct": 0.44744744744744747
+            "cascade_whisper_large_v2_gemma2_9b_cpt_sea_lionv3_instruct": 0.6066066066066066,
+            "gemini-1.5-flash": 0.5705705705705706,
+            "phi_4_multimodal_instruct": 0.44744744744744747,
+            "SALMONN_7B": 0.3813813813813814,
+            "cascade_whisper_large_v3_llama_3_8b_instruct": 0.6216216216216216
         }
     },
     "imda_part5_30s_sqa_test": {
@@ -1070,6 +1106,7 @@
             "MERaLiON-AudioLLM-Whisper-SEA-LION": 62.599999999999994,
             "Qwen2-Audio-7B-Instruct": 46.2,
             "cascade_whisper_large_v2_gemma2_9b_cpt_sea_lionv3_instruct": 65.4,
+            "phi_4_multimodal_instruct": 52.599999999999994,
             "WavLLM_fairseq": 49.400000000000006,
             "SALMONN_7B": 24.2,
             "cascade_whisper_large_v3_llama_3_8b_instruct": 57.199999999999996

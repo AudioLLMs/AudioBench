@@ -5,7 +5,7 @@ export NLTK_DATA="/project/cache/nltk_data"
 
 # =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
 
-MODEL_NAME=phi_4_multimodal_instruct
+MODEL_NAME=gemini-1.5-flash
 
 # =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
 GPU=1
@@ -16,7 +16,7 @@ NUMBER_OF_SAMPLES=-1
 
 
 DATASET=mmau_mini
-METRICS=llama3_70b_judge
+METRICS=string_match
 
 bash eval.sh $DATASET $MODEL_NAME $GPU $BATCH_SIZE $OVERWRITE $METRICS $NUMBER_OF_SAMPLES
 

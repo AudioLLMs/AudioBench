@@ -1,6 +1,6 @@
 
 
-MODEL_NAME=cascade_whisper_large_v3_llama_3_8b_instruct
+MODEL_NAME=WavLLM_fairseq
 
 
 echo "MODEL_NAME: $MODEL_NAME"
@@ -34,7 +34,6 @@ echo "MODEL_NAME: $MODEL_NAME"
 # qsub -v DATASET_NAME=dream_tts_mcq_test,METRICS=llama3_70b_judge,MODEL_NAME=$MODEL_NAME scripts/aspire2ap_cluster/job_submission.sh
 # qsub -v DATASET_NAME=public_sg_speech_qa_test,METRICS=llama3_70b_judge,MODEL_NAME=$MODEL_NAME scripts/aspire2ap_cluster/job_submission.sh
 # qsub -v DATASET_NAME=spoken_squad_test,METRICS=llama3_70b_judge,MODEL_NAME=$MODEL_NAME scripts/aspire2ap_cluster/job_submission.sh
-
 
 # # SI
 # qsub -v DATASET_NAME=openhermes_audio_test,METRICS=llama3_70b_judge,MODEL_NAME=$MODEL_NAME scripts/aspire2ap_cluster/job_submission.sh
@@ -77,7 +76,7 @@ echo "MODEL_NAME: $MODEL_NAME"
 # qsub -v DATASET_NAME=imda_part1_asr_test,METRICS=wer,MODEL_NAME=$MODEL_NAME scripts/aspire2ap_cluster/job_submission.sh
 # qsub -v DATASET_NAME=imda_part2_asr_test,METRICS=wer,MODEL_NAME=$MODEL_NAME scripts/aspire2ap_cluster/job_submission.sh
 # qsub -v DATASET_NAME=imda_part3_30s_asr_test,METRICS=wer,MODEL_NAME=$MODEL_NAME scripts/aspire2ap_cluster/job_submission.sh
-qsub -v DATASET_NAME=imda_part4_30s_asr_test,METRICS=wer,MODEL_NAME=$MODEL_NAME scripts/aspire2ap_cluster/job_submission.sh
+# qsub -v DATASET_NAME=imda_part4_30s_asr_test,METRICS=wer,MODEL_NAME=$MODEL_NAME scripts/aspire2ap_cluster/job_submission.sh
 # qsub -v DATASET_NAME=imda_part5_30s_asr_test,METRICS=wer,MODEL_NAME=$MODEL_NAME scripts/aspire2ap_cluster/job_submission.sh
 # qsub -v DATASET_NAME=imda_part6_30s_asr_test,METRICS=wer,MODEL_NAME=$MODEL_NAME scripts/aspire2ap_cluster/job_submission.sh
 
