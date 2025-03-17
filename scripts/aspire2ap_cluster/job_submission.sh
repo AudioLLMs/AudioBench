@@ -6,7 +6,7 @@
 #PBS -k oed
 #PBS -q normal
 #PBS -P 13003558
-#PBS -l container_image=/data/projects/13003558/wangb1/workspaces/containers/customized_containers/audiobench_for_wavllm.sqsh
+#PBS -l container_image=/data/projects/13003558/wangb1/workspaces/containers/customized_containers/audiobench_for_phi4.sqsh
 #PBS -l container_name=audiobench
 #PBS -l enroot_env_file=/data/projects/13003558/wangb1/workspaces/MERaLiON-AudioLLM/scripts/nscc2/env.conf
 

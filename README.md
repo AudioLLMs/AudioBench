@@ -129,13 +129,15 @@ Two simple steps:
 - [x] [gemini-2-flash](./examples/adding_new_model.md): key needed
 - [x] [gpt-4o-audio](./examples/adding_new_model.md): key needed
 - [x] [phi_4_multimodal_instruct](./examples/adding_new_model.md)
+- [ ] [seallms_audio_7b](https://huggingface.co/SeaLLMs/SeaLLMs-Audio-7B)
 - [ ] [ultravox](./examples/adding_new_model.md) https://huggingface.co/fixie-ai/ultravox-v0_5-llama-3_1-8b / https://www.ultravox.ai/
 - [ ] [llama3_s](./examples/adding_new_model.md) 
 - [ ] [audio-flamingo-2](./examples/adding_new_model.md)
 - [ ] [GLM4-Voice]
 - [ ] [Mini-Omni]
 - [ ] [SLAM-Omni]
-
+- [ ] [https://huggingface.co/scb10x/llama3.1-typhoon2-audio-8b-instruct]
+- [ ] [https://huggingface.co/WillHeld/DiVA-llama-3-v0-8b]
 
 ### How to evaluation your own models?
 As long as the model can do inference, you can load them and inference to get the responses.

@@ -5,7 +5,7 @@ export NLTK_DATA="/project/cache/nltk_data"
 
 # =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
 
-MODEL_NAME=gemini-1.5-flash
+MODEL_NAME=seallms_audio_7b
 
 # =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
 GPU=1

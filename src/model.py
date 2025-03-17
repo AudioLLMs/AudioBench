@@ -81,6 +81,9 @@ class Model(object):
             from model_src.phi_4_multimodal_instruct import phi_4_multimodal_instruct_model_loader
             phi_4_multimodal_instruct_model_loader(self)
 
+        elif self.model_name == 'seallms_audio_7b':
+            from model_src.seallms_audio_7b import seallms_audio_7b_model_loader
+            seallms_audio_7b_model_loader(self)
 
         else:
             raise NotImplementedError("Model {} not implemented yet".format(self.model_name))
@@ -140,6 +143,10 @@ class Model(object):
             elif self.model_name == 'phi_4_multimodal_instruct':
                 from model_src.phi_4_multimodal_instruct import phi_4_multimodal_instruct_model_generation
                 return phi_4_multimodal_instruct_model_generation(self, input)
+
+            elif self.model_name == 'seallms_audio_7b':
+                from model_src.seallms_audio_7b import seallms_audio_7b_model_generation
+                return seallms_audio_7b_model_generation(self, input)
 
             else:
                 raise NotImplementedError("Model {} not implemented yet".format(self.model_name))

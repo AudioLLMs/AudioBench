@@ -51,9 +51,13 @@ data['Link'].append('https://ai.google.dev/gemini-api/docs/models/gemini')
 
 
 data['Original Name'].append('phi_4_multimodal_instruct')
-data['Proper Display Name'].append('Phi-4-multimodal-instruct')
+data['Proper Display Name'].append('Phi-4-Multimodal-Instruct')
 data['Link'].append('https://huggingface.co/microsoft/Phi-4-multimodal-instruct')
 
+
+data['Original Name'].append('seallms_audio_7b')
+data['Proper Display Name'].append('SeaLLMs-Audio-7B')
+data['Link'].append('https://huggingface.co/SeaLLMs/SeaLLMs-Audio-7B')
 
 
 
