@@ -131,7 +131,10 @@ Two simple steps:
 - [x] [phi_4_multimodal_instruct](./examples/adding_new_model.md)
 - [ ] [ultravox](./examples/adding_new_model.md) https://huggingface.co/fixie-ai/ultravox-v0_5-llama-3_1-8b / https://www.ultravox.ai/
 - [ ] [llama3_s](./examples/adding_new_model.md) 
-- [ ] [audio-flamingo-2](./examples/adding_new_model.md) 
+- [ ] [audio-flamingo-2](./examples/adding_new_model.md)
+- [ ] [GLM4-Voice]
+- [ ] [Mini-Omni]
+- [ ] [SLAM-Omni]
 
 
 ### How to evaluation your own models?

@@ -588,7 +588,7 @@ def mmau_evaluation():
     with space1: 
         tab_section = st.selectbox('Dataset', filters_1_list)
     with space2:
-        metric = st.selectbox('Metric', ['LLAMA3_70B_JUDGE'])
+        metric = st.selectbox('Metric', ['LLAMA3_70B_JUDGE', 'STRING_MATCH'])
         metric = metric.lower()
 
     if tab_section:

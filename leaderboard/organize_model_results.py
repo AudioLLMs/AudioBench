@@ -51,7 +51,7 @@ for model_name in model_names:
         if dataset_name not in all_model_results: all_model_results[dataset_name] = {}
         if metric_name not in all_model_results[dataset_name]: all_model_results[dataset_name][metric_name] = {}
         if model_name not in all_model_results[dataset_name][metric_name]: all_model_results[dataset_name][metric_name][model_name] = {}
-        if metric_name == 'llama3_70b_judge' or metric_name == 'gpt4o_judge':
+        if metric_name == 'llama3_70b_judge' or metric_name == 'gpt4o_judge' or metric_name == 'string_match':
             all_model_results[dataset_name][metric_name][model_name] = result[metric_name]['judge_score']
         else: 
             all_model_results[dataset_name][metric_name][model_name] = result[metric_name]
@@ -84,8 +84,6 @@ for model_name in model_names:
                 all_model_results[dataset_name][metric_name][model_name] = result['task_scores']['speech']
             else: 
                 all_model_results[dataset_name][metric_name][model_name] = result['task_scores']['speech']
-
-        
 
 with open('organize_model_results.json', 'w') as f:
     json.dump(all_model_results, f, indent=4)

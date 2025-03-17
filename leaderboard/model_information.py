@@ -50,6 +50,12 @@ data['Proper Display Name'].append('Gemini-1.5-Flash')
 data['Link'].append('https://ai.google.dev/gemini-api/docs/models/gemini')
 
 
+data['Original Name'].append('phi_4_multimodal_instruct')
+data['Proper Display Name'].append('Phi-4-multimodal-instruct')
+data['Link'].append('https://huggingface.co/microsoft/Phi-4-multimodal-instruct')
+
+
+
 
 def get_dataframe():
     """

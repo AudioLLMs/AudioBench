@@ -1,0 +1,168 @@
+{
+    "llama3_70b_judge": {
+        "judge_score": 94.54247025030776,
+        "success_rate": 1.0
+    },
+    "details": [
+        {
+            "question": "Can you identify the speaker's gender based on the audio (Male or Female)?",
+            "reference": "The speaker is a female.",
+            "model_prediction": "The speaker is female.",
+            "judge_response": "Explanation: The reference answer is \"The speaker is a female.\" while the model's answer is \"The speaker is female.\". I think the model's answer accurately mirrors the reference answer, providing the same information with slightly different wording. The model's response is correct, conveying the same meaning as the reference.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "Can you figure out the speaker's gender from the audio (Male or Female)?",
+            "reference": "The speaker is a female.",
+            "model_prediction": "The speaker is female.",
+            "judge_response": "Explanation: The reference answer is \"The speaker is a female.\" and the model's answer is \"The speaker is female.\". I think the model's answer is a perfect match with the reference answer, providing the same information with a slightly different wording.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "Based on the audio, can you identify the speaker's gender (Male or Female)?",
+            "reference": "The speaker is a female.",
+            "model_prediction": "Yes, the speaker is female.",
+            "judge_response": "Explanation: The reference answer is \"The speaker is a female.\" and the model's answer is \"Yes, the speaker is female.\" I think the model's response accurately mirrors the reference in terms of content, accuracy, and relevance.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "Can you guess the gender of the speaker based on the audio (Male or Female)?",
+            "reference": "The speaker is a female.",
+            "model_prediction": "The audio clip suggests that the speaker is female.",
+            "judge_response": "Explanation: The reference answer is \"The speaker is a female\", which directly states the gender of the speaker. The model's answer is \"The audio clip suggests that the speaker is female\", which also implies the same gender. I think the model's answer is a rephrased version of the reference answer, conveying the same meaning and accuracy.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "Can you figure out the speaker's gender from the audio (Male or Female)?",
+            "reference": "The speaker is a female.",
+            "model_prediction": "The speaker is female.",
+            "judge_response": "Explanation: The reference answer is \"The speaker is a female.\" and the model's answer is \"The speaker is female.\". I think the model's answer is identical to the reference answer, conveying the same meaning and accuracy.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "Can you recognize the speaker's gender from the audio (Male or Female)?",
+            "reference": "The speaker is a female.",
+            "model_prediction": "The speaker is female.",
+            "judge_response": "Explanation: The reference answer is \"The speaker is a female\" and the model's answer is \"The speaker is female\". I think the model's response is identical to the reference answer, indicating the speaker's gender correctly.\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "Can you figure out the speaker's gender from the audio (Male or Female)?",
+            "reference": "The speaker is a female.",
+            "model_prediction": "The speaker is female.",
+            "judge_response": "Explanation: The reference answer is \"The speaker is a female\" and the model's answer is \"The speaker is female\". I think the model's answer accurately mirrors the reference in terms of content, accuracy, and relevance.\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "From the audio, can you guess the speaker's gender (Male or Female)?",
+            "reference": "The speaker is a female.",
+            "model_prediction": "The speaker is female.",
+            "judge_response": "Explanation: The reference answer is \"The speaker is a female.\" while the model's answer is \"The speaker is female.\". I think the model's response is identical to the reference answer, providing the same correct information.\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "Can you identify the speaker's gender based on the audio (Male or Female)?",
+            "reference": "The speaker is a female.",
+            "model_prediction": "The speaker is male.",
+            "judge_response": "Explanation: The reference answer is \"The speaker is a female\", while the model's answer is \"The speaker is male.\" I think the model's answer is incorrect and does not align with the reference answer.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Can you discern the speaker's gender based on the audio (Male or Female)?",
+            "reference": "The speaker is a female.",
+            "model_prediction": "The speaker is female.",
+            "judge_response": "Explanation: The reference answer is \"The speaker is a female.\" and the model's answer is \"The speaker is female.\". I think the model's answer accurately mirrors the reference in terms of content, accuracy, and relevance, as they both clearly state the speaker's gender as female.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "From the audio, can you determine the speaker's gender (Male or Female)?",
+            "reference": "The speaker is a female.",
+            "model_prediction": "The speaker is female.",
+            "judge_response": "Explanation: The reference answer is \"The speaker is a female.\" and the model's answer is \"The speaker is female.\". I think these two sentences convey the same meaning, stating the speaker's gender as female.\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "Can you determine the gender of the speaker from the audio (Male or Female)?",
+            "reference": "The speaker is a female.",
+            "model_prediction": "The speaker is female.",
+            "judge_response": "Explanation: The reference answer is \"The speaker is a female.\" while the model's answer is \"The speaker is female.\" I think the model's answer is correct, as it mirrors the content and accuracy of the reference answer, providing the same information in a concise manner.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "From the audio, can you determine the speaker's gender (Male or Female)?",
+            "reference": "The speaker is a female.",
+            "model_prediction": "The speaker is female.",
+            "judge_response": "Explanation: The reference answer is \"The speaker is a female.\", while the model's answer is \"The speaker is female.\". I think the model's answer is correct and accurately mirrors the reference answer, conveying the same meaning and content.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "From the audio, can you determine the speaker's gender (Male or Female)?",
+            "reference": "The speaker is a female.",
+            "model_prediction": "The speaker is female.",
+            "judge_response": "Explanation: The reference answer is \"The speaker is a female.\" while the model's answer is \"The speaker is female.\". I think the model's response accurately mirrors the reference answer in terms of content, accuracy, and relevance. Both convey the same meaning, which is the speaker's gender being female.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "Can you determine the gender of the speaker from the audio (Male or Female)?",
+            "reference": "The speaker is a female.",
+            "model_prediction": "The speaker is female.",
+            "judge_response": "Explanation: The reference answer is \"The speaker is a female\" and the model's answer is \"The speaker is female\". I think they are identical and convey the same meaning.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "From the audio, can you determine the speaker's gender (Male or Female)?",
+            "reference": "The speaker is a female.",
+            "model_prediction": "The speaker is male.",
+            "judge_response": "Explanation: The reference answer is \"The speaker is a female\", while the model's answer is \"The speaker is male\". I think the model's answer is incorrect and does not align with the reference answer.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Can you recognize the speaker's gender from the audio (Male or Female)?",
+            "reference": "The speaker is a female.",
+            "model_prediction": "The speaker is female.",
+            "judge_response": "Explanation: The reference answer is \"The speaker is a female.\" while the model's answer is \"The speaker is female.\". I think the model's answer is a correct and concise response that mirrors the reference answer, differing only in the lack of the indefinite article \"a\". The content, accuracy, and relevance are all aligned with the reference.\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "Can you identify the speaker's gender based on the audio (Male or Female)?",
+            "reference": "The speaker is a female.",
+            "model_prediction": "Female.",
+            "judge_response": "Explanation: The reference answer is \"The speaker is a female.\", while the model's answer is \"Female.\". I think the model's answer is a concise and correct response that aligns with the reference answer, providing the same information in a brief form.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "From the audio, can you determine the speaker's gender (Male or Female)?",
+            "reference": "The speaker is a female.",
+            "model_prediction": "The speaker is female.",
+            "judge_response": "Explanation: The reference answer is \"The speaker is a female.\" while the model's answer is \"The speaker is female.\" I think the model's response is a correct and concise rephrase of the reference answer, capturing the same meaning and accuracy.\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "Can you determine the gender of the speaker from the audio (Male or Female)?",
+            "reference": "The speaker is a female.",
+            "model_prediction": "The speaker is female.",
+            "judge_response": "Explanation: The reference answer is \"The speaker is a female.\" while the model's answer is \"The speaker is female.\". I think the model's answer is a correct and concise response that accurately mirrors the reference answer.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        }
+    ]
+}

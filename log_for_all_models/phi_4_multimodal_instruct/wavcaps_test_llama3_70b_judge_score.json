@@ -1,0 +1,168 @@
+{
+    "llama3_70b_judge": {
+        "judge_score": 21.884393063583815,
+        "success_rate": 0.9988439306358381
+    },
+    "details": [
+        {
+            "question": "Could you assist me in creating a caption for the audio clip?",
+            "reference": "A sound is playing.",
+            "model_prediction": "Audio caption: A drum kit is being played.",
+            "judge_response": "Explanation: The reference answer is general, stating \"A sound is playing\", while the model's answer is more specific, stating \"A drum kit is being played\". I think the model's answer is more informative and relevant, providing a clear description of the audio clip, which aligns well with the reference answer.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "Could you help me create an audio caption for the provided clip?",
+            "reference": "A choir is singing and camera sounds are heard.",
+            "model_prediction": "Audio caption: Music and a choir are heard.",
+            "judge_response": "Explanation: The reference answer provides specific details about the audio clip, mentioning \"camera sounds\" in addition to the choir singing. The model's answer, on the other hand, only mentions \"Music and a choir are heard\", which is a more generic and incomplete description. While the model's answer is related to the reference, it lacks the specific detail about the camera sounds.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Could you help me create an audio caption for the provided clip?",
+            "reference": "A whoosh sound.",
+            "model_prediction": "Audio caption: A person is making a sound of a cat.",
+            "judge_response": "Explanation: The reference answer is a simple description of a sound, \"A whoosh sound\", while the model's answer is \"A person is making a sound of a cat\". These two answers are completely unrelated, as the reference answer describes a whoosh sound, but the model's answer describes a cat sound. I think the model's answer is highly inaccurate and irrelevant to the reference answer.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Could you help me formulate an audio caption for this clip?",
+            "reference": "A signal is being recorded in a software.",
+            "model_prediction": "Audio caption: A musical instrument is playing.",
+            "judge_response": "Explanation: The reference answer is \"A signal is being recorded in a software\", which indicates a more technical and specific context. In contrast, the model's answer is \"A musical instrument is playing\", which suggests a more general and unrelated context. The model's answer lacks accuracy and relevance to the reference answer. \n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Could you help me formulate an audio caption for this clip?",
+            "reference": "A rifle is firing shots.",
+            "model_prediction": "Audio caption: A machine is making a ticking sound.",
+            "judge_response": "Explanation: The reference answer is \"A rifle is firing shots\", which clearly indicates the sound of a rifle being fired. The model's answer is \"A machine is making a ticking sound\", which does not match the reference answer in terms of content, accuracy, or relevance. The model's answer doesn't even come close to describing the sound of a rifle firing.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Could you assist me in creating a caption for the audio clip?",
+            "reference": "A walnut is rolling.",
+            "model_prediction": "Sure, here's a possible caption: \"A loud and sudden explosion followed by a deep and low-pitched boom.\"",
+            "judge_response": "Explanation: The reference answer is a simple statement \"A walnut is rolling\", while the model's answer is a completely unrelated caption about an explosion. The model's response is not only inaccurate but also irrelevant to the reference, showing no connection whatsoever.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Could you assist me in creating a caption for the audio clip?",
+            "reference": "A strings melody is playing with a filter.",
+            "model_prediction": "Audio caption: A singing bowl is being played.",
+            "judge_response": "Explanation: The reference answer is \"A strings melody is playing with a filter\", which suggests a specific audio clip with a musical melody and a filter effect. In contrast, the model's answer is \"A singing bowl is being played\", which is a completely different audio scenario with no relation to a musical melody or filter. I think the model's answer is not only inaccurate but also irrelevant to the reference.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Could you assist me in creating a caption for the audio clip?",
+            "reference": "Someone's pretty vocals.",
+            "model_prediction": "Audio caption: A person is humming.",
+            "judge_response": "Explanation: The reference answer is \"Someone's pretty vocals\", which is a description of the audio clip. The model's answer is \"A person is humming\", which is a more specific and accurate description of the audio clip. I think the model's answer is a better caption for the audio clip than the reference answer.\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "Could you assist me in creating a caption for the audio clip?",
+            "reference": "The sound of mechanical movements.",
+            "model_prediction": "Audio caption: A car is driving.",
+            "judge_response": "Explanation: The reference answer is a brief description of a sound, \"The sound of mechanical movements\", while the model's answer is a specific scenario, \"A car is driving\". The model's answer is related to the reference, as a car driving typically involves mechanical movements, but it's not a direct match. The model's answer provides more context and specificity, but it doesn't exactly mirror the reference answer.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Could you help me formulate an audio caption for this clip?",
+            "reference": "Crickets chirp while a man screams and speaks.",
+            "model_prediction": "Audio caption: A man is speaking, with background noise, human voices, and a mouse squeaking.",
+            "judge_response": "Explanation: The reference answer specifically mentions \"crickets chirp\" and a \"man screams and speaks\", while the model's answer mentions \"background noise, human voices, and a mouse squeaking\" without any reference to crickets or screaming. The model's answer misses the key details and replaces them with incorrect or unrelated information. I think the model's answer is completely misaligned from the reference.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Could you assist me in creating a caption for the audio clip?",
+            "reference": "A phone exchange is ringing.",
+            "model_prediction": "Sure, based on the audio events and features, a possible caption for the audio clip could be: \"A cozy and warm home environment with the sound of a boiling kettle and domestic sounds.\"",
+            "judge_response": "Explanation: The reference answer is \"A phone exchange is ringing\", while the model's answer is \"A cozy and warm home environment with the sound of a boiling kettle and domestic sounds\". These two answers are completely unrelated and provide different information, with the model's answer describing a completely different scene. I think the model's answer is a poor match for the reference answer.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Could you help me create an audio caption for the provided clip?",
+            "reference": "Wife is coughing due to asthma.",
+            "model_prediction": "Audio caption: Someone is coughing.",
+            "judge_response": "Explanation: The reference answer provides specific information about the context of the coughing, stating that the wife is coughing due to asthma. In contrast, the model's answer is vague and generic, simply stating that \"Someone is coughing\" without providing any context or detail. I think the model's answer lacks specificity and relevance to the reference answer.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "Could you assist me in creating a caption for the audio clip?",
+            "reference": "Cheering, whistling, male speech, music, male singing, and screaming are heard.",
+            "model_prediction": "Audio caption: A crowd is shouting, music is playing, and a man is speaking.",
+            "judge_response": "Explanation: The reference answer is a descriptive list of sounds, including \"cheering, whistling, male speech, music, male singing, and screaming\", whereas the model's answer is a simplified summary \"A crowd is shouting, music is playing, and a man is speaking\". The model's answer captures the essence of the reference but lacks detail, omitting \"whistling\", \"male singing\", and \"screaming\".\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "Would you mind helping me produce an audio caption for the provided clip?",
+            "reference": "Buzzing, cricket sounds, and human sounds accompany music.",
+            "model_prediction": "Sure, here is the caption: A person is blowing their nose.",
+            "judge_response": "Explanation: The reference answer is describing the sounds accompanying music, while the model's answer is a unrelated scenario of a person blowing their nose. The two responses have no connection in terms of content, accuracy, or relevance. \n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Would you mind helping me produce an audio caption for the provided clip?",
+            "reference": "Music and ticking are heard.",
+            "model_prediction": "Spoken text: ",
+            "judge_response": "Explanation: The reference answer provides a specific description of the audio clip, mentioning \"music and ticking\" sounds. However, the model's response is a question asking for help in producing an audio caption, which is not an answer to the prompt. It does not provide any information about the content of the audio clip. \nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Could you assist me in creating a caption for the audio clip?",
+            "reference": "Something is making loud blasts.",
+            "model_prediction": "Audio caption: A frog is croaking.",
+            "judge_response": "Explanation: The reference answer is \"Something is making loud blasts\", which indicates an explosive or high-energy sound, whereas the model's answer is \"A frog is croaking\", which suggests a more gentle and peaceful sound. I think the model's answer is completely misaligned with the reference, providing incorrect and irrelevant information.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Could you help me create an audio caption for the provided clip?",
+            "reference": "Something is splashing.",
+            "model_prediction": "Audio caption: Water is running and gurgling, and a toilet is flushing.",
+            "judge_response": "Explanation: The reference answer is brief and vague, simply stating \"Something is splashing.\" The model's answer, on the other hand, is more detailed and specific, suggesting that \"Water is running and gurgling, and a toilet is flushing.\" While the model's answer is more descriptive, it may be too specific and not entirely accurate, as it mentions a toilet flushing which is not necessarily implied by the reference answer. I think the model's answer provides more information than what is actually supported by the reference.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Could you help me create an audio caption for the provided clip?",
+            "reference": "A dark Timpani with a lot of low-end is played.",
+            "model_prediction": "Audio caption: A gun is firing.",
+            "judge_response": "Explanation: The reference answer is a descriptive phrase about a dark Timpani with a lot of low-end, while the model's answer is a concrete event \"A gun is firing\". I think the model's answer is not directly related to the reference, but it's possible that the sound of the Timpani reminded the model of a gunshot. However, the connection is not explicit, and the model's answer doesn't capture the essence of the reference.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Would you mind helping me produce an audio caption for the provided clip?",
+            "reference": "Someone is unzipping and zipping a leather bag.",
+            "model_prediction": "Sure, here's a caption for the audio clip: A person is burping or eructating.",
+            "judge_response": "Explanation: The reference answer is describing the action of unzipping and zipping a leather bag, while the model's answer is about a person burping or eructating. The two answers are completely unrelated, and the model's response does not provide any accurate or relevant information about the audio clip. \n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Please help me generate an audio caption for the audio clip.",
+            "reference": "A church bell chimes with mechanisms in the background.",
+            "model_prediction": "Audio caption: A church bell is ringing.",
+            "judge_response": "Explanation: The reference answer provides a detailed description of the audio clip, mentioning \"mechanisms in the background\" in addition to the church bell chiming. In contrast, the model's answer focuses solely on the church bell ringing, omitting the extra detail. I think the model's answer is partial and lacks completeness compared to the reference.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        }
+    ]
+}

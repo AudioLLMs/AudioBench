@@ -19,6 +19,9 @@ logging.basicConfig(
 )
 # =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  = 
 
+file_save_folder = 'log_for_all_models'
+
+
 def do_model_prediction(input_data, model, batch_size):
 
     if batch_size not in [1, -1]:
@@ -37,7 +40,6 @@ def do_model_prediction(input_data, model, batch_size):
                 model_predictions.append(outputs)
                 
     return model_predictions
-
 
 def main(
         dataset_name      : str  = None,
@@ -58,8 +60,16 @@ def main(
     logger.info("= = "*20)
 
     # If the final score log exists, skip the evaluation
-    if not overwrite and os.path.exists('log/{}/{}_{}_score.json'.format(model_name, dataset_name, metrics)):
+    if not overwrite and os.path.exists(f'{file_save_folder}/{model_name}/{dataset_name}_{metrics}_score.json'.format(model_name, dataset_name, metrics)):
         logger.info("Evaluation has been done before. Skip the evaluation.")
+        with open(f'{file_save_folder}/{model_name}/{dataset_name}_{metrics}_score.json', 'r') as f:
+            results = json.load(f)
+        logger.info('=  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =')
+        logger.info('Dataset name: {}'.format(dataset_name.upper()))
+        logger.info('Model name: {}'.format(model_name.upper()))
+        logger.info(json.dumps({metrics: results[metrics]}, indent=4, ensure_ascii=False))
+        logger.info('=  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =')
+
         logger.info("\n\n\n\n\n")
         return
 
@@ -70,7 +80,7 @@ def main(
 
     dataset = Dataset(dataset_name, number_of_samples)
 
-    if overwrite or not os.path.exists('log/{}/{}.json'.format(model_name, dataset_name)):
+    if overwrite or not os.path.exists(f'{file_save_folder}/{model_name}/{dataset_name}.json'):
         logger.info("Overwrite is enabled or the results are not found. Try to infer with the model: {}.".format(model_name))
     
         # Load model
@@ -84,16 +94,17 @@ def main(
         data_with_model_predictions = dataset.dataset_processor.format_model_predictions(dataset.input_data, model_predictions)
 
         # Save the result with predictions
-        os.makedirs('log/{}'.format(model_name), exist_ok=True)
-        with open('log/{}/{}.json'.format(model_name, dataset_name), 'w') as f:
+        os.makedirs(f'{file_save_folder}/{model_name}', exist_ok=True)
+        with open(f'{file_save_folder}/{model_name}/{dataset_name}.json', 'w') as f:
             json.dump(data_with_model_predictions, f, indent=4, ensure_ascii=False)
 
-    data_with_model_predictions = json.load(open('log/{}/{}.json'.format(model_name, dataset_name)))
+    data_with_model_predictions = json.load(open(f'{file_save_folder}/{model_name}/{dataset_name}.json'))
 
     results = dataset.dataset_processor.compute_score(data_with_model_predictions, metrics=metrics)
 
     # Take only the first 100 samples for record.
-    results['details'] = results['details'][:20]
+    if 'details' in results:
+        results['details'] = results['details'][:20]
 
     # Print the result with metrics
     logger.info('=  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =')
@@ -103,7 +114,7 @@ def main(
     logger.info('=  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =')
 
     # Save the scores
-    with open('log/{}/{}_{}_score.json'.format(model_name, dataset_name, metrics), 'w') as f:
+    with open(f'{file_save_folder}/{model_name}/{dataset_name}_{metrics}_score.json', 'w') as f:
         json.dump(results, f, indent=4, ensure_ascii=False)
 
 

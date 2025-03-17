@@ -6,7 +6,7 @@
 #PBS -k oed
 #PBS -q normal
 #PBS -P 13003558
-#PBS -l container_image=/data/projects/13003558/wangb1/workspaces/containers/customized_containers/audiobench_for_gemini.sqsh
+#PBS -l container_image=/data/projects/13003558/wangb1/workspaces/containers/customized_containers/audiobench_for_phi4.sqsh
 #PBS -l container_name=audiobench
 #PBS -l enroot_env_file=/data/projects/13003558/wangb1/workspaces/MERaLiON-AudioLLM/scripts/nscc2/env.conf
 
@@ -15,6 +15,7 @@
 # audiobench_for_qwen_audio_chat.sqsh
 # audiobench_for_wavllm
 # audiobench_for_gemini
+# audiobench_for_phi4
 
 # HF
 HF_ENDPOINT=https://hf-mirror.com
@@ -61,7 +62,7 @@ enroot start \
     pwd
     cd /project/AudioBench
     pwd
-    bash scripts/nscc2/nscc2_vllm.sh > ${PBS_JOBID}.log 2>&1
+    bash scripts/aspire2ap_cluster/nscc2_vllm.sh > ${PBS_JOBID}.log 2>&1
     "
 
 
@@ -81,7 +82,7 @@ enroot start \
     pwd
     cd /project/AudioBench
     pwd
-    bash scripts/nscc2/nscc2_audiobench.sh $DATASET_NAME $MODEL_NAME $METRICS > ${PBS_JOBID}.log 2>&1
+    bash scripts/aspire2ap_cluster/nscc2_audiobench.sh $DATASET_NAME $MODEL_NAME $METRICS > ${PBS_JOBID}.log 2>&1
     "
     
     

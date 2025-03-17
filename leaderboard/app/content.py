@@ -159,9 +159,10 @@ dataset_diaplay_information = {
 
 
 metrics_info = {
-    'wer'                    : 'Word Error Rate (WER) - The Lower, the better.',
-    'llama3_70b_judge'       : 'Model-as-a-Judge Peformance. Using LLAMA-3-70B. Scale from 0-100. The higher, the better.',
-    'meteor'                 : 'METEOR Score. The higher, the better.',
-    'bleu'                   : 'BLEU Score. The higher, the better.',
+    'wer'             : 'Word Error Rate (WER) - The Lower, the better.',
+    'llama3_70b_judge': 'Model-as-a-Judge Peformance. Using LLAMA-3-70B. Scale from 0-100. The higher, the better.',
+    'meteor'          : 'METEOR Score. The higher, the better.',
+    'bleu'            : 'BLEU Score. The higher, the better.',
+    'string_match'    : 'From MMAU paper, after model generating the answer, the correctness is determined by string matching algorithm. https://github.com/Sakshi113/MMAU/blob/main/evaluation.py',
 }
 
