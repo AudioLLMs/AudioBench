@@ -20,6 +20,7 @@ logging.basicConfig(
 # =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  = 
 
 file_save_folder = 'log_for_all_models'
+# file_save_folder = 'log'
 
 
 def do_model_prediction(input_data, model, batch_size):

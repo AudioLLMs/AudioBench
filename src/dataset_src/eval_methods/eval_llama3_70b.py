@@ -111,6 +111,9 @@ def llama3_70b_as_judge_one_sample(args):
 def llama3_70b_as_judge(model_path, input_data):
     """ Compute the score of the model on the given data."""
 
+    # avoid asking for token access
+    model_path = 'casperhansen/llama-3-70b-instruct-awq'
+
     # Load tokenizer
     tokenizer = transformers.AutoTokenizer.from_pretrained(model_path, device_map="auto", use_fast=False, padding_side='left')
     tokenizer.pad_token = tokenizer.eos_token
@@ -222,6 +225,9 @@ def llama3_70b_as_judge_binary_one_sample(args):
 
 def llama3_70b_as_judge_binary(model_path, input_data):
     """ Compute the score of the model on the given data."""
+
+    # avoid asking for token access
+    model_path = 'casperhansen/llama-3-70b-instruct-awq'
 
     # Load tokenizer
     tokenizer = transformers.AutoTokenizer.from_pretrained(model_path, device_map="auto", use_fast=False, padding_side='left')

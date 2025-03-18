@@ -200,6 +200,15 @@ class Dataset(object):
         elif self.dataset_name == 'mmau_mini':
             self.raw_data = load_dataset("AudioLLMs/MMAU-mini")['test']
 
+        elif self.dataset_name == 'gigaspeech2_thai':
+            self.raw_data = load_dataset("AudioLLMs/gigaspeech2-test", data_dir='th-test')['train']
+
+        elif self.dataset_name == 'gigaspeech2_indo':
+            self.raw_data = load_dataset("AudioLLMs/gigaspeech2-test", data_dir='id-test')['train']
+
+        elif self.dataset_name == 'gigaspeech2_viet':
+            self.raw_data = load_dataset("AudioLLMs/gigaspeech2-test", data_dir='vi-test')['train']
+
         # Private
         elif self.dataset_name == 'ytb_asr_batch1':
             self.raw_data = load_from_disk("data/3_private_data/ytb_asr_batch1")
@@ -256,7 +265,6 @@ class Dataset(object):
         if len(self.raw_data) < self.number_of_samples:
             self.number_of_samples = len(self.raw_data)
             logger.info("Number of samples requested is more than available samples. Setting number of samples to {}".format(self.number_of_samples))
-
 
         if self.dataset_name == 'cn_college_listen_mcq_test': 
             from dataset_src.cn_college_listen_mcq_test import cn_college_listen_mcq_test_dataset
@@ -473,6 +481,19 @@ class Dataset(object):
         elif self.dataset_name == 'mmau_mini':
             from dataset_src.mmau_mini import mmau_mini_test_dataset
             self.dataset_processor = mmau_mini_test_dataset(self.raw_data, self.number_of_samples)
+
+        elif self.dataset_name == 'gigaspeech2_thai':
+            from dataset_src.gigaspeech2_thai import gigaspeech2_thai_test_dataset
+            self.dataset_processor = gigaspeech2_thai_test_dataset(self.raw_data, self.number_of_samples)
+
+        elif self.dataset_name == 'gigaspeech2_indo':
+            from dataset_src.gigaspeech2_indo import gigaspeech2_indo_test_dataset
+            self.dataset_processor = gigaspeech2_indo_test_dataset(self.raw_data, self.number_of_samples)
+
+        elif self.dataset_name == 'gigaspeech2_viet':
+            from dataset_src.gigaspeech2_viet import gigaspeech2_viet_test_dataset
+            self.dataset_processor = gigaspeech2_viet_test_dataset(self.raw_data, self.number_of_samples)
+
 
         # Private
         elif self.dataset_name == 'ytb_asr_batch1':

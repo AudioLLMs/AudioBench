@@ -1,6 +1,6 @@
 
 
-MODEL_NAME=seallms_audio_7b
+MODEL_NAME=MERaLiON-AudioLLM-Whisper-SEA-LION
 
 
 echo "MODEL_NAME: $MODEL_NAME"
@@ -21,51 +21,51 @@ echo "MODEL_NAME: $MODEL_NAME"
 # qsub -v DATASET_NAME=aishell_asr_zh_test,METRICS=wer,MODEL_NAME=$MODEL_NAME scripts/aspire2ap_cluster/job_submission.sh
 
 # # ST
-qsub -v DATASET_NAME=covost2_en_id_test,METRICS=bleu,MODEL_NAME=$MODEL_NAME scripts/aspire2ap_cluster/job_submission.sh
-qsub -v DATASET_NAME=covost2_en_zh_test,METRICS=bleu,MODEL_NAME=$MODEL_NAME scripts/aspire2ap_cluster/job_submission.sh
-qsub -v DATASET_NAME=covost2_en_ta_test,METRICS=bleu,MODEL_NAME=$MODEL_NAME scripts/aspire2ap_cluster/job_submission.sh
-qsub -v DATASET_NAME=covost2_id_en_test,METRICS=bleu,MODEL_NAME=$MODEL_NAME scripts/aspire2ap_cluster/job_submission.sh
-qsub -v DATASET_NAME=covost2_zh_en_test,METRICS=bleu,MODEL_NAME=$MODEL_NAME scripts/aspire2ap_cluster/job_submission.sh
-qsub -v DATASET_NAME=covost2_ta_en_test,METRICS=bleu,MODEL_NAME=$MODEL_NAME scripts/aspire2ap_cluster/job_submission.sh
+# qsub -v DATASET_NAME=covost2_en_id_test,METRICS=bleu,MODEL_NAME=$MODEL_NAME scripts/aspire2ap_cluster/job_submission.sh
+# qsub -v DATASET_NAME=covost2_en_zh_test,METRICS=bleu,MODEL_NAME=$MODEL_NAME scripts/aspire2ap_cluster/job_submission.sh
+# qsub -v DATASET_NAME=covost2_en_ta_test,METRICS=bleu,MODEL_NAME=$MODEL_NAME scripts/aspire2ap_cluster/job_submission.sh
+# qsub -v DATASET_NAME=covost2_id_en_test,METRICS=bleu,MODEL_NAME=$MODEL_NAME scripts/aspire2ap_cluster/job_submission.sh
+# qsub -v DATASET_NAME=covost2_zh_en_test,METRICS=bleu,MODEL_NAME=$MODEL_NAME scripts/aspire2ap_cluster/job_submission.sh
+# qsub -v DATASET_NAME=covost2_ta_en_test,METRICS=bleu,MODEL_NAME=$MODEL_NAME scripts/aspire2ap_cluster/job_submission.sh
 
 # # SQA
-qsub -v DATASET_NAME=cn_college_listen_mcq_test,METRICS=llama3_70b_judge,MODEL_NAME=$MODEL_NAME scripts/aspire2ap_cluster/job_submission.sh
-qsub -v DATASET_NAME=slue_p2_sqa5_test,METRICS=llama3_70b_judge,MODEL_NAME=$MODEL_NAME scripts/aspire2ap_cluster/job_submission.sh
-qsub -v DATASET_NAME=dream_tts_mcq_test,METRICS=llama3_70b_judge,MODEL_NAME=$MODEL_NAME scripts/aspire2ap_cluster/job_submission.sh
-qsub -v DATASET_NAME=public_sg_speech_qa_test,METRICS=llama3_70b_judge,MODEL_NAME=$MODEL_NAME scripts/aspire2ap_cluster/job_submission.sh
-qsub -v DATASET_NAME=spoken_squad_test,METRICS=llama3_70b_judge,MODEL_NAME=$MODEL_NAME scripts/aspire2ap_cluster/job_submission.sh
+# qsub -v DATASET_NAME=cn_college_listen_mcq_test,METRICS=llama3_70b_judge,MODEL_NAME=$MODEL_NAME scripts/aspire2ap_cluster/job_submission.sh
+# qsub -v DATASET_NAME=slue_p2_sqa5_test,METRICS=llama3_70b_judge,MODEL_NAME=$MODEL_NAME scripts/aspire2ap_cluster/job_submission.sh
+# qsub -v DATASET_NAME=dream_tts_mcq_test,METRICS=llama3_70b_judge,MODEL_NAME=$MODEL_NAME scripts/aspire2ap_cluster/job_submission.sh
+# qsub -v DATASET_NAME=public_sg_speech_qa_test,METRICS=llama3_70b_judge,MODEL_NAME=$MODEL_NAME scripts/aspire2ap_cluster/job_submission.sh
+# qsub -v DATASET_NAME=spoken_squad_test,METRICS=llama3_70b_judge,MODEL_NAME=$MODEL_NAME scripts/aspire2ap_cluster/job_submission.sh
 
 # # SI
-qsub -v DATASET_NAME=openhermes_audio_test,METRICS=llama3_70b_judge,MODEL_NAME=$MODEL_NAME scripts/aspire2ap_cluster/job_submission.sh
-qsub -v DATASET_NAME=alpaca_audio_test,METRICS=llama3_70b_judge,MODEL_NAME=$MODEL_NAME scripts/aspire2ap_cluster/job_submission.sh
+# qsub -v DATASET_NAME=openhermes_audio_test,METRICS=llama3_70b_judge,MODEL_NAME=$MODEL_NAME scripts/aspire2ap_cluster/job_submission.sh
+# qsub -v DATASET_NAME=alpaca_audio_test,METRICS=llama3_70b_judge,MODEL_NAME=$MODEL_NAME scripts/aspire2ap_cluster/job_submission.sh
 
 
 # # ASQA
-qsub -v DATASET_NAME=clotho_aqa_test,METRICS=llama3_70b_judge,MODEL_NAME=$MODEL_NAME scripts/aspire2ap_cluster/job_submission.sh
-qsub -v DATASET_NAME=wavcaps_qa_test,METRICS=llama3_70b_judge,MODEL_NAME=$MODEL_NAME scripts/aspire2ap_cluster/job_submission.sh
-qsub -v DATASET_NAME=audiocaps_qa_test,METRICS=llama3_70b_judge,MODEL_NAME=$MODEL_NAME scripts/aspire2ap_cluster/job_submission.sh
+# qsub -v DATASET_NAME=clotho_aqa_test,METRICS=llama3_70b_judge,MODEL_NAME=$MODEL_NAME scripts/aspire2ap_cluster/job_submission.sh
+# qsub -v DATASET_NAME=wavcaps_qa_test,METRICS=llama3_70b_judge,MODEL_NAME=$MODEL_NAME scripts/aspire2ap_cluster/job_submission.sh
+# qsub -v DATASET_NAME=audiocaps_qa_test,METRICS=llama3_70b_judge,MODEL_NAME=$MODEL_NAME scripts/aspire2ap_cluster/job_submission.sh
 
 
 # # # # # AC
-qsub -v DATASET_NAME=wavcaps_test,METRICS=llama3_70b_judge,MODEL_NAME=$MODEL_NAME scripts/aspire2ap_cluster/job_submission.sh
-qsub -v DATASET_NAME=wavcaps_test,METRICS=meteor,MODEL_NAME=$MODEL_NAME scripts/aspire2ap_cluster/job_submission.sh
-qsub -v DATASET_NAME=audiocaps_test,METRICS=llama3_70b_judge,MODEL_NAME=$MODEL_NAME scripts/aspire2ap_cluster/job_submission.sh
-qsub -v DATASET_NAME=audiocaps_test,METRICS=meteor,MODEL_NAME=$MODEL_NAME scripts/aspire2ap_cluster/job_submission.sh
+# qsub -v DATASET_NAME=wavcaps_test,METRICS=llama3_70b_judge,MODEL_NAME=$MODEL_NAME scripts/aspire2ap_cluster/job_submission.sh
+# qsub -v DATASET_NAME=wavcaps_test,METRICS=meteor,MODEL_NAME=$MODEL_NAME scripts/aspire2ap_cluster/job_submission.sh
+# qsub -v DATASET_NAME=audiocaps_test,METRICS=llama3_70b_judge,MODEL_NAME=$MODEL_NAME scripts/aspire2ap_cluster/job_submission.sh
+# qsub -v DATASET_NAME=audiocaps_test,METRICS=meteor,MODEL_NAME=$MODEL_NAME scripts/aspire2ap_cluster/job_submission.sh
 
 
 # # Emotion
-qsub -v DATASET_NAME=iemocap_emotion_test,METRICS=llama3_70b_judge,MODEL_NAME=$MODEL_NAME scripts/aspire2ap_cluster/job_submission.sh
-qsub -v DATASET_NAME=meld_sentiment_test,METRICS=llama3_70b_judge,MODEL_NAME=$MODEL_NAME scripts/aspire2ap_cluster/job_submission.sh
-qsub -v DATASET_NAME=meld_emotion_test,METRICS=llama3_70b_judge,MODEL_NAME=$MODEL_NAME scripts/aspire2ap_cluster/job_submission.sh
+# qsub -v DATASET_NAME=iemocap_emotion_test,METRICS=llama3_70b_judge,MODEL_NAME=$MODEL_NAME scripts/aspire2ap_cluster/job_submission.sh
+# qsub -v DATASET_NAME=meld_sentiment_test,METRICS=llama3_70b_judge,MODEL_NAME=$MODEL_NAME scripts/aspire2ap_cluster/job_submission.sh
+# qsub -v DATASET_NAME=meld_emotion_test,METRICS=llama3_70b_judge,MODEL_NAME=$MODEL_NAME scripts/aspire2ap_cluster/job_submission.sh
 
 
-# # Accent
-qsub -v DATASET_NAME=voxceleb_accent_test,METRICS=llama3_70b_judge,MODEL_NAME=$MODEL_NAME scripts/aspire2ap_cluster/job_submission.sh
+# # # Accent
+# qsub -v DATASET_NAME=voxceleb_accent_test,METRICS=llama3_70b_judge,MODEL_NAME=$MODEL_NAME scripts/aspire2ap_cluster/job_submission.sh
 
 
-# # Gender
-qsub -v DATASET_NAME=voxceleb_gender_test,METRICS=llama3_70b_judge,MODEL_NAME=$MODEL_NAME scripts/aspire2ap_cluster/job_submission.sh
-qsub -v DATASET_NAME=iemocap_gender_test,METRICS=llama3_70b_judge,MODEL_NAME=$MODEL_NAME scripts/aspire2ap_cluster/job_submission.sh
+# # # Gender
+# qsub -v DATASET_NAME=voxceleb_gender_test,METRICS=llama3_70b_judge,MODEL_NAME=$MODEL_NAME scripts/aspire2ap_cluster/job_submission.sh
+# qsub -v DATASET_NAME=iemocap_gender_test,METRICS=llama3_70b_judge,MODEL_NAME=$MODEL_NAME scripts/aspire2ap_cluster/job_submission.sh
 
 
 # # # MUSIC
@@ -108,6 +108,10 @@ qsub -v DATASET_NAME=iemocap_gender_test,METRICS=llama3_70b_judge,MODEL_NAME=$MO
 # qsub -v DATASET_NAME=seame_dev_man,METRICS=wer,MODEL_NAME=$MODEL_NAME scripts/aspire2ap_cluster/job_submission.sh
 # qsub -v DATASET_NAME=seame_dev_sge,METRICS=wer,MODEL_NAME=$MODEL_NAME scripts/aspire2ap_cluster/job_submission.sh
 
+
+# qsub -v DATASET_NAME=gigaspeech2_thai,METRICS=wer,MODEL_NAME=$MODEL_NAME scripts/aspire2ap_cluster/job_submission.sh
+# qsub -v DATASET_NAME=gigaspeech2_indo,METRICS=wer,MODEL_NAME=$MODEL_NAME scripts/aspire2ap_cluster/job_submission.sh
+# qsub -v DATASET_NAME=gigaspeech2_viet,METRICS=wer,MODEL_NAME=$MODEL_NAME scripts/aspire2ap_cluster/job_submission.sh
 
 
 

@@ -1,0 +1,168 @@
+{
+    "llama3_70b_judge": {
+        "judge_score": 53.20909090909091,
+        "success_rate": 0.9995454545454545
+    },
+    "details": [
+        {
+            "question": "Could you help me create an audio caption for the provided clip?",
+            "reference": "Constant rattling noise and sharp vibrations",
+            "model_prediction": "A motor vehicle engine is running and adult males are speaking in the background",
+            "judge_response": "Explanation: The reference answer is descriptive, highlighting the sonic elements of a clip, such as \"Constant rattling noise and sharp vibrations\". In contrast, the model's answer is a scenario-based description, \"A motor vehicle engine is running and adult males are speaking in the background\", which does not directly match the reference answer. While the model's answer could potentially relate to the rattling noise, it lacks a clear connection and does not address the sharp vibrations. I think the model's answer shows some relevance but lacks accuracy in capturing the essence of the reference.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Would you mind helping me produce an audio caption for the provided clip?",
+            "reference": "A rocket flies by followed by a loud explosion and fire crackling as a truck engine runs idle",
+            "model_prediction": "A loud burst of explosion",
+            "judge_response": "Explanation: The reference answer provides a detailed description of the audio clip, including the sounds of a rocket flying by, a loud explosion, fire crackling, and a truck engine running idle. In contrast, the model's answer is a brief phrase \"A loud burst of explosion\" that only captures a small part of the reference answer. The model's response lacks the other significant sounds described in the reference answer.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Would you mind helping me produce an audio caption for the provided clip?",
+            "reference": "Humming and vibrating with a man and children speaking and laughing",
+            "model_prediction": "A child speaks and then a man talks followed by a child laughing",
+            "judge_response": "Explanation: The reference answer is describing a scene with a mix of sounds and voices, including humming, vibrating, a man speaking, and children speaking and laughing. The model's answer, on the other hand, only focuses on the verbal interactions, mentioning a child speaking, a man talking, and a child laughing, but omits the humming and vibrating sounds. I think the model's answer is incomplete and lacks some important details from the reference.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Please help me generate an audio caption for the audio clip.",
+            "reference": "A train running on a railroad track followed by a vehicle door closing and a man talking in the distance while a train horn honks and railroad crossing warning signals ring",
+            "model_prediction": "A train engine runs, and then a train horn blows",
+            "judge_response": "Explanation: The reference answer provides a detailed description of the audio clip, including the sounds of a train running on a railroad track, a vehicle door closing, a man talking in the distance, a train horn honking, and railroad crossing warning signals ringing. In contrast, the model's answer is limited to \"A train engine runs, and then a train horn blows\", which only captures two aspects of the reference answer. While the model's answer is related to the topic, it lacks detail and precision, omitting several key sounds described in the reference answer. I think the model's answer only partially aligns with the reference answer.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Please help me generate an audio caption for the audio clip.",
+            "reference": "Food is frying, and a woman talks",
+            "model_prediction": "A woman talks while something is stirred",
+            "judge_response": "Explanation: The reference answer is \"Food is frying, and a woman talks\", which explicitly states the two sounds in the audio clip. In contrast, the model's answer is \"A woman talks while something is stirred\", which replaces \"frying\" with \"stirred\" and omits the \"food\" detail. While the model's answer still captures the woman talking, it introduces an incorrect action (stirring) and lacks the food context. I think this is a partial mismatch.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Could you assist me in creating a caption for the audio clip?",
+            "reference": "A man speaks as birds chirp and dogs bark",
+            "model_prediction": "A man speaking with birds squawking and dogs barking in the background",
+            "judge_response": "Explanation: The reference answer is \"A man speaks as birds chirp and dogs bark\", which provides a concise and clear description of the audio clip. The model's answer is \"A man speaking with birds squawking and dogs barking in the background\", which closely mirrors the reference answer in terms of content, accuracy, and relevance. The model's answer is a rephrased version of the reference answer, using synonyms like \"speaking\" instead of \"speaks\", and \"squawking\" instead of \"chirp\". \n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "Could you help me formulate an audio caption for this clip?",
+            "reference": "A large truck driving by as an emergency siren wails and truck horn honks",
+            "model_prediction": "A fire truck siren is going off and the engine is revving up",
+            "judge_response": "Explanation: The reference answer is describing a scene with a large truck driving by, accompanied by an emergency siren wailing and a truck horn honking. In contrast, the model's answer focuses on a fire truck, specifying the siren and revving engine, but omits the truck driving by and the truck horn honking. While the model's answer is related to the scene, it lacks some crucial details and specificity. \nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Could you help me formulate an audio caption for this clip?",
+            "reference": "A child yelling as a young boy talks during several slaps on a hard surface",
+            "model_prediction": "A child speaks and another child speaks in response",
+            "judge_response": "Explanation: The reference answer is a detailed description of a scene, including a child yelling and slaps on a hard surface, while the model's answer is a vague and unrelated statement about two children speaking. I think the model's answer completely misses the content, accuracy, and relevance of the reference answer.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Could you assist me in creating a caption for the audio clip?",
+            "reference": "An engine rumbles loudly, then an air horn honk three times",
+            "model_prediction": "A vehicle engine idles and then a horn blows three times",
+            "judge_response": "Explanation: The reference answer provides specific details about the audio clip, mentioning that an \"engine rumbles loudly\" and an \"air horn honk three times\". The model's answer is more general, stating that a \"vehicle engine idles\" and a \"horn blows three times\". While the model's answer captures the general idea of the audio clip, it lacks the specific details and intensity described in the reference answer. The model's use of \"idles\" instead of \"rumbles loudly\" and \"horn\" instead of \"air horn\" also suggests a less vivid and less accurate description.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Please help me generate an audio caption for the audio clip.",
+            "reference": "A person snoring with another man speaking",
+            "model_prediction": "A man speaks and someone snores",
+            "judge_response": "Explanation: The reference answer is \"A person snoring with another man speaking\", which provides specific details about the audio clip, whereas the model's answer is \"A man speaks and someone snores\". I think the model's answer is close, but it lacks the specificity of the reference answer. The model's answer does not explicitly state that the snoring and speaking are happening simultaneously, unlike the reference answer.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "Could you help me formulate an audio caption for this clip?",
+            "reference": "Thunder and a gentle rain",
+            "model_prediction": "Rain falls and thunder roars",
+            "judge_response": "Explanation: The reference answer is \"Thunder and a gentle rain\", a concise and descriptive caption for an audio clip. The model's answer is \"Rain falls and thunder roars\", which conveys a similar meaning but uses different wording and emphasis. While the model's answer is not identical to the reference, it captures the same auditory elements and is sufficiently descriptive. I think the model's answer demonstrates a good understanding of the reference, but with some minor differences in phrasing.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "Could you assist me in creating a caption for the audio clip?",
+            "reference": "A woman talks and a baby whispers",
+            "model_prediction": "A child and woman speak",
+            "judge_response": "Explanation: The reference answer is \"A woman talks and a baby whispers\", providing a detailed and specific description of the audio clip. In contrast, the model's answer is \"A child and woman speak\", which is a vague and general description that lacks the specificity of the reference answer. While the model's answer is related to the reference, it doesn't capture the unique aspect of the baby whispering.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Please help me generate an audio caption for the audio clip.",
+            "reference": "A man talking as a stream of water trickles in the background",
+            "model_prediction": "Water is trickling and a man is speaking",
+            "judge_response": "Explanation: The reference answer provides a vivid description of the audio clip, including the sound of the water trickling in the background, while the model's answer is a concise but simplified statement that lacks the descriptive element of the reference answer. The model's answer gets the main idea right, but it doesn't capture the ambiance and setting described in the reference answer. \n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Could you help me create an audio caption for the provided clip?",
+            "reference": "A person briefly talks followed quickly by toilet flushing and another voice from another person",
+            "model_prediction": "A toilet flushes and people speak",
+            "judge_response": "Explanation: The reference answer is specific about the sequence of events, mentioning that a person briefly talks, followed by a toilet flushing sound, and then another voice from another person. In contrast, the model's answer is vague and only mentions that \"a toilet flushes and people speak\", without capturing the sequence of events or the specific details about the voices. I think the model's answer lacks accuracy and relevance compared to the reference.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Could you help me formulate an audio caption for this clip?",
+            "reference": "A woman singing then choking followed by birds chirping",
+            "model_prediction": "A high pitched whine followed by silence",
+            "judge_response": "Explanation: The reference answer is a descriptive caption of an audio clip, mentioning a woman singing, choking, and followed by birds chirping. Meanwhile, the model's answer is a brief and unrelated description, stating a high-pitched whine followed by silence. I think the model's answer is completely misaligned and lacks any relevance to the reference.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Could you assist me in creating a caption for the audio clip?",
+            "reference": "Machinery banging and hissing",
+            "model_prediction": "A train engine is running and rhythmic clacking is present, with a high-pitched squeak in the background",
+            "judge_response": "Explanation: The reference answer is describing a scene with machinery banging and hissing, while the model's answer is describing a train engine with rhythmic clacking and a high-pitched squeak in the background. Although the model's answer involves machinery and noise, it is quite different from the reference answer in terms of the type of machinery and the sounds it produces. I think the model's answer recognizes the topic of machinery making noise but lacks accuracy and relevance compared to the reference.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Please help me generate an audio caption for the audio clip.",
+            "reference": "A person talking which later imitates a couple of meow sounds",
+            "model_prediction": "A man speaking and meowing like a cat",
+            "judge_response": "Explanation: The reference answer provides a detailed description of the audio clip, mentioning a person talking and later imitating a couple of meow sounds. The model's answer simplifies this description to \"a man speaking and meowing like a cat\". While the model's answer captures the essence of the reference, it lacks the detail about the person initially talking before meowing. I think the model's answer is a concise but slightly simplified version of the reference.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "Could you assist me in creating a caption for the audio clip?",
+            "reference": "Rain is falling continuously",
+            "model_prediction": "Water running continuously",
+            "judge_response": "Explanation: The reference answer is \"Rain is falling continuously\", which describes a specific weather condition. In contrast, the model's answer is \"Water running continuously\", which seems to be describing a different phenomenon, possibly related to plumbing or a natural flow of water. While both answers contain the phrase \"continuously\", the subject and context are different. I think the model's answer is not accurately capturing the essence of the reference answer.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "Please help me generate an audio caption for the audio clip.",
+            "reference": "An infant crying followed by a man laughing",
+            "model_prediction": "A baby is laughing",
+            "judge_response": "Explanation: The reference answer is \"An infant crying followed by a man laughing\", while the model's answer is \"A baby is laughing\". The model's response does not accurately capture the reference answer, as it only mentions the baby laughing but omits the infant crying and the man laughing. I think this response shows minimal alignment with the reference answer.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "Could you assist me in creating a caption for the audio clip?",
+            "reference": "A man talking as a door slams shut followed by a door creaking",
+            "model_prediction": "A man speaks followed by a bang",
+            "judge_response": "Explanation: The reference answer is a detailed description of the audio clip, including the sound of a door slamming shut followed by a door creaking, whereas the model's answer is a brief and vague statement saying \"A man speaks followed by a bang\". While the model's answer captures the idea of a noise being present, it misses the crucial details of the door sounds and only mentions a generic \"bang\". I think the model's answer shows some minimal relevance to the reference but lacks accuracy and detail.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        }
+    ]
+}

@@ -36,8 +36,6 @@ def seallms_audio_7b_model_loader(self):
 
     self.processor = AutoProcessor.from_pretrained(model_path)
     self.model = Qwen2AudioForConditionalGeneration.from_pretrained("SeaLLMs/SeaLLMs-Audio-7B", device_map="auto")
-    #print("model.config._attn_implementation:", self.model.config._attn_implementation)
-    #self.generation_config = GenerationConfig.from_pretrained(model_path, 'generation_config.json')
     logger.info("Model loaded: {}".format(model_path))
 
 
@@ -54,7 +52,6 @@ def response_to_audio(conversation, model=None, processor=None):
                             sr=processor.feature_extractor.sampling_rate)[0]
                         )
     if audios != []:
-
         inputs = processor(text=text, audios=audios, return_tensors="pt", padding=True,sampling_rate=16000)
     else: 
         inputs = processor(text=text, return_tensors="pt", padding=True)
@@ -69,20 +66,6 @@ def do_sample_inference(self, audio_array, prompt):
 
     audio_path = tempfile.NamedTemporaryFile(suffix=".wav", prefix="audio_", delete=False)
     sf.write(audio_path.name, audio_array, 16000)
-
-
-    # audio = [audio_array, 16000]
-
-    # inputs = self.processor(text=prompt, audios=[audio], return_tensors='pt').to('cuda:0')
-    # generate_ids = self.model.generate(
-    #         **inputs,
-    #         max_new_tokens=1000,
-    #         generation_config=self.generation_config,
-    #     )
-    # generate_ids = generate_ids[:, inputs['input_ids'].shape[1] :]
-    # response = self.processor.batch_decode(
-    #         generate_ids, skip_special_tokens=True, clean_up_tokenization_spaces=False
-    #     )[0]
 
     # Audio Analysis
     conversation = [
@@ -105,12 +88,6 @@ def seallms_audio_7b_model_generation(self, input):
     audio_duration = len(audio_array) / sampling_rate
     prompt         = instruction
 
-    # user_prompt      = '<|user|>'
-    # assistant_prompt = '<|assistant|>'
-    # prompt_suffix    = '<|end|>'
-    # prompt = f'{user_prompt}<|audio_1|>{instruction}{prompt_suffix}{assistant_prompt}'
-
-
     # For ASR task, if audio duration is more than 30 seconds, we will chunk and infer separately
     if audio_duration > 40 and input['task_type'] == 'ASR':
         logger.info('Audio duration is more than 40 seconds. Chunking and inferring separately.')
@@ -123,7 +100,7 @@ def seallms_audio_7b_model_generation(self, input):
 
 
     elif audio_duration > 40:
-        logger.info('Audio duration is more than 30 seconds. Taking first 30 seconds.')
+        logger.info('Audio duration is more than 40 seconds. Taking first 40 seconds.')
 
         audio_array = audio_array[:40 * sampling_rate]
         output = do_sample_inference(self, audio_array, prompt)

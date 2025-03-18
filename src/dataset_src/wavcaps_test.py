@@ -76,25 +76,25 @@ class wavcaps_test_dataset(object):
             llama3_70b_judge_results, all_details = llama3_70b_as_judge("meta-llama/Meta-Llama-3-70B-Instruct", [questions, references, predictions])
             return {'llama3_70b_judge': llama3_70b_judge_results, 'details': all_details}
         
-        elif metrics == 'llama3_8b_judge':
-            from dataset_src.eval_methods.eval_llama3_8b import llama3_8b_as_judge
-            llama3_8b_judge_results = llama3_8b_as_judge("../prepared_models/Meta-Llama-3-8B-Instruct-hf", [questions, references, predictions])
-            return {'llama3_8b_judge': llama3_8b_judge_results}
+        # elif metrics == 'llama3_8b_judge':
+        #     from dataset_src.eval_methods.eval_llama3_8b import llama3_8b_as_judge
+        #     llama3_8b_judge_results = llama3_8b_as_judge("../prepared_models/Meta-Llama-3-8B-Instruct-hf", [questions, references, predictions])
+        #     return {'llama3_8b_judge': llama3_8b_judge_results}
         
-        elif metrics == 'prometheus2_judge':
-            from dataset_src.eval_methods.eval_prometheus2 import prometheus2_as_judge
-            prometheus2_judge_results = prometheus2_as_judge("../prepared_models/prometheus-7b-v2.0", [questions, references, predictions])
-            return {'prometheus2_judge': prometheus2_judge_results}
+        # elif metrics == 'prometheus2_judge':
+        #     from dataset_src.eval_methods.eval_prometheus2 import prometheus2_as_judge
+        #     prometheus2_judge_results = prometheus2_as_judge("../prepared_models/prometheus-7b-v2.0", [questions, references, predictions])
+        #     return {'prometheus2_judge': prometheus2_judge_results}
         
         elif metrics == 'gpt4o_judge':
             from dataset_src.eval_methods.eval_gpt4o import gpt4o_as_judge
             gpt4o_judge_results, all_details = gpt4o_as_judge("", [questions, references, predictions])
             return {'gpt4o_judge': gpt4o_judge_results, 'details': all_details}
         
-        elif metrics == 'gpt4o_judge_binary':
-            from dataset_src.eval_methods.eval_gpt4o import gpt4o_as_judge_binary
-            gpt4o_judge_binary_results, all_details = gpt4o_as_judge_binary("", [questions, references, predictions])
-            return {'gpt4o_judge_binary': gpt4o_judge_binary_results, 'details': all_details}
+        # elif metrics == 'gpt4o_judge_binary':
+        #     from dataset_src.eval_methods.eval_gpt4o import gpt4o_as_judge_binary
+        #     gpt4o_judge_binary_results, all_details = gpt4o_as_judge_binary("", [questions, references, predictions])
+        #     return {'gpt4o_judge_binary': gpt4o_judge_binary_results, 'details': all_details}
         
         elif metrics == 'meteor':
             import evaluate

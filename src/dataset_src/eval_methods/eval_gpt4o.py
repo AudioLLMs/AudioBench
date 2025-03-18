@@ -1,17 +1,3 @@
-#!/usr/bin/env python
-# -*- coding:utf-8 -*-
-###
-# Created Date: Friday, June 7th 2024, 4:29:52 pm
-# Author: Bin Wang
-# -----
-# Copyright (c) Bin Wang @ bwang28c@gmail.com
-# 
-# -----
-# HISTORY:
-# Date&Time 			By	Comments
-# ----------			---	----------------------------------------------------------
-###
-
 import os
 
 
@@ -71,7 +57,6 @@ def gpt4o_as_judge(model_path, input_data):
         messages = [
             {"role": "user", "content": evaluation_prompt},
         ]
-
 
         try:
             completion = client.chat.completions.create(
