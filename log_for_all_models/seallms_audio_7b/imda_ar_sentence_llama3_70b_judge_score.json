@@ -1,0 +1,168 @@
+{
+    "llama3_70b_judge": {
+        "judge_score": 3.5833333333333335,
+        "success_rate": 0.9995
+    },
+    "details": [
+        {
+            "question": "What can you tell about the speaker's accent",
+            "reference": "The speaker has a Chinese accent who is likely from the Chinese-Speaking community of Singapore.",
+            "model_prediction": "The speaker has an accent from India and South Asia, which includes regions like India, Pakistan, and Sri Lanka.",
+            "judge_response": "Explanation: The reference answer is specific about the speaker's accent being from the Chinese-Speaking community of Singapore, whereas the model's answer is inaccurate and irrelevant, suggesting an accent from India and South Asia. I think the model's answer does not mirror the reference in terms of content, accuracy, and relevance.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "How would you describe the accent of this speaker?",
+            "reference": "The speaker speaks fluent English with a Singaporean Indian-Speaking accent, characterized by local intonation and occasional Singlish expressions.",
+            "model_prediction": "The speaker has an accent from India and South Asia, which includes regions like India, Pakistan, and Sri Lanka.",
+            "judge_response": "Explanation: The reference answer specifically states that the speaker has a Singaporean Indian-Speaking accent, characterized by local intonation and occasional Singlish expressions, whereas the model's answer generalizes the accent to be from India and South Asia, without mentioning the specific features mentioned in the reference. I think the model's answer lacks accuracy and relevance to the reference.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Can you identify any specific ethnic characteristics typical of Singaporean English in the speaker's accent?",
+            "reference": "Yes, the speaker's accent seems to have a Indian-Speaking tone. This speaker may from Indian community of Singapore.",
+            "model_prediction": "The speaker's accent is classic Singaporean English, characterized by its distinct intonation patterns and use of local slang terms like 'paya' (a term for 'idiot' or 'stupid person').",
+            "judge_response": "Explanation: The reference answer is indicating the speaker's accent has an Indian-Speaking tone, possibly from the Indian community of Singapore, while the model's answer is claiming the speaker's accent is classic Singaporean English with local slang terms. The two answers are contradictory, and the model's answer does not capture the ethnic characteristics mentioned in the reference answer.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Can you describe the accent of the speaker?",
+            "reference": "The speaker has a Chinese accent. They are likely from the Chinese-Speaking community of Singapore.",
+            "model_prediction": "The speaker has an accent from India and South Asia, which includes regions like India, Pakistan, and Sri Lanka.",
+            "judge_response": "Explanation: The reference answer is specific about the speaker's accent being from the Chinese-Speaking community of Singapore, while the model's answer is about India and South Asia, which includes regions like India, Pakistan, and Sri Lanka. I think the model's answer is not accurate and does not align with the reference.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What can you tell about the speaker's accent",
+            "reference": "The speaker has a Chinese accent who is likely from the Chinese-Speaking community of Singapore.",
+            "model_prediction": "The speaker has an accent from India and South Asia, which includes regions like India, Pakistan, and Sri Lanka.",
+            "judge_response": "Explanation: The reference answer is specific about the speaker's accent being from the Chinese-Speaking community of Singapore, while the model's answer is vague and incorrect, suggesting an accent from India and South Asia. The two answers do not align in terms of content, accuracy, and relevance.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What can you tell about the speaker's accent",
+            "reference": "The speaker has a Chinese accent who is likely from the Chinese-Speaking community of Singapore.",
+            "model_prediction": "The speaker has an accent from India and South Asia, which includes regions like India, Pakistan, and Sri Lanka.",
+            "judge_response": "Explanation: The reference answer is that the speaker has a Chinese accent from Singapore, while the model's answer is that the speaker has an accent from India and South Asia. I think the model's answer is not accurate and irrelevant to the reference.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Can you describe the accent of the speaker?",
+            "reference": "The speaker has a Chinese accent who is likely from the Chinese-Speaking community of Singapore.",
+            "model_prediction": "The speaker has an accent from India and South Asia, which includes regions like India, Pakistan, and Sri Lanka.",
+            "judge_response": "Explanation: The reference answer is specific about the speaker's accent, stating it is from the Chinese-Speaking community of Singapore, whereas the model's answer is vague and incorrect, suggesting an accent from India and South Asia. The model's answer does not match the reference in terms of content, accuracy, and relevance.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "How would you describe the accent of this speaker?",
+            "reference": "The speaker speaks fluent English with a Singaporean Chinese-Speaking accent, characterized by local intonation and occasional Singlish expressions.",
+            "model_prediction": "The speaker has an accent from India and South Asia, which includes regions like India, Pakistan, and Sri Lanka.",
+            "judge_response": "Explanation: The reference answer specifically describes the speaker's accent as Singaporean Chinese-Speaking with local intonation and Singlish expressions, whereas the model's answer incorrectly attributes the accent to India and South Asia. The two answers are unrelated and provide conflicting information.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "How would you describe the accent of this speaker?",
+            "reference": "The speaker speaks fluent English with a Singaporean Malay-Speaking accent, characterized by local intonation and occasional Singlish expressions.",
+            "model_prediction": "The speaker has an accent from India and South Asia, which includes regions like India, Pakistan, and Sri Lanka.",
+            "judge_response": "Explanation: The reference answer provides a specific description of the speaker's accent as Singaporean Malay-Speaking with local intonation and occasional Singlish expressions. In contrast, the model's answer mistakenly identifies the accent as from India and South Asia, which is a completely different region and accent type. I think the model's answer fails to capture the accuracy and relevance of the reference answer.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Can you identify if the speaker's accent reflects any Singaporean tones in their English?",
+            "reference": "The speaker's accent suggests they are a Indian-Speaking community of Singapore.",
+            "model_prediction": "Yes, the speaker's accent reflects some Singaporean tones, as they are from Singapore and speak English with local inflections.",
+            "judge_response": "Explanation: The reference answer is specific about the speaker's accent being from the Indian-Speaking community of Singapore, while the model's answer is more general, stating that the speaker's accent reflects some Singaporean tones. The model's answer is vague and doesn't capture the specific detail provided in the reference answer. I think the model's answer is not accurate enough to capture the nuance in the reference answer.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Can you infer the speaker's accent from this audio clip?",
+            "reference": "The speaker is likely from Singapore's Malay-Speaking community, whose first language is Malay.",
+            "model_prediction": "The speaker has an Australian English accent.",
+            "judge_response": "Explanation: The reference answer is that the speaker is likely from Singapore's Malay-Speaking community, whose first language is Malay, while the model's answer is that the speaker has an Australian English accent. I think the model's response is incorrect and irrelevant to the reference provided.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Can you identify any specific ethnic characteristics typical of Singaporean English in the speaker's accent?",
+            "reference": "Yes, the speaker's accent seems to have a Chinese-Speaking tone. This speaker may from Chinese community of Singapore.",
+            "model_prediction": "Singaporean English often exhibits features such as the use of 'lah' and 'man', which are common particles used to express emotions or emphasize points, and there may be a distinct intonation pattern that reflects the cultural identity of Singaporeans.",
+            "judge_response": "Explanation: The reference answer specifically identifies a Chinese-Speaking tone in the speaker's accent, suggesting they may be from the Chinese community of Singapore. In contrast, the model's answer provides general features of Singaporean English, such as the use of \"lah\" and \"man\", and a distinct intonation pattern, but does not specifically address the ethnic characteristics of the speaker's accent. The model's answer is relevant to Singaporean English, but it does not accurately identify the specific ethnic characteristics mentioned in the reference answer. \nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Can you describe the accent of the speaker?",
+            "reference": "The speaker has a Chinese accent who is likely from the Chinese-Speaking community of Singapore.",
+            "model_prediction": "The speaker has an accent from India and South Asia, which includes regions like India, Pakistan, and Sri Lanka.",
+            "judge_response": "Explanation: The reference answer is that the speaker has a Chinese accent from the Chinese-Speaking community of Singapore, while the model's answer is that the speaker has an accent from India and South Asia. I think the model's answer is incorrect and irrelevant to the reference provided.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Can you describe the accent of the speaker?",
+            "reference": "The speaker has a Indian accent who is likely from the Indian-Speaking community of Singapore.",
+            "model_prediction": "The speaker has an accent from India and South Asia, which includes regions like India, Pakistan, and Sri Lanka.",
+            "judge_response": "Explanation: The reference answer specifically points to the Indian-Speaking community of Singapore, while the model's answer is more general, encompassing a broader region of India and South Asia, including Pakistan and Sri Lanka. Although the model's answer is related to the Indian accent, it lacks the specific detail about the Singaporean context. I think the model's answer is partially correct but not precise enough.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "How would you describe the accent of this speaker?",
+            "reference": "The speaker speaks fluent English with a Singaporean Malay-Speaking accent, characterized by local intonation and occasional Singlish expressions.",
+            "model_prediction": "The speaker has an accent from India and South Asia, which includes regions like India, Pakistan, and Sri Lanka.",
+            "judge_response": "Explanation: The reference answer specifically describes the speaker's accent as Singaporean Malay-Speaking with local intonation and occasional Singlish expressions, whereas the model's answer broadly categorizes the accent as from India and South Asia, including regions like India, Pakistan, and Sri Lanka. The two answers do not match, and the model's answer is not accurate or relevant to the reference provided.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Can you identify if the speaker's accent reflects any Singaporean tones in their English?",
+            "reference": "The speaker's accent suggests they are a Chinese-Speaking community of Singapore.",
+            "model_prediction": "The speaker's accent is Singaporean English, which is characterized by certain pronunciation features typical of Singaporeans.",
+            "judge_response": "Explanation: The reference answer specifically identifies the accent as coming from a Chinese-Speaking community of Singapore, whereas the model's answer is more general, simply stating that the speaker's accent is Singaporean English. While the model's answer is not incorrect, it lacks the specificity of the reference answer.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Can you describe the accent of the speaker?",
+            "reference": "The speaker has a Chinese accent. They are likely from the Chinese-Speaking community of Singapore.",
+            "model_prediction": "The speaker has an accent from India and South Asia, which includes regions like India, Pakistan, and Sri Lanka.",
+            "judge_response": "Explanation: The reference answer is specific about the speaker having a Chinese accent, likely from the Chinese-Speaking community of Singapore, while the model's answer is incorrect, stating that the speaker has an accent from India and South Asia. The two answers are not aligned in terms of content and accuracy.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Can you describe the accent of the speaker?",
+            "reference": "The speaker has a Chinese accent who is likely from the Chinese-Speaking community of Singapore.",
+            "model_prediction": "The speaker has an accent from India and South Asia, which includes regions like India, Pakistan, and Sri Lanka.",
+            "judge_response": "Explanation: The reference answer is specific about the speaker's accent being from the Chinese-Speaking community of Singapore, while the model's answer is about an accent from India and South Asia. I think the model's answer is not accurate and is providing incorrect information compared to the reference.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Can you identify any specific ethnic characteristics typical of Singaporean English in the speaker's accent?",
+            "reference": "Yes, the speaker's accent seems to have a Chinese-Speaking tone. This speaker may from Chinese community of Singapore.",
+            "model_prediction": "The speaker's accent is Singaporean English, which often includes features such as the use of 'lah' and 'man', and certain pronunciation differences compared to standard English.",
+            "judge_response": "Explanation: The reference answer specifically mentions that the speaker's accent has a \"Chinese-Speaking tone\" and suggests that they may be from the Chinese community of Singapore. In contrast, the model's answer provides a more general description of Singaporean English, mentioning features such as \"lah\" and \"man\" and pronunciation differences, but does not specifically address the ethnic characteristic mentioned in the reference answer. I think the model's answer is not fully aligned with the reference answer.\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "What can you tell about the speaker's accent",
+            "reference": "The speaker has a Indian accent who is likely from the Indian-Speaking community of Singapore.",
+            "model_prediction": "The speaker has an Singaporean English accent.",
+            "judge_response": "Explanation: The reference answer is specific about the speaker's accent, mentioning it as an \"Indian accent\" from the \"Indian-Speaking community of Singapore\". In contrast, the model's answer is vague, simply stating it as a \"Singaporean English accent\" without providing any specific information about the community or ethnicity. I think the model's answer lacks detail and accuracy compared to the reference.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        }
+    ]
+}

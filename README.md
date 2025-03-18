@@ -21,7 +21,7 @@
   </a>
 </p>
 
-🏠 [AudioBench Leaderboard](https://huggingface.co/spaces/AudioLLMs/AudioBench-Leaderboard) | 🤗 [Huggingface Datasets](https://huggingface.co/AudioLLMs)
+🏠 [AudioBench Leaderboard](https://huggingface.co/spaces/AudioLLMs/AudioBench-Leaderboard-Extend) | 🤗 [Huggingface Datasets](https://huggingface.co/AudioLLMs) | 🤗 [AudioLLM Paper Collection](https://github.com/AudioLLMs/Awesome-Audio-LLM) ![GitHub Repo stars](https://img.shields.io/github/stars/AudioLLMs/Awesome-Audio-LLM?style=social)
 
 
 
@@ -129,7 +129,7 @@ Two simple steps:
 - [x] [gemini-2-flash](./examples/adding_new_model.md): key needed
 - [x] [gpt-4o-audio](./examples/adding_new_model.md): key needed
 - [x] [phi_4_multimodal_instruct](./examples/adding_new_model.md)
-- [ ] [seallms_audio_7b](https://huggingface.co/SeaLLMs/SeaLLMs-Audio-7B)
+- [x] [seallms_audio_7b](https://huggingface.co/SeaLLMs/SeaLLMs-Audio-7B)
 - [ ] [ultravox](./examples/adding_new_model.md) https://huggingface.co/fixie-ai/ultravox-v0_5-llama-3_1-8b / https://www.ultravox.ai/
 - [ ] [llama3_s](./examples/adding_new_model.md) 
 - [ ] [audio-flamingo-2](./examples/adding_new_model.md)

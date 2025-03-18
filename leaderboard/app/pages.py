@@ -32,7 +32,7 @@ def dashboard():
    
         st.markdown("""
             [gh1]: https://github.com/AudioLLMs/AudioBench
-            [gh2]: https://github.com/AudioLLMs/AudioBench
+            [gh2]: https://github.com/AudioLLMs/Awesome-Audio-LLM
             **Toolkit:** [![GitHub Repo stars](https://img.shields.io/github/stars/AudioLLMs/AudioBench?style=social)][gh1] | 
             [**Paper @ NAACL 2025**](https://arxiv.org/abs/2406.16020) | 
             **Resource for AudioLLMs:** [![GitHub Repo stars](https://img.shields.io/github/stars/AudioLLMs/Awesome-Audio-LLM?style=social)][gh2]

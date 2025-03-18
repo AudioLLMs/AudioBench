@@ -25,13 +25,11 @@ NLTK_DATA=/project/cache/nltk_data
 # =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
 #If the log exist, then exit, no need to proceed with the job
 if [ -f "/data/projects/13003558/wangb1/workspaces/AudioBench/log/${MODEL_NAME}/${DATASET_NAME}_${METRICS}_score.json" ]; then
-
     # echo the log filename
     echo ""
     echo "/data/projects/13003558/wangb1/workspaces/AudioBench/log/${MODEL_NAME}/${DATASET_NAME}_${METRICS}_score.json"
     echo "The log file exists, no need to proceed with the job."
     exit 0
-    
 fi
 
 

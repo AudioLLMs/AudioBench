@@ -10,7 +10,7 @@ if hf_token is None:
 
 # Log in using the token
 login(token=hf_token)
-repo_id = "AudioLLMs/AudioBench-Leaderboard"
+repo_id = "AudioLLMs/AudioBench-Leaderboard-Extend"
 
 api = HfApi()
 
