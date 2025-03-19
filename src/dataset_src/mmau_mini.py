@@ -102,7 +102,7 @@ class mmau_mini_test_dataset(object):
             df = pd.DataFrame(all_details)
             task_scores = df.groupby('task')['rate_score'].mean().to_dict()
 
-            return {'gpt4o_judge': gpt4o_judge_results, 'details': all_details}
+            return {'gpt4o_judge': gpt4o_judge_results, "task_scores": task_scores, 'details': all_details}
         
         # elif metrics == 'gpt4o_judge_binary':
         #     from dataset_src.eval_methods.eval_gpt4o import gpt4o_as_judge_binary

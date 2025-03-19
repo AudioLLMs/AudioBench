@@ -47,6 +47,7 @@ for model_name in model_names:
         with open(os.path.join(results_folder, model_name, filename), 'r') as f:
             result = json.load(f)
 
+
         # create data
         if dataset_name not in all_model_results: all_model_results[dataset_name] = {}
         if metric_name not in all_model_results[dataset_name]: all_model_results[dataset_name][metric_name] = {}

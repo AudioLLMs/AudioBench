@@ -13,7 +13,7 @@ export HF_HOME=/project/cache/huggingface_cache
 # = = = = = = = = = = = = = = = = = = = = = = = = = = = =
 
 
-export CUDA_VISIBLE_DEVICES=0
+export CUDA_VISIBLE_DEVICES=1
 port=5001
 
 python -m vllm.entrypoints.openai.api_server \
@@ -27,3 +27,14 @@ python -m vllm.entrypoints.openai.api_server \
         
 echo "Started server on port $port"
 
+
+
+
+# curl http://localhost:5001/v1/completions \
+#     -H "Content-Type: application/json" \
+#     -d '{
+#         "model": "casperhansen/llama-3-70b-instruct-awq",
+#         "prompt": "<|begin_of_text|><|start_header_id|>user<|end_header_id|> hello, what is the capital of China <|eot_id|><|start_header_id|>assistant<|end_header_id|>",
+#         "max_tokens": 3000,
+#         "temperature": 0
+#     }'

@@ -16,6 +16,7 @@ echo "The path to HF HOME is: $HF_HOME"
 GPU=1
 BATCH_SIZE=1
 OVERWRITE=False
+OVERWRITE=True
 NUMBER_OF_SAMPLES=-1
 #####
 

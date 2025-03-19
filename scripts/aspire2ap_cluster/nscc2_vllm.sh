@@ -1,6 +1,6 @@
 
 
-export CUDA_VISIBLE_DEVICES=0
+export CUDA_VISIBLE_DEVICES=1
 
 export no_proxy=localhost,127.0.0.1,10.104.0.0/21
 export https_proxy=http://10.104.4.124:10104

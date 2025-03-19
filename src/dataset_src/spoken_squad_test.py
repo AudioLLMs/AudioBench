@@ -52,7 +52,6 @@ class spoken_squad_test_dataset(object):
         predictions = []
 
         for item in data_with_model_predictions:
-        
             question         = item["instruction"]
             answer           = item["reference"]
             model_prediction = item["model_prediction"]
@@ -63,7 +62,7 @@ class spoken_squad_test_dataset(object):
 
         if metrics == 'llama3_70b_judge':
             from dataset_src.eval_methods.eval_llama3_70b import llama3_70b_as_judge
-            llama3_70b_judge_results, all_details = llama3_70b_as_judge("meta-llama/Meta-Llama-3-70B-Instruct", [questions, references, predictions])
+            llama3_70b_judge_results, all_details = llama3_70b_as_judge("", [questions, references, predictions])
             return {'llama3_70b_judge': llama3_70b_judge_results, 'details': all_details}
 
         # elif metrics == 'llama3_70b_judge_binary':
