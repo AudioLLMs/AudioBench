@@ -44,21 +44,17 @@ data['Original Name'].append('whisper_large_v3')
 data['Proper Display Name'].append('Whisper-large-v3')
 data['Link'].append('https://huggingface.co/openai/whisper-large-v3')
 
-
 data['Original Name'].append('gemini-1.5-flash')
 data['Proper Display Name'].append('Gemini-1.5-Flash')
 data['Link'].append('https://ai.google.dev/gemini-api/docs/models/gemini')
-
 
 data['Original Name'].append('phi_4_multimodal_instruct')
 data['Proper Display Name'].append('Phi-4-Multimodal-Instruct')
 data['Link'].append('https://huggingface.co/microsoft/Phi-4-multimodal-instruct')
 
-
 data['Original Name'].append('seallms_audio_7b')
 data['Proper Display Name'].append('SeaLLMs-Audio-7B')
 data['Link'].append('https://huggingface.co/SeaLLMs/SeaLLMs-Audio-7B')
-
 
 
 def get_dataframe():

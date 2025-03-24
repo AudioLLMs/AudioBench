@@ -1,0 +1,168 @@
+{
+    "gpt4o_judge": {
+        "judge_score": 41.53333333333333,
+        "success_rate": 1.0
+    },
+    "details": [
+        {
+            "question": "Please help me generate an audio caption for the audio clip.",
+            "reference": "A man speaking while water runs in the background",
+            "model_prediction": "A man is speaking while frying food in a pot of hot oil.",
+            "judge_response": "Explanation: The reference answer is \"A man speaking while water runs in the background,\" indicating that the key sound element is water running. The model's answer is \"A man is speaking while frying food in a pot of hot oil,\" which suggests a completely different audio context, focusing on the sound of frying in oil rather than running water. I think the model's answer does not align with the reference answer as it describes a different audio scene, thus providing incorrect and irrelevant information compared to the reference. \nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Please help me generate an audio caption for the audio clip.",
+            "reference": "An adult female speaks as a pan sizzles",
+            "model_prediction": "A woman is frying food in a pot and talking at the same time.",
+            "judge_response": "Explanation: The reference answer is \"An adult female speaks as a pan sizzles,\" while the model's answer is \"A woman is frying food in a pot and talking at the same time.\" Both answers convey that a woman is speaking and there is cooking involved, but the model's answer specifies \"frying food in a pot,\" which is slightly different from the reference's \"pan sizzles.\" The model's answer adds more context by mentioning \"frying food,\" but it does not capture the simplicity and directness of the reference answer. Despite this, the model's response is generally aligned with the reference in terms of the situation being described.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Would you mind helping me produce an audio caption for the provided clip?",
+            "reference": "Ocean waves crashing as water trickles and splashes",
+            "model_prediction": "Certainly, I'd be happy to help! The audio caption for the provided clip is: 'Water rushing by quickly.'",
+            "judge_response": "Explanation: The reference answer is \"Ocean waves crashing as water trickles and splashes,\" which implies a specific auditory scene of ocean waves and water movement. The model's answer, \"Water rushing by quickly,\" captures the idea of water movement but lacks the specificity and imagery of ocean waves crashing and the sound of trickling and splashing. The model's response is generally aligned with the theme of water movement but diverges significantly in detail and imagery. Therefore, it lacks the precise accuracy and relevance of the reference answer.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Could you assist me in creating a caption for the audio clip?",
+            "reference": "A man laughing",
+            "model_prediction": "Certainly, I'd be happy to help! Based on the provided audio, a suitable caption could be: 'A baby laughs joyfully as wind blows into a microphone'. This description captures the essence of the audio where a baby's infectious laughter is overlaid with the sound of wind.",
+            "judge_response": "Explanation: The reference answer is \"A man laughing,\" which is straightforward and simple, focusing solely on a man laughing. In contrast, the model's answer describes an audio clip featuring a baby's laughter mixed with the sound of wind, which is significantly different from the reference. The model's response introduces new elements (a baby and wind) that are not mentioned in the reference and does not align with the concept of \"a man laughing.\" Therefore, the model's answer diverges significantly from the reference in terms of content, accuracy, and relevance.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Please help me generate an audio caption for the audio clip.",
+            "reference": "Humming noise with clock tick-tocking",
+            "model_prediction": "The audio contains ongoing sounds of things and mechanisms along with clock ticking at specific intervals.",
+            "judge_response": "Explanation: The reference answer is \"Humming noise with clock tick-tocking,\" which is concise and directly identifies the two main auditory components: a humming noise and the sound of a clock ticking. The model's answer is \"The audio contains ongoing sounds of things and mechanisms along with clock ticking at specific intervals.\" This answer captures the clock ticking element accurately but adds vagueness with \"ongoing sounds of things and mechanisms,\" which is less specific than \"humming noise.\" While the model's response covers the general idea of mechanical sounds, it lacks the precision and clarity of the reference regarding the \"humming noise.\"\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Could you help me create an audio caption for the provided clip?",
+            "reference": "A male speech and metal clanging.",
+            "model_prediction": "The original content of this audio is:'This is, of course, not possible.'",
+            "judge_response": "Explanation: The reference answer is \"A male speech and metal clanging,\" which suggests the audio contains sounds of a male speaking and the sound of metal clanging. The model's answer is \"The original content of this audio is: 'This is, of course, not possible.'\" This response does not mention any metal clanging and instead provides a specific sentence purportedly spoken by the male voice. The model's answer diverges significantly from the reference in both content and detail, focusing solely on speech without acknowledging the metal clanging aspect. Therefore, the model's response lacks alignment with the reference in terms of accuracy and relevance.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Could you assist me in creating a caption for the audio clip?",
+            "reference": "Church bells tolling followed by a smaller bell ringing",
+            "model_prediction": "Certainly, the audio clip captures the melodious blend of church bells chiming together. The sound resonates with an echo that signifies a large room or a church setting. This auditory scene paints a vivid picture of a serene, possibly religious environment, perhaps during a Sunday service or a ceremonial event. The chimes bring a sense of timeless tradition and solemnity to the atmosphere.",
+            "judge_response": "Explanation: The reference answer is \"Church bells tolling followed by a smaller bell ringing,\" which is a straightforward description of the audio clip. The model's answer elaborates on this by describing the setting and atmosphere, mentioning a \"melodious blend\" and a \"serene, possibly religious environment,\" and interpreting the sound as signifying a \"Sunday service or a ceremonial event.\" While the model's answer captures the essence of church bells ringing, it diverges from the reference by adding additional context and interpretation not present in the reference. The model's answer is accurate in identifying the setting but includes details that are not explicitly mentioned in the reference, such as the echo and the specific event. This alignment is generally correct but lacks precision in sticking strictly to the reference's simplicity and directness.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Could you help me create an audio caption for the provided clip?",
+            "reference": "A goat baaing as footsteps shuffle on foliage followed by a series of licking",
+            "model_prediction": "The audio contains sounds of goats bleating nearby.",
+            "judge_response": "Explanation: The reference answer mentions a goat baaing, footsteps shuffling on foliage, and a series of licking sounds. The model's answer focuses solely on goats bleating nearby, omitting the details about footsteps on foliage and licking sounds. While the model's answer correctly identifies the presence of goats, it lacks the additional context and detail provided in the reference answer, which diminishes its accuracy and relevance.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Could you assist me in creating a caption for the audio clip?",
+            "reference": "A rapid ticktock and then a man speaks and sneezes followed by another man hiccuping",
+            "model_prediction": "A man sneezes and then begins to speak, followed by the sounds of mechanisms operating.",
+            "judge_response": "Explanation: The reference answer describes a sequence of sounds starting with a \"rapid ticktock,\" followed by a man speaking and sneezing, and another man hiccuping. In contrast, the model's answer begins with a man sneezing, then speaking, and mentions \"the sounds of mechanisms operating\" instead of a \"rapid ticktock.\" The model's answer does not mention the hiccuping sound and alters the sequence and nature of sounds described in the reference. Therefore, the model's response diverges significantly from the reference in terms of accuracy and relevance, notably by omitting and altering key details.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Could you help me formulate an audio caption for this clip?",
+            "reference": "A couple of men speaking as metal clanks and a power tool operates",
+            "model_prediction": "A man is operating a piece of machinery, and another man can be heard talking in the background.",
+            "judge_response": "Explanation: The reference answer describes \"a couple of men speaking as metal clanks and a power tool operates,\" which indicates two men are involved, with specific sounds like metal clanking and a power tool operating. The model's answer states \"a man is operating a piece of machinery, and another man can be heard talking in the background.\" While both answers mention two men and machinery, the model's answer lacks the specific detail of metal clanking and does not specify that a power tool is operating. The model's response is generally aligned with the reference but lacks some of the specific auditory details mentioned in the reference.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Could you help me formulate an audio caption for this clip?",
+            "reference": "Various insects and bugs are chirping with a rodent breathing sound in the background",
+            "model_prediction": "Certainly, the audio contains sounds of birds chirping at multiple intervals and the continuous sound of water flowing.",
+            "judge_response": "Explanation: The reference answer describes \"various insects and bugs chirping with a rodent breathing sound in the background,\" whereas the model's answer mentions \"sounds of birds chirping at multiple intervals and the continuous sound of water flowing.\" The model's response is significantly misaligned with the reference answer, as it introduces elements (birds and water) not present in the reference, and omits the details about insects, bugs, and a rodent breathing sound. The model's answer lacks accuracy and relevance to the reference provided.\n\nRating: 0",
+            "rate_score": 0.0,
+            "success": 1
+        },
+        {
+            "question": "Could you help me create an audio caption for the provided clip?",
+            "reference": "An explosion sounds with bursting noises",
+            "model_prediction": "The original content of this audio is:'A large explosion followed by fire and smoke'",
+            "judge_response": "Explanation: The reference answer is \"An explosion sounds with bursting noises,\" while the model's answer is \"A large explosion followed by fire and smoke.\" Both answers describe an explosion, which aligns them in terms of the main event being depicted. However, the reference focuses on the sound aspect of the explosion, specifically mentioning \"bursting noises,\" whereas the model's answer introduces additional elements such as \"fire and smoke,\" which are not mentioned in the reference. The model's answer provides some relevant context but diverges from the reference by adding visual elements rather than focusing solely on the audio aspect. Therefore, the model's response is generally aligned but lacks precision in sticking to the audio description provided in the reference.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Could you assist me in creating a caption for the audio clip?",
+            "reference": "Many insects are buzzing, and an adult male speaks",
+            "model_prediction": "Certainly, I'd be happy to help! Based on the sounds heard in the clip, a possible caption could be: 'A man speaks while being surrounded by the buzzing of insects.'",
+            "judge_response": "Explanation: The reference answer is \"Many insects are buzzing, and an adult male speaks,\" while the model's answer is \"A man speaks while being surrounded by the buzzing of insects.\" I think the model's answer is closely aligned with the reference answer. Both mention the presence of buzzing insects and a male speaking, capturing the main elements of the audio clip. However, the model's response is slightly less direct than the reference, as it uses \"surrounded by\" instead of \"many insects are buzzing,\" which could imply a broader context. Despite this minor difference, the response is mostly accurate and relevant.\n\nRating: 4",
+            "rate_score": 4.0,
+            "success": 1
+        },
+        {
+            "question": "Could you help me create an audio caption for the provided clip?",
+            "reference": "Engine working, beeping and a scraping",
+            "model_prediction": "The audio contains sounds of footsteps outdoors, a brief tone, mechanisms functioning, natural wind, surface contact noises, generic impact sounds, and a motor vehicle on the road. A Mandarin-speaking male aged between 16-25 with a neutral mood can be heard saying '卖五金市场部的人就能休'.",
+            "judge_response": "Explanation: The reference answer is \"Engine working, beeping and a scraping,\" which succinctly describes the audio clip with specific sounds. The model's answer is much more detailed, listing various sounds such as footsteps, wind, impact noises, and a motor vehicle, along with speech from a Mandarin-speaking male. While the model captures a broader range of sounds, it diverges significantly from the reference by including elements not mentioned in the reference, such as footsteps and speech. The model's answer does recognize the topic of audio sounds but lacks alignment with the specific sounds highlighted in the reference, such as beeping and scraping. Therefore, the model's response is somewhat relevant but not accurate or aligned with the reference.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Would you mind helping me produce an audio caption for the provided clip?",
+            "reference": "Humming from a motor with loud dry cracking",
+            "model_prediction": "The original content of this audio is:'A machine runs and crinkles occur intermittently.'",
+            "judge_response": "Explanation: The reference answer is \"Humming from a motor with loud dry cracking,\" while the model's answer is \"A machine runs and crinkles occur intermittently.\" I think the model's answer captures the essence of the reference in terms of describing the sound of a machine operating and the occurrence of another distinct sound (crinkles/cracking). However, the model's response lacks the specificity of \"humming\" from the motor and the \"dry\" quality of the cracking sound. Despite these differences, the general idea of machine operation and intermittent noises is conveyed, albeit less accurately.\n\nRating: 3",
+            "rate_score": 3.0,
+            "success": 1
+        },
+        {
+            "question": "Would you mind helping me produce an audio caption for the provided clip?",
+            "reference": "Music is playing with machine gun sounds",
+            "model_prediction": "The original content of this audio is:'catchy synth melody with reverberant echoing effects, filtered down sweep and high pitched bell sound playing over it. It sounds suspenseful and intense like something you would hear in a thriller movie soundtrack.'",
+            "judge_response": "Explanation: The reference answer describes music playing with machine gun sounds, emphasizing the presence of aggressive sound effects. In contrast, the model's answer describes a catchy synth melody with reverberant echoing effects, suspenseful intensity, and elements suitable for a thriller movie soundtrack. The model's answer captures the intense and suspenseful nature but does not mention machine gun sounds, which are a key component of the reference. Although the model's answer recognizes the thematic intensity, it diverges significantly from the reference in terms of specific sound effects, particularly the machine gun sounds, which are absent. Hence, the model's answer lacks accuracy and relevance to the reference.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Could you assist me in creating a caption for the audio clip?",
+            "reference": "A person speaks and a goat bleats",
+            "model_prediction": "A woman speaks in an unfamiliar language, followed by a goat bleating and a child laughing.",
+            "judge_response": "Explanation: The reference answer is \"A person speaks and a goat bleats,\" while the model's answer is \"A woman speaks in an unfamiliar language, followed by a goat bleating and a child laughing.\" The model's response introduces additional elements not present in the reference answer, such as specifying the speaker as a woman, mentioning an unfamiliar language, and including a child's laughter. While the model's answer recognizes the topic of a goat bleating, it diverges significantly from the reference in terms of accuracy and relevance by adding details not indicated in the reference. Therefore, the model's answer lacks alignment with the reference, providing incorrect or irrelevant information.\n\nRating: 1",
+            "rate_score": 1.0,
+            "success": 1
+        },
+        {
+            "question": "Please help me generate an audio caption for the audio clip.",
+            "reference": "Birds chirping continuously",
+            "model_prediction": "Birds chirping continuously.",
+            "judge_response": "Explanation: The reference answer is \"Birds chirping continuously,\" while the model's answer is \"Birds chirping continuously.\" The model's response is identical to the reference answer, capturing the essence and detail perfectly without any deviation. Therefore, it aligns completely with the reference in terms of content, accuracy, and relevance.\n\nRating: 5",
+            "rate_score": 5.0,
+            "success": 1
+        },
+        {
+            "question": "Would you mind helping me produce an audio caption for the provided clip?",
+            "reference": "Various conversation occur in a crowd. A train bell dings followed by a train whistle, cheering occurs at the end",
+            "model_prediction": "Certainly, I'd be happy to help! Here's a draft of an audio caption for the provided clip: 'A bell chimes as several people chatter in the distance.' Please let me know if there's anything else I can assist with or make any necessary adjustments to the caption.",
+            "judge_response": "Explanation: The reference answer describes the sequence of sounds in a crowded environment, including a train bell, a train whistle, and cheering at the end. The model's answer mentions a bell chime and distant chatter but does not include the train whistle or cheering, which are significant elements of the reference. The model's response is somewhat aligned with the reference by recognizing the presence of a bell and chatter, but it diverges significantly by omitting key sounds described in the reference. Therefore, the model's answer lacks accuracy and relevance in capturing the full essence of the reference audio caption.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        },
+        {
+            "question": "Please help me generate an audio caption for the audio clip.",
+            "reference": "A woman speaking continuously",
+            "model_prediction": "The audio contains a woman speaking in a foreign language that sounds like Sanskrit, with a sad mood. The transcription is 'संहिता वाज्य समुदाय में है।'",
+            "judge_response": "Explanation: The reference answer is \"A woman speaking continuously,\" which is quite general and does not specify any details about language or mood. The model's answer, however, provides more specific information: \"The audio contains a woman speaking in a foreign language that sounds like Sanskrit, with a sad mood. The transcription is 'संहिता वाज्य समुदाय में है।'\" The model's answer adds details about the language and emotional tone, which are not present in the reference. While these details may be accurate, they diverge from the simplicity and lack of specific detail in the reference answer. Therefore, the model's answer aligns with the general topic of a woman speaking but diverges significantly in terms of detail and specificity.\n\nRating: 2",
+            "rate_score": 2.0,
+            "success": 1
+        }
+    ]
+}

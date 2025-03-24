@@ -57,6 +57,9 @@ displayname2datasetname = {
     'MMAU-mini-music'      : 'mmau_mini_music',
     'MMAU-mini-sound'      : 'mmau_mini_sound',
     'MMAU-mini-speech'     : 'mmau_mini_speech',
+    'GigaSpeech2-Indo'     : 'gigaspeech2_indo',
+    'GigaSpeech2-Thai'     : 'gigaspeech2_thai',
+    'GigaSpeech2-Viet'     : 'gigaspeech2_viet',
 
     'CNA'             : 'cna_test',
     'IDPC'            : 'idpc_test',
@@ -133,11 +136,14 @@ dataset_diaplay_information = {
     'MNSC-PART6-SDS'       : 'Multitak National Speech Corpus (MNSC) dataset, dialogue summarization task, Part 6.',
     'SEAME-Dev-Man'        : 'SEAME dataset, English-Mandarin Code-swithcing',
     'SEAME-Dev-Sge'        : 'SEAME dataset, English-Mandarin Code-swithcing',
-
     'MMAU-mini'            : 'MMAU Dataset, Mini version, MMAU: A Massive Multi-Task Audio Understanding and Reasoning Benchmark',
     'MMAU-mini-music'      : 'MMAU Dataset, Mini version, MMAU: A Massive Multi-Task Audio Understanding and Reasoning Benchmark',
     'MMAU-mini-sound'      : 'MMAU Dataset, Mini version, MMAU: A Massive Multi-Task Audio Understanding and Reasoning Benchmark',
     'MMAU-mini-speech'     : 'MMAU Dataset, Mini version, MMAU: A Massive Multi-Task Audio Understanding and Reasoning Benchmark',
+    'GigaSpeech2-Indo'     : 'GigaSpeech ASR dataset for Indonesian.',
+    'GigaSpeech2-Thai'     : 'GigaSpeech ASR dataset for Thai.',
+    'GigaSpeech2-Viet'     : 'GigaSpeech ASR dataset for Vietnamese.',
+
 
     'CNA'             : 'Under Development',
     'IDPC'            : 'Under Development',
@@ -164,5 +170,6 @@ metrics_info = {
     'meteor'          : 'METEOR Score. The higher, the better.',
     'bleu'            : 'BLEU Score. The higher, the better.',
     'string_match'    : 'From MMAU paper, after model generating the answer, the correctness is determined by string matching algorithm. https://github.com/Sakshi113/MMAU/blob/main/evaluation.py',
+    'gpt4o_judge'    : 'Model-as-a-Judge Peformance. Using GPT4o. Scale from 0-100. The higher, the better. For multiple-choice questions, it reflects accuracy.',
 }
 

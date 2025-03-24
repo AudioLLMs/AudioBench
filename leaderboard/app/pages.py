@@ -176,6 +176,31 @@ def asr_singlish():
             draw_table(tab_section, metric)
 
 
+def asr_sea():
+    st.title("Task: Automatic Speech Recognition - SEA Region")
+
+    sum = ['Overall']
+    dataset_list = [
+                    'GigaSpeech2-Indo', 
+                    'GigaSpeech2-Thai',
+                    'GigaSpeech2-Viet',
+                    ]
+    filters_1_list = sum + dataset_list
+    
+    space1, space2, _, _ = st.columns([0.4, 0.4, 0.2 ,0.2])
+    
+    with space1:
+        tab_section = st.selectbox('Dataset', filters_1_list)
+    with space2:
+        metric = st.selectbox('Metric', ['WER'])
+        metric = metric.lower()
+    
+    if tab_section:
+        if tab_section in sum:
+            sum_table_mulit_metrix(dataset_list, metric)
+        else:
+            dataset_contents(dataset_diaplay_information[tab_section], metrics_info[metric])
+            draw_table(tab_section, metric)
 
 
 def asr_mandarin():
@@ -254,7 +279,7 @@ def speech_question_answering_english():
     with space1:
         tab_section = st.selectbox('Dataset', filters_1_list)
     with space2:
-        metric = st.selectbox('Metric', ['LLAMA3_70B_JUDGE'])
+        metric = st.selectbox('Metric', ['LLAMA3_70B_JUDGE', 'GPT4O_JUDGE'])
         metric = metric.lower()
 
     if tab_section:
@@ -282,7 +307,7 @@ def speech_question_answering_singlish():
     with space1: 
         tab_section = st.selectbox('Dataset', filters_1_list)
     with space2:
-        metric = st.selectbox('Metric', ['LLAMA3_70B_JUDGE'])
+        metric = st.selectbox('Metric', ['LLAMA3_70B_JUDGE', 'GPT4O_JUDGE'])
         metric = metric.lower()
 
     if tab_section:
@@ -310,7 +335,7 @@ def spoken_dialogue_summarization_singlish():
     with space1: 
         tab_section = st.selectbox('Dataset', filters_1_list)
     with space2:
-        metric = st.selectbox('Metric', ['LLAMA3_70B_JUDGE'])
+        metric = st.selectbox('Metric', ['LLAMA3_70B_JUDGE', 'GPT4O_JUDGE'])
         metric = metric.lower()
 
     if tab_section:
@@ -336,7 +361,7 @@ def speech_instruction():
     with space1: 
         tab_section = st.selectbox('Dataset', filters_1_list)
     with space2:
-        metric = st.selectbox('Metric', ['LLAMA3_70B_JUDGE'])
+        metric = st.selectbox('Metric', ['LLAMA3_70B_JUDGE', 'GPT4O_JUDGE'])
         metric = metric.lower()
 
     if tab_section:
@@ -360,7 +385,7 @@ def audio_captioning():
     with space1:
         tab_section = st.selectbox('Dataset', dataset_list)
     with space2:
-        metric = st.selectbox('Metric', ['LLAMA3_70B_JUDGE', 'METEOR'])
+        metric = st.selectbox('Metric', ['LLAMA3_70B_JUDGE', 'GPT4O_JUDGE', 'METEOR'])
         metric = metric.lower()
 
     if tab_section:
@@ -383,7 +408,7 @@ def audio_scene_question_answering():
     with space1: 
         tab_section = st.selectbox('Dataset', filters_1_list)
     with space2:
-        metric = st.selectbox('Metric', ['LLAMA3_70B_JUDGE'])
+        metric = st.selectbox('Metric', ['LLAMA3_70B_JUDGE', 'GPT4O_JUDGE'])
         metric = metric.lower()
 
     if tab_section:
@@ -413,7 +438,7 @@ def accent_recognition():
     with space1: 
         tab_section = st.selectbox('Dataset', filters_1_list)
     with space2:
-        metric = st.selectbox('Metric', ['LLAMA3_70B_JUDGE'])
+        metric = st.selectbox('Metric', ['LLAMA3_70B_JUDGE', 'GPT4O_JUDGE'])
         metric = metric.lower()
 
     if tab_section:
@@ -440,7 +465,7 @@ def gender_recognition():
     with space1: 
         tab_section = st.selectbox('Dataset', filters_1_list)
     with space2:
-        metric = st.selectbox('Metric', ['LLAMA3_70B_JUDGE'])
+        metric = st.selectbox('Metric', ['LLAMA3_70B_JUDGE', 'GPT4O_JUDGE'])
         metric = metric.lower()
 
     if tab_section:
@@ -470,7 +495,7 @@ def emotion_recognition():
     with space1: 
         tab_section = st.selectbox('Dataset', filters_1_list)
     with space2:
-        metric = st.selectbox('Metric', ['LLAMA3_70B_JUDGE'])
+        metric = st.selectbox('Metric', ['LLAMA3_70B_JUDGE', 'GPT4O_JUDGE'])
         metric = metric.lower()
 
     if tab_section:
@@ -498,7 +523,7 @@ def music_understanding():
     with space1: 
         tab_section = st.selectbox('Dataset', filters_1_list)
     with space2:
-        metric = st.selectbox('Metric', ['LLAMA3_70B_JUDGE'])
+        metric = st.selectbox('Metric', ['LLAMA3_70B_JUDGE', 'GPT4O_JUDGE'])
         metric = metric.lower()
 
     if tab_section:
@@ -561,7 +586,7 @@ def under_development():
                 'YTB-SDS-Batch1',
                 'YTB-PQA-Batch1',
                 ]:
-            metric = st.selectbox('Metric', ['LLAMA3_70B_JUDGE'])
+            metric = st.selectbox('Metric', ['LLAMA3_70B_JUDGE', 'GPT4O_JUDGE'])
             metric = metric.lower()
         else:
             raise ValueError('Invalid dataset')
@@ -588,7 +613,7 @@ def mmau_evaluation():
     with space1: 
         tab_section = st.selectbox('Dataset', filters_1_list)
     with space2:
-        metric = st.selectbox('Metric', ['LLAMA3_70B_JUDGE', 'STRING_MATCH'])
+        metric = st.selectbox('Metric', ['LLAMA3_70B_JUDGE', 'STRING_MATCH', 'GPT4O_JUDGE'])
         metric = metric.lower()
 
     if tab_section:

@@ -71,6 +71,9 @@ def draw_table(dataset_displayname, metrics):
                             'YTB-ASR-Batch2',
                             'SEAME-Dev-Man',
                             'SEAME-Dev-Sge',
+                            'GigaSpeech2-Indo',
+                            'GigaSpeech2-Thai',
+                            'GigaSpeech2-Viet',
                             ]:
             
             chart_data_table = chart_data_table.sort_values(

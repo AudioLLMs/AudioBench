@@ -1,6 +1,5 @@
 
 
-export CUDA_VISIBLE_DEVICES=0
 
 # This is required for aspire2a+ cluster
 export no_proxy=localhost,127.0.0.1,10.104.0.0/21
@@ -13,12 +12,17 @@ echo "The path to HF HOME is: $HF_HOME"
 
 
 ##### 
-GPU=1
+GPU=0
 BATCH_SIZE=1
 OVERWRITE=False
 OVERWRITE=True
 NUMBER_OF_SAMPLES=-1
 #####
+
+if [ "$METRICS" == "gpt4o_judge" ]; then
+    NUMBER_OF_SAMPLES=300
+fi
+
 
 DATASET=$1
 MODEL_NAME=$2

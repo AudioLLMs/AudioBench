@@ -11,4 +11,5 @@ python organize_model_results.py
 
 # For test how the website looks like
 # streamlit run app.py
-# python upload2huggingface.py
+
+python upload2huggingface.py

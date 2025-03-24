@@ -21,6 +21,8 @@ import requests
 import tempfile
 import soundfile as sf
 
+import time
+
 
 
 # =  =  =  =  =  =  =  =  =  =  =  Logging Setup  =  =  =  =  =  =  =  =  =  =  =  =  =
@@ -85,19 +87,26 @@ def do_sample_inference(self, audio_array, instruction, sampling_rate=16000):
     # Include speech result if speech is enabled  
     messages = chat_prompt 
 
-    completion = self.client.chat.completions.create(  
-            model             = self.deployment,
-            messages          = messages,
-            max_tokens        = 5000,
-            temperature       = 0.7,
-            top_p             = 0.95,
-            frequency_penalty = 0,
-            presence_penalty  = 0,
-            stop              = None,
-            stream            = False
-        )  
+    try:
 
-    response = completion.choices[0].message.content
+        completion = self.client.chat.completions.create(  
+                model             = self.deployment,
+                messages          = messages,
+                max_tokens        = 5000,
+                temperature       = 0.7,
+                top_p             = 0.95,
+                frequency_penalty = 0,
+                presence_penalty  = 0,
+                stop              = None,
+                stream            = False
+            )  
+
+        response = completion.choices[0].message.content
+
+    except:
+        print("Some error happened to GPT-4o-Audio model, stop the inference.")
+        response = "Dummy model generation."
+        time.sleep(2)
 
     return response
 

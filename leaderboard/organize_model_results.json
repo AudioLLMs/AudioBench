@@ -1,4 +1,157 @@
 {
+    "cn_college_listen_mcq_test": {
+        "llama3_70b_judge": {
+            "gpt-4o-audio": 90.88507265521797,
+            "Qwen-Audio-Chat": 63.232056362835756,
+            "MERaLiON-AudioLLM-Whisper-SEA-LION": 88.50726552179657,
+            "Qwen2-Audio-7B-Instruct": 74.7247908410392,
+            "cascade_whisper_large_v2_gemma2_9b_cpt_sea_lionv3_instruct": 91.85380889476001,
+            "gemini-1.5-flash": 89.25583443416997,
+            "phi_4_multimodal_instruct": 73.18361955085865,
+            "WavLLM_fairseq": 66.31439894319684,
+            "SALMONN_7B": 50.99075297225891,
+            "cascade_whisper_large_v3_llama_3_8b_instruct": 85.2928225451343
+        },
+        "gpt4o_judge": {
+            "MERaLiON-AudioLLM-Whisper-SEA-LION": 88.77146631439894,
+            "Qwen2-Audio-7B-Instruct": 79.0
+        }
+    },
+    "slue_p2_sqa5_test": {
+        "llama3_70b_judge": {
+            "gpt-4o-audio": 89.41176470588235,
+            "Qwen-Audio-Chat": 79.36274509803921,
+            "MERaLiON-AudioLLM-Whisper-SEA-LION": 86.76470588235293,
+            "Qwen2-Audio-7B-Instruct": 80.04901960784315,
+            "cascade_whisper_large_v2_gemma2_9b_cpt_sea_lionv3_instruct": 88.57843137254902,
+            "phi_4_multimodal_instruct": 88.33333333333334,
+            "seallms_audio_7b": 83.52941176470588,
+            "WavLLM_fairseq": 83.92156862745098,
+            "SALMONN_7B": 83.48039215686273,
+            "cascade_whisper_large_v3_llama_3_8b_instruct": 82.99019607843137
+        },
+        "gpt4o_judge": {
+            "MERaLiON-AudioLLM-Whisper-SEA-LION": 88.23529411764707,
+            "Qwen2-Audio-7B-Instruct": 84.86666666666666,
+            "cascade_whisper_large_v3_llama_3_8b_instruct": 87.79411764705883
+        }
+    },
+    "mmau_mini": {
+        "llama3_70b_judge": {
+            "gpt-4o-audio": 40.6,
+            "Qwen-Audio-Chat": 53.6,
+            "MERaLiON-AudioLLM-Whisper-SEA-LION": 64.60000000000001,
+            "Qwen2-Audio-7B-Instruct": 58.9,
+            "cascade_whisper_large_v2_gemma2_9b_cpt_sea_lionv3_instruct": 52.7,
+            "gemini-1.5-flash": 58.199999999999996,
+            "phi_4_multimodal_instruct": 59.4,
+            "seallms_audio_7b": 60.199999999999996,
+            "SALMONN_7B": 48.4,
+            "cascade_whisper_large_v3_llama_3_8b_instruct": 55.60000000000001
+        },
+        "string_match": {
+            "Qwen-Audio-Chat": 38.5,
+            "MERaLiON-AudioLLM-Whisper-SEA-LION": 60.5,
+            "Qwen2-Audio-7B-Instruct": 44.4,
+            "cascade_whisper_large_v2_gemma2_9b_cpt_sea_lionv3_instruct": 46.7,
+            "gemini-1.5-flash": 31.4,
+            "phi_4_multimodal_instruct": 54.50000000000001,
+            "seallms_audio_7b": 51.5,
+            "SALMONN_7B": 40.5,
+            "cascade_whisper_large_v3_llama_3_8b_instruct": 51.0
+        },
+        "gpt4o_judge": {
+            "MERaLiON-AudioLLM-Whisper-SEA-LION": 63.9,
+            "Qwen2-Audio-7B-Instruct": 53.0
+        }
+    },
+    "mmau_mini_music": {
+        "llama3_70b_judge": {
+            "gpt-4o-audio": 0.2904191616766467,
+            "Qwen-Audio-Chat": 0.5958083832335329,
+            "MERaLiON-AudioLLM-Whisper-SEA-LION": 0.6437125748502994,
+            "Qwen2-Audio-7B-Instruct": 0.6017964071856288,
+            "cascade_whisper_large_v2_gemma2_9b_cpt_sea_lionv3_instruct": 0.44011976047904194,
+            "gemini-1.5-flash": 0.5868263473053892,
+            "phi_4_multimodal_instruct": 0.688622754491018,
+            "seallms_audio_7b": 0.6646706586826348,
+            "SALMONN_7B": 0.5598802395209581,
+            "cascade_whisper_large_v3_llama_3_8b_instruct": 0.5359281437125748
+        },
+        "string_match": {
+            "Qwen-Audio-Chat": 0.4311377245508982,
+            "MERaLiON-AudioLLM-Whisper-SEA-LION": 0.6077844311377245,
+            "Qwen2-Audio-7B-Instruct": 0.45808383233532934,
+            "cascade_whisper_large_v2_gemma2_9b_cpt_sea_lionv3_instruct": 0.39520958083832336,
+            "gemini-1.5-flash": 0.2904191616766467,
+            "phi_4_multimodal_instruct": 0.6377245508982036,
+            "seallms_audio_7b": 0.6047904191616766,
+            "SALMONN_7B": 0.4820359281437126,
+            "cascade_whisper_large_v3_llama_3_8b_instruct": 0.5
+        },
+        "gpt4o_judge": {
+            "MERaLiON-AudioLLM-Whisper-SEA-LION": 0.6347305389221557,
+            "Qwen2-Audio-7B-Instruct": 0.5473684210526316
+        }
+    },
+    "mmau_mini_sound": {
+        "llama3_70b_judge": {
+            "gpt-4o-audio": 0.3843843843843844,
+            "Qwen-Audio-Chat": 0.5945945945945946,
+            "MERaLiON-AudioLLM-Whisper-SEA-LION": 0.7027027027027027,
+            "Qwen2-Audio-7B-Instruct": 0.6306306306306306,
+            "cascade_whisper_large_v2_gemma2_9b_cpt_sea_lionv3_instruct": 0.5345345345345346,
+            "gemini-1.5-flash": 0.5885885885885885,
+            "phi_4_multimodal_instruct": 0.6456456456456456,
+            "seallms_audio_7b": 0.6486486486486487,
+            "SALMONN_7B": 0.5105105105105106,
+            "cascade_whisper_large_v3_llama_3_8b_instruct": 0.5105105105105106
+        },
+        "string_match": {
+            "Qwen-Audio-Chat": 0.43543543543543545,
+            "MERaLiON-AudioLLM-Whisper-SEA-LION": 0.6606606606606606,
+            "Qwen2-Audio-7B-Instruct": 0.4744744744744745,
+            "cascade_whisper_large_v2_gemma2_9b_cpt_sea_lionv3_instruct": 0.45045045045045046,
+            "gemini-1.5-flash": 0.3483483483483483,
+            "phi_4_multimodal_instruct": 0.5975975975975976,
+            "seallms_audio_7b": 0.5165165165165165,
+            "SALMONN_7B": 0.4594594594594595,
+            "cascade_whisper_large_v3_llama_3_8b_instruct": 0.46546546546546547
+        },
+        "gpt4o_judge": {
+            "MERaLiON-AudioLLM-Whisper-SEA-LION": 0.6996996996996997,
+            "Qwen2-Audio-7B-Instruct": 0.5980392156862745
+        }
+    },
+    "mmau_mini_speech": {
+        "llama3_70b_judge": {
+            "gpt-4o-audio": 0.5435435435435435,
+            "Qwen-Audio-Chat": 0.4174174174174174,
+            "MERaLiON-AudioLLM-Whisper-SEA-LION": 0.5915915915915916,
+            "Qwen2-Audio-7B-Instruct": 0.5345345345345346,
+            "cascade_whisper_large_v2_gemma2_9b_cpt_sea_lionv3_instruct": 0.6066066066066066,
+            "gemini-1.5-flash": 0.5705705705705706,
+            "phi_4_multimodal_instruct": 0.44744744744744747,
+            "seallms_audio_7b": 0.4924924924924925,
+            "SALMONN_7B": 0.3813813813813814,
+            "cascade_whisper_large_v3_llama_3_8b_instruct": 0.6216216216216216
+        },
+        "string_match": {
+            "Qwen-Audio-Chat": 0.2882882882882883,
+            "MERaLiON-AudioLLM-Whisper-SEA-LION": 0.5465465465465466,
+            "Qwen2-Audio-7B-Instruct": 0.3993993993993994,
+            "cascade_whisper_large_v2_gemma2_9b_cpt_sea_lionv3_instruct": 0.5555555555555556,
+            "gemini-1.5-flash": 0.3033033033033033,
+            "phi_4_multimodal_instruct": 0.3993993993993994,
+            "seallms_audio_7b": 0.42342342342342343,
+            "SALMONN_7B": 0.2732732732732733,
+            "cascade_whisper_large_v3_llama_3_8b_instruct": 0.5645645645645646
+        },
+        "gpt4o_judge": {
+            "MERaLiON-AudioLLM-Whisper-SEA-LION": 0.5825825825825826,
+            "Qwen2-Audio-7B-Instruct": 0.44660194174757284
+        }
+    },
     "voxceleb_accent_test": {
         "llama3_70b_judge": {
             "Qwen-Audio-Chat": 48.05088223225277,
@@ -6,11 +159,14 @@
             "Qwen2-Audio-7B-Instruct": 29.187525646286417,
             "cascade_whisper_large_v2_gemma2_9b_cpt_sea_lionv3_instruct": 24.640951990151827,
             "phi_4_multimodal_instruct": 26.815757078375054,
+            "seallms_audio_7b": 8.658186294624539,
             "WavLLM_fairseq": 39.96717275338531,
             "SALMONN_7B": 34.222404595814524,
             "cascade_whisper_large_v3_llama_3_8b_instruct": 39.32704144439885
         },
         "gpt4o_judge": {
+            "MERaLiON-AudioLLM-Whisper-SEA-LION": 14.813295034878948,
+            "Qwen2-Audio-7B-Instruct": 22.666666666666664,
             "cascade_whisper_large_v3_llama_3_8b_instruct": 39.462453836684446
         }
     },
@@ -51,6 +207,8 @@
             "cascade_whisper_large_v3_llama_3_8b_instruct": 3.445086705202312
         },
         "gpt4o_judge": {
+            "MERaLiON-AudioLLM-Whisper-SEA-LION": 31.641618497109825,
+            "Qwen2-Audio-7B-Instruct": 34.86666666666667,
             "cascade_whisper_large_v3_llama_3_8b_instruct": 4.61271676300578
         }
     },
@@ -81,6 +239,8 @@
             "cascade_whisper_large_v3_llama_3_8b_instruct": 64.0
         },
         "gpt4o_judge": {
+            "MERaLiON-AudioLLM-Whisper-SEA-LION": 71.6,
+            "Qwen2-Audio-7B-Instruct": 56.0,
             "cascade_whisper_large_v3_llama_3_8b_instruct": 67.0
         }
     },
@@ -119,6 +279,10 @@
             "WavLLM_fairseq": 44.3133951137321,
             "SALMONN_7B": 50.88458298230834,
             "cascade_whisper_large_v3_llama_3_8b_instruct": 56.44481887110362
+        },
+        "gpt4o_judge": {
+            "MERaLiON-AudioLLM-Whisper-SEA-LION": 57.87700084245998,
+            "Qwen2-Audio-7B-Instruct": 64.66666666666666
         }
     },
     "imda_30s_sqa_human_test": {
@@ -228,6 +392,8 @@
             "cascade_whisper_large_v3_llama_3_8b_instruct": 63.0
         },
         "gpt4o_judge": {
+            "MERaLiON-AudioLLM-Whisper-SEA-LION": 74.2,
+            "Qwen2-Audio-7B-Instruct": 57.199999999999996,
             "cascade_whisper_large_v3_llama_3_8b_instruct": 75.0
         }
     },
@@ -241,6 +407,10 @@
             "WavLLM_fairseq": 59.76095617529881,
             "SALMONN_7B": 23.804780876494025,
             "cascade_whisper_large_v3_llama_3_8b_instruct": 46.713147410358566
+        },
+        "gpt4o_judge": {
+            "MERaLiON-AudioLLM-Whisper-SEA-LION": 37.45019920318725,
+            "Qwen2-Audio-7B-Instruct": 35.333333333333336
         }
     },
     "public_sg_speech_qa_test": {
@@ -256,6 +426,8 @@
             "cascade_whisper_large_v3_llama_3_8b_instruct": 64.94186046511628
         },
         "gpt4o_judge": {
+            "MERaLiON-AudioLLM-Whisper-SEA-LION": 64.18604651162791,
+            "Qwen2-Audio-7B-Instruct": 62.733333333333334,
             "cascade_whisper_large_v3_llama_3_8b_instruct": 73.02325581395348
         }
     },
@@ -292,11 +464,14 @@
             "Qwen2-Audio-7B-Instruct": 64.86264249672958,
             "cascade_whisper_large_v2_gemma2_9b_cpt_sea_lionv3_instruct": 88.61894972902262,
             "phi_4_multimodal_instruct": 77.58549803774996,
+            "seallms_audio_7b": 67.73313399364605,
             "WavLLM_fairseq": 77.64903756307233,
             "SALMONN_7B": 66.39506634273968,
             "cascade_whisper_large_v3_llama_3_8b_instruct": 83.81984675761541
         },
         "gpt4o_judge": {
+            "MERaLiON-AudioLLM-Whisper-SEA-LION": 74.99159035694262,
+            "Qwen2-Audio-7B-Instruct": 65.6,
             "cascade_whisper_large_v3_llama_3_8b_instruct": 90.12521024107643
         }
     },
@@ -326,6 +501,10 @@
             "WavLLM_fairseq": 51.072796934865906,
             "SALMONN_7B": 41.7624521072797,
             "cascade_whisper_large_v3_llama_3_8b_instruct": 45.593869731800766
+        },
+        "gpt4o_judge": {
+            "MERaLiON-AudioLLM-Whisper-SEA-LION": 47.356321839080465,
+            "Qwen2-Audio-7B-Instruct": 57.666666666666664
         }
     },
     "imda_part4_30s_sqa_human_test": {
@@ -341,6 +520,8 @@
             "cascade_whisper_large_v3_llama_3_8b_instruct": 53.8
         },
         "gpt4o_judge": {
+            "MERaLiON-AudioLLM-Whisper-SEA-LION": 60.0,
+            "Qwen2-Audio-7B-Instruct": 43.4,
             "cascade_whisper_large_v3_llama_3_8b_instruct": 61.4
         }
     },
@@ -354,6 +535,10 @@
             "WavLLM_fairseq": 69.61427985227739,
             "SALMONN_7B": 88.79770209273697,
             "cascade_whisper_large_v3_llama_3_8b_instruct": 42.921624948707425
+        },
+        "gpt4o_judge": {
+            "MERaLiON-AudioLLM-Whisper-SEA-LION": 99.46655724251129,
+            "Qwen2-Audio-7B-Instruct": 99.66666666666667
         }
     },
     "imda_gr_dialogue": {
@@ -367,6 +552,10 @@
             "WavLLM_fairseq": 46.766666666666666,
             "SALMONN_7B": 42.733333333333334,
             "cascade_whisper_large_v3_llama_3_8b_instruct": 25.433333333333337
+        },
+        "gpt4o_judge": {
+            "MERaLiON-AudioLLM-Whisper-SEA-LION": 93.86666666666666,
+            "Qwen2-Audio-7B-Instruct": 61.0
         }
     },
     "imda_30s_ds_human_test": {
@@ -521,6 +710,8 @@
             "cascade_whisper_large_v3_llama_3_8b_instruct": 37.400000000000006
         },
         "gpt4o_judge": {
+            "MERaLiON-AudioLLM-Whisper-SEA-LION": 59.2,
+            "Qwen2-Audio-7B-Instruct": 43.2,
             "cascade_whisper_large_v3_llama_3_8b_instruct": 47.400000000000006
         }
     },
@@ -535,6 +726,10 @@
             "WavLLM_fairseq": 0.23333333333333336,
             "SALMONN_7B": 0.06666666666666667,
             "cascade_whisper_large_v3_llama_3_8b_instruct": 9.666666666666666
+        },
+        "gpt4o_judge": {
+            "MERaLiON-AudioLLM-Whisper-SEA-LION": 77.13333333333333,
+            "Qwen2-Audio-7B-Instruct": 0.33333333333333337
         }
     },
     "iemocap_gender_test": {
@@ -548,6 +743,10 @@
             "WavLLM_fairseq": 51.932270916334666,
             "SALMONN_7B": 81.31474103585658,
             "cascade_whisper_large_v3_llama_3_8b_instruct": 44.22310756972111
+        },
+        "gpt4o_judge": {
+            "MERaLiON-AudioLLM-Whisper-SEA-LION": 98.20717131474103,
+            "Qwen2-Audio-7B-Instruct": 98.33333333333333
         }
     },
     "ytb_asr_batch2": {
@@ -575,19 +774,6 @@
             "cascade_whisper_large_v3_llama_3_8b_instruct": 52.252747252747255
         }
     },
-    "cn_college_listen_mcq_test": {
-        "llama3_70b_judge": {
-            "Qwen-Audio-Chat": 63.232056362835756,
-            "MERaLiON-AudioLLM-Whisper-SEA-LION": 88.50726552179657,
-            "Qwen2-Audio-7B-Instruct": 74.7247908410392,
-            "cascade_whisper_large_v2_gemma2_9b_cpt_sea_lionv3_instruct": 91.85380889476001,
-            "gemini-1.5-flash": 89.25583443416997,
-            "phi_4_multimodal_instruct": 73.18361955085865,
-            "WavLLM_fairseq": 66.31439894319684,
-            "SALMONN_7B": 50.99075297225891,
-            "cascade_whisper_large_v3_llama_3_8b_instruct": 85.2928225451343
-        }
-    },
     "dream_tts_mcq_test": {
         "llama3_70b_judge": {
             "Qwen-Audio-Chat": 59.749085206481965,
@@ -599,6 +785,10 @@
             "WavLLM_fairseq": 66.5446941975954,
             "SALMONN_7B": 56.455828541557764,
             "cascade_whisper_large_v3_llama_3_8b_instruct": 86.4610559330894
+        },
+        "gpt4o_judge": {
+            "MERaLiON-AudioLLM-Whisper-SEA-LION": 84.31782540512285,
+            "Qwen2-Audio-7B-Instruct": 68.66666666666667
         }
     },
     "imda_part5_30s_ds_human_test": {
@@ -614,6 +804,8 @@
             "cascade_whisper_large_v3_llama_3_8b_instruct": 49.0
         },
         "gpt4o_judge": {
+            "MERaLiON-AudioLLM-Whisper-SEA-LION": 64.0,
+            "Qwen2-Audio-7B-Instruct": 50.8,
             "cascade_whisper_large_v3_llama_3_8b_instruct": 56.8
         }
     },
@@ -644,6 +836,8 @@
             "cascade_whisper_large_v3_llama_3_8b_instruct": 49.0
         },
         "gpt4o_judge": {
+            "MERaLiON-AudioLLM-Whisper-SEA-LION": 60.599999999999994,
+            "Qwen2-Audio-7B-Instruct": 50.199999999999996,
             "cascade_whisper_large_v3_llama_3_8b_instruct": 52.800000000000004
         }
     },
@@ -660,6 +854,8 @@
             "cascade_whisper_large_v3_llama_3_8b_instruct": 36.0
         },
         "gpt4o_judge": {
+            "MERaLiON-AudioLLM-Whisper-SEA-LION": 55.199999999999996,
+            "Qwen2-Audio-7B-Instruct": 35.8,
             "cascade_whisper_large_v3_llama_3_8b_instruct": 48.2
         }
     },
@@ -682,6 +878,7 @@
             "Qwen2-Audio-7B-Instruct": 40.77727272727273,
             "cascade_whisper_large_v2_gemma2_9b_cpt_sea_lionv3_instruct": 3.0954545454545457,
             "phi_4_multimodal_instruct": 26.386363636363637,
+            "seallms_audio_7b": 53.20909090909091,
             "WavLLM_fairseq": 5.5,
             "SALMONN_7B": 37.445454545454545,
             "cascade_whisper_large_v3_llama_3_8b_instruct": 2.4727272727272727
@@ -698,6 +895,8 @@
             "cascade_whisper_large_v3_llama_3_8b_instruct": 0.07953048457785493
         },
         "gpt4o_judge": {
+            "MERaLiON-AudioLLM-Whisper-SEA-LION": 39.29545454545455,
+            "Qwen2-Audio-7B-Instruct": 41.53333333333333,
             "cascade_whisper_large_v3_llama_3_8b_instruct": 4.868181818181818
         }
     },
@@ -712,6 +911,10 @@
             "WavLLM_fairseq": 2.6833333333333336,
             "SALMONN_7B": 2.5166666666666666,
             "cascade_whisper_large_v3_llama_3_8b_instruct": 12.416666666666666
+        },
+        "gpt4o_judge": {
+            "MERaLiON-AudioLLM-Whisper-SEA-LION": 10.116666666666667,
+            "Qwen2-Audio-7B-Instruct": 4.666666666666667
         }
     },
     "imda_part6_30s_sqa_test": {
@@ -748,6 +951,7 @@
             "whisper_large_v3": 1.600581653970121,
             "cascade_whisper_large_v2_gemma2_9b_cpt_sea_lionv3_instruct": 27.620150160643625,
             "phi_4_multimodal_instruct": 15.012558278964478,
+            "seallms_audio_7b": 27.583542512329426,
             "WavLLM_fairseq": 13.841886973016162,
             "SALMONN_7B": 14.102682915273142,
             "cascade_whisper_large_v3_llama_3_8b_instruct": 10.930203684508578
@@ -766,6 +970,8 @@
             "cascade_whisper_large_v3_llama_3_8b_instruct": 29.47134606841404
         },
         "gpt4o_judge": {
+            "MERaLiON-AudioLLM-Whisper-SEA-LION": 64.09333981526495,
+            "Qwen2-Audio-7B-Instruct": 56.86666666666667,
             "cascade_whisper_large_v3_llama_3_8b_instruct": 28.076410484229232
         }
     },
@@ -809,6 +1015,8 @@
             "cascade_whisper_large_v3_llama_3_8b_instruct": 70.8
         },
         "gpt4o_judge": {
+            "MERaLiON-AudioLLM-Whisper-SEA-LION": 78.60000000000001,
+            "Qwen2-Audio-7B-Instruct": 61.6,
             "cascade_whisper_large_v3_llama_3_8b_instruct": 77.8
         }
     },
@@ -848,6 +1056,8 @@
             "cascade_whisper_large_v3_llama_3_8b_instruct": 17.380191693290733
         },
         "gpt4o_judge": {
+            "MERaLiON-AudioLLM-Whisper-SEA-LION": 50.60702875399361,
+            "Qwen2-Audio-7B-Instruct": 50.599999999999994,
             "cascade_whisper_large_v3_llama_3_8b_instruct": 14.63258785942492
         }
     },
@@ -886,6 +1096,7 @@
             "whisper_large_v3": 0.02107778621423822,
             "cascade_whisper_large_v2_gemma2_9b_cpt_sea_lionv3_instruct": 8.433062902024755,
             "phi_4_multimodal_instruct": 0.19835914151649442,
+            "seallms_audio_7b": 0.012334972259958572,
             "WavLLM_fairseq": 0.0033159224040994286,
             "SALMONN_7B": 0.00046745670226766583,
             "cascade_whisper_large_v3_llama_3_8b_instruct": 1.0368044741318085
@@ -904,6 +1115,8 @@
             "cascade_whisper_large_v3_llama_3_8b_instruct": 16.710526315789473
         },
         "gpt4o_judge": {
+            "MERaLiON-AudioLLM-Whisper-SEA-LION": 46.31578947368421,
+            "Qwen2-Audio-7B-Instruct": 48.2,
             "cascade_whisper_large_v3_llama_3_8b_instruct": 14.736842105263158
         }
     },
@@ -927,105 +1140,10 @@
             "whisper_large_v3": 0.16408986541757878,
             "cascade_whisper_large_v2_gemma2_9b_cpt_sea_lionv3_instruct": 35.274306071307024,
             "phi_4_multimodal_instruct": 45.295964957544776,
+            "seallms_audio_7b": 36.4496678966979,
             "WavLLM_fairseq": 31.96381187282953,
             "SALMONN_7B": 33.88941292215531,
             "cascade_whisper_large_v3_llama_3_8b_instruct": 5.987143868370054
-        }
-    },
-    "mmau_mini": {
-        "string_match": {
-            "Qwen-Audio-Chat": 38.5,
-            "MERaLiON-AudioLLM-Whisper-SEA-LION": 60.5,
-            "Qwen2-Audio-7B-Instruct": 44.4,
-            "cascade_whisper_large_v2_gemma2_9b_cpt_sea_lionv3_instruct": 46.7,
-            "gemini-1.5-flash": 31.4,
-            "phi_4_multimodal_instruct": 54.50000000000001,
-            "seallms_audio_7b": 51.5,
-            "SALMONN_7B": 40.5,
-            "cascade_whisper_large_v3_llama_3_8b_instruct": 51.0
-        },
-        "llama3_70b_judge": {
-            "Qwen-Audio-Chat": 53.6,
-            "MERaLiON-AudioLLM-Whisper-SEA-LION": 64.60000000000001,
-            "Qwen2-Audio-7B-Instruct": 58.9,
-            "cascade_whisper_large_v2_gemma2_9b_cpt_sea_lionv3_instruct": 52.7,
-            "gemini-1.5-flash": 58.199999999999996,
-            "phi_4_multimodal_instruct": 59.4,
-            "seallms_audio_7b": 60.199999999999996,
-            "SALMONN_7B": 48.4,
-            "cascade_whisper_large_v3_llama_3_8b_instruct": 55.60000000000001
-        }
-    },
-    "mmau_mini_music": {
-        "string_match": {
-            "Qwen-Audio-Chat": 0.4311377245508982,
-            "MERaLiON-AudioLLM-Whisper-SEA-LION": 0.6077844311377245,
-            "Qwen2-Audio-7B-Instruct": 0.45808383233532934,
-            "cascade_whisper_large_v2_gemma2_9b_cpt_sea_lionv3_instruct": 0.39520958083832336,
-            "gemini-1.5-flash": 0.2904191616766467,
-            "phi_4_multimodal_instruct": 0.6377245508982036,
-            "seallms_audio_7b": 0.6047904191616766,
-            "SALMONN_7B": 0.4820359281437126,
-            "cascade_whisper_large_v3_llama_3_8b_instruct": 0.5
-        },
-        "llama3_70b_judge": {
-            "Qwen-Audio-Chat": 0.5958083832335329,
-            "MERaLiON-AudioLLM-Whisper-SEA-LION": 0.6437125748502994,
-            "Qwen2-Audio-7B-Instruct": 0.6017964071856288,
-            "cascade_whisper_large_v2_gemma2_9b_cpt_sea_lionv3_instruct": 0.44011976047904194,
-            "gemini-1.5-flash": 0.5868263473053892,
-            "phi_4_multimodal_instruct": 0.688622754491018,
-            "seallms_audio_7b": 0.6646706586826348,
-            "SALMONN_7B": 0.5598802395209581,
-            "cascade_whisper_large_v3_llama_3_8b_instruct": 0.5359281437125748
-        }
-    },
-    "mmau_mini_sound": {
-        "string_match": {
-            "Qwen-Audio-Chat": 0.43543543543543545,
-            "MERaLiON-AudioLLM-Whisper-SEA-LION": 0.6606606606606606,
-            "Qwen2-Audio-7B-Instruct": 0.4744744744744745,
-            "cascade_whisper_large_v2_gemma2_9b_cpt_sea_lionv3_instruct": 0.45045045045045046,
-            "gemini-1.5-flash": 0.3483483483483483,
-            "phi_4_multimodal_instruct": 0.5975975975975976,
-            "seallms_audio_7b": 0.5165165165165165,
-            "SALMONN_7B": 0.4594594594594595,
-            "cascade_whisper_large_v3_llama_3_8b_instruct": 0.46546546546546547
-        },
-        "llama3_70b_judge": {
-            "Qwen-Audio-Chat": 0.5945945945945946,
-            "MERaLiON-AudioLLM-Whisper-SEA-LION": 0.7027027027027027,
-            "Qwen2-Audio-7B-Instruct": 0.6306306306306306,
-            "cascade_whisper_large_v2_gemma2_9b_cpt_sea_lionv3_instruct": 0.5345345345345346,
-            "gemini-1.5-flash": 0.5885885885885885,
-            "phi_4_multimodal_instruct": 0.6456456456456456,
-            "seallms_audio_7b": 0.6486486486486487,
-            "SALMONN_7B": 0.5105105105105106,
-            "cascade_whisper_large_v3_llama_3_8b_instruct": 0.5105105105105106
-        }
-    },
-    "mmau_mini_speech": {
-        "string_match": {
-            "Qwen-Audio-Chat": 0.2882882882882883,
-            "MERaLiON-AudioLLM-Whisper-SEA-LION": 0.5465465465465466,
-            "Qwen2-Audio-7B-Instruct": 0.3993993993993994,
-            "cascade_whisper_large_v2_gemma2_9b_cpt_sea_lionv3_instruct": 0.5555555555555556,
-            "gemini-1.5-flash": 0.3033033033033033,
-            "phi_4_multimodal_instruct": 0.3993993993993994,
-            "seallms_audio_7b": 0.42342342342342343,
-            "SALMONN_7B": 0.2732732732732733,
-            "cascade_whisper_large_v3_llama_3_8b_instruct": 0.5645645645645646
-        },
-        "llama3_70b_judge": {
-            "Qwen-Audio-Chat": 0.4174174174174174,
-            "MERaLiON-AudioLLM-Whisper-SEA-LION": 0.5915915915915916,
-            "Qwen2-Audio-7B-Instruct": 0.5345345345345346,
-            "cascade_whisper_large_v2_gemma2_9b_cpt_sea_lionv3_instruct": 0.6066066066066066,
-            "gemini-1.5-flash": 0.5705705705705706,
-            "phi_4_multimodal_instruct": 0.44744744744744747,
-            "seallms_audio_7b": 0.4924924924924925,
-            "SALMONN_7B": 0.3813813813813814,
-            "cascade_whisper_large_v3_llama_3_8b_instruct": 0.6216216216216216
         }
     },
     "imda_part5_30s_sqa_test": {
@@ -1051,22 +1169,10 @@
             "WavLLM_fairseq": 49.06666666666666,
             "SALMONN_7B": 59.766666666666666,
             "cascade_whisper_large_v3_llama_3_8b_instruct": 36.016666666666666
-        }
-    },
-    "slue_p2_sqa5_test": {
-        "llama3_70b_judge": {
-            "Qwen-Audio-Chat": 79.36274509803921,
-            "MERaLiON-AudioLLM-Whisper-SEA-LION": 86.76470588235293,
-            "Qwen2-Audio-7B-Instruct": 80.04901960784315,
-            "cascade_whisper_large_v2_gemma2_9b_cpt_sea_lionv3_instruct": 88.57843137254902,
-            "phi_4_multimodal_instruct": 88.33333333333334,
-            "seallms_audio_7b": 83.52941176470588,
-            "WavLLM_fairseq": 83.92156862745098,
-            "SALMONN_7B": 83.48039215686273,
-            "cascade_whisper_large_v3_llama_3_8b_instruct": 82.99019607843137
         },
         "gpt4o_judge": {
-            "cascade_whisper_large_v3_llama_3_8b_instruct": 87.79411764705883
+            "MERaLiON-AudioLLM-Whisper-SEA-LION": 66.9,
+            "Qwen2-Audio-7B-Instruct": 66.33333333333333
         }
     },
     "tedlium3_long_form_test": {
@@ -1094,6 +1200,10 @@
             "WavLLM_fairseq": 41.57088122605364,
             "SALMONN_7B": 30.536398467432953,
             "cascade_whisper_large_v3_llama_3_8b_instruct": 36.81992337164751
+        },
+        "gpt4o_judge": {
+            "MERaLiON-AudioLLM-Whisper-SEA-LION": 36.206896551724135,
+            "Qwen2-Audio-7B-Instruct": 39.0
         }
     },
     "tedlium3_test": {
@@ -1150,6 +1260,8 @@
             "cascade_whisper_large_v3_llama_3_8b_instruct": 57.800000000000004
         },
         "gpt4o_judge": {
+            "MERaLiON-AudioLLM-Whisper-SEA-LION": 66.8,
+            "Qwen2-Audio-7B-Instruct": 58.0,
             "cascade_whisper_large_v3_llama_3_8b_instruct": 64.80000000000001
         }
     },
@@ -1166,6 +1278,8 @@
             "cascade_whisper_large_v3_llama_3_8b_instruct": 57.199999999999996
         },
         "gpt4o_judge": {
+            "MERaLiON-AudioLLM-Whisper-SEA-LION": 70.0,
+            "Qwen2-Audio-7B-Instruct": 51.4,
             "cascade_whisper_large_v3_llama_3_8b_instruct": 64.4
         }
     },
@@ -1216,6 +1330,25 @@
         },
         "gpt4o_judge": {
             "cascade_whisper_large_v3_llama_3_8b_instruct": 63.68000000000001
+        }
+    },
+    "gigaspeech2_viet": {
+        "wer": {
+            "MERaLiON-AudioLLM-Whisper-SEA-LION": 0.4960741822016732,
+            "Qwen2-Audio-7B-Instruct": 1.5011671350211242
+        }
+    },
+    "gigaspeech2_thai": {
+        "wer": {
+            "MERaLiON-AudioLLM-Whisper-SEA-LION": 0.8901628256099774,
+            "Qwen2-Audio-7B-Instruct": 1.2449725324578913,
+            "seallms_audio_7b": 0.3332398502070376
+        }
+    },
+    "gigaspeech2_indo": {
+        "wer": {
+            "MERaLiON-AudioLLM-Whisper-SEA-LION": 0.5087211232500294,
+            "Qwen2-Audio-7B-Instruct": 0.8956121130400584
         }
     },
     "imda_30s_ar_test": {

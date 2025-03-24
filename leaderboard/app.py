@@ -20,6 +20,7 @@ pages = {
     'ASR-English'          : asr_english,
     'ASR-Mandarin'         : asr_mandarin,
     'ASR-Singlish'         : asr_singlish,
+    'ASR-SEA'              : asr_sea,
     'Speech Translation'   : speech_translation,
     'SQA-English'          : speech_question_answering_english,
     'SQA-Singlish'         : speech_question_answering_singlish,
@@ -49,6 +50,7 @@ menu_items = [
                      sac.MenuItem(label='ASR-English', icon='mic'),
                      sac.MenuItem(label='ASR-Mandarin', icon='mic'),
                      sac.MenuItem(label='ASR-Singlish', icon='mic'),
+                     sac.MenuItem(label='ASR-SEA', icon='mic'),
                  ]
                  ),
 
