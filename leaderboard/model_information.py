@@ -56,6 +56,11 @@ data['Original Name'].append('seallms_audio_7b')
 data['Proper Display Name'].append('SeaLLMs-Audio-7B')
 data['Link'].append('https://huggingface.co/SeaLLMs/SeaLLMs-Audio-7B')
 
+data['Original Name'].append('Marco-LLM-ST')
+data['Proper Display Name'].append('Marco-LLM-ST')
+data['Link'].append('https://arxiv.org/abs/2412.04003')
+
+
 
 def get_dataframe():
     """

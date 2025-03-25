@@ -95,5 +95,8 @@ class covost2_id_en_test_dataset(object):
             references.append(answer)
 
         sacrebleu = evaluate.load("sacrebleu")
-        results = sacrebleu.compute(predictions=predictions, references=references, tokenize='13a')
+        # Updated to flores101 tokenizer (Thanks Chenyang Lv)
+        # results = sacrebleu.compute(predictions=predictions, references=references, tokenize='13a')
+        results = sacrebleu.compute(predictions=predictions, references=references, tokenize='flores101')
+
         return {"bleu": results['score']}
