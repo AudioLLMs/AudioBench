@@ -252,6 +252,10 @@ class Dataset(object):
         elif self.dataset_name == 'mediacorp_short_test': 
             self.raw_data = load_from_disk("data/3_private_data/mediacorp_short_ASR_v1")
         
+        elif self.dataset_name == 'audiollm_instructionfollowing':
+            self.raw_data = load_dataset("YichenG170/AudioLLMInstructionFollowing")
+
+
         else:
             raise NotImplementedError("Dataset {} not implemented yet".format(self.dataset_name))
 
@@ -559,6 +563,10 @@ class Dataset(object):
         elif self.dataset_name == 'mediacorp_short_test': 
             from dataset_src.mediacorp_short_test import mediacorp_short_test_dataset
             self.dataset_processor = mediacorp_short_test_dataset(self.raw_data, self.number_of_samples)
+
+        elif self.dataset_name == 'audiollm_instructionfollowing':
+            from dataset_src.audiollm_instruction_following_dataset import audiollm_instruction_following_dataset
+            self.dataset_processor = audiollm_instruction_following_dataset(self.raw_data, self.number_of_samples)
 
         else:
             raise NotImplementedError("Dataset {} not implemented yet".format(self.dataset_name))
