@@ -66,6 +66,10 @@
 - [x] [spoken_squad_test](./examples/supported_datasets.md), Speech Question Answering, Metric: `llama3_70b_judge`, `gpt4o_judge`
 - [x] [openhermes_audio_test](./examples/supported_datasets.md), Speech Instruction, Metric: `llama3_70b_judge`, `gpt4o_judge`
 - [x] [alpaca_audio_test](./examples/supported_datasets.md), Speech Instruction, Metric: `llama3_70b_judge`, `gpt4o_judge`
+- [x] [spoken-mqa_short_digit](./examples/supported_datasets.md), Speech Instruction, Metric: `acc`
+- [x] [spoken-mqa_long_digit](./examples/supported_datasets.md), Speech Instruction, Metric: `acc`
+- [x] [spoken-mqa_single_step_reasoning](./examples/supported_datasets.md), Speech Instruction, Metric: `acc`
+- [x] [spoken-mqa_multi_step_reasoning](./examples/supported_datasets.md), Speech Instruction, Metric: `acc`
 - [x] [clotho_aqa_test](./examples/supported_datasets.md), Speech Question Answering, Metric: `llama3_70b_judge`, `gpt4o_judge`
 - [x] [wavcaps_qa_test](./examples/supported_datasets.md), Audio Scene Question Answering, Metric: `llama3_70b_judge`, `gpt4o_judge`
 - [x] [audiocaps_qa_test](./examples/supported_datasets.md), Audio Scene Question Answering, Metric: `llama3_70b_judge`, `gpt4o_judge`

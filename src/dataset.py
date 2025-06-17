@@ -209,6 +209,18 @@ class Dataset(object):
         elif self.dataset_name == 'gigaspeech2_viet':
             self.raw_data = load_dataset("AudioLLMs/gigaspeech2-test", data_dir='vi-test')['train']
 
+        elif self.dataset_name == 'spoken-mqa_short_digit':
+            self.raw_data = load_dataset('amao0o0/spoken-mqa')['short_digit']
+
+        elif self.dataset_name == 'spoken-mqa_long_digit':
+            self.raw_data = load_dataset('amao0o0/spoken-mqa')['long_digit']
+
+        elif self.dataset_name == 'spoken-mqa_single_step_reasoning':
+            self.raw_data = load_dataset('amao0o0/spoken-mqa')['single_step_reasoning']
+
+        elif self.dataset_name == 'spoken-mqa_multi_step_reasoning':
+            self.raw_data = load_dataset('amao0o0/spoken-mqa')['multi_step_reasoning']
+
         # Private
         elif self.dataset_name == 'ytb_asr_batch1':
             self.raw_data = load_from_disk("data/3_private_data/ytb_asr_batch1")
@@ -497,6 +509,22 @@ class Dataset(object):
         elif self.dataset_name == 'gigaspeech2_viet':
             from dataset_src.gigaspeech2_viet import gigaspeech2_viet_test_dataset
             self.dataset_processor = gigaspeech2_viet_test_dataset(self.raw_data, self.number_of_samples)
+
+        elif self.dataset_name == 'spoken-mqa_short_digit':
+            from dataset_src.spoken_mqa import spokenmqa_dataset_arithmatic
+            self.dataset_processor = spokenmqa_dataset_arithmatic(self.raw_data, self.number_of_samples)
+
+        elif self.dataset_name == 'spoken-mqa_long_digit':
+            from dataset_src.spoken_mqa import spokenmqa_dataset_arithmatic
+            self.dataset_processor = spokenmqa_dataset_arithmatic(self.raw_data, self.number_of_samples)
+
+        elif self.dataset_name == 'spoken-mqa_single_step_reasoning':
+            from dataset_src.spoken_mqa import spokenmqa_dataset_reasoning
+            self.dataset_processor = spokenmqa_dataset_reasoning(self.raw_data, self.number_of_samples)
+
+        elif self.dataset_name == 'spoken-mqa_multi_step_reasoning':
+            from dataset_src.spoken_mqa import spokenmqa_dataset_reasoning
+            self.dataset_processor = spokenmqa_dataset_reasoning(self.raw_data, self.number_of_samples)
 
 
         # Private
