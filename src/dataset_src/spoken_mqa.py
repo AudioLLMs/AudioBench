@@ -166,14 +166,15 @@ class spokenmqa_dataset_reasoning(object):
                 model_prediction = utils.answer_clean('gsm8k', get_seperation_trigger('gsm8k'), item["model_prediction"])
 
             # answer
-            # gsm8k
-            if "####" in item["answer"]:
-                item["answer"] = utils.delete_extra_zero(item["answer"].split("#### ")[-1].replace(",", "")) 
-            # svamp
-            answer = utils.delete_extra_zero(item["answer"])
+            answer = []
+            for ans in item["answer"]:
+                if "####" in ans:
+                    ans = utils.delete_extra_zero(ans.split("#### ")[-1].replace(",", ""))
+                ans = utils.delete_extra_zero(ans)
+                answer.append(ans)
 
             if not model_prediction: model_prediction = "empty"
-            if not answer: answer = "empty"
+            if len(answer) == 0: answer = "empty"
 
             predictions.append(model_prediction)
             references.append(answer)
