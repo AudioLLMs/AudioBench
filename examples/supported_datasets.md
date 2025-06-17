@@ -142,7 +142,17 @@ METRIC=llama3_70b_judge
 DATASET=alpaca_audio_test
 METRIC=llama3_70b_judge
 
+DATASET=spoken-mqa_short_digit
+METRIC=acc
 
+DATASET=spoken-mqa_long_digit
+METRIC=acc
+
+DATASET=spoken-mqa_single_step_reasoning
+METRIC=acc
+
+DATASET=spoken-mqa_multi_step_reasoning
+METRIC=acc
 
 
 # == == == == == Audio Scene Question Answering == == == == ==
