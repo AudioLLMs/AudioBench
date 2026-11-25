@@ -25,6 +25,9 @@ MODEL_NAME=MERaLiON-AudioLLM-Whisper-SEA-LION
 MODEL_NAME=whisper_large_v3
 MODEL_NAME=whisper_large_v2
 
+# Oruk Fourier 2B (English ASR, CC BY-NC 4.0, requires transformers>=5.24.0): https://huggingface.co/oruk/oruk-fourier-2b
+MODEL_NAME=oruk_fourier_2b
+
 # Google Gemini
 export GOOGLE_API_KEY=AIzxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 MODEL_NAME=gemini-1.5-flash
