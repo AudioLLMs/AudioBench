@@ -40,6 +40,7 @@ MODEL_REGISTRY = {
     "gpt-4o-audio":                                             "gpt_4o_audio",
     "phi_4_multimodal_instruct":                                "phi_4_multimodal_instruct",
     "seallms_audio_7b":                                         "seallms_audio_7b",
+    "oruk_fourier_2b":                                          "oruk_fourier_2b",
 }
 
 
